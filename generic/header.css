@@ -1,0 +1,12 @@
+header {
+  background-color: blue;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  inset: 0;
+}
+
+body {
+  height: 2000px;
+  margin: 0;
+}
