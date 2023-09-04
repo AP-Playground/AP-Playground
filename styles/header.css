@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #45818e;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  height: 100%;
+}
+
+.header-left a {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+.header-left a:hover:not(:has(img)) {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.header-logo {
+  height: 50px;
+}
