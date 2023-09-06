@@ -12,7 +12,7 @@ function updateSearchResults() {
 
   searchResults.forEach(result => {
     result.classList.remove("last");
-    if (result.textContent.toLowerCase().includes(typedVal.toLowerCase().trim())) {
+    if (result.textContent.replace(" - Unavailable", "").toLowerCase().includes(typedVal.toLowerCase().trim())) {
       result.classList.remove("hidden");
       lastFound = result
     } else result.classList.add("hidden");
