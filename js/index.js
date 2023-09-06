@@ -1,5 +1,6 @@
-const searchResults = document.querySelectorAll(".search-results a");
-const searchBar = document.querySelector("main input");
+const searchResults = document.querySelectorAll(".search-results a:not(:last-child)");
+const lastChild = document.querySelector(".search-results a:last-child");
+const searchBar = document.querySelector(".search input");
 
 updateSearchResults()
 
@@ -7,15 +8,18 @@ searchBar.addEventListener("keyup", updateSearchResults)
 
 function updateSearchResults() {
   const typedVal = searchBar.value;
-  let amountSorted = 0;
+  let lastFound = undefined;
+
   searchResults.forEach(result => {
+    result.classList.remove("last");
     if (result.textContent.toLowerCase().includes(typedVal.toLowerCase().trim())) {
-      amountSorted++;
-      if (amountSorted < 9) {
-        result.classList.remove("hidden");
-      } else {
-        result.classList.add("hidden");
-      }
+      result.classList.remove("hidden");
+      lastFound = result
     } else result.classList.add("hidden");
   })
+  
+  if (lastFound) {
+    lastFound.classList.add("last");
+    lastChild.classList.add("hidden");
+  } else lastChild.classList.remove("hidden");
 }
