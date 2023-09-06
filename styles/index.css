@@ -8,7 +8,7 @@ body {
 
 main {
   background-color: white;
-  background: repeating-linear-gradient(30deg, #eee 0px,  white 30px, #eee 60px);
+  background: repeating-linear-gradient(30deg, #eee 0px,  white 35px, #eee 70px);
   position: absolute;
   top: 70px;
   bottom: 10px;
@@ -58,11 +58,13 @@ main h2 {
   border-radius: 20px;
   max-height: 250px;
   overflow-y: scroll;
+  visibility: hidden;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 0.5s, visibility 0.5s;
 }
 
 .search:focus-within .search-results {
+  visibility: visible;
   opacity: 1;
 }
 
@@ -92,6 +94,10 @@ main h2 {
 
 .search-results a.unavailable {
   color: gray
+}
+
+.search-results a:hover:not(.unavailable) {
+  text-decoration: underline;
 }
 
 .search-results a.hidden {
