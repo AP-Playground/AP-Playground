@@ -35,7 +35,7 @@ main h2 {
 }
 
 .search {
-  min-height: 304.5px;
+  min-height: 308.5px;
 }
 
 .search input {
@@ -52,14 +52,14 @@ main h2 {
 
 .search-results {
   background-color: gainsboro;
-  width: 480px;
+  width: calc(min(500px, 80vw) - 20px);
   list-style-type: none;
   border: 1px solid black;
-  padding: 10px;
+  padding: min(10px, 2vw);
   padding-top: 0;
   padding-bottom: 0px;
-  margin-left: 10px;
-  border-radius: 16px;
+  margin-left: min(10px, 2vw);
+  border-radius: min(16px, 3vw);
   max-height: 250px;
   overflow-y: scroll;
   visibility: hidden;
@@ -73,8 +73,8 @@ main h2 {
 }
 
 .search-results::-webkit-scrollbar {
-  width: 32px;
-  border-radius: 16px;
+  width: min(32px, 6vw);
+  border-radius: min(16px, 3vw);
   background-color: gainsboro;
   border: 1px solid gray;
 }
@@ -89,8 +89,9 @@ main h2 {
 }
 
 .search-results a {
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: min(10px, 2vw);
+  padding-top: min(10px, 2vw);
+  font-size: min(16px, 4vw);
   display: block;
   color: black;
   text-decoration: none;
