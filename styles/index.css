@@ -62,14 +62,11 @@ main h2 {
   border-radius: min(16px, 3vw);
   max-height: 250px;
   overflow-y: scroll;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.5s, visibility 0.5s;
+  display: none;
 }
 
 .search:focus-within .search-results {
-  visibility: visible;
-  opacity: 1;
+  display: block;
 }
 
 .search-results::-webkit-scrollbar {

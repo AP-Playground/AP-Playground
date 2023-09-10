@@ -9,15 +9,10 @@ body {
   top: 0;
   inset: 0;
   display: flex;
-  justify-content: space-between;
+  z-index: 100;
 }
 
-.header-pc .header-left {
-  display: flex;
-  height: 100%;
-}
-
-.header-pc .header-left a {
+.header-pc a {
   display: flex;
   align-items: center;
   padding-left: 15px;
@@ -28,7 +23,7 @@ body {
   font-size: 20px;
   cursor: pointer;
 }
-.header-pc .header-left a:hover:not(:has(img)) {
+.header-pc a:hover:not(:has(img)) {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -40,23 +35,42 @@ body {
   position: fixed;
   top: 0;
   inset: 0;
+  z-index: 100;
+  height: fit-content;
 }
 
-.header-mobile .top {
+.header-top {
   display: flex;
-  justify-content: space-between;
   background-color: #45818e;
   height: 60px;
   align-items: center;
-  justify-content: left;
 }
 
-.header-mobile .top .expand {
+.header-expand {
   width: 60px;
   height: 60px;
   border: none;
   background-color: transparent;
   margin-right: 5px;
+}
+
+.header-items a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #45818e;
+  border-top: 2px solid black;
+}
+
+.header-items a:last-child {
+  border-bottom: 1px solid black;
+}
+
+.header-items.hidden {
+  display: none;
 }
 
 @media (max-width: 500px) {
