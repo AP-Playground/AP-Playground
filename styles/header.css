@@ -20,7 +20,7 @@ body {
   text-decoration: none;
   color: white;
   font-family: Kalam;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
   line-height: 63px;
 }
@@ -66,8 +66,8 @@ body {
   text-decoration: none;
   color: white;
   font-family: Kalam;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 22px;
+  padding: 12px 10px 8px;
   background-color: #45818e;
   border-top: 2px solid black;
 }
