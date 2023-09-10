@@ -15,18 +15,23 @@ body {
 }
 
 .header-pc a {
-  display: flex;
-  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
   text-decoration: none;
   color: white;
-  font-family: Roboto;
+  font-family: Kalam;
   font-size: 20px;
   cursor: pointer;
+  line-height: 63px;
 }
-.header-pc a:hover:not(:has(img)) {
+
+.header-pc a:hover:not(:first-child) {
   background-color: rgba(0, 0, 0, 0.15);
+}
+
+.header-pc a:first-child {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -60,7 +65,7 @@ body {
   display: block;
   text-decoration: none;
   color: white;
-  font-family: sans-serif;
+  font-family: Kalam;
   font-size: 20px;
   padding: 10px;
   background-color: #45818e;

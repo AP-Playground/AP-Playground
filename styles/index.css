@@ -4,7 +4,7 @@ body {
 
 main {
   background-color: white;
-  background: repeating-linear-gradient(30deg, #eee 0px,  white 35px, #eee 70px);
+  background: repeating-linear-gradient(30deg, #f4f4f4 0px,  white 35px, #f4f4f4 70px);
   position: absolute;
   top: 70px;
   bottom: 10px;
