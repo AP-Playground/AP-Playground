@@ -1,14 +1,14 @@
-const openMenuBtn = document.querySelector(".header-expand");
-const menuItems = document.querySelector(".header-items")
-let menuOpen = false;
+const openHeaderBtn = document.querySelector(".header-expand");
+const headerItems = document.querySelector(".header-items")
+let headerOpen = false;
 
-openMenuBtn.addEventListener("click", () => {
-  menuOpen = !menuOpen;
-  if (menuOpen) {
-    openMenuBtn.innerHTML = '<img src="/shrink.svg">';
-    menuItems.classList.remove("hidden");
+openHeaderBtn.addEventListener("click", () => {
+  headerOpen = !headerOpen;
+  if (headerOpen) {
+    openHeaderBtn.innerHTML = '<img src="/shrink.svg">';
+    headerItems.classList.remove("hidden");
   } else {
-    openMenuBtn.innerHTML = '<img src="/expand.svg">';
-    menuItems.classList.add("hidden");
+    openHeaderBtn.innerHTML = '<img src="/expand.svg">';
+    headerItems.classList.add("hidden");
   }
 })
