@@ -7,6 +7,7 @@ main {
   background: repeating-linear-gradient(30deg, #f4f4f4 0px,  white 35px, #f4f4f4 70px);
   position: absolute;
   top: 70px;
+  border-radius: 15px;
   bottom: 10px;
   left: 10px;
   right: 10px;
