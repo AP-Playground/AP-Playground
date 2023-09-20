@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | AP-Study</title>
+  <link href="/styles/header.css" rel="stylesheet">
+  <link href="/styles/dropdown.css" rel="stylesheet">
+  <link href="/styles/classes.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header-pc">
+    <a href="/" title="Home">
+      <img src="/Logo.svg" class="header-logo">
+    </a>
+    <a href="/classes.html">Classes</a>
+    <a href="/about.html">About</a>
+    <a href="/resources.html">Resources</a>
+  </header>
+  <header class="header-mobile">
+    <div class="header-top">
+      <button class="header-expand">
+        <img src="/expand.svg">
+      </button>
+      <img src="/Logo.svg" class="header-logo">
+    </div>
+    <div class="header-items hidden">
+      <a href="/">Home</a>
+      <a href="/classes.html">Classes</a>
+      <a href="/about.html">About</a>
+      <a href="/resources.html">Resources</a>
+    </div>
+    <script src="/js/header.js"></script>
+  </header>
+  <main>
+    <nav class="dropdown">
+      <div class="dropdown-header">
+        <button class="dropdown-button">⯈</button>
+        <h1>AP Biology</h1>
+      </div>
+      <div class="dropdown-contents">
+        <div class="dropdown-item">
+          <a href="/ap-biology/course-overview.html">AP Bio Course Overview</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nam cupiditate aut autem maxime amet error doloremque aperiam inventore libero blanditiis ducimus, pariatur quidem illum recusandae, praesentium tempora hic porro!</p>
+        </div>
+        <div class="dropdown-item">
+          <a>Unit 0: Overview of Biology</a>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur minus eius voluptate. Aspernatur ipsam vero officiis, optio mollitia sed soluta earum, in asperiores nemo odio repellendus fuga voluptatibus vel cum?</p>
+        </div>
+        <div class="dropdown-item">
+          <a>Unit 1: Chemistry of Life</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa, dolores quis ipsam, inventore amet iste animi sequi voluptatum eligendi vitae, facere ad. Est facere dicta adipisci fugit fuga itaque.</p>
+        </div>
+      </div>
+    </nav>
+    <script src="/js/dropdown.js"></script>
+  </main>
+</body>
+
+</html>
