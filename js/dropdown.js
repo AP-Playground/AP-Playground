@@ -1,13 +1,13 @@
-const dropdownButtons = document.getElementsByClassName("dropdown-button");
+const dropdownHeaders = document.getElementsByClassName("dropdown-header");
 
-for (i = 0; i < dropdownButtons.length; i++) {
-  dropdownButtons[i].addEventListener("click", (e) => {
-    const btn = e.currentTarget;
-    btn.classList.toggle("open");
-    if (btn.classList.contains("open")) {
-      btn.textContent = "⯆"
+for (i = 0; i < dropdownHeaders.length; i++) {
+  dropdownHeaders[i].addEventListener("click", (e) => {
+    const header = e.currentTarget;
+    header.classList.toggle("open");
+    if (header.classList.contains("open")) {
+      header.textContent = header.textContent.replace("⯈","⯆");
     } else {
-      btn.textContent = "⯈"
+      header.textContent = header.textContent.replace("⯆","⯈");
     }
   })
 }
