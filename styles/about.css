@@ -5,14 +5,14 @@ body {
 
 main {
   background-color: white;
-  margin-top: 70px;
+  margin-top: 10px;
   border-radius: 15px;
   margin-left: 10px;
   margin-right: 10px;
   padding: 30px min(200px, 8vw);
   overflow: hidden;
   isolation: isolate;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 20px);
   box-sizing: border-box;
   display: grid;
   grid-template-columns: auto min-content;

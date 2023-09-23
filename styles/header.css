@@ -9,7 +9,6 @@ body {
   background-color: #45818e;
   height: 60px;
   position: fixed;
-  top: 0;
   inset: 0;
   display: flex;
   z-index: 100;
@@ -41,7 +40,6 @@ body {
 
 .header-mobile {
   position: fixed;
-  top: 0;
   inset: 0;
   z-index: 100;
   height: fit-content;
