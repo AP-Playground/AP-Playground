@@ -5,10 +5,10 @@ let headerOpen = false;
 openHeaderBtn.addEventListener("click", () => {
   headerOpen = !headerOpen;
   if (headerOpen) {
-    openHeaderBtn.innerHTML = '<img src="/shrink.svg">';
+    openHeaderBtn.innerHTML = '<img src="/svgs/shrink.svg">';
     headerItems.classList.remove("hidden");
   } else {
-    openHeaderBtn.innerHTML = '<img src="/expand.svg">';
+    openHeaderBtn.innerHTML = '<img src="/svgs/expand.svg">';
     headerItems.classList.add("hidden");
   }
 })

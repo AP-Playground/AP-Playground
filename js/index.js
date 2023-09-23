@@ -1,9 +1,12 @@
 let page = window.location.search.slice(1);
-console.log(page)
 if (page === "") window.location.replace("/?home");
 
 const realURL = "/" + mapPage(page.split("/")) + ".html";
-document.querySelector("iframe").src = realURL;
+const iframe = document.querySelector("iframe");
+iframe.src = realURL;
+iframe.addEventListener("load", () => {
+  document.title = iframe.contentDocument.title;
+})
 
 function mapPage(pathComps) {
   const length = pathComps.length;

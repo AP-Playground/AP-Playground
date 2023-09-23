@@ -28,7 +28,6 @@ main > h1 {
 
 main > p {
   margin: 0;
-  margin-bottom: 15px;
 }
 
 .class-title {
@@ -36,7 +35,9 @@ main > p {
   color: rgb(69, 129, 142);
   font-size: clamp(20px, 6vw, 35px);
   font-weight: bold;
-  
+  display: block;
+  width: fit-content;
+  margin-top: 25px;
 }
 
 .class-title:hover {

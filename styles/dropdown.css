@@ -5,13 +5,13 @@
 }
 
 .dropdown-header {
-  height: 50px;
-  line-height: 50px;
+  height: clamp(40px, 10vw, 50px);
+  line-height: clamp(40px, 10vw, 50px);
   background-color: rgb(200, 200, 200);
   border-radius: 10px;
   overflow: hidden;
   font-family: Roboto;
-  font-size: 24px;
+  font-size: clamp(18px, 5vw, 24px);
   padding: 0 10px;
   cursor: pointer;
 }
@@ -43,7 +43,7 @@
   text-decoration: underline;
 }
 
-.dropdown-item > p {
+.dropdown-item p {
   margin: 0;
 }
 
