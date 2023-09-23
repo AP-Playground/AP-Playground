@@ -12,8 +12,8 @@ function mapPage(pathComps) {
     case "about": return "about";
     case "resources": return "resources";
     case "classes": return "classes";
-    case "ap-biology": {
-      if (length === 1) return "ap-biology/course-overview";
+    default: {
+      if (length === 1) return pathComps[0] + "/course-overview";
       if (length === 2 && pathComps[1] === "final-test") return pathComps.join("/");
       if (length === 2) return pathComps.join("/") + "/unit-overview";
       return pathComps.join("/");
