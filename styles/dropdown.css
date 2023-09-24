@@ -30,17 +30,14 @@
   border-bottom: 5px solid rgb(200, 200, 200);
 }
 
-.dropdown-item a {
+.dropdown-item h2 {
   color: black;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
+  margin: 0;
   margin-bottom: 5px;
   display: block;
-}
-
-.dropdown-item a:hover {
-  text-decoration: underline;
 }
 
 .dropdown-item p {
@@ -48,5 +45,9 @@
 }
 
 .dropdown:has(.dropdown-header.open) .dropdown-contents {
+  display: block;
+}
+
+.dropdown.open .dropdown-contents{
   display: block;
 }

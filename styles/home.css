@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
   background-color: gainsboro;
+  font-family: Roboto;
+  margin: 0;
 }
 
 main {
@@ -19,7 +23,6 @@ main {
 main h1 {
   margin: 0;
   font-size: min(70px, 13vw);
-  font-family: Roboto;
   font-weight: bold;
 }
 
@@ -28,7 +31,7 @@ main h2 {
   color: #555;
   margin-bottom: 20px;
   font-size: min(32px, 6vw);
-  font-family: Kalam, cursive;
+  font-family: Kalam;
 }
 
 .search {
@@ -41,7 +44,6 @@ main h2 {
   border-radius: 100px;
   width: min(500px, 80vw);
   border: 1px solid black;
-  font-family: Roboto;
 }
 
 .search input:focus {
@@ -90,7 +92,6 @@ main h2 {
   display: block;
   color: black;
   text-decoration: none;
-  font-family: Roboto;
 }
 
 .search-results a.unavailable {
