@@ -33,6 +33,7 @@ main > p {
   margin: 0;
   margin-bottom: 10px;
   font-size: 20px;
+  overflow-wrap: break-word;
 }
 
 main > h2 {
@@ -43,6 +44,7 @@ main > h2 {
   width: fit-content;
   margin-top: 35px;
   margin-bottom: 0;
+  overflow-wrap: break-word;
 }
 
 main > h3 {
@@ -53,4 +55,5 @@ main > h3 {
   margin: 0;
   margin-bottom: 5px;
   display: block;
+  overflow-wrap: break-word;
 }
