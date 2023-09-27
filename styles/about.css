@@ -1,22 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-body {
-  background-color: gainsboro;
-  font-family: Roboto;
-  margin: 0;
-}
-
 main {
-  background-color: white;
-  margin-top: 10px;
-  border-radius: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 30px min(200px, 8vw);
-  overflow: hidden;
-  isolation: isolate;
-  min-height: calc(100vh - 20px);
-  box-sizing: border-box;
   display: grid;
   grid-template-columns: auto min-content;
   column-gap: 20px;

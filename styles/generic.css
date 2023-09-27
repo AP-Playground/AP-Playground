@@ -8,15 +8,25 @@ body {
 
 main {
   background-color: white;
-  margin-top: 10px;
+  margin: 10px;
   border-radius: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
   padding: 30px min(200px, 8vw);
   overflow: hidden;
   isolation: isolate;
   min-height: calc(100vh - 20px);
   box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  main {
+    margin: 0;
+    border-radius: 0;
+    min-height: calc(100vh);
+  }
+}
+
+a:visited {
+  color: rgb(0, 0, 238);
 }
 
 main > h1 {
