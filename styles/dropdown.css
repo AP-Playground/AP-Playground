@@ -16,21 +16,23 @@
   cursor: pointer;
 }
 
-.dropdown-contents {
+.dropdown ul {
   display: none;
   font-family: Roboto;
-  padding: 0px 10px;
+  padding: 0 10px;
+  margin: 0;
+  list-style-type: none;
 }
 
-.dropdown-item {
+.dropdown li {
   padding: 15px 10px;
 }
 
-.dropdown-item:not(:last-child) {
+.dropdown li:not(:last-child) {
   border-bottom: 5px solid rgb(200, 200, 200);
 }
 
-.dropdown-item h2 {
+.dropdown li h2 {
   color: black;
   text-decoration: none;
   font-size: 18px;
@@ -40,14 +42,14 @@
   display: block;
 }
 
-.dropdown-item p {
+.dropdown li p {
   margin: 0;
 }
 
-.dropdown:has(.dropdown-header.open) .dropdown-contents {
+.dropdown:has(.dropdown-header.open) ul {
   display: block;
 }
 
-.dropdown.open .dropdown-contents{
+.dropdown.open .ul{
   display: block;
 }

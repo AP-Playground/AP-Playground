@@ -25,8 +25,12 @@ main {
   }
 }
 
-a:visited {
-  color: rgb(0, 0, 238);
+a {
+  color: #437e8a;
+}
+
+a:hover {
+  color: #cc4125;
 }
 
 main > h1 {
