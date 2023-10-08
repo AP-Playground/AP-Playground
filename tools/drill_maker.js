@@ -10,6 +10,7 @@ function dragMouseDown(e, elmnt) {
   pos4 = e.clientY;
   document.onmouseup = closeDragElement;
   document.onmousemove = elementDrag;
+  elmnt.parentNode.querySelector(".input").focus();
 }
 
 function elementDrag(e) {
@@ -36,11 +37,19 @@ function addNewPoint(e) {
   const top = round(e.clientY);
   const left = round(e.clientX);
   container.insertAdjacentHTML("beforeend",
-  `<div class="dotContainer" style="top: ${top}px; left: ${left}px;">
-    <div class="label" contenteditable onblur="if(this.textContent === '') this.parentNode.remove();" style="--position: -90deg; --rotation: 0deg"></div>
-    <div class="dot" onmousedown="dragMouseDown(event, this)"></div>
-  </div>`);
-  container.lastElementChild.querySelector(".label").focus();
+      `<div class="dotContainer" style="top: ${top}px; left: ${left}px;">
+      <div class="label" style="--position: -4; --rotation: 0">
+        <span class="rot" onclick="this.parentNode.style.setProperty('--position',parseInt(this.parentNode.style.getPropertyValue('--position')) - 1)">⭯</span><span class="input" contenteditable onblur="if(this.textContent.trim() === '') this.parentNode.parentNode.remove();"></span><span class="rot" onclick="this.parentNode.style.setProperty('--position',parseInt(this.parentNode.style.getPropertyValue('--position')) + 1)">⭮</span>
+      </div>
+      <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
+    </div>`
+);
+  container.lastElementChild.querySelector(".input").focus();
+}
+
+function duplicate(elmnt) {
+  console.log(elmnt.parentNode)
+  container.insertAdjacentElement("beforeend", elmnt.parentNode.cloneNode(true));
 }
 
 function round(val) {

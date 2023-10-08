@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  height: min-content;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  width: 1000px;
+  user-select: none;
+}
+
+
+.dotContainer {
+  position: absolute;
+  width: 0;
+  height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  position: absolute;
+  inset: -4.5px;
+  border-radius: 10px;
+  outline: 2.5px solid black;
+  cursor: move;
+}
+
+.dot:hover {
+  outline-color: red;
+}
+
+.dot.selected {
+  outline-color: blue;
+}
+
+.label {
+  width: 1000px;
+  font-family: Arial;
+  display: flex;
+  transform-origin: 50% 50%;
+  translate: calc(20px * cos(calc(var(--position) * 22.5deg)))
+  calc(20px * sin(calc(var(--position) * 22.5deg)));
+  rotate: calc(var(--rotation) * 22.5deg);
+  background-color: white;
+}
+
+.rot {
+  cursor: pointer;
+  display: none;
+  font-size: 12px;
+}
+
+.rot:hover {
+  color: red;
+}
+
+.label:hover .rot {
+  display: inline;
+}
+
+.input {
+  font-size: 14px;
+  padding: 1px;
+}
