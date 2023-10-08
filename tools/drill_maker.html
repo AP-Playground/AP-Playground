@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marching Band Drill Maker | AP-Study</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 1000px;
+      height: min-content;
+      overflow: hidden;
+    }
+
+    img {
+      position: absolute;
+      width: 1000px;
+      user-select: none;
+    }
+
+
+    .dotContainer {
+      position: absolute;
+      width: 0;
+      height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dot {
+      position: absolute;
+      inset: -4.5px;
+      border-radius: 10px;
+      outline: 2.5px solid black;
+      cursor: move;
+    }
+
+    .dot:hover {
+      outline-color: red;
+    }
+
+    .dot.selected {
+      outline-color: blue;
+    }
+
+    .label {
+      cursor: text;
+      font-family: Arial;
+      display: inline;
+      padding: 1px 2px;
+      background-color: white;
+      transform-origin: 50% 50%;
+      translate: calc(22.5px * cos(var(--position))) calc(22.5px * sin(var(--position)));
+      rotate: var(--rotation);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="/tools/drill_template.svg" ondragstart="return false;">
+    <div class="dotContainer" style="top: 56.8px; left: 56.8px;">
+      <div class="label" contenteditable onblur="if(this.textContent === '') this.parentNode.remove();" style="--position: -45deg; --rotation: 45deg">ABC</div>
+      <div class="dot" onmousedown="dragMouseDown(event, this)"></div>
+    </div>
+  </div>
+  <script src="/tools/drill_maker.js"></script>
+</body>
+
+</html>

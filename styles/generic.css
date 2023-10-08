@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+  --scrollbar: calc(100vw - 100%)
+}
+
 body {
   background-color: gainsboro;
   font-family: Roboto;
@@ -10,7 +14,7 @@ main {
   background-color: white;
   margin: 10px;
   border-radius: 15px;
-  padding: 30px min(200px, 8vw);
+  padding: 30px calc(min(200px, 8vw) - var(--scrollbar)) 30px min(200px, 8vw);
   overflow: hidden;
   isolation: isolate;
   min-height: calc(100vh - 20px);

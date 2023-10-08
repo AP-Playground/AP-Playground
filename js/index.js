@@ -15,6 +15,7 @@ function mapPage(pathComps) {
     case "about": return "about";
     case "resources": return "resources";
     case "classes": return "classes";
+    case "tools": return "tools";
     default: {
       if (length === 1) return pathComps[0] + "/course-overview";
       if (length === 2 && pathComps[1] === "final-test") return pathComps.join("/");
