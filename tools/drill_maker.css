@@ -5,12 +5,10 @@ body {
 
 .container {
   width: 1000px;
-  height: min-content;
   overflow: hidden;
 }
 
 img {
-  position: absolute;
   width: 1000px;
   user-select: none;
 }
@@ -42,20 +40,21 @@ img {
 }
 
 .label {
-  width: 1000px;
   font-family: Arial;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   transform-origin: 50% 50%;
-  translate: calc(20px * cos(calc(var(--position) * 22.5deg)))
-  calc(20px * sin(calc(var(--position) * 22.5deg)));
+  translate: calc(22.5px * cos(calc(var(--position) * 22.5deg)))
+  calc(22.5px * sin(calc(var(--position) * 22.5deg)));
   rotate: calc(var(--rotation) * 22.5deg);
-  background-color: white;
 }
 
 .rot {
   cursor: pointer;
   display: none;
   font-size: 12px;
+  background-color: white;
+  text-align: center;
 }
 
 .rot:hover {
@@ -69,4 +68,5 @@ img {
 .input {
   font-size: 14px;
   padding: 1px;
+  background-color: white;
 }
