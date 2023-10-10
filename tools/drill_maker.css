@@ -70,3 +70,21 @@ img {
   padding: 1px;
   background-color: white;
 }
+
+.title {
+  position: absolute;
+  margin: 0;
+  background-color: white;
+  padding: 5px;
+  font-family: Arial;
+  font-size: 35px;
+}
+
+.text-label {
+  position: absolute;
+  margin: 0;
+  background-color: white;
+  padding: 5px;
+  font-family: Arial;
+  font-size: 25px;
+}

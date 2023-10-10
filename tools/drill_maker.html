@@ -11,24 +11,23 @@
 <body>
   <div class="container">
     <img src="/tools/drill_template.svg" ondragstart="return false;">
-    <div class="dotContainer" style="top: 56.8px; left: 56.8px;">
-      <div class="label" style="--position: -4; --rotation: 0">
-        <span></span>
-        <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
-        <span></span>
-        <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
-        <span class="input" contenteditable onblur="if(this.textContent.trim() === '') this.parentNode.parentNode.remove();">ABC</span>
-        <span class="rot" onclick="rotate(this.parentNode, 1, 0)">⭮</span>
-        <span></span>
-        <span class="rot" onclick="rotate(this.parentNode, 0, 1)">⤾</span>
-        <span></span>
-      </div>
-      <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
-    </div>
   </div>
+  <button onclick="addTitle();">Add title</button>
+  <button onclick="addLabel();">Add label</button>
+  <br>
+  <br>
+  <button onclick="prevPage();" disabled id="prev"><</button>
+  <span id="page-num-display">Page 1</span>
+  <button onclick="nextPage();" disabled id="next">></button>
+  <button onclick="newPage();">+</button>
+  <button onclick="deletePage();">Delete this page</button>
+  <br>
+  <br>
   <button id="export" onclick="exportPage();">Export</button>
   <button id="import" onclick="importPage();">Import</button>
   <input type="text" placeholder="Put import data here" class="import-input">
+  <br>
+  <p id="export-output"></p>
   <script src="/tools/drill_maker.js"></script>
 </body>
 
