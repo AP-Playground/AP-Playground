@@ -228,6 +228,8 @@ function queryA(val) {
   return document.querySelectorAll(val);
 }
 
+let timeout;
+
 function handlePlay() {
   if (playing) {
     query("#play-btn").textContent = "▶";
@@ -235,6 +237,7 @@ function handlePlay() {
     loadPage(pageData[page]);
     query("#prev").disabled = page === 0;
     query("#next").disabled = pageData.length === page + 1;
+    clearTimeout(timeout);
     return;
   }
 
@@ -255,9 +258,8 @@ function handlePlay() {
     }
   })
   loadAnimation(pairs);
-  console.log(pageData[page][3])
   container.style.setProperty("--duration", 60/pageData[page][3][0]*pageData[page][3][1]);
-  setTimeout(() => {
+  timeout = setTimeout(() => {
     handlePlay();
     handlePlay();
   }, 60/pageData[page][3][0]*pageData[page][3][1]*1000 + 200);

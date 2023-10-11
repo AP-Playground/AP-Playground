@@ -44,8 +44,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   transform-origin: 50% 50%;
-  translate: calc(22.5px * cos(calc(var(--position) * 22.5deg)))
-  calc(22.5px * sin(calc(var(--position) * 22.5deg)));
+  translate: calc(20px * cos(calc(var(--position) * 22.5deg)))
+  calc(20px * sin(calc(var(--position) * 22.5deg)));
   rotate: calc(var(--rotation) * 22.5deg);
 }
 
@@ -66,7 +66,8 @@ img {
 }
 
 .input {
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: bold;
   padding: 1px;
   background-color: white;
 }
