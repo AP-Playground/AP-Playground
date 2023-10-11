@@ -84,8 +84,8 @@ function savePage() {
     temp.push(elmnt.style.top);
     temp.push(elmnt.style.left);
     temp.push(elmnt.querySelector(".input").textContent);
-    temp.push(elmnt.firstElementChild.style.getPropertyValue("--position")*1)
-    temp.push(elmnt.firstElementChild.style.getPropertyValue("--rotation")*1)
+    temp.push(elmnt.lastElementChild.style.getPropertyValue("--position")*1)
+    temp.push(elmnt.lastElementChild.style.getPropertyValue("--rotation")*1)
     exportData[0].push([...temp]);
     temp.length = 0;
   })
