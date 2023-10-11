@@ -47,6 +47,7 @@ function addNewPoint(e) {
   const left = round(e.pageX);
   container.insertAdjacentHTML("beforeend",
       `<div class="dotContainer" style="top: ${top}px; left: ${left}px;">
+        <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label" style="--position: -4; --rotation: 0">
           <span></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
@@ -57,8 +58,7 @@ function addNewPoint(e) {
           <span></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, 1)">⤾</span>
           <span></span>
-        </div>
-        <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>`
+        </div>`
 );
   container.lastElementChild.querySelector(".input").focus();
 }
@@ -121,6 +121,7 @@ function loadPage(data) {
   data[0].forEach(elmnt => {
     container.insertAdjacentHTML("beforeend",
       `<div class="dotContainer" style="top: ${elmnt[0]}; left: ${elmnt[1]};">
+        <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">
           <span></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
@@ -131,8 +132,7 @@ function loadPage(data) {
           <span></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, 1)">⤾</span>
           <span></span>
-        </div>
-        <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>`
+        </div>`
   );
   })
   data[1].forEach(elmnt => {
