@@ -257,7 +257,10 @@ function handlePlay() {
   loadAnimation(pairs);
   console.log(pageData[page][3])
   container.style.setProperty("--duration", 60/pageData[page][3][0]*pageData[page][3][1]);
-  setTimeout(handlePlay, 60/pageData[page][3][0]*pageData[page][3][1]*1000);
+  setTimeout(() => {
+    handlePlay();
+    handlePlay();
+  }, 60/pageData[page][3][0]*pageData[page][3][1]*1000 + 200);
   setTimeout(updateAnimation, 1, pairs);
   query("#play-btn").textContent = "⏹";
   playing = true;
