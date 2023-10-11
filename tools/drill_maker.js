@@ -34,8 +34,8 @@ function closeDragElement() {
   if (selected.tagName !== "P") {
     selected.querySelector(".dot").classList.remove("selected");
   }
-  selected.style.top = round(selected.style.top.slice(0, -2)/2)*2 + "px";
-  selected.style.left = round(selected.style.left.slice(0, -2)/2)*2 + "px";
+  selected.style.top = round(selected.style.top.slice(0, -2)) + "px";
+  selected.style.left = round(selected.style.left.slice(0, -2)) + "px";
 }
 
 img.addEventListener("dblclick", addNewPoint);
