@@ -10,9 +10,11 @@ function dragMouseDown(e, elmnt) {
   document.onmouseup = closeDragElement;
   document.onmousemove = elementDrag;
   if (elmnt.classList.contains("dot")) {
-    elmnt.parentNode.querySelector(".input").focus();
-    elmnt.classList.add("selected");
     selected = elmnt.parentNode;
+    setTimeout(() => {
+      selected.querySelector(".input").focus();
+    }, 0)
+    elmnt.classList.add("selected");
   } else {
     selected = elmnt;
   }
@@ -63,6 +65,7 @@ function addNewPoint(e) {
 
 function duplicate(elmnt) {
   container.insertAdjacentElement("beforeend", elmnt.parentNode.cloneNode(true));
+  container.lastElementChild.querySelector(".input").focus();
 }
 
 function rotate(elmnt, pos, rot) {
