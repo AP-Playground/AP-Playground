@@ -16,6 +16,13 @@
   <button onclick="addLabel();">Add label</button>
   <br>
   <br>
+  <label>BPM: </label><input id="bpm-input" placeholder="BPM" type="number" min="40" max="218" value="100">
+  <label>Move: </label><input id="move-input" placeholder="Beats" type="number" min="1" max="1000" value="16">
+  <input type="radio" name="move-type" id="float-input" checked><label for="float-input">Float</label>
+  <input type="radio" name="move-type" id="follow-input"><label for="follow-input">Follow the leader (currently not working)</label>
+  <button onclick="handlePlay();" id="play-btn">▶</button>
+  <br>
+  <br>
   <button onclick="prevPage();" disabled id="prev"><</button>
   <span id="page-num-display">Page 1</span>
   <button onclick="nextPage();" disabled id="next">></button>

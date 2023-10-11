@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial;
 }
 
 .container {
@@ -40,7 +41,6 @@ img {
 }
 
 .label {
-  font-family: Arial;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   transform-origin: 50% 50%;
@@ -76,7 +76,6 @@ img {
   margin: 0;
   background-color: white;
   padding: 5px;
-  font-family: Arial;
   font-size: 35px;
 }
 
@@ -85,6 +84,18 @@ img {
   margin: 0;
   background-color: white;
   padding: 5px;
-  font-family: Arial;
   font-size: 25px;
+}
+
+.container {
+  --duration: 10
+}
+
+.dotContainer.animated {
+  transition: top calc(var(--duration) * 1s) linear, left calc(var(--duration) * 1s) linear;
+}
+
+.dotContainer.animated .dot {
+  color: transparent;
+  pointer-events: none;
 }

@@ -1,7 +1,8 @@
-const img = document.querySelector("img");
-const container = document.querySelector(".container");
+const img = query("img");
+const container = query(".container");
 let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0; selected = undefined;
 let page = 0, pageData = [];
+let playing = false;
 
 function dragMouseDown(e, elmnt) {
   pos3 = e.pageX;
@@ -76,41 +77,42 @@ function round(val) {
 function savePage() {
   let exportData = [[],[],[]];
   let temp = [];
-  document.querySelectorAll(".dotContainer").forEach(elmnt => {
+  queryA(".dotContainer").forEach(elmnt => {
     temp.push(elmnt.style.top);
     temp.push(elmnt.style.left);
     temp.push(elmnt.querySelector(".input").textContent);
-    temp.push(elmnt.firstElementChild.style.getPropertyValue("--position"))
-    temp.push(elmnt.firstElementChild.style.getPropertyValue("--rotation"))
+    temp.push(elmnt.firstElementChild.style.getPropertyValue("--position")*1)
+    temp.push(elmnt.firstElementChild.style.getPropertyValue("--rotation")*1)
     exportData[0].push([...temp]);
     temp.length = 0;
   })
-  document.querySelectorAll(".title").forEach(elmnt => {
+  queryA(".title").forEach(elmnt => {
     temp.push(elmnt.style.top);
     temp.push(elmnt.style.left);
     temp.push(elmnt.textContent);
     exportData[1].push([...temp]);
     temp.length = 0;
   })
-  document.querySelectorAll(".text-label").forEach(elmnt => {
+  queryA(".text-label").forEach(elmnt => {
     temp.push(elmnt.style.top);
     temp.push(elmnt.style.left);
     temp.push(elmnt.textContent);
     exportData[2].push([...temp]);
     temp.length = 0;
   })
+  exportData.push([query("#bpm-input").value*1, query("#move-input").value*1, query("#float-input").checked*1])
   return exportData;
 }
 
 function loadPage(data) {
-  document.querySelector("#page-num-display").textContent = "Page " + (page + 1)
-  document.querySelectorAll(".dotContainer").forEach(elmnt => {
+  query("#page-num-display").textContent = "Page " + (page + 1)
+  queryA(".dotContainer").forEach(elmnt => {
     elmnt.remove();
   })
-  document.querySelectorAll(".title").forEach(elmnt => {
+  queryA(".title").forEach(elmnt => {
     elmnt.remove();
   })
-  document.querySelectorAll(".text-label").forEach(elmnt => {
+  queryA(".text-label").forEach(elmnt => {
     elmnt.remove();
   })
   data[0].forEach(elmnt => {
@@ -140,21 +142,30 @@ function loadPage(data) {
     `<p class="text-label" style="top: ${elmnt[0]}; left: ${elmnt[1]};" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent.trim() === '') this.remove();">${elmnt[2]}</p>`
     )
   })
+  query("#bpm-input").value = data[3][0];
+  query("#move-input").value = data[3][1];
+  if (data[3][2] === 1) {
+    query("#float-input").checked = true;
+    query("#follow-input").checked = false;
+  } else {
+    query("#float-input").checked = false;
+    query("#follow-input").checked = true;
+  }
 }
 
 function prevPage() {
   pageData[page] = savePage();
-  document.querySelector("#next").disabled = false;
+  query("#next").disabled = false;
   page--;
-  if (page === 0) document.querySelector("#prev").disabled = true;
+  if (page === 0) query("#prev").disabled = true;
   loadPage(pageData[page]);
 }
 
 function nextPage(save = true) {
   if (save) pageData[page] = savePage();
   page++
-  if (pageData.length === page + 1) document.querySelector("#next").disabled = true
-  document.querySelector("#prev").disabled = false;
+  if (pageData.length === page + 1) query("#next").disabled = true
+  query("#prev").disabled = false;
   loadPage(pageData[page]);
 }
 
@@ -165,17 +176,17 @@ function newPage(save = true) {
 }
 
 function importPage() {
-  pageData = JSON.parse(document.querySelector(".import-input").value);
+  pageData = JSON.parse(query(".import-input").value);
   page = 0;
-  document.querySelector(".import-input").value = "";
-  document.querySelector("#next").disabled = pageData.length === 1;
-  document.querySelector("#prev").disabled = true;
+  query(".import-input").value = "";
+  query("#next").disabled = pageData.length === 1;
+  query("#prev").disabled = true;
   loadPage(pageData[page]);
 }
 
 function exportPage() {
   pageData[page] = savePage();
-  document.querySelector("#export-output").textContent = JSON.stringify(pageData);
+  query("#export-output").textContent = JSON.stringify(pageData);
 }
 
 function deletePage() {
@@ -183,11 +194,11 @@ function deletePage() {
   page--;
   if (page === -1) {
     page = 0;
-    document.querySelector("#prev").disabled = true;
+    query("#prev").disabled = true;
   };
   if (pageData.length === 1) {
-    document.querySelector("#next").disabled = true;
-    document.querySelector("#prev").disabled = true;
+    query("#next").disabled = true;
+    query("#prev").disabled = true;
   }
   loadPage(pageData[page]);
 }
@@ -204,4 +215,74 @@ function addLabel() {
   <p class="text-label" style="top: 56.8px; left: 56.8px;" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent.trim() === '') this.remove();"></p>
   `)
   container.lastElementChild.focus();
+}
+
+function query(val) {
+  return document.querySelector(val);
+}
+
+function queryA(val) {
+  return document.querySelectorAll(val);
+}
+
+function handlePlay() {
+  if (playing) {
+    query("#play-btn").textContent = "▶";
+    playing = false;
+    loadPage(pageData[page]);
+    query("#prev").disabled = page === 0;
+    query("#next").disabled = pageData.length === page + 1;
+    return;
+  }
+
+  pageData[page] = savePage();
+  if (page + 1 === pageData.length) return;
+  const curPage = pageData[page][0];
+  const nextPage = pageData[page + 1][0];
+  const pairs = [];
+  curPage.forEach(curItem => {
+    let pair;
+    nextPage.forEach(nextItem => {
+      if (curItem[2] === nextItem[2]) {
+        pair = nextItem;
+      }
+    })
+    if (pair) {
+      pairs.push([curItem[0],curItem[1],pair[0],pair[1]])
+    }
+  })
+  loadAnimation(pairs);
+  console.log(pageData[page][3])
+  container.style.setProperty("--duration", 60/pageData[page][3][0]*pageData[page][3][1]);
+  setTimeout(handlePlay, 60/pageData[page][3][0]*pageData[page][3][1]*1000);
+  setTimeout(updateAnimation, 1, pairs);
+  query("#play-btn").textContent = "⏹";
+  playing = true;
+  page++;
+}
+
+function loadAnimation(pairs) {
+  queryA(".dotContainer").forEach(elmnt => {
+    elmnt.remove();
+  })
+  queryA(".title").forEach(elmnt => {
+    elmnt.remove();
+  })
+  queryA(".text-label").forEach(elmnt => {
+    elmnt.remove();
+  })
+  pairs.forEach(pair => {
+    container.insertAdjacentHTML("beforeend",
+      `<div class="dotContainer animated" style="top: ${pair[0]}; left: ${pair[1]};">
+        <div class="dot"></div>`
+    );
+  });
+}
+
+function updateAnimation(pairs) {
+  const dots = queryA(".dotContainer");
+  pairs.forEach((pair, idx) => {
+    dots[idx].style.top = pair[2]
+    dots[idx].style.left = pair[3]
+  });
 }
