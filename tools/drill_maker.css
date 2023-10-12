@@ -102,6 +102,6 @@ img {
 }
 
 .not-visible {
-  visibility: none;
+  visibility: hidden;
   pointer-events: none;
 }
