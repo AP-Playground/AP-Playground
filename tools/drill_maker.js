@@ -49,15 +49,15 @@ function addNewPoint(e) {
       `<div class="dotContainer" style="top: ${top}px; left: ${left}px;">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label" style="--position: -4; --rotation: 0">
-          <span></span>
+          <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
-          <span></span>
+          <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
           <span class="input" contenteditable onblur="if(this.textContent.trim() === '') this.parentNode.parentNode.remove();"></span>
           <span class="rot" onclick="rotate(this.parentNode, 1, 0)">⭮</span>
-          <span></span>
+          <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, 1)">⤾</span>
-          <span></span>
+          <span class="not-visible"></span>
         </div>`
 );
   container.lastElementChild.querySelector(".input").focus();
@@ -123,15 +123,15 @@ function loadPage(data) {
       `<div class="dotContainer" style="top: ${elmnt[0]}; left: ${elmnt[1]};">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">
-          <span></span>
+          <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
-          <span></span>
+          <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
           <span class="input" contenteditable onblur="if(this.textContent.trim() === '') this.parentNode.parentNode.remove();">${elmnt[2]}</span>
           <span class="rot" onclick="rotate(this.parentNode, 1, 0)">⭮</span>
-          <span></span>
+          <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, 1)">⤾</span>
-          <span></span>
+          <span class="not-visible"></span>
         </div>`
   );
   })

@@ -100,3 +100,8 @@ img {
   color: transparent;
   pointer-events: none;
 }
+
+.not-visible {
+  visibility: none;
+  pointer-events: none;
+}
