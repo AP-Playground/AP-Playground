@@ -53,7 +53,7 @@ function addNewPoint(e) {
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
           <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
-          <span class="input" contenteditable onblur="if(this.textContent.trim() === '') this.parentNode.parentNode.remove();"></span>
+          <span class="input" contenteditable onblur="if(this.textContent === '') this.parentNode.parentNode.remove();"></span>
           <span class="rot" onclick="rotate(this.parentNode, 1, 0)">⭮</span>
           <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, 1)">⤾</span>
@@ -127,7 +127,7 @@ function loadPage(data) {
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
           <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
-          <span class="input" contenteditable onblur="if(this.textContent.trim() === '') this.parentNode.parentNode.remove();">${elmnt[2]}</span>
+          <span class="input" contenteditable onblur="if(this.textContent === '') this.parentNode.parentNode.remove();">${elmnt[2]}</span>
           <span class="rot" onclick="rotate(this.parentNode, 1, 0)">⭮</span>
           <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, 0, 1)">⤾</span>
@@ -137,12 +137,12 @@ function loadPage(data) {
   })
   data[1].forEach(elmnt => {
     container.insertAdjacentHTML("beforeend",
-    `<p class="title" style="top: ${elmnt[0]}; left: ${elmnt[1]};" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent.trim() === '') this.remove();">${elmnt[2]}</p>`
+    `<p class="title" style="top: ${elmnt[0]}; left: ${elmnt[1]};" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent === '') this.remove();">${elmnt[2]}</p>`
     )
   })
   data[2].forEach(elmnt => {
     container.insertAdjacentHTML("beforeend",
-    `<p class="text-label" style="top: ${elmnt[0]}; left: ${elmnt[1]};" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent.trim() === '') this.remove();">${elmnt[2]}</p>`
+    `<p class="text-label" style="top: ${elmnt[0]}; left: ${elmnt[1]};" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent === '') this.remove();">${elmnt[2]}</p>`
     )
   })
   query("#bpm-input").value = data[3][0];
@@ -208,14 +208,14 @@ function deletePage() {
 
 function addTitle() {
   container.insertAdjacentHTML("beforeend", `
-  <p class="title" style="top: 56.8px; left: 56.8px;" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent.trim() === '') this.remove();"></p>
+  <p class="title" style="top: 56.8px; left: 56.8px;" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent === '') this.remove();"></p>
   `)
   container.lastElementChild.focus();
 }
 
 function addLabel() {
   container.insertAdjacentHTML("beforeend", `
-  <p class="text-label" style="top: 56.8px; left: 56.8px;" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent.trim() === '') this.remove();"></p>
+  <p class="text-label" style="top: 56.8px; left: 56.8px;" onmousedown="dragMouseDown(event, this)" contenteditable onblur="if(this.textContent === '') this.remove();"></p>
   `)
   container.lastElementChild.focus();
 }
