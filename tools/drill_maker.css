@@ -14,7 +14,6 @@ img {
   user-select: none;
 }
 
-
 .dotContainer {
   position: absolute;
   width: 0;
@@ -49,6 +48,38 @@ img {
   rotate: calc(var(--rotation) * 22.5deg);
 }
 
+.over-dotContainer {
+  position: absolute;
+  width: 0;
+  height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.over-dot {
+  position: absolute;
+  inset: -4.5px;
+  border-radius: 10px;
+  outline: 2.5px solid rgba(255, 0, 0, 0.5);;
+  cursor: move;
+  pointer-events: none;
+}
+
+.over-label {
+  color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  transform-origin: 50% 50%;
+  translate: calc(20px * cos(calc(var(--position) * 22.5deg)))
+  calc(20px * sin(calc(var(--position) * 22.5deg)));
+  rotate: calc(var(--rotation) * 22.5deg);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1px;
+  white-space: nowrap;
+}
+
 .rot {
   cursor: pointer;
   display: none;
@@ -70,6 +101,7 @@ img {
   font-weight: bold;
   padding: 1px;
   background-color: white;
+  white-space: nowrap;
 }
 
 .title {
@@ -78,6 +110,7 @@ img {
   background-color: white;
   padding: 5px;
   font-size: 35px;
+  white-space: nowrap;
 }
 
 .text-label {
@@ -86,22 +119,54 @@ img {
   background-color: white;
   padding: 5px;
   font-size: 25px;
-}
-
-.container {
-  --duration: 10
-}
-
-.dotContainer.animated {
-  transition: top calc(var(--duration) * 1s) linear, left calc(var(--duration) * 1s) linear;
+  white-space: nowrap;
 }
 
 .dotContainer.animated .dot {
-  color: transparent;
   pointer-events: none;
 }
 
 .not-visible {
   visibility: hidden;
+  pointer-events: none;
+}
+
+@keyframes move {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+.pathDot {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 10px;
+  outline: 2.5px solid blue;
+  cursor: move;
+  translate: -50% -50%;
+}
+
+.pathDot:nth-child(2) {
+  outline-color: green;
+}
+
+.pathDot:last-child {
+  outline-color: purple;
+}
+
+.pathDot:hover {
+  outline-color: red;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 1000px;
   pointer-events: none;
 }
