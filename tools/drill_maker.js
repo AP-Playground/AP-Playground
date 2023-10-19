@@ -348,7 +348,8 @@ function startAnimation(pairs, paths, holdTime, moveTime) {
         totalLength += dist(path[i][0], path[i][1], path[i + 1][0], path[i + 1][1]);
       }
       for (let i = startIdx + 1; i < endIdx; i++) {
-        curOffset += moveTime/(holdTime + moveTime)*dist(path[i][0], path[i][1], path[i - 1][0], path[i - 1][1])/totalLength;
+        // curOffset += moveTime/(holdTime + moveTime)*dist(path[i][0], path[i][1], path[i - 1][0], path[i - 1][1])/totalLength;
+        curOffset += moveTime/(holdTime + moveTime)/(endIdx-startIdx)
         animation.push({
           translate: `${path[i][1] - pairs[idx][3]}px ${path[i][0] - pairs[idx][2]}px`,
           offset: curOffset
