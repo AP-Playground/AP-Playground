@@ -41,7 +41,7 @@ function elementDrag(e) {
 function closeDragElement() {
   document.onmouseup = null;
   document.onmousemove = null;
-  if (selected.hasChildNodes()) {
+  if (selected.children.length) {
     selected.querySelector(".dot").classList.remove("selected");
   }
   selected.style.top = round(selected.style.top.slice(0, -2)) + "px";
