@@ -20,38 +20,38 @@
     <option value="anim">Animation tools</option>
   </select>
   <span id="anim-tools" style="display: none;">
-    <button onclick="addPath();">New path</button>
-    <button onclick="closePath();">Close path</button>
-    <button onclick="deletePaths()">Delete all paths</button>
+    <button id="addPathBtn" onclick="addPath();">New path</button>
+    <button id="closePathBtn" onclick="closePath();">Close path</button>
+    <button id="deletePathsBtn" onclick="deletePaths()">Delete all paths</button>
   </span>
   <span id="page-tools">
-    <button onclick="addTitle();">Add title</button>
-    <button onclick="addLabel();">Add label</button>
+    <button id="addTitleBtn" onclick="addTitle();">Add title</button>
+    <button id="addLabelBtn" onclick="addLabel();">Add label</button>
   </span>
   <select id="visibility" onchange="loadVisibility(this.value);">
     <option value="normal">Normal view</option>
     <option value="prev">Show previous page</option>
     <option value="next">Show next page</option>
   </select>
-  <input type="number" placeholder="Offset" min="-100" max="100" onchange="offset = this.value; loadVisibility(query('#visibility').value)">
+  <input id="offsetInput" type="number" placeholder="Offset" min="-100" max="100" onchange="offset = this.value; loadVisibility(query('#visibility').value)">
   <br>
   <br>
-  <label>BPM: </label><input id="bpm-input" placeholder="BPM" type="number" min="40" max="218" value="100">
-  <label>Hold: </label><input id="hold-input" placeholder="Beats" type="number" min="0" max="1000" value="0">
-  <label>Move: </label><input id="move-input" placeholder="Beats" type="number" min="1" max="1000" value="16">
+  <label>BPM: </label><input id="bpmInput" placeholder="BPM" type="number" min="40" max="218" value="100">
+  <label>Hold: </label><input id="holdInput" placeholder="Beats" type="number" min="0" max="1000" value="0">
+  <label>Move: </label><input id="moveInput" placeholder="Beats" type="number" min="1" max="1000" value="16">
   <button onclick="handlePlay();" id="play-btn">▶</button>
   <br>
   <br>
   <button onclick="prevPage();" disabled id="prev"><</button>
-  <span id="page-num-display">Page 1</span>
+  <input type="text" id="pageName" value="Page 1">
   <button onclick="nextPage();" disabled id="next">></button>
-  <button onclick="newPage();">+</button>
-  <button onclick="deletePage();">Delete this page</button>
+  <button id="newPage" onclick="newPage();">+</button>
+  <button id="deletePage" onclick="deletePage();">Delete this page</button>
   <br>
   <br>
   <button id="export" onclick="exportPage();">Export</button>
   <button id="import" onclick="importPage();">Import</button>
-  <input type="text" placeholder="Put import data here" class="import-input">
+  <input type="text" placeholder="Put import data here" id="importInput">
   <br>
   <p id="export-output"></p>
   <script src="/tools/drill_maker.js"></script>

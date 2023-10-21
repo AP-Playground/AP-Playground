@@ -2,7 +2,7 @@ const img = query("img");
 const container = query(".container");
 const overlay = query(".overlay");
 const paths = query(".paths");
-const importInput = query(".import-input");
+const importInput = query("#importInput");
 const next = query("#next");
 const prev = query("#prev");
 let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0; selected = undefined;
@@ -122,13 +122,11 @@ function savePage() {
     exportData[3].push([...temp]);
     temp.length = 0;
   })
-  exportData.push([query("#bpm-input").value*1, query("#hold-input").value*1, query("#move-input").value*1])
+  exportData.push([query("#pageName").value, query("#bpmInput").value*1, query("#holdInput").value*1, query("#moveInput").value*1])
   return exportData;
 }
 
 function loadPage(data) {
-  loadVisibility(query("#visibility").value);
-  query("#page-num-display").textContent = "Page " + (page + 1)
   queryA(".dotContainer").forEach(elmnt => {
     elmnt.remove();
   })
@@ -183,28 +181,22 @@ function loadPage(data) {
       updatePath(query(".pathContainer:last-child"));
     })
   })
-  query("#bpm-input").value = data[4][0];
-  query("#hold-input").value = data[4][1];
-  query("#move-input").value = data[4][2];
+  updateControls(false, data);
 }
 
 function prevPage() {
   pageData[page] = savePage();
-  next.disabled = false;
   page--;
-  if (page === 0) prev.disabled = true;
   loadPage(pageData[page]);
 }
 
 function nextPage(save = true) {
   if (save) pageData[page] = savePage();
   page++
-  if (pageData.length === page + 1) next.disabled = true
-  prev.disabled = false;
   loadPage(pageData[page]);
 }
 
-function newPage(save = true) {
+function newPage() {
   pageData[page] = savePage();
   pageData.splice(page, 0, pageData[page])
   nextPage(false);
@@ -214,16 +206,13 @@ function importPage() {
   pageData = updateData(JSON.parse(importInput.value));
   page = 0;
   importInput.value = "";
-  next.disabled = pageData.length === 1;
-  prev.disabled = true;
   changeTools("page");
-  query("#toolbar").value = "page";
   loadPage(pageData[page]);
 }
 
 function exportPage() {
   pageData[page] = savePage();
-  query("#export-output").textContent = JSON.stringify([3,pageData]);
+  query("#export-output").textContent = JSON.stringify([4,pageData]);
 }
 
 function deletePage() {
@@ -231,11 +220,6 @@ function deletePage() {
   page--;
   if (page === -1) {
     page = 0;
-    prev.disabled = true;
-  };
-  if (pageData.length === 1) {
-    next.disabled = true;
-    prev.disabled = true;
   }
   loadPage(pageData[page]);
 }
@@ -270,8 +254,6 @@ function handlePlay() {
     playing = false;
     page--;
     loadPage(pageData[page]);
-    prev.disabled = page === 0;
-    next.disabled = pageData.length === page + 1;
     clearTimeout(timeout);
     return;
   }
@@ -366,10 +348,9 @@ function animate() {
     query("#play-btn").textContent = "▶";
     playing = false;
     loadPage(pageData[page]);
-    prev.disabled = page === 0;
-    next.disabled = true;
     return;
   }
+  updateControls(true, pageData[page]);
   const curPage = pageData[page][0];
   const nextPage = pageData[page + 1][0];
   const pairs = [];
@@ -384,8 +365,8 @@ function animate() {
       pairs.push([curItem[0],curItem[1],pair[0],pair[1]])
     }
   })
-  const holdTime = 60/pageData[page][4][0]*pageData[page][4][1]*1000;
-  const moveTime = 60/pageData[page][4][0]*pageData[page][4][2]*1000;
+  const holdTime = 60/pageData[page][4][1]*pageData[page][4][2]*1000;
+  const moveTime = 60/pageData[page][4][1]*pageData[page][4][3]*1000;
   loadAnimation(pairs);
   startAnimation(pairs, pageData[page][3], holdTime, moveTime);
   timeout = setTimeout(animate, holdTime + moveTime);
@@ -416,6 +397,12 @@ function updateData(data) {
       data[1].forEach((page, idx) => {
         data[1][idx].push(page[3]);
         data[1][idx][3] = [];
+      })
+    }
+    case 3: {
+      data[1].forEach((page, idx) => {
+        const partData = page[4];
+        data[1][idx][4] = [`Page ${idx + 1}`, partData[0], partData[1], partData[2]];
       })
     }
   }
@@ -462,6 +449,7 @@ function parsePX(px) {
 }
 
 function changeTools(newTool) {
+  query("#toolbar").value = newTool;
   tool = newTool[0];
   closePath();
   img.onclick = () => {};
@@ -540,4 +528,54 @@ window.addEventListener("beforeunload", e => {
 
 function dist(x1, y1, x2, y2) {
   return Math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
+}
+
+function updateControls(disabled, curPage) {
+  if (disabled) {
+    query("#visibility").value = "normal";
+    next.disabled = true;
+    prev.disabled = true;
+    query("#newPage").disabled = true;
+    query("#toolbar").disabled = true;
+    query("#bpmInput").disabled = true;
+    query("#holdInput").disabled = true;
+    query("#moveInput").disabled = true;
+    query("#addPathBtn").disabled = true;
+    query("#closePathBtn").disabled = true;
+    query("#deletePathsBtn").disabled = true;
+    query("#addTitleBtn").disabled = true;
+    query("#addLabelBtn").disabled = true;
+    query("#visibility").disabled = true;
+    query("#offsetInput").disabled = true;
+    query("#deletePage").disabled = true;
+    query("#pageName").disabled = true;
+    query("#import").disabled = true;
+    query("#export").disabled = true;
+    importInput.disabled = true;
+  } else {
+    next.disabled = (page + 1) === pageData.length;
+    prev.disabled = page === 0;
+    query("#newPage").disabled = false;
+    query("#toolbar").disabled = false;
+    query("#bpmInput").disabled = false;
+    query("#holdInput").disabled = false;
+    query("#moveInput").disabled = false;
+    query("#addPathBtn").disabled = false;
+    query("#closePathBtn").disabled = false;
+    query("#deletePathsBtn").disabled = false;
+    query("#addTitleBtn").disabled = false;
+    query("#addLabelBtn").disabled = false;
+    query("#visibility").disabled = false;
+    query("#offsetInput").disabled = false;
+    query("#deletePage").disabled = false;
+    query("#pageName").disabled = false;
+    query("#import").disabled = false;
+    query("#export").disabled = false;
+    importInput.disabled = false;
+  }
+  loadVisibility(query("#visibility").value);
+  query("#pageName").value = curPage[4][0];
+  query("#bpmInput").value = curPage[4][1];
+  query("#holdInput").value = curPage[4][2];
+  query("#moveInput").value = curPage[4][3];
 }
