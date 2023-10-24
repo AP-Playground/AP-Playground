@@ -143,22 +143,32 @@ img {
 .pathDot {
   position: absolute;
   width: 9px;
-  height: 9px;
+  aspect-ratio: 1;
   border-radius: 10px;
-  outline: 2.5px solid blue;
-  cursor: move;
+  background-color: blue;
   translate: -50% -50%;
+  cursor: move;
+}
+
+.pathDot:hover:not(:last-child):not(:nth-child(2)) {
+  background-color: red;
 }
 
 .pathDot:nth-child(2) {
-  outline-color: green;
+  outline: 2.5px solid green;
+  background-color: transparent;
+}
+
+.pathDot:nth-child(2):hover {
+  outline-color: red;
 }
 
 .pathDot:last-child {
-  outline-color: purple;
+  outline: 2.5px solid purple;
+  background-color: transparent;
 }
 
-.pathDot:hover {
+.pathDot:last-child:hover {
   outline-color: red;
 }
 
@@ -169,6 +179,15 @@ svg {
   width: 1000px;
   height: 1000px;
   pointer-events: none;
+}
+
+svg path {
+  stroke: blue;
+  fill: none;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  marker-end: url()
 }
 
 #play-btn {

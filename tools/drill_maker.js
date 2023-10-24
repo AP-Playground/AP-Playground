@@ -170,7 +170,7 @@ function loadPage(data) {
     paths.insertAdjacentHTML("beforeend", `
     <div class="pathContainer">
       <svg>
-        <path d="" stroke="blue" fill="none" stroke-width="3px">
+        <path d="">
       </svg>
     </div>
     `)
@@ -203,8 +203,13 @@ function newPage() {
 }
 
 function importPage() {
-  pageData = updateData(JSON.parse(importInput.value));
-  page = 0;
+  if (query("#exportType").value === "doc") {
+    pageData = updateData(JSON.parse(importInput.value));
+    page = 0;
+  } else {
+    pageData.splice(page + 1, 0, updateData(JSON.parse(importInput.value), true));
+    page++;
+  }
   importInput.value = "";
   changeTools("page");
   loadPage(pageData[page]);
@@ -212,7 +217,11 @@ function importPage() {
 
 function exportPage() {
   pageData[page] = savePage();
-  query("#export-output").textContent = JSON.stringify([4,pageData]);
+  if (query("#exportType").value === "doc") {
+    query("#export-output").textContent = JSON.stringify([4,pageData]);
+  } else {
+    query("#export-output").textContent = JSON.stringify([4,pageData[page]]);
+  }
 }
 
 function deletePage() {
@@ -266,7 +275,7 @@ function handlePlay() {
   animate();
 }
 
-function loadAnimation(pairs) {
+function startAnimation(paths, holdTime, moveTime) {
   queryA(".dotContainer").forEach(elmnt => {
     elmnt.remove();
   })
@@ -279,67 +288,68 @@ function loadAnimation(pairs) {
   queryA(".pathContainer").forEach(elmnt => {
     elmnt.remove();
   })
-  pairs.forEach(pair => {
-    container.insertAdjacentHTML("beforeend",
-      `<div class="dotContainer animated" style="top: ${pair[2]}px; left: ${pair[3]}px;">
-        <div class="dot"></div>`
-    );
-  });
-}
+  
+  const curPage = pageData[page][0];
+  const nextPage = pageData[page + 1][0];
+  curPage.forEach(curDot => {
+    const nextDot = nextPage.find(nextItem => curDot[2] === nextItem[2]);
+    if (nextDot) {
+      container.insertAdjacentHTML("beforeend",
+        `<div class="dotContainer animated" style="top: ${nextDot[0]}px; left: ${nextDot[1]}px;"><div class="dot"></div>`
+      );
 
-function startAnimation(pairs, paths, holdTime, moveTime) {
-  const dots = queryA(".dotContainer");
-  dots.forEach((dot, idx) => {
-    let pathIdx;
-    let startIdx = -1;
-    let endIdx = -1;
-    let skip = false;
-    paths.forEach((path, tempPathIdx) => {
-      if (skip) return;
-      for (const pathDot of path) {
-        if (pairs[idx][0] === pathDot[0] && pairs[idx][1] === pathDot[1]) {
-          pathIdx = tempPathIdx;
-          startIdx = path.indexOf(pathDot);
-          break;
+      const dot = container.lastElementChild;
+      let pathIdx;
+      let start;
+      let startIdx;
+      let end;
+      let endIdx;
+      
+      const path = paths.find((tempPath, tempPathIdx) => {
+        start = tempPath.find((pathDot, idx) => {
+          if (curDot[0] === pathDot[0] && curDot[1] === pathDot[1]) {
+            startIdx = idx;
+            return true;
+          } else return false;
+        });
+        if (start) {
+          end = tempPath.find((pathDot, idx) => {
+            if (idx <= startIdx) return false;
+            if (nextDot[0] === pathDot[0] && nextDot[1] === pathDot[1]) {
+              endIdx = idx;
+              pathIdx = tempPathIdx;
+              return true
+            } else return false;
+          });
+        }
+        return end;
+      })
+
+      const animation = [
+        {translate: `${curDot[1] - nextDot[1]}px ${curDot[0] - nextDot[0]}px`},
+        {translate: `${curDot[1] - nextDot[1]}px ${curDot[0] - nextDot[0]}px`,
+        offset: holdTime / (holdTime + moveTime)}
+      ]
+
+      if (start && endIdx !== -1) {
+        let curOffset = holdTime / (holdTime + moveTime);
+        let totalLength = 0;
+        for (let i = startIdx; i < endIdx; i++) {
+          totalLength += dist(path[i][0], path[i][1], path[i + 1][0], path[i + 1][1]);
+        }
+        for (let i = startIdx + 1; i < endIdx; i++) {
+          // curOffset += moveTime/(holdTime + moveTime)*dist(path[i][0], path[i][1], path[i - 1][0], path[i - 1][1])/totalLength;
+          curOffset += moveTime/(holdTime + moveTime)/(endIdx-startIdx)
+          animation.push({
+            translate: `${path[i][1] - nextDot[1]}px ${path[i][0] - nextDot[0]}px`,
+            offset: curOffset
+          })
         }
       }
-      if (startIdx !== -1) {
-        for (let i = startIdx; i < path.length; i++) {
-          if (pairs[idx][2] === path[i][0] && pairs[idx][3] === path[i][1]) {
-            endIdx = i;
-            skip = true;
-            break;
-          }
-        }
-      }
-    })
-    const animation = [
-      {
-        translate: `${pairs[idx][1] - pairs[idx][3]}px ${pairs[idx][0] - pairs[idx][2]}px`
-      },
-      {
-        translate: `${pairs[idx][1] - pairs[idx][3]}px ${pairs[idx][0] - pairs[idx][2]}px`,
-        offset: holdTime / (holdTime + moveTime)
-      }
-    ]
-    if (startIdx !== -1 && endIdx !== -1) {
-      let curOffset = holdTime / (holdTime + moveTime);
-      const path = paths[pathIdx];
-      let totalLength = 0;
-      for (let i = startIdx; i < endIdx; i++) {
-        totalLength += dist(path[i][0], path[i][1], path[i + 1][0], path[i + 1][1]);
-      }
-      for (let i = startIdx + 1; i < endIdx; i++) {
-        // curOffset += moveTime/(holdTime + moveTime)*dist(path[i][0], path[i][1], path[i - 1][0], path[i - 1][1])/totalLength;
-        curOffset += moveTime/(holdTime + moveTime)/(endIdx-startIdx)
-        animation.push({
-          translate: `${path[i][1] - pairs[idx][3]}px ${path[i][0] - pairs[idx][2]}px`,
-          offset: curOffset
-        })
-      }
+      
+      animation.push({translate: '0 0'});
+      dot.animate(animation, holdTime + moveTime)
     }
-    animation.push({translate: '0 0'});
-    dot.animate(animation, holdTime + moveTime)
   })
 }
 
@@ -351,59 +361,69 @@ function animate() {
     return;
   }
   updateControls(true, pageData[page]);
-  const curPage = pageData[page][0];
-  const nextPage = pageData[page + 1][0];
-  const pairs = [];
-  curPage.forEach(curItem => {
-    let pair;
-    nextPage.forEach(nextItem => {
-      if (curItem[2] === nextItem[2]) {
-        pair = nextItem;
-      }
-    })
-    if (pair) {
-      pairs.push([curItem[0],curItem[1],pair[0],pair[1]])
-    }
-  })
   const holdTime = 60/pageData[page][4][1]*pageData[page][4][2]*1000;
   const moveTime = 60/pageData[page][4][1]*pageData[page][4][3]*1000;
-  loadAnimation(pairs);
-  startAnimation(pairs, pageData[page][3], holdTime, moveTime);
+  startAnimation(pageData[page][3], holdTime, moveTime);
   timeout = setTimeout(animate, holdTime + moveTime);
   page++;
 }
 
-function updateData(data) {
-  switch(data[0]) {
-    case 0: {
-      data[1].forEach((page, idx) => {
-        data[1][idx][3] = [page[3][0],0,page[3][1]]
-      })
-    }
-    case 1: {
-      data[1].forEach((page, idx) => {
-        page[0].forEach((dot, dotIdx) => {
-          data[1][idx][0][dotIdx] = [parsePX(dot[0]), parsePX(dot[1]), dot[2], dot[3], dot[4]]
+function updateData(data, pageOnly = false) {
+  if (pageOnly) {
+    switch(data[0]) {
+      case 0: {
+        data[1][3] = [data[3][0], 0, data[3][1]]
+      }
+      case 1: {
+        data[1][0].forEach((dot, dotIdx) => {
+          data[1][0][dotIdx] = [parsePX(dot[0]), parsePX(dot[1]), dot[2], dot[3], dot[4]];
         })
-        page[1].forEach((title, titleIdx) => {
-          data[1][idx][1][titleIdx] = [parsePX(title[0]), parsePX(title[1]), title[2]]
+        data[1][1].forEach((dot, dotIdx) => {
+          data[1][1][dotIdx] = [parsePX(title[0]), parsePX(title[1]), title[2]];
         })
-        page[2].forEach((label, labelIdx) => {
-          data[1][idx][2][labelIdx] = [parsePX(label[0]), parsePX(label[1]), label[2]]
+        data[1][2].forEach((dot, dotIdx) => {
+          data[1][2][dotIdx] = [parsePX(label[0]), parsePX(label[1]), label[2]];
         })
-      })
+      }
+      case 2: {
+        data[1].push(data[1][3]);
+        data[1][3] = [];
+      }
+      case 3: {
+        data[1][4].unshift(`Page ${page + 1}`);
+      }
     }
-    case 2: {
-      data[1].forEach((page, idx) => {
-        data[1][idx].push(page[3]);
-        data[1][idx][3] = [];
-      })
-    }
-    case 3: {
-      data[1].forEach((page, idx) => {
-        const partData = page[4];
-        data[1][idx][4] = [`Page ${idx + 1}`, partData[0], partData[1], partData[2]];
-      })
+  } else {
+    switch(data[0]) {
+      case 0: {
+        data[1].forEach((page, idx) => {
+          data[1][idx][3] = [page[3][0],0,page[3][1]]
+        })
+      }
+      case 1: {
+        data[1].forEach((page, idx) => {
+          page[0].forEach((dot, dotIdx) => {
+            data[1][idx][0][dotIdx] = [parsePX(dot[0]), parsePX(dot[1]), dot[2], dot[3], dot[4]]
+          })
+          page[1].forEach((title, titleIdx) => {
+            data[1][idx][1][titleIdx] = [parsePX(title[0]), parsePX(title[1]), title[2]]
+          })
+          page[2].forEach((label, labelIdx) => {
+            data[1][idx][2][labelIdx] = [parsePX(label[0]), parsePX(label[1]), label[2]]
+          })
+        })
+      }
+      case 2: {
+        data[1].forEach((page, idx) => {
+          data[1][idx].push(page[3]);
+          data[1][idx][3] = [];
+        })
+      }
+      case 3: {
+        data[1].forEach((page, idx) => {
+          data[1][idx][4].unshift(`Page ${idx + 1}`)
+        })
+      }
     }
   }
   return data[1];
@@ -475,7 +495,7 @@ function addPath() {
   `)
   query(".pathContainer.active").insertAdjacentHTML("beforeend", `
   <svg>
-    <path d="" stroke="blue" fill="none" stroke-width="3px">
+    <path d="">
   </svg>
   `)
   img.onclick = (e) => {
@@ -507,7 +527,7 @@ function deletePaths() {
 }
 
 function updatePath(path) {
-  const svgPath = path.querySelector("svg path")
+  const svgPath = path.querySelector("path")
   let tempPath = "";
   let first = true;
   path.querySelectorAll(".pathDot").forEach(dot => {
@@ -551,6 +571,7 @@ function updateControls(disabled, curPage) {
     query("#pageName").disabled = true;
     query("#import").disabled = true;
     query("#export").disabled = true;
+    query("#exportType").disabled = true;
     importInput.disabled = true;
   } else {
     next.disabled = (page + 1) === pageData.length;
@@ -571,6 +592,7 @@ function updateControls(disabled, curPage) {
     query("#pageName").disabled = false;
     query("#import").disabled = false;
     query("#export").disabled = false;
+    query("#exportType").disabled = false;
     importInput.disabled = false;
   }
   loadVisibility(query("#visibility").value);
