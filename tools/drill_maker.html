@@ -15,47 +15,50 @@
   <div class="container">
   </div>
   <div class="paths" style="display: none;"></div>
-  <select id="toolbar" onchange="changeTools(this.value);">
+  <select id="toolbar" class="disableable" onchange="changeTools(this.value);">
     <option value="page">Page design tools</option>
     <option value="anim">Animation tools</option>
   </select>
   <span id="anim-tools" style="display: none;">
-    <button id="addPathBtn" onclick="addPath();">New path</button>
-    <button id="closePathBtn" onclick="closePath();">Close path</button>
-    <button id="deletePathsBtn" onclick="deletePaths()">Delete all paths</button>
+    <button class="disableable" onclick="addPath();">New path</button>
+    <!-- <select id="pathSelect"></select>
+    <button class="disableable">Add node</button>
+    <button class="disableable">Delete path</button> -->
+    <button class="disableable" onclick="closePath();">Close path</button>
+    <button class="disableable" onclick="deletePaths()">Delete all paths</button>
   </span>
   <span id="page-tools">
-    <button id="addTitleBtn" onclick="addTitle();">Add title</button>
-    <button id="addLabelBtn" onclick="addLabel();">Add label</button>
+    <button class="disableable" onclick="addTitle();">Add title</button>
+    <button class="disableable" onclick="addLabel();">Add label</button>
   </span>
-  <select id="visibility" onchange="loadVisibility(this.value);">
+  <select id="visibility" class="disableable" onchange="loadVisibility(this.value);">
     <option value="normal">Normal view</option>
     <option value="prev">Show previous page</option>
     <option value="next">Show next page</option>
   </select>
-  <input id="offsetInput" type="number" placeholder="Offset" min="-100" max="100" onchange="offset = this.value; loadVisibility(query('#visibility').value)">
+  <input class="disableable" type="number" placeholder="Offset" min="-100" max="100" onchange="offset = this.value; loadVisibility(query('#visibility').value)">
   <br>
   <br>
-  <label>BPM: </label><input id="bpmInput" placeholder="BPM" type="number" min="40" max="218" value="100">
-  <label>Hold: </label><input id="holdInput" placeholder="Beats" type="number" min="0" max="1000" value="0">
-  <label>Move: </label><input id="moveInput" placeholder="Beats" type="number" min="1" max="1000" value="16">
+  <label>BPM: </label><input id="bpmInput" class="disableable" placeholder="BPM" type="number" min="40" max="218" value="100">
+  <label>Hold: </label><input id="holdInput" class="disableable" placeholder="Beats" type="number" min="0" max="1000" value="0">
+  <label>Move: </label><input id="moveInput" class="disableable" placeholder="Beats" type="number" min="1" max="1000" value="16">
   <button onclick="handlePlay();" id="play-btn">▶</button>
   <br>
   <br>
   <button onclick="prevPage();" disabled id="prev"><</button>
-  <input type="text" id="pageName" value="Page 1">
+  <input type="text" id="pageName" class="disableable" value="Page 1">
   <button onclick="nextPage();" disabled id="next">></button>
-  <button id="newPage" onclick="newPage();">+</button>
-  <button id="deletePage" onclick="deletePage();">Delete this page</button>
+  <button class="disableable" onclick="newPage();">+</button>
+  <button class="disableable" onclick="deletePage();">Delete this page</button>
   <br>
   <br>
-  <select id="exportType">
+  <select id="exportType" class="disableable">
     <option value="doc">Document</option>
     <option value="page">Page</option>
   </select>
-  <button id="export" onclick="exportPage();">Export</button>
-  <button id="import" onclick="importPage();">Import</button>
-  <input type="text" placeholder="Put import data here" id="importInput">
+  <button class="disableable" onclick="exportPage();">Export</button>
+  <button class="disableable" onclick="importPage();">Import</button>
+  <input type="text" class="disableable" placeholder="Put import data here" id="importInput">
   <br>
   <p id="export-output"></p>
   <script src="/tools/drill_maker.js"></script>

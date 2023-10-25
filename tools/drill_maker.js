@@ -292,6 +292,7 @@ function startAnimation(paths, holdTime, moveTime) {
   const curPage = pageData[page][0];
   const nextPage = pageData[page + 1][0];
   curPage.forEach(curDot => {
+    if (curDot[2][0] === "​") return;
     const nextDot = nextPage.find(nextItem => curDot[2] === nextItem[2]);
     if (nextDot) {
       container.insertAdjacentHTML("beforeend",
@@ -299,13 +300,12 @@ function startAnimation(paths, holdTime, moveTime) {
       );
 
       const dot = container.lastElementChild;
-      let pathIdx;
       let start;
       let startIdx;
       let end;
       let endIdx;
       
-      const path = paths.find((tempPath, tempPathIdx) => {
+      const path = paths.find(tempPath => {
         start = tempPath.find((pathDot, idx) => {
           if (curDot[0] === pathDot[0] && curDot[1] === pathDot[1]) {
             startIdx = idx;
@@ -317,7 +317,6 @@ function startAnimation(paths, holdTime, moveTime) {
             if (idx <= startIdx) return false;
             if (nextDot[0] === pathDot[0] && nextDot[1] === pathDot[1]) {
               endIdx = idx;
-              pathIdx = tempPathIdx;
               return true
             } else return false;
           });
@@ -555,45 +554,11 @@ function updateControls(disabled, curPage) {
     query("#visibility").value = "normal";
     next.disabled = true;
     prev.disabled = true;
-    query("#newPage").disabled = true;
-    query("#toolbar").disabled = true;
-    query("#bpmInput").disabled = true;
-    query("#holdInput").disabled = true;
-    query("#moveInput").disabled = true;
-    query("#addPathBtn").disabled = true;
-    query("#closePathBtn").disabled = true;
-    query("#deletePathsBtn").disabled = true;
-    query("#addTitleBtn").disabled = true;
-    query("#addLabelBtn").disabled = true;
-    query("#visibility").disabled = true;
-    query("#offsetInput").disabled = true;
-    query("#deletePage").disabled = true;
-    query("#pageName").disabled = true;
-    query("#import").disabled = true;
-    query("#export").disabled = true;
-    query("#exportType").disabled = true;
-    importInput.disabled = true;
+    queryA(".disableable").forEach(input => {input.disabled = true});
   } else {
     next.disabled = (page + 1) === pageData.length;
     prev.disabled = page === 0;
-    query("#newPage").disabled = false;
-    query("#toolbar").disabled = false;
-    query("#bpmInput").disabled = false;
-    query("#holdInput").disabled = false;
-    query("#moveInput").disabled = false;
-    query("#addPathBtn").disabled = false;
-    query("#closePathBtn").disabled = false;
-    query("#deletePathsBtn").disabled = false;
-    query("#addTitleBtn").disabled = false;
-    query("#addLabelBtn").disabled = false;
-    query("#visibility").disabled = false;
-    query("#offsetInput").disabled = false;
-    query("#deletePage").disabled = false;
-    query("#pageName").disabled = false;
-    query("#import").disabled = false;
-    query("#export").disabled = false;
-    query("#exportType").disabled = false;
-    importInput.disabled = false;
+    queryA(".disableable").forEach(input => {input.disabled = false});
   }
   loadVisibility(query("#visibility").value);
   query("#pageName").value = curPage[4][0];
