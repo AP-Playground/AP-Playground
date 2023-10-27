@@ -140,6 +140,10 @@ img {
   }
 }
 
+.pathContainer:not(.active) {
+  pointer-events: none;
+}
+
 .pathDot {
   position: absolute;
   width: 9px;
@@ -150,8 +154,8 @@ img {
   cursor: move;
 }
 
-.pathDot:hover:not(:last-child):not(:nth-child(2)) {
-  background-color: red;
+.pathContainer.active .pathDot {
+  background-color: orange;
 }
 
 .pathDot:nth-child(2) {
@@ -159,8 +163,9 @@ img {
   background-color: transparent;
 }
 
-.pathDot:nth-child(2):hover {
-  outline-color: red;
+.pathContainer.active .pathDot:nth-child(2) {
+  outline: 2.5px solid red;
+  background-color: transparent;
 }
 
 .pathDot:last-child {
@@ -168,8 +173,9 @@ img {
   background-color: transparent;
 }
 
-.pathDot:last-child:hover {
-  outline-color: red;
+.pathContainer.active .pathDot:last-child {
+  outline: 2.5px solid #f2cc30;
+  background-color: transparent;
 }
 
 svg {
@@ -190,7 +196,23 @@ svg polyline {
   marker-end: url()
 }
 
+.pathContainer.active svg polyline {
+  stroke: orange;
+}
+
 #play-btn {
   height: 21.441px;
   line-height: 0;
+}
+
+select {
+  height: 21.441px;
+}
+
+#anim-tools {
+  padding-right: 25px;
+}
+
+#page-tools {
+  padding-right: 25px;
 }

@@ -21,11 +21,10 @@
   </select>
   <span id="anim-tools" style="display: none;">
     <button class="disableable" onclick="addPath();">New path</button>
-    <!-- <select id="pathSelect"></select>
-    <button class="disableable">Add node</button>
-    <button class="disableable">Delete path</button> -->
-    <button class="disableable" onclick="closePath();">Close path</button>
-    <button class="disableable" onclick="deletePaths()">Delete all paths</button>
+    <select id="pathSelect" class="disableable" onchange="selectPath(this.value);"></select>
+    <button class="disableable pathControl">Delete path</button>
+    <input type="checkbox" name="equalizeSelect" id="equalizeSelect" class="disableable pathControl">
+    <label for="equalizeSelect">Equalize</label>
   </span>
   <span id="page-tools">
     <button class="disableable" onclick="addTitle();">Add title</button>

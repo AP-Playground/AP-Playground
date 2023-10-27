@@ -22,6 +22,9 @@ function dragMouseDown(e, elmnt) {
       selected.querySelector(".input").focus();
     }, 0)
     elmnt.classList.add("selected");
+  } else if (elmnt.classList.contains("pathDot")) {
+    selected = elmnt;
+    elmnt.classList.add("selected");
   } else {
     selected = elmnt;
   }
@@ -41,21 +44,32 @@ function elementDrag(e) {
 function closeDragElement() {
   document.onmouseup = null;
   document.onmousemove = null;
-  if (selected.children.length) {
+  if (selected.classList.contains("dotContainer")) {
     selected.querySelector(".dot").classList.remove("selected");
   }
   selected.style.top = round(selected.style.top.slice(0, -2)) + "px";
   selected.style.left = round(selected.style.left.slice(0, -2)) + "px";
-  if (selected.classList.contains("pathDot")) updatePath(selected.parentNode);
+  if (selected.classList.contains("pathDot")) {
+    updatePath(selected.parentNode);
+    selected.classList.remove("selected");
+  };
   selected = undefined;
 }
 
 img.addEventListener("dblclick", addNewPoint);
 
 function addNewPoint(e) {
-  if (tool !== "p") return;
   const top = round(e.pageY);
   const left = round(e.pageX);
+  if (tool === "a") {
+    if (!query(".pathContainer.active")) return;
+    query(".pathContainer.active").insertAdjacentHTML("beforeend", `
+    <div class="pathDot" style="top: ${top}px; left: ${left}px" onmousedown="dragMouseDown(event, this)" ondblclick="
+    setTimeout(() => {updatePath(query('.pathContainer.active'));}, 0);this.remove();"></div>
+    `)
+    updatePath(query(".pathContainer.active"));
+    return;
+  }
   container.insertAdjacentHTML("beforeend",
       `<div class="dotContainer" style="top: ${top}px; left: ${left}px;">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
@@ -182,6 +196,7 @@ function loadPage(data) {
     })
   })
   updateControls(false, data);
+  selectPath("path1");
 }
 
 function prevPage() {
@@ -211,8 +226,8 @@ function importPage() {
     page++;
   }
   importInput.value = "";
-  changeTools("page");
   loadPage(pageData[page]);
+  changeTools("page");
 }
 
 function exportPage() {
@@ -468,10 +483,10 @@ function parsePX(px) {
 }
 
 function changeTools(newTool) {
+  pageData[page] = savePage();
   query("#toolbar").value = newTool;
   tool = newTool[0];
   closePath();
-  img.onclick = () => {};
   if (newTool === "page") {
     query("#page-tools").style.display = "inline";
     query("#anim-tools").style.display = "none";
@@ -483,6 +498,7 @@ function changeTools(newTool) {
     paths.style.display = "inline";
     container.style.pointerEvents = "none";
   }
+  updateControls(false, pageData[page]);
 }
 
 function addPath() {
@@ -497,25 +513,18 @@ function addPath() {
     <polyline points="">
   </svg>
   `)
-  img.onclick = (e) => {
-    const top = round(e.pageY);
-    const left = round(e.pageX);
-    query(".pathContainer.active").insertAdjacentHTML("beforeend", `
-    <div class="pathDot" style="top: ${top}px; left: ${left}px" onmousedown="dragMouseDown(event, this)"></div>
-    `)
-    updatePath(query(".pathContainer.active"));
-  }
+  updateControls(false, pageData[page]);
+  query("#pathSelect").value = "path" + (query(".paths").children.length);
 }
 
 function closePath() {
   if (query(".pathContainer.active")) {
-    if (!query(".pathContainer.active").hasChildNodes()) {
+    if (query(".pathContainer.active").children.length === 1) {
       query(".pathContainer.active").remove();
     } else {
       query(".pathContainer.active").classList.remove("active")
     }
   }
-  img.onclick = () => {};
 }
 
 function deletePaths() {
@@ -553,10 +562,31 @@ function updateControls(disabled, curPage) {
     next.disabled = (page + 1) === pageData.length;
     prev.disabled = page === 0;
     queryA(".disableable").forEach(input => {input.disabled = false});
+
+    queryA(".disableable.pathControl").forEach(input => {input.disabled = !query("#pathSelect").value})
   }
+
+  let temp = 1;
+  queryA("#pathSelect option").forEach(elmnt => {elmnt.remove()})
+  queryA(".pathContainer").forEach(() => {
+    query("#pathSelect").insertAdjacentHTML("beforeend", `
+      <option value="path${temp}">Path ${temp}</option>
+    `)
+    temp++;
+  })
+
   loadVisibility(query("#visibility").value);
   query("#pageName").value = curPage[4][0];
   query("#bpmInput").value = curPage[4][1];
   query("#holdInput").value = curPage[4][2];
   query("#moveInput").value = curPage[4][3];
+}
+
+function selectPath(val) {
+  
+  const pathNum = Number.parseInt(val.replace("path", ""))
+  closePath();
+  if (query(".paths").children.length > 0) {
+    query(".paths").children[pathNum - 1].classList.add("active");
+  }
 }
