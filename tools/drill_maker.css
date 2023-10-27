@@ -181,7 +181,7 @@ svg {
   pointer-events: none;
 }
 
-svg path {
+svg polyline {
   stroke: blue;
   fill: none;
   stroke-width: 3px;

@@ -170,7 +170,7 @@ function loadPage(data) {
     paths.insertAdjacentHTML("beforeend", `
     <div class="pathContainer">
       <svg>
-        <path d="">
+        <polyline points="">
       </svg>
     </div>
     `)
@@ -494,7 +494,7 @@ function addPath() {
   `)
   query(".pathContainer.active").insertAdjacentHTML("beforeend", `
   <svg>
-    <path d="">
+    <polyline points="">
   </svg>
   `)
   img.onclick = (e) => {
@@ -526,18 +526,12 @@ function deletePaths() {
 }
 
 function updatePath(path) {
-  const svgPath = path.querySelector("path")
+  const svgPath = path.querySelector("polyline")
   let tempPath = "";
-  let first = true;
   path.querySelectorAll(".pathDot").forEach(dot => {
-    if (first) {
-      tempPath += `M${parsePX(dot.style.left)},${parsePX(dot.style.top)}`
-      first = false;
-    } else {
-      tempPath += `L${parsePX(dot.style.left)},${parsePX(dot.style.top)}`
-    }
+    tempPath += `${parsePX(dot.style.left)},${parsePX(dot.style.top)} `
   })
-  svgPath.setAttribute("d", tempPath);
+  svgPath.setAttribute("points", tempPath);
 }
 
 window.addEventListener("beforeunload", e => {
