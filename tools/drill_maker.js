@@ -11,6 +11,16 @@ let playing = false;
 let offset = 0;
 let tool = "p";
 
+window.onbeforeprint = () => {
+  query("#controls").style.display = "none";
+  document.title = query("#pageName").value;
+}
+
+window.onafterprint = () => {
+  query("#controls").style.display = "inline";
+  document.title = "Marching Band Drill Maker | AP-Study";
+}
+
 function dragMouseDown(e, elmnt) {
   pos3 = e.pageX;
   pos4 = e.pageY;
@@ -307,8 +317,8 @@ function startAnimation(paths, holdTime, moveTime) {
   const curPage = pageData[page][0];
   const nextPage = pageData[page + 1][0];
   curPage.forEach(curDot => {
-    if (curDot[2][0] === "​") return;
-    const nextDot = nextPage.find(nextItem => curDot[2] === nextItem[2]);
+    if (curDot[2][0] === ".") return;
+    const nextDot = nextPage.find(nextItem => nextItem[2] !== "." && curDot[2] === nextItem[2]);
     if (nextDot) {
       container.insertAdjacentHTML("beforeend",
         `<div class="dotContainer animated" style="top: ${nextDot[0]}px; left: ${nextDot[1]}px;"><div class="dot"></div>`
