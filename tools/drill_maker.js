@@ -140,6 +140,7 @@ function savePage() {
     temp.length = 0;
   })
   queryA(".pathContainer").forEach(elmnt => {
+    temp.push(parseInt(elmnt.getAttribute("equalize")));
     elmnt.querySelectorAll(":not(:first-child)").forEach(pathDot => {
       temp.push([parsePX(pathDot.style.top),parsePX(pathDot.style.left)])
     })
@@ -198,7 +199,11 @@ function loadPage(data) {
       </svg>
     </div>
     `)
-    elmnt.forEach(pathDot => {
+    elmnt.forEach((pathDot, idx) => {
+      if (idx === 0) {
+        query(".pathContainer:last-child").setAttribute("equalize", pathDot);
+        return;
+      }
       query(".pathContainer:last-child").insertAdjacentHTML("beforeend", `
       <div class="pathDot" style="top: ${pathDot[0]}px; left: ${pathDot[1]}px" onmousedown="dragMouseDown(event, this)"></div>
       `)
@@ -243,9 +248,9 @@ function importPage() {
 function exportPage() {
   pageData[page] = savePage();
   if (query("#exportType").value === "doc") {
-    query("#export-output").textContent = JSON.stringify([4,pageData]);
+    query("#export-output").textContent = JSON.stringify([5,pageData]);
   } else {
-    query("#export-output").textContent = JSON.stringify([4,pageData[page]]);
+    query("#export-output").textContent = JSON.stringify([5,pageData[page]]);
   }
 }
 
@@ -332,7 +337,7 @@ function startAnimation(paths, holdTime, moveTime) {
       
       const path = paths.find(tempPath => {
         start = tempPath.find((pathDot, idx) => {
-          if (curDot[0] === pathDot[0] && curDot[1] === pathDot[1]) {
+          if (idx !== 0 && curDot[0] === pathDot[0] && curDot[1] === pathDot[1]) {
             startIdx = idx;
             return true;
           } else return false;
@@ -362,8 +367,11 @@ function startAnimation(paths, holdTime, moveTime) {
           totalLength += dist(path[i][0], path[i][1], path[i + 1][0], path[i + 1][1]);
         }
         for (let i = startIdx + 1; i < endIdx; i++) {
-          // curOffset += moveTime/(holdTime + moveTime)*dist(path[i][0], path[i][1], path[i - 1][0], path[i - 1][1])/totalLength;
-          curOffset += moveTime/(holdTime + moveTime)/(endIdx-startIdx)
+          if (path[0] === 1) {
+            curOffset += moveTime/(holdTime + moveTime)*dist(path[i][0], path[i][1], path[i - 1][0], path[i - 1][1])/totalLength;
+          } else {
+            curOffset += moveTime/(holdTime + moveTime)/(endIdx-startIdx)
+          }
           animation.push({
             translate: `${path[i][1] - nextDot[1]}px ${path[i][0] - nextDot[0]}px`,
             offset: curOffset
@@ -416,6 +424,9 @@ function updateData(data, pageOnly = false) {
       case 3: {
         data[1][4].unshift(`Page ${page + 1}`);
       }
+      case 4: {
+        data[1][3].forEach((path) => {path.unshift(0)});
+      }
     }
   } else {
     switch(data[0]) {
@@ -446,6 +457,13 @@ function updateData(data, pageOnly = false) {
       case 3: {
         data[1].forEach((page, idx) => {
           data[1][idx][4].unshift(`Page ${idx + 1}`)
+        })
+      }
+      case 4: {
+        data[1].forEach((page, idx) => {
+          page[3].forEach((path, pathIdx) => {
+            data[1][idx][3][pathIdx].unshift(0);
+          })
         })
       }
     }
@@ -508,6 +526,7 @@ function changeTools(newTool) {
     paths.style.display = "inline";
     container.style.pointerEvents = "none";
   }
+  selectPath("path1");
   updateControls(false, pageData[page]);
 }
 
@@ -524,23 +543,25 @@ function addPath() {
   </svg>
   `)
   updateControls(false, pageData[page]);
+  query("#equalizeSelect").checked = false;
   query("#pathSelect").value = "path" + (query(".paths").children.length);
 }
 
 function closePath() {
+  query("#pathSelect").value = "";
   if (query(".pathContainer.active")) {
     if (query(".pathContainer.active").children.length === 1) {
       query(".pathContainer.active").remove();
     } else {
-      query(".pathContainer.active").classList.remove("active")
+      query(".pathContainer.active").setAttribute("equalize",
+        query("#equalizeSelect").checked*1);
+      query(".pathContainer.active").classList.remove("active");
     }
   }
 }
 
-function deletePaths() {
-  queryA(".pathContainer").forEach(elmnt => {
-    elmnt.remove();
-  })
+function deletePath() {
+  query(".pathContainer.active").remove();
   closePath();
 }
 
@@ -573,17 +594,15 @@ function updateControls(disabled, curPage) {
     prev.disabled = page === 0;
     queryA(".disableable").forEach(input => {input.disabled = false});
 
-    queryA(".disableable.pathControl").forEach(input => {input.disabled = !query("#pathSelect").value})
-  }
 
-  let temp = 1;
-  queryA("#pathSelect option").forEach(elmnt => {elmnt.remove()})
-  queryA(".pathContainer").forEach(() => {
-    query("#pathSelect").insertAdjacentHTML("beforeend", `
-      <option value="path${temp}">Path ${temp}</option>
-    `)
-    temp++;
-  })
+    queryA("#pathSelect option").forEach(elmnt => {elmnt.remove()})
+    for (let i = 1; i <= queryA(".pathContainer").length; i++) {
+      query("#pathSelect").insertAdjacentHTML("beforeend", `
+        <option value="path${i}">Path ${i}</option>
+      `);
+    }
+    queryA(".disableable.pathControl").forEach(input => {input.disabled = !query(".pathContainer.active")});
+  }
 
   loadVisibility(query("#visibility").value);
   query("#pageName").value = curPage[4][0];
@@ -593,10 +612,12 @@ function updateControls(disabled, curPage) {
 }
 
 function selectPath(val) {
-  
-  const pathNum = Number.parseInt(val.replace("path", ""))
+  const pathNum = Number.parseInt(val.replace("path", ""));
   closePath();
-  if (query(".paths").children.length > 0) {
+  if (query(".paths").children.length >= pathNum) {
     query(".paths").children[pathNum - 1].classList.add("active");
+    query("#equalizeSelect").checked = query(".pathContainer.active").getAttribute("equalize") === "1";
   }
+  updateControls(false, pageData[page]);
+  query("#pathSelect").value = val;
 }
