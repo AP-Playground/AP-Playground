@@ -23,6 +23,11 @@ img {
   justify-content: center;
 }
 
+.dotContainer.selected,
+.dotContainer:hover {
+  z-index: 100;
+}
+
 .dot {
   position: absolute;
   inset: -4.5px;
@@ -31,11 +36,12 @@ img {
   cursor: move;
 }
 
-.dot:hover {
+.dotContainer:hover .dot {
   outline-color: red;
 }
 
-.dot.selected {
+.dotContainer.selected .dot,
+.dotContainer:focus-within .dot {
   outline-color: blue;
 }
 

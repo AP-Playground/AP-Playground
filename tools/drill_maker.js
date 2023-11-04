@@ -31,13 +31,10 @@ function dragMouseDown(e, elmnt) {
     setTimeout(() => {
       selected.querySelector(".input").focus();
     }, 0)
-    elmnt.classList.add("selected");
-  } else if (elmnt.classList.contains("pathDot")) {
-    selected = elmnt;
-    elmnt.classList.add("selected");
   } else {
     selected = elmnt;
   }
+  selected.classList.add("selected");
 }
 
 function elementDrag(e) {
@@ -54,15 +51,12 @@ function elementDrag(e) {
 function closeDragElement() {
   document.onmouseup = null;
   document.onmousemove = null;
-  if (selected.classList.contains("dotContainer")) {
-    selected.querySelector(".dot").classList.remove("selected");
-  }
   selected.style.top = round(selected.style.top.slice(0, -2)) + "px";
   selected.style.left = round(selected.style.left.slice(0, -2)) + "px";
   if (selected.classList.contains("pathDot")) {
     updatePath(selected.parentNode);
-    selected.classList.remove("selected");
   };
+  selected.classList.remove("selected");
   selected = undefined;
 }
 
@@ -573,12 +567,6 @@ function updatePath(path) {
   })
   svgPath.setAttribute("points", tempPath);
 }
-
-window.addEventListener("beforeunload", e => {
-  e.returnValue = '';
-  return;
-})
-
 function dist(x1, y1, x2, y2) {
   return Math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
 }
