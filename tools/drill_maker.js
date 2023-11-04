@@ -78,7 +78,7 @@ function addNewPoint(e) {
       `<div class="dotContainer" style="top: ${top}px; left: ${left}px;">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label" style="--position: -4; --rotation: 0">
-          <span class="not-visible"></span>
+          <span class="rot">👁</span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
           <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
@@ -163,7 +163,7 @@ function loadPage(data) {
       `<div class="dotContainer" style="top: ${elmnt[0]}px; left: ${elmnt[1]}px;">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">
-          <span class="not-visible"></span>
+          <span class="rot">👁</span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
           <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>

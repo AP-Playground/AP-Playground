@@ -52,6 +52,7 @@ img {
   translate: calc(20px * cos(calc(var(--position) * 22.5deg)))
   calc(20px * sin(calc(var(--position) * 22.5deg)));
   rotate: calc(var(--rotation) * 22.5deg);
+  justify-items: center;
 }
 
 .over-dotContainer {
@@ -92,6 +93,16 @@ img {
   font-size: 12px;
   background-color: white;
   text-align: center;
+  line-height: 14px;
+  width: 14px;
+}
+
+.rot:nth-child(2) {
+  width: 100%;
+}
+
+.rot:nth-child(8) {
+  width: 100%;
 }
 
 .rot:hover {
