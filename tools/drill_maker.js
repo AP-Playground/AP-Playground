@@ -78,7 +78,13 @@ function addNewPoint(e) {
       `<div class="dotContainer" style="top: ${top}px; left: ${left}px;">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label" style="--position: -4; --rotation: 0">
-          <span class="rot">👁</span>
+          <span class="rot" onclick="if(this.style.textDecoration) {
+            this.style.textDecoration='';
+            this.parentNode.classList.remove('hidden');
+          } else {
+            this.style.textDecoration='line-through';
+            this.parentNode.classList.add('hidden');
+          }; rotate(this.parentNode, 0, 0)">👁</span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
           <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
@@ -98,8 +104,9 @@ function duplicate(elmnt) {
 }
 
 function rotate(elmnt, pos, rot) {
-  elmnt.style.setProperty('--position',parseInt(elmnt.style.getPropertyValue('--position')) + pos)
-  elmnt.style.setProperty('--rotation',parseInt(elmnt.style.getPropertyValue('--rotation')) + rot)
+  elmnt.style.setProperty('--position',parseInt(elmnt.style.getPropertyValue('--position')) + pos);
+  elmnt.style.setProperty('--rotation',parseInt(elmnt.style.getPropertyValue('--rotation')) + rot);
+  elmnt.querySelector(".input").focus();
 }
 
 function round(val) {
@@ -163,7 +170,13 @@ function loadPage(data) {
       `<div class="dotContainer" style="top: ${elmnt[0]}px; left: ${elmnt[1]}px;">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">
-          <span class="rot">👁</span>
+          <span class="rot" onclick="if(this.style.textDecoration) {
+            this.style.textDecoration='';
+            this.parentNode.classList.remove('hidden');
+          } else {
+            this.style.textDecoration='line-through';
+            this.parentNode.classList.add('hidden');
+          }; rotate(this.parentNode, 0, 0)">👁</span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
           <span class="not-visible"></span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
