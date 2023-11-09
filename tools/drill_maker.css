@@ -54,10 +54,17 @@ img {
   calc(20px * sin(calc(var(--position) * 22.5deg)));
   rotate: calc(var(--rotation) * 22.5deg);
   justify-items: center;
+  transition: scale 0.5s 0.5s;
 }
 
-.label.hidden:not(:focus-within):not(:hover) {
+.label.hidden {
   scale: 0;
+}
+
+.dotContainer.selected .label,
+.dotContainer:hover .label,
+.dotContainer:focus-within .label {
+  scale: 1;
 }
 
 .over-dotContainer {

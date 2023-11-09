@@ -121,8 +121,9 @@ function savePage() {
     temp.push(parsePX(elmnt.style.top));
     temp.push(parsePX(elmnt.style.left));
     temp.push(elmnt.querySelector(".input").textContent);
-    temp.push(elmnt.lastElementChild.style.getPropertyValue("--position")*1)
-    temp.push(elmnt.lastElementChild.style.getPropertyValue("--rotation")*1)
+    temp.push(elmnt.lastElementChild.style.getPropertyValue("--position")*1);
+    temp.push(elmnt.lastElementChild.style.getPropertyValue("--rotation")*1);
+    temp.push(elmnt.querySelector(".label").classList.contains("hidden")*1);
     exportData[0].push([...temp]);
     temp.length = 0;
   })
@@ -169,7 +170,7 @@ function loadPage(data) {
     container.insertAdjacentHTML("beforeend",
       `<div class="dotContainer" style="top: ${elmnt[0]}px; left: ${elmnt[1]}px;">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
-        <div class="label" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">
+        <div class="label${elmnt[5] ? " hidden" : ""}" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">
           <span class="rot" onclick="if(this.style.textDecoration) {
             this.style.textDecoration='';
             this.parentNode.classList.remove('hidden');
@@ -240,11 +241,12 @@ function newPage() {
 }
 
 function importPage() {
+  const data = JSON.parse(importInput.value)
   if (query("#exportType").value === "doc") {
-    pageData = updateData(JSON.parse(importInput.value));
+    pageData = updateData(data[1], data[0]);
     page = 0;
   } else {
-    pageData.splice(page + 1, 0, updateData(JSON.parse(importInput.value), true));
+    pageData.splice(page + 1, 0, updateData(data[1], data[0], true));
     page++;
   }
   importInput.value = "";
@@ -255,9 +257,9 @@ function importPage() {
 function exportPage() {
   pageData[page] = savePage();
   if (query("#exportType").value === "doc") {
-    query("#export-output").textContent = JSON.stringify([5,pageData]);
+    query("#export-output").textContent = JSON.stringify([6,pageData]);
   } else {
-    query("#export-output").textContent = JSON.stringify([5,pageData[page]]);
+    query("#export-output").textContent = JSON.stringify([6,pageData[page]]);
   }
 }
 
@@ -407,75 +409,87 @@ function animate() {
   page++;
 }
 
-function updateData(data, pageOnly = false) {
+function updateData(data, version, pageOnly = false) {
   if (pageOnly) {
-    switch(data[0]) {
+    switch(version) {
       case 0: {
-        data[1][3] = [data[3][0], 0, data[3][1]]
+        data[3] = [data[3][0], 0, data[3][1]]
       }
       case 1: {
-        data[1][0].forEach((dot, dotIdx) => {
-          data[1][0][dotIdx] = [parsePX(dot[0]), parsePX(dot[1]), dot[2], dot[3], dot[4]];
+        data[0].forEach((dot, dotIdx) => {
+          data[0][dotIdx] = [parsePX(dot[0]), parsePX(dot[1]), dot[2], dot[3], dot[4]];
         })
-        data[1][1].forEach((dot, dotIdx) => {
-          data[1][1][dotIdx] = [parsePX(title[0]), parsePX(title[1]), title[2]];
+        data[1].forEach((dot, dotIdx) => {
+          data[1][dotIdx] = [parsePX(title[0]), parsePX(title[1]), title[2]];
         })
-        data[1][2].forEach((dot, dotIdx) => {
-          data[1][2][dotIdx] = [parsePX(label[0]), parsePX(label[1]), label[2]];
+        data[2].forEach((dot, dotIdx) => {
+          data[2][dotIdx] = [parsePX(label[0]), parsePX(label[1]), label[2]];
         })
       }
       case 2: {
-        data[1].push(data[1][3]);
-        data[1][3] = [];
+        data.push(data[3]);
+        data[3] = [];
       }
       case 3: {
-        data[1][4].unshift(`Page ${page + 1}`);
+        data[4].unshift(`Page ${page + 1}`);
       }
       case 4: {
-        data[1][3].forEach((path) => {path.unshift(0)});
+        data[3].forEach((path) => {path.unshift(0)});
+      }
+      case 5: {
+        data[0].forEach((dot, dotIdx) => {
+          data[0][dotIdx].push(0)
+        })
       }
     }
   } else {
-    switch(data[0]) {
+    switch(version) {
       case 0: {
-        data[1].forEach((page, idx) => {
-          data[1][idx][3] = [page[3][0],0,page[3][1]]
+        data.forEach((page, idx) => {
+          data[idx][3] = [page[3][0],0,page[3][1]]
         })
       }
       case 1: {
-        data[1].forEach((page, idx) => {
+        data.forEach((page, idx) => {
           page[0].forEach((dot, dotIdx) => {
-            data[1][idx][0][dotIdx] = [parsePX(dot[0]), parsePX(dot[1]), dot[2], dot[3], dot[4]]
+            data[idx][0][dotIdx] = [parsePX(dot[0]), parsePX(dot[1]), dot[2], dot[3], dot[4]]
           })
           page[1].forEach((title, titleIdx) => {
-            data[1][idx][1][titleIdx] = [parsePX(title[0]), parsePX(title[1]), title[2]]
+            data[idx][1][titleIdx] = [parsePX(title[0]), parsePX(title[1]), title[2]]
           })
           page[2].forEach((label, labelIdx) => {
-            data[1][idx][2][labelIdx] = [parsePX(label[0]), parsePX(label[1]), label[2]]
+            data[idx][2][labelIdx] = [parsePX(label[0]), parsePX(label[1]), label[2]]
           })
         })
       }
       case 2: {
-        data[1].forEach((page, idx) => {
-          data[1][idx].push(page[3]);
-          data[1][idx][3] = [];
+        data.forEach((page, idx) => {
+          data[idx].push(page[3]);
+          data[idx][3] = [];
         })
       }
       case 3: {
-        data[1].forEach((page, idx) => {
-          data[1][idx][4].unshift(`Page ${idx + 1}`)
+        data.forEach((page, idx) => {
+          data[idx][4].unshift(`Page ${idx + 1}`)
         })
       }
       case 4: {
-        data[1].forEach((page, idx) => {
+        data.forEach((page, idx) => {
           page[3].forEach((path, pathIdx) => {
-            data[1][idx][3][pathIdx].unshift(0);
+            data[idx][3][pathIdx].unshift(0);
+          })
+        })
+      }
+      case 5: {
+        data.forEach((page, idx) => {
+          page[0].forEach((dot, dotIdx) => {
+            data[idx][0][dotIdx].push(0)
           })
         })
       }
     }
   }
-  return data[1];
+  return data;
 }
 
 function loadVisibility(status) {
