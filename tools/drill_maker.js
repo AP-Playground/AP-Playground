@@ -78,15 +78,19 @@ function addNewPoint(e) {
       `<div class="dotContainer" style="top: ${top}px; left: ${left}px;">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label" style="--position: -4; --rotation: 0">
-          <span class="rot" onclick="if(this.style.textDecoration) {
-            this.style.textDecoration='';
-            this.parentNode.classList.remove('hidden');
-          } else {
-            this.style.textDecoration='line-through';
-            this.parentNode.classList.add('hidden');
-          }; rotate(this.parentNode, 0, 0)">👁</span>
+          <span class="rot" onclick="
+            if(this.style.textDecoration) this.style.textDecoration='';
+            else this.style.textDecoration='line-through';
+            this.parentNode.classList.toggle('hidden');
+            rotate(this.parentNode, 0, 0);
+          ">👁</span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
-          <span class="not-visible"></span>
+          <span class="rot" onclick="
+            if(this.style.textDecoration) this.style.textDecoration='';
+            else this.style.textDecoration='line-through';
+            this.parentNode.parentNode.classList.toggle('toAnimate');
+            rotate(this.parentNode, 0, 0);
+          ">🏃</span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
           <span class="input" contenteditable onblur="if(this.textContent === '') this.parentNode.parentNode.remove();"></span>
           <span class="rot" onclick="rotate(this.parentNode, 1, 0)">⭮</span>
@@ -124,6 +128,7 @@ function savePage() {
     temp.push(elmnt.lastElementChild.style.getPropertyValue("--position")*1);
     temp.push(elmnt.lastElementChild.style.getPropertyValue("--rotation")*1);
     temp.push(elmnt.querySelector(".label").classList.contains("hidden")*1);
+    temp.push(elmnt.classList.contains("toAnimate")*1);
     exportData[0].push([...temp]);
     temp.length = 0;
   })
@@ -168,18 +173,22 @@ function loadPage(data) {
   })
   data[0].forEach(elmnt => {
     container.insertAdjacentHTML("beforeend",
-      `<div class="dotContainer" style="top: ${elmnt[0]}px; left: ${elmnt[1]}px;">
+      `<div class="dotContainer${elmnt[6] ? " toAnimate" : ""}" style="top: ${elmnt[0]}px; left: ${elmnt[1]}px;">
         <div class="dot" onmousedown="dragMouseDown(event, this)" ondblclick="duplicate(this);"></div>
         <div class="label${elmnt[5] ? " hidden" : ""}" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">
-          <span class="rot" onclick="if(this.style.textDecoration) {
-            this.style.textDecoration='';
-            this.parentNode.classList.remove('hidden');
-          } else {
-            this.style.textDecoration='line-through';
-            this.parentNode.classList.add('hidden');
-          }; rotate(this.parentNode, 0, 0)">👁</span>
+          <span class="rot" onclick="
+            if(this.style.textDecoration) this.style.textDecoration='';
+            else this.style.textDecoration='line-through';
+            this.parentNode.classList.toggle('hidden');
+            rotate(this.parentNode, 0, 0);
+          " style="text-decoration: ${elmnt[5] ? "line-through" : ""}">👁</span>
           <span class="rot" onclick="rotate(this.parentNode, 0, -1)">⤺</span>
-          <span class="not-visible"></span>
+          <span class="rot" onclick="
+            if(this.style.textDecoration) this.style.textDecoration='';
+            else this.style.textDecoration='line-through';
+            this.parentNode.parentNode.classList.toggle('toAnimate');
+            rotate(this.parentNode, 0, 0);
+          " style="text-decoration: ${elmnt[6] ? "line-through" : ""}">🏃</span>
           <span class="rot" onclick="rotate(this.parentNode, -1, 0)">⭯</span>
           <span class="input" contenteditable onblur="if(this.textContent === '') this.parentNode.parentNode.remove();">${elmnt[2]}</span>
           <span class="rot" onclick="rotate(this.parentNode, 1, 0)">⭮</span>
@@ -257,9 +266,9 @@ function importPage() {
 function exportPage() {
   pageData[page] = savePage();
   if (query("#exportType").value === "doc") {
-    query("#export-output").textContent = JSON.stringify([6,pageData]);
+    query("#export-output").textContent = JSON.stringify([7,pageData]);
   } else {
-    query("#export-output").textContent = JSON.stringify([6,pageData[page]]);
+    query("#export-output").textContent = JSON.stringify([7,pageData[page]]);
   }
 }
 
@@ -331,36 +340,27 @@ function startAnimation(paths, holdTime, moveTime) {
   const curPage = pageData[page][0];
   const nextPage = pageData[page + 1][0];
   curPage.forEach(curDot => {
-    if (curDot[2][0] === ".") return;
-    const nextDot = nextPage.find(nextItem => nextItem[2] !== "." && curDot[2] === nextItem[2]);
+    if (curDot[6] === 1) return;
+    const nextDot = nextPage.find(nextItem => nextItem[6] === 0 && curDot[2] === nextItem[2]);
     if (nextDot) {
       container.insertAdjacentHTML("beforeend",
         `<div class="dotContainer animated" style="top: ${nextDot[0]}px; left: ${nextDot[1]}px;"><div class="dot"></div>`
       );
 
       const dot = container.lastElementChild;
-      let start;
-      let startIdx;
-      let end;
-      let endIdx;
+      let startIdx = -1;
+      let endIdx = -1;
       
       const path = paths.find(tempPath => {
-        start = tempPath.find((pathDot, idx) => {
-          if (idx !== 0 && curDot[0] === pathDot[0] && curDot[1] === pathDot[1]) {
-            startIdx = idx;
-            return true;
-          } else return false;
-        });
-        if (start) {
-          end = tempPath.find((pathDot, idx) => {
-            if (idx <= startIdx) return false;
-            if (nextDot[0] === pathDot[0] && nextDot[1] === pathDot[1]) {
-              endIdx = idx;
-              return true
-            } else return false;
-          });
+        startIdx = tempPath.findIndex((pathDot, idx) =>
+          idx !== 0 && curDot[0] === pathDot[0] && curDot[1] === pathDot[1]
+        );
+        if (startIdx !== -1) {
+          endIdx = tempPath.findLastIndex((pathDot, idx) =>
+            idx > startIdx && nextDot[0] === pathDot[0] && nextDot[1] === pathDot[1]
+          );
         }
-        return end;
+        return endIdx !== -1;
       })
 
       const animation = [
@@ -369,7 +369,7 @@ function startAnimation(paths, holdTime, moveTime) {
         offset: holdTime / (holdTime + moveTime)}
       ]
 
-      if (start && endIdx !== -1) {
+      if (startIdx !== -1 && endIdx !== -1) {
         let curOffset = holdTime / (holdTime + moveTime);
         let totalLength = 0;
         for (let i = startIdx; i < endIdx; i++) {
@@ -441,6 +441,11 @@ function updateData(data, version, pageOnly = false) {
           data[0][dotIdx].push(0)
         })
       }
+      case 6: {
+        data[0].forEach((dot, dotIdx) => {
+          data[0][dotIdx].push(0)
+        })
+      }
     }
   } else {
     switch(version) {
@@ -481,6 +486,13 @@ function updateData(data, version, pageOnly = false) {
         })
       }
       case 5: {
+        data.forEach((page, idx) => {
+          page[0].forEach((dot, dotIdx) => {
+            data[idx][0][dotIdx].push(0)
+          })
+        })
+      }
+      case 6: {
         data.forEach((page, idx) => {
           page[0].forEach((dot, dotIdx) => {
             data[idx][0][dotIdx].push(0)
@@ -583,7 +595,8 @@ function closePath() {
 
 function deletePath() {
   query(".pathContainer.active").remove();
-  closePath();
+  const currentPath = query("#pathSelect").value;
+  selectPath("path" + (Number.parseInt(currentPath.replace("path", "")) - 1));
 }
 
 function updatePath(path) {
@@ -609,7 +622,6 @@ function updateControls(disabled, curPage) {
     prev.disabled = page === 0;
     queryA(".disableable").forEach(input => {input.disabled = false});
 
-
     queryA("#pathSelect option").forEach(elmnt => {elmnt.remove()})
     for (let i = 1; i <= queryA(".pathContainer").length; i++) {
       query("#pathSelect").insertAdjacentHTML("beforeend", `
@@ -627,9 +639,13 @@ function updateControls(disabled, curPage) {
 }
 
 function selectPath(val) {
-  const pathNum = Number.parseInt(val.replace("path", ""));
+  let pathNum = Number.parseInt(val.replace("path", ""));
   closePath();
-  if (query(".paths").children.length >= pathNum) {
+  if (pathNum === 0 && query(".paths").children.length > 0) {
+    pathNum = 1;
+    val = "path1"
+  };
+  if (query(".paths").children.length >= pathNum && pathNum !== 0) {
     query(".paths").children[pathNum - 1].classList.add("active");
     query("#equalizeSelect").checked = query(".pathContainer.active").getAttribute("equalize") === "1";
   }

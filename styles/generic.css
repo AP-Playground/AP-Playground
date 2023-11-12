@@ -17,15 +17,16 @@ main {
   padding: 30px calc(min(200px, 8vw) - var(--scrollbar)) 30px min(200px, 8vw);
   overflow: hidden;
   isolation: isolate;
-  min-height: calc(100vh - 20px);
+  min-height: calc(100vh - 80px);
   box-sizing: border-box;
+  position: relative;
 }
 
 @media (max-width: 500px) {
   main {
     margin: 0;
     border-radius: 0;
-    min-height: calc(100vh);
+    min-height: calc(100vh - 60px);
   }
 }
 

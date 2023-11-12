@@ -7,7 +7,6 @@ body {
 .header-pc {
   background-color: #45818e;
   height: 60px;
-  position: fixed;
   inset: 0;
   display: flex;
   z-index: 100;
@@ -38,7 +37,6 @@ body {
 }
 
 .header-mobile {
-  position: fixed;
   inset: 0;
   z-index: 100;
   height: fit-content;

@@ -1,31 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body {
-  background-color: gainsboro;
-  font-family: Roboto;
-  margin: 0;
-}
-
 main {
-  background-color: white;
   background: repeating-linear-gradient(30deg, #f4f4f4 0px,  white 35px, #f4f4f4 70px);
-  position: absolute;
-  inset: 10px;
-  border-radius: 15px;
   padding-left: min(100px, 6vw);
-  overflow: hidden;
-  isolation: isolate;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-@media (max-width: 500px) {
-  main {
-    margin: 0;
-    border-radius: 0;
-    inset: 0;
-  }
 }
 
 
