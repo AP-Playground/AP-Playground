@@ -2,16 +2,15 @@
 
 main {
   background: repeating-linear-gradient(30deg, #f4f4f4 0px,  white 35px, #f4f4f4 70px);
-  padding-left: min(100px, 6vw);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  padding-top: 20vh;
 }
-
 
 main h1 {
   margin: 0;
-  font-size: min(70px, 13vw);
+  font-size: min(80px, 16vw);
   font-weight: bold;
 }
 
@@ -19,12 +18,16 @@ main h2 {
   margin: 0;
   color: #555;
   margin-bottom: 20px;
-  font-size: min(32px, 6vw);
+  margin-top: 1vh;
+  font-size: min(40px, 8vw);
   font-family: Kalam;
 }
 
 .search {
   min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .search input {
@@ -33,6 +36,7 @@ main h2 {
   border-radius: 100px;
   width: min(500px, 80vw);
   border: 1px solid black;
+  text-align: center;
 }
 
 .search input:focus {
@@ -47,7 +51,6 @@ main h2 {
   padding: min(10px, 2vw);
   padding-top: 0;
   padding-bottom: 0px;
-  margin-left: min(10px, 2vw);
   border-radius: min(16px, 3vw);
   max-height: 250px;
   overflow-y: scroll;
@@ -93,15 +96,4 @@ main h2 {
 
 .search-results a.hidden {
   display: none;
-}
-
-.cover-image {
-  height: min(75%, calc(90vw - 20px));
-  aspect-ratio: 1;
-  border-radius: 100% 0px 0px 0px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  overflow: hidden;
-  z-index: -1;
 }
