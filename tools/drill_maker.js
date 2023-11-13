@@ -11,6 +11,9 @@ let playing = false;
 let offset = 0;
 let tool = "p";
 
+pageData[page] = savePage()
+updateControls(false, pageData[0])
+
 window.onbeforeprint = () => {
   query("#controls").style.display = "none";
   document.title = query("#pageName").value;
@@ -628,6 +631,7 @@ function updateControls(disabled, curPage) {
         <option value="path${i}">Path ${i}</option>
       `);
     }
+    query("#play-btn").disabled = page === pageData.length - 1;
     queryA(".disableable.pathControl").forEach(input => {input.disabled = !query(".pathContainer.active")});
   }
 
