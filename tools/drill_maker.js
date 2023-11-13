@@ -632,10 +632,9 @@ function updateControls(disabled, curPage) {
         <option value="path${i}">Path ${i}</option>
       `);
     }
-    query("#play-btn").disabled = page === pageData.length - 1;
     queryA(".disableable.pathControl").forEach(input => {input.disabled = !query(".pathContainer.active")});
   }
-
+  query("#play-btn").disabled = page === pageData.length - 1;
   loadVisibility(query("#visibility").value);
   query("#pageName").value = curPage[4][0];
   query("#bpmInput").value = curPage[4][1];

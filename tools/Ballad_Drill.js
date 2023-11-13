@@ -298,4 +298,5 @@ function updateControls(disabled, curPage) {
     next.disabled = (page + 1) === pageData.length;
     prev.disabled = page === 0;
   }
+  query("#play-btn").disabled = page === pageData.length - 1;
 }
