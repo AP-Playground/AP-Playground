@@ -4,7 +4,7 @@ let headerOpen = false;
 
 document.querySelector("script.header").insertAdjacentHTML("beforebegin", `
   <header class="header-pc">
-    <a href="/home" title="Home">
+    <a href="/" title="Home">
       <img src="/svgs/logo.svg" class="header-logo">
     </a>
     <a href="/classes">Classes</a>
