@@ -11,7 +11,7 @@ let playing = false;
 let offset = 0;
 let tool = "p";
 
-updateControls(false, pageData[page]);
+updateControls(false);
 loadPage(pageData[page])
 
 window.onbeforeprint = () => {
@@ -65,13 +65,13 @@ function loadPage(data) {
 function prevPage() {
   page--;
   loadPage(pageData[page]);
-  updateControls(false, pageData[page])
+  updateControls(false)
 }
 
 function nextPage(save = true) {
   page++
   loadPage(pageData[page]);
-  updateControls(false, pageData[page])
+  updateControls(false)
 }
 
 function query(val) {
@@ -91,7 +91,7 @@ function handlePlay() {
     page--;
     loadPage(pageData[page]);
     clearTimeout(timeout);
-    updateControls(false, pageData[page])
+    updateControls(false)
     return;
   }
 
@@ -181,9 +181,10 @@ function animate() {
     query("#play-btn").textContent = "▶";
     playing = false;
     loadPage(pageData[page]);
+    updateControls(false);
     return;
   }
-  updateControls(true, pageData[page]);
+  updateControls(true);
   const holdTime = 60/pageData[page][4][1]*pageData[page][4][2]*1000;
   const moveTime = 60/pageData[page][4][1]*pageData[page][4][3]*1000;
   startAnimation(pageData[page][3], holdTime, moveTime);
@@ -290,7 +291,7 @@ function parsePX(px) {
   return parseFloat(px.replace("px", ""))
 }
 
-function updateControls(disabled, curPage) {
+function updateControls(disabled) {
   if (disabled) {
     next.disabled = true;
     prev.disabled = true;
