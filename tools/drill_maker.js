@@ -519,7 +519,7 @@ function loadVisibility(status) {
         overlay.insertAdjacentHTML("beforeend",
           `<div class="over-dotContainer" style="top: ${elmnt[0]}px; left: ${(elmnt[1] + parseFloat(offset)*5.68)}px;">
             <div class="over-dot"></div>
-            <div class="over-label" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">${elmnt[2]}</div>`
+            ${elmnt[5] ? "" : `<div class="over-label" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">${elmnt[2]}</div>`}`
         );
       })
       return;
@@ -531,7 +531,7 @@ function loadVisibility(status) {
         overlay.insertAdjacentHTML("beforeend",
           `<div class="over-dotContainer" style="top: ${elmnt[0]}px; left: ${(elmnt[1] + parseFloat(offset)*5.68)}px;">
             <div class="over-dot"></div>
-            <div class="over-label" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">${elmnt[2]}</div>`
+            ${elmnt[5] ? "" : `<div class="over-label" style="--position: ${elmnt[3]}; --rotation: ${elmnt[4]}">${elmnt[2]}</div>`}`
         );
       })
       return;
