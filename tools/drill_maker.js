@@ -250,7 +250,7 @@ function newPage() {
   pageData[page] = savePage();
   pageData.splice(page, 0, pageData[page])
   nextPage(false);
-  query("#pageName").value = "Page" + pageData.length;
+  query("#pageName").value = "Page " + pageData.length;
 }
 
 function importPage() {
