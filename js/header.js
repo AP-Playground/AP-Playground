@@ -13,13 +13,12 @@ document.querySelector("script.header").insertAdjacentHTML("beforebegin", `
     <a href="/tools">Tools</a>
   </header>
   <header class="header-mobile">
-    <div class="header-top">
-      <button class="header-expand">
-        <img src="/svgs/expand.svg">
+    <div class="header-top hidden">
+      <button class="header-expand" onclick="this.parentNode.classList.toggle('hidden');">
       </button>
       <img src="/svgs/logo.svg" class="header-logo">
     </div>
-    <div class="header-items hidden">
+    <div class="header-items">
       <a href="/home">Home</a>
       <a href="/classes">Classes</a>
       <a href="/about">About</a>
@@ -28,15 +27,3 @@ document.querySelector("script.header").insertAdjacentHTML("beforebegin", `
     </div>
   </header>
 `);
-
-setTimeout(() => {
-  updateHeader();
-}, 500);
-
-function updateHeader() {
-  document.querySelector(".header-expand").addEventListener("click", () => {
-    headerOpen = !headerOpen;
-    document.querySelector(".header-expand").innerHTML = headerOpen ? `<img src="/svgs/shrink.svg">` : `<img src="/svgs/expand.svg">`;
-    document.querySelector(".header-items").classList.toggle("hidden");
-  })
-}

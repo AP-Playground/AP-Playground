@@ -76,3 +76,16 @@ main > h3 {
   display: block;
   overflow-wrap: break-word;
 }
+
+.link-bar {
+  margin-bottom: 15px;
+}
+
+.link-bar a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link-bar a:hover {
+  text-decoration: underline;
+}

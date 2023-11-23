@@ -40,6 +40,12 @@ body {
   inset: 0;
   z-index: 100;
   height: fit-content;
+  position: relative;
+}
+
+.header-items {
+  position: absolute;
+  width: 100%;
 }
 
 .header-top {
@@ -55,6 +61,11 @@ body {
   border: none;
   background-color: transparent;
   margin-right: 5px;
+  background-image: url("/svgs/shrink.svg");
+}
+
+.header-top.hidden .header-expand {
+  background-image: url("/svgs/expand.svg");
 }
 
 .header-items a{
@@ -72,7 +83,7 @@ body {
   border-bottom: 1px solid black;
 }
 
-.header-items.hidden {
+.header-top.hidden + .header-items {
   display: none;
 }
 
