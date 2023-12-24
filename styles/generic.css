@@ -89,3 +89,11 @@ main > h3 {
 .link-bar a:hover {
   text-decoration: underline;
 }
+
+main iframe {
+  margin: 30px auto;
+  width: min(90%, 1000px);
+  height: auto;
+  aspect-ratio: 16/9;
+  display: block;
+}
