@@ -6,8 +6,11 @@
 
 body {
   background-color: gainsboro;
-  font-family: Roboto;
   margin: 0;
+}
+
+* {
+  font-family: Roboto;
 }
 
 main {

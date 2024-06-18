@@ -1,0 +1,791 @@
+{
+  "Groups": ["People", "Events", "Religion & Culture", "Ideas & Innovations", "Societies & Structures"],
+
+
+  "Matching": ["Definition", "Cause", "Effect", "Date"],
+  "Categorization": ["Region"],
+  "Sentences": ["Sentence"],
+  
+  "Region": ["East Asia", "South Asia", "Southeast Asia", "West Africa", "East Africa", "North Africa", "Middle East", "Oceania", "South America", "North America", "Latin America", "Eastern Europe", "Western Europe", "Central Asia"],
+
+
+  "People": ["Definition", "Effect", "Region", "Sentence", "Date"],
+  "Events": ["Definition", "Cause", "Effect", "Region", "Sentence", "Date"],
+  "Religion & Culture": ["Definition", "Cause", "Effect", "Region", "Sentence"],
+  "Ideas & Innovations": ["Definition", "Cause", "Effect", "Region", "Sentence"],
+  "Societies & Structures": ["Definition", "Cause", "Effect", "Region", "Sentence"],
+
+
+  "Units": {
+    "Unit 1: The Global Tapestry": [
+      {
+        "Term": "Neo-Confucianism",
+        "Group": ["Religion & Culture", "Societies & Structures"],
+        "Definition": "Chinese philosophy that rejects the more mystical elements of Daoism and Buddhism",
+        "Cause": "Updated from older version of the religion to align with the Song Dynasty; reaction against Buddhism and Daoism",
+        "Effect": "Helped Chinese dynasties maintain legitimacy through filial piety and civil service exams",
+        "Region": "East Asia",
+        "Sentence": ["Neo-Confucianism enforced ", ["China"], "'s societal structure through its encouragement of ", ["filial piety"], "."]
+      },
+      {
+        "Term": "Champa Rice",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "A quickly growing, drought resistant crop",
+        "Cause": "Given as tribute gift to the Emperor from the Champa Kingdom, who had gotten it from the Vietnamese Empire",
+        "Effect": "Hugely increased food production, causing a population boom",
+        "Region": "East Asia",
+        "Sentence": [["Champa Rice"], " allowed China's population to grow rapidly, making it an early superpower"]
+      },
+      {
+        "Term": "Song Dynasty",
+        "Group": ["Societies & Structures"],
+        "Definition": "Chinese dynasty; followed the Tang Dynasty, preceded the Yuan Dynasty",
+        "Cause": "Reunification of China after the 5 Dynasties and 10 Kingdoms period led by Emperor Taizu",
+        "Effect": "Era of social, economic, scientific, and technological changes: printing, gunpowder, paper money, navy",
+        "Region": "East Asia",
+        "Sentence": [["The ", ["Song Dynasty"], " changed warfare with the invention of gunpowder"],["The Song Dynasty fell to the ", ["Mongols", "Yuan Dynasty", "Mongol Empire"]]]
+      },
+      {
+        "Term": "Khanates",
+        "Group": ["Societies & Structures"],
+        "Definition": "A state or society ruled by a khan; organized tribally",
+        "Cause": "Typically comprised of Turkic, Mongol, or Tatar societies in the Eurasian Steppe; largest was started by Genghis Khan (Mongol Empire)",
+        "Effect": "Conquered huge regions comprising the majority of Asia, later forming into the Yuan Dynasty, Ilkhanate, Chagatai Khanate, and Golden Horde",
+        "Region": "Central Asia",
+        "Sentence": ["The Mongol equivalent of a chiefdom is a", ["Khanate", "Khaganate"]]
+      },
+      {
+        "Term": "Pax Mongolica",
+        "Group": ["Societies & Structures"],
+        "Definition": "A period of relative stability among conquered people under the Mongol Empire",
+        "Cause": "The Mongol Empire united a huge contiguous region, from Asia to Europe",
+        "Effect": "Allowed safer and more efficient long distance trade, spreading ideas, innovations, and the Bubonic Plague",
+        "Region": "Central Asia",
+        "Sentence": ["The period of ", ["Pax Mongolica"], " made it easier to conduct trade between the Eastern and Western worlds"]
+      },
+      {
+        "Term": "Sinification",
+        "Group": ["Religion & Culture"],
+        "Definition": "The process by which non-Chinese societies assimilate into Chinese culture",
+        "Cause": "Chinese civilizations became so dominant that it intentionally and unintentionally influenced others",
+        "Effect": "Fusion of cultures and unity among the population; loss of some cultural diversity in Asia",
+        "Region": "East Asia",
+        "Sentence": ["Under sinification, ", ["Korea", "Japan", "Vietnam"], " (list one) adopted the Chinese writing system"]
+      },
+      {
+        "Term": "Shogunate",
+        "Group": ["Societies & Structures"],
+        "Definition": "A government ruled by a shōgun (military leader), but nominally under an emperor",
+        "Cause": "First was set up by Minamoto Yoritomo, who seized power in a war with a rival clan",
+        "Effect": "Created periods of unity in Japan; used the feudal system and a militaristic government",
+        "Region": "East Asia",
+        "Sentence": ["The first shogunate (Kamakura) withstood two ", ["Mongol"], " invasions"]
+      },
+      {
+        "Term": "Shinto",
+        "Group": ["Religion & Culture"],
+        "Definition": "Japanese polytheistic and animistic nature religion",
+        "Cause": "Many indigenous beliefs fused together over time, later incorporating Buddhist ideas as well",
+        "Effect": "Created a unifying belief in the kami (supernatural entities), which was used to legitimize rulers",
+        "Region": "East Asia",
+        "Sentence": [["Shinto"], " was the state religion of Japan, and the ", ["Emperor"], " was seen as a supernatural entity (kami)"]
+      },
+      {
+        "Term": "Bushido",
+        "Group": ["Religion & Culture", "Societies & Structures"],
+        "Definition": "The samurai code of conduct",
+        "Cause": "Developed from Neo-Confucian texts and Shinto; balanced violence with wisdom",
+        "Effect": "Stressed loyalty; later included elements of bureaucratic roles; helped push ideas of duty and filial piety",
+        "Region": "East Asia",
+        "Sentence": ["After the unification of Japan, ", ["Samurai"], " moved from military to administrative positions"]
+      },
+      {
+        "Term": "Goryeo",
+        "Group": ["Societies & Structures"],
+        "Definition": "A Korean state that unified and ruled the Korean Peninsula",
+        "Cause": "Unification of the Later Three Kingdoms",
+        "Effect": "Achieved true national unification of Korea by merging its three previously distinct kingdoms; valued education, culture, and trade",
+        "Region": "East Asia",
+        "Sentence": [["Goryeo"], " fended off invasions and reclaimed ancestral lands from the Yuan Dynasty"]
+      },
+      {
+        "Term": "Tang Dynasty",
+        "Group": ["Societies & Structures"],
+        "Definition": "Chinese dynasty; followed the Sui Dynasty, preceded the Song Dynasty",
+        "Cause": "The Li family took advantage of a period of Sui decline to cause Sui collapse, and their rise to power",
+        "Effect": "Golden age of Chinese culture and power that influenced neighboring nations as well",
+        "Region": "East Asia",
+        "Sentence": ["Woodblock printing was invented in the ", ["Tang Dynasty"]]
+      },
+      {
+        "Term": "Yuan Dynasty",
+        "Group": ["Societies & Structures"],
+        "Definition": "Chinese dynasty; followed the Song Dynasty, preceded the Ming Dynasty",
+        "Cause": "Established by Kublai Khan as a part of the expansion of the Mongol Empire",
+        "Effect": "Reunified China; advancements in sciences; flourishing of culture despite Mongol ruler",
+        "Region": "East Asia",
+        "Sentence": ["The first time China was ruled by foreign conquerors was during the ", ["Yuan Dynasty"]]
+      },
+      {
+        "Term": "Ming Dynasty",
+        "Group": ["Societies & Structures"],
+        "Definition": "Chinese dynasty; followed the Yuan Dynasty, preceded the Qing Dynasty",
+        "Cause": "Followed the collapse of the Yuan Dynasty; founder attempted to create self-sufficient rigid system to support army",
+        "Effect": "Last Han ruled Chinese dynasty; expanded trade and ties with the West",
+        "Region": "East Asia",
+        "Sentence": ["The Civil Service Exams were strengthened and made more strict during the ", ["Ming Dynasty"]]
+      },
+      {
+        "Term": "Kamakura Shogunate",
+        "Group": ["Societies & Structures"],
+        "Definition": "The first shogunate of Japan; a feudal military government",
+        "Cause": "Minamoto no Yoritomo won a national civil war, and appointed himself shōgun",
+        "Effect": "Reorganization of Japanese social structure towards a more feudal hierarchy",
+        "Region": "East Asia",
+        "Sentence": ["In the ", ["Kamakura Shogunate"], ", Japan adopted a feudal hierarchy"]
+      },
+      {
+        "Term": "Ashikaga Shogunate",
+        "Group": ["Societies & Structures"],
+        "Definition": "Government of Japan following the Kamakura Shogunate",
+        "Cause": "Ashikaga Takauji appointed shōgun after overthrowing another attempted rule",
+        "Effect": "Very decentralized rule based on daimyōs, resulting with a long period of civil war",
+        "Region": "East Asia"
+      },
+      {
+        "Term": "Trans-Saharan Trade",
+        "Group": ["Societies & Structures"],
+        "Definition": "Trade across the Sahara Desert between Sub-Saharan and North Africa",
+        "Cause": "Began with gold-salt trade; boosted by camels and caravans",
+        "Effect": "Economic expansion of Africa; spread Islam and the Islamic Empire",
+        "Region": ["West Africa", "North Africa"],
+        "Sentence": ["The primary animal used in Trans-Saharan Trade was the ", ["camel"], ", which transported ", ["salt"], " from mines"]
+      },
+      {
+        "Term": "Caravanserai",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Roadside inns for travelers, usually along major trade routes",
+        "Cause": "More traffic along routes demands more safety and accessibility of travel",
+        "Effect": "Supported the flow of goods, people, and ideas along the Silk Roads and Trans-Saharan Routes",
+        "Region": ["West Africa", "North Africa", "South Asia", "Middle East"],
+        "Sentence": [["Caravanserai"], " provided large areas for merchants and travelers to trade and rest"]
+      },
+      {
+        "Term": "Sufism",
+        "Group": ["Religion & Culture"],
+        "Definition": "Mystic body of religious practice in Islam",
+        "Cause": "Reaction against lack of spirituality of the Umayyad Caliphate",
+        "Effect": "Spread Islam through missionary and educational activities",
+        "Region": ["Middle East"]
+      },
+      {
+        "Term": "Diaspora",
+        "Group": ["Societies & Structures"],
+        "Definition": "A population scattered across regions separate from geographic origin",
+        "Cause": "Push factors: persecution, little social mobility; pull factors: slavery, job opportunities, freedoms",
+        "Effect": "Cultural syncretism, more diversity, and the isolation of communities",
+        "Sentence": ["The Trans-Atlantic Slave Trade caused a notable ", ["diaspora"], " of African populations"]
+      },
+      {
+        "Term": "Qu'ran",
+        "Group": ["Religion & Culture"],
+        "Definition": "Central religious text of Islam",
+        "Cause": "Orally revealed to Muhammad, and later transcribed by his followers",
+        "Effect": "Guided the Islamic Empire and Muslims' way of life; influenced Arabic language and literature",
+        "Region": ["Middle East"],
+        "Sentence": ["The Qu'ran was originally revealed to ", ["Muhammad"]]
+      },
+      {
+        "Term": "Sunni vs Shi'a",
+        "Group": ["Religion & Culture"],
+        "Definition": "The main schism in Islam",
+        "Cause": "Dispute over who should succeed Muhammad as the leader of Islam",
+        "Effect": "Cause of tensions, violence, and wars from its beginning to present day",
+        "Region": ["Middle East"],
+        "Sentence": [["Sunnis"], " believe that Abu Bakr should be the next caliph, while ", ["Shias"], " believe it should have been Ali"]
+      },
+      {
+        "Term": "Caliphate",
+        "Group": ["Societies & Structures"],
+        "Definition": "Region under the leadership of a caliph (religious/political successor to Muhammad)",
+        "Cause": "Death of Muhammad left the lead role of Islam open, creating a new political position and system",
+        "Effect": "Formed massive empires that advanced and preserved science and literature",
+        "Region": ["Middle East"],
+        "Sentence": ["The ", ["Ottoman Empire"], " was the last caliphate"]
+      },
+      {
+        "Term": "Sultanate",
+        "Group": ["Societies & Structures"],
+        "Definition": "Region under the rule of a sultan",
+        "Cause": "Used to describe rule with almost full sovereignty, only below the caliphate (religious authority)",
+        "Effect": "More structured and smaller designation of Islamic state",
+        "Region": ["Middle East"],
+        "Sentence": ["Like the term caliph, ", ["sultan"], " is also a word for a ruler with a religious significance"]
+      },
+      {
+        "Term": "House of Wisdom",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Major public academy and intellectual center in Baghdad",
+        "Cause": "Golden Age of science and technology in the Abbasid Caliphate led to the construction of a library to record and store knowledge",
+        "Effect": "Helped preserve and build upon ancient European (Greek, etc) texts",
+        "Region": ["Middle East"],
+        "Sentence": ["In the ", ["House of Wisdom"], ", Islamic scholars translated texts to Arabic"]
+      },
+      {
+        "Term": "Seljuk Turks",
+        "Group": ["Societies & Structures"],
+        "Definition": "Turkic Muslim dynasty that ruled from the Middle East to Central Asia",
+        "Cause": "Split in Oghuz Turks led to the Seljuks becoming Muslim and eventually gaining enough power to establish an Empire",
+        "Effect": "Gradually became more Persian; contributed to Turco-Persian culture",
+        "Region": ["Middle East", "Central Asia"],
+        "Sentence": ["The primary target of the First Crusade was the ", ["Seljuk Dynasty"]]
+      },
+      {
+        "Term": "Mamluk Sultanate",
+        "Group": ["Societies & Structures"],
+        "Definition": "State ruled by military caste under a sultan",
+        "Cause": "Mamluks originally were slaves, that joined their state or military systems; revolt over when their power is reduced",
+        "Effect": "Halted Mongol expansion; created a period of stability and prosperity under Mamluk rule",
+        "Region": ["Middle East"],
+        "Sentence": [["Mamluks"], " were non-Arab freed slave soldiers"]
+      },
+      {
+        "Term": "Timurid Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "Persianate Turco-Mongol empire comprising much of Central Asia",
+        "Cause": "Founded by Timur/Tamerlane, a warlord with the vision of restoring the Mongol Empire",
+        "Effect": "Led a smaller Islamic Renaissance; after it broke into smaller states, it led to the Mughal Empire",
+        "Region": ["Middle East", "Central Asia"],
+        "Sentence": ["The Timurid Empire was founded by ", ["Tamerlane"], ", who attempted to be ", ["Genghis Khan"], "'s heir"]
+      },
+      {
+        "Term": "Urdu",
+        "Group": ["Religion & Culture", "Ideas & Innovations"],
+        "Definition": "Indo-Aryan language spoken mostly in South Asia",
+        "Cause": "Derived from Old Hindi; drew vocabulary from Persian",
+        "Effect": "Spoken throughout India, and was at a certain point the official language of the East India Company",
+        "Region": ["Middle East", "Central Asia"],
+        "Sentence": ["In 1837, ", ["Urdu"], " replaced Persian as the official language of the East India Company"]
+      },
+      {
+        "Term": "Zheng He",
+        "Group": ["People"],
+        "Definition": "Chinese mariner, explorer, diplomat, and admiral",
+        "Effect": "Led Chinese naval expeditions to greatly increased Chinese overseas power and trade relations",
+        "Region": ["East Asia", "South Asia", "Southeast Asia"],
+        "Sentence": ["Despite commanding what was the world's largest fleet, ", ["Zhenghe", "Zheng He"], " disappeared from Chinese history"],
+        "Date": "1400s"
+      },
+      {
+        "Term": "Angkor Wat",
+        "Group": ["Societies & Structures"],
+        "Definition": "Hindu-Buddhist temple complex for Vishnu",
+        "Cause": "Suryavarman II ordered the construction of the temple (also as his mausoleum)",
+        "Effect": "Largest religious complex in the world; contained a huge population and religious significance",
+        "Region": ["Southeast Asia"],
+        "Sentence": ["Angkor Wat began as a ", ["Hindu"], " temple before being converted to a ", ["Buddhist"], " one"]
+      },
+      {
+        "Term": "Tamerlane",
+        "Group": ["People"],
+        "Definition": "Turco-Mongol conqueror; undefeated commander",
+        "Effect": "Founded the Timurid Empire (which fragmented after him); fearsome military leader and tactician",
+        "Region": ["Central Asia"],
+        "Sentence": ["It took nearly a century for Delhi to recover from ", ["Timur", "Tamerlane"], "'s attack (person)"],
+        "Date": "1300s"
+      },
+      {
+        "Term": "Battle of Bach Dang",
+        "Group": ["Event"],
+        "Definition": "Last major battle between the Mongols and Dai Viet + Champa",
+        "Cause": "Last of a series of four invasions left very few Yuan troops isolated; easily attacked in a retreat",
+        "Effect": "Major Vietnamese victory: nearly all Yuan troops and ships eliminated; ended Yuan southward expansion",
+        "Region": ["Southeast Asia"],
+        "Sentence": ["In the Battle of Bach Dang, the invading army of the ", ["Yuan Dynasty"], " was defeated, ending its expansion there"],
+        "Date": "1200s"
+      },
+      {
+        "Term": "Delhi Sultanate",
+        "Group": ["Societies & Structures"],
+        "Definition": "Islamic late medieval empire stretching across the Indian subcontinent",
+        "Cause": "Succeeded the Ghurid dynasty which had invaded South Asia",
+        "Effect": "Established Islamic presence in the subcontinent; declined after Tamerlane's raid of Delhi, and fell to the Mughal Empire",
+        "Region": ["South Asia"],
+        "Sentence": ["The Delhi Sultanate treated the native ", ["Hindus", "Hindu"], " poorly, giving preference to the ", ["Muslims", "Muslim"]]
+      },
+      {
+        "Term": "Vijayanagara Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "Medieval Hindu empire that covered much of Southern India",
+        "Cause": "Established by two brothers from the Sangama dynasty and rose to prominence for its success of warding off Turco-Persian Muslim invasions",
+        "Effect": "Served as a barrier against the Muslim sultanates to the north and supported the arts and literature",
+        "Region": ["South Asia"],
+        "Sentence": ["In the Battle of Talikota (1565), the ", ["Vijayanagara Empire", "Vijayanagara"], ", a southern Hindu empire, began to ", ["decline", "fall"]]
+      },
+      {
+        "Term": "Sinhalese Monarchy",
+        "Group": ["Societies & Structures"],
+        "Definition": "A monarchical kingdom located in Sri Lanka",
+        "Region": ["South Asia"],
+        "Sentence": ["After 2,357 years of indigenous Sinhalese rule, the ", ["British", "British Empire"], " was recognized as the island's ruler"]
+      },
+      {
+        "Term": "Khmer Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "A Hindu-Buddhist empire in what is now Cambodia, Laos, and Thailand",
+        "Cause": "Founded by Jayavarman II who declared himself chakravarti (emperor)",
+        "Effect": "Source of religious art, culture, and architecture like Angkor Wat",
+        "Region": ["Southeast Asia"],
+        "Sentence": ["The ", ["Khmer Empire"], " celebrated both Hindu and Buddhist religion, with Hinduism being more popular among the ", ["upper", "higher", "ruling", "elite", "noble"], "class"]
+      },
+      {
+        "Term": "Srivijaya Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "Buddhist maritime empire based on the island of Sumatra",
+        "Effect": "Held its power through trade; controlled the Strait of Malacca which connected Chinese dynasties to the Middle East",
+        "Region": ["Southeast Asia"],
+        "Sentence": ["Acting as a hub of trade, the ", ["Srivijaya Empire"], ", also helped expand Buddhism into East and Southeast Asia"]
+      },
+      {
+        "Term": "Majapahit Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "Hindu-Buddhist maritime empire based on the island of Java",
+        "Effect": "The empire managed to outsmart the Yuan Dynasty and not become a tributary state; at its largest, it covered most of Southeast Asia",
+        "Region": ["Southeast Asia"]
+      },
+      {
+        "Term": "Aztlán",
+        "Group": ["Religion & Culture", "Societies & Structures"],
+        "Definition": "The mythical homeland of the Mexica",
+        "Region": ["North America"]
+      },
+      {
+        "Term": "Mexica",
+        "Group": ["Religion & Culture"],
+        "Definition": "A Nahuatl-speaking people that ruled the Aztec Empire",
+        "Cause": "Led to their home in Mexico by a patron god",
+        "Effect": "Built a massive empire and Tenochtitlan; defeated by the Spanish",
+        "Region": ["North America"],
+        "Sentence": ["The ", ["Mexica"], " people spoke Nahuatl and established a powerful empire called the ", ["Aztec"] ," Empire in Central America"]
+      },
+      {
+        "Term": "Tenochtitlan",
+        "Group": ["Societies & Structures"],
+        "Definition": "The capital of the Aztec Empire",
+        "Cause": "Founded by the Mexica based on a sign from their patron god",
+        "Effect": "Most populous city of the Aztec Empire; led the Aztecs politically",
+        "Region": ["North America"],
+        "Sentence": ["When Cortés conquered the ", ["Aztec Empire"], ", he and his soldiers were surprised by the wealth and vastness of the capital city ", ["Tenochtitlan"]]
+      },
+      {
+        "Term": "Chinampas",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "An agricultural technique using small rectangular areas of land on shallow lake beds",
+        "Region": ["North America"],
+        "Sentence": ["Chinampas were heavily utilized by the ", ["Mexica", "Aztecs", "Aztec"], " around their capital city"]
+      },
+      {
+        "Term": "Cahokia",
+        "Group": ["Societies & Structures"],
+        "Definition": "The site of the largest and most influential city of Native American Mississippian culture",
+        "Region": ["North America"]
+      },
+      {
+        "Term": "Inca Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "The largest empire in pre-European America",
+        "Cause": "Gradual unification of the Andes and reorganization into four smaller regions",
+        "Effect": "Thriving empire that developed in unique isolation, without writing, iron, or money; eventually fell to Spanish conquistadors",
+        "Region": ["South America"],
+        "Sentence": ["The ", ["Inca", "Incan"], " Empire was eventually defeated by Francisco Pizarro"]
+      },
+      {
+        "Term": "Chasqui",
+        "Group": ["Ideas & Innovations", "Societies & Structures"],
+        "Definition": "A messenger of the Inca Empire, highly trained and agile",
+        "Effect": "Transported messages in the form of quipo or oral information and small packets",
+        "Region": ["South America"],
+        "Sentence": ["Similarly to the Mongol yam system, the Incas used the ", ["Chasqui", "Chasquis"], " system"]
+      },
+      {
+        "Term": "Quipo",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "An information recording device consisting of colored threads with knots",
+        "Region": ["South America"]
+      },
+      {
+        "Term": "Mit'a",
+        "Group": ["Societies & Structures"],
+        "Definition": "A tax system using labor as a tax",
+        "Effect": "Allowed the Incan government to maintain its power and make public construction and military projects",
+        "Region": ["South America"],
+        "Sentence": ["As opposed to the more commonplace monetary tax system, the Inca used the ", ["Mit'a", "Mita"], " system which was based on labor"]
+      },
+      {
+        "Term": "Puebloans",
+        "Group": ["Religion & Culture"],
+        "Definition": "Native Americans in the Southwestern United States",
+        "Region": ["North America"]
+      },
+      {
+        "Term": "Aztec Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "An alliance of three Nahua city-states: Mexico-Tenochtitlan, Tetzcoc, and Tlacopan",
+        "Cause": "Initially formed through an alliance between three dominant city-states",
+        "Effect": "Waged wars of conquest to gain tributary states; eventually fell to conquistadors",
+        "Region": ["North America"],
+        "Sentence": ["The ", ["Aztec"], " Empire was eventually defeated by Francisco Pizarro"]
+      },
+      {
+        "Term": "Great Zimbabwe",
+        "Group": ["Societies & Structures"],
+        "Definition": "A medieval city in Zimbabwe that may have been the capital of a kingdom",
+        "Effect": "Contributed to the development of Sub-Saharan Africa, but ultimately declined due to environmental strain and other factors",
+        "Region": ["East Africa"]
+      },
+      {
+        "Term": "Timbuktu",
+        "Group": ["Societies & Structures"],
+        "Definition": "A city in West Africa, was part of the Mali and Songhai empires",
+        "Effect": "Became a center of Islamic scholarship and grew wealthy from its salt for gold trade",
+        "Region": ["West Africa"],
+        "Sentence": ["Many major cities grew from trade, but ", ["Timbuktu"], " was the wealthiest of them all"]
+      },
+      {
+        "Term": "Ethiopian Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "A uniquely Christian empire in Eastern Africa",
+        "Effect": "Maintained an isolated branch of Christianity despite being surrounded by Islamic empires",
+        "Region": ["East Africa"]
+      },
+      {
+        "Term": "Swahili",
+        "Group": ["Religion & Culture", "Ideas & Innovations"],
+        "Definition": "A Bantu language spoken primarily along the East African coast",
+        "Cause": "The gradual blending of Bantu language with some Arabic influences",
+        "Effect": "Became a major part of culture and trade along the East African coast",
+        "Region": ["East Africa"]
+      },
+      {
+        "Term": "Berbers",
+        "Group": ["Societies & Structures"],
+        "Definition": "A grouping of distinct ethnic groups indigenous to North Africa",
+        "Effect": "Founded and were a part of many African empires",
+        "Region": ["North Africa"],
+        "Sentence": ["Berbers participated in the ", ["Trans-Saharan", "Trans saharan"], " trade network"]
+      },
+      {
+        "Term": "Bantu Migrations",
+        "Group": ["Societies & Structures"],
+        "Definition": "A major series of migrations of the Bantu people from Central to sub-Saharan Africa",
+        "Effect": "Spread of Bantu language, culture, and technological innovations throughout Africa",
+        "Region": ["East Africa"]
+      },
+      {
+        "Term": "Hausa Kingdoms",
+        "Group": ["Societies & Structures"],
+        "Definition": "A collection of states started by the Hausa people",
+        "Cause": "Westward expansion of the Hausa people",
+        "Effect": "Created powerful city states that were centers of trade and Islamic scholarship",
+        "Region": ["West Africa"]
+      },
+      {
+        "Term": "Mali Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "A West African empire renowned for the wealth of its rulers",
+        "Cause": "Founded by Sundiata Keita, the first mansa",
+        "Effect": "Created powerful city states that were centers of trade and Islamic scholarship",
+        "Region": ["West Africa"],
+        "Sentence": ["While the ", ["Mali Empire"], " held immense wealth and power, it was eventually taken over by the Songhai Empire"]
+      },
+      {
+        "Term": "Feudalism",
+        "Group": ["Societies & Structures"],
+        "Definition": "An political system in which land is distributed in exchange for service and labor",
+        "Cause": "The decentralization of power across an empire",
+        "Effect": "Localized communities, lowering social mobility and the spread of ideas",
+        "Region": ["Eastern Europe", "Western Europe"],
+        "Sentence": ["The basic hierarchy of ", ["feudalism"], " is king -> noble -> lord -> knight -> peasant/serf"]
+      },
+      {
+        "Term": "Serfdom",
+        "Group": ["Societies & Structures"],
+        "Definition": "A status of peasants in which they are tied directly to the land they work on",
+        "Cause": "Developed in feudalism as a harsh form of indentured servitude",
+        "Effect": "Low living standards and social mobility for the majority during the Middle Ages in Europe",
+        "Region": ["Eastern Europe", "Western Europe"],
+        "Sentence": [["Feudalism"], " differed to slavery in that ", ["serfs", "peasants"], " were sold with the land"]
+      },
+      {
+        "Term": "Hanseatic League",
+        "Group": ["Societies & Structures"],
+        "Definition": "A medieval confederation of merchant guilds in Northern Europe",
+        "Effect": "Expanded and developed trade by reducing tolls and making trade safer",
+        "Region": ["Eastern Europe", "Western Europe"]
+      },
+      {
+        "Term": "Magna Carta",
+        "Group": ["Ideas & Innovations", "Societies & Structures"],
+        "Definition": "A charter defining rights for barons and lords in England",
+        "Cause": "A peace settlement between the an unpopular king and group of rebel barons",
+        "Effect": "One of the first documents regulating the authority of a ruler",
+        "Region": ["Western Europe"],
+        "Sentence": ["The first written constitution of Europe was the ", ["Magna Carta"]]
+      },
+      {
+        "Term": "Crusades",
+        "Group": ["Events"],
+        "Definition": "A series of religious wars facilitated by the Catholic Church",
+        "Cause": "The Europeans/Christians wanted to prevent the expansion of Muslim states and reclaim the Holy Land",
+        "Effect": "Increased the power of the Catholic Church in Europe and increased religious intolerance and interaction in Europe",
+        "Region": ["Middle East"],
+        "Sentence": ["The original goal of the crusades was to reconquer the ", ["Holy Land", "Jerusalem", ""]],
+        "Date": "11th to 18th centuries"
+      },
+      {
+        "Term": "Black Death",
+        "Group": ["Events"],
+        "Definition": "The most fatal pandemic ever recorded",
+        "Cause": "Spread of the Bubonic plague from China to Europe through the Silk Road",
+        "Effect": "Death of ~50% of Europe's population",
+        "Region": ["Eastern Europe", "Western Europe"],
+        "Sentence": ["The Black Death is also known as the ", ["Bubonic Plague"]],
+        "Date": "1300s"
+      },
+      {
+        "Term": "Little Ice Age",
+        "Group": ["Events"],
+        "Definition": "Period of regional cooling in the North Atlantic region",
+        "Effect": "Caused a long term agricultural crisis and famine, as well as making travel more difficult",
+        "Region": ["Eastern Europe", "Western Europe"],
+        "Sentence": ["The Little Ice Age ", ["was not"], " (was/was not) caused by human activities, unlike modern climate change, which ", ["was"], " (was/was not) caused by human activities"],
+        "Date": "16th to 19th centuries"
+      },
+      {
+        "Term": "Byzantine Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "The continuation of the Roman Empire's eastern half",
+        "Cause": "Formed by the split of the Holy Roman Empire by Emperor Constantine I",
+        "Effect": "Was the most powerful economic, cultural, and military force in the Mediterranean region for its centuries of existence",
+        "Region": ["Eastern Europe"],
+        "Sentence": ["The capital of the Byzantine Empire was ", ["Constantinople"]]
+      },
+      {
+        "Term": "Kievan Rus'",
+        "Group": ["Societies & Structures"],
+        "Definition": "A group of principalities ruled by the Rurik dynasty",
+        "Effect": "Spread Christianity to North Eastern Europe and eventually fell to the Mongols",
+        "Region": ["Eastern Europe"]
+      },
+      {
+        "Term": "Hundred Years' War",
+        "Group": ["Events"],
+        "Definition": "A series of armed conflicts fought between the kingdoms of England and France",
+        "Cause": "Triggered by a claim to the French throne by an English king",
+        "Effect": "French victory led to the strengthening of the monarchy and the loss of British territory in continental Europe",
+        "Region": ["Western Europe"],
+        "Date": "14th and 15th centuries"
+      },
+      {
+        "Term": "Minamoto no Yoritomo",
+        "Group": ["People"],
+        "Definition": "The founder and first shogun of the Kamakura shogunate",
+        "Effect": "Began the feudal age of Japan",
+        "Region": ["East Asia"],
+        "Date": "1100s"
+      },
+      {
+        "Term": "Genghis Khan",
+        "Group": ["People"],
+        "Definition": "The founder and first khan of the Mongol Empire",
+        "Effect": "Formed and ruled the largest contiguous empire in history",
+        "Region": ["Central Asia"],
+        "Sentence": [["Genghis Khan"], " ruled the ", ["Mongol"], " Empire, which both caused massive destruction in and united Asia"],
+        "Date": "1200s"
+      },
+      {
+        "Term": "Kublai Khan",
+        "Group": ["People"],
+        "Definition": "The founder and first emperor of the Yuan Dynasty",
+        "Effect": "Was the first non-Han emperor to rule all of China",
+        "Region": ["East Asia"],
+        "Sentence": ["The ", ["Yuan Dynasty"], " under Kublai Khan was the first non-Han ruled empire encompassing all of China. Famously, another non-Han ruled empire was the ", ["Qing Dynasty"], " which was ruled by the Manchus"],
+        "Date": "1200s"
+      },
+      {
+        "Term": "Marco Polo",
+        "Group": ["People"],
+        "Definition": "An Italian traveler that gave Europeans a look at the Eastern world",
+        "Effect": "Was the first European to create a detailed written account of his experience in East Asia",
+        "Region": ["East Asia", "Eastern Europe", "Central Asia"],
+        "Sentence": ["Marco Polo served as the foreign emissary for the ", ["Yuan Dynasty", "Kublai Khan"]],
+        "Date": "1200s"
+      },
+      {
+        "Term": "Margery Kempe",
+        "Group": ["People"],
+        "Definition": "A Christian mystic/pilgrim who traveled to Holy Sites",
+        "Effect": "Wrote the first English autobiography",
+        "Region": ["Middle East", "Eastern Europe", "Western Europe"],
+        "Sentence": ["Margery Kempe documented her famous pilgrimage to the ", ["Holy Land"], " in her autobiography"],
+        "Date": "1400s"
+      },
+      {
+        "Term": "Ibn Battuta",
+        "Group": ["People"],
+        "Definition": "A moroccan Islamic traveler who wrote The Rihla",
+        "Effect": "Was the most traveled pre-modern explorer. His book depicts Africa, the Middle East, and most of Asia",
+        "Region": ["East Asia", "South Asia", "Southeast Asia", "West Africa", "East Africa", "North Africa", "Middle East", "Eastern Europe", "Central Asia"],
+        "Sentence": [["Ibn Battuta"], " spent nearly 30 years traveling across the Middle East, Africa, and Asia"],
+        "Date": "1300s"
+      },
+      {
+        "Term": "Al-Razi",
+        "Group": ["People"],
+        "Definition": "A Persian physician, philosopher, and alchemist",
+        "Effect": "One of the most important figures in the history of medicine. They supported experimental medicine and were the first to distinguish between smallpox and measles",
+        "Region": ["Middle East"],
+        "Date": "Islamic Golden Age"
+      },
+      {
+        "Term": "Ibn Sina",
+        "Group": ["People"],
+        "Definition": "A preeminent philosopher and physician of the Muslim world",
+        "Effect": "The father of early modern medicine. He wrote The Canon of Medicine, which was a standard medical encyclopedia in use for centuries afterwards",
+        "Region": ["Middle East"],
+        "Date": "Islamic Golden Age"
+      },
+      {
+        "Term": "Nasir al Din Tusi",
+        "Group": ["People"],
+        "Definition": "A Persian polymath, architect, philosopher, physician, scientist, and theologian",
+        "Effect": "They made significant astronomical advancements, invented trigonometry, and contributed to other scientific fields",
+        "Region": ["Middle East"],
+        "Date": "1200s"
+      },
+      {
+        "Term": "Rumi",
+        "Group": ["People"],
+        "Definition": "A Sufi mystic, Islamic scholar, poet, and theologian",
+        "Effect": "Has had a global literary influence based on their Persian, Turkish, Arabic, and Greek poetry",
+        "Region": ["Middle East"],
+        "Date": "1200s"
+      },
+      {
+        "Term": "Ibn Khaldun",
+        "Group": ["People"],
+        "Definition": "An Arab sociologist, philosopher, and historian",
+        "Effect": "The father of historiography, sociology, economics, and demography studies",
+        "Region": ["Middle East"],
+        "Date": "1300s"
+      },
+      {
+        "Term": "'A'isha al-Ba'uniyya",
+        "Group": ["People"],
+        "Definition": "A female Islamic mystic and poet/author",
+        "Effect": "She wrote more works in Arabic than any other women in the medieval period",
+        "Region": ["Middle East"],
+        "Date": "1400s"
+      },
+      {
+        "Term": "Pachacuti",
+        "Group": ["People"],
+        "Definition": "The first emperor and creator of the Incan Empire",
+        "Effect": "Vastly expanded the Chiefdom of Cusco into the huge Incan Empire",
+        "Region": ["South America"],
+        "Sentence": ["The most famous of the Incan rulers was ", ["Pachacuti"], " who constructed Machu Picchu and expanded the Incan Empire"],
+        "Date": "1400s"
+      },
+      {
+        "Term": "Montezuma II",
+        "Group": ["People"],
+        "Definition": "The ninth Emperor of the Aztec Empire",
+        "Effect": "Ruled the Aztecs at their peak and during their fall to the Spanish",
+        "Region": ["North America"],
+        "Sentence": ["The Aztec ruler ", ["Montezuma", "Montezuma II"], " was killed during the Spanish conquest of the Aztec Empire by the conquistador ", ["Cortes", "Hernan Cortes", "Hernán Cortés", "Cortés"]],
+        "Date": "1500s"
+      },
+      {
+        "Term": "Sundiata Keita",
+        "Group": ["People"],
+        "Definition": "The founder and first Mansa of the Mali Empire",
+        "Region": ["West Africa"],
+        "Date": "1200s"
+      },
+      {
+        "Term": "Mansa Musa",
+        "Group": ["People"],
+        "Definition": "The ninth Mansa of the Mali Empire and the richest person in ever",
+        "Effect": "Went on a famous Hajj to Mecca that made the Mali Empire and Timbuktu famous",
+        "Region": ["West Africa"],
+        "Sentence": [["Mansa Musa"], " became rich by taxing Mali's enormous salt and gold trade"],
+        "Date": "1300s"
+      },
+      {
+        "Term": "Prince Henry",
+        "Group": ["People"],
+        "Definition": "The fourth child of King John I of Portugal who participated in European maritime expansion",
+        "Effect": "They were the main initiator of the Age of Discovery, advocating and funding European maritime discoveries and expansion in Africa",
+        "Region": ["Western Europe"],
+        "Sentence": ["Prince Henry encouraged the exploration of Western Africa, starting the Age of ", ["Discovery"]],
+        "Date": "1400s"
+      },
+      {
+        "Term": "Gutenberg",
+        "Group": ["People"],
+        "Definition": "A German inventor and craftsman who invented the movable-type printing press",
+        "Effect": "By improving the use of movable type, they began an information revolution and mass-spread of literature in Europe",
+        "Region": ["Eastern Europe"],
+        "Sentence": ["Gutenberg's invention of the printing press gave Europeans greater access to religious texts like the ", ["bible"], " which led to the ", ["Protestant", " Reformation"]],
+        "Date": "1400s"
+      }
+    ],
+
+
+    "Unit 2: Networks of Exchange": [
+
+
+    ],
+
+
+    "Unit 3: Land-Based Empires": [
+
+
+    ],
+
+
+    "Unit 4: Transoceanic Interconnections": [
+
+
+    ],
+
+
+    "Unit 5: Revolutions": [
+
+
+    ],
+
+
+    "Unit 6: Consequences of Industrialization": [
+
+
+    ],
+
+
+    "Unit 7: Global Conflict": [
+
+
+    ],
+
+
+    "Unit 8: Cold War and Decolonization": [
+
+
+    ],
+
+
+    "Unit 9: Globalization": [
+     
+    ]
+  }
+}

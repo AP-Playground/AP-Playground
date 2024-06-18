@@ -62,6 +62,7 @@ body {
   background-color: transparent;
   margin-right: 5px;
   background-image: url("/svgs/shrink.svg");
+  cursor: pointer;
 }
 
 .header-top.hidden .header-expand {
