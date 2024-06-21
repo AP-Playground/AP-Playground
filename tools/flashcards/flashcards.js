@@ -122,13 +122,13 @@ gameSel.addEventListener("change", () => {
 })
 
 function startGame() {
-  remainingCards = totalCards;
+  remainingCards = [...totalCards];
   if (data.Matching.includes(game)) {
     console.log("Matching")
     matchingBoard.hidden = false;
 
     currentCards = [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined];
-    fillMatchingBoard();
+    updateMatchingBoard();
 
   } else if (data.Categorization.includes(game)) {
     console.log("Categorization")
@@ -151,8 +151,8 @@ function shuffleArray(array) {
 }
 
 function fillMatchingBoard() {
-  let emptyCards = currentCards.filter(card => card === undefined).length/2;
-  let newCards = remainingCards.splice(0, emptyCards);
+  const emptyCards = currentCards.filter(card => card === undefined).length/2;
+  const newCards = remainingCards.splice(0, emptyCards);
   
   let tempCards = Array(emptyCards*2).fill(undefined);
   for (let i = 0; i < emptyCards && i < newCards.length; i++) {
@@ -163,24 +163,47 @@ function fillMatchingBoard() {
   shuffleArray(tempCards)
 
   j = 0;
-  for (let i = 0; i < emptyCards*2; i++) {
+  for (let i = 0; i < 20; i++) {
     if (currentCards[i] === undefined) {
       currentCards[i] = tempCards[j];
       j++;
     }
   }
-
-  updateMatchingBoard();
 }
 
 function updateMatchingBoard() {
+  if (currentCards.filter(card => card === undefined).length >= 10) {
+    fillMatchingBoard();
+  }
+  
   for (let i = 0; i < 20; i++) {
-    if (currentCards[i] === undefined) {
-      matchingTiles[i].textContent = "";
-      matchingTiles[i].classList.add("empty");
-    } else {
-      matchingTiles[i].textContent = currentCards[i];
-      matchingTiles[i].classList.remove("empty");
-    }
+  if (currentCards[i] === undefined) {
+    matchingTiles[i].textContent = "";
+    matchingTiles[i].classList.add("empty");
+  } else {
+    matchingTiles[i].textContent = currentCards[i];
+    matchingTiles[i].classList.remove("empty");
   }
 }
+}
+
+matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
+  event.target.classList.toggle("selected");
+  const selected = document.querySelectorAll("#matchingBoard tr td.selected");
+
+  if (selected.length === 2) {
+    const tile1 = selected[0].textContent;
+    const tile2 = selected[1].textContent;
+
+    const termCard1 = totalCards.find(card => card.Term === tile1);
+    const termCard2 = totalCards.find(card => card.Term === tile2);
+
+    if ((termCard1 && termCard1[game] === tile2) || (termCard2 && termCard2[game] === tile1)) {
+      currentCards[Array.from(matchingTiles).indexOf(selected[0])] = undefined;
+      currentCards[Array.from(matchingTiles).indexOf(selected[1])] = undefined;
+      updateMatchingBoard();
+    }
+
+    selected.forEach(tile => {tile.classList.remove("selected")});
+  }
+})})
