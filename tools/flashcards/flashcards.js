@@ -3,6 +3,8 @@ const subjectSel = document.getElementById("subjectSel");
 const unitSel = document.getElementById("unitSel");
 const typeSel = document.getElementById("groupSel");
 const gameSel = document.getElementById("gameType");
+const matchingBoard = document.getElementById("matchingBoard");
+const matchingTiles = document.querySelectorAll("#matchingBoard tr td")
 
 const gameContainer = document.getElementById("game");
 
@@ -11,7 +13,9 @@ let allGameTypes = [];
 let unit = "";
 let type = "";
 let game = "";
+let remainingCards = [];
 let currentCards = [];
+let totalCards = [];
 
 subjectSel.addEventListener("change", () => {
   if (subjectSel.selectedIndex !== 0) {
@@ -60,8 +64,7 @@ typeSel.addEventListener("change", () => {
 })
 
 function openGame() {
-  gameSel.selectedIndex = 0;
-  Array.from(gameSel.getElementsByClassName("new")).forEach(element => {element.remove()})
+  unloadGame()
   unit = unitSel.value;
   type = typeSel.value;
 
@@ -85,14 +88,17 @@ function unloadGame() {
   gameSel.disabled = true;
   Array.from(gameSel.getElementsByClassName("new")).forEach(element => {element.remove()})
   gameSel.selectedIndex = 0;
+  matchingBoard.hidden = true;
 }
 
 gameSel.addEventListener("change", () => {
   game = gameSel.value;
+  matchingBoard.hidden = true;
   if (gameSel.value !== "") {
-    currentCards = [];
+    remainingCards = [];
     let cardNames = [];
     let cardCandidates = [];
+    totalCards = [];
 
     if (unit === "all") {
       for (item in data.Units) {
@@ -107,17 +113,22 @@ gameSel.addEventListener("change", () => {
     for (idx in cardCandidates) {
       if (!cardNames.includes(cardCandidates[idx].Term)) {
         cardNames.push(cardCandidates[idx].Term);
-        currentCards.push(cardCandidates[idx]);
+        totalCards.push(cardCandidates[idx]);
       }
     }
-    shuffleArray(currentCards); 
-    playGame();
+    shuffleArray(totalCards);
+    startGame();
   }
 })
 
-function playGame() {
+function startGame() {
+  remainingCards = totalCards;
   if (data.Matching.includes(game)) {
     console.log("Matching")
+    matchingBoard.hidden = false;
+
+    currentCards = [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined];
+    fillMatchingBoard();
 
   } else if (data.Categorization.includes(game)) {
     console.log("Categorization")
@@ -136,5 +147,40 @@ function shuffleArray(array) {
       var temp = array[i];
       array[i] = array[j];
       array[j] = temp;
+  }
+}
+
+function fillMatchingBoard() {
+  let emptyCards = currentCards.filter(card => card === undefined).length/2;
+  let newCards = remainingCards.splice(0, emptyCards);
+  
+  let tempCards = Array(emptyCards*2).fill(undefined);
+  for (let i = 0; i < emptyCards && i < newCards.length; i++) {
+    tempCards[i*2] = newCards[i].Term;
+    tempCards[i*2+1] = newCards[i][game]
+  }
+
+  shuffleArray(tempCards)
+
+  j = 0;
+  for (let i = 0; i < emptyCards*2; i++) {
+    if (currentCards[i] === undefined) {
+      currentCards[i] = tempCards[j];
+      j++;
+    }
+  }
+
+  updateMatchingBoard();
+}
+
+function updateMatchingBoard() {
+  for (let i = 0; i < 20; i++) {
+    if (currentCards[i] === undefined) {
+      matchingTiles[i].textContent = "";
+      matchingTiles[i].classList.add("empty");
+    } else {
+      matchingTiles[i].textContent = currentCards[i];
+      matchingTiles[i].classList.remove("empty");
+    }
   }
 }
