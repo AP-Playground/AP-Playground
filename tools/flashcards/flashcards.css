@@ -12,17 +12,22 @@ select {
   margin-top: 5px;
 }
 
-#game table{
+#matchingBoard{
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 3px;
+  row-gap: 3px;
   text-align: center;
   table-layout: fixed;
   word-wrap: break-word;
-  & td {
+  & button {
     border: 1px solid black;
     border-radius: 10px;
     height: 150px;
     cursor: pointer;
-    transition: background-color 100ms;
+    transition: background-color 200ms;
+    background-color: white;
     &:hover {
       background-color: #eee;
     }
@@ -33,5 +38,28 @@ select {
       background-color: #aaa;
       pointer-events: none;
     }
+  }
+}
+
+@media (max-width: 500px) {
+  #matchingBoard {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+#gameHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#gameInfo {
+  font-size: 25px;
+  margin-bottom: 2px;
+  & span {
+    margin-right: 10px;
+  }
+  &.closed {
+    color: rgba(118, 118, 118, 0.3);
   }
 }

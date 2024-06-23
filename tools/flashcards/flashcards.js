@@ -4,7 +4,10 @@ const unitSel = document.getElementById("unitSel");
 const typeSel = document.getElementById("groupSel");
 const gameSel = document.getElementById("gameType");
 const matchingBoard = document.getElementById("matchingBoard");
-const matchingTiles = document.querySelectorAll("#matchingBoard tr td")
+const matchingTiles = document.querySelectorAll("#matchingBoard button")
+const gameInfo = document.getElementById("gameInfo")
+const gameScore = document.getElementById("gameScore")
+const gameTimer = document.getElementById("gameTimer")
 
 const gameContainer = document.getElementById("game");
 
@@ -16,6 +19,10 @@ let game = "";
 let remainingCards = [];
 let currentCards = [];
 let totalCards = [];
+
+let timerInterval;
+let currentTime = 0;
+let completedCards = 0;
 
 subjectSel.addEventListener("change", () => {
   if (subjectSel.selectedIndex !== 0) {
@@ -88,12 +95,15 @@ function unloadGame() {
   gameSel.disabled = true;
   Array.from(gameSel.getElementsByClassName("new")).forEach(element => {element.remove()})
   gameSel.selectedIndex = 0;
-  matchingBoard.hidden = true;
+  matchingBoard.style.display = "none";
+  gameInfo.classList.add("closed");
+  clearInterval(timerInterval);
 }
 
 gameSel.addEventListener("change", () => {
+  clearInterval(timerInterval);
   game = gameSel.value;
-  matchingBoard.hidden = true;
+  matchingBoard.style.display = "none";
   if (gameSel.value !== "") {
     remainingCards = [];
     let cardNames = [];
@@ -122,13 +132,21 @@ gameSel.addEventListener("change", () => {
 })
 
 function startGame() {
+  gameInfo.classList.remove("closed");
+
   remainingCards = [...totalCards];
   if (data.Matching.includes(game)) {
     console.log("Matching")
-    matchingBoard.hidden = false;
+    matchingBoard.style.display = "grid";
 
     currentCards = [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined];
     updateMatchingBoard();
+
+    completedCards = 0;
+    gameScore.textContent = completedCards + "/" + totalCards.length;
+    currentTime = 0;
+    updateTimer();
+    timerInterval = setInterval(updateTimer, 1000);
 
   } else if (data.Categorization.includes(game)) {
     console.log("Categorization")
@@ -172,8 +190,12 @@ function fillMatchingBoard() {
 }
 
 function updateMatchingBoard() {
-  if (currentCards.filter(card => card === undefined).length >= 10) {
+  if (currentCards.filter(card => card === undefined).length >= currentCards.length/2) {
     fillMatchingBoard();
+  }
+
+  if (currentCards.filter(card => card === undefined).length === currentCards.length) {
+    clearInterval(timerInterval);
   }
   
   for (let i = 0; i < 20; i++) {
@@ -189,7 +211,7 @@ function updateMatchingBoard() {
 
 matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
   event.target.classList.toggle("selected");
-  const selected = document.querySelectorAll("#matchingBoard tr td.selected");
+  const selected = document.querySelectorAll("#matchingBoard button.selected");
 
   if (selected.length === 2) {
     const tile1 = selected[0].textContent;
@@ -202,8 +224,22 @@ matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
       currentCards[Array.from(matchingTiles).indexOf(selected[0])] = undefined;
       currentCards[Array.from(matchingTiles).indexOf(selected[1])] = undefined;
       updateMatchingBoard();
+
+      completedCards++
+      gameScore.textContent = completedCards + "/" + totalCards.length;
     }
 
     selected.forEach(tile => {tile.classList.remove("selected")});
   }
 })})
+
+function updateTimer() {
+  currentTime++;
+  let seconds = currentTime % 60;
+  let minutes = Math.floor(currentTime/60);
+
+  if (seconds < 10) seconds = "0" + seconds;
+  if (minutes < 10) minutes = "0" + minutes;
+
+  gameTimer.textContent = minutes + ":" + seconds;
+}
