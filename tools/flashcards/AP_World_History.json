@@ -285,7 +285,7 @@
         "Effect": "Led Chinese naval expeditions to greatly increase China’s overseas influence",
         "Region": ["East Asia", "South Asia", "Southeast Asia"],
         "Sentence": ["Despite commanding what was the world's largest fleet, ", ["Zhenghe", "Zheng He"], " disappeared from Chinese history"],
-        "Date": "1400s"
+        "Date": "Voyages in 1400s"
       },
       {
         "Term": "Angkor Wat",
@@ -303,7 +303,7 @@
         "Effect": "Founded the Timurid Empire (which fragmented after him); fearsome military leader",
         "Region": ["Central Asia"],
         "Sentence": ["It took nearly a century for Delhi to recover from ", ["Timur", "Tamerlane"], "'s attack (person)"],
-        "Date": "1300s"
+        "Date": "Ruled in 1300s"
       },
       {
         "Term": "Battle of Bach Dang",
@@ -313,7 +313,7 @@
         "Effect": "Major Vietnamese victory which ended Yuan southward expansion",
         "Region": ["Southeast Asia"],
         "Sentence": ["In the Battle of Bach Dang, the invading army of the ", ["Yuan Dynasty"], " was defeated, ending its expansion there"],
-        "Date": "1200s"
+        "Date": "Fought in 1288"
       },
       {
         "Term": "Delhi Sultanate",
@@ -471,14 +471,14 @@
         "Term": "Swahili",
         "Group": ["Religion & Culture", "Ideas & Innovations"],
         "Definition": "A Bantu language spoken primarily along the East African coast",
-        "Cause": "The gradual blending of Bantu language with some Arabic influences",
-        "Effect": "Became a major part of culture and trade along the East African coast",
+        "Cause": "Blending of Bantu language with some Arabic influences due to trade",
+        "Effect": "Major part of culture and trade along the East African coast",
         "Region": ["East Africa"]
       },
       {
         "Term": "Berbers",
         "Group": ["Societies & Structures"],
-        "Definition": "A grouping of distinct ethnic groups indigenous to North Africa",
+        "Definition": "Grouping of distinct ethnic groups indigenous to North Africa",
         "Effect": "Founded and were a part of many African empires",
         "Region": ["North Africa"],
         "Sentence": ["Berbers participated in the ", ["Trans-Saharan", "Trans saharan"], " trade network"]
@@ -486,8 +486,8 @@
       {
         "Term": "Bantu Migrations",
         "Group": ["Societies & Structures"],
-        "Definition": "A major series of migrations of the Bantu people from Central to sub-Saharan Africa",
-        "Effect": "Spread of Bantu language, culture, and technological innovations throughout Africa",
+        "Definition": "Series of migrations of the Bantu people from Central to sub-Saharan Africa",
+        "Effect": "Spread of Bantu culture, innovations in metallurgy and agriculture throughout Africa",
         "Region": ["East Africa"]
       },
       {
@@ -495,7 +495,7 @@
         "Group": ["Societies & Structures"],
         "Definition": "A collection of states started by the Hausa people",
         "Cause": "Westward expansion of the Hausa people",
-        "Effect": "Created powerful city states that were centers of trade and Islamic scholarship",
+        "Effect": "Contained powerful city states that were centers of trade and production",
         "Region": ["West Africa"]
       },
       {
@@ -503,25 +503,25 @@
         "Group": ["Societies & Structures"],
         "Definition": "A West African empire renowned for the wealth of its rulers",
         "Cause": "Founded by Sundiata Keita, the first mansa",
-        "Effect": "Created powerful city states that were centers of trade and Islamic scholarship",
+        "Effect": "Contained cities that were centers of trade and Islamic scholarship",
         "Region": ["West Africa"],
         "Sentence": ["While the ", ["Mali Empire"], " held immense wealth and power, it was eventually taken over by the Songhai Empire"]
       },
       {
         "Term": "Feudalism",
         "Group": ["Societies & Structures"],
-        "Definition": "An political system in which land is distributed in exchange for service and labor",
-        "Cause": "The decentralization of power across an empire",
-        "Effect": "Localized communities, lowering social mobility and the spread of ideas",
+        "Definition": "Political system in which land is distributed in exchange for service",
+        "Cause": "The decentralization of power across European empires",
+        "Effect": "Localized communities, lowering social mobility and innovation",
         "Region": ["Eastern Europe", "Western Europe"],
         "Sentence": ["The basic hierarchy of ", ["feudalism"], " is king -> noble -> lord -> knight -> peasant/serf"]
       },
       {
         "Term": "Serfdom",
         "Group": ["Societies & Structures"],
-        "Definition": "A status of peasants in which they are tied directly to the land they work on",
-        "Cause": "Developed in feudalism as a harsh form of indentured servitude",
-        "Effect": "Low living standards and social mobility for the majority during the Middle Ages in Europe",
+        "Definition": "System of peasants being tied directly to the land they work on",
+        "Cause": "Grew in feudalism as a harsh form of indentured servitude",
+        "Effect": "Low social mobility for the majority; enforced agricultural production",
         "Region": ["Eastern Europe", "Western Europe"],
         "Sentence": [["Feudalism"], " differed to slavery in that ", ["serfs", "peasants"], " were sold with the land"]
       },
@@ -536,7 +536,7 @@
         "Term": "Magna Carta",
         "Group": ["Ideas & Innovations", "Societies & Structures"],
         "Definition": "A charter defining rights for barons and lords in England",
-        "Cause": "A peace settlement between the an unpopular king and group of rebel barons",
+        "Cause": "A peace settlement between an unpopular king and group of rebel barons",
         "Effect": "One of the first documents regulating the authority of a ruler",
         "Region": ["Western Europe"],
         "Sentence": ["The first written constitution of Europe was the ", ["Magna Carta"]]
@@ -545,11 +545,11 @@
         "Term": "Crusades",
         "Group": ["Events"],
         "Definition": "A series of religious wars facilitated by the Catholic Church",
-        "Cause": "The Europeans/Christians wanted to prevent the expansion of Muslim states and reclaim the Holy Land",
-        "Effect": "Increased the power of the Catholic Church in Europe and increased religious intolerance and interaction in Europe",
+        "Cause": "The Europeans/Christians wanted to reclaim the Holy Land from Muslim control",
+        "Effect": "Increased the power of the Catholic Church; led to contact between Europe and others",
         "Region": ["Middle East"],
-        "Sentence": ["The original goal of the crusades was to reconquer the ", ["Holy Land", "Jerusalem", ""]],
-        "Date": "11th to 18th centuries"
+        "Sentence": ["The original goal of the crusades was to reconquer the ", ["Holy Land", "Jerusalem"]],
+        "Date": "Fought sporadically from 11th-18th centuries"
       },
       {
         "Term": "Black Death",
@@ -559,23 +559,23 @@
         "Effect": "Death of ~50% of Europe's population",
         "Region": ["Eastern Europe", "Western Europe"],
         "Sentence": ["The Black Death is also known as the ", ["Bubonic Plague"]],
-        "Date": "1300s"
+        "Date": "Spread in 1300s"
       },
       {
         "Term": "Little Ice Age",
         "Group": ["Events"],
         "Definition": "Period of regional cooling in the North Atlantic region",
-        "Effect": "Caused a long term agricultural crisis and famine, as well as making travel more difficult",
+        "Effect": "Long term agricultural crisis and famine, made travel more difficult",
         "Region": ["Eastern Europe", "Western Europe"],
         "Sentence": ["The Little Ice Age ", ["was not"], " (was/was not) caused by human activities, unlike modern climate change, which ", ["was"], " (was/was not) caused by human activities"],
-        "Date": "16th to 19th centuries"
+        "Date": "Lasted from 16th-19th centuries"
       },
       {
         "Term": "Byzantine Empire",
         "Group": ["Societies & Structures"],
         "Definition": "The continuation of the Roman Empire's eastern half",
         "Cause": "Formed by the split of the Holy Roman Empire by Emperor Constantine I",
-        "Effect": "Was the most powerful economic, cultural, and military force in the Mediterranean region for its centuries of existence",
+        "Effect": "Was the most powerful force in the Mediterranean region during its existence",
         "Region": ["Eastern Europe"],
         "Sentence": ["The capital of the Byzantine Empire was ", ["Constantinople"]]
       },
@@ -583,17 +583,18 @@
         "Term": "Kievan Rus'",
         "Group": ["Societies & Structures"],
         "Definition": "A group of principalities ruled by the Rurik dynasty",
-        "Effect": "Spread Christianity to North Eastern Europe and eventually fell to the Mongols",
-        "Region": ["Eastern Europe"]
+        "Effect": "Spread Christianity to North Eastern Europe; fell to the Mongols",
+        "Region": ["Eastern Europe"],
+        "Sentence": ["The ", ["Kievan Rus"], " were ruled by the Rurik Dynasty"]
       },
       {
         "Term": "Hundred Years' War",
         "Group": ["Events"],
         "Definition": "A series of armed conflicts fought between the kingdoms of England and France",
         "Cause": "Triggered by a claim to the French throne by an English king",
-        "Effect": "French victory led to the strengthening of the monarchy and the loss of British territory in continental Europe",
+        "Effect": "French victory led to the strengthening of the monarchy and the loss of British territory",
         "Region": ["Western Europe"],
-        "Date": "14th and 15th centuries"
+        "Date": "Fought from 14th-15th centuries"
       },
       {
         "Term": "Minamoto no Yoritomo",
@@ -601,7 +602,7 @@
         "Definition": "The founder and first shogun of the Kamakura shogunate",
         "Effect": "Began the feudal age of Japan",
         "Region": ["East Asia"],
-        "Date": "1100s"
+        "Date": "Ruled in 1100s"
       },
       {
         "Term": "Genghis Khan",
@@ -610,75 +611,67 @@
         "Effect": "Formed and ruled the largest contiguous empire in history",
         "Region": ["Central Asia"],
         "Sentence": [["Genghis Khan"], " ruled the ", ["Mongol"], " Empire, which both caused massive destruction in and united Asia"],
-        "Date": "1200s"
+        "Date": "Ruled in 1200s"
       },
       {
         "Term": "Kublai Khan",
         "Group": ["People"],
         "Definition": "The founder and first emperor of the Yuan Dynasty",
-        "Effect": "Was the first non-Han emperor to rule all of China",
+        "Effect": "The first non-Han emperor to rule all of China",
         "Region": ["East Asia"],
         "Sentence": ["The ", ["Yuan Dynasty"], " under Kublai Khan was the first non-Han ruled empire encompassing all of China. Famously, another non-Han ruled empire was the ", ["Qing Dynasty"], " which was ruled by the Manchus"],
-        "Date": "1200s"
+        "Date": "Ruled in 1200s"
       },
       {
         "Term": "Marco Polo",
         "Group": ["People"],
         "Definition": "An Italian traveler that gave Europeans a look at the Eastern world",
-        "Effect": "Was the first European to create a detailed written account of his experience in East Asia",
+        "Effect": "First European to create a detailed account of his experience in East Asia",
         "Region": ["East Asia", "Eastern Europe", "Central Asia"],
         "Sentence": ["Marco Polo served as the foreign emissary for the ", ["Yuan Dynasty", "Kublai Khan"]],
-        "Date": "1200s"
+        "Date": "Traveled in 1200s"
       },
       {
         "Term": "Margery Kempe",
         "Group": ["People"],
-        "Definition": "A Christian mystic/pilgrim who traveled to Holy Sites",
+        "Definition": "A Christian mystic/pilgrim who traveled to holy sites",
         "Effect": "Wrote the first English autobiography",
         "Region": ["Middle East", "Eastern Europe", "Western Europe"],
         "Sentence": ["Margery Kempe documented her famous pilgrimage to the ", ["Holy Land"], " in her autobiography"],
-        "Date": "1400s"
+        "Date": "Traveled in 1400s"
       },
       {
         "Term": "Ibn Battuta",
         "Group": ["People"],
         "Definition": "A moroccan Islamic traveler who wrote The Rihla",
-        "Effect": "Was the most traveled pre-modern explorer. His book depicts Africa, the Middle East, and most of Asia",
+        "Effect": "The most traveled pre-modern explorer, whose book depicts most of Afro-Eurasia",
         "Region": ["East Asia", "South Asia", "Southeast Asia", "West Africa", "East Africa", "North Africa", "Middle East", "Eastern Europe", "Central Asia"],
         "Sentence": [["Ibn Battuta"], " spent nearly 30 years traveling across the Middle East, Africa, and Asia"],
-        "Date": "1300s"
-      },
-      {
-        "Term": "Al-Razi",
-        "Group": ["People"],
-        "Definition": "A Persian physician, philosopher, and alchemist",
-        "Effect": "One of the most important figures in the history of medicine. They supported experimental medicine and were the first to distinguish between smallpox and measles",
-        "Region": ["Middle East"],
-        "Date": "Islamic Golden Age"
+        "Date": "Traveled in 1300s"
       },
       {
         "Term": "Ibn Sina",
         "Group": ["People"],
-        "Definition": "A preeminent philosopher and physician of the Muslim world",
-        "Effect": "The father of early modern medicine. He wrote The Canon of Medicine, which was a standard medical encyclopedia in use for centuries afterwards",
+        "Definition": "A philosopher and physician of the Muslim world",
+        "Effect": "The father of early modern medicine",
         "Region": ["Middle East"],
         "Date": "Islamic Golden Age"
       },
       {
-        "Term": "Nasir al Din Tusi",
+        "Term": "Nasir al-Din al-Tusi",
         "Group": ["People"],
-        "Definition": "A Persian polymath, architect, philosopher, physician, scientist, and theologian",
-        "Effect": "They made significant astronomical advancements, invented trigonometry, and contributed to other scientific fields",
+        "Definition": "A Persian polymath who made significant mathematical advancements",
+        "Effect": "Invented trigonometry, made significant contributions to astronomy",
         "Region": ["Middle East"],
-        "Date": "1200s"
+        "Date": "Lived in 1200s"
       },
       {
         "Term": "Rumi",
         "Group": ["People"],
         "Definition": "A Sufi mystic, Islamic scholar, poet, and theologian",
-        "Effect": "Has had a global literary influence based on their Persian, Turkish, Arabic, and Greek poetry",
+        "Effect": "Has had a global literary influence based on his Islamic poetry",
         "Region": ["Middle East"],
-        "Date": "1200s"
+        "Date": "Lived in 1200s"
       },
       {
         "Term": "Ibn Khaldun",
@@ -686,7 +679,7 @@
         "Definition": "An Arab sociologist, philosopher, and historian",
         "Effect": "The father of historiography, sociology, economics, and demography studies",
         "Region": ["Middle East"],
-        "Date": "1300s"
+        "Date": "Lived in 1300s"
       },
       {
         "Term": "'A'isha al-Ba'uniyya",
@@ -694,16 +687,16 @@
         "Definition": "A female Islamic mystic and poet/author",
         "Effect": "She wrote more works in Arabic than any other women in the medieval period",
         "Region": ["Middle East"],
-        "Date": "1400s"
+        "Date": "Lived in 1400s"
       },
       {
         "Term": "Pachacuti",
         "Group": ["People"],
-        "Definition": "The first emperor and creator of the Incan Empire",
+        "Definition": "The first emperor of the expanded Incan Empire",
         "Effect": "Vastly expanded the Chiefdom of Cusco into the huge Incan Empire",
         "Region": ["South America"],
         "Sentence": ["The most famous of the Incan rulers was ", ["Pachacuti"], " who constructed Machu Picchu and expanded the Incan Empire"],
-        "Date": "1400s"
+        "Date": "Ruled in 1400s"
       },
       {
         "Term": "Montezuma II",
@@ -712,41 +705,41 @@
         "Effect": "Ruled the Aztecs at their peak and during their fall to the Spanish",
         "Region": ["North America"],
         "Sentence": ["The Aztec ruler ", ["Montezuma", "Montezuma II"], " was killed during the Spanish conquest of the Aztec Empire by the conquistador ", ["Cortes", "Hernan Cortes", "Hernán Cortés", "Cortés"]],
-        "Date": "1500s"
+        "Date": "Ruled in 1500s"
       },
       {
         "Term": "Sundiata Keita",
         "Group": ["People"],
         "Definition": "The founder and first Mansa of the Mali Empire",
         "Region": ["West Africa"],
-        "Date": "1200s"
+        "Date": "Ruled in 1200s"
       },
       {
         "Term": "Mansa Musa",
         "Group": ["People"],
-        "Definition": "The ninth Mansa of the Mali Empire and the richest person in ever",
-        "Effect": "Went on a famous Hajj to Mecca that made the Mali Empire and Timbuktu famous",
+        "Definition": "The ninth Mansa of the Mali Empire and the richest person ever",
+        "Effect": "Went on a famous Hajj to Mecca that made the Mali Empire famous; promoted Islam",
         "Region": ["West Africa"],
         "Sentence": [["Mansa Musa"], " became rich by taxing Mali's enormous salt and gold trade"],
-        "Date": "1300s"
+        "Date": "Ruled in 1300s"
       },
       {
         "Term": "Prince Henry",
         "Group": ["People"],
-        "Definition": "The fourth child of King John I of Portugal who participated in European maritime expansion",
-        "Effect": "They were the main initiator of the Age of Discovery, advocating and funding European maritime discoveries and expansion in Africa",
+        "Definition": "Prince of Portugal who participated in European maritime expansion",
+        "Effect": "Main initiator of the Age of Discovery, funding European maritime exploration in Africa",
         "Region": ["Western Europe"],
         "Sentence": ["Prince Henry encouraged the exploration of Western Africa, starting the Age of ", ["Discovery"]],
-        "Date": "1400s"
+        "Date": "Lived in 1400s"
       },
       {
         "Term": "Gutenberg",
         "Group": ["People"],
-        "Definition": "A German inventor and craftsman who invented the movable-type printing press",
-        "Effect": "By improving the use of movable type, they began an information revolution and mass-spread of literature in Europe",
+        "Definition": "German inventor and craftsman who invented the movable-type printing press",
+        "Effect": "Began an information revolution and mass-spread of literature in Europe",
         "Region": ["Eastern Europe"],
         "Sentence": ["Gutenberg's invention of the printing press gave Europeans greater access to religious texts like the ", ["bible"], " which led to the ", ["Protestant", " Reformation"]],
-        "Date": "1400s"
+        "Date": "Lived in 1400s"
       }
     ],
 

@@ -10,6 +10,7 @@ select {
   border: 1px solid black;
   padding: 3px;
   margin-top: 5px;
+  background-color: color-mix(in oklab, #45818e 85%, white);
 }
 
 #matchingBoard{
@@ -39,7 +40,7 @@ select {
       transition: background-color 2s, color 2s, filter 2s;
       color: rgba(0, 0, 0, 0);
       pointer-events: none;
-      filter: brightness(66.6%);
+      filter: brightness(75%);
     }
   }
 }
@@ -59,10 +60,11 @@ select {
 #gameInfo {
   font-size: 25px;
   margin-bottom: 2px;
+  color: white;
   & span {
     margin-right: 10px;
   }
   &.closed {
-    color: rgba(118, 118, 118, 0.3);
+    color: rgba(255, 255, 255, 0.5);
   }
 }
