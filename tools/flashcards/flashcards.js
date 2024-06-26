@@ -8,11 +8,13 @@ const matchingTiles = document.querySelectorAll("#matchingBoard button")
 const gameInfo = document.getElementById("gameInfo")
 const gameScore = document.getElementById("gameScore")
 const gameTimer = document.getElementById("gameTimer")
-
-const gameContainer = document.getElementById("game");
+const gameContainer = document.getElementById("gameContainer")
+const gameOverlay = document.getElementById("gameOverlay")
+const playBtn = document.getElementById("playBtn")
 
 let allGameTypes = [];
 
+let subject = "";
 let unit = "";
 let type = "";
 let game = "";
@@ -23,58 +25,62 @@ let totalCards = [];
 let timerInterval;
 let currentTime = 0;
 let completedCards = 0;
+let gameActive = false;
 
 subjectSel.addEventListener("change", () => {
-  if (subjectSel.selectedIndex !== 0) {
-    unitSel.disabled = false;
-    typeSel.disabled = false;
-
-    Array.from(unitSel.getElementsByClassName("new")).forEach(element => {element.remove()})
-    Array.from(typeSel.getElementsByClassName("new")).forEach(element => {element.remove()})
-
-    const subject = subjectSel.value;
-    fetch("/tools/flashcards/" + subject + ".json").then((res) => {
-      return res.json();
-    }).then((json) => {
-      data = json;
-      Object.keys(data.Units).forEach(unit => {
-        unitSel.insertAdjacentHTML("beforeend", `<option class="new">${unit}</option>`);
-      })
-      data.Groups.forEach(group => {
-        typeSel.insertAdjacentHTML("beforeend", `<option class="new">${group}</option>`)
-      });
-
-      allGameTypes = [...data.Matching, ...data.Categorization, ...data.Sentences];
-    })
-    unitSel.value = "";
-    typeSel.value = "";
-    unit = "";
-    type = "";
+  if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
+    subjectSel.value = subject;
+    return;
   }
-  unloadGame();
+
+  unitSel.disabled = false;
+  typeSel.disabled = false;
+
+  Array.from(unitSel.getElementsByClassName("new")).forEach(i => i.remove());
+  Array.from(typeSel.getElementsByClassName("new")).forEach(i => i.remove());
+
+  subject = subjectSel.value;
+  fetch("/tools/flashcards/" + subject + ".json")
+  .then((res) => res.json())
+  .then((json) => {
+    data = json
+    Object.keys(data.Units).forEach(unit => {
+      unitSel.insertAdjacentHTML("beforeend", `<option class="new">${unit}</option>`);
+    })
+    data.Groups.forEach(group => {
+      typeSel.insertAdjacentHTML("beforeend", `<option class="new">${group}</option>`)
+    });
+
+    allGameTypes = [...data.Matching, ...data.Categorization, ...data.Sentences];
+  });
+  unitSel.value = "";
+  typeSel.value = "";
+  unit = "";
+  type = "";
+  disableGame();
 })
 
 unitSel.addEventListener("change", () => {
-  if (unitSel.selectedIndex !== 0) {
-    openGame();
-  } else {
-    unloadGame();
+  if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
+    unitSel.value = unit;
+    return;
   }
+  unit = unitSel.value;
+  disableGame();
+  enableGame();
 })
 
 typeSel.addEventListener("change", () => {
-  if (typeSel.selectedIndex !== 0) {
-    openGame();
-  } else {
-    unloadGame();
+  if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
+    typeSel.value = type;
+    return;
   }
+  type = typeSel.value;
+  disableGame();
+  enableGame();
 })
 
-function openGame() {
-  unloadGame()
-  unit = unitSel.value;
-  type = typeSel.value;
-
+function enableGame() {
   if (unit !== "" && type !== "") {
     gameSel.disabled = false;
     let games = [];
@@ -91,48 +97,60 @@ function openGame() {
   }
 }
 
-function unloadGame() {
+function disableGame() {
   gameSel.disabled = true;
-  Array.from(gameSel.getElementsByClassName("new")).forEach(element => {element.remove()})
+  Array.from(gameSel.getElementsByClassName("new")).forEach(i => i.remove())
   gameSel.selectedIndex = 0;
-  matchingBoard.style.display = "none";
+  gameContainer.hidden = true;
+  resetGameInfo();
+  gameActive = false;
+}
+
+function resetGameInfo() {
   gameInfo.classList.add("closed");
   clearInterval(timerInterval);
+  gameScore.textContent = "0/0";
+  gameTimer.textContent = "00:00";
 }
 
 gameSel.addEventListener("change", () => {
-  clearInterval(timerInterval);
-  game = gameSel.value;
-  matchingBoard.style.display = "none";
-  if (gameSel.value !== "") {
-    remainingCards = [];
-    let cardNames = [];
-    let cardCandidates = [];
-    totalCards = [];
-
-    if (unit === "all") {
-      for (item in data.Units) {
-        cardCandidates.push(...data.Units[item]);
-      }
-    } else cardCandidates = data.Units[unit];
-
-    if (type !== "all") cardCandidates = cardCandidates.filter(card => card.Group.includes(type));
-
-    cardCandidates = cardCandidates.filter(card => card.hasOwnProperty(game));
-
-    for (idx in cardCandidates) {
-      if (!cardNames.includes(cardCandidates[idx].Term)) {
-        cardNames.push(cardCandidates[idx].Term);
-        totalCards.push(cardCandidates[idx]);
-      }
-    }
-    shuffleArray(totalCards);
-    startGame();
+  if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
+    gameSel.value = game;
+    return;
   }
+  game = gameSel.value;
+
+  resetGameInfo();
+
+  totalCards = [];
+  remainingCards = [];
+  let cardNames = [];
+  let cardCandidates = [];
+
+  if (unit === "all") {
+    for (i in data.Units) {
+      cardCandidates.push(...data.Units[i]);
+    }
+  } else cardCandidates = data.Units[unit];
+
+  if (type !== "all") cardCandidates = cardCandidates.filter(card => card.Group.includes(type));
+
+  cardCandidates = cardCandidates.filter(card => card.hasOwnProperty(game));
+
+  for (idx in cardCandidates) {
+    if (!cardNames.includes(cardCandidates[idx].Term)) {
+      cardNames.push(cardCandidates[idx].Term);
+      totalCards.push(cardCandidates[idx]);
+    }
+  }
+  shuffleArray(totalCards);
+  preStartGame();
 })
 
-function startGame() {
-  gameInfo.classList.remove("closed");
+function preStartGame() {
+  gameContainer.hidden = false;
+  gameOverlay.style.display = "flex";
+  matchingBoard.style.display = "none";
 
   remainingCards = [...totalCards];
   if (data.Matching.includes(game)) {
@@ -144,9 +162,6 @@ function startGame() {
 
     completedCards = 0;
     gameScore.textContent = completedCards + "/" + totalCards.length;
-    currentTime = 0;
-    updateTimer();
-    timerInterval = setInterval(updateTimer, 1000);
 
   } else if (data.Categorization.includes(game)) {
     console.log("Categorization")
@@ -195,12 +210,11 @@ function updateMatchingBoard() {
   }
 
   if (currentCards.filter(card => card === undefined).length === currentCards.length) {
-    clearInterval(timerInterval);
+    win();
   }
   
   for (let i = 0; i < 20; i++) {
   if (currentCards[i] === undefined) {
-    matchingTiles[i].textContent = "";
     matchingTiles[i].classList.add("empty");
   } else {
     matchingTiles[i].textContent = currentCards[i];
@@ -242,4 +256,21 @@ function updateTimer() {
   if (minutes < 10) minutes = "0" + minutes;
 
   gameTimer.textContent = minutes + ":" + seconds;
+}
+
+playBtn.addEventListener("click", () => {
+  gameInfo.classList.remove("closed");
+  currentTime = -1;
+  updateTimer();
+  timerInterval = setInterval(updateTimer, 1000);
+  gameOverlay.style.display = "none";
+  gameActive = true;
+})
+
+function win() {
+  clearInterval(timerInterval);
+  let seconds = currentTime % 60;
+  const minutes = Math.floor(currentTime/60);
+  if (seconds < 10) seconds = "0" + seconds;
+  alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds!")
 }
