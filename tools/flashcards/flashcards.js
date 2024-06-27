@@ -268,9 +268,9 @@ playBtn.addEventListener("click", () => {
 })
 
 function win() {
+  gameActive = false;
   clearInterval(timerInterval);
-  let seconds = currentTime % 60;
+  const seconds = currentTime % 60;
   const minutes = Math.floor(currentTime/60);
-  if (seconds < 10) seconds = "0" + seconds;
-  alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds!")
+  alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds!");
 }
