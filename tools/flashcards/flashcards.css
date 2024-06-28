@@ -80,14 +80,50 @@ select {
 }
 
 #playBtn {
-  width: 100px;
-  height: 100px;
+  max-height: 100px;
+  height: 100%;
+  aspect-ratio: 1/1;
   border-radius: 10px;
   border: 1px solid black;
   background-color: white;
   cursor: pointer;
+
 }
 
 #gameContainer {
   position: relative;
+}
+
+#sentenceControls {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+  & button{
+    width: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:disabled img{
+      filter: invert(50%)
+    }
+  }
+}
+
+#prevSentence img {
+  rotate: 180deg;
+}
+
+.sentence input {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#sentencesBoard {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 2px 0px;
+  padding: 5px;
 }

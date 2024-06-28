@@ -64,7 +64,7 @@
         "Cause": "Conquering of majority of Asia by Genghis Khan",
         "Effect": "Empire became the Yuan Dynasty, Ilkhanate, Chagatai Khanate, and Golden Horde",
         "Region": "Central Asia",
-        "Sentence": ["The Mongol equivalent of a chiefdom is a", ["Khanate", "Khaganate"]]
+        "Sentence": ["The Mongol equivalent of a chiefdom is a ", ["Khanate", "Khaganate"]]
       },
       {
         "Term": "Pax Mongolica",
@@ -249,7 +249,7 @@
         "Cause": "Seljuk Turks converted to Islam and established an Empire",
         "Effect": "Islamic sultanates became controlled by Turks; contributed to Turco-Persian culture",
         "Region": ["Middle East", "Central Asia"],
-        "Sentence": ["The primary target of the First Crusade was the ", ["Seljuk Dynasty"]]
+        "Sentence": ["TEMPLATE, ANSWER IS X ", ["X"]]
       },
       {
         "Term": "Mamluk Sultanate",
@@ -346,7 +346,7 @@
         "Definition": "A Hindu-Buddhist empire in what is now Cambodia, Laos, and Thailand",
         "Effect": "Source of religious art, culture, and architecture like Angkor Wat",
         "Region": ["Southeast Asia"],
-        "Sentence": ["The ", ["Khmer Empire"], " celebrated both Hindu and Buddhist religion, with Hinduism being more popular among the ", ["upper", "higher", "ruling", "elite", "noble"], "class"]
+        "Sentence": ["The ", ["Khmer Empire"], " celebrated both Hindu and Buddhist religion, with Hinduism being more popular among the ", ["upper", "higher", "ruling", "elite", "noble"], " class"]
       },
       {
         "Term": "Srivijaya Empire",
@@ -523,7 +523,7 @@
         "Cause": "Grew in feudalism as a harsh form of indentured servitude",
         "Effect": "Low social mobility for the majority; enforced agricultural production",
         "Region": ["Eastern Europe", "Western Europe"],
-        "Sentence": [["Feudalism"], " differed to slavery in that ", ["serfs", "peasants"], " were sold with the land"]
+        "Sentence": [["Feudalism", "Serfdom"], " differed to slavery in that ", ["serfs", "peasants"], " were sold with the land"]
       },
       {
         "Term": "Hanseatic League",

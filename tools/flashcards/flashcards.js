@@ -11,6 +11,10 @@ const gameTimer = document.getElementById("gameTimer")
 const gameContainer = document.getElementById("gameContainer")
 const gameOverlay = document.getElementById("gameOverlay")
 const playBtn = document.getElementById("playBtn")
+const sentencesBoard = document.getElementById("sentencesBoard")
+const prevSentence = document.getElementById("prevSentence")
+const nextSentence = document.getElementById("nextSentence")
+let sentences;
 
 let allGameTypes = [];
 
@@ -151,10 +155,10 @@ function preStartGame() {
   gameContainer.hidden = false;
   gameOverlay.style.display = "flex";
   matchingBoard.style.display = "none";
+  sentencesBoard.hidden = true;
 
   remainingCards = [...totalCards];
   if (data.Matching.includes(game)) {
-    console.log("Matching")
     matchingBoard.style.display = "grid";
 
     currentCards = [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined];
@@ -167,12 +171,77 @@ function preStartGame() {
     console.log("Categorization")
 
   } else if (data.Sentences.includes(game)) {
-    console.log("Sentences")
+    sentencesBoard.hidden = false;
+    currentCards = 0;
+    Array.from(sentencesBoard.getElementsByClassName("sentence")).forEach(i => i.remove())
+    totalCards.forEach(card => {
+      let sentence = ""
+      card.Sentence.forEach(part => {
+        if (typeof part === "string") {
+          sentence += `<span>${part}</span>`
+        } else {
+          sentence += `<input type="text" oninput="checkSentence();">`
+        }
+      })
+      sentence = `<div class="sentence" hidden>` + sentence + "</div>";
+      sentencesBoard.insertAdjacentHTML("beforeend", sentence);
+    })
+    sentences = Array.from(document.getElementsByClassName("sentence"));
+    updateSentences();
 
+    completedCards = 0;
+    gameScore.textContent = completedCards + "/" + totalCards.length;
   } else {
     console.log("error")
   }
 }
+
+function checkSentence() {
+  const inputs = sentences[currentCards].getElementsByTagName("input");
+  const answers = remainingCards[currentCards].Sentence.filter(i => typeof i !== "string");
+  let success = true;
+  answers.forEach((answer, idx) => {
+    answer = answer.map(i => i.toLowerCase())
+    if (!answer.includes(inputs[idx].value.toLowerCase())) {
+      success = false;
+    }
+  })
+  if (success) {
+    sentences[currentCards].remove()
+    sentences.splice(currentCards, 1);
+    remainingCards.splice(currentCards, 1);
+    if (currentCards === remainingCards.length) {
+      currentCards--;
+    }
+    completedCards++
+    gameScore.textContent = completedCards + "/" + totalCards.length;
+    if (remainingCards.length === 0) {
+      win()
+    } else updateSentences();
+  }
+}
+
+function updateSentences() {
+  sentences.forEach(i => i.hidden = true);
+  sentences[currentCards].hidden = false;
+  prevSentence.disabled = currentCards === 0;
+  nextSentence.disabled = currentCards === remainingCards.length;
+  sentences[currentCards].querySelector("input").focus()
+}
+
+prevSentence.addEventListener("click", () => {
+  if (currentCards > 0) {
+    currentCards--;
+    updateSentences();
+  }
+})
+
+nextSentence.addEventListener("click", () => {
+  if (currentCards <= remainingCards.length-2) {
+    currentCards++;
+    updateSentences();
+  }
+})
 
 function shuffleArray(array) {
   for (var i = array.length - 1; i > 0; i--) {
