@@ -1,16 +1,19 @@
 {
   "Groups": ["People", "Events", "Religion & Culture", "Ideas & Innovations", "Societies & Structures"],
 
+
   "Matching": ["Definition", "Cause", "Effect", "Date"],
   "Categorization": ["Region"],
   "Region": ["East Asia", "South Asia", "Southeast Asia", "West Africa", "East Africa", "North Africa", "Middle East", "Oceania", "South America", "North America", "Latin America", "Eastern Europe", "Western Europe", "Central Asia"],
   "Sentences": ["Sentence"],
+
 
   "People": ["Definition", "Effect", "Region", "Sentence", "Date"],
   "Events": ["Definition", "Cause", "Effect", "Region", "Sentence", "Date"],
   "Religion & Culture": ["Definition", "Cause", "Effect", "Region", "Sentence"],
   "Ideas & Innovations": ["Definition", "Cause", "Effect", "Region", "Sentence"],
   "Societies & Structures": ["Definition", "Cause", "Effect", "Region", "Sentence"],
+
 
   "Units": {
     "Unit 1: The Global Tapestry": [
@@ -30,7 +33,7 @@
         "Cause": "Developed by Han dynasty to choose officials based on merit",
         "Effect": "Grew and maintained dynastic imperial bureaucracy",
         "Region": "East Asia",
-        "Sentence": [["Civil Service"], " Exams in China were a test of knowledge of the dominant religion of Chinese elites"]
+        "Sentence": ["The ",["Civil Service Exams"], " in China were a test of knowledge of the dominant religion of Chinese elites"]
       },
       {
         "Term": "Filial Piety",
@@ -118,7 +121,7 @@
         "Cause": "Unification of the Later Three Kingdoms of Korea",
         "Effect": "Achieved true national unification of Korea; valued education, culture, and trade",
         "Region": "East Asia",
-        "Sentence": [["Goryeo"], " fended off invasions and reclaimed ancestral lands from the Yuan Dynasty"]
+        "Sentence": ["The ", ["Goryeo"], " state fended off invasions and reclaimed ancestral lands from the Yuan Dynasty"]
       },
       {
         "Term": "Tang Dynasty",
@@ -151,7 +154,7 @@
         "Group": ["Societies & Structures"],
         "Definition": "The first shogunate of Japan; a feudal military government",
         "Cause": "Minamoto no Yoritomo won a national civil war and appointed himself shōgun",
-        "Effect": "Reorganization of Japanese social structure towards a form of feudalism", 
+        "Effect": "Reorganization of Japanese social structure towards a form of feudalism",
         "Region": "East Asia",
         "Sentence": ["In the ", ["Kamakura Shogunate"], ", Japan adopted a feudal hierarchy"]
       },
@@ -213,7 +216,7 @@
         "Cause": "Dispute over who should succeed Muhammad as the leader of Islam",
         "Effect": "Cause of tensions, violence, and wars throughout history",
         "Region": ["Middle East"],
-        "Sentence": [["Sunnis"], " believe that Abu Bakr should have been the next caliph, while ", ["Shi'as", "Shias"], " believe it should have been Ali"]
+        "Sentence": [["Sunnis", "Sunni", "Sunni Muslims"], " believe that Abu Bakr should have been the next caliph, while ", ["Shi'as", "Shias", "Shia Muslims", "Shi'a Muslims", "Shia", "Shi'a"], " believe it should have been Ali"]
       },
       {
         "Term": "Caliphate",
@@ -222,7 +225,7 @@
         "Cause": "Death of Muhammad lead to the opening of a new political position and system",
         "Effect": "Formed massive empires that advanced and preserved science, literature, and Islam",
         "Region": ["Middle East"],
-        "Sentence": ["The ", ["Ottoman Empire"], " was the last caliphate"]
+        "Sentence": ["The ", ["Ottoman Empire", "Abbasid caliphate"], " was the last caliphate"]
       },
       {
         "Term": "Sultanate",
@@ -249,7 +252,7 @@
         "Cause": "Seljuk Turks converted to Islam and established an Empire",
         "Effect": "Islamic sultanates became controlled by Turks; contributed to Turco-Persian culture",
         "Region": ["Middle East", "Central Asia"],
-        "Sentence": ["TEMPLATE, ANSWER IS X ", ["X"]]
+        "Sentence": ["The Seljuk Empire was ruled by ", ["Turks", "Turkik Muslims", "Seljuk Turks"], " unlike previous Islamic states"]
       },
       {
         "Term": "Mamluk Sultanate",
@@ -312,7 +315,7 @@
         "Cause": "Last of a series of invasions which weakened Yuan troops and forced a retreat",
         "Effect": "Major Vietnamese victory which ended Yuan southward expansion",
         "Region": ["Southeast Asia"],
-        "Sentence": ["In the Battle of Bach Dang, the invading army of the ", ["Yuan Dynasty"], " was defeated, ending its expansion there"],
+        "Sentence": ["In the Battle of Bach Dang, the invading army of the ", ["Yuan Dynasty", "Yuan"], " was defeated, ending its expansion there"],
         "Date": "Fought in 1288"
       },
       {
@@ -338,7 +341,7 @@
         "Group": ["Societies & Structures"],
         "Definition": "A monarchical kingdom located in Sri Lanka",
         "Region": ["South Asia"],
-        "Sentence": ["After 2,357 years of indigenous Sinhalese rule, the ", ["British", "British Empire"], " took control of Sri Lanka"]
+        "Sentence": ["After 2,357 years of indigenous rule, the ", ["Sinhalese Monarchy"], " lost control of Sri Lanka"]
       },
       {
         "Term": "Khmer Empire",
@@ -346,7 +349,7 @@
         "Definition": "A Hindu-Buddhist empire in what is now Cambodia, Laos, and Thailand",
         "Effect": "Source of religious art, culture, and architecture like Angkor Wat",
         "Region": ["Southeast Asia"],
-        "Sentence": ["The ", ["Khmer Empire"], " celebrated both Hindu and Buddhist religion, with Hinduism being more popular among the ", ["upper", "higher", "ruling", "elite", "noble"], " class"]
+        "Sentence": ["The Khmer Empire celebrated both ", ["Hindu", "Hinduism"], " and ", ["Buddhist", "Buddhism"], " (chronologically) religion, with Hinduism being more popular among the ", ["upper", "higher", "ruling", "elite", "noble"], " class"]
       },
       {
         "Term": "Srivijaya Empire",
@@ -384,7 +387,7 @@
         "Cause": "Founded by the Mexica on Lake Texcoco based on a sign from their patron god",
         "Effect": "Most populous city of the Aztec Empire; led the Aztecs politically",
         "Region": ["North America"],
-        "Sentence": ["When Cortés conquered the ", ["Aztec Empire"], ", he and his soldiers were surprised by the wealth and vastness of the capital city ", ["Tenochtitlan"]]
+        "Sentence": ["When Cortés conquered the ", ["Aztec Empire","Aztec","Aztecs"], ", he and his soldiers were surprised by the wealth and vastness of the capital city ", ["Tenochtitlan"]]
       },
       {
         "Term": "Chinampas",
@@ -548,7 +551,7 @@
         "Cause": "The Europeans/Christians wanted to reclaim the Holy Land from Muslim control",
         "Effect": "Increased the power of the Catholic Church; led to contact between Europe and others",
         "Region": ["Middle East"],
-        "Sentence": ["The original goal of the crusades was to reconquer the ", ["Holy Land", "Jerusalem"]],
+        "Sentence": ["The original goal of the Crusades was to reconquer the ", ["Holy Land", "Jerusalem"]],
         "Date": "Fought sporadically from 11th-18th centuries"
       },
       {
@@ -619,7 +622,7 @@
         "Definition": "The founder and first emperor of the Yuan Dynasty",
         "Effect": "The first non-Han emperor to rule all of China",
         "Region": ["East Asia"],
-        "Sentence": ["The ", ["Yuan Dynasty"], " under Kublai Khan was the first non-Han ruled empire encompassing all of China. Famously, another non-Han ruled empire was the ", ["Qing Dynasty"], " which was ruled by the Manchus"],
+        "Sentence": ["The Yuan Dynasty was ruled by ", ["Kublai Khan"]],
         "Date": "Ruled in 1200s"
       },
       {
@@ -637,7 +640,7 @@
         "Definition": "A Christian mystic/pilgrim who traveled to holy sites",
         "Effect": "Wrote the first English autobiography",
         "Region": ["Middle East", "Eastern Europe", "Western Europe"],
-        "Sentence": ["Margery Kempe documented her famous pilgrimage to the ", ["Holy Land"], " in her autobiography"],
+        "Sentence": [["Margery Kempe"], " documented her famous pilgrimages to Holy sites in her autobiography"],
         "Date": "Traveled in 1400s"
       },
       {
@@ -720,7 +723,7 @@
         "Definition": "The ninth Mansa of the Mali Empire and the richest person ever",
         "Effect": "Went on a famous Hajj to Mecca that made the Mali Empire famous; promoted Islam",
         "Region": ["West Africa"],
-        "Sentence": [["Mansa Musa"], " became rich by taxing Mali's enormous salt and gold trade"],
+        "Sentence": [["Mansa Musa"], " (person) became rich by taxing Mali's enormous salt and gold trade"],
         "Date": "Ruled in 1300s"
       },
       {
@@ -729,7 +732,7 @@
         "Definition": "Prince of Portugal who participated in European maritime expansion",
         "Effect": "Main initiator of the Age of Discovery, funding European maritime exploration in Africa",
         "Region": ["Western Europe"],
-        "Sentence": ["Prince Henry encouraged the exploration of Western Africa, starting the Age of ", ["Discovery"]],
+        "Sentence": ["Prince Henry encouraged the exploration of Western Africa, starting the Age of ", ["Discovery", "Exploration"]],
         "Date": "Lived in 1400s"
       },
       {
@@ -743,59 +746,100 @@
       }
     ],
 
+
     "Unit 2: Networks of Exchange": [
 
 
 
+
+
+
     ],
+
 
     "Unit 3: Land-Based Empires": [
 
 
 
 
+
+
+
+
     ],
+
 
     "Unit 4: Transoceanic Interconnections": [
 
 
 
 
+
+
+
+
     ],
+
 
     "Unit 5: Revolutions": [
 
 
 
 
+
+
+
+
     ],
+
 
     "Unit 6: Consequences of Industrialization": [
 
 
 
 
+
+
+
+
     ],
+
 
     "Unit 7: Global Conflict": [
 
 
 
 
+
+
+
+
     ],
+
 
     "Unit 8: Cold War and Decolonization": [
 
 
 
 
+
+
+
+
     ],
+
 
     "Unit 9: Globalization": [
 
-      
+
+     
+
+
 
 
     ]
   }
 }
+
+
+
