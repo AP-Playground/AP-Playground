@@ -10,7 +10,7 @@ body {
 }
 
 * {
-  font-family: Roboto;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 main {
@@ -75,8 +75,7 @@ main > h3 {
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
-  margin: 0;
-  margin-bottom: 5px;
+  margin: 15px 0 5px 0;
   display: block;
   overflow-wrap: break-word;
 }
