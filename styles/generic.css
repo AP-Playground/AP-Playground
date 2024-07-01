@@ -17,7 +17,7 @@ main {
   background-color: white;
   margin: 10px;
   border-radius: 15px;
-  padding: 30px calc(min(200px, 8vw) - var(--scrollbar)) 30px min(200px, 8vw);
+  padding: 30px max(5vw - var(--scrollbar), 50% - 600px) 30px max(5vw, 50% - 600px);
   overflow: hidden;
   isolation: isolate;
   min-height: calc(100vh - 80px);
@@ -56,6 +56,7 @@ main > p {
   margin-bottom: 10px;
   font-size: 20px;
   overflow-wrap: break-word;
+  line-height: 30px;
 }
 
 main > h2 {

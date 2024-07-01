@@ -19,7 +19,7 @@ document.querySelector("script.header").insertAdjacentHTML("beforebegin", `
       <img src="/svgs/logo.svg" class="header-logo">
     </div>
     <div class="header-items">
-      <a href="/home">Home</a>
+      <a href="/">Home</a>
       <a href="/classes">Classes</a>
       <a href="/about">About</a>
       <a href="/resources">Resources</a>

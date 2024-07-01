@@ -202,7 +202,7 @@ function checkSentence() {
   let success = true;
   answers.forEach((answer, idx) => {
     answer = answer.map(i => i.toLowerCase())
-    if (!answer.includes(inputs[idx].value.toLowerCase())) {
+    if (!answer.includes(inputs[idx].value.toLowerCase().trim())) {
       success = false;
     }
   })
