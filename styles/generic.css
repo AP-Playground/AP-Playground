@@ -118,7 +118,8 @@ main > ul > li > ul {
 main > img {
   display: block;
   margin: auto;
-  max-width: 100%;
+  max-width: min(100%, 600px);
+  margin-bottom: 10px;
 }
 
 main > i.imgCaption {
