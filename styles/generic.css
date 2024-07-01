@@ -82,10 +82,10 @@ main > h3 {
 
 .link-bar {
   margin-bottom: 15px;
+  font-size: 20px;
 }
 
 .link-bar a {
-  font-size: 20px;
   text-decoration: none;
 }
 
@@ -95,8 +95,36 @@ main > h3 {
 
 main iframe {
   margin: 30px auto;
-  width: min(90%, 1000px);
+  width: min(100%, 1000px);
   height: auto;
   aspect-ratio: 16/9;
   display: block;
+}
+
+p > b {
+  color: #45818e;
+}
+
+main > ul {
+  margin-top: 0;
+  font-size: 20px;
+  list-style-type: "⮚ ";
+}
+
+main > ul > li > ul {
+  list-style-type: "◆ ";
+}
+
+main > img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+main > i.imgCaption {
+  display: block;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
 }

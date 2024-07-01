@@ -6,7 +6,7 @@
 }
 
 .gridBody a {
-  background-color: lightblue;
+  background-color: color-mix(in oklab, #45818e 85%, white);
   aspect-ratio: 16/9;
   border-radius: 10px;
   text-decoration: none;

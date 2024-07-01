@@ -33,7 +33,7 @@
         "Cause": "Developed by Han dynasty to choose officials based on merit",
         "Effect": "Grew and maintained dynastic imperial bureaucracy",
         "Region": "East Asia",
-        "Sentence": ["The ",["Civil Service Exams"], " in China were a test of knowledge of the dominant religion of Chinese elites"]
+        "Sentence": ["The ",["Civil Service Exams", "Civil Service Exam"], " in China were a test of knowledge of the dominant religion of Chinese elites"]
       },
       {
         "Term": "Filial Piety",
@@ -225,7 +225,7 @@
         "Cause": "Death of Muhammad lead to the opening of a new political position and system",
         "Effect": "Formed massive empires that advanced and preserved science, literature, and Islam",
         "Region": ["Middle East"],
-        "Sentence": ["The ", ["Ottoman Empire", "Abbasid caliphate"], " was the last caliphate"]
+        "Sentence": ["The ", ["Ottoman Empire", "Abbasid caliphate", "Abbasid"], " was the last caliphate"]
       },
       {
         "Term": "Sultanate",
@@ -741,7 +741,7 @@
         "Definition": "German inventor and craftsman who invented the movable-type printing press",
         "Effect": "Began an information revolution and mass-spread of literature in Europe",
         "Region": ["Eastern Europe"],
-        "Sentence": ["Gutenberg's invention of the printing press gave Europeans greater access to religious texts like the ", ["bible"], " which led to the ", ["Protestant", " Reformation"]],
+        "Sentence": ["Gutenberg's invention of the printing press gave Europeans greater access to religious texts like the ", ["bible"], " which led to the Protestant Reformation"],
         "Date": "Lived in 1400s"
       }
     ],
@@ -840,6 +840,3 @@
     ]
   }
 }
-
-
-
