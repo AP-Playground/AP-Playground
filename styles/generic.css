@@ -101,18 +101,13 @@ main iframe {
   display: block;
 }
 
-p > b {
+main b {
   color: #45818e;
 }
 
 main > ul {
   margin-top: 0;
   font-size: 20px;
-  list-style-type: "⮚ ";
-}
-
-main > ul > li > ul {
-  list-style-type: "◆ ";
 }
 
 main > img {
@@ -128,4 +123,44 @@ main > i.imgCaption {
   font-style: italic;
   font-size: 20px;
   text-align: center;
+}
+
+main > table {
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  table-layout: fixed;
+  width: min(100%, 700px);
+  border-collapse: collapse;
+}
+
+main > table th {
+  text-align: center;
+}
+
+main > table td,
+main > table th {
+  vertical-align: top;
+  border: 1px solid black;
+  padding: 10px;
+  word-wrap: break-word;
+  
+  & h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  & h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  & p {
+    font-size: 20px;
+    margin: 0;
+  }
+  & img {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
