@@ -1,3 +1,5 @@
+/* General styles */
+
 select {
   padding: 3px;
   border-radius: 100px;
@@ -5,50 +7,15 @@ select {
   margin-bottom: 3px;
 }
 
+
+/* Game container styles */
+
 #game {
   border-radius: 10px;
   border: 1px solid black;
   padding: 3px;
   margin-top: 5px;
   background-color: color-mix(in oklab, #45818e 85%, white);
-}
-
-#matchingBoard{
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  column-gap: 3px;
-  row-gap: 3px;
-  text-align: center;
-  table-layout: fixed;
-  word-wrap: break-word;
-  & button {
-    border: 1px solid black;
-    color: rgba(0, 0, 0, 1);
-    border-radius: 10px;
-    height: 150px;
-    cursor: pointer;
-    transition: background-color 200ms, color 2s, filter 2s;
-    background-color: white;
-    &:hover {
-      background-color: #eee;
-    }
-    &.selected {
-      background-color: #ddd;
-    }
-    &.empty {
-      transition: background-color 2s, color 1s, filter 2s;
-      color: rgba(0, 0, 0, 0);
-      pointer-events: none;
-      filter: brightness(75%);
-    }
-  }
-}
-
-@media (max-width: 500px) {
-  #matchingBoard {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
 }
 
 #gameHeader {
@@ -92,6 +59,96 @@ select {
 
 #gameContainer {
   position: relative;
+}
+
+
+/* Game specific styles */
+
+#matchingBoard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 3px;
+  row-gap: 3px;
+  text-align: center;
+  table-layout: fixed;
+  word-wrap: break-word;
+  & button {
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    height: 150px;
+    cursor: pointer;
+    transition: background-color 200ms, color 2s, filter 2s;
+    background-color: white;
+    &:hover {
+      background-color: #eee;
+    }
+    &.selected {
+      background-color: #ddd;
+    }
+    &.empty {
+      transition: background-color 2s, color 1s, filter 2s;
+      color: rgba(0, 0, 0, 0);
+      pointer-events: none;
+      filter: brightness(75%);
+    }
+  }
+}
+
+#imagesBoard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 3px;
+  row-gap: 3px;
+  text-align: center;
+  table-layout: fixed;
+  word-wrap: break-word;
+  & button {
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    height: 150px;
+    cursor: pointer;
+    transition: background-color 200ms, color 2s, filter 2s;
+    background-color: white;
+    &:hover {
+      background-color: #eee;
+      & img {
+        filter: brightness(93%)
+      }
+    }
+    &.selected {
+      background-color: #ddd;
+      & img {
+        filter: brightness(87%)
+      }
+    }
+    &.empty {
+      transition: background-color 2s, color 1s, filter 2s;
+      color: rgba(0, 0, 0, 0);
+      pointer-events: none;
+      filter: brightness(75%);
+      & img {
+        transition: filter 2s, opacity 2s;
+        opacity: 0;
+      }
+    }
+    & img {
+      max-height: 100%;
+      max-width: 100%;
+      pointer-events: none;
+      transition: filter 200ms, opacity 2s;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #matchingBoard,
+  #imagesBoard {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 #sentenceControls {

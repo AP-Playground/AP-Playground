@@ -3,6 +3,7 @@
 
 
   "Matching": ["Definition", "Cause", "Effect", "Date"],
+  "Images": [],
   "Categorization": ["Region"],
   "Region": ["East Asia", "South Asia", "Southeast Asia", "West Africa", "East Africa", "North Africa", "Middle East", "Oceania", "South America", "North America", "Latin America", "Eastern Europe", "Western Europe", "Central Asia"],
   "Sentences": ["Sentence"],

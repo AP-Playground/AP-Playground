@@ -1,0 +1,79 @@
+{
+  "Groups": ["Biochemistry", "Cell Structure/Function", "Ecology", "Evolution", "Genetics"],
+
+
+  "Matching": ["Definition"],
+  "Images": ["Image"],
+  "Categorization": [],
+  "Sentences": [],
+
+
+  "Biochemistry": ["Definition", "Image"],
+  "Cell Structure/Function": ["Definition", "Image"],
+  "Ecology": ["Definition", "Image"],
+  "Evolution": ["Definition", "Image"],
+  "Genetics": ["Definition", "Image"],
+
+
+  "Units": {
+    "Unit 1: Chemistry of Life": [
+      {
+        "Term": "Atom",
+        "Group": ["Biochemistry"],
+        "Definition": "The basic particle of elements, consists of protons, neutrons, and electrons",
+        "Image": ""
+      },
+      {
+        "Term": "Valence",
+        "Group": ["Biochemistry"],
+        "Definition": "The number of chemical bonds an atom of a particular element can create",
+        "Image": ""
+      },
+      {
+        "Term": "Valence shell",
+        "Group": ["Biochemistry"],
+        "Definition": "The outermost electron shell, denotes valence based on # of electrons",
+        "Image": ""
+      },
+      {
+        "Term": "Ions",
+        "Group": ["Biochemistry"],
+        "Definition": "An atom or molecule with an electric charge",
+        "Image": ""
+      },
+      {
+        "Term": "Cis-trans isomer",
+        "Group": ["Biochemistry"],
+        "Definition": "Isomers in which similar atoms lie on either the same (cis) or different (trans) sides of double bonds",
+        "Image": ""
+      },
+      {
+        "Term": "Isomer",
+        "Group": ["Biochemistry"],
+        "Definition": "Molecules with identical chemical formula but differing structural makeup",
+        "Image": ""
+      }
+    ],
+
+
+    "Unit 2: Cell Structure and Function": [],
+
+
+    "Unit 3: Cellular Energetics": [],
+
+
+    "Unit 4: Cell Communication and Cell Cycle": [],
+
+
+    "Unit 5: Heredity": [],
+
+
+    "Unit 6: Gene Expression and Regulation": [],
+
+
+    "Unit 7: Natural Selection": [],
+
+
+    "Unit 8: Ecology": []
+  }
+}

@@ -1,3 +1,4 @@
+// HTML element variables
 let data;
 const subjectSel = document.getElementById("subjectSel");
 const unitSel = document.getElementById("unitSel");
@@ -14,8 +15,12 @@ const playBtn = document.getElementById("playBtn")
 const sentencesBoard = document.getElementById("sentencesBoard")
 const prevSentence = document.getElementById("prevSentence")
 const nextSentence = document.getElementById("nextSentence")
+const imagesBoard = document.getElementById("imagesBoard");
+const imageTiles = document.querySelectorAll("#imagesBoard button")
 let sentences;
 
+
+// Game variables
 let allGameTypes = [];
 
 let subject = "";
@@ -31,6 +36,8 @@ let currentTime = 0;
 let completedCards = 0;
 let gameActive = false;
 
+
+// Game select functions
 subjectSel.addEventListener("change", () => {
   if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
     subjectSel.value = subject;
@@ -55,7 +62,7 @@ subjectSel.addEventListener("change", () => {
       typeSel.insertAdjacentHTML("beforeend", `<option class="new">${group}</option>`)
     });
 
-    allGameTypes = [...data.Matching, ...data.Categorization, ...data.Sentences];
+    allGameTypes = [...data.Matching, ...data.Images,...data.Categorization, ...data.Sentences];
   });
   unitSel.value = "";
   typeSel.value = "";
@@ -110,13 +117,6 @@ function disableGame() {
   gameActive = false;
 }
 
-function resetGameInfo() {
-  gameInfo.classList.add("closed");
-  clearInterval(timerInterval);
-  gameScore.textContent = "0/0";
-  gameTimer.textContent = "00:00";
-}
-
 gameSel.addEventListener("change", () => {
   if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
     gameSel.value = game;
@@ -151,10 +151,13 @@ gameSel.addEventListener("change", () => {
   preStartGame();
 })
 
+
+// General game functions
 function preStartGame() {
   gameContainer.hidden = false;
   gameOverlay.style.display = "flex";
   matchingBoard.style.display = "none";
+  imagesBoard.style.display = "none";
   sentencesBoard.hidden = true;
 
   remainingCards = [...totalCards];
@@ -191,11 +194,65 @@ function preStartGame() {
 
     completedCards = 0;
     gameScore.textContent = completedCards + "/" + totalCards.length;
+  } else if (data.Images.includes(game)) {
+    imagesBoard.style.display = "grid";
+
+    currentCards = [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined];
+    updateImagesBoard();
+
+    completedCards = 0;
+    gameScore.textContent = completedCards + "/" + totalCards.length;
   } else {
     console.log("error")
   }
 }
 
+function shuffleArray(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+  }
+}
+
+function updateTimer() {
+  currentTime++;
+  let seconds = currentTime % 60;
+  let minutes = Math.floor(currentTime/60);
+
+  if (seconds < 10) seconds = "0" + seconds;
+  if (minutes < 10) minutes = "0" + minutes;
+
+  gameTimer.textContent = minutes + ":" + seconds;
+}
+
+function resetGameInfo() {
+  gameInfo.classList.add("closed");
+  clearInterval(timerInterval);
+  gameScore.textContent = "0/0";
+  gameTimer.textContent = "00:00";
+}
+
+playBtn.addEventListener("click", () => {
+  gameInfo.classList.remove("closed");
+  currentTime = -1;
+  updateTimer();
+  timerInterval = setInterval(updateTimer, 1000);
+  gameOverlay.style.display = "none";
+  gameActive = true;
+})
+
+function win() {
+  gameActive = false;
+  clearInterval(timerInterval);
+  const seconds = currentTime % 60;
+  const minutes = Math.floor(currentTime/60);
+  alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds!");
+}
+
+
+// Sentences functions
 function checkSentence() {
   const inputs = sentences[currentCards].getElementsByTagName("input");
   const answers = remainingCards[currentCards].Sentence.filter(i => typeof i !== "string");
@@ -243,15 +300,8 @@ nextSentence.addEventListener("click", () => {
   }
 })
 
-function shuffleArray(array) {
-  for (var i = array.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
-  }
-}
 
+// Matching functions
 function fillMatchingBoard() {
   const emptyCards = currentCards.filter(card => card === undefined).length/2;
   const newCards = remainingCards.splice(0, emptyCards);
@@ -316,30 +366,68 @@ matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
   }
 })})
 
-function updateTimer() {
-  currentTime++;
-  let seconds = currentTime % 60;
-  let minutes = Math.floor(currentTime/60);
 
-  if (seconds < 10) seconds = "0" + seconds;
-  if (minutes < 10) minutes = "0" + minutes;
+// Images functions
+function updateImagesBoard() {
+  if (currentCards.filter(card => card === undefined).length >= currentCards.length/2) {
+    fillImagesBoard();
+  }
 
-  gameTimer.textContent = minutes + ":" + seconds;
+  if (currentCards.filter(card => card === undefined).length === currentCards.length) {
+    win();
+  }
+  
+  for (let i = 0; i < 20; i++) {
+  if (currentCards[i] === undefined) {
+    imageTiles[i].classList.add("empty");
+  } else {
+    imageTiles[i].innerHTML = currentCards[i];
+    imageTiles[i].classList.remove("empty");
+  }
+}
 }
 
-playBtn.addEventListener("click", () => {
-  gameInfo.classList.remove("closed");
-  currentTime = -1;
-  updateTimer();
-  timerInterval = setInterval(updateTimer, 1000);
-  gameOverlay.style.display = "none";
-  gameActive = true;
-})
+function fillImagesBoard() {
+  const emptyCards = currentCards.filter(card => card === undefined).length/2;
+  const newCards = remainingCards.splice(0, emptyCards);
+  
+  let tempCards = Array(emptyCards*2).fill(undefined);
+  for (let i = 0; i < emptyCards && i < newCards.length; i++) {
+    tempCards[i*2] = newCards[i].Term;
+    tempCards[i*2+1] = `<img src="${newCards[i][game]}">`
+  }
 
-function win() {
-  gameActive = false;
-  clearInterval(timerInterval);
-  const seconds = currentTime % 60;
-  const minutes = Math.floor(currentTime/60);
-  alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds!");
+  shuffleArray(tempCards)
+
+  j = 0;
+  for (let i = 0; i < 20; i++) {
+    if (currentCards[i] === undefined) {
+      currentCards[i] = tempCards[j];
+      j++;
+    }
+  }
 }
+
+imageTiles.forEach(tile => {tile.addEventListener("click", event => {
+  event.target.classList.toggle("selected");
+  const selected = document.querySelectorAll("#imagesBoard button.selected");
+
+  if (selected.length === 2) {
+    const tile1 = selected[0].innerHTML;
+    const tile2 = selected[1].innerHTML;
+
+    const termCard1 = totalCards.find(card => card.Term === tile1);
+    const termCard2 = totalCards.find(card => card.Term === tile2);
+
+    if ((termCard1 && `<img src="${termCard1[game]}">` === tile2) || (termCard2 && `<img src="${termCard2[game]}">` === tile1)) {
+      currentCards[Array.from(imageTiles).indexOf(selected[0])] = undefined;
+      currentCards[Array.from(imageTiles).indexOf(selected[1])] = undefined;
+      updateImagesBoard();
+
+      completedCards++
+      gameScore.textContent = completedCards + "/" + totalCards.length;
+    }
+
+    selected.forEach(tile => {tile.classList.remove("selected")});
+  }
+})})
