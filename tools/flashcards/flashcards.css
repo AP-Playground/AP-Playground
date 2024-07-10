@@ -106,6 +106,9 @@ select {
   table-layout: fixed;
   word-wrap: break-word;
   & button {
+    &:has(img) {
+      padding: 1px;
+    }
     border: 1px solid black;
     color: rgba(0, 0, 0, 1);
     border-radius: 10px;
@@ -183,4 +186,10 @@ select {
   border-radius: 10px;
   margin: 2px 0px;
   padding: 5px;
+}
+
+#matchingBoard,
+#imagesBoard,
+#sentencesBoard {
+  overflow-y: scroll;
 }

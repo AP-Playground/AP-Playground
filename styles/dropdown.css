@@ -44,6 +44,7 @@
 
 .dropdown li p {
   margin: 0;
+  margin-bottom: 5px;
 }
 
 .dropdown:has(.dropdown-header.open) ul {

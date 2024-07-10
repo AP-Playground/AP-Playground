@@ -17,41 +17,181 @@
 
   "Units": {
     "Unit 1: Chemistry of Life": [
+
       {
         "Term": "Atom",
         "Group": ["Biochemistry"],
         "Definition": "The basic particle of elements, consists of protons, neutrons, and electrons",
-        "Image": ""
+        "Image": "https://media.istockphoto.com/id/1300855627/vector/bohr-atomic-model-of-a-nitrogen-atom-vector-illustration-for-science.jpg?s=612x612&w=0&k=20&c=_H--enRYu1jgE0gpaX3cIrzTFhX1F2ZA6JQHQNCyxzc="
       },
       {
         "Term": "Valence",
         "Group": ["Biochemistry"],
-        "Definition": "The number of chemical bonds an atom of a particular element can create",
-        "Image": ""
+        "Definition": "The number of chemical bonds an atom of a particular element can create"
       },
       {
         "Term": "Valence shell",
         "Group": ["Biochemistry"],
         "Definition": "The outermost electron shell, denotes valence based on # of electrons",
-        "Image": ""
+        "Image": "https://cdn.kastatic.org/ka-content-images/ad49774316c2452752031eb2a0917f3dd447e87d.svg"
       },
       {
         "Term": "Ions",
         "Group": ["Biochemistry"],
         "Definition": "An atom or molecule with an electric charge",
-        "Image": ""
+        "Image": "https://qph.cf2.quoracdn.net/main-qimg-be2b04a2b74debe15b3c45535f503fa7-pjlq"
       },
       {
         "Term": "Cis-trans isomer",
         "Group": ["Biochemistry"],
-        "Definition": "Isomers in which similar atoms lie on either the same (cis) or different (trans) sides of double bonds",
-        "Image": ""
+        "Definition": "Isomer in which atoms are flipped around a double bond",
+        "Image": "https://search-static.byjusweb.com/question-images/toppr_ext/questions/633774_607466_ans_28fa4ab678314827b7a3f90d0e25e2d6.png"
       },
       {
-        "Term": "Isomer",
+        "Term": "Structural isomer",
         "Group": ["Biochemistry"],
         "Definition": "Molecules with identical chemical formula but differing structural makeup",
-        "Image": ""
+        "Image": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A2822e0c975fc2711f1992ddaa80bfa4edade86adae070e8e8db0bd0e%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1"
+      },
+      {
+        "Term": "Molecule",
+        "Group": ["Biochemistry"],
+        "Definition": "A group of atoms held together by chemical bonds",
+        "Image": "https://www.hawaii.edu/news/wp-content/uploads/2021/12/manoa-chemistry-methanediol-publication-kaiser.jpg"
+      },
+      {
+        "Term": "Hydrogen ion",
+        "Group": ["Biochemistry"],
+        "Definition": "A hydrogen atom missing its electron; a proton",
+        "Image": "https://www.shutterstock.com/image-vector/hydrogen-ion-icon-on-white-260nw-1828894859.jpg"
+      },
+      {
+        "Term": "Covalent bond",
+        "Group": ["Biochemistry"],
+        "Definition": "A force of attraction between two atoms due to them sharing an electron",
+        "Image": "https://znotes-static.s3.ap-southeast-1.amazonaws.com/cie/igcse/chemistry-0620/6475caa266a1e0599dd960e4f86e40e77da6b1010f46d3e2.png"
+      },
+      {
+        "Term": "Ionic bond",
+        "Group": ["Biochemistry"],
+        "Definition": "A force of attraction between one positively charged ion and one negatively charged ion",
+        "Image": "https://cdn.britannica.com/05/96905-050-9A0965D4/bonding-sodium-chloride-atom-one-chlorine-electrons.jpg"
+      },
+      {
+        "Term": "Van der Waals forces",
+        "Group": ["Biochemistry"],
+        "Definition": "Weak forces of attraction resulting from the random movement of electrons",
+        "Image": "https://useruploads.socratic.org/i2npYmpxSAuF154XjL6e_London_Dispersion_Force.jpg"
+      },
+      {
+        "Term": "pH",
+        "Group": ["Biochemistry"],
+        "Definition": "The potential of hydrogen ion dissociation of a substance",
+        "Image": "https://static.sciencelearn.org.nz/images/images/000/004/557/full/ART_Acids_and_bases_PH_Scale_v2.png?1674174669"
+      },
+      {
+        "Term": "Acids",
+        "Group": ["Biochemistry"],
+        "Definition": "Substances with a low pH / high rate of dissociation of H+ ions",
+        "Image": "https://m.media-amazon.com/images/I/81TXcXZM3EL.jpg"
+      },
+      {
+        "Term": "Bases",
+        "Group": ["Biochemistry"],
+        "Definition": "Substances with a high pH / low rate of dissociation of H+ ions",
+        "Image": "https://www.cloroxmalaysia.com/wp-content/uploads/sites/11/2019/01/240518-Ori_2L_960_cropped.png"
+      },
+      {
+        "Term": "Buffers",
+        "Group": ["Biochemistry"],
+        "Definition": "Substances which mitigate changes in pH"
+      },
+      {
+        "Term": "Electronegativity",
+        "Group": ["Biochemistry"],
+        "Definition": "The tendency of an atom to attract electrons toward itself",
+        "Image": "https://alevelchemistry.co.uk/wp-content/uploads/2019/04/Electronegativity_2.jpg"
+      },
+      {
+        "Term": "Polarity",
+        "Group": ["Biochemistry"],
+        "Definition": "A property of a molecule which has an uneven sharing of electrons",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/water-polarity.png"
+      },
+      {
+        "Term": "Hydrogen bonds",
+        "Group": ["Biochemistry"],
+        "Definition": "A force of attraction between a hydrogen atom bonded to an electronegative one and another electronegative molecule ",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/water-hydrogen-bonds.png"
+      },
+      {
+        "Term": "Cohesion",
+        "Group": ["Biochemistry"],
+        "Definition": "The sticking together of particles of the same substance",
+        "Image": "https://study.com/cimages/multimages/16/droplet-macro-photography-of-water-droplets-on-green-leaf-green-green-image-17110799817622839151.jpg"
+      },
+      {
+        "Term": "Surface tension",
+        "Group": ["Biochemistry"],
+        "Definition": "A result of cohesion which holds together the surfaces of bodies of water",
+        "Image": "https://www.thoughtco.com/thmb/fkp7nXTtsxtFr3wT9eGu5gLIzwE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Surface-Tension-58c6c2365f9b58af5c534f71.jpg"
+      },
+      {
+        "Term": "Adhesion",
+        "Group": ["Biochemistry"],
+        "Definition": "The sticking together of particles of different substances",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Spider_web_Luc_Viatour.jpg/220px-Spider_web_Luc_Viatour.jpg"
+      },
+      {
+        "Term": "Capillary action",
+        "Group": ["Biochemistry"],
+        "Definition": "The process of a liquid flowing against gravity due to adhesion and cohesion",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt45CmcOZTi814Q8Z9uI5hPrG4M3Q4T5LLTQ&s"
+      },
+      {
+        "Term": "Transpiration",
+        "Group": ["Biochemistry"],
+        "Definition": "The process of water movement through a plant towards its eventual evaporation",
+        "Image": "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/transpiration-wiki_ver_1.png"
+      },
+      {
+        "Term": "High specific heat (of water)",
+        "Group": ["Biochemistry"],
+        "Definition": "Water requires much more energy to change temperature than other substances",
+        "Image": "https://media.geeksforgeeks.org/wp-content/uploads/20220916121147/SpecificheatCapacity.png"
+      },
+      {
+        "Term": "High heat of vaporization (of water)",
+        "Group": ["Biochemistry"],
+        "Definition": "Water requires a lot of energy to break the hydrogen bonds and evaporate"
+      },
+      {
+        "Term": "Solvent",
+        "Group": ["Biochemistry"],
+        "Definition": "A substance that dissolves another substance"
+      },
+      {
+        "Term": "Solute",
+        "Group": ["Biochemistry"],
+        "Definition": "A substance that is dissolved in another substance"
+      },
+      {
+        "Term": "Solution",
+        "Group": ["Biochemistry"],
+        "Definition": "A uniform mixture of a solvent and solutes",
+        "Image": "https://qph.cf2.quoracdn.net/main-qimg-e0525d517e5f11538104205ae01b8853-lq"
+      },
+      {
+        "Term": "Hydrophilic",
+        "Group": ["Biochemistry"],
+        "Definition": "The property of being attracted to water and/or dissolving in it",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSBzL8HHeh1nVfBUEXp7FDgygG20x-qa5S0w&s"
+      },
+      {
+        "Term": "Hydrophobic",
+        "Group": ["Biochemistry"],
+        "Definition": "The property of not being attracted to water and/or not dissolving in it",
+        "Image": "https://target.scene7.com/is/image/Target/GUEST_f775153f-fc46-44c8-a043-1a7d07f6b3b6?wid=488&hei=488&fmt=pjpeg"
       }
     ],
 

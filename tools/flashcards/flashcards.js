@@ -35,6 +35,7 @@ let timerInterval;
 let currentTime = 0;
 let completedCards = 0;
 let gameActive = false;
+let matchAttempts = 0;
 
 
 // Game select functions
@@ -241,6 +242,7 @@ playBtn.addEventListener("click", () => {
   timerInterval = setInterval(updateTimer, 1000);
   gameOverlay.style.display = "none";
   gameActive = true;
+  matchAttempts = 0;
 })
 
 function win() {
@@ -248,7 +250,14 @@ function win() {
   clearInterval(timerInterval);
   const seconds = currentTime % 60;
   const minutes = Math.floor(currentTime/60);
-  alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds!");
+  const accuracy = Math.round(totalCards.length/matchAttempts*100);
+
+  if (matchAttempts > 0) {
+    alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds at " + accuracy + "% accuracy!");
+  } else {
+    alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds!");
+  }
+
 }
 
 
@@ -347,6 +356,8 @@ matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
   const selected = document.querySelectorAll("#matchingBoard button.selected");
 
   if (selected.length === 2) {
+    matchAttempts++;
+
     const tile1 = selected[0].textContent;
     const tile2 = selected[1].textContent;
 
@@ -413,13 +424,22 @@ imageTiles.forEach(tile => {tile.addEventListener("click", event => {
   const selected = document.querySelectorAll("#imagesBoard button.selected");
 
   if (selected.length === 2) {
-    const tile1 = selected[0].innerHTML;
-    const tile2 = selected[1].innerHTML;
+    matchAttempts++;
 
-    const termCard1 = totalCards.find(card => card.Term === tile1);
-    const termCard2 = totalCards.find(card => card.Term === tile2);
+    const tile1 = selected[0];
+    const tile2 = selected[1];
 
-    if ((termCard1 && `<img src="${termCard1[game]}">` === tile2) || (termCard2 && `<img src="${termCard2[game]}">` === tile1)) {
+    const termCard1 = totalCards.find(card => card.Term === tile1.textContent);
+    const termCard2 = totalCards.find(card => card.Term === tile2.textContent);
+
+    if (termCard1 && termCard1[game] === tile2.childNodes[0].src) {
+      currentCards[Array.from(imageTiles).indexOf(selected[0])] = undefined;
+      currentCards[Array.from(imageTiles).indexOf(selected[1])] = undefined;
+      updateImagesBoard();
+
+      completedCards++
+      gameScore.textContent = completedCards + "/" + totalCards.length;
+    } else if (termCard2 && termCard2[game] === tile1.childNodes[0].src) {
       currentCards[Array.from(imageTiles).indexOf(selected[0])] = undefined;
       currentCards[Array.from(imageTiles).indexOf(selected[1])] = undefined;
       updateImagesBoard();
