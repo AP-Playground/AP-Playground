@@ -17,7 +17,6 @@
 
   "Units": {
     "Unit 1: Chemistry of Life": [
-
       {
         "Term": "Atom",
         "Group": ["Biochemistry"],
@@ -121,7 +120,7 @@
       {
         "Term": "Hydrogen bonds",
         "Group": ["Biochemistry"],
-        "Definition": "A force of attraction between a hydrogen atom bonded to an electronegative one and another electronegative molecule ",
+        "Definition": "A force of attraction between two opposing partial charges involving a hydrogen atom",
         "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/water-hydrogen-bonds.png"
       },
       {
@@ -192,6 +191,328 @@
         "Group": ["Biochemistry"],
         "Definition": "The property of not being attracted to water and/or not dissolving in it",
         "Image": "https://target.scene7.com/is/image/Target/GUEST_f775153f-fc46-44c8-a043-1a7d07f6b3b6?wid=488&hei=488&fmt=pjpeg"
+      },
+      {
+        "Term": "Essential Elements",
+        "Group": ["Biochemistry"],
+        "Definition": "The elements that are necessary for life (CHON)",
+        "Image": "https://i.ytimg.com/vi/qdoQ9NHLuAQ/hqdefault.jpg"
+      },
+      {
+        "Term": "Macromolecules",
+        "Group": ["Biochemistry"],
+        "Definition": "A large molecule necessary to life’s biological processes"
+      },
+      {
+        "Term": "Organic compound",
+        "Group": ["Biochemistry"],
+        "Definition": "Compound which contains carbon"
+      },
+      {
+        "Term": "Hydrocarbon chain",
+        "Group": ["Biochemistry"],
+        "Definition": "An organic compound containing only hydrogen and carbon arranged in a chain",
+        "Image": "https://images.ctfassets.net/4yflszkpcwkt/55yilCl19ZLsUfjG1ctm24/e2eeb6936bc731b8f203968c29c43c31/Difference-Between-Straight-and-Branched-Chain-Alkanes_1.png"
+      },
+      {
+        "Term": "Functional groups",
+        "Group": ["Biochemistry"],
+        "Definition": "A group of atoms with distinctive chemical properties separate to that of the total molecule they are attached to"
+      },
+      {
+        "Term": "Hydroxyl group",
+        "Group": ["Biochemistry"],
+        "Definition": "Polar functional group; hydrogen bound to an oxygen atom",
+        "Image": "https://www.thoughtco.com/thmb/b_E32exWMZNXj9uyifF5aORL8G8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hydroxylfunctional-56a129e05f9b58b7d0bca5df.jpg"
+      },
+      {
+        "Term": "Methyl group",
+        "Group": ["Biochemistry"],
+        "Definition": "Nonpolar functional group; hydrogen bound to a sulfur atom",
+        "Image": "https://www.wikidoc.org/images/7/7c/Methyl_group.jpg"
+      },
+      {
+        "Term": "Carbonyl group",
+        "Group": ["Biochemistry"],
+        "Definition": "Polar functional group; carbon double bound to oxygen",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Ketone-general.svg"
+      },
+      {
+        "Term": "Carboxyl Group",
+        "Group": ["Biochemistry"],
+        "Definition": "Polar acidic functional group; carbon double bound to an oxygen and a hydroxyl group",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Carboxylic-acid.svg/150px-Carboxylic-acid.svg.png"
+      },
+      {
+        "Term": "Amino group",
+        "Group": ["Biochemistry"],
+        "Definition": "Polar basic functional group; nitrogen bound to 2 hydrogen atoms",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Amino-group-primary-2D-flat.png"
+      },
+      {
+        "Term": "Phosphate group",
+        "Group": ["Biochemistry"],
+        "Definition": "Polar acidic functional group; phosphate bound to oxygen atoms and hydroxyl groups",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Phosphate_Group.svg"
+      },
+      {
+        "Term": "Sulfhydryl group",
+        "Group": ["Biochemistry"],
+        "Definition": "Polar functional group; sulfur bound to hydrogen atom",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Mercapto_Group_General_Formulae.png/110px-Mercapto_Group_General_Formulae.png"
+      },
+      {
+        "Term": "Monomer",
+        "Group": ["Biochemistry"],
+        "Definition": "A molecule which can combine with others to form large polymers"
+      },
+      {
+        "Term": "Polymers",
+        "Group": ["Biochemistry"],
+        "Definition": "A molecule composed of a string of monomers"
+      },
+      {
+        "Term": "Carbohydrates",
+        "Group": ["Biochemistry"],
+        "Definition": "Macromolecules used by organisms as energy storage and structural materials",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Fresh_made_bread_05.jpg/250px-Fresh_made_bread_05.jpg"
+      },
+      {
+        "Term": "Monosaccharide",
+        "Group": ["Biochemistry"],
+        "Definition": "The monomer unit of carbohydrates",
+        "Image": "https://media.geeksforgeeks.org/wp-content/uploads/20220425111013/image6removebgpreview-300x258.jpg"
+      },
+      {
+        "Term": "Polysaccharide",
+        "Group": ["Biochemistry"],
+        "Definition": "The polymer made up of monosaccharides; a carbohydrate",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Cellulose-Ibeta-from-xtal-2002-3D-balls.png/330px-Cellulose-Ibeta-from-xtal-2002-3D-balls.png"
+      },
+      {
+        "Term": "Glycosidic linkages",
+        "Group": ["Biochemistry"],
+        "Definition": "Covalent bonds between monosaccharides",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/glycosidic-linkages.png"
+      },
+      {
+        "Term": "Protein",
+        "Group": ["Biochemistry"],
+        "Definition": "Macromolecules used by organisms for building, repair, and movement",
+        "Image": "https://images.inc.com/uploaded_files/image/1920x1080/getty_80116649_344560.jpg"
+      },
+      {
+        "Term": "Amino acid",
+        "Group": ["Biochemistry"],
+        "Definition": "Monomer unit of a protein; contains carboxyl, amino, and side chain groups",
+        "Image": "https://www.astrochem.org/sci_img/Amino_Acid_Structure.jpg"
+      },
+      {
+        "Term": "Peptide bond",
+        "Group": ["Biochemistry"],
+        "Definition": "Covalent bond between single amino acids",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/peptide-bond.png"
+      },
+      {
+        "Term": "Polypeptide",
+        "Group": ["Biochemistry"],
+        "Definition": "The polymer made up of individual amino acids; a protein",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Myoglobin.png/800px-Myoglobin.png"
+      },
+      {
+        "Term": "Nucleic acids",
+        "Group": ["Biochemistry"],
+        "Definition": "Macromolecules used by the organisms to store and express genetic information",
+        "Image": "https://www.genome.gov/sites/default/files/media/images/tg/nucleic-acid_dyn.jpg"
+      },
+      {
+        "Term": "DNA",
+        "Group": ["Biochemistry"],
+        "Definition": "A nucleic acid used to store genetic information",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbDqomPSLuaC821ns3T_vHzW1PBez3odprIw&s"
+      },
+      {
+        "Term": "RNA",
+        "Group": ["Biochemistry"],
+        "Definition": "A nucleic acid used to express genetic information",
+        "Image": "https://www.yourgenome.org/wp-content/uploads/2023/11/1591-RNA-molecule-576x768.png"
+      },
+      {
+        "Term": "Nucleotides",
+        "Group": ["Biochemistry"],
+        "Definition": "The monomer unit of nucleic acids, contains a pentose, phosphate group, and nitrogenous base",
+        "Image": "https://www.creative-proteomics.com/upload/image/what-are-nucleotides-1.jpg"
+      },
+      {
+        "Term": "Lipids",
+        "Group": ["Biochemistry"],
+        "Definition": "Macromolecules used by organisms to store energy long term, surround cells, and send signals",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/lipids.jpg"
+      },
+      {
+        "Term": "Dehydration synthesis",
+        "Group": ["Biochemistry"],
+        "Definition": "Bonding of two monomer molecules with the removal of a water molecule",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Figure_03_01_01.jpg"
+      },
+      {
+        "Term": "Hydrolysis",
+        "Group": ["Biochemistry"],
+        "Definition": "Splitting of a polymer molecule with the addition of a water molecule",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcJ0YBGfwkxcFNA27Mf_pyYzW0XblReEIfMw&s"
+      },
+      {
+        "Term": "Ribose",
+        "Group": ["Biochemistry"],
+        "Definition": "5 carbon sugar found in RNA backbones",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2C_2gMBBewGHjFY01RB8Z5lLsQjuJ-9-MBQ&s"
+      },
+      {
+        "Term": "Deoxyribose",
+        "Group": ["Biochemistry"],
+        "Definition": "5 carbon sugar found in DNA backbones",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/deoxyribose.png"
+      },
+      {
+        "Term": "Nitrogenous bases",
+        "Group": ["Biochemistry"],
+        "Definition": "Nitrogen containing compounds which are parts of nucleotides (include adenine, guanine, cytosine, uracil, thymine)",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi-bxfkfs5LHFzfGTn10qwHjq8moTEttUOcg&s"
+      },
+      {
+        "Term": "Uracil",
+        "Group": ["Biochemistry"],
+        "Definition": "An RNA specific nitrogenous base which replaces thymine and binds with adenine"
+      },
+      {
+        "Term": "Triglycerides",
+        "Group": ["Biochemistry"],
+        "Definition": "The most common lipid, made up of three fatty acid chains and a glycerol molecule",
+        "Image": "https://ars.els-cdn.com/content/image/3-s2.0-B9780123750839000970-f00097-04-9780123750839.jpg"
+      },
+      {
+        "Term": "Saturated fatty acid chain",
+        "Group": ["Biochemistry"],
+        "Definition": "A fatty acid hydrocarbon chain without double bonds",
+        "Image": "https://study.com/cimages/multimages/16/saturatedfattyacidpicture2.png"
+      },
+      {
+        "Term": "Unsaturated fatty acid chain",
+        "Group": ["Biochemistry"],
+        "Definition": "A fatty acid hydrocarbon chain containing double bonds",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Linoleic_acid3D.png/300px-Linoleic_acid3D.png"
+      },
+      {
+        "Term": "Phospholipids",
+        "Group": ["Biochemistry"],
+        "Definition": "Lipids which contain a hydrophilic head and hydrophobic tail and make up cell membranes",
+        "Image": "https://fbi.cults3d.com/uploaders/14196599/illustration-file/d493aaf7-e2a6-42e4-8f08-b204c42ed8e2/Phospholipid.png"
+      },
+      {
+        "Term": "Steroids",
+        "Group": ["Biochemistry"],
+        "Definition": "Lipids used for signaling made out of four carbon rings fused together",
+        "Image": "https://www.thoughtco.com/thmb/5It1L1oSJZU43qmRc8ywDyCwuBg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/aldosterone-56a129883df78cf77267fc6b.jpg"
+      },
+      {
+        "Term": "Starch",
+        "Group": ["Biochemistry"],
+        "Definition": "The carbohydrate used by plants for energy storage",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/starch.png"
+      },
+      {
+        "Term": "Glycogen",
+        "Group": ["Biochemistry"],
+        "Definition": "The carbohydrate used by animals for energy storage",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/glycogen.png"
+      },
+      {
+        "Term": "Cellulose",
+        "Group": ["Biochemistry"],
+        "Definition": "A structural carbohydrate which forms plant cell walls",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/cellulose.png"
+      },
+      {
+        "Term": "Chitin",
+        "Group": ["Biochemistry"],
+        "Definition": "A structural carbohydrate which forms exoskeletons",
+        "Image": "https://www.greenwaybiotech.com/cdn/shop/articles/crustacean-3377646_1920_2.jpg?v=1599851182&width=1000"
+      },
+      {
+        "Term": "Primary structure (protein)",
+        "Group": ["Biochemistry"],
+        "Definition": "The linear sequence of amino acids that make up a protein",
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/primary-structure.png"
+      },
+      {
+        "Term": "Secondary structure (protein)",
+        "Group": ["Biochemistry"],
+        "Definition": "The structure of the backbone of the polypeptide, excluding side chain interactions"
+      },
+      {
+        "Term": "α helix",
+        "Group": ["Biochemistry"],
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/helix-structure.png"
+      },
+      {
+        "Term": "β pleated sheet",
+        "Group": ["Biochemistry"],
+        "Image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/pleated-sheet-structure.png"
+      },
+      {
+        "Term": "Tertiary structure",
+        "Group": ["Biochemistry"],
+        "Definition": "The structure of the polypeptide chain formed from interactions between side chains",
+        "Image": "https://ars.els-cdn.com/content/image/1-s2.0-S2001037022004044-gr5.jpg"
+      },
+      {
+        "Term": "Quaternary structure",
+        "Group": ["Biochemistry"],
+        "Definition": "The structure of proteins composed of multiple polypeptides",
+        "Image": "https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc0MTY1OTU4MDkxMzUxNTQ4/what-are-proteins-part-3-of-3.png"
+      },
+      {
+        "Term": "Denaturation",
+        "Group": ["Biochemistry"],
+        "Definition": "The unfolding or breaking up of a protein due to an environmental change",
+        "Image": "https://chemistrytalk.org/wp-content/uploads/2023/03/Process_of_Denaturation.svg-e1663786914819.png"
+      },
+      {
+        "Term": "Antiparallel strands",
+        "Group": ["Biochemistry"],
+        "Definition": "Structure of DNA in which two strands of DNA run alongside each other in opposite directions"
+      },
+      {
+        "Term": "Purines",
+        "Group": ["Biochemistry"],
+        "Definition": "Double ringed nitrogenous bases (adenine, guanine)",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHiXtk3a9U1sFKabTBudwzg-Pk62DwPSgzmg&s"
+      },
+      {
+        "Term": "Pyrimidines",
+        "Group": ["Biochemistry"],
+        "Definition": "Single ringed nitrogenous bases (cytosine, thymine, uracil)",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg_s0zK_p17p9-A8Ww3c37Cj_qKAJZRXoHwg&s"
+      },
+      {
+        "Term": "Cholesterol",
+        "Group": ["Biochemistry"],
+        "Definition": "The principal steroid; used in animal cell membranes"
+      },
+      {
+        "Term": "mRNA",
+        "Group": ["Biochemistry"],
+        "Definition": "A type of RNA that carries a message from DNA to a ribosome"
+      },
+      {
+        "Term": "tRNA",
+        "Group": ["Biochemistry"],
+        "Definition": "A type of RNA that turns the genetic message within mRNA into a protein"
+      },
+      {
+        "Term": "rRNA",
+        "Group": ["Biochemistry"],
+        "Definition": "A type of RNA which makes up ribosomes"
       }
     ],
 

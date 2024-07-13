@@ -124,6 +124,7 @@ gameSel.addEventListener("change", () => {
     return;
   }
   game = gameSel.value;
+  gameActive = false;
 
   resetGameInfo();
 
