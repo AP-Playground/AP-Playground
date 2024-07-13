@@ -191,5 +191,6 @@ select {
 #matchingBoard,
 #imagesBoard,
 #sentencesBoard {
-  overflow-x: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
