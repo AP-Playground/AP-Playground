@@ -15,8 +15,6 @@ const playBtn = document.getElementById("playBtn")
 const sentencesBoard = document.getElementById("sentencesBoard")
 const prevSentence = document.getElementById("prevSentence")
 const nextSentence = document.getElementById("nextSentence")
-const imagesBoard = document.getElementById("imagesBoard");
-const imageTiles = document.querySelectorAll("#imagesBoard button")
 let sentences;
 
 
@@ -128,10 +126,13 @@ gameSel.addEventListener("change", () => {
 
   resetGameInfo();
 
-  totalCards = [];
-  remainingCards = [];
+  prepareGame();
+})
+
+function filterCards() {
   let cardNames = [];
   let cardCandidates = [];
+  let cards = []
 
   if (unit === "all") {
     for (i in data.Units) {
@@ -146,32 +147,32 @@ gameSel.addEventListener("change", () => {
   for (idx in cardCandidates) {
     if (!cardNames.includes(cardCandidates[idx].Term)) {
       cardNames.push(cardCandidates[idx].Term);
-      totalCards.push(cardCandidates[idx]);
+      cards.push(cardCandidates[idx]);
     }
   }
-  shuffleArray(totalCards);
-  preStartGame();
-})
+
+  cards = cards.map(i => [i.Term, i[game]])
+
+  shuffleArray(cards)
+  return cards;
+}
 
 
 // General game functions
-function preStartGame() {
+function prepareGame() {
+  totalCards = filterCards();
+  remainingCards = [...totalCards];
+
   gameContainer.hidden = false;
   gameOverlay.style.display = "flex";
   matchingBoard.style.display = "none";
-  imagesBoard.style.display = "none";
   sentencesBoard.hidden = true;
 
-  remainingCards = [...totalCards];
   if (data.Matching.includes(game)) {
     matchingBoard.style.display = "grid";
 
-    currentCards = [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined];
+    currentCards = Array(20).fill(undefined);
     updateMatchingBoard();
-
-    completedCards = 0;
-    gameScore.textContent = completedCards + "/" + totalCards.length;
-
   } else if (data.Categorization.includes(game)) {
     console.log("Categorization")
 
@@ -193,29 +194,17 @@ function preStartGame() {
     })
     sentences = Array.from(document.getElementsByClassName("sentence"));
     updateSentences();
-
-    completedCards = 0;
-    gameScore.textContent = completedCards + "/" + totalCards.length;
   } else if (data.Images.includes(game)) {
-    imagesBoard.style.display = "grid";
+    matchingBoard.style.display = "grid";
 
-    currentCards = [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined];
-    updateImagesBoard();
+    totalCards.forEach(i => i[1] = `<img src="${i[1]}">`)
 
-    completedCards = 0;
-    gameScore.textContent = completedCards + "/" + totalCards.length;
-  } else {
-    console.log("error")
+    currentCards = Array(20).fill(undefined);
+    updateMatchingBoard();
   }
-}
 
-function shuffleArray(array) {
-  for (var i = array.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
-  }
+  completedCards = 0;
+  gameScore.textContent = completedCards + "/" + totalCards.length;
 }
 
 function updateTimer() {
@@ -318,8 +307,8 @@ function fillMatchingBoard() {
   
   let tempCards = Array(emptyCards*2).fill(undefined);
   for (let i = 0; i < emptyCards && i < newCards.length; i++) {
-    tempCards[i*2] = newCards[i].Term;
-    tempCards[i*2+1] = newCards[i][game]
+    tempCards[i*2] = newCards[i][0];
+    tempCards[i*2+1] = newCards[i][1]
   }
 
   shuffleArray(tempCards)
@@ -343,13 +332,13 @@ function updateMatchingBoard() {
   }
   
   for (let i = 0; i < 20; i++) {
-  if (currentCards[i] === undefined) {
-    matchingTiles[i].classList.add("empty");
-  } else {
-    matchingTiles[i].textContent = currentCards[i];
-    matchingTiles[i].classList.remove("empty");
+    if (currentCards[i] === undefined) {
+      matchingTiles[i].classList.add("empty");
+    } else {
+      matchingTiles[i].innerHTML = currentCards[i];
+      matchingTiles[i].classList.remove("empty");
+    }
   }
-}
 }
 
 matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
@@ -359,13 +348,10 @@ matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
   if (selected.length === 2) {
     matchAttempts++;
 
-    const tile1 = selected[0].textContent;
-    const tile2 = selected[1].textContent;
+    const tile1 = decodeHtml(selected[0]);
+    const tile2 = decodeHtml(selected[1]);
 
-    const termCard1 = totalCards.find(card => card.Term === tile1);
-    const termCard2 = totalCards.find(card => card.Term === tile2);
-
-    if ((termCard1 && termCard1[game] === tile2) || (termCard2 && termCard2[game] === tile1)) {
+    if (totalCards.find(card => card.includes(tile1) && card.includes(tile2))) {
       currentCards[Array.from(matchingTiles).indexOf(selected[0])] = undefined;
       currentCards[Array.from(matchingTiles).indexOf(selected[1])] = undefined;
       updateMatchingBoard();
@@ -379,76 +365,18 @@ matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
 })})
 
 
-// Images functions
-function updateImagesBoard() {
-  if (currentCards.filter(card => card === undefined).length >= currentCards.length/2) {
-    fillImagesBoard();
-  }
-
-  if (currentCards.filter(card => card === undefined).length === currentCards.length) {
-    win();
-  }
-  
-  for (let i = 0; i < 20; i++) {
-  if (currentCards[i] === undefined) {
-    imageTiles[i].classList.add("empty");
-  } else {
-    imageTiles[i].innerHTML = currentCards[i];
-    imageTiles[i].classList.remove("empty");
-  }
-}
-}
-
-function fillImagesBoard() {
-  const emptyCards = currentCards.filter(card => card === undefined).length/2;
-  const newCards = remainingCards.splice(0, emptyCards);
-  
-  let tempCards = Array(emptyCards*2).fill(undefined);
-  for (let i = 0; i < emptyCards && i < newCards.length; i++) {
-    tempCards[i*2] = newCards[i].Term;
-    tempCards[i*2+1] = `<img src="${newCards[i][game]}">`
-  }
-
-  shuffleArray(tempCards)
-
-  j = 0;
-  for (let i = 0; i < 20; i++) {
-    if (currentCards[i] === undefined) {
-      currentCards[i] = tempCards[j];
-      j++;
-    }
+// Utility functions
+function shuffleArray(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
   }
 }
 
-imageTiles.forEach(tile => {tile.addEventListener("click", event => {
-  event.target.classList.toggle("selected");
-  const selected = document.querySelectorAll("#imagesBoard button.selected");
-
-  if (selected.length === 2) {
-    matchAttempts++;
-
-    const tile1 = selected[0];
-    const tile2 = selected[1];
-
-    const termCard1 = totalCards.find(card => card.Term === tile1.textContent);
-    const termCard2 = totalCards.find(card => card.Term === tile2.textContent);
-
-    if (termCard1 && termCard1[game] === tile2.childNodes[0].src) {
-      currentCards[Array.from(imageTiles).indexOf(selected[0])] = undefined;
-      currentCards[Array.from(imageTiles).indexOf(selected[1])] = undefined;
-      updateImagesBoard();
-
-      completedCards++
-      gameScore.textContent = completedCards + "/" + totalCards.length;
-    } else if (termCard2 && termCard2[game] === tile1.childNodes[0].src) {
-      currentCards[Array.from(imageTiles).indexOf(selected[0])] = undefined;
-      currentCards[Array.from(imageTiles).indexOf(selected[1])] = undefined;
-      updateImagesBoard();
-
-      completedCards++
-      gameScore.textContent = completedCards + "/" + totalCards.length;
-    }
-
-    selected.forEach(tile => {tile.classList.remove("selected")});
-  }
-})})
+const txt = document.createElement("textarea");
+function decodeHtml(element) {
+  txt.innerHTML = element.innerHTML;
+  return txt.value;
+}

@@ -44,6 +44,7 @@ select {
   justify-content: center;
   align-items: center;
   display: flex;
+  border-radius: 10px;
 }
 
 #playBtn {
@@ -54,7 +55,6 @@ select {
   border: 1px solid black;
   background-color: white;
   cursor: pointer;
-
 }
 
 #gameContainer {
@@ -74,41 +74,6 @@ select {
   table-layout: fixed;
   word-wrap: break-word;
   & button {
-    border: 1px solid black;
-    color: rgba(0, 0, 0, 1);
-    border-radius: 10px;
-    height: 150px;
-    cursor: pointer;
-    transition: background-color 200ms, color 2s, filter 2s;
-    background-color: white;
-    &:hover {
-      background-color: #eee;
-    }
-    &.selected {
-      background-color: #ddd;
-    }
-    &.empty {
-      transition: background-color 2s, color 1s, filter 2s;
-      color: rgba(0, 0, 0, 0);
-      pointer-events: none;
-      filter: brightness(75%);
-    }
-  }
-}
-
-#imagesBoard {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  column-gap: 3px;
-  row-gap: 3px;
-  text-align: center;
-  table-layout: fixed;
-  word-wrap: break-word;
-  & button {
-    &:has(img) {
-      padding: 1px;
-    }
     border: 1px solid black;
     color: rgba(0, 0, 0, 1);
     border-radius: 10px;
@@ -144,12 +109,14 @@ select {
       pointer-events: none;
       transition: filter 200ms, opacity 2s;
     }
+    &:has(img) {
+      padding: 1px;
+    }
   }
 }
 
 @media (max-width: 500px) {
-  #matchingBoard,
-  #imagesBoard {
+  #matchingBoard {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
@@ -189,7 +156,6 @@ select {
 }
 
 #matchingBoard,
-#imagesBoard,
 #sentencesBoard {
   overflow-x: auto;
   overflow-y: hidden;
