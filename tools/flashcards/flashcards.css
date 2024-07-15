@@ -67,7 +67,7 @@ select {
 #matchingBoard {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
   column-gap: 3px;
   row-gap: 3px;
   text-align: center;
@@ -115,12 +115,6 @@ select {
   }
 }
 
-@media (max-width: 500px) {
-  #matchingBoard {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
 #sentenceControls {
   display: flex;
   justify-content: end;
@@ -155,8 +149,59 @@ select {
   padding: 5px;
 }
 
+#categoryBoard {
+  text-align: center;
+}
+
+#categoryCard {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  height: 50px;
+  margin: 10px;
+  padding: 15px;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+#categoryOptions {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 3px;
+  row-gap: 3px;
+  text-align: center;
+  table-layout: fixed;
+  word-wrap: break-word;
+  & button {
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    height: 100px;
+    cursor: pointer;
+    transition: background-color 200ms, color 2s, filter 2s;
+    background-color: white;
+    &:hover {
+      background-color: #eee;
+    }
+    &:active {
+      background-color: #ddd;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #matchingBoard,
+  #categoryOptions {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 #matchingBoard,
-#sentencesBoard {
+#sentencesBoard,
+#categoryBoard {
   overflow-x: auto;
   overflow-y: hidden;
 }

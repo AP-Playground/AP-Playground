@@ -5,7 +5,7 @@
   "Matching": ["Definition", "Cause", "Effect", "Date"],
   "Images": [],
   "Categorization": ["Region"],
-  "Region": ["East Asia", "South Asia", "Southeast Asia", "West Africa", "East Africa", "North Africa", "Middle East", "Oceania", "South America", "North America", "Latin America", "Eastern Europe", "Western Europe", "Central Asia"],
+  "Region": ["East Asia", "South Asia", "Southeast Asia", "Central Asia", "Middle East", "West Africa", "East Africa", "North Africa", "North America", "Latin America", "South America", "Western Europe", "Eastern Europe", "Oceania"],
   "Sentences": ["Sentence"],
 
 
@@ -50,7 +50,7 @@
         "Definition": "A quickly growing, drought resistant crop",
         "Cause": "Tribute gift to the Song Emperor from the Champa Kingdom",
         "Effect": "Increased food production, causing a population boom",
-        "Region": "East Asia",
+        "Region": ["East Asia", "Southeast Asia"],
         "Sentence": [["Champa Rice"], " allowed China's population to grow rapidly, making it an early superpower"]
       },
       {
@@ -67,7 +67,7 @@
         "Definition": "State or society ruled by a khan; organized tribally",
         "Cause": "Conquering of majority of Asia by Genghis Khan",
         "Effect": "Empire became the Yuan Dynasty, Ilkhanate, Chagatai Khanate, and Golden Horde",
-        "Region": "Central Asia",
+        "Region": ["Central Asia", "East Asia"],
         "Sentence": ["The Mongol equivalent of a chiefdom is a ", ["Khanate", "Khaganate"]]
       },
       {
@@ -85,7 +85,7 @@
         "Definition": "Process by which non-Chinese societies assimilate Chinese culture",
         "Cause": "Chinese civilization became so dominant that it was impressed onto others",
         "Effect": "Fusion of cultures; unity across Asia and loss of some Asian cultural diversity",
-        "Region": "East Asia",
+        "Region": ["East Asia", "Southeast Asia"],
         "Sentence": ["Under sinification, ", ["Korea", "Japan", "Vietnam"], " (list one) adopted the Chinese writing system"]
       },
       {
@@ -173,7 +173,7 @@
         "Definition": "Trade across the Sahara Desert between Sub-Saharan and North Africa",
         "Cause": "Began with gold-salt trade; boosted by camels and caravans",
         "Effect": "Economic expansion of Africa; spread Islam",
-        "Region": ["West Africa", "North Africa"],
+        "Region": ["West Africa", "North Africa", "Middle East"],
         "Sentence": ["The primary animal used in Trans-Saharan Trade was the ", ["camel"], ", which transported ", ["salt"], " and gold from mines"]
       },
       {
@@ -279,7 +279,7 @@
         "Definition": "Indo-Aryan language spoken mostly in South Asia",
         "Cause": "Derived from Old Hindi and drew vocabulary from Persian",
         "Effect": "Spoken throughout India; evidence of cultural blending",
-        "Region": ["Middle East", "Central Asia"],
+        "Region": ["Middle East", "South Asia"],
         "Sentence": [["Urdu"], " was a language which arose within the Delhi Sultanate"]
       },
       {
@@ -631,7 +631,7 @@
         "Group": ["People"],
         "Definition": "An Italian traveler that gave Europeans a look at the Eastern world",
         "Effect": "First European to create a detailed account of his experience in East Asia",
-        "Region": ["East Asia", "Eastern Europe", "Central Asia"],
+        "Region": ["East Asia", "Eastern Europe", "Central Asia", "Middle East"],
         "Sentence": ["Marco Polo served as the foreign emissary for the ", ["Yuan Dynasty", "Kublai Khan"]],
         "Date": "Traveled in 1200s"
       },
@@ -732,7 +732,7 @@
         "Group": ["People"],
         "Definition": "Prince of Portugal who participated in European maritime expansion",
         "Effect": "Main initiator of the Age of Discovery, funding European maritime exploration in Africa",
-        "Region": ["Western Europe"],
+        "Region": ["Western Europe", "West Africa"],
         "Sentence": ["Prince Henry encouraged the exploration of Western Africa, starting the Age of ", ["Discovery", "Exploration"]],
         "Date": "Lived in 1400s"
       },

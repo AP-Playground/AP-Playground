@@ -16,6 +16,10 @@ const sentencesBoard = document.getElementById("sentencesBoard")
 const prevSentence = document.getElementById("prevSentence")
 const nextSentence = document.getElementById("nextSentence")
 let sentences;
+const categoryBoard = document.getElementById("categoryBoard")
+const categoryCard = document.getElementById("categoryCard")
+const categoryOptions = document.getElementById("categoryOptions");
+let options;
 
 
 // Game variables
@@ -167,6 +171,7 @@ function prepareGame() {
   gameOverlay.style.display = "flex";
   matchingBoard.style.display = "none";
   sentencesBoard.hidden = true;
+  categoryBoard.hidden = true;
 
   if (data.Matching.includes(game)) {
     matchingBoard.style.display = "grid";
@@ -174,7 +179,15 @@ function prepareGame() {
     currentCards = Array(20).fill(undefined);
     updateMatchingBoard();
   } else if (data.Categorization.includes(game)) {
-    console.log("Categorization")
+    categoryBoard.hidden = false;
+    currentCards = remainingCards.shift();
+    Array.from(document.querySelectorAll("#categoryOptions button")).forEach(i => i.remove())
+    data[game].forEach(option => {
+      categoryOptions.insertAdjacentHTML("beforeend", `<button>${option}</button>`)
+    })
+    options = Array.from(document.querySelectorAll("#categoryOptions button"));
+    options.forEach(option => {option.addEventListener("click", selectCategoryOption)})
+    updateCategory();
 
   } else if (data.Sentences.includes(game)) {
     sentencesBoard.hidden = false;
@@ -182,7 +195,7 @@ function prepareGame() {
     Array.from(sentencesBoard.getElementsByClassName("sentence")).forEach(i => i.remove())
     totalCards.forEach(card => {
       let sentence = ""
-      card.Sentence.forEach(part => {
+      card[1].forEach(part => {
         if (typeof part === "string") {
           sentence += `<span>${part}</span>`
         } else {
@@ -253,12 +266,14 @@ function win() {
 
 // Sentences functions
 function checkSentence() {
-  const inputs = sentences[currentCards].getElementsByTagName("input");
-  const answers = remainingCards[currentCards].Sentence.filter(i => typeof i !== "string");
+  const nodeSegments = sentences[currentCards].children;
+  const promptSegments = remainingCards[currentCards][1];
   let success = true;
-  answers.forEach((answer, idx) => {
+
+  promptSegments.forEach((answer, idx) => {
+    if (typeof answer === "string") return;
     answer = answer.map(i => i.toLowerCase())
-    if (!answer.includes(inputs[idx].value.toLowerCase().trim())) {
+    if (!answer.includes(nodeSegments[idx].value.toLowerCase().trim())) {
       success = false;
     }
   })
@@ -363,6 +378,30 @@ matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
     selected.forEach(tile => {tile.classList.remove("selected")});
   }
 })})
+
+
+// Categorization functions
+function updateCategory() {
+  categoryCard.textContent = currentCards[0];
+}
+
+function selectCategoryOption(event) {
+  matchAttempts++;
+  if (
+    (typeof currentCards[1] === "string" && currentCards[1] === event.target.textContent)
+    || (typeof currentCards[1] === "object" && currentCards[1].includes(event.target.textContent))
+  ) {
+    if (remainingCards.length === 0) {
+      win();
+      return;
+    }
+    currentCards = remainingCards.shift();
+    updateCategory()
+
+    completedCards++
+    gameScore.textContent = completedCards + "/" + totalCards.length;
+  }
+}
 
 
 // Utility functions
