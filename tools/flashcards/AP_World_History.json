@@ -271,7 +271,7 @@
         "Cause": "Founded by Timur/Tamerlane, who wanted to restore the Mongol Empire",
         "Effect": "Had a small Islamic Renaissance; eventually led to creation of the Mughal Empire",
         "Region": ["Middle East", "Central Asia"],
-        "Sentence": ["The Timurid Empire was founded by ", ["Tamerlane"], ", who attempted to be ", ["Genghis Khan"], "'s heir"]
+        "Sentence": ["The Timurid Empire was founded by ", ["Tamerlane"], ", who attempted to be ", ["Genghis Khan", "Temuchin", "Chinggis Khan"], "'s heir"]
       },
       {
         "Term": "Urdu",
@@ -614,7 +614,7 @@
         "Definition": "The founder and first khan of the Mongol Empire",
         "Effect": "Formed and ruled the largest contiguous empire in history",
         "Region": ["Central Asia"],
-        "Sentence": [["Genghis Khan"], " ruled the ", ["Mongol"], " Empire, which both caused massive destruction in and united Asia"],
+        "Sentence": [["Genghis Khan", "Temuchin", "Chinggis Khan"], " ruled the ", ["Mongol"], " Empire, which both caused massive destruction in and united Asia"],
         "Date": "Ruled in 1200s"
       },
       {
@@ -744,18 +744,475 @@
         "Region": ["Eastern Europe"],
         "Sentence": ["Gutenberg's invention of the printing press gave Europeans greater access to religious texts like the ", ["bible"], " which led to the Protestant Reformation"],
         "Date": "Lived in 1400s"
+      },
+      {
+        "Term": "Judaism",
+        "Group": ["Religion & Culture"],
+        "Definition": "First abrahamic, monotheistic, and ethnic relgion",
+        "Cause": "Founded by Abraham and (later) Moses",
+        "Effect": "Precursor to the two largest religions in the world",
+        "Region": ["Middle East", "Eastern Europe", "Western Europe"],
+        "Sentence": ["One of the first monotheistic religions is ", ["Judaism"], ", which originated in the 500s BCE"]
+      },
+      {
+        "Term": "Christianity",
+        "Group": ["Religion & Culture"],
+        "Definition": "Abrahamic monotheistic religion centered on the Bible",
+        "Cause": "Founded by the 12 Apostles which followed Jesus of Nazareth",
+        "Effect": "Religion spread worldwide through heavy imperialism",
+        "Region": ["South America", "North America", "Latin America", "Eastern Europe", "Western Europe"],
+        "Sentence": [["Christianity"], " contains numerous sects, with the largest being Catholicism"]
+      },
+      {
+        "Term": "Islam",
+        "Group": ["Religion & Culture"],
+        "Definition": "Abrahamic monotheistic religion centered on the Quran",
+        "Cause": "Founded by the teachings of Muhammad (from Allah)",
+        "Effect": "Dominant religion in Africa and the Middle East",
+        "Region": ["South Asia", "West Africa", "East Africa", "North Africa", "Middle East", "Southeast Asia", "Central Asia"],
+        "Sentence": ["The holy site of Islam is ", ["Mecca"]]
+      },
+      {
+        "Term": "Hinduism",
+        "Group": ["Religion & Culture"],
+        "Definition": "Indian religion based around dharma (the universal order)",
+        "Cause": "Began in the Indus Valley in the 2000s BCE",
+        "Effect": "Dominant religion in India",
+        "Region": ["South Asia", "Southeast Asia"],
+        "Sentence": ["The religion of ", ["Hinduism"], " uses a caste system which labels individuals based on their parent's caste"]
+      },
+      {
+        "Term": "Buddhism",
+        "Group": ["Religion & Culture"],
+        "Definition": "Indian religion based on teachings of the Buddha",
+        "Cause": "Founded by Siddhartha Guatama, a religious teacher",
+        "Effect": "Religion spread by merchants and travelers along the Silk Road",
+        "Region": ["South Asia", "Southeast Asia", "East Asia"],
+        "Sentence": ["Unlike its historic competitor, ", ["Hinduism"], ", ", ["Buddhism"], ", discourages a class system because it offers spirtual liberation to everyone"]
       }
     ],
 
 
     "Unit 2: Networks of Exchange": [
-
-
-
-
-
-
+      {
+        "Term": "Silk Road",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Network of Eurasian trade routes connecting the East and West",
+        "Cause": "Began with a luxury item trade originating from the Han Dynasty",
+        "Effect": "Facilitated economic, cultural, political, and religious interaction between the East and West",
+        "Region": ["East Asia", "Middle East", "Central Asia"],
+        "Sentence": ["The ", ["Silk Road", "Silk Roads", "Silk Routes"], " was a network of routes that helped spread Buddhism and Christianity to East Asia"]
+      },
+      {
+        "Term": "Samarkand",
+        "Group": ["Societies & Structures"],
+        "Definition": "City in modern Uzbekistan which prospered from its position on the Silk Road",
+        "Cause": "Grew wealth and power from its position on the Silk Road",
+        "Effect": "Trading center and center of Islamic religion and culture",
+        "Region": ["Middle East", "Central Asia"]
+      },
+      {
+        "Term": "Kashgar",
+        "Group": ["Societies & Structures"],
+        "Definition": "City in modern west China which grew from trade along the Silk Road",
+        "Cause": "Grew wealth and power from its position on the Silk Road",
+        "Effect": "Trading center and stopping/starting point for merchants and exporers",
+        "Region": ["East Asia"]
+      },
+      {
+        "Term": "Banking Houses",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Institutions that handle money storage, lending, conversion, etc.",
+        "Cause": "Economic incentive for a simpler/safer way to store and transfer money",
+        "Effect": "Spurred economic growth and safety with bills of exchange and flying cash",
+        "Sentence": [["Banking Houses"], ", bills of exchange, flying cash, and credit all contributed the interregional trade of luxury goods along the ", ["Silk Road", "Silk Roads", "Silk Routes"]]
+      },
+      {
+        "Term": "Caravanserai",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Roadside inns for travelers along major trade routes",
+        "Cause": "More traffic along trade routes demanded more safety and accessibility",
+        "Effect": "Supported the flow of goods, and ideas along overland trade routes",
+        "Region": ["West Africa", "North Africa", "South Asia", "Middle East"],
+        "Sentence": [["Caravanserai"], " provided large areas for merchants and travelers to trade and rest"]
+      },
+      {
+        "Term": "Champa Rice",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "A quickly growing, drought resistant crop",
+        "Cause": "Tribute gift to the Song Emperor from the Champa Kingdom",
+        "Effect": "Increased food production, causing a population boom",
+        "Region": ["East Asia", "Southeast Asia"],
+        "Sentence": [["Champa Rice"], " allowed China's population to grow rapidly, making it an early superpower"]
+      },
+      {
+        "Term": "Battle of Talas",
+        "Group": ["Events"],
+        "Definition": "Military engagement between the Abbasid Caliphate and Tang Dynasty",
+        "Effect": "Chinese POWs revealed paper making tech to the Abbasids",
+        "Region": ["Central Asia"],
+        "Date": "Fought in 751"
+      },
+      {
+        "Term": "Bubonic Plague",
+        "Group": ["Events"],
+        "Definition": "The disease caused by the bacteria Yersinia pestis",
+        "Effect": "Caused several series of pandemics that killed tens of millions"
+      },
+      {
+        "Term": "Sogdians",
+        "Group": ["Societies & Structures"],
+        "Definition": "Ancient East Iranian civilization; cluster of city states around Samarkand",
+        "Effect": "Facilitated Silk Road trade between China and Central Asia",
+        "Region": ["Central Asia"]
+      },
+      {
+        "Term": "Pax Mongolica",
+        "Group": ["Societies & Structures"],
+        "Definition": "A period of stability throughout the Mongol Empire",
+        "Cause": "The Mongol Empire was powerful enough to maintain stability and safety",
+        "Effect": "Enabled safe long distance trade: spread ideas and the Bubonic Plague",
+        "Region": "Central Asia",
+        "Sentence": ["The period of ", ["Pax Mongolica"], " made it easier to conduct trade between the Eastern and Western worlds"]
+      },
+      {
+        "Term": "Genghis Khan",
+        "Group": ["People"],
+        "Definition": "The founder and first khan of the Mongol Empire",
+        "Effect": "Formed and ruled the largest contiguous empire in history",
+        "Region": ["Central Asia"],
+        "Sentence": [["Genghis Khan", "Temuchin", "Chinggis Khan"], " ruled the ", ["Mongol"], " Empire, which both caused massive destruction in and united Asia"],
+        "Date": "Ruled in 1200s"
+      },
+      {
+        "Term": "Steppe",
+        "Group": ["Societies & Structures"],
+        "Definition": "A large area of flat unforested grassland",
+        "Effect": "The flat geographic region provided a convenient travel route for the Mongols",
+        "Region": ["Central Asia"]
+      },
+      {
+        "Term": "Blue Mighty Eternal Heaven",
+        "Group": ["Religion & Culture"]
+      },
+      {
+        "Term": "Yurt",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Portable, round tent traditionally used in the Eurasian Steppe",
+        "Effect": "Optimized living space for use by a nomadic society",
+        "Region": ["Central Asia"]
+      },
+      {
+        "Term": "Sinification",
+        "Group": ["Religion & Culture"],
+        "Definition": "Process by which non-Chinese societies assimilate Chinese culture",
+        "Cause": "Chinese civilization became so dominant that it was impressed onto others",
+        "Effect": "Fusion of cultures; unity across Asia and loss of some Asian cultural diversity",
+        "Region": ["East Asia", "Southeast Asia"],
+        "Sentence": ["Under sinification, ", ["Korea", "Japan", "Vietnam"], " (list one) adopted the Chinese writing system"]
+      },
+      {
+        "Term": "Kurultai",
+        "Group": ["Societies & Structures"],
+        "Definition": "Political and military council of Mongol and Turkic chiefs",
+        "Effect": "Established political and military unity of Mongol tribes",
+        "Region": ["Central Asia"],
+        "Sentence": ["Genghis Khan and other Mongol khans were formally elected in ", ["Kurultai", "Kurultais"]]
+      },
+      {
+        "Term": "Yam System",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "System of communication and relay stations in Mongol Empire",
+        "Effect": "Increased communication and cooperation across Eurasia",
+        "Region": ["Central Asia"],
+        "Sentence": ["The Mongol's ", ["Yam System"], " helped them grow and maintain their empire by helping information travel"]
+      },
+      {
+        "Term": "Yassa",
+        "Group": ["Societies & Structures"],
+        "Definition": "Oral law code of the Mongol Empire",
+        "Cause": "Originated in wartime decress but expanded into lifestyle conventions",
+        "Effect": "Upheld Pax Mongolica; kept citizens in order and encouraged religious freedom",
+        "Region": ["Central Asia"]
+      },
+      {
+        "Term": "Töregene Khatun",
+        "Group": ["People"],
+        "Definition": "Great Khatun and regent of the Mongol Empire",
+        "Effect": "Notable female ruler; reorganized the Mongol Empire's governing body",
+        "Region": ["Central Asia"],
+        "Date": "Ruled in 1200s"
+      },
+      {
+        "Term": "Indian Ocean Gyre",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "A large system of rotating ocean currents",
+        "Effect": "It's seasonal reversal allows ships to predicatably travel",
+        "Region": ["South Asia", "Southeast Asia", "East Africa"]
+      },
+      {
+        "Term": "Zheng He",
+        "Group": ["People"],
+        "Definition": "Chinese mariner, explorer, diplomat, and admiral",
+        "Effect": "Led Chinese naval expeditions to greatly increase China’s overseas influence",
+        "Region": ["East Asia", "South Asia", "Southeast Asia"],
+        "Sentence": ["Despite commanding what was the world's largest fleet, ", ["Zhenghe", "Zheng He"], " disappeared from Chinese history"],
+        "Date": "Voyages in 1400s"
+      },
+      {
+        "Term": "Ibn Battuta",
+        "Group": ["People"],
+        "Definition": "A moroccan Islamic traveler who wrote The Rihla",
+        "Effect": "The most traveled pre-modern explorer, whose book depicts most of Afro-Eurasia",
+        "Region": ["East Asia", "South Asia", "Southeast Asia", "West Africa", "East Africa", "North Africa", "Middle East", "Eastern Europe", "Central Asia"],
+        "Sentence": [["Ibn Battuta"], " spent nearly 30 years traveling across the Middle East, Africa, and Asia"],
+        "Date": "Traveled in 1300s"
+      },
+      {
+        "Term": "Dhow",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "A lateen rigged ship with one or two masts, used in the Indian Ocean",
+        "Effect": "Improved water vehicle enabled more trade and assisted the formation of empires",
+        "Region": ["South Asia", "Southeast Asia", "East Africa", "East Asia"],
+        "Sentence": ["Technologies such as the ", ["dhow"], " ship and ", ["lateen"], " sails aided the development of states around the Indian Ocean"]
+      },
+      {
+        "Term": "Lateen",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Triangular sail at a 45° to the mast",
+        "Effect": "Enabled travel against the wind which significantly increased trade",
+        "Region": ["South Asia", "Southeast Asia", "East Africa", "East Asia"]
+      },
+      {
+        "Term": "Junk (ship)",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Type of Chinese sailing ship ranging significantly in size",
+        "Effect": "Enabled Chinese naval dominance and later spread to the Indian Ocean",
+        "Region": ["East Asia", "Southeast Asia"],
+        "Sentence": ["Zheng He sailed in a fleet of massive ", ["junk"], " ships which allowed for easier steering"]
+      },
+      {
+        "Term": "Astrolabe",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Astronomical instrument serving as a star chart",
+        "Effect": "Enabled nighttime maritime navigation (no need to use the sun)",
+        "Region": ["East Asia", "South Asia", "Southeast Asia", "Middle East", "Eastern Europe", "Western Europe"],
+        "Sentence": ["Along with the compass, the ", ["astrolabe"], " was used by mariners to find their heading at night"]
+      },
+      {
+        "Term": "Rudder",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Primary control surface used to steer a vessel",
+        "Effect": "Made steering much easier; increased maneuverability of ships",
+        "Region": ["East Asia"]
+      },
+      {
+        "Term": "Srivijaya Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "Buddhist maritime empire based on the island of Sumatra",
+        "Effect": "Held its power through trade and controlled the Strait of Malacca",
+        "Region": ["Southeast Asia"],
+        "Sentence": ["Acting as a hub of trade, the Srivijaya Empire helped expand the religion of ", ["Buddhism"], " into East and Southeast Asia"]
+      },
+      {
+        "Term": "Diaspora",
+        "Group": ["Societies & Structures"],
+        "Definition": "A population scattered and separated from geographic origin",
+        "Cause": "Job opportunities, slavery, fleeing from persecution, etc.",
+        "Effect": "Cultural syncretism, more diversity, the isolation of communities",
+        "Sentence": ["The Trans-Atlantic Slave Trade caused a notable ", ["diaspora"], " of African populations"]
+      },
+      {
+        "Term": "Camel Saddle",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Seat fastened to the back of a camel, typically made of leather",
+        "Cause": "Need to find a way to utilize the Sahara's only beast of burden",
+        "Effect": "Enabled the growth of trade based empires in North/West Africa",
+        "Region": ["West Africa", "North Africa", "Middle East"],
+        "Sentence": ["North Africa's primary beast of burden was the ", ["camel"], ", while South America's only one was the ", ["llama"]]
+      },
+      {
+        "Term": "Mamluk Sultanate",
+        "Group": ["Societies & Structures"],
+        "Definition": "Islamic sultanate led by a military caste of former slaves",
+        "Cause": "Mamluks were slaves that were part of the Ayyubid dynasty’s military and then revolted",
+        "Effect": "Halted Mongol expansion; created a period of prosperity in the Middle East",
+        "Region": ["Middle East"],
+        "Sentence": [["Mamluks"], " were non-Arab freed slave soldiers"]
+      },
+      {
+        "Term": "Hausa Kingdoms",
+        "Group": ["Societies & Structures"],
+        "Definition": "A collection of states started by the Hausa people",
+        "Cause": "Westward expansion of the Hausa people",
+        "Effect": "Contained powerful city states that were centers of trade and production",
+        "Region": ["West Africa"]
+      },
+      {
+        "Term": "Timbuktu",
+        "Group": ["Societies & Structures"],
+        "Definition": "A city in West Africa, was part of the Mali and Songhai empires",
+        "Effect": "Became a center of Islamic scholarship and grew wealthy from its gold-salt trade",
+        "Region": ["West Africa"],
+        "Sentence": ["Many major cities grew from trade, but ", ["Timbuktu"], " was the wealthiest of them all"]
+      },
+      {
+        "Term": "Mali Empire",
+        "Group": ["Societies & Structures"],
+        "Definition": "A West African empire renowned for the wealth of its rulers",
+        "Cause": "Founded by Sundiata Keita, the first mansa",
+        "Effect": "Contained cities that were centers of trade and Islamic scholarship",
+        "Region": ["West Africa"],
+        "Sentence": ["While the ", ["Mali Empire"], " held immense wealth and power, it was eventually taken over by the Songhai Empire"]
+      },
+      {
+        "Term": "Caravanserai",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Roadside inns for travelers along major trade routes",
+        "Cause": "More traffic along trade routes demanded more safety and accessibility",
+        "Effect": "Supported the flow of goods, and ideas along overland trade routes",
+        "Region": ["West Africa", "North Africa", "South Asia", "Middle East"],
+        "Sentence": [["Caravanserai"], " provided large areas for merchants and travelers to trade and rest"]
+      },
+      {
+        "Term": "Idjil Sebkha",
+        "Group": ["Societies & Structures"],
+        "Definition": "Famous and very productive salt mine region in the Sahara",
+        "Effect": "The mines created and boosted trade in their region",
+        "Region": ["West Africa"],
+        "Sentence": [["salt"], " was invaluable historically because of it's ability to preserve food by preventing bacterial growth"]
+      },
+      {
+        "Term": "Camel Caravan",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Series of camels carrying passengers and goods",
+        "Cause": "These groups created safety in numbers for traders",
+        "Effect": "Increased volume and safety of Trans-Saharan trade",
+        "Region": ["West Africa", "North Africa", "Middle East"],
+        "Sentence": ["Camel caravans were initially used in North ", ["Africa"], ", but were later also adopted on the ", ["Silk"], " Road"]
+      },
+      {
+        "Term": "Djinguereber Mosque",
+        "Group": ["Religion & Culture"],
+        "Definition": "Timbuktu's oldest mosque; famous learning center of Mali",
+        "Cause": "The building was commisioned by Mansa Musa",
+        "Effect": "Contributed to Mali being a center of Islamic scholarship",
+        "Region": ["West Africa"],
+        "Sentence": ["The Djinguereber Mosque in ", ["Timbuktu"], " (city) is a testament to the Mali Empire's wealth and power"]
+      },
+      {
+        "Term": "Trans-Saharan Slave Trade",
+        "Group": ["Societies & Structures"],
+        "Definition": "Slave trade across the Sahara; moved 6-10 mil. people",
+        "Cause": "Mostly POWs put into slavery being sold (sometimes in Europe)",
+        "Effect": "One of the first major slave networks which lasted many centuries",
+        "Region": ["West Africa", "Middle East", "North Africa"],
+        "Sentence": ["Prior to the Trans-Atlantic slave trade, there was the Trans-", ["Saharan"], " slave trade, which was at a much smaller scale"]
+      },
+      {
+        "Term": "Marco Polo",
+        "Group": ["People"],
+        "Definition": "An Italian traveler that gave Europeans a look at the Eastern world",
+        "Effect": "First European to create a detailed account of his experience in East Asia",
+        "Region": ["East Asia", "Eastern Europe", "Central Asia", "Middle East"],
+        "Sentence": ["Marco Polo served as the foreign emissary for the ", ["Yuan Dynasty", "Kublai Khan"]],
+        "Date": "Traveled in 1200s"
+      },
+      {
+        "Term": "Margery Kempe",
+        "Group": ["People"],
+        "Definition": "A Christian mystic/pilgrim who traveled to holy sites",
+        "Effect": "Wrote the first English autobiography",
+        "Region": ["Middle East", "Eastern Europe", "Western Europe"],
+        "Sentence": [["Margery Kempe"], " documented her famous pilgrimages to Holy sites in her autobiography"],
+        "Date": "Traveled in 1400s"
+      },
+      {
+        "Term": "Papermaking",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "The process by which paper is made",
+        "Cause": "First invented in China using hemp; spread to the Islamic world",
+        "Effect": "Mass production of writing material; increased literacy",
+        "Region": ["East Asia"],
+        "Sentence": ["The first bulk writing material (papyrus) was invented in Egypt, but paper was invented later in ", ["China", "Han dynasty", "Han China", "Han"]]
+      },
+      {
+        "Term": "Dar al-Islam",
+        "Group": ["Societies & Structures"],
+        "Definition": "\"House of Islam\"; refers to countries under Muslim sovereignty",
+        "Effect": "It's scale and scope created a period of unity and innovation in the Middle East",
+        "Region": ["Middle East"],
+        "Sentence": ["Dar al-Islam spread significantly throughout ", ["Africa"], " (continent) on Trans-Saharan trade routes"]
+      },
+      {
+        "Term": "Gunpowder",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Explosive substance consisting of salt peter, sulfur, and charcoal",
+        "Cause": "Discovered by Taoists in China while attempting to find immortality",
+        "Effect": "Revolutionized many facets of warfare",
+        "Region": ["East Asia"],
+        "Sentence": ["The first weapons that used ", ["gunpowder"], " were fire arrows and simple rockets "]
+      },
+      {
+        "Term": "Compass",
+        "Group": ["Ideas & Innovations"],
+        "Definition": "Instrument containing a magnetized pointer; points at magnetic north",
+        "Effect": "Simplified both maritime and land based navigation; very reliable",
+        "Region": ["East Asia", "South Asia", "Southeast Asia", "Middle East"],
+        "Sentence": ["The first", ["compasses"], "were made of lodestone, a naturally occuring magnetic material"]
+      },
+      {
+        "Term": "Pax Islamica",
+        "Group": ["Societies & Structures"],
+        "Definition": "Period of scientific, economic, and cultural flourishing in the Islamic world",
+        "Cause": "Islamic state sponsored scholarship; openness to information",
+        "Effect": "Advanced numerous scientific fields; preserved classical knowledge",
+        "Region": ["Middle East"],
+        "Sentence": ["The Translation Movement occured in the ", ["Islamic"], " Golden Age"]
+      },
+      {
+        "Term": "Spread of Buddhism",
+        "Group": ["Religion & Culture"]
+      },
+      {
+        "Term": "Citrus fruits",
+        "Group": ["Ideas & Innovations"],
+        "Cause": "Spread to the rest of the world via intercontinental trade routes",
+        "Effect": "Invasive species showing the scope of trade",
+        "Region": ["South Asia", "Southeast Asia"]
+      },
+      {
+        "Term": "Justinian's Plague",
+        "Group": ["Events"],
+        "Definition": "The first wave of the bubonic plague in Europe",
+        "Region": ["Eastern Europe", "Western Europe"]
+      },
+      {
+        "Term": "Black Death",
+        "Group": ["Events"],
+        "Definition": "The most fatal pandemic ever recorded",
+        "Cause": "Spread of the Bubonic plague from China to Europe through the Silk Road",
+        "Effect": "Death of ~50% of Europe's population",
+        "Region": ["Eastern Europe", "Western Europe"],
+        "Sentence": ["The Black Death is also known as the ", ["Bubonic Plague"]],
+        "Date": "Spread in 1300s"
+      },
+      {
+        "Term": "Yersinia Pestis",
+        "Group": ["Events"],
+        "Definition": "Bacteria that causes the Bubonic plague",
+        "Cause": "Carried by rat fleas, which are it's original host organism",
+        "Sentence": ["Most human diseases originated from bacteria or viruses that lived in ", ["animals", "livestock"]]
+      },
+      {
+        "Term": "The Decameron",
+        "Group": ["People", "Events", "Religion & Culture", "Ideas & Innovations", "Societies & Structures"],
+        "Definition": "Collection of short stories influenced by the Black Death",
+        "Effect": "Documents life at the time of the Black Death; Literary value"
+      }
     ],
+
+    "temp people": ["Genghis Khan", "Tamerlane", "Kublai Khan", "Mansa Musa"],
 
 
     "Unit 3: Land-Based Empires": [
