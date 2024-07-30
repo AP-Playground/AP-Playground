@@ -182,7 +182,7 @@
         "Definition": "Roadside inns for travelers along major trade routes",
         "Cause": "More traffic along trade routes demanded more safety and accessibility",
         "Effect": "Supported the flow of goods, and ideas along overland trade routes",
-        "Region": ["West Africa", "North Africa", "South Asia", "Middle East"],
+        "Region": ["West Africa", "North Africa", "South Asia", "Middle East", "Central Asia"],
         "Sentence": [["Caravanserai"], " provided large areas for merchants and travelers to trade and rest"]
       },
       {
@@ -217,7 +217,7 @@
         "Cause": "Dispute over who should succeed Muhammad as the leader of Islam",
         "Effect": "Cause of tensions, violence, and wars throughout history",
         "Region": ["Middle East"],
-        "Sentence": [["Sunnis", "Sunni", "Sunni Muslims"], " believe that Abu Bakr should have been the next caliph, while ", ["Shi'as", "Shias", "Shia Muslims", "Shi'a Muslims", "Shia", "Shi'a"], " believe it should have been Ali"]
+        "Sentence": [["Sunnis", "Sunni", "Sunni Muslims"], " believe that Abu Bakr should have been the next caliph, while ", ["Shi'as", "Shias", "Shia Muslims", "Shi'a Muslims", "Shia", "Shi'a", "Shiites", "Shi'ites", "Shiite Muslims", "Shi'ite Muslims"], " believe it should have been Ali"]
       },
       {
         "Term": "Caliphate",
@@ -748,7 +748,7 @@
       {
         "Term": "Judaism",
         "Group": ["Religion & Culture"],
-        "Definition": "First abrahamic, monotheistic, and ethnic relgion",
+        "Definition": "First abrahamic, monotheistic, and ethnic religion",
         "Cause": "Founded by Abraham and (later) Moses",
         "Effect": "Precursor to the two largest religions in the world",
         "Region": ["Middle East", "Eastern Europe", "Western Europe"],
@@ -788,7 +788,7 @@
         "Cause": "Founded by Siddhartha Guatama, a religious teacher",
         "Effect": "Religion spread by merchants and travelers along the Silk Road",
         "Region": ["South Asia", "Southeast Asia", "East Asia"],
-        "Sentence": ["Unlike its historic competitor, ", ["Hinduism"], ", ", ["Buddhism"], ", discourages a class system because it offers spirtual liberation to everyone"]
+        "Sentence": ["Unlike its historic competitor, ", ["Hinduism"], ", ", ["Buddhism"], ", discourages a class system because it offers spiritual liberation to everyone"]
       }
     ],
 
@@ -816,7 +816,7 @@
         "Group": ["Societies & Structures"],
         "Definition": "City in modern west China which grew from trade along the Silk Road",
         "Cause": "Grew wealth and power from its position on the Silk Road",
-        "Effect": "Trading center and stopping/starting point for merchants and exporers",
+        "Effect": "Trading center and stopping/starting point for merchants and explorers",
         "Region": ["East Asia"]
       },
       {
@@ -825,7 +825,7 @@
         "Definition": "Institutions that handle money storage, lending, conversion, etc.",
         "Cause": "Economic incentive for a simpler/safer way to store and transfer money",
         "Effect": "Spurred economic growth and safety with bills of exchange and flying cash",
-        "Sentence": [["Banking Houses"], ", bills of exchange, flying cash, and credit all contributed the interregional trade of luxury goods along the ", ["Silk Road", "Silk Roads", "Silk Routes"]]
+        "Sentence": [["Banking Houses", "Banks"], ", bills of exchange, flying cash, and credit all contributed the interregional trade of luxury goods along the ", ["Silk Road", "Silk Roads", "Silk Routes"]]
       },
       {
         "Term": "Caravanserai",
@@ -833,7 +833,7 @@
         "Definition": "Roadside inns for travelers along major trade routes",
         "Cause": "More traffic along trade routes demanded more safety and accessibility",
         "Effect": "Supported the flow of goods, and ideas along overland trade routes",
-        "Region": ["West Africa", "North Africa", "South Asia", "Middle East"],
+        "Region": ["West Africa", "North Africa", "South Asia", "Middle East", "Central Asia"],
         "Sentence": [["Caravanserai"], " provided large areas for merchants and travelers to trade and rest"]
       },
       {
@@ -872,7 +872,7 @@
         "Definition": "A period of stability throughout the Mongol Empire",
         "Cause": "The Mongol Empire was powerful enough to maintain stability and safety",
         "Effect": "Enabled safe long distance trade: spread ideas and the Bubonic Plague",
-        "Region": "Central Asia",
+        "Region": ["Central Asia"],
         "Sentence": ["The period of ", ["Pax Mongolica"], " made it easier to conduct trade between the Eastern and Western worlds"]
       },
       {
@@ -931,7 +931,7 @@
         "Term": "Yassa",
         "Group": ["Societies & Structures"],
         "Definition": "Oral law code of the Mongol Empire",
-        "Cause": "Originated in wartime decress but expanded into lifestyle conventions",
+        "Cause": "Originated in wartime decrees but expanded into lifestyle conventions",
         "Effect": "Upheld Pax Mongolica; kept citizens in order and encouraged religious freedom",
         "Region": ["Central Asia"]
       },
@@ -947,7 +947,7 @@
         "Term": "Indian Ocean Gyre",
         "Group": ["Ideas & Innovations"],
         "Definition": "A large system of rotating ocean currents",
-        "Effect": "It's seasonal reversal allows ships to predicatably travel",
+        "Effect": "It's seasonal reversal allows ships to predictably travel",
         "Region": ["South Asia", "Southeast Asia", "East Africa"]
       },
       {
@@ -973,7 +973,7 @@
         "Group": ["Ideas & Innovations"],
         "Definition": "A lateen rigged ship with one or two masts, used in the Indian Ocean",
         "Effect": "Improved water vehicle enabled more trade and assisted the formation of empires",
-        "Region": ["South Asia", "Southeast Asia", "East Africa", "East Asia"],
+        "Region": ["South Asia", "Southeast Asia", "East Africa", "East Asia", "Middle East"],
         "Sentence": ["Technologies such as the ", ["dhow"], " ship and ", ["lateen"], " sails aided the development of states around the Indian Ocean"]
       },
       {
@@ -981,7 +981,7 @@
         "Group": ["Ideas & Innovations"],
         "Definition": "Triangular sail at a 45° to the mast",
         "Effect": "Enabled travel against the wind which significantly increased trade",
-        "Region": ["South Asia", "Southeast Asia", "East Africa", "East Asia"]
+        "Region": ["South Asia", "Southeast Asia", "East Africa", "East Asia", "Middle East", "Eastern Europe",  "Western Europe"]
       },
       {
         "Term": "Junk (ship)",
@@ -1003,8 +1003,7 @@
         "Term": "Rudder",
         "Group": ["Ideas & Innovations"],
         "Definition": "Primary control surface used to steer a vessel",
-        "Effect": "Made steering much easier; increased maneuverability of ships",
-        "Region": ["East Asia"]
+        "Effect": "Made steering much easier; increased maneuverability of ships"
       },
       {
         "Term": "Srivijaya Empire",
@@ -1066,21 +1065,11 @@
         "Sentence": ["While the ", ["Mali Empire"], " held immense wealth and power, it was eventually taken over by the Songhai Empire"]
       },
       {
-        "Term": "Caravanserai",
-        "Group": ["Ideas & Innovations"],
-        "Definition": "Roadside inns for travelers along major trade routes",
-        "Cause": "More traffic along trade routes demanded more safety and accessibility",
-        "Effect": "Supported the flow of goods, and ideas along overland trade routes",
-        "Region": ["West Africa", "North Africa", "South Asia", "Middle East"],
-        "Sentence": [["Caravanserai"], " provided large areas for merchants and travelers to trade and rest"]
-      },
-      {
         "Term": "Idjil Sebkha",
         "Group": ["Societies & Structures"],
         "Definition": "Famous and very productive salt mine region in the Sahara",
-        "Effect": "The mines created and boosted trade in their region",
         "Region": ["West Africa"],
-        "Sentence": [["salt"], " was invaluable historically because of it's ability to preserve food by preventing bacterial growth"]
+        "Sentence": [["salt"], " was invaluable historically because of its ability to preserve food by preventing bacterial growth"]
       },
       {
         "Term": "Camel Caravan",
@@ -1095,7 +1084,7 @@
         "Term": "Djinguereber Mosque",
         "Group": ["Religion & Culture"],
         "Definition": "Timbuktu's oldest mosque; famous learning center of Mali",
-        "Cause": "The building was commisioned by Mansa Musa",
+        "Cause": "The building was commissioned by Mansa Musa",
         "Effect": "Contributed to Mali being a center of Islamic scholarship",
         "Region": ["West Africa"],
         "Sentence": ["The Djinguereber Mosque in ", ["Timbuktu"], " (city) is a testament to the Mali Empire's wealth and power"]
@@ -1147,7 +1136,7 @@
       {
         "Term": "Gunpowder",
         "Group": ["Ideas & Innovations"],
-        "Definition": "Explosive substance consisting of salt peter, sulfur, and charcoal",
+        "Definition": "Explosive substance consisting of saltpeter, sulfur, and charcoal",
         "Cause": "Discovered by Taoists in China while attempting to find immortality",
         "Effect": "Revolutionized many facets of warfare",
         "Region": ["East Asia"],
@@ -1159,7 +1148,7 @@
         "Definition": "Instrument containing a magnetized pointer; points at magnetic north",
         "Effect": "Simplified both maritime and land based navigation; very reliable",
         "Region": ["East Asia", "South Asia", "Southeast Asia", "Middle East"],
-        "Sentence": ["The first", ["compasses"], "were made of lodestone, a naturally occuring magnetic material"]
+        "Sentence": ["The first ", ["compasses"], "were made of lodestone, a naturally occuring magnetic material"]
       },
       {
         "Term": "Pax Islamica",
@@ -1168,7 +1157,7 @@
         "Cause": "Islamic state sponsored scholarship; openness to information",
         "Effect": "Advanced numerous scientific fields; preserved classical knowledge",
         "Region": ["Middle East"],
-        "Sentence": ["The Translation Movement occured in the ", ["Islamic"], " Golden Age"]
+        "Sentence": ["The Translation Movement occurred in the ", ["Islamic"], " Golden Age"]
       },
       {
         "Term": "Spread of Buddhism",
@@ -1201,30 +1190,145 @@
         "Term": "Yersinia Pestis",
         "Group": ["Events"],
         "Definition": "Bacteria that causes the Bubonic plague",
-        "Cause": "Carried by rat fleas, which are it's original host organism",
+        "Cause": "Carried by rat fleas, which are its original host organism",
         "Sentence": ["Most human diseases originated from bacteria or viruses that lived in ", ["animals", "livestock"]]
       },
       {
         "Term": "The Decameron",
-        "Group": ["People", "Events", "Religion & Culture", "Ideas & Innovations", "Societies & Structures"],
-        "Definition": "Collection of short stories influenced by the Black Death",
-        "Effect": "Documents life at the time of the Black Death; Literary value"
+        "Group": ["Religion & Culture", "Ideas & Innovations"]
+      },
+      {
+        "Term": "Tamerlane",
+        "Group": ["People"],
+        "Definition": "Turco-Mongol conqueror; undefeated commander",
+        "Effect": "Founded the Timurid Empire (which fragmented after him); fearsome military leader",
+        "Region": ["Central Asia"],
+        "Sentence": ["It took nearly a century for Delhi to recover from ", ["Timur", "Tamerlane"], "'s attack (person)"],
+        "Date": "Ruled in 1300s"
+      },
+      {
+        "Term": "Kublai Khan",
+        "Group": ["People"],
+        "Definition": "The founder and first emperor of the Yuan Dynasty",
+        "Effect": "The first non-Han emperor to rule all of China",
+        "Region": ["East Asia"],
+        "Sentence": ["The Yuan Dynasty was ruled by ", ["Kublai Khan"]],
+        "Date": "Ruled in 1200s"
+      },
+      {
+        "Term": "Mansa Musa",
+        "Group": ["People"],
+        "Definition": "The ninth Mansa of the Mali Empire and the richest person ever",
+        "Effect": "Went on a famous Hajj to Mecca that made the Mali Empire famous; promoted Islam",
+        "Region": ["West Africa"],
+        "Sentence": [["Mansa Musa"], " (person) became rich by taxing Mali's enormous salt and gold trade"],
+        "Date": "Ruled in 1300s"
       }
     ],
 
-    "temp people": ["Genghis Khan", "Tamerlane", "Kublai Khan", "Mansa Musa"],
-
 
     "Unit 3: Land-Based Empires": [
-
-
-
-
-
-
-
-
+    {
+      "Term": "Istanbul",
+      "Group": ["Societies & Structures"],
+      "Definition": "Capital of Ottoman Empire",
+      "Cause": "Originally capital of Roman Empire (as Constantinople)",
+      "Effect": "Powerful port city that was a center of Islamic art and architecture",
+      "Region": ["Eastern Europe"],
+      "Sentence": ["The city of ", ["Constantinople", "Istanbul"], " is the largest city of Turkey"]
+    },
+    {
+      "Term": "Fall of Constantinople",
+      "Group": ["Events"],
+      "Definition": "Capture of the capital of the Byzantine Empire by the Ottoman Empire",
+      "Cause": "53 day seige by Ottoman army led by Sultan Mehmed II",
+      "Effect": "Further expansion of the Ottoman Empire and a new capital city",
+      "Region": ["Eastern Europe"],
+      "Sentence": ["The fall of Constantinople was significant for its use of ", ["cannons", "bombards"], " (weapon)"],
+      "Date": "Sieged in 1453"
+    },
+    {
+      "Term": "Safavid Dynasty",
+      "Group": ["Societies & Structures"],
+      "Definition": "Iranian dynasty considered one of the gunpowder empires",
+      "Cause": "Founded by Ismail I around the sect of Shi'a Islam",
+      "Effect": "Revival of Iran on the Silk Roads; significant patronage of the arts",
+      "Region": ["Middle East", "Central Asia"],
+      "Sentence": ["Sandwiched between the other two gunpowder empires, the ", ["Safavid Empire", "Safavid Dynasty"], " fought in several wars over religion"]
+    },
+    {
+      "Term": "Twelver Shi'ism",
+      "Group": ["Religion & Culture"],
+      "Definition": "Largest branch of Shi'a Islam; believe in 12 divine successors to Muhammad",
+      "Effect": "State religion of Iran; reinforced rift between Islamic sects",
+      "Region": ["Middle East", "Central Asia"],
+      "Sentence": ["Twelver Shi'ism was popularized when it became the  official religion of the ", ["Safavid Dynasty", "Safavid Empire"]]
+    },
+    {
+      "Term": "Battle of Panipat",
+      "Group": ["Events"],
+      "Definition": "Battle fought between invading forces of Babur and Delhi Sultanate",
+      "Effect": "End of Delhi Sultanate; start of Mughal Empire",
+      "Region": ["South Asia"],
+      "Sentence": ["The Battle of Panipat was won by ", ["Babur"], " (person), the soon to be ruler of the Mughal Empire"],
+      "Date": "Fought in 1526"
+    },
+    {
+      "Term": "Sultanate",
+      "Group": ["Societies & Structures"],
+      "Definition": "Region under the rule of a sultan (Muslim sovereign)",
+      "Cause": "Replaced caliphates as a smaller form of Islamic state",
+      "Effect": "More structured and smaller designation of Islamic state",
+      "Region": ["Middle East"],
+      "Sentence": ["Like the term caliph, ", ["sultan"], " is also a word for a ruler with a religious significance"]
+    },
+    {
+      "Term": "Bakufu",
+      "Group": ["Societies & Structures"],
+      "Definition": "The Shogun's administration",
+      "Effect": "These officials carry out the actual duties of administration",
+      "Region": ["East Asia"],
+      "Sentence": ["In a feudal shogunate, the bakufu (officials) held power over both the emperor and the ", ["shogun"]]
+    },
+    {
+      "Term": "Shogunate",
+      "Group": ["Societies & Structures"],
+      "Definition": "A government ruled by a shōgun, but nominally under an emperor",
+      "Cause": "First was set up by Minamoto Yoritomo, who seized power in a war",
+      "Effect": "United Japan under the feudal system and a militaristic government",
+      "Region": "East Asia",
+      "Sentence": ["The first shogunate (Kamakura) withstood two ", ["Mongol"], " invasions"]
+    },
+    {
+      "Term": "House of Romanov",
+      "Group": ["Societies & Structures"],
+      "Definition": "Was the reigning imperial house of Russia",
+      "Cause": "Achieved prominence after Anastasia Romanovna married Ivan IV",
+      "Effect": "Over 3 centuries of growth and stability in Russia",
+      "Region": ["Central Asia", "Eastern Europe"]
+    },
+    {
+      "Term": "Saint Petersburg",
+      "Group": ["Societies & Structures"],
+      "Definition": "Russian port city; imperial capital of House of Romanov",
+      "Effect": "Cultural center of Russia",
+      "Region": ["Eastern Europe"],
+      "Sentence": ["St. Petersburg (temporarily Leningrad) was the capital of Russia during the ", ["House of Romanov"]]
+    },
+    {
+      "Term": "Samurai",
+      "Group": ["Societies & Structures"],
+      "Definition": "Japanese military nobility; worked under feudal landlords",
+      "Effect": "Held political and military power and influenced Japanese culture",
+      "Region": ["East Asia"],
+      "Sentence": ["Europe and Japan both used forms of the feudal system, where knights were the european equivalent of ", ["samurai"], " in Japan"]
+    },
+    {
+      "Term": "Ottomans vs. Safavids",
+      "Group": ["Societies & Structures"]
+    }
     ],
+    "temp people": ["Pachacuti", "Mehmet II", "Babur", "Shah Ismail I", "Tokugawa Ieyasu", "Nurhaci", "Peter the Great", "Askia Muhammad", "Montezuma II", "Suleiman I", "Atahualpa", "Akbar the Great", "Shah Abbas I", "Kangxi"],
 
 
     "Unit 4: Transoceanic Interconnections": [
