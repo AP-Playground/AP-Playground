@@ -113,7 +113,8 @@ main > ul {
 main > img {
   display: block;
   margin: auto;
-  max-width: min(100%, 600px);
+  max-width: min(100%, 800px);
+  max-height: 500px;
   margin-bottom: 10px;
 }
 
