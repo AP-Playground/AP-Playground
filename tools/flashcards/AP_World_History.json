@@ -1305,7 +1305,8 @@
       "Definition": "Was the reigning imperial house of Russia",
       "Cause": "Achieved prominence after Anastasia Romanovna married Ivan IV",
       "Effect": "Over 3 centuries of growth and stability in Russia",
-      "Region": ["Central Asia", "Eastern Europe"]
+      "Region": ["Central Asia", "Eastern Europe"],
+      "Sentence": ["When the Golden Horde Khanate fell, the ", ["House of Romanov"], " took control of Russia"]
     },
     {
       "Term": "Saint Petersburg",
@@ -1313,7 +1314,7 @@
       "Definition": "Russian port city; imperial capital of House of Romanov",
       "Effect": "Cultural center of Russia",
       "Region": ["Eastern Europe"],
-      "Sentence": ["St. Petersburg (temporarily Leningrad) was the capital of Russia during the ", ["House of Romanov"]]
+      "Sentence": ["Under the rule of Peter the Great, a new capital was built in Russia that moved the royal family away from Moscow: ", ["St. Petersburg", "St Petersburg", "Saint Petersburg"]]
     },
     {
       "Term": "Samurai",
