@@ -19,6 +19,7 @@ let sentences;
 const categoryBoard = document.getElementById("categoryBoard")
 const categoryCard = document.getElementById("categoryCard")
 const categoryOptions = document.getElementById("categoryOptions");
+const maxCardsSel = document.getElementById("maxCards")
 let options;
 
 
@@ -29,6 +30,7 @@ let subject = "";
 let unit = "";
 let type = "";
 let game = "";
+let maxCards = 0;
 let remainingCards = [];
 let currentCards = [];
 let totalCards = [];
@@ -97,6 +99,7 @@ typeSel.addEventListener("change", () => {
 function enableGame() {
   if (unit !== "" && type !== "") {
     gameSel.disabled = false;
+    maxCardsSel.disabled = false;
     let games = [];
   
     if (type === "all") {
@@ -113,6 +116,7 @@ function enableGame() {
 
 function disableGame() {
   gameSel.disabled = true;
+  maxCardsSel.disabled = true;
   Array.from(gameSel.getElementsByClassName("new")).forEach(i => i.remove())
   gameSel.selectedIndex = 0;
   gameContainer.hidden = true;
@@ -130,7 +134,24 @@ gameSel.addEventListener("change", () => {
 
   resetGameInfo();
 
-  prepareGame();
+  if (game !== "" && maxCards !== 0) {
+    prepareGame();
+  }
+})
+
+maxCardsSel.addEventListener("change", () => {
+  if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
+    maxCardsSel.value = maxCards;
+    return;
+  }
+  maxCards = maxCardsSel.value;
+  gameActive = false;
+
+  resetGameInfo();
+
+  if (game !== "" && maxCards !== 0) {
+    prepareGame();
+  }
 })
 
 function filterCards() {
@@ -158,7 +179,7 @@ function filterCards() {
   cards = cards.map(i => [i.Term, i[game]])
 
   shuffleArray(cards)
-  return cards;
+  return cards.slice(0, maxCards);
 }
 
 

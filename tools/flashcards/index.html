@@ -23,6 +23,7 @@
     <h1>Flashcards</h1>
     <select id="subjectSel">
       <option value="" disabled selected hidden>Select a subject/class</option>
+      <option value="AP_Art_History">AP Art History</option>
       <option value="AP_World_History">AP World History</option>
       <option value="AP_Biology">AP Biology</option>
     </select>
@@ -36,9 +37,21 @@
     </select>
     <div id="game">
       <div id="gameHeader">
-        <select id="gameType" disabled>
-          <option value="" disabled selected hidden>Select a game type</option>
-        </select>
+        <div>
+          <select id="gameType" disabled>
+            <option value="" disabled selected hidden>Select a game type</option>
+          </select>
+          <select id="maxCards" disabled>
+            <option value="" disabled selected hidden>Select the game length</option>
+            <option value="25">&le;25 cards</option>
+            <option value="50">&le;50 cards</option>
+            <option value="100">&le;100 cards</option>
+            <option value="150">&le;150 cards</option>
+            <option value="200">&le;200 cards</option>
+            <option value="250">&le;250 cards</option>
+            <option value="10000">No maximum</option>
+          </select>
+        </div>
         <div id="gameInfo" class="closed">
           <span id="gameScore">0/0</span>
           <span id="gameTimer">00:00</span>
@@ -52,8 +65,8 @@
         </div>
         <div id="sentencesBoard" hidden>
           <div id="sentenceControls">
-            <button id="prevSentence" disabled><img src="/svgs/triangle-right.svg"></button>
-            <button id="nextSentence"><img src="/svgs/triangle-right.svg"></button>
+            <button id="prevSentence" disabled><img src="/svgs/play-btn.svg"></button>
+            <button id="nextSentence"><img src="/svgs/play-btn.svg"></button>
           </div>
         </div>
         <div id="matchingBoard" style="display: none;">
