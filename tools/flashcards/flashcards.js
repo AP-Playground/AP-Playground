@@ -2,6 +2,7 @@
 let data;
 const subjectSel = document.getElementById("subjectSel");
 const unitSel = document.getElementById("unitSel");
+const unitForm = document.querySelector("#unitSel form");
 const typeSel = document.getElementById("groupSel");
 const gameSel = document.getElementById("gameType");
 const matchingBoard = document.getElementById("matchingBoard");
@@ -27,7 +28,7 @@ let options;
 let allGameTypes = [];
 
 let subject = "";
-let unit = "";
+let unit = [];
 let type = "";
 let game = "";
 let maxCards = 0;
@@ -52,39 +53,57 @@ subjectSel.addEventListener("change", () => {
   unitSel.disabled = false;
   typeSel.disabled = false;
 
-  Array.from(unitSel.getElementsByClassName("new")).forEach(i => i.remove());
+  Array.from(unitForm.getElementsByClassName("new")).forEach(i => i.remove());
   Array.from(typeSel.getElementsByClassName("new")).forEach(i => i.remove());
 
   subject = subjectSel.value;
   fetch("/tools/flashcards/" + subject + ".json")
   .then((res) => res.json())
   .then((json) => {
-    data = json
-    Object.keys(data.Units).forEach(unit => {
-      unitSel.insertAdjacentHTML("beforeend", `<option class="new">${unit}</option>`);
-    })
+    data = json;
+    Object.keys(data.Units).forEach((unit,idx) => {
+      unitForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkUnit(event)" type="checkbox" id="unit${idx+1}">`)
+      unitForm.insertAdjacentHTML("beforeend", ` <label class="new" for="unit${idx+1}">${unit}</option><br>`);
+    });
     data.Groups.forEach(group => {
       typeSel.insertAdjacentHTML("beforeend", `<option class="new">${group}</option>`)
     });
 
     allGameTypes = [...data.Matching, ...data.Images,...data.Categorization, ...data.Sentences];
   });
-  unitSel.value = "";
+  unitForm.reset();
   typeSel.value = "";
-  unit = "";
+  unit = [];
   type = "";
   disableGame();
 })
 
-unitSel.addEventListener("change", () => {
+function checkUnit(event) {
   if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
-    unitSel.value = unit;
+    event.preventDefault()
     return;
   }
-  unit = unitSel.value;
+  if (event.target.id === "unitall" && event.target.checked === true) {
+    unitForm.reset()
+    event.target.checked = true;
+  } else {
+    document.querySelector("#unitall").checked = false;
+  }
+  
+  unit = getSelectedUnits();
   disableGame();
   enableGame();
-})
+}
+
+function getSelectedUnits() {
+  const output = [];
+  const checkboxes = unitForm.querySelectorAll("input");
+  const label = unitForm.querySelectorAll("label");
+  checkboxes.forEach((i,idx) => {
+    if (i.checked) output.push(label[idx].textContent)
+  })
+  return output;
+}
 
 typeSel.addEventListener("change", () => {
   if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
@@ -97,7 +116,7 @@ typeSel.addEventListener("change", () => {
 })
 
 function enableGame() {
-  if (unit !== "" && type !== "") {
+  if (unit.length !== 0 && type !== "") {
     gameSel.disabled = false;
     maxCardsSel.disabled = false;
     let games = [];
@@ -159,11 +178,16 @@ function filterCards() {
   let cardCandidates = [];
   let cards = []
 
-  if (unit === "all") {
+  if (unit[0] === "All Units") {
     for (i in data.Units) {
+      console.log(i)
       cardCandidates.push(...data.Units[i]);
     }
-  } else cardCandidates = data.Units[unit];
+  } else {
+    unit.forEach(i => {
+      cardCandidates.push(...data.Units[i])
+    })
+  }
 
   if (type !== "all") cardCandidates = cardCandidates.filter(card => card.Group.includes(type));
 

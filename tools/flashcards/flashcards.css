@@ -1,10 +1,40 @@
 /* General styles */
 
-select {
+.select {
   padding: 3px;
   border-radius: 100px;
   font-size: 16px;
   margin-bottom: 3px;
+  border-width: 1px;
+  background-color: white;
+  border-style: solid;
+}
+
+button.select {
+  padding-left: 7px;
+  position: relative;
+  &:focus-visible, &:focus, &:focus-within {
+    &:enabled form {
+      display: block;
+    }
+  }
+}
+
+button.select form {
+  display: none;
+  position: absolute;
+  background-color: white;
+  left: 0;
+  width: max-content;
+  top: 100%;
+  text-align: left;
+  padding: 5px;
+  border-radius: 10px;
+  z-index: 1000;
+  border: 1px solid #999;
+  & input {
+    margin-bottom: 10px;
+  }
 }
 
 

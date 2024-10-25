@@ -21,27 +21,29 @@
       <a href="/tools/flashcards/">Flashcards</a>
     </nav>
     <h1>Flashcards</h1>
-    <select id="subjectSel">
+    <select id="subjectSel" class="select">
       <option value="" disabled selected hidden>Select a subject/class</option>
       <option value="AP_Art_History">AP Art History</option>
       <option value="AP_World_History">AP World History</option>
       <option value="AP_Biology">AP Biology</option>
     </select>
-    <select id="unitSel" disabled>
-      <option value="" disabled selected hidden>Select a unit</option>
-      <option value="all">All Units</option>
-    </select>
-    <select id="groupSel" disabled>
+    <button id="unitSel" class="select" disabled>Select a unit ⌵
+      <form>
+        <input type="checkbox" id="unitall" onclick="checkUnit(event)">
+        <label for="unitall">All Units</label><br>
+      </form>
+    </button>
+    <select id="groupSel" class="select" disabled>
       <option value="" disabled selected hidden>Select a group of terms</option>
       <option value="all">All Terms</option>
     </select>
     <div id="game">
       <div id="gameHeader">
         <div>
-          <select id="gameType" disabled>
+          <select id="gameType" class="select" disabled>
             <option value="" disabled selected hidden>Select a game type</option>
           </select>
-          <select id="maxCards" disabled>
+          <select id="maxCards" class="select" disabled>
             <option value="" disabled selected hidden>Select the game length</option>
             <option value="25">&le;25 cards</option>
             <option value="50">&le;50 cards</option>
