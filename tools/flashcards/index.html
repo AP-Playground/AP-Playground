@@ -33,10 +33,12 @@
         <label for="unitall">All Units</label><br>
       </form>
     </button>
-    <select id="groupSel" class="select" disabled>
-      <option value="" disabled selected hidden>Select a group of terms</option>
-      <option value="all">All Terms</option>
-    </select>
+    <button id="groupSel" class="select" disabled>Select a group of terms ⌵
+      <form>
+        <input type="checkbox" id="groupall" onclick="checkGroup(event)">
+        <label for="groupall">All Terms</label><br>
+      </form>
+    </button>
     <div id="game">
       <div id="gameHeader">
         <div>

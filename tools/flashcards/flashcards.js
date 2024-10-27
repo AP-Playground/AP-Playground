@@ -4,6 +4,7 @@ const subjectSel = document.getElementById("subjectSel");
 const unitSel = document.getElementById("unitSel");
 const unitForm = document.querySelector("#unitSel form");
 const typeSel = document.getElementById("groupSel");
+const typeForm = document.querySelector("#groupSel form");
 const gameSel = document.getElementById("gameType");
 const matchingBoard = document.getElementById("matchingBoard");
 const matchingTiles = document.querySelectorAll("#matchingBoard button")
@@ -29,7 +30,7 @@ let allGameTypes = [];
 
 let subject = "";
 let unit = [];
-let type = "";
+let type = [];
 let game = "";
 let maxCards = 0;
 let remainingCards = [];
@@ -54,7 +55,7 @@ subjectSel.addEventListener("change", () => {
   typeSel.disabled = false;
 
   Array.from(unitForm.getElementsByClassName("new")).forEach(i => i.remove());
-  Array.from(typeSel.getElementsByClassName("new")).forEach(i => i.remove());
+  Array.from(typeForm.getElementsByClassName("new")).forEach(i => i.remove());
 
   subject = subjectSel.value;
   fetch("/tools/flashcards/" + subject + ".json")
@@ -65,16 +66,17 @@ subjectSel.addEventListener("change", () => {
       unitForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkUnit(event)" type="checkbox" id="unit${idx+1}">`)
       unitForm.insertAdjacentHTML("beforeend", ` <label class="new" for="unit${idx+1}">${unit}</option><br>`);
     });
-    data.Groups.forEach(group => {
-      typeSel.insertAdjacentHTML("beforeend", `<option class="new">${group}</option>`)
+    data.Groups.forEach((group,idx) => {
+      typeForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkGroup(event)" type="checkbox" id="group${idx+1}">`)
+      typeForm.insertAdjacentHTML("beforeend", ` <label class="new" for="group${idx+1}">${group}</option><br>`);
     });
 
     allGameTypes = [...data.Matching, ...data.Images,...data.Categorization, ...data.Sentences];
   });
   unitForm.reset();
-  typeSel.value = "";
+  typeForm.reset();
   unit = [];
-  type = "";
+  type = [];
   disableGame();
 })
 
@@ -90,41 +92,51 @@ function checkUnit(event) {
     document.querySelector("#unitall").checked = false;
   }
   
-  unit = getSelectedUnits();
+  unit = getSelected(unitForm);
   disableGame();
   enableGame();
 }
 
-function getSelectedUnits() {
+function checkGroup(event) {
+  if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
+    event.preventDefault()
+    return;
+  }
+  if (event.target.id === "groupall" && event.target.checked === true) {
+    typeForm.reset()
+    event.target.checked = true;
+  } else {
+    document.querySelector("#groupall").checked = false;
+  }
+  
+  type = getSelected(typeForm);
+  disableGame();
+  enableGame();
+}
+
+function getSelected(form) {
   const output = [];
-  const checkboxes = unitForm.querySelectorAll("input");
-  const label = unitForm.querySelectorAll("label");
+  const checkboxes = form.querySelectorAll("input");
+  const label = form.querySelectorAll("label");
   checkboxes.forEach((i,idx) => {
     if (i.checked) output.push(label[idx].textContent)
   })
   return output;
 }
 
-typeSel.addEventListener("change", () => {
-  if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
-    typeSel.value = type;
-    return;
-  }
-  type = typeSel.value;
-  disableGame();
-  enableGame();
-})
-
 function enableGame() {
-  if (unit.length !== 0 && type !== "") {
+  if (unit.length > 0 && type.length > 0) {
     gameSel.disabled = false;
     maxCardsSel.disabled = false;
     let games = [];
   
-    if (type === "all") {
+    if (type[0] === "All Terms") {
       games = [...allGameTypes];
     } else {
-      games = data[type]
+      type.forEach(i => {
+        games.push(...data[i])
+      })
+      games = [...new Set(games)]
     }
   
     games.forEach(value => {
@@ -180,7 +192,6 @@ function filterCards() {
 
   if (unit[0] === "All Units") {
     for (i in data.Units) {
-      console.log(i)
       cardCandidates.push(...data.Units[i]);
     }
   } else {
@@ -189,7 +200,9 @@ function filterCards() {
     })
   }
 
-  if (type !== "all") cardCandidates = cardCandidates.filter(card => card.Group.includes(type));
+  if (type[0] !== "All Terms") {
+    cardCandidates = cardCandidates.filter(card => card.Group.some(item => type.includes(item)))
+  };
 
   cardCandidates = cardCandidates.filter(card => card.hasOwnProperty(game));
 
