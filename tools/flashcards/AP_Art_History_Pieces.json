@@ -1,0 +1,178 @@
+{
+  "Groups": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+
+
+  "Matching": ["Date", "Form", "Function", "Content", "Context"],
+  "Images": ["Image"],
+  "Categorization": [],
+  "Sentences": ["Sentence"],
+
+
+  "Architecture": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
+  "Apparel": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
+  "Paintings": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
+  "Sculptures & Carvings": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
+  "Items": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
+
+
+  "Units": {
+    "Unit 1: Global Prehistory": [
+      {
+        "Term": "Apollo 11 stones",
+        "Group": ["Items"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2021/10/apollo-11-stone.jpg",
+        "Date": "25,500-25,300 BCE",
+        "Form": "Charcoal on stone",
+        "Function": "Likely ritual use",
+        "Content": ["Amalgamation of feline, bovid, and human parts", "Therianthrope"],
+        "Context": "Rock shelter (cave opening), Namibia",
+        "Sentence": ["The ", ["Apollo 11 stones", "Apollo 11 stone"], " are the oldest art pieces in the AP Art History course"]
+      },
+      {
+        "Term": "Great Hall of Bulls",
+        "Group": ["Paintings"],
+        "Image": ["https://smarthistory.org/nitropack_static/MscySDTrZSCOsxwkzHKPDYCZNhgLehrI/assets/images/optimized/rev-090deed/smarthistory.org/wp-content/uploads/2021/09/lascaux-II-1536x1046.jpg","https://smarthistory.org/nitropack_static/MscySDTrZSCOsxwkzHKPDYCZNhgLehrI/assets/images/optimized/rev-090deed/smarthistory.org/wp-content/uploads/2021/09/bird-bison-lascaux.jpg"],
+        "Date": "15,000-13,000 BCE",
+        "Form": "Rock painting, charcoal and other natural pigments",
+        "Function": "Likely rituals designed to ensure a successful hunt",
+        "Content": ["Shows hunted animals in twisted perspective","Uses linear, infilled, and blended forms"],
+        "Context": "Lascaux, France. Paleolithic Europe",
+        "Sentence": ["Many of the forms drawn in the Great Hall of Bulls were formed by ", ["blowing", "blown", "blow"], " pigment by mouth or by carving into the rock surface"]
+      },
+      {
+        "Term": "Camelid sacrum in the shape of a canine",
+        "Group": ["Sculptures & Carvings"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2020/12/MNA113-870x582.jpg",
+        "Date": "14,000-7,000 BCE",
+        "Form": "Bone carving",
+        "Function": "Likely sacred object",
+        "Content": "Resembles a canine skull",
+        "Context": "Tequixquiac, central Mexico"
+      },
+      {
+        "Term": "Running horned woman",
+        "Group": ["Paintings"],
+        "Image": "https://smarthistory.org/nitropack_static/MscySDTrZSCOsxwkzHKPDYCZNhgLehrI/assets/images/optimized/rev-090deed/smarthistory.org/wp-content/uploads/2021/09/enhanced.jpeg",
+        "Date": "6,000-4,000 BCE",
+        "Form": "Pigment on rock",
+        "Function": "Likely ceremonial use",
+        "Content": "Depicts a ceremonially clothed figure (potentially a goddess)",
+        "Context": "Tassili n’Ajjer, Algeria",
+        "Sentence": ["The dots on the ", ["running horned woman"], " most likely represent scarification"]
+      },
+      {
+        "Term": "Beaker with ibex motifs",
+        "Group": ["Items"],
+        "Image": "https://smarthistory.org/nitropack_static/MscySDTrZSCOsxwkzHKPDYCZNhgLehrI/assets/images/optimized/rev-090deed/smarthistory.org/wp-content/uploads/2023/07/12906002764_4ecca85fcc_o-1536x874.jpg",
+        "Date": "4,200-3,500 BCE",
+        "Form": "Painted terra cotta",
+        "Function": "Funerary object",
+        "Content": "Divided into several bands/registers with stylized animals",
+        "Context": "Cemetary, Susa, Iran",
+        "Sentence": ["The ", ["beaker with ibex motifs"], " displays both domesticated and traditional hunter-gatherer animals"]
+      },
+      {
+        "Term": "Anthropomorphic stele",
+        "Group": ["Sculptures & Carvings"],
+        "Image": "https://smarthistory.org/nitropack_static/MscySDTrZSCOsxwkzHKPDYCZNhgLehrI/assets/images/optimized/rev-090deed/smarthistory.org/wp-content/uploads/2021/09/anthro-stele-1000px-870x1305.jpeg",
+        "Date": "4,000-3,000 BCE",
+        "Form": "Sandstone",
+        "Function": "Grave marker",
+        "Content": "Abstract robed figure with a necklace, awl, belt, and dagger",
+        "Context": "Cemetary, Saudi Arabia, Arabian Peninsula",
+        "Sentence": [["Anthropomorphic stele"], "s are found across the Arabian Peninsula, showing the region's early caravan trade routes"]
+      },
+      {
+        "Term": "Jade cong",
+        "Group": ["Items"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2018/06/jadecong-870x490.jpg",
+        "Date": "3,300-2,200 BCE",
+        "Form": "Carved jade",
+        "Function": "Funerary object",
+        "Content": ["Tubular object with a circular hole and squarish cross section","Different shapes symbolize realms or animals (dragon faces)"],
+        "Context": "Liangzhu, China",
+        "Sentence": ["A relative of the ", ["Cong", "Jade Cong"], ", the bi is also a funerary object originating from China. While the bi is a circular disk, the ", ["Cong", "Jade Cong"], "(repeat previous) has a more ", ["square", "rectangular"], " shape"]
+      },
+      {
+        "Term": "Stonehenge",
+        "Group": ["Architecture", "Sculptures & Carvings"],
+        "Image": "https://smarthistory.org/nitropack_static/MscySDTrZSCOsxwkzHKPDYCZNhgLehrI/assets/images/optimized/rev-090deed/smarthistory.org/wp-content/uploads/2021/09/Stonehenge_from_north_August_2010_cropped-1536x511.jpeg",
+        "Date": "2,500-1,600 BCE",
+        "Form": "Sandstone",
+        "Function": "Burial site, possible solar/lunar calender",
+        "Content": ["Set of megaliths arranged in a 108 ft (diameter circle)", "30 sarsen stones capped with 30 lintel stones, arrangement of bluestones"],
+        "Context": "Wiltshire, UK. Neolithic Europe",
+        "Sentence": [["Stonehenge"], " was built in three phases, going from a large circular ditch to a burial site to its modern form"]
+      },
+      {
+        "Term": "The Ambum stone",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https://smarthistory.org/nitropack_static/MscySDTrZSCOsxwkzHKPDYCZNhgLehrI/assets/images/optimized/rev-090deed/smarthistory.org/wp-content/uploads/2016/09/ambumnga.jpg",
+        "Date": "c. 1500 BCE",
+        "Form": "Greywacke",
+        "Function": "Mortar and pestel, later ancestral object",
+        "Content": "Stylized animal (echidna?)",
+        "Context": "Ambum Valley, Enga Province, Papua New Guinea",
+        "Sentence": ["Well after its initial use, the ", ["Ambum stone"], " was used by the Enga people to represent ancestors"]
+      },
+      {
+        "Term": "Tlatilco female figurine",
+        "Group": ["Sculptures & Carvings"],
+        "Image": "https://smarthistory.org/nitropack_static/MscySDTrZSCOsxwkzHKPDYCZNhgLehrI/assets/images/optimized/rev-090deed/smarthistory.org/wp-content/uploads/2023/11/default-e1701372072437.jpg",
+        "Date": "1,200-900 BCE",
+        "Form": "Ceramic",
+        "Function": "Funerary object",
+        "Content": ["Bicephalic female figure", "Shows wide hips and a focus on hairstyle (valued by the civilization)"],
+        "Context": "Central Mexico, Tlatilco civilization",
+        "Sentence": ["While female ", ["tlatilco"], " figures typically showed their hair, male figures usually wore costumes and masks, showing their ", ["religious", "ritual", "spirtual"], " expertise"]
+      },
+      {
+        "Term": "Terra cotta fragment",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https://smarthistory.org/nitropack_static/MscySDTrZSCOsxwkzHKPDYCZNhgLehrI/assets/images/optimized/rev-090deed/smarthistory.org/wp-content/uploads/2016/12/lapitafragment.jpg",
+        "Date": "c. 1000 BCE",
+        "Form": "Terra cotta (incised)",
+        "Function": "Food storage and serving (bowls/vessels)",
+        "Content": "Stamped with an anthropomorphic design",
+        "Context": "Lapita culture. Reef Islands, Solomon Islands",
+        "Sentence": ["The various designs and motifs in the Lapita ", ["terra cotta fragments", "terracotta fragments"], " trace the movement of the Lapita culture over time"]
+      }
+    ],
+
+
+    "Unit 2: Ancient Mediterranean": [
+    ],
+
+
+    "Unit 3: Early Europe and Colonial Americas": [
+    ],
+
+
+    "Unit 4: Later Europe and Americas": [
+    ],
+
+
+    "Unit 5: Indigenous Americas": [
+    ],
+
+
+    "Unit 6: Africa": [
+    ],
+
+
+    "Unit 7: West and Central Asia": [
+    ],
+
+
+    "Unit 8: South, East, and Southeast Asia": [
+    ],
+
+
+    "Unit 9: The Pacific": [
+    ],
+
+
+    "Unit 10: Global Contemporary": [
+    ]
+  }
+}

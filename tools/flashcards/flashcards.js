@@ -213,7 +213,7 @@ function filterCards() {
     }
   }
 
-  cards = cards.map(i => [i.Term, i[game]])
+  cards = cards.map(i => [chooseOne(i.Term), i[game]])
 
   shuffleArray(cards)
   return cards.slice(0, maxCards);
@@ -233,6 +233,7 @@ function prepareGame() {
 
   if (data.Matching.includes(game)) {
     matchingBoard.style.display = "grid";
+    totalCards.forEach(i => i[1] = chooseOne(i[1]));
 
     currentCards = Array(20).fill(undefined);
     updateMatchingBoard();
@@ -267,6 +268,7 @@ function prepareGame() {
     updateSentences();
   } else if (data.Images.includes(game)) {
     matchingBoard.style.display = "grid";
+    totalCards.forEach(i => i[1] = chooseOne(i[1]));
 
     totalCards.forEach(i => i[1] = `<img src="${i[1]}">`)
 
@@ -476,4 +478,11 @@ const txt = document.createElement("textarea");
 function decodeHtml(element) {
   txt.innerHTML = element.innerHTML;
   return txt.value;
+}
+
+function chooseOne(i) {
+  if (typeof i === "string") {
+    return i;
+  }
+  return i[Math.floor(Math.random() * i.length)];
 }

@@ -111,6 +111,7 @@ button.select form {
     cursor: pointer;
     transition: background-color 200ms, color 2s, filter 2s;
     background-color: white;
+    overflow-y: auto;
     &:hover {
       background-color: #eee;
       & img {
