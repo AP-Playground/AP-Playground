@@ -2,17 +2,17 @@
   "Groups": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
 
 
-  "Matching": ["Date", "Form", "Function", "Content", "Context"],
+  "Matching": ["Date", "Form", "Function", "Content", "Context","Artist"],
   "Images": ["Image"],
   "Categorization": [],
   "Sentences": ["Sentence"],
 
 
-  "Architecture": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
-  "Apparel": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
-  "Paintings": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
-  "Sculptures & Carvings": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
-  "Items": ["Image", "Date", "Form", "Function", "Content", "Context", "Sentence"],
+  "Architecture": ["Image", "Date", "Form", "Function", "Content", "Artist", "Context", "Sentence"],
+  "Apparel": ["Image", "Date", "Form", "Function", "Content", "Artist", "Context", "Sentence"],
+  "Paintings": ["Image", "Date", "Form", "Function", "Content", "Artist", "Context", "Sentence"],
+  "Sculptures & Carvings": ["Image", "Date", "Form", "Function", "Content", "Artist", "Context", "Sentence"],
+  "Items": ["Image", "Date", "Form", "Function", "Content", "Artist", "Context", "Sentence"],
 
 
   "Units": {
@@ -169,6 +169,127 @@
 
 
     "Unit 9: The Pacific": [
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Title",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https",
+        "Date": "XX00s",
+        "Form": "Materials",
+        "Function": "Use",
+        "Content": "DT",
+        "Context": "Culture_Origin_Artist",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      }
     ],
 
 

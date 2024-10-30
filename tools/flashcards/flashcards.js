@@ -66,10 +66,19 @@ subjectSel.addEventListener("change", () => {
       unitForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkUnit(event)" type="checkbox" id="unit${idx+1}">`)
       unitForm.insertAdjacentHTML("beforeend", ` <label class="new" for="unit${idx+1}">${unit}</option><br>`);
     });
+    unitSel.style.minWidth = 0;
+    unitForm.style.minWidth = 0;
+    unitSel.style.minWidth = unitForm.getBoundingClientRect().width + "px";
+    unitForm.style.minWidth = unitSel.getBoundingClientRect().width + "px"
+
     data.Groups.forEach((group,idx) => {
       typeForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkGroup(event)" type="checkbox" id="group${idx+1}">`)
       typeForm.insertAdjacentHTML("beforeend", ` <label class="new" for="group${idx+1}">${group}</option><br>`);
     });
+    typeSel.style.minWidth = 0;
+    typeForm.style.minWidth = 0;
+    typeSel.style.minWidth = typeForm.getBoundingClientRect().width + "px";
+    typeForm.style.minWidth = typeSel.getBoundingClientRect().width + "px"
 
     allGameTypes = [...data.Matching, ...data.Images,...data.Categorization, ...data.Sentences];
   });

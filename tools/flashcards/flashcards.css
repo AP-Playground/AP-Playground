@@ -8,30 +8,45 @@
   border-width: 1px;
   background-color: white;
   border-style: solid;
+  &:enabled {
+    border-color: black;
+  }
 }
 
 button.select {
   padding-left: 7px;
   position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 10px;
   &:focus-visible, &:focus, &:focus-within {
     &:enabled form {
-      display: block;
+      visibility: visible;
     }
   }
 }
 
+.dropdown-wrapper {
+  position: relative;
+  isolation: isolate;
+  z-index: 1;
+}
+
 button.select form {
-  display: none;
+  box-sizing: border-box;
+  display: block;
+  visibility: hidden;
   position: absolute;
   background-color: white;
   left: 0;
   width: max-content;
-  top: 100%;
+  top: calc(100% + 1px);
   text-align: left;
-  padding: 5px;
+  padding: 5px 10px 0px 5px;
   border-radius: 10px;
-  z-index: 1000;
-  border: 1px solid #999;
+  border: 1px solid #aaa;
+  z-index: -1;
+  box-shadow: 0 0 25px #00000050;
   & input {
     margin-bottom: 10px;
   }
