@@ -29,7 +29,9 @@ button.select {
 .dropdown-wrapper {
   position: relative;
   isolation: isolate;
-  z-index: 1;
+  &:has(button:focus-visible),&:has(button:focus),&:has(button:focus-within) {
+    z-index: 1;
+  }
 }
 
 button.select form {
@@ -85,7 +87,6 @@ button.select form {
   inset: -2.5px;
   position: absolute;
   backdrop-filter: blur(5px) brightness(90%);
-  z-index: 100;
   justify-content: center;
   align-items: center;
   display: flex;
