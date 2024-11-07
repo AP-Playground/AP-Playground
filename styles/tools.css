@@ -13,9 +13,9 @@
   color: black;
   font-size: 45px;
   font-weight: bold;
-  display: grid;
-  text-align: center;
-  align-items: center;
   background-size: contain;
   border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
