@@ -56,7 +56,6 @@ button.select form {
   }
 }
 
-
 /* Game container styles */
 
 #game {
@@ -93,6 +92,7 @@ button.select form {
   align-items: center;
   display: flex;
   border-radius: 10px;
+  z-index: 1;
 }
 
 #playBtn {
@@ -105,8 +105,32 @@ button.select form {
   cursor: pointer;
 }
 
+#gameOutput {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 15px;
+  width: min-content;
+  text-align: center;
+  & h1 {
+    margin: 0;
+  }
+  & p {
+    margin-inline: 0;
+  }
+  & button {
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 3px 7px;
+    cursor: pointer;
+  }
+}
+
 #gameContainer {
   position: relative;
+  isolation: isolate;
 }
 
 

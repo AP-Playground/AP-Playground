@@ -13,7 +13,9 @@ const gameScore = document.getElementById("gameScore")
 const gameTimer = document.getElementById("gameTimer")
 const gameContainer = document.getElementById("gameContainer")
 const gameOverlay = document.getElementById("gameOverlay")
+const gameOutput = document.getElementById("gameOutput")
 const playBtn = document.getElementById("playBtn")
+const replayBtn = document.getElementById("replayBtn");
 const sentencesBoard = document.getElementById("sentencesBoard")
 const prevSentence = document.getElementById("prevSentence")
 const nextSentence = document.getElementById("nextSentence")
@@ -234,8 +236,15 @@ function prepareGame() {
   totalCards = filterCards();
   remainingCards = [...totalCards];
 
+  if (totalCards.length === 0) {
+    alert("There are no terms matching your selected criteria. Please reselect and try again");
+    return;
+  }
+
   gameContainer.hidden = false;
   gameOverlay.style.display = "flex";
+  playBtn.hidden = false;
+  gameOutput.hidden = true;
   matchingBoard.style.display = "none";
   sentencesBoard.hidden = true;
   categoryBoard.hidden = true;
@@ -317,19 +326,37 @@ playBtn.addEventListener("click", () => {
   matchAttempts = 0;
 })
 
+replayBtn.addEventListener("click", () => {
+  prepareGame();
+  gameInfo.classList.remove("closed");
+  currentTime = -1;
+  updateTimer();
+  timerInterval = setInterval(updateTimer, 1000);
+  gameOverlay.style.display = "none";
+  gameActive = true;
+  matchAttempts = 0;
+})
+
 function win() {
   gameActive = false;
   clearInterval(timerInterval);
   const seconds = currentTime % 60;
   const minutes = Math.floor(currentTime/60);
   const accuracy = Math.round(totalCards.length/matchAttempts*100);
+  let time;
+  if (minutes > 0) {
+    time = minutes + " minutes and " + seconds + " seconds";
+  } else time = seconds + " seconds";
 
   if (matchAttempts > 0) {
-    alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds at " + accuracy + "% accuracy!");
+    gameOutput.querySelector("p").innerHTML = "You beat the game in " + time + " at " + accuracy + "% accuracy!";
   } else {
-    alert("You beat the game in " + minutes + " minutes and " + seconds + " seconds!");
+    gameOutput.querySelector("p").innerHTML = "You beat the game in " + time + "!";
   }
 
+  gameOutput.hidden = false;
+  playBtn.hidden = true;
+  gameOverlay.style.display = "flex";
 }
 
 
