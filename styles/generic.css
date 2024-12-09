@@ -110,6 +110,10 @@ main > ul {
   font-size: 20px;
 }
 
+main > ol {
+  font-size: 20px;
+}
+
 main > img {
   display: block;
   margin: auto;
@@ -137,6 +141,7 @@ main > table {
 
 main > table th {
   text-align: center;
+  align-content: center;
 }
 
 main > table td,
@@ -145,6 +150,10 @@ main > table th {
   border: 1px solid black;
   padding: 10px;
   word-wrap: break-word;
+
+  &:empty {
+    border: none;
+  }
   
   & h1 {
     font-size: 30px;

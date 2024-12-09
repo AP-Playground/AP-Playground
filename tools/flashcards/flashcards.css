@@ -154,6 +154,9 @@ button.select form {
     transition: background-color 200ms, color 2s, filter 2s;
     background-color: white;
     overflow-y: auto;
+    &:has(img) {
+      overflow: hidden;
+    }
     &:hover {
       background-color: #eee;
       & img {
@@ -171,6 +174,7 @@ button.select form {
       color: rgba(0, 0, 0, 0);
       pointer-events: none;
       filter: brightness(75%);
+      user-select: none;
       & img {
         transition: filter 2s, opacity 2s;
         opacity: 0;
