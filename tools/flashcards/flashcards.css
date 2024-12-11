@@ -59,7 +59,7 @@ button.select form {
 /* Game container styles */
 
 #game {
-  border-radius: 10px;
+  border-radius: 15px;
   border: 1px solid black;
   padding: 3px;
   margin-top: 5px;
@@ -151,7 +151,7 @@ button.select form {
     border-radius: 10px;
     height: 150px;
     cursor: pointer;
-    transition: background-color 200ms, color 2s, filter 2s;
+    transition: background-color 200ms, color .8s, filter .8s, scale 200ms, transform 1s;
     background-color: white;
     overflow-y: auto;
     &:has(img) {
@@ -165,18 +165,20 @@ button.select form {
     }
     &.selected {
       background-color: #ddd;
+      scale: 0.95;
       & img {
-        filter: brightness(87%)
+        filter: brightness(87%);
       }
     }
     &.empty {
-      transition: background-color 2s, color 1s, filter 2s;
+      transition: background-color .8s, color .8s, filter .8s, transform .8s ease-in, scale 1s;
       color: rgba(0, 0, 0, 0);
       pointer-events: none;
       filter: brightness(75%);
       user-select: none;
+      transform: scale(0);
       & img {
-        transition: filter 2s, opacity 2s;
+        transition: filter .8s, opacity .8s;
         opacity: 0;
       }
     }
@@ -184,7 +186,7 @@ button.select form {
       max-height: 100%;
       max-width: 100%;
       pointer-events: none;
-      transition: filter 200ms, opacity 2s;
+      transition: filter 200ms, opacity .8s;
     }
     &:has(img) {
       padding: 1px;

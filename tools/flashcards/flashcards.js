@@ -159,6 +159,7 @@ function enableGame() {
 function disableGame() {
   gameSel.disabled = true;
   maxCardsSel.disabled = true;
+  game="";
   Array.from(gameSel.getElementsByClassName("new")).forEach(i => i.remove())
   gameSel.selectedIndex = 0;
   gameContainer.hidden = true;
@@ -240,6 +241,8 @@ function prepareGame() {
     alert("There are no terms matching your selected criteria. Please reselect and try again");
     return;
   }
+  
+  matchingTiles.forEach(i => {i.classList.remove("selected")})
 
   gameContainer.hidden = false;
   gameOverlay.style.display = "flex";
