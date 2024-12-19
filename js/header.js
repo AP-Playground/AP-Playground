@@ -14,9 +14,6 @@ document.querySelector("script.header").insertAdjacentHTML("beforebegin", `
       <div class="header-dropdown">
         <div>
           <a href="/tools/flashcards/">Flashcards</a>
-          <a href="/tools/flashcards/">Flashcards12321</a>
-          <a href="/tools/flashcards/">Flashcardssd</a>
-          <a href="/tools/flashcards/">1233</a>
         </div>
       </div>
     </span>
