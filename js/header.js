@@ -10,7 +10,16 @@ document.querySelector("script.header").insertAdjacentHTML("beforebegin", `
     <a href="/classes">Classes</a>
     <a href="/about">About</a>
     <a href="/resources">Resources</a>
-    <a href="/tools">Tools</a>
+    <span><a href="/tools">Tools<img class="header-arrow" src="/svgs/toolbar-arrow.svg"></a>
+      <div class="header-dropdown">
+        <div>
+          <a href="/tools/flashcards/">Flashcards</a>
+          <a href="/tools/flashcards/">Flashcards12321</a>
+          <a href="/tools/flashcards/">Flashcardssd</a>
+          <a href="/tools/flashcards/">1233</a>
+        </div>
+      </div>
+    </span>
   </header>
   <header class="header-mobile">
     <div class="header-top hidden">

@@ -51,18 +51,23 @@ main h2 {
   width: calc(min(500px, 80vw) - 20px);
   list-style-type: none;
   border: 1px solid black;
+  border-width: 0;
   border-radius: min(16px, 3vw);
-  max-height: 250px;
+  max-height: 0;
   overflow-y: scroll;
-  display: none;
   position: absolute;
   top: calc((2 * min(10px, 2vw)) + min(30px, 6vw) + 6px);
   padding-left: 10px;
   padding-right: 10px;
+  transition: max-height .5s, border-width .5s linear(0 0%, 0 99%, 1 100%);
 }
 
 .search:focus-within .search-results {
   display: block;
+  
+  max-height: 250px;
+  border-width: 1px;
+  transition: max-height .5s, border-width .5s linear(0 0%, 1 1%, 1 100%);
 }
 
 .search-results::-webkit-scrollbar {

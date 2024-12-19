@@ -2,6 +2,13 @@
   background-color: gainsboro;
   border-radius: 10px;
   overflow: hidden;
+  display: grid;
+  grid-template-rows: min-content 0fr;
+  transition: grid-template-rows 1s;
+}
+
+.dropdown.open {
+  grid-template-rows: min-content 1fr;
 }
 
 .dropdown-header {
@@ -30,11 +37,11 @@
 }
 
 .dropdown ul {
-  display: none;
   font-family: Roboto, Arial, sans-serif;
   padding: 0 10px;
   margin: 0;
   list-style-type: none;
+  overflow: hidden;
 }
 
 .dropdown li {
@@ -58,12 +65,4 @@
 .dropdown li p {
   margin: 0;
   margin-bottom: 5px;
-}
-
-.dropdown.open ul {
-  display: block;
-}
-
-.dropdown.open .ul{
-  display: block;
 }
