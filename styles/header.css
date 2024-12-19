@@ -128,6 +128,8 @@ body {
       padding: 10px;
       line-height: 30px;
       color: black;
+      box-sizing: border-box;
+      width: 100%;
       &:hover {
         background-color: #888;
       }
