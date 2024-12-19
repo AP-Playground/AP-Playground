@@ -26,6 +26,11 @@ button.select {
       visibility: visible;
     }
   }
+  & span:first-child {
+    overflow: hidden;
+    text-wrap-mode: nowrap;
+    text-overflow: ellipsis;
+  }
 }
 
 .dropdown-wrapper {

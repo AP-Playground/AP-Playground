@@ -58,6 +58,7 @@ subjectSel.addEventListener("change", () => {
 
   Array.from(unitForm.getElementsByClassName("new")).forEach(i => i.remove());
   Array.from(typeForm.getElementsByClassName("new")).forEach(i => i.remove());
+  typeSel.querySelector("span").textContent = "Select a group of terms";
 
   subject = subjectSel.value;
   fetch("/tools/flashcards/" + subject + ".json")
@@ -77,10 +78,9 @@ subjectSel.addEventListener("change", () => {
       typeForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkGroup(event)" type="checkbox" id="group${idx+1}">`)
       typeForm.insertAdjacentHTML("beforeend", ` <label class="new" for="group${idx+1}">${group}</option><br>`);
     });
-    typeSel.style.minWidth = 0;
-    typeForm.style.minWidth = 0;
-    typeSel.style.minWidth = typeForm.getBoundingClientRect().width + "px";
-    typeForm.style.minWidth = typeSel.getBoundingClientRect().width + "px"
+    let temp1 = Math.max(typeSel.getBoundingClientRect().width, typeForm.getBoundingClientRect().width) + "px";
+    typeSel.style.width = temp1;
+    typeForm.style.width = temp1;
 
     allGameTypes = [...data.Matching, ...data.Images,...data.Categorization, ...data.Sentences];
   });
@@ -121,6 +121,12 @@ function checkGroup(event) {
   }
   
   type = getSelected(typeForm);
+
+  if (type.length === 0) {
+    groupSel.querySelector("span").textContent = "Select a group of terms";
+  } else {
+    groupSel.querySelector("span").textContent = type.join(", ")
+  }
   disableGame();
   enableGame();
 }
