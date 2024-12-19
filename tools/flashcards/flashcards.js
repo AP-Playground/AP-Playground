@@ -59,26 +59,30 @@ subjectSel.addEventListener("change", () => {
   Array.from(unitForm.getElementsByClassName("new")).forEach(i => i.remove());
   Array.from(typeForm.getElementsByClassName("new")).forEach(i => i.remove());
   typeSel.querySelector("span").textContent = "Select a group of terms";
+  unitSel.querySelector("span").textContent = "Select a unit";
 
   subject = subjectSel.value;
   fetch("/tools/flashcards/" + subject + ".json")
   .then((res) => res.json())
   .then((json) => {
     data = json;
+    unitSel.style.width = "max-content";
+    unitForm.style.width = "max-content";
     Object.keys(data.Units).forEach((unit,idx) => {
       unitForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkUnit(event)" type="checkbox" id="unit${idx+1}">`)
       unitForm.insertAdjacentHTML("beforeend", ` <label class="new" for="unit${idx+1}">${unit}</option><br>`);
     });
-    unitSel.style.minWidth = 0;
-    unitForm.style.minWidth = 0;
-    unitSel.style.minWidth = unitForm.getBoundingClientRect().width + "px";
-    unitForm.style.minWidth = unitSel.getBoundingClientRect().width + "px"
+    let temp1 = Math.max(unitSel.getBoundingClientRect().width, unitForm.getBoundingClientRect().width) + "px";
+    unitSel.style.width = temp1;
+    unitForm.style.width = temp1;
 
+    typeSel.style.width = "max-content";
+    typeForm.style.width = "max-content";
     data.Groups.forEach((group,idx) => {
       typeForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkGroup(event)" type="checkbox" id="group${idx+1}">`)
       typeForm.insertAdjacentHTML("beforeend", ` <label class="new" for="group${idx+1}">${group}</option><br>`);
     });
-    let temp1 = Math.max(typeSel.getBoundingClientRect().width, typeForm.getBoundingClientRect().width) + "px";
+    temp1 = Math.max(typeSel.getBoundingClientRect().width, typeForm.getBoundingClientRect().width) + "px";
     typeSel.style.width = temp1;
     typeForm.style.width = temp1;
 
@@ -104,6 +108,16 @@ function checkUnit(event) {
   }
   
   unit = getSelected(unitForm);
+
+  if (unit.length === 0) {
+    unitSel.querySelector("span").textContent = "Select a group of terms";
+  } else if (unit.length === 1) {
+    unitSel.querySelector("span").textContent = unit[0].split(": ")[0];
+  } else {
+    let temp1 = unit.map(i => i.split(": ")[0].split(" ")[1])
+    unitSel.querySelector("span").textContent = "Units " + temp1.join(", ");
+  }
+
   disableGame();
   enableGame();
 }
