@@ -159,9 +159,6 @@ button.select form {
     transition: background-color 200ms, color .8s, filter .8s, scale 200ms, transform 1s;
     background-color: white;
     overflow-y: auto;
-    &:has(img) {
-      overflow: hidden;
-    }
     &:hover {
       background-color: #eee;
       & img {
@@ -195,6 +192,10 @@ button.select form {
     }
     &:has(img) {
       padding: 1px;
+      overflow: hidden;
+    }
+    &.term {
+      font-size: 18px;
     }
   }
 }
