@@ -368,9 +368,14 @@ function win() {
   const minutes = Math.floor(currentTime/60);
   const accuracy = Math.round(totalCards.length/matchAttempts*100);
   let time;
-  if (minutes > 0) {
-    time = minutes + " minutes and " + seconds + " seconds";
-  } else time = seconds + " seconds";
+  if (minutes === 1) {
+    time = "1 minute and "
+  } else if (minutes > 0) {
+    time = minutes + " minutes and ";
+  }
+  
+  if (seconds === 1) time += "1 second";
+  else time += " and " + seconds + " seconds";
 
   if (matchAttempts > 0) {
     gameOutput.querySelector("p").innerHTML = "You beat the game in " + time + " at " + accuracy + "% accuracy!";
