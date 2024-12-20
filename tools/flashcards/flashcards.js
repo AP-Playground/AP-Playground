@@ -1,29 +1,29 @@
 // HTML element variables
 let data;
-const subjectSel = document.getElementById("subjectSel");
-const unitSel = document.getElementById("unitSel");
-const unitForm = document.querySelector("#unitSel form");
-const typeSel = document.getElementById("groupSel");
-const typeForm = document.querySelector("#groupSel form");
-const gameSel = document.getElementById("gameType");
-const matchingBoard = document.getElementById("matchingBoard");
-const matchingTiles = document.querySelectorAll("#matchingBoard button")
-const gameInfo = document.getElementById("gameInfo")
-const gameScore = document.getElementById("gameScore")
-const gameTimer = document.getElementById("gameTimer")
-const gameContainer = document.getElementById("gameContainer")
-const gameOverlay = document.getElementById("gameOverlay")
-const gameOutput = document.getElementById("gameOutput")
-const playBtn = document.getElementById("playBtn")
-const replayBtn = document.getElementById("replayBtn");
-const sentencesBoard = document.getElementById("sentencesBoard")
-const prevSentence = document.getElementById("prevSentence")
-const nextSentence = document.getElementById("nextSentence")
+const subjectSel = query("#subjectSel");
+const unitSel = query("#unitSel");
+const unitForm = query("#unitSel form");
+const typeSel = query("#groupSel");
+const typeForm = query("#groupSel form");
+const gameSel = query("#gameType");
+const matchingBoard = query("#matchingBoard");
+const matchingTiles = queryAll("#matchingBoard button")
+const gameInfo = query("#gameInfo")
+const gameScore = query("#gameScore")
+const gameTimer = query("#gameTimer")
+const gameContainer = query("#gameContainer")
+const gameOverlay = query("#gameOverlay")
+const gameOutput = query("#gameOutput")
+const playBtn = query("#playBtn")
+const replayBtn = query("#replayBtn");
+const sentencesBoard = query("#sentencesBoard")
+const prevSentence = query("#prevSentence")
+const nextSentence = query("#nextSentence")
 let sentences;
-const categoryBoard = document.getElementById("categoryBoard")
-const categoryCard = document.getElementById("categoryCard")
-const categoryOptions = document.getElementById("categoryOptions");
-const maxCardsSel = document.getElementById("maxCards")
+const categoryBoard = query("#categoryBoard")
+const categoryCard = query("#categoryCard")
+const categoryOptions = query("#categoryOptions");
+const maxCardsSel = query("#maxCards")
 let options;
 
 
@@ -66,25 +66,10 @@ subjectSel.addEventListener("change", () => {
   .then((res) => res.json())
   .then((json) => {
     data = json;
-    unitSel.style.width = "max-content";
-    unitForm.style.width = "max-content";
-    Object.keys(data.Units).forEach((unit,idx) => {
-      unitForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkUnit(event)" type="checkbox" id="unit${idx+1}">`)
-      unitForm.insertAdjacentHTML("beforeend", ` <label class="new" for="unit${idx+1}">${unit}</option><br>`);
-    });
-    let temp1 = Math.max(unitSel.getBoundingClientRect().width, unitForm.getBoundingClientRect().width) + "px";
-    unitSel.style.width = temp1;
-    unitForm.style.width = temp1;
 
-    typeSel.style.width = "max-content";
-    typeForm.style.width = "max-content";
-    data.Groups.forEach((group,idx) => {
-      typeForm.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkGroup(event)" type="checkbox" id="group${idx+1}">`)
-      typeForm.insertAdjacentHTML("beforeend", ` <label class="new" for="group${idx+1}">${group}</option><br>`);
-    });
-    temp1 = Math.max(typeSel.getBoundingClientRect().width, typeForm.getBoundingClientRect().width) + "px";
-    typeSel.style.width = temp1;
-    typeForm.style.width = temp1;
+    handleSel(unitSel, unitForm, Object.keys(data.Units), "unit");
+
+    handleSel(typeSel, typeForm, data.Groups, "group");
 
     allGameTypes = [...data.Matching, ...data.Images,...data.Categorization, ...data.Sentences];
   });
@@ -95,6 +80,18 @@ subjectSel.addEventListener("change", () => {
   disableGame();
 })
 
+function handleSel(sel, form, options, id) {
+  sel.style.width = "max-content";
+  form.style.width = "max-content";
+  options.forEach((option,idx) => {
+    form.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkUnit(event)" type="checkbox" id="${id}${idx+1}">`)
+    form.insertAdjacentHTML("beforeend", ` <label class="new" for="${id}${idx+1}">${option}</option><br>`);
+  });
+  let temp1 = Math.max(sel.getBoundingClientRect().width, form.getBoundingClientRect().width) + "px";
+  sel.style.width = temp1;
+  form.style.width = temp1;
+}
+
 function checkUnit(event) {
   if (gameActive && !confirm("Are you sure you want to do this? Doing so will abort your game.")) {
     event.preventDefault()
@@ -104,7 +101,7 @@ function checkUnit(event) {
     unitForm.reset()
     event.target.checked = true;
   } else {
-    document.querySelector("#unitall").checked = false;
+    query("#unitall").checked = false;
   }
   
   unit = getSelected(unitForm);
@@ -131,7 +128,7 @@ function checkGroup(event) {
     typeForm.reset()
     event.target.checked = true;
   } else {
-    document.querySelector("#groupall").checked = false;
+    query("#groupall").checked = false;
   }
   
   type = getSelected(typeForm);
@@ -261,9 +258,9 @@ function prepareGame() {
     alert("There are no terms matching your selected criteria. Please reselect and try again");
     return;
   }
-  
-  matchingTiles.forEach(i => {i.classList.remove("selected")})
 
+  // Reset game state
+  matchingTiles.forEach(i => {i.classList.remove("selected")})
   gameContainer.hidden = false;
   gameOverlay.style.display = "flex";
   playBtn.hidden = false;
@@ -273,23 +270,26 @@ function prepareGame() {
   categoryBoard.hidden = true;
 
   if (data.Matching.includes(game)) {
+    // Setup Matching game
     matchingBoard.style.display = "grid";
     totalCards.forEach(i => i[1] = chooseOne(i[1]));
 
     currentCards = Array(20).fill(undefined);
     updateMatchingBoard();
   } else if (data.Categorization.includes(game)) {
+    // Setup Categorization game
     categoryBoard.hidden = false;
     currentCards = remainingCards.shift();
-    Array.from(document.querySelectorAll("#categoryOptions button")).forEach(i => i.remove())
+    Array.from(queryAll("#categoryOptions button")).forEach(i => i.remove())
     data[game].forEach(option => {
       categoryOptions.insertAdjacentHTML("beforeend", `<button>${option}</button>`)
     })
-    options = Array.from(document.querySelectorAll("#categoryOptions button"));
+    options = Array.from(queryAll("#categoryOptions button"));
     options.forEach(option => {option.addEventListener("click", selectCategoryOption)})
     updateCategory();
 
   } else if (data.Sentences.includes(game)) {
+   // Setup Sentences game
     sentencesBoard.hidden = false;
     currentCards = 0;
     Array.from(sentencesBoard.getElementsByClassName("sentence")).forEach(i => i.remove())
@@ -308,6 +308,7 @@ function prepareGame() {
     sentences = Array.from(document.getElementsByClassName("sentence"));
     updateSentences();
   } else if (data.Images.includes(game)) {
+    // Setup Images game
     matchingBoard.style.display = "grid";
     totalCards.forEach(i => i[1] = chooseOne(i[1]));
 
@@ -385,26 +386,24 @@ function win() {
 
 // Sentences functions
 function checkSentence() {
-  const nodeSegments = sentences[currentCards].children;
-  const promptSegments = remainingCards[currentCards][1];
-  let success = true;
+  const responses = Array.from(sentences[currentCards].querySelectorAll("input")).map(i => i.value.trim().toLowerCase());
 
-  promptSegments.forEach((answer, idx) => {
-    if (typeof answer === "string") return;
-    answer = answer.map(i => i.toLowerCase())
-    if (!answer.includes(nodeSegments[idx].value.toLowerCase().trim())) {
-      success = false;
-    }
-  })
+  const answers = remainingCards[currentCards][1].filter(i => Array.isArray(i)).map(i => i.map(j => j.trim().toLowerCase()));
+
+  const success = answers.every((answer, idx) => answer.includes(responses[idx]));
+
   if (success) {
     sentences[currentCards].remove()
     sentences.splice(currentCards, 1);
     remainingCards.splice(currentCards, 1);
+
     if (currentCards === remainingCards.length) {
       currentCards--;
     }
+
     completedCards++
     gameScore.textContent = completedCards + "/" + totalCards.length;
+
     if (remainingCards.length === 0) {
       win()
     } else updateSentences();
@@ -435,49 +434,44 @@ nextSentence.addEventListener("click", () => {
 
 
 // Matching functions
-function fillMatchingBoard() {
-  const emptyCards = currentCards.filter(card => card === undefined).length/2;
-  const newCards = remainingCards.splice(0, emptyCards);
-  
-  let tempCards = Array(emptyCards*2).fill(undefined);
-  for (let i = 0; i < emptyCards && i < newCards.length; i++) {
-    tempCards[i*2] = newCards[i][0];
-    tempCards[i*2+1] = newCards[i][1]
-  }
-
-  shuffleArray(tempCards)
-
-  j = 0;
-  for (let i = 0; i < 20; i++) {
-    if (currentCards[i] === undefined) {
-      currentCards[i] = tempCards[j];
-      j++;
-    }
-  }
-}
-
 function updateMatchingBoard() {
-  if (currentCards.filter(card => card === undefined).length >= currentCards.length/2) {
-    fillMatchingBoard();
+  const emptyCount = currentCards.filter(card => card === undefined).length/2;
+
+  if (emptyCount >= currentCards.length/4) {
+    const newCards = remainingCards.splice(0, emptyCount);
+  
+    const emptyIndexes = [];
+    currentCards.forEach((i, idx) => {
+      if (i === undefined) {
+        emptyIndexes.push(idx);
+      }
+    })
+  
+    shuffleArray(emptyIndexes);
+  
+    newCards.forEach(card => {
+      const [idx1, idx2] = [emptyIndexes.shift(), emptyIndexes.shift()];
+
+      matchingTiles[idx1].innerHTML = card[0];
+      matchingTiles[idx1].classList.add("term");
+      currentCards[idx1] = card[0];
+
+      matchingTiles[idx2].innerHTML = card[1];
+      matchingTiles[idx2].classList.remove("term");
+      currentCards[idx2] = card[1];
+    })
   }
 
-  if (currentCards.filter(card => card === undefined).length === currentCards.length) {
-    win();
-  }
+  if (currentCards.every(card => card === undefined)) win();
   
-  for (let i = 0; i < 20; i++) {
-    if (currentCards[i] === undefined) {
-      matchingTiles[i].classList.add("empty");
-    } else {
-      matchingTiles[i].innerHTML = currentCards[i];
-      matchingTiles[i].classList.remove("empty");
-    }
-  }
+  currentCards.forEach((card, i) => {
+    matchingTiles[i].classList.toggle("empty", card === undefined);
+  });
 }
 
 matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
   event.target.classList.toggle("selected");
-  const selected = document.querySelectorAll("#matchingBoard button.selected");
+  const selected = queryAll("#matchingBoard button.selected");
 
   if (selected.length === 2) {
     matchAttempts++;
@@ -527,9 +521,7 @@ function selectCategoryOption(event) {
 function shuffleArray(array) {
   for (var i = array.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
-      var temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
+      [array[i], array[j]] = [array[j], array[i]];
   }
 }
 
@@ -544,4 +536,12 @@ function chooseOne(i) {
     return i;
   }
   return i[Math.floor(Math.random() * i.length)];
+}
+
+function query(selector) {
+  return document.querySelector(selector);
+}
+
+function queryAll(selector) {
+  return document.querySelectorAll(selector);
 }
