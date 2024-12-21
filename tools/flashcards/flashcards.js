@@ -505,14 +505,17 @@ function updateCategory() {
 }
 
 function selectCategoryOption(event) {
+  const btn = event.target;
 
-  if (event.target.classList.contains("correct") || event.target.classList.contains("incorrect")) return;
+  if (btn.classList.contains("correct") || btn.contains("incorrect")) return;
 
   matchAttempts++;
 
+
+
   if (typeof currentCards[1] === "string") {
-    if (currentCards[1] === event.target.textContent) {
-      event.target.classList.add("correct");
+    if (currentCards[1] === btn.textContent) {
+      btn.classList.add("correct");
 
       currentCards = remainingCards.shift();
       updateCategory()
@@ -520,14 +523,12 @@ function selectCategoryOption(event) {
       completedCards++
       gameScore.textContent = completedCards + "/" + totalCards.length;
     } else {
-      event.target.classList.add("incorrect");
+      btn.classList.add("incorrect");
     }
   } else {
-    if (
-      currentCards[1].includes(event.target.textContent)
-    ) {
-      currentCards[1] = currentCards[1].filter(i => i !== event.target.textContent);
-      event.target.classList.add("correct");
+    if (currentCards[1].includes(btn.textContent)) {
+      currentCards[1] = currentCards[1].filter(i => i !== btn.textContent);
+      btn.classList.add("correct");
       if (currentCards[1].length === 0) {
         currentCards = remainingCards.shift();
         updateCategory()
@@ -536,14 +537,13 @@ function selectCategoryOption(event) {
         gameScore.textContent = completedCards + "/" + totalCards.length;
       }
     } else {
-      event.target.classList.add("incorrect");
+      btn.classList.add("incorrect");
     }
   }
 
       
   if (remainingCards.length === 0) {
     win();
-    return;
   }
 }
 
