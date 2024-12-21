@@ -267,7 +267,7 @@ function prepareGame() {
   gameOutput.hidden = true;
   matchingBoard.style.display = "none";
   sentencesBoard.hidden = true;
-  categoryBoard.hidden = true;
+  categoryBoard.style.display = "none";
 
   if (data.Matching.includes(game)) {
     // Setup Matching game
@@ -278,7 +278,7 @@ function prepareGame() {
     updateMatchingBoard();
   } else if (data.Categorization.includes(game)) {
     // Setup Categorization game
-    categoryBoard.hidden = false;
+    categoryBoard.style.display = "grid";
     currentCards = remainingCards.shift();
     Array.from(queryAll("#categoryOptions button")).forEach(i => i.remove())
     data[game].forEach(option => {
