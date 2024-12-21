@@ -141,6 +141,8 @@ button.select form {
 
 /* Game specific styles */
 
+
+/* Matching styles */
 #matchingBoard {
   width: 100%;
   display: grid;
@@ -150,56 +152,59 @@ button.select form {
   text-align: center;
   table-layout: fixed;
   word-wrap: break-word;
-  & button {
-    border: 1px solid black;
-    color: rgba(0, 0, 0, 1);
-    border-radius: 10px;
-    height: 150px;
-    cursor: pointer;
-    transition: background-color 200ms, color .8s, filter .8s, scale 200ms, transform 1s;
-    background-color: white;
-    overflow-y: auto;
-    &:hover {
-      background-color: #eee;
-      & img {
-        filter: brightness(93%)
-      }
-    }
-    &.selected {
-      background-color: #ddd;
-      scale: 0.95;
-      & img {
-        filter: brightness(87%);
-      }
-    }
-    &.empty {
-      transition: background-color .8s, color .8s, filter .8s, transform .8s ease-in, scale 1s;
-      color: rgba(0, 0, 0, 0);
-      pointer-events: none;
-      filter: brightness(75%);
-      user-select: none;
-      transform: scale(0);
-      & img {
-        transition: filter .8s, opacity .8s;
-        opacity: 0;
-      }
-    }
-    & img {
-      max-height: 100%;
-      max-width: 100%;
-      pointer-events: none;
-      transition: filter 200ms, opacity .8s;
-    }
-    &:has(img) {
-      padding: 1px;
-      overflow: hidden;
-    }
-    &.term {
-      font-size: 18px;
-    }
-  }
 }
 
+#matchingBoard button {
+border: 1px solid black;
+color: rgba(0, 0, 0, 1);
+border-radius: 10px;
+height: 150px;
+cursor: pointer;
+transition: background-color 200ms, color .8s, filter .8s, scale 200ms, transform 1s;
+background-color: white;
+overflow-y: auto;
+&:hover {
+  background-color: #eee;
+  & img {
+    filter: brightness(93%)
+  }
+}
+&.selected {
+  background-color: #ddd;
+  scale: 0.95;
+  & img {
+    filter: brightness(87%);
+  }
+}
+&.empty {
+  transition: background-color .8s, color .8s, filter .8s, transform .8s ease-in, scale 1s;
+  color: rgba(0, 0, 0, 0);
+  pointer-events: none;
+  filter: brightness(75%);
+  user-select: none;
+  transform: scale(0);
+  & img {
+    transition: filter .8s, opacity .8s;
+    opacity: 0;
+  }
+}
+& img {
+  max-height: 100%;
+  max-width: 100%;
+  pointer-events: none;
+  transition: filter 200ms, opacity .8s;
+}
+&:has(img) {
+  padding: 1px;
+  overflow: hidden;
+}
+&.term {
+  font-size: 18px;
+}
+}
+
+
+/* Sentence styles */
 #sentenceControls {
   display: flex;
   justify-content: end;
@@ -234,11 +239,32 @@ button.select form {
   padding: 5px;
 }
 
+
+/* Category styles */
 #categoryBoard {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: repeat(2, fit-content);
+}
+
+#categorySelectNum {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  padding-right: 5px;
 }
 
 #categoryCard {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+
   text-align: center;
   background-color: white;
   border-radius: 10px;
@@ -252,6 +278,9 @@ button.select form {
 }
 
 #categoryOptions {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+
   width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -260,22 +289,33 @@ button.select form {
   text-align: center;
   table-layout: fixed;
   word-wrap: break-word;
-  & button {
-    border: 1px solid black;
-    color: rgba(0, 0, 0, 1);
-    border-radius: 10px;
-    height: 100px;
-    cursor: pointer;
-    transition: background-color 200ms, color 2s, filter 2s;
-    background-color: white;
-    &:hover {
-      background-color: #eee;
-    }
-    &:active {
-      background-color: #ddd;
-    }
+}
+
+#categoryOptions button {
+  border: 1px solid black;
+  color: rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  height: 100px;
+  cursor: pointer;
+  transition: background-color 200ms, scale 100ms;
+  background-color: white;
+  &:hover {
+    background-color: #eee;
+  }
+  &:active {
+    background-color: #ddd;
+  }
+  &.correct {
+    scale: 0.9;
+    background-color: color-mix(in oklab, white 50%, lime 50%);
+  }
+  &.incorrect {
+    scale: 0.9;
+    background-color: color-mix(in oklab, white 50%, red 50%);
   }
 }
+
+
 
 @media (max-width: 500px) {
   #matchingBoard,

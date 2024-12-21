@@ -84,7 +84,7 @@ function handleSel(sel, form, options, id) {
   sel.style.width = "max-content";
   form.style.width = "max-content";
   options.forEach((option,idx) => {
-    form.insertAdjacentHTML("beforeend", `<input class="new" onclick="checkUnit(event)" type="checkbox" id="${id}${idx+1}">`)
+    form.insertAdjacentHTML("beforeend", `<input class="new" onclick="check${capitalize(id)}(event)" type="checkbox" id="${id}${idx+1}">`)
     form.insertAdjacentHTML("beforeend", ` <label class="new" for="${id}${idx+1}">${option}</option><br>`);
   });
   let temp1 = Math.max(sel.getBoundingClientRect().width, form.getBoundingClientRect().width) + "px";
@@ -375,7 +375,7 @@ function win() {
   }
   
   if (seconds === 1) time += "1 second";
-  else time += " and " + seconds + " seconds";
+  else time += seconds + " seconds";
 
   if (matchAttempts > 0) {
     gameOutput.querySelector("p").innerHTML = "You beat the game in " + time + " at " + accuracy + "% accuracy!";
@@ -501,23 +501,49 @@ matchingTiles.forEach(tile => {tile.addEventListener("click", event => {
 // Categorization functions
 function updateCategory() {
   categoryCard.textContent = currentCards[0];
+  Array.from(categoryOptions.querySelectorAll("button")).forEach(option => {option.classList.remove("correct", "incorrect")})
 }
 
 function selectCategoryOption(event) {
-  matchAttempts++;
-  if (
-    (typeof currentCards[1] === "string" && currentCards[1] === event.target.textContent)
-    || (typeof currentCards[1] === "object" && currentCards[1].includes(event.target.textContent))
-  ) {
-    if (remainingCards.length === 0) {
-      win();
-      return;
-    }
-    currentCards = remainingCards.shift();
-    updateCategory()
 
-    completedCards++
-    gameScore.textContent = completedCards + "/" + totalCards.length;
+  if (event.target.classList.contains("correct") || event.target.classList.contains("incorrect")) return;
+
+  matchAttempts++;
+
+  if (typeof currentCards[1] === "string") {
+    if (currentCards[1] === event.target.textContent) {
+      event.target.classList.add("correct");
+
+      currentCards = remainingCards.shift();
+      updateCategory()
+
+      completedCards++
+      gameScore.textContent = completedCards + "/" + totalCards.length;
+    } else {
+      event.target.classList.add("incorrect");
+    }
+  } else {
+    if (
+      currentCards[1].includes(event.target.textContent)
+    ) {
+      currentCards[1] = currentCards[1].filter(i => i !== event.target.textContent);
+      event.target.classList.add("correct");
+      if (currentCards[1].length === 0) {
+        currentCards = remainingCards.shift();
+        updateCategory()
+  
+        completedCards++
+        gameScore.textContent = completedCards + "/" + totalCards.length;
+      }
+    } else {
+      event.target.classList.add("incorrect");
+    }
+  }
+
+      
+  if (remainingCards.length === 0) {
+    win();
+    return;
   }
 }
 
@@ -549,4 +575,8 @@ function query(selector) {
 
 function queryAll(selector) {
   return document.querySelectorAll(selector);
+}
+
+function capitalize(word) {
+  return word.charAt(0).toUpperCase() + word.slice(1);
 }
