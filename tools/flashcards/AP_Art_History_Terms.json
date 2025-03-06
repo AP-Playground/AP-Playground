@@ -162,38 +162,166 @@
 
 
     "Unit 2: Ancient Mediterranean": [
+      {
+        "Term": "",
+        "Definition": ""
+      }
     ],
 
 
     "Unit 3: Early Europe and Colonial Americas": [
+      {
+        "Term": "",
+        "Definition": ""
+      }
     ],
 
 
     "Unit 4: Later Europe and Americas": [
+      {
+        "Term": "",
+        "Definition": ""
+      }
     ],
 
 
     "Unit 5: Indigenous Americas": [
+      {
+        "Term": "",
+        "Definition": ""
+      }
     ],
 
 
     "Unit 6: Africa": [
+      {
+        "Term": "",
+        "Definition": ""
+      }
     ],
 
 
     "Unit 7: West and Central Asia": [
+      {
+        "Term": "",
+        "Definition": ""
+      }
     ],
 
 
     "Unit 8: South, East, and Southeast Asia": [
+      {
+        "Term": "",
+        "Definition": ""
+      }
     ],
 
 
     "Unit 9: The Pacific": [
+      {
+        "Term": "Ahu",
+        "Definition": "Stone platform, (ex: those with moai on Easter Island)"
+      },
+      {
+        "Term": "Atoll",
+        "Definition": "Ring-shaped coral reef including a coral rim that encircles a lagoon partially or completely"
+      },
+      {
+        "Term": ["Bark cloth", "Tapa"],
+        "Definition": "Cloth made from the inner bark of trees, used for clothing or to wrap sacred objects"
+      },
+      {
+        "Term": "Basalt",
+        "Definition": "Type of volcanic stone"
+      },
+      {
+        "Term": "Captain Cook",
+        "Definition": "First European to visit the South Pacific islands in the 1700s"
+      },
+      {
+        "Term": "Hiapo",
+        "Definition": "Early Niuean bark cloth"
+      },
+      {
+        "Term": "I’iwi bird",
+        "Definition": "Red feathered bird; feathers used for Hawaiian ceremonial cloaks"
+      },
+      {
+        "Term": "Lapita People",
+        "Definition": "First inhabitants of Polynesia; share roots with Australian natives"
+      },
+      {
+        "Term": "Malangan",
+        "Definition": "Intricate carvings from the island of New Ireland in Papua New Guinea"
+      },
+      {
+        "Term": "Māori",
+        "Definition": "Peoples native to New Zealand"
+      },
+      {
+        "Term": "Mattang",
+        "Definition": "Navigation charts used to train navigators of the Pacific Islands"
+      },
+      {
+        "Term": "Melanesia",
+        "Definition": "Region of the western Pacific that includes the islands and island groups of Fiji, New Guinea, the Solomon Islands, and Vanuatu"
+      },
+      {
+        "Term": "Micronesia",
+        "Definition": "Region of the Pacific Islands that includes more than 2,100 islands, including the Marshall Islands, Guam, and Kiribati"
+      },
+      {
+        "Term": "Moko",
+        "Definition": "Intricate facial tattoo among the Māori"
+      },
+      {
+        "Term": "New Ireland",
+        "Definition": "Small island of the southwestern Pacific; part of Papua New Guinea"
+      },
+      {
+        "Term": "Polynesian Triangle",
+        "Definition": "Stretches from Hawai’i in the north to Aotearoa (New Zealand) in the south, and Rapa Nui (Easter Island) in the east"
+      },
+      {
+        "Term": "Rapa Nui",
+        "Definition": "Original name of Easter Island"
+      },
+      {
+        "Term": "Totem",
+        "Definition": "Natural object or animal believed by a society to have spiritual significance and adopted as an emblem"
+      },
+      {
+        "Term": "Tapa",
+        "Definition": "Cloth made of bark usually put together by women and worn or hung for special occasions"
+      },
+      {
+        "Term": "Tino aitu",
+        "Definition": "Stones, pieces of wood, or wooden figurines that represent local deities in Nukuoro"
+      },
+      {
+        "Term": "Taonga tuku iho",
+        "Definition": "Treasures passed down from Māori ancestors; are treated with great care and reverence"
+      },
+      {
+        "Term": "Torres Strait",
+        "Definition": "Strait between Australia and New Guinea which includes more than 270 islands"
+      },
+      {
+        "Term": "Tridacna shell blades",
+        "Definition": "Genus of large saltwater clams, sometimes used as blades in tools"
+      },
+      {
+        "Term": "Wharenui",
+        "Definition": "Central building of the Māori community center"
+      }
     ],
 
 
     "Unit 10: Global Contemporary": [
+      {
+        "Term": "",
+        "Definition": ""
+      }
     ]
   }
 }
