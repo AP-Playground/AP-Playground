@@ -372,6 +372,8 @@ function win() {
     time = "1 minute and "
   } else if (minutes > 0) {
     time = minutes + " minutes and ";
+  } else if (minutes === 0) {
+    time = "";
   }
   
   if (seconds === 1) time += "1 second";
