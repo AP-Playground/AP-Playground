@@ -2,17 +2,17 @@
   "Groups": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
 
 
-  "Matching": ["Date", "Materials", "Function", "Content", "Context","Artist"],
+  "Matching": ["Date", "Materials", "Function", "Content", "Culture", "Context", "Artist"],
   "Images": ["Image"],
   "Categorization": [],
-  "Sentences": ["Sentence"],
+  "Sentences": [],
 
 
-  "Architecture": ["Image", "Date", "Materials", "Function", "Content", "Artist", "Context", "Sentence"],
-  "Apparel": ["Image", "Date", "Materials", "Function", "Content", "Artist", "Context", "Sentence"],
-  "Paintings": ["Image", "Date", "Materials", "Function", "Content", "Artist", "Context", "Sentence"],
-  "Sculptures & Carvings": ["Image", "Date", "Materials", "Function", "Content", "Artist", "Context", "Sentence"],
-  "Items": ["Image", "Date", "Materials", "Function", "Content", "Artist", "Context", "Sentence"],
+  "Architecture": ["Image", "Date", "Materials", "Function", "Content", "Culture", "Context", "Artist"],
+  "Apparel": ["Date", "Materials", "Function", "Content", "Culture", "Context", "Artist"],
+  "Paintings": ["Date", "Materials", "Function", "Content", "Culture", "Context", "Artist"],
+  "Sculptures & Carvings": ["Date", "Materials", "Function", "Content", "Culture", "Context", "Artist"],
+  "Items": ["Date", "Materials", "Function", "Content", "Culture", "Context", "Artist"],
 
 
   "Units": {
@@ -25,8 +25,8 @@
         "Materials": "Charcoal on stone",
         "Function": "Likely ritual use",
         "Content": ["Amalgamation of feline, bovid, and human parts", "Therianthrope"],
-        "Context": "Rock shelter (cave opening), Namibia",
-        "Sentence": ["The ", ["Apollo 11 stones", "Apollo 11 stone"], " are the oldest art pieces in the AP Art History course"]
+        "Culture": "Paleolithic Namibia",
+        "Context": "Rock shelter (cave opening)"
       },
       {
         "Term": "Great Hall of Bulls",
@@ -35,9 +35,9 @@
         "Date": "15,000-13,000 BCE",
         "Materials": "Rock painting, charcoal and other natural pigments",
         "Function": "Likely rituals designed to ensure a successful hunt",
-        "Content": ["Shows hunted animals in twisted perspective","Uses linear, infilled, and blended forms"],
-        "Context": "Lascaux, France. Paleolithic Europe",
-        "Sentence": ["Many of the forms drawn in the Great Hall of Bulls were formed by ", ["blowing", "blown", "blow"], " pigment by mouth or by carving into the rock surface"]
+        "Content": ["Shows hunted animals in twisted perspective","Uses linear, infilled, and blended forms; formed by blowing pigment by mouth or carving into the rock"],
+        "Culture": "Paleolithic France",
+        "Context": "In the Lascaux cave network"
       },
       {
         "Term": "Camelid sacrum in the shape of a canine",
@@ -47,7 +47,8 @@
         "Materials": "Bone carving",
         "Function": "Likely sacred object",
         "Content": "Resembles a canine skull",
-        "Context": "Tequixquiac, central Mexico"
+        "Culture": "Tequixquiac, Paleolithic Mexico",
+        "Context": "Many ancient cultures viewed this bone as sacred"
       },
       {
         "Term": "Running horned woman",
@@ -56,9 +57,9 @@
         "Date": "6,000-4,000 BCE",
         "Materials": "Pigment on rock",
         "Function": "Likely ceremonial use",
-        "Content": "Depicts a ceremonially clothed figure (potentially a goddess)",
-        "Context": "Tassili n’Ajjer, Algeria",
-        "Sentence": ["The dots on the ", ["running horned woman"], " most likely represent scarification"]
+        "Content": ["Depicts a ceremonially clothed figure (potentially a goddess)","Dotted area along body likely represents scarification"],
+        "Culture": "Tassili n’Ajjer, Neolithic Algeria",
+        "Context": ["This and similar pieces in the area were revealed by wetting their surface, which has faded the images","The area and piece were \"discovered\" by Henri Lhote, a French officer in 1933"]
       },
       {
         "Term": "Beaker with ibex motifs",
@@ -67,9 +68,9 @@
         "Date": "4,200-3,500 BCE",
         "Materials": "Painted terra cotta",
         "Function": "Funerary object",
-        "Content": "Divided into several bands/registers with stylized animals",
-        "Context": "Cemetary, Susa, Iran",
-        "Sentence": ["The ", ["beaker with ibex motifs"], " displays both domesticated and traditional hunter-gatherer animals"]
+        "Content": ["Divided into several bands/registers with stylized animals","Shows domesticated and traditional hunter-gatherer animals"],
+        "Culture": "Susa, Neolithic Iran",
+        "Context": "Found in a tightly packed cemetery which was filled with second burials"
       },
       {
         "Term": "Anthropomorphic stele",
@@ -79,8 +80,8 @@
         "Materials": "Sandstone",
         "Function": "Grave marker",
         "Content": "Abstract robed figure with a necklace, awl, belt, and dagger",
-        "Context": "Cemetary, Saudi Arabia, Arabian Peninsula",
-        "Sentence": [["Anthropomorphic stele"], "s are found across the Arabian Peninsula, showing the region's early caravan trade routes"]
+        "Culture": "Neolithic Saudi Arabia, Arabian Peninsula",
+        "Context": "Cemetary; the design's similarity to others shows the region's early caravan trade routes"
       },
       {
         "Term": "Jade cong",
@@ -90,8 +91,8 @@
         "Materials": "Carved jade",
         "Function": "Funerary object",
         "Content": ["Tubular object with a circular hole and squarish cross section","Different shapes symbolize realms or animals (dragon faces)"],
-        "Context": "Liangzhu, China",
-        "Sentence": ["A relative of the ", ["Cong", "Jade Cong"], ", the bi is also a funerary object originating from China. While the bi is a circular disk, the ", ["Cong", "Jade Cong"], "(repeat previous) has a more ", ["square", "rectangular"], " shape"]
+        "Culture": "Liangzhu, Neolithic China",
+        "Context": "Found around bodies in graves, alongside bi disks"
       },
       {
         "Term": "Stonehenge",
@@ -101,8 +102,8 @@
         "Materials": "Sandstone",
         "Function": "Burial site, possible solar/lunar calender",
         "Content": ["Set of megaliths arranged in a 108 ft (diameter circle)", "30 sarsen stones capped with 30 lintel stones, arrangement of bluestones"],
-        "Context": "Wiltshire, UK. Neolithic Europe",
-        "Sentence": [["Stonehenge"], " was built in three phases, going from a large circular ditch to a burial site to its modern form"]
+        "Culture": "Wiltshire, Neolithic England",
+        "Context": "Built in three phases, going from a large circular ditch to a burial site to its modern form"
       },
       {
         "Term": "The Ambum stone",
@@ -112,8 +113,8 @@
         "Materials": "Greywacke",
         "Function": "Mortar and pestel, later ancestral object",
         "Content": "Stylized animal (echidna?)",
-        "Context": "Ambum Valley, Enga Province, Papua New Guinea",
-        "Sentence": ["Well after its initial use, the ", ["Ambum stone"], " was used by the Enga people to represent ancestors"]
+        "Culture": "Enga Province, Neolithic Papua New Guinea",
+        "Context": "Prior to their conversion to Chirstianity, the Enga people used it to represent ancestors"
       },
       {
         "Term": "Tlatilco female figurine",
@@ -123,8 +124,8 @@
         "Materials": "Ceramic",
         "Function": "Funerary object",
         "Content": ["Bicephalic female figure", "Shows wide hips and a focus on hairstyle (valued by the civilization)"],
-        "Context": "Central Mexico, Tlatilco civilization",
-        "Sentence": ["While female ", ["tlatilco"], " figures typically showed their hair, male figures usually wore costumes and masks, showing their ", ["religious", "ritual", "spirtual"], " expertise"]
+        "Culture": "Tlatilco civilization, Central Mexico",
+        "Context": "Male figures from this culture were rare, and focused on relgious and ritual expertise"
       },
       {
         "Term": "Terra cotta fragment",
@@ -134,8 +135,8 @@
         "Materials": "Terra cotta (incised)",
         "Function": "Food storage and serving (bowls/vessels)",
         "Content": "Stamped with an anthropomorphic design",
-        "Context": "Lapita culture. Reef Islands, Solomon Islands",
-        "Sentence": ["The various designs and motifs in the Lapita ", ["terra cotta fragments", "terracotta fragments"], " trace the movement of the Lapita culture over time"]
+        "Culture": "Lapita culture, Solomon Islands",
+        "Context": "The designs and motifs on these pieces trace the movement of Lapita culture over time"
       }
     ],
 
@@ -157,6 +158,160 @@
 
 
     "Unit 6: Africa": [
+      {
+        "Term": "Great Zimbabwe",
+        "Group": ["Architecture"],
+        "Image": ["https://smarthistory.org/wp-content/uploads/2023/03/Great-zim-aerial-looking-West-copy-2048x1361.jpg","https://upload.wikimedia.org/wikipedia/commons/d/d4/Conical_Tower_-_Great_Enclosure_III_%2833736918448%29.jpg","https://upload.wikimedia.org/wikipedia/commons/d/d6/Great_zimbabwe_2.jpg","https://smarthistory.org/wp-content/uploads/2023/03/28037480480_637c2367a5_5k-2048x1536.jpg","https://upload.wikimedia.org/wikipedia/commons/9/9d/Zimbabwe_wall.jpg"],
+        "Date": "c. 1000-1400 CE",
+        "Materials": "Coursed granite blocks with no mortar",
+        "Function": "City and center of trade",
+        "Content": ["Hill Complex, Great Enclosure, and Valley Enclosures", "Over 800 ft of wall, over 32 ft high and 17 ft thick at base"],
+        "Context": "Shone peoples (Southeastern Zimbabwe)",
+        "Sentence": ["The conical tower of ", ["Great Zimbabwe"], " may have functioned as a granary"]
+      },
+      {
+        "Term": "Great Mosque of Djenné",
+        "Group": ["Architecture"],
+        "Image": ["https://smarthistory.org/wp-content/uploads/2023/05/2434809322_f76c6575e5_o-2048x1033.png","https://smarthistory.org/wp-content/uploads/2022/09/La_grande_mosque%CC%81e-1_Djenne%CC%81_Mali_au_petit_matin._Date_du_cliche%CC%81_27-12-1972.jpg"],
+        "Date": "Founded c. 1200 ce; rebuilt 1906-1907 ce",
+        "Materials": "Adobe (mud brick) and wooden scaffolding",
+        "Function": "Islamic religious worship",
+        "Content": ["Hypostyle hall, three minarets, and a flat roof"],
+        "Context": "Mali Empire",
+        "Sentence": ["The ", ["Great Mosque","Mosque"], " of Djenné has ", ["ostrich"], " eggs placed on its minarets to symbolize purity"]
+      },
+      {
+        "Term": "Wall plaque, from Oba’s palace",
+        "Group": ["Sculptures & Carvings"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2016/09/dp295360.jpg",
+        "Date": "1500s CE",
+        "Materials": "Cast brass",
+        "Function": "Showed the lineage and history of the Benin kingdom",
+        "Content": ["King flanked by attendants and Portuguese traders", "Hierarchical scale, the king is the largest figure"],
+        "Context": "Edo peoples, Kingdom of Benin (Nigeria)",
+        "Sentence": ["The wall plaque from Oba’s palace was made using the ", ["lost wax"], " casting technique"]
+      },
+      {
+        "Term": "Sika dwa kofi (Golden Stool)",
+        "Group": ["Items"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2018/08/golden-stool-thumb-870x523.jpg",
+        "Date": "c. 1700 CE",
+        "Materials": "Gold over wood and cast-gold attachments",
+        "Function": "Represents the soul of the Ashanti people",
+        "Content": ["Has a flat seat and two curved legs", "Accompanied by golden bells"],
+        "Context": "Ashanti peoples (south central Ghana)",
+        "Sentence": ["The Ashanti believe that the ", ["Golden Stool"], " fell from the heavens into the lap of their first king"]
+      },
+      {
+        "Term": "Ndop (portrait figure)",
+        "Group": ["Sculptures & Carvings", "Items"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2022/10/61.33_PS2-870x1160.jpg",
+        "Date": "c. 1760-1780 CE",
+        "Materials": "Wood coated in oil",
+        "Function": "Commemmorative object",
+        "Content": ["Depicts King Mishe miShyaang maMbul as an ideal ruler - calm, intelligent, and meditative", "Has a serene expression and an oversized head", "Wearing a crown, arm bands, and sits cross legged on a stool"],
+        "Context": "Kuba peoples (Democratic Republic of the Congo)",
+        "Sentence": ["The ", ["ndop"], " is holding a drum which helps identify the ruler it depicts"]
+      },
+      {
+        "Term": "Nkisi n'kondi (power figure)",
+        "Group": ["Sculptures & Carvings", "Items"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2022/11/76.79-S3-2-1198x1536.jpeg",
+        "Date": "Late 1800s CE",
+        "Materials": "Wood and metal",
+        "Function": ["Stores herbs and medicine in the chest cavity", "Acts as a judicial authority (pegs driven into the figure to seal agreements)"],
+        "Content": ["Human figure 4 ft tall with a chest cavity (mooyo)", "Covered in metal spikes and nails"],
+        "Context": "Kongo peoples (Democratic Republic of the Congo)",
+        "Sentence": ["The ", ["power"], " figure represented a spirit that could bless and curse individuals to enforce contracts"]
+      },
+      {
+        "Term": "Female (pwo) mask",
+        "Group": ["Apparel"],
+        "Image": "https://apstudy.github.io/ap-art-history/images/Female%20(pwo)%20mask.jpeg",
+        "Date": "Late 1800s-early 1900s CE",
+        "Materials": "Wood, fiber, pigment, and metal",
+        "Function": "Worn by men in initiation ceremonies of adolescent boys",
+        "Content": "White pigment around the eyes signifies the spirit realm; closed eyes and mouth",
+        "Context": "Chokwe peoples (Democratic Republic of the Congo)",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Mblo (portrait mask)",
+        "Group": ["Apparel"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2022/07/portrait-copy-870x1237.png",
+        "Date": "Early 1900s CE",
+        "Materials": "Wood and pigment",
+        "Function": ["Used in dances to honor individuals", "Commissioned by the husband of Moya Yanso, a prolific dancer"],
+        "Content": ["Triangle marks on forehead and cheeks, a stretched face", "Squinted eyes and high forehead show wisdom and modesty; carved hair and tubular crown"],
+        "Context": "Owie Kimou, Baule peoples (Côte d’Ivoire)",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Bundu mask",
+        "Group": ["Apparel"],
+        "Image": "https://apstudy.github.io/ap-art-history/images/Bundu%20mask.png",
+        "Date": "1800s-1900s CE",
+        "Materials": "Wood, cloth, and fiber",
+        "Function": "Worn by women in girl's initiation ceremonies; displays an ideal to be mimicked",
+        "Content": "High forehead, downcast eyes, and a small mouth; elaborate coiffure",
+        "Context": "Sande Society, Mende peoples (West African forests of Sierra Leone and Liberia)",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Ikenga (shrine figure)",
+        "Group": ["Sculptures & Carvings", "Items"],
+        "Image": "https://apstudy.github.io/ap-art-history/images/Ikenga.png",
+        "Date": "c. 1800s-1900s CE",
+        "Materials": "Wood carving",
+        "Function": "Recieved upon a male's coming of age; an expression of personal achievement and success",
+        "Content": ["Very abstract antropomorphic figure with a horned headdress; covered in geometric patterns", "Two vertical horns display power, strength, and agression"],
+        "Context": "Igbo peoples (Nigeria)",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Lukasa (memory board)",
+        "Group": ["Items"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2022/11/Lukasa.jpeg",
+        "Date": "c. 1800s-1900s CE",
+        "Materials": "Wood, beads, and metal",
+        "Function": "Mnemonic device for oral history, genealogy, and cosmology",
+        "Content": ["Board with beads and shells attached in patterns", "Geometric zoomorphic texture along the side and back"],
+        "Context": "Mbudye Society, Luba peoples (Democratic Republic of the Congo)",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Aka elephant mask",
+        "Group": ["Apparel"],
+        "Image": "https://apstudy.github.io/ap-art-history/images/Aka.png",
+        "Date": "c. 1800s-1900s CE",
+        "Materials": "Wood, woven raffia, cloth, and beads",
+        "Function": "Worn for important events such as funerals, festivals, or celebrations of chiefs, along with a full costume",
+        "Content": "Horror vacui design with a repeating geometric pattern; large ears, trunk in front, and flap on back",
+        "Context": "Bamileke (Cameroon, western grassfields region)",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Byeri (reliquary figure)",
+        "Group": ["Sculptures & Carvings"],
+        "Image": "https://apstudy.github.io/ap-art-history/images/Reliquary%20figure.png",
+        "Date": "c. 1800s-1900s CE",
+        "Materials": "Wood carving",
+        "Function": "Guarded a container of relics; protected the bones of community members, medicine, and beads",
+        "Content": "Calm and serene face with a high forehead, downcast eyes, and a small mouth; elaborate coiffure and elongated torso",
+        "Context": "Fang peoples (southern Cameroon)",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      },
+      {
+        "Term": "Opo Ogoga (veranda post of enthroned king and senior wife)",
+        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Image": "https://smarthistory.org/wp-content/uploads/2019/10/IMG_5717.jpg",
+        "Date": "c. 1910-1914 CE",
+        "Materials": "Wood and pigment",
+        "Function": "Structural post of the palace porch",
+        "Content": ["Consists of two central figures and three smaller attendants (one missing)","Crown has four faces and a bird on top representing transformational abilities and protection"],
+        "Context": "Olowe of Ise (Yoruba peoples, Nigeria)",
+        "Sentence": ["aaa ", ["bbb"], " ccc"]
+      }
     ],
 
 
@@ -177,8 +332,8 @@
         "Materials": "Basalt boulders and prismatic columns",
         "Function": "Capital of the Saudeleur Dynasty; ceremonial center",
         "Content": "Complex of around 100 artificial islets with mortuary, religious, and residential sections",
-        "Context": "Pohnpei, Micronesia. Saudeleur Dynasty",
-        "Sentence": ["Similarly to Stonehenge, ", ["Nan Madol"], " can be called megalthic, as it is made of large stones (in this case, basalt)"]
+        "Culture": "Saudeleur Dynasty. Pohnpei, Micronesia",
+        "Context": "The 1,850 tons of basalt were assembled without mortar, and with a population of less than 30,000"
       },
       {
         "Term": "Moai on platform (ahu)",
@@ -187,9 +342,9 @@
         "Date": "c. 1100-1600 CE",
         "Materials": "Volcanic tuff figures on basalt base",
         "Function": "Honor a passed chief and protect the islanders",
-        "Content": ["Large, 14 ft tall figures, weighing several tons", "Some figures had coral eyes and red volcanic stone hats", "Had carvings on their back which were added by the later birdman cult"],
-        "Context": "Rapa Nui (Easter Island)",
-        "Sentence": ["The moai of Rapa Nui always faced ", ["towards", "toward"], " the island, as they were meant to protect the islanders"]
+        "Content": ["Large, 14 ft tall figures, weighing several tons", "Some figures had coral eyes and red volcanic stone hats", "Always faced inland (with one exception)"],
+        "Culture": "Rapa Nui (Easter Island)",
+        "Context": "Carvings on the back were added by the later birdman cult"
       },
       {
         "Term": "‘Ahu ‘ula (feather cape)",
@@ -199,8 +354,8 @@
         "Materials": "Feathers and fiber",
         "Function": "Worn ceremonially and in battle by Hawaiian chiefs; gifted as a sign of respect",
         "Content": "Contained thousands of feathers from rare birds",
-        "Context": "Hawaiian Islands",
-        "Sentence": ["The ", ["ahuula", "ahu ula"], "(no punctuation) was made from feathers of the i'iwi bird, which was considered sacred by the Hawaiians"]
+        "Culture": "Hawaiian Islands",
+        "Context": ["Symbol of power and status; was gifted to Captain Cook and other European visitors","Made from feathers of the i'iwi bird, which was considered sacred by the Hawaiians"]
       },
       {
         "Term": "Staff god",
@@ -210,8 +365,8 @@
         "Materials": "Wood, tapa, fiber, and feathers",
         "Function": "Religious artifact; represented dieties and ancestors; protects and contains mana",
         "Content": ["Carved wooden figure with a tapa cloth wrapped around it", "Wooden shaft has small figures on one side and a feathered pendant"],
-        "Context": "Rarotonga, Cook Islands, central Polynesia",
-        "Sentence": ["The ", ["staff god"], " combines male and female elements by having a ", ["wooden", "wood"], " core (made by men), and ", ["barkcloth", "tapa"], " covering (made by women)"]
+        "Culture": "Rarotonga, Cook Islands, central Polynesia",
+        "Context": "Combines male and female elements; wood core made by men and barkcloth covering by women"
       },
       {
         "Term": "Female deity",
@@ -221,8 +376,8 @@
         "Materials": "Wood",
         "Function": "Sacred object representing a deity; centerpiece of ceremonies",
         "Content": ["Wooden sculpture with an ovoid head, pointy chin, tall chest, and short legs", "Has minimal personal features, but was dressed/decorated in temples"],
-        "Context": "Nukuoro, Micronesia",
-        "Sentence": ["The female deity has defined facial features to make it more personalized to the diety it represents. ", ["false"], "(true/false)"]
+        "Culture": "Nukuoro, Micronesia",
+        "Context": ["Each figure had a specific name to associated with a family group, priest, and temple", "Central place in a religious harvest ceremony; harvested fruits and food offerings brought to it"]
       },
       {
         "Term": "Buk (mask)",
@@ -232,8 +387,8 @@
         "Materials": "Turtle shell, wood, fiber, feathers, and shell",
         "Function": "Worn along with a full-body costume for dances and ceremonies",
         "Content": ["Displays a human face below a frigate bird", "Rafia fibers mimic human hair, and shells are used for eyes"],
-        "Context": "Torres Strait, Mabuiag Island",
-        "Sentence": ["In Buk masks, the human face may have represented heroes or ancestores, while the frigate bird may have been a ", ["totem"]]
+        "Culture": "Torres Strait, Mabuiag Island",
+        "Context": ["Most of these masks were destroyed by missionaries in the 19th century","Human face may have represented heroes or ancestors, while the frigate bird may have been a totem"]
       },
       {
         "Term": "Hiapo (tapa)",
@@ -243,8 +398,8 @@
         "Materials": "Tapa or bark cloth, freehand painting",
         "Function": "Clothing, bedding, and wall hangings; displayed ceremonially",
         "Content": "Concentric circles divided radially with organic (leaves/flowers), and geometric designs",
-        "Context": "Niue, Polynesia",
-        "Sentence": ["Typically ", ["hiapo", "tapa"], " cloths were made and decorated by women"]
+        "Culture": "Niue, Polynesian",
+        "Context": "Typically, these cloths were made by women"
       },
       {
         "Term": "Tamati Waka Nene",
@@ -254,8 +409,9 @@
         "Materials": "Oil on canvas",
         "Function": "Displayed in Māori homes and European museums, created for profit",
         "Content": ["Depicted in traditional clothing - cloak of kiwi feathers, greenstone pendant, and a tiki (weapon)", "Emphasis on figure through yellow lighting - glows against the background", "Depicts facial tattoo - lines and swirls"],
-        "Context": ["Māori, New Zealand", "Gottfried Lindauer painted it off of a photograph"],
-        "Sentence": ["Māori paintings embody the ancestor they depict. The painting of ", ["Tamati Waka Nene"], " is meant to honor the important chief"]
+        "Culture": "Māori, New Zealand",
+        "Context": ["Painting was based off of a photograph of the chief, and was commissioned by a European buyer", "Māori paintings embody the ancestor they depict"],
+        "Artist": "Gottfried Lindauer"
       },
       {
         "Term": "Navigation chart",
@@ -265,29 +421,29 @@
         "Materials": "Wood and fiber",
         "Function": ["Used to memorize routes on land, but not navigate","Map that marks island locations, currents, and wave patterns"],
         "Content": "Shells mark island locations, diagonal and curved sticks mark ocean swells and currents",
-        "Context": "Marshall Islands, Micronesia"
+        "Culture": "Marshall Islands, Micronesia"
       },
       {
         "Term": "Malagan display and mask",
-        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Group": ["Sculptures & Carvings"],
         "Image": ["https://smarthistory.org/wp-content/uploads/2017/02/metmalsm-870x766.jpg","https://smarthistory.org/wp-content/uploads/2017/03/lacmamalagansm-870x1217.jpg"],
         "Date": "c. 1900s CE",
         "Materials": "Wood, pigment, fiber, and shell",
         "Function": "Displayed in mortuary rituals to represent the deceased",
         "Content": ["Include depictions of animals, birds, and fish; colored with a red, blue, and white palette", "Have highly textured surfaces, especially in the face carving and hair"],
-        "Context": "New Ireland Province, Papua New Guinea",
-        "Sentence": ["The people of New Ireland conduct mortuary rituals in the dry season, in which a ", ["malagan"], " carving is brought into the social world"]
+        "Culture": "New Ireland Province, Papua New Guinea",
+        "Context": "Brought into the social world during the dry season, in mortuary rituals"
       },
       {
         "Term": "Presentation of Fijian mats and tapa cloths to Queen Elizabeth II",
-        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Group": ["Items"],
         "Image": "https://smarthistory.org/wp-content/uploads/2022/07/Fiji-1.png",
         "Date": "1953 CE",
         "Materials": "Multimedia performance (costume; cosmetics, including scent; chant; movement; and pandanus fiber/hibiscus fiber mats), photographic documentation",
         "Function": "Gift to the Queen; performance of Fijian culture",
         "Content": "Women wearing barkcloth skirts painted with geometric patterns; mats contain simple geometric pattern (functional)",
-        "Context": "Fiji, Polynesia; Masi cloths highly valued",
-        "Sentence": ["Queen ", ["Elizabeth", "Elizabeth II"], " and her husband went on a tour of the British Commonwealth in 1953, including visiting ", ["Fiji"], " where they were greeted by gift of mats and tapa cloths"]
+        "Culture": "Fiji, Polynesia",
+        "Context": "Taken during a royal tour of the British Commonwealth in 1953"
       }
     ],
 
