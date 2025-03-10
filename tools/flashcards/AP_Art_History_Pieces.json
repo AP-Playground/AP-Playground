@@ -81,7 +81,7 @@
         "Function": "Grave marker",
         "Content": "Abstract robed figure with a necklace, awl, belt, and dagger",
         "Culture": "Neolithic Saudi Arabia, Arabian Peninsula",
-        "Context": "Cemetary; the design's similarity to others shows the region's early caravan trade routes"
+        "Context": "Cemetery; the design's similarity to others shows the region's early caravan trade routes"
       },
       {
         "Term": "Jade cong",
@@ -111,10 +111,10 @@
         "Image": "https://smarthistory.org/wp-content/uploads/2016/09/ambumnga.jpg",
         "Date": "c. 1500 BCE",
         "Materials": "Greywacke",
-        "Function": "Mortar and pestel, later ancestral object",
+        "Function": "Mortar and pestle, later ancestral object",
         "Content": "Stylized animal (echidna?)",
         "Culture": "Enga Province, Neolithic Papua New Guinea",
-        "Context": "Prior to their conversion to Chirstianity, the Enga people used it to represent ancestors"
+        "Context": "Prior to their conversion to Christianity, the Enga people used it to represent ancestors"
       },
       {
         "Term": "Tlatilco female figurine",
@@ -125,7 +125,7 @@
         "Function": "Funerary object",
         "Content": ["Bicephalic female figure", "Shows wide hips and a focus on hairstyle (valued by the civilization)"],
         "Culture": "Tlatilco civilization, Central Mexico",
-        "Context": "Male figures from this culture were rare, and focused on relgious and ritual expertise"
+        "Context": "Male figures from this culture were rare, and focused on religious and ritual expertise"
       },
       {
         "Term": "Terra cotta fragment",
@@ -164,10 +164,10 @@
         "Image": ["https://smarthistory.org/wp-content/uploads/2023/03/Great-zim-aerial-looking-West-copy-2048x1361.jpg","https://upload.wikimedia.org/wikipedia/commons/d/d4/Conical_Tower_-_Great_Enclosure_III_%2833736918448%29.jpg","https://upload.wikimedia.org/wikipedia/commons/d/d6/Great_zimbabwe_2.jpg","https://smarthistory.org/wp-content/uploads/2023/03/28037480480_637c2367a5_5k-2048x1536.jpg","https://upload.wikimedia.org/wikipedia/commons/9/9d/Zimbabwe_wall.jpg"],
         "Date": "c. 1000-1400 CE",
         "Materials": "Coursed granite blocks with no mortar",
-        "Function": "City and center of trade",
+        "Function": ["City and center of trade", "Conical tower may have served as a granary"],
         "Content": ["Hill Complex, Great Enclosure, and Valley Enclosures", "Over 800 ft of wall, over 32 ft high and 17 ft thick at base"],
-        "Context": "Shone peoples (Southeastern Zimbabwe)",
-        "Sentence": ["The conical tower of ", ["Great Zimbabwe"], " may have functioned as a granary"]
+        "Culture": "Shona peoples (Southeastern Zimbabwe)",
+        "Context": ["Prospered from cattle herding, gold mining, and Indian Ocean trade", "May have declined due to environmental fragility, political instability, or livestock diseases"]
       },
       {
         "Term": "Great Mosque of Djenné",
@@ -176,9 +176,9 @@
         "Date": "Founded c. 1200 ce; rebuilt 1906-1907 ce",
         "Materials": "Adobe (mud brick) and wooden scaffolding",
         "Function": "Islamic religious worship",
-        "Content": ["Hypostyle hall, three minarets, and a flat roof"],
-        "Context": "Mali Empire",
-        "Sentence": ["The ", ["Great Mosque","Mosque"], " of Djenné has ", ["ostrich"], " eggs placed on its minarets to symbolize purity"]
+        "Content": ["Hypostyle hall, three minarets, and a flat roof","Ostrich eggs placed on minarets to symbolize purity"],
+        "Culture": "Mali Empire, Islamic",
+        "Context": "Is re-plastered annually in the festival of Crépissage de la Grand Mosquée"
       },
       {
         "Term": "Wall plaque, from Oba’s palace",
@@ -187,9 +187,9 @@
         "Date": "1500s CE",
         "Materials": "Cast brass",
         "Function": "Showed the lineage and history of the Benin kingdom",
-        "Content": ["King flanked by attendants and Portuguese traders", "Hierarchical scale, the king is the largest figure"],
-        "Context": "Edo peoples, Kingdom of Benin (Nigeria)",
-        "Sentence": ["The wall plaque from Oba’s palace was made using the ", ["lost wax"], " casting technique"]
+        "Content": ["King flanked by attendants and Portuguese traders", "Hierarchical scale, the king is the largest figure","Panel made with the lost wax casting technique"],
+        "Culture": "Edo peoples, Kingdom of Benin (Nigeria)",
+        "Context": "Portugues traders exchanged brass and coral for pepper, cloth, and stone beads"
       },
       {
         "Term": "Sika dwa kofi (Golden Stool)",
@@ -199,8 +199,8 @@
         "Materials": "Gold over wood and cast-gold attachments",
         "Function": "Represents the soul of the Ashanti people",
         "Content": ["Has a flat seat and two curved legs", "Accompanied by golden bells"],
-        "Context": "Ashanti peoples (south central Ghana)",
-        "Sentence": ["The Ashanti believe that the ", ["Golden Stool"], " fell from the heavens into the lap of their first king"]
+        "Culture": "Ashanti peoples (south central Ghana)",
+        "Context": "Ashanti believe that it fell from the heavens into the lap of their first king"
       },
       {
         "Term": "Ndop (portrait figure)",
@@ -208,10 +208,10 @@
         "Image": "https://smarthistory.org/wp-content/uploads/2022/10/61.33_PS2-870x1160.jpg",
         "Date": "c. 1760-1780 CE",
         "Materials": "Wood coated in oil",
-        "Function": "Commemmorative object",
+        "Function": "Commemorative object",
         "Content": ["Depicts King Mishe miShyaang maMbul as an ideal ruler - calm, intelligent, and meditative", "Has a serene expression and an oversized head", "Wearing a crown, arm bands, and sits cross legged on a stool"],
-        "Context": "Kuba peoples (Democratic Republic of the Congo)",
-        "Sentence": ["The ", ["ndop"], " is holding a drum which helps identify the ruler it depicts"]
+        "Culture": "Kuba peoples (Democratic Republic of the Congo)",
+        "Context": "The held drum has an motif that identifies the ruler"
       },
       {
         "Term": "Nkisi n'kondi (power figure)",
@@ -221,8 +221,8 @@
         "Materials": "Wood and metal",
         "Function": ["Stores herbs and medicine in the chest cavity", "Acts as a judicial authority (pegs driven into the figure to seal agreements)"],
         "Content": ["Human figure 4 ft tall with a chest cavity (mooyo)", "Covered in metal spikes and nails"],
-        "Context": "Kongo peoples (Democratic Republic of the Congo)",
-        "Sentence": ["The ", ["power"], " figure represented a spirit that could bless and curse individuals to enforce contracts"]
+        "Culture": "Konga peoples (Democratic Republic of the Congo)",
+        "Context": "Believed to hold a spirit that blessed or cursed individuals to enforce contracts"
       },
       {
         "Term": "Female (pwo) mask",
@@ -232,8 +232,8 @@
         "Materials": "Wood, fiber, pigment, and metal",
         "Function": "Worn by men in initiation ceremonies of adolescent boys",
         "Content": "White pigment around the eyes signifies the spirit realm; closed eyes and mouth",
-        "Context": "Chokwe peoples (Democratic Republic of the Congo)",
-        "Sentence": ["aaa ", ["bbb"], " ccc"]
+        "Culture": "Chokwe peoples (Democratic Republic of the Congo)", 
+        "Context": "Perceieved as spirits of deceased; presents ideal womanhood"
       },
       {
         "Term": "Mblo (portrait mask)",
@@ -241,10 +241,11 @@
         "Image": "https://smarthistory.org/wp-content/uploads/2022/07/portrait-copy-870x1237.png",
         "Date": "Early 1900s CE",
         "Materials": "Wood and pigment",
-        "Function": ["Used in dances to honor individuals", "Commissioned by the husband of Moya Yanso, a prolific dancer"],
+        "Function": "Used in dances to honor individuals",
         "Content": ["Triangle marks on forehead and cheeks, a stretched face", "Squinted eyes and high forehead show wisdom and modesty; carved hair and tubular crown"],
-        "Context": "Owie Kimou, Baule peoples (Côte d’Ivoire)",
-        "Sentence": ["aaa ", ["bbb"], " ccc"]
+        "Culture": "Baule peoples (Côte d’Ivoire)",
+        "Context": "Commissioned by the husband of Moya Yanso, a prolific dancer",
+        "Artist": "Owie Kimou"
       },
       {
         "Term": "Bundu mask",
@@ -254,8 +255,8 @@
         "Materials": "Wood, cloth, and fiber",
         "Function": "Worn by women in girl's initiation ceremonies; displays an ideal to be mimicked",
         "Content": "High forehead, downcast eyes, and a small mouth; elaborate coiffure",
-        "Context": "Sande Society, Mende peoples (West African forests of Sierra Leone and Liberia)",
-        "Sentence": ["aaa ", ["bbb"], " ccc"]
+        "Culture": "Sande Society, Mende peoples (Sierra Leone/Liberia)",
+        "Context": "West African forests of Sierra Leone and Liberia; represents ideal womanhood"
       },
       {
         "Term": "Ikenga (shrine figure)",
@@ -263,10 +264,10 @@
         "Image": "https://apstudy.github.io/ap-art-history/images/Ikenga.png",
         "Date": "c. 1800s-1900s CE",
         "Materials": "Wood carving",
-        "Function": "Recieved upon a male's coming of age; an expression of personal achievement and success",
-        "Content": ["Very abstract antropomorphic figure with a horned headdress; covered in geometric patterns", "Two vertical horns display power, strength, and agression"],
-        "Context": "Igbo peoples (Nigeria)",
-        "Sentence": ["aaa ", ["bbb"], " ccc"]
+        "Function": "Expression of power, warrior status, and personal achievement or success",
+        "Content": ["Very abstract anthropomorphic figure with a horned headdress; covered in geometric patterns", "Two vertical horns display power, strength, and aggression"],
+        "Culture": "Igbo peoples (Nigeria)",
+        "Context": "Received upon a male's coming of age; buried with its owner"
       },
       {
         "Term": "Lukasa (memory board)",
@@ -276,8 +277,8 @@
         "Materials": "Wood, beads, and metal",
         "Function": "Mnemonic device for oral history, genealogy, and cosmology",
         "Content": ["Board with beads and shells attached in patterns", "Geometric zoomorphic texture along the side and back"],
-        "Context": "Mbudye Society, Luba peoples (Democratic Republic of the Congo)",
-        "Sentence": ["aaa ", ["bbb"], " ccc"]
+        "Culture": "Luba peoples (Democratic Republic of the Congo)",
+        "Context": "Interpreted exclusively by members of the Mbudye Society"
       },
       {
         "Term": "Aka elephant mask",
@@ -285,10 +286,10 @@
         "Image": "https://apstudy.github.io/ap-art-history/images/Aka.png",
         "Date": "c. 1800s-1900s CE",
         "Materials": "Wood, woven raffia, cloth, and beads",
-        "Function": "Worn for important events such as funerals, festivals, or celebrations of chiefs, along with a full costume",
+        "Function": "Worn for important ceremonial events, along with a full costume (leopard skin on back and conical headdress)",
         "Content": "Horror vacui design with a repeating geometric pattern; large ears, trunk in front, and flap on back",
-        "Context": "Bamileke (Cameroon, western grassfields region)",
-        "Sentence": ["aaa ", ["bbb"], " ccc"]
+        "Culture": "Bamileke peoples (Cameroon, western grassfields region)",
+        "Context": "Elephants are symbols of power and authority; masks are worn by the Kuosi society"
       },
       {
         "Term": "Byeri (reliquary figure)",
@@ -296,21 +297,22 @@
         "Image": "https://apstudy.github.io/ap-art-history/images/Reliquary%20figure.png",
         "Date": "c. 1800s-1900s CE",
         "Materials": "Wood carving",
-        "Function": "Guarded a container of relics; protected the bones of community members, medicine, and beads",
+        "Function": "Guarded and protected a box storing the bones of community members, medicine, and beads",
         "Content": "Calm and serene face with a high forehead, downcast eyes, and a small mouth; elaborate coiffure and elongated torso",
-        "Context": "Fang peoples (southern Cameroon)",
-        "Sentence": ["aaa ", ["bbb"], " ccc"]
+        "Culture": "Fang peoples (southern Cameroon)",
+        "Context": "The figure was placed on top of the box; warriors, skilled craftsmen, abd leaders valued"
       },
       {
         "Term": "Opo Ogoga (veranda post of enthroned king and senior wife)",
-        "Group": ["Architecture", "Apparel", "Paintings", "Sculptures & Carvings", "Items"],
+        "Group": ["Architecture", "Sculptures & Carvings"],
         "Image": "https://smarthistory.org/wp-content/uploads/2019/10/IMG_5717.jpg",
         "Date": "c. 1910-1914 CE",
         "Materials": "Wood and pigment",
         "Function": "Structural post of the palace porch",
         "Content": ["Consists of two central figures and three smaller attendants (one missing)","Crown has four faces and a bird on top representing transformational abilities and protection"],
-        "Context": "Olowe of Ise (Yoruba peoples, Nigeria)",
-        "Sentence": ["aaa ", ["bbb"], " ccc"]
+        "Culture": "Yoruba peoples (Nigeria)",
+        "Context": ["The parallel facial marks and scarification patterns identify lineage and status (respectively)", "Filing of teeth was a sign of beauty and rank; elaborate hairstyle worn for special occasions"],
+        "Artist": "Olowe of Ise"
       }
     ],
 
@@ -363,7 +365,7 @@
         "Image": ["https://smarthistory.org/wp-content/uploads/2022/08/818651001.jpg","https://smarthistory.org/wp-content/uploads/2022/08/886975001.jpg"],
         "Date": "Late 1700s-early 1800s CE",
         "Materials": "Wood, tapa, fiber, and feathers",
-        "Function": "Religious artifact; represented dieties and ancestors; protects and contains mana",
+        "Function": "Religious artifact; represented deities and ancestors; protects and contains mana",
         "Content": ["Carved wooden figure with a tapa cloth wrapped around it", "Wooden shaft has small figures on one side and a feathered pendant"],
         "Culture": "Rarotonga, Cook Islands, central Polynesia",
         "Context": "Combines male and female elements; wood core made by men and barkcloth covering by women"
