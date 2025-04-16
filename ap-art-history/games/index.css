@@ -1,0 +1,33 @@
+label {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: start;
+}
+
+label:not(:last-child){
+  margin-bottom: .5rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: #45818e;
+  margin-right: .5rem;
+}
+
+button[type="submit"] {
+  padding: .5rem 1rem;
+  background-color: #45818e;
+  color: white;
+  border: none;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  filter: brightness(0.9);
+}
+
+fieldset {
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+}

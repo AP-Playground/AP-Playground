@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards | AP-Study</title>
+  <link href="/styles/dropdown.css" rel="stylesheet">
+  <link href="/styles/generic.css" rel="stylesheet">
+  <link href="/styles/header.css" rel="stylesheet">
+  <link href="/tools/flashcards/flashcards.css" rel="stylesheet">
+  <link rel="icon" href="/favicon.png">
+</head>
+
+<body>
+  <script src="/js/header.js" class="header"></script>
+  <main tabindex="0">
+    <nav class="link-bar">
+      <a href="/tools">Tools</a>
+      <span>▸</span>
+      <a href="/tools/flashcards/">Flashcards</a>
+    </nav>
+    <h1>Flashcards</h1>
+    <select id="subjectSel" class="select">
+      <option value="" disabled selected hidden>Select a subject/class</option>
+      <option value="AP_Art_History_Pieces">AP Art History (Pieces)</option>
+      <option value="AP_Art_History_Terms">AP Art History (Terms)</option>
+      <option value="AP_World_History">AP World History</option>
+      <option value="AP_Biology">AP Biology</option>
+    </select>
+    <span class="dropdown-wrapper">
+      <button id="unitSel" class="select" disabled tabindex="0"><span>Select a unit</span> <span>⌵</span>
+        <form>
+          <input type="checkbox" id="unitall" onclick="checkUnit(event)">
+          <label for="unitall">All Units</label><br>
+        </form>
+      </button>
+    </span>
+    <span class="dropdown-wrapper">
+      <button id="groupSel" class="select" disabled tabindex="0"><span>Select a group of terms</span> <span>⌵</span>
+        <form>
+          <input type="checkbox" id="groupall" onclick="checkGroup(event)">
+          <label for="groupall">All Terms</label><br>
+        </form>
+      </button>
+    </span>
+    <div id="game">
+      <div id="gameHeader">
+        <div>
+          <select id="gameType" class="select" disabled>
+            <option value="" disabled selected hidden>Select a game type</option>
+          </select>
+          <select id="maxCards" class="select" disabled>
+            <option value="" disabled selected hidden>Select the game length</option>
+            <option value="25">&le;25 cards</option>
+            <option value="50">&le;50 cards</option>
+            <option value="100">&le;100 cards</option>
+            <option value="150">&le;150 cards</option>
+            <option value="200">&le;200 cards</option>
+            <option value="250">&le;250 cards</option>
+            <option value="10000">No maximum</option>
+          </select>
+        </div>
+        <div id="gameInfo" class="closed">
+          <span id="gameScore">0/0</span>
+          <span id="gameTimer">00:00</span>
+        </div>
+      </div>
+      <div id="gameContainer" hidden>
+        <div id="gameOverlay">
+          <div id="gameOutput" hidden>
+            <h1>Congratulations!</h1>
+            <p>Output</p>
+            <button id="replayBtn">Play again</button>
+          </div>
+          <button id="playBtn">
+            <img src="/svgs/play-btn.svg">
+          </button>
+        </div>
+        <div id="sentencesBoard" hidden>
+          <div id="sentenceControls">
+            <button id="prevSentence" disabled><img src="/svgs/play-btn.svg"></button>
+            <button id="nextSentence"><img src="/svgs/play-btn.svg"></button>
+          </div>
+        </div>
+        <div id="matchingBoard" style="display: none;">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+        <div id="categoryBoard" style="display: none;">
+          <button id="categoryCard"></button>
+          <span id="categorySelectNum">Select all that apply</span>
+          <div id="categoryOptions"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="/tools/flashcards/flashcards.js"></script>
+</body>
+
+</html>
