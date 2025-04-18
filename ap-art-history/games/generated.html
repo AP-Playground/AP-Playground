@@ -8,7 +8,7 @@
   <link href="/styles/dropdown.css" rel="stylesheet">
   <link href="/styles/generic.css" rel="stylesheet">
   <link href="/styles/header.css" rel="stylesheet">
-  <link href="/ap-art-history/games/index.css" rel="stylesheet">
+  <link href="/ap-art-history/games/generated.css" rel="stylesheet">
   <link rel="icon" href="/favicon.png">
 </head>
 
@@ -22,18 +22,40 @@
     </nav>
     <h1>AP Art History Practice Game</h1>
 
-    <div id="game-container">
+    <div id="loading">
+      <div></div>
+      <p>Loading...</p>
+    </div>
+
+    <div id="game-container" style="display: none">
       <div id="game-play-area">
-        <button>Submit</button>
-        <button>Continue</button>
+        <div id="game-location">
+
+        </div>
+        <div id="game-date">
+          <label for="game-date-input">Date:</label>
+          <input type="number" id="game-date-input" placeholder="YYYY">
+          <button id="game-date-toggle">CE</button>
+          <span id="game-date-feedback"></span>
+        </div>
+        <div id="game-artist">
+
+        </div>
+        <div id="game-style">
+
+        </div>
+
+        <button id="submit">Submit</button>
+        <button id="continue" hidden>Continue</button>
       </div>
       <div id="game-identifiers">
-        <p id="game-identifier-image"></p>
+        <img id="game-identifier-image"></img>
         <p id="game-identifier-title"></p>
       </div>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
+    <script src="/ap-art-history/games/generated.js"></script>
     
     <script src="/js/dropdown.js"></script>
   </main>
