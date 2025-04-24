@@ -29,7 +29,7 @@
 
 #game-container {
   display: grid;
-  grid-template-columns: 1fr 30%;
+  grid-template-columns: 70% 30%;
   justify-content: center;
   text-align: center;
   
@@ -72,7 +72,7 @@
   & img {
     max-width: 100%;
     max-height: 300px;
-    margin: auto;
+    margin-inline: auto;
   }
 }
 
@@ -115,5 +115,42 @@
   & #game-date-toggle {
     background-color: white;
     border: 1px solid black;
+  }
+}
+
+#game-location {
+  position: relative;
+  & #game-location-map {
+    width: 100%;
+    user-select: none;
+    cursor: pointer;
+  }
+  & #game-location-container {
+    position: relative;
+    display: grid;
+  }
+  & #game-location-selection {
+    position: absolute;
+    width: 0;
+    height: 0;
+    display: none;
+    align-items: end;
+    justify-content: center;
+    & img {
+      width: 20px;
+      pointer-events: none;
+    }
+  }
+  & #game-location-correct {
+    position: absolute;
+    width: 0;
+    height: 0;
+    display: none;
+    align-items: end;
+    justify-content: center;
+    & img {
+      width: 20px;
+      pointer-events: none;
+    }
   }
 }

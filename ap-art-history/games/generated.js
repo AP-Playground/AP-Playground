@@ -56,7 +56,11 @@ function loadGame() {
     gameDate.style.display = "none";
   }
   if (games.includes("artist")) {}
-  if (games.includes("location")) {}
+  if (games.includes("location")) {
+    gameLocation.style.display = "block";
+  } else {
+    gameLocation.style.display = "none";
+  }
   if (games.includes("style")) {}
 
   loading.style.display = "none";
@@ -72,6 +76,24 @@ function loadCard(card) {
   if (identifier !== "image") {
     identifierTitle.innerText = card.title;
   }
+  if (games.includes("date")) {
+    dateInput.classList.remove("correct", "almost-correct", "incorrect");
+    dateInput.value = "";
+    dateInput.disabled = false;
+    dateToggle.disabled = false;
+    dateToggle.innerText = "CE";
+    dateStatus = "CE";
+    dateInput.style.textDecoration = "none";
+    dateFeedback.innerText = "";
+  }
+  if (games.includes("location")) {
+    locationSelection.style.display = "none";
+    locationFeedback.innerText = "(Click on the map to select a location)";
+    locationCorrect.style.display = "none";
+    locationCorrect.style.top = ((90-card["location-coordinate"][1])/180*100) + "%";
+    locationCorrect.style.left = ((card["location-coordinate"][0]+180)/360*100) + "%";
+  }
+
 }
 
 
@@ -114,7 +136,50 @@ function checkAnswer() {
     dateToggle.disabled = true;
   }
   
+  if (games.includes("location")) {
+    if (locationSelection.style.display === "none") {
+      locationFeedback.innerText = cards[0].location;
+    } else {
+      locationCorrect.style.display = "flex";
+      let locSelectionX = Number.parseFloat(locationSelection.style.left)*3.6-180;
+      let locSelectionY = 90-Number.parseFloat(locationSelection.style.top)*1.8;
+      let locCorrectX = cards[0]["location-coordinate"][0];
+      let locCorrectY = cards[0]["location-coordinate"][1];
+      locSelectionX *= Math.PI/180;
+      locSelectionY *= Math.PI/180;
+      locCorrectX *= Math.PI/180;
+      locCorrectY *= Math.PI/180;
+      let radius = 3963.1;
+      let calc = 1-Math.cos(locCorrectY)*Math.cos(locSelectionY)*Math.cos(locCorrectX-locSelectionX)-Math.sin(locCorrectY)*Math.sin(locSelectionY);
+      let distance = 2*Math.asin(Math.sqrt(calc)/2)*radius;
+
+      locationFeedback.innerText = Math.round(distance) + " miles away; " + cards[0].location;
+      if (distance < 150) {
+        score += 1
+      } else if (distance < 500) {
+        score += 1-(distance-150)/350;
+      }
+    }
+  }
 }
+
+
+const locationSelection = document.getElementById("game-location-selection");
+const locationCorrect = document.getElementById("game-location-correct");
+const locationMap = document.getElementById("game-location-map");
+const locationFeedback = document.getElementById("game-location-feedback");
+locationMap.addEventListener("click", (event) => {
+  const rect = locationMap.getBoundingClientRect();
+  const x = event.clientX - rect.left;
+  const y = event.clientY - rect.top;
+  const width = locationMap.width;
+  const height = locationMap.height;
+  const xPercent = (x / width) * 100;
+  const yPercent = (y / height) * 100;
+  locationSelection.style.top = `${yPercent}%`;
+  locationSelection.style.left = `${xPercent}%`;
+  locationSelection.style.display = "flex";
+})
 
 
 const submitButton = document.getElementById("submit");
@@ -126,16 +191,6 @@ submitButton.addEventListener("click", () => {
 });
 
 continueButton.addEventListener("click", () => {
-  if (games.includes("date")) {
-    dateInput.classList.remove("correct", "almost-correct", "incorrect");
-    dateInput.value = "";
-    dateInput.disabled = false;
-    dateToggle.disabled = false;
-    dateToggle.innerText = "CE";
-    dateStatus = "CE";
-    dateInput.style.textDecoration = "none";
-    dateFeedback.innerText = "";
-  }
   submitButton.hidden = false;
   continueButton.hidden = true;
   cards.shift();
