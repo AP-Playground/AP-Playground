@@ -63,6 +63,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
   & p {
     font-weight: bold;
     font-size: 20px;
@@ -80,11 +81,15 @@
 #submit {
   width: 100px;
   margin-inline: auto;
+  border: 1px solid black;
+  background-color: white;
 }
 
 #continue {
   width: 100px;
   margin-inline: auto;
+  border: 1px solid black;
+  background-color: white;
 }
 
 #game-play-area {
@@ -94,27 +99,41 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 1rem;
+}
+
+div:has(> label) {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
   gap: 5px;
 }
 
 #game-date {
-  & #game-date-input {
-    border: 1px solid black;
-    &.correct {
-      background-color: color-mix(in oklab, limegreen 75%, white);
-    }
-    &.almost-correct {
-      background-color: color-mix(in oklab, yellow 75%, white);
-      text-decoration: line-through;
-    }
-    &.incorrect {
-      background-color: color-mix(in oklab, red 75%, white);
-      text-decoration: line-through;
-    }
+  & div {
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    gap: 5px;
   }
   & #game-date-toggle {
     background-color: white;
     border: 1px solid black;
+  }
+}
+
+input {
+  border: 1px solid black;
+  &.correct {
+    background-color: color-mix(in oklab, limegreen 75%, white);
+  }
+  &.almost-correct {
+    background-color: color-mix(in oklab, yellow 75%, white);
+    text-decoration: line-through;
+  }
+  &.incorrect {
+    background-color: color-mix(in oklab, red 75%, white);
+    text-decoration: line-through;
   }
 }
 
@@ -123,7 +142,6 @@
   & #game-location-map {
     width: 100%;
     user-select: none;
-    cursor: pointer;
   }
   & #game-location-container {
     position: relative;
@@ -139,6 +157,7 @@
     & img {
       width: 20px;
       pointer-events: none;
+      user-select: none;
     }
   }
   & #game-location-correct {
@@ -150,7 +169,7 @@
     justify-content: center;
     & img {
       width: 20px;
-      pointer-events: none;
+      user-select: none;
     }
   }
 }

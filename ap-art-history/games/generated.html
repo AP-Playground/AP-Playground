@@ -29,6 +29,7 @@
 
     <div id="game-container" style="display: none">
       <div id="game-play-area">
+
         <div id="game-location">
           <div id="game-location-container">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Blue_Marble_2002.png/960px-Blue_Marble_2002.png" id="game-location-map">
@@ -41,17 +42,26 @@
           </div>
           <div id="game-location-feedback">(Click on the map to select a location)</div>
         </div>
+
         <div id="game-date">
           <label for="game-date-input">Date:</label>
           <input type="number" id="game-date-input" placeholder="YYYY">
-          <button id="game-date-toggle">CE</button>
-          <span id="game-date-feedback"></span>
+          <div>
+            <button id="game-date-toggle">CE</button>
+            <span id="game-date-feedback"></span>
+          </div>
         </div>
+
         <div id="game-artist">
-
+          <label for="game-artist-input">Artist:</label>
+          <input type="text" id="game-artist-input" placeholder="Last or full name" autocomplete="off">
+          <span id="game-artist-feedback"></span>
         </div>
+        
         <div id="game-style">
-
+          <label for="game-style-input">Style:</label>
+          <input type="text" id="game-style-input" placeholder="Art style/period" autocomplete="off">
+          <span id="game-style-feedback"></span>
         </div>
 
         <button id="submit">Submit</button>
@@ -63,7 +73,6 @@
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
     <script src="/ap-art-history/games/generated.js"></script>
     
     <script src="/js/dropdown.js"></script>
