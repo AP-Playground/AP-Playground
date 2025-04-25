@@ -51,9 +51,9 @@ function loadGame() {
   }
 
   gameDate.style.display = games.includes("date") ? "grid" : "none";
-  gameArtist.style.display = games.includes("artist") ? "grid" : "none";
   gameLocation.style.display = games.includes("location") ? "block" : "none";
   gameStyle.style.display = games.includes("style") ? "grid" : "none";
+  gameArtist.style.display = "none";
   
   loading.style.display = "none";
   gameContainer.style.display = "grid";
@@ -93,6 +93,8 @@ function loadCard(card) {
     locationMap.style.cursor = "pointer";
   }
   if (games.includes("artist")) {
+    gameArtist.style.display = (card.artist) ? "grid" : "none";
+
     artistInput.classList.remove("correct", "almost-correct", "incorrect");
     artistInput.value = "";
     artistInput.disabled = false;
@@ -135,9 +137,11 @@ function checkAnswer() {
 }
 
 function checkArtist() {
+  if (!cards[0].artist) return;
+
+  artistFeedback.innerText = cards[0].artist[0];
   if (artistInput.value === "") {
     artistInput.classList.add("incorrect");
-    artistFeedback.innerText = cards[0].artist[0];
     return;
   }
   let artist = artistInput.value;
@@ -145,8 +149,8 @@ function checkArtist() {
 
   let closest = 10000;
   let closestIndex = -1;
-  styleCorrect.forEach((s,i) => {
-    let distance = levenshtein(style, s);
+  artistCorrect.forEach((s,i) => {
+    let distance = levenshtein(artist, s);
     if (distance < closest) {
       closest = distance;
       closestIndex = i;
@@ -156,21 +160,19 @@ function checkArtist() {
   if (closest === 0) {
     artistInput.classList.add("correct");
     score += 1;
-  } else if (closest < 3) {
-    styleInput.classList.add("almost-correct");
-    score += 1-closest/10;
+  } else if (closest < artist.length/2) {
+    artistInput.classList.add("almost-correct");
+    score += 1-closest/artist.length;
   } else {
-    styleInput.classList.add("incorrect");
+    artistInput.classList.add("incorrect");
   }
-  
-  artistFeedback.innerText = artistCorrect[0];
 }
 
 
 function checkStyle() {
+  styleFeedback.innerText = cards[0].style.join(", ");
   if (styleInput.value === "") {
     styleInput.classList.add("incorrect");
-    styleFeedback.innerText = cards[0].style.join(", ");
     return;
   }
   let style = styleInput.value;
@@ -189,18 +191,18 @@ function checkStyle() {
   if (closest === 0) {
     styleInput.classList.add("correct");
     score += 1;
-  } else if (closest < 3) {
+  } else if (closest < style.length/2) {
     styleInput.classList.add("almost-correct");
-    score += 1-closest/10;
+    score += 1-closest/style.length;
   } else {
     styleInput.classList.add("incorrect");
   }
-
-  styleFeedback.innerText = styleCorrect.join(", ");
 }
 
 
 function checkDate() {
+  dateInput.disabled = true;
+  dateToggle.disabled = true;
   if (dateInput.value === "") {
     dateInput.classList.add("incorrect");
     dateFeedback.innerText = cards[0].date;
@@ -213,25 +215,29 @@ function checkDate() {
   }
 
   let dateBounds = cards[0]["date-range"];
-  let dateNum = cards[0].dateNum;
-  if (typeof dateNum === "number" && date === dateNum) {
-    dateInput.classList.add("correct");
-    score += 1;
-  } else if (typeof dateNum !== "number" && date >= dateNum[0] && date <= dateNum[1]) {
-    dateInput.classList.add("correct");
-    score += 1;
-    dateFeedback.innerText = cards[0].date;
-  } else if (date >= dateBounds[0] && date <= dateBounds[1]){
-    dateInput.classList.add("almost-correct");
-    score += 1-2*Math.abs(dateNum-date)/(dateBounds[1]-dateBounds[0]);
-    dateFeedback.innerText = cards[0].date;
+  let dateNum = cards[0]["date-num"];
+  if (typeof dateNum === "number") {
+    if (date === dateNum) {
+      dateInput.classList.add("correct");
+      score += 1;
+    } else if (date >= dateBounds[0] && date <= dateBounds[1]){
+      dateInput.classList.add("almost-correct");
+      score += 1-2*Math.abs(dateNum-date)/(dateBounds[1]-dateBounds[0]);
+    } else {
+      dateInput.classList.add("incorrect");
+    }
   } else {
-    dateInput.classList.add("incorrect");
-    dateFeedback.innerText = cards[0].date;
+    if (date >= dateNum[0] && date <= dateNum[1]) {
+      dateInput.classList.add("correct");
+      score += 1;
+    } else if (date >= dateBounds[0] && date <= dateBounds[1]){
+      dateInput.classList.add("almost-correct");
+      score += 1-2*Math.abs((dateBounds[1]+dateBounds[0])/2-date)/(dateBounds[1]-dateBounds[0]);
+    } else {
+      dateInput.classList.add("incorrect");
+    }
   }
-
-  dateInput.disabled = true;
-  dateToggle.disabled = true;
+  dateFeedback.innerText = cards[0].date;
 }
 
 
