@@ -266,13 +266,13 @@ function checkLocation() {
     locCorrectY *= Math.PI/180;
     let radius = 3963.1;
     let calc = 1-Math.cos(locCorrectY)*Math.cos(locSelectionY)*Math.cos(locCorrectX-locSelectionX)-Math.sin(locCorrectY)*Math.sin(locSelectionY);
-    let distance = 2*Math.asin(Math.sqrt(calc)/2)*radius;
+    let distance = 2*Math.asin(Math.sqrt(calc/2))*radius;
 
     locationFeedback.innerText = (new Intl.NumberFormat().format(Math.round(distance))) + " miles away; " + cards[0].location;
-    if (distance < 150) {
+    if (distance < 250) {
       score += 1
-    } else if (distance < 500) {
-      score += 1-(distance-150)/350/2;
+    } else if (distance < 750) {
+      score += 1-(distance-250)/750/2;
     }
   }
 }
