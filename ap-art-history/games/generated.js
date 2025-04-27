@@ -14,6 +14,8 @@ const gameArtist = document.getElementById("game-artist");
 const gameStyle = document.getElementById("game-style");
 
 let cards = [];
+let history = [];
+let reviewIdx = 0;
 
 let data;
 fetch("/ap-art-history/games/data.json").then(response => response.json()).then(json => {
@@ -81,7 +83,6 @@ function loadCard(card) {
     dateToggle.disabled = false;
     dateToggle.innerText = "CE";
     dateStatus = "CE";
-    dateInput.style.textDecoration = "none";
     dateFeedback.innerText = "";
   }
   if (games.includes("location")) {
@@ -139,6 +140,7 @@ function checkAnswer() {
 function checkArtist() {
   if (!cards[0].artist) return;
 
+  artistInput.disabled = true;
   artistFeedback.innerText = cards[0].artist[0];
   if (artistInput.value === "") {
     artistInput.classList.add("incorrect");
@@ -170,6 +172,7 @@ function checkArtist() {
 
 
 function checkStyle() {
+  styleInput.disabled = true;
   styleFeedback.innerText = cards[0].style.join(", ");
   if (styleInput.value === "") {
     styleInput.classList.add("incorrect");
@@ -222,7 +225,7 @@ function checkDate() {
       score += 1;
     } else if (date >= dateBounds[0] && date <= dateBounds[1]){
       dateInput.classList.add("almost-correct");
-      score += 1-2*Math.abs(dateNum-date)/(dateBounds[1]-dateBounds[0]);
+      score += 1-Math.abs(dateNum-date)/(dateBounds[1]-dateBounds[0]);
     } else {
       dateInput.classList.add("incorrect");
     }
@@ -232,7 +235,11 @@ function checkDate() {
       score += 1;
     } else if (date >= dateBounds[0] && date <= dateBounds[1]){
       dateInput.classList.add("almost-correct");
-      score += 1-2*Math.abs((dateBounds[1]+dateBounds[0])/2-date)/(dateBounds[1]-dateBounds[0]);
+      if (date < (dateBounds[0]+dateBounds[1])/2) {
+        score += 1-Math.abs(dateNum[0]-date)/(dateBounds[1]-dateBounds[0]);
+      } else {
+        score += 1-Math.abs(dateNum[1]-date)/(dateBounds[1]-dateBounds[0]);
+      }
     } else {
       dateInput.classList.add("incorrect");
     }
@@ -242,12 +249,13 @@ function checkDate() {
 
 
 function checkLocation() {
-  locationMap.style.cursor = "default";
+  locationMap.style.cursor = "not-allowed";
+  
+  locationCorrect.style.display = "flex";
 
   if (locationSelection.style.display === "none") {
     locationFeedback.innerText = cards[0].location;
   } else {
-    locationCorrect.style.display = "flex";
     let locSelectionX = Number.parseFloat(locationSelection.style.left)*3.6-180;
     let locSelectionY = 90-Number.parseFloat(locationSelection.style.top)*1.8;
     let locCorrectX = cards[0]["location-coordinate"][0];
@@ -264,7 +272,7 @@ function checkLocation() {
     if (distance < 150) {
       score += 1
     } else if (distance < 500) {
-      score += 1-(distance-150)/350;
+      score += 1-(distance-150)/350/2;
     }
   }
 }
@@ -300,16 +308,155 @@ submitButton.addEventListener("click", () => {
 });
 
 continueButton.addEventListener("click", () => {
+  history.push({
+    card: cards[0],
+    title: identifierTitle.innerText,
+    image: identifierImage.src,
+    locationInput: [locationSelection.style.display === "flex", locationSelection.style.left, locationSelection.style.top],
+    locationCorrect: [locationCorrect.style.left,locationCorrect.style.top],
+    locationFeedback: locationFeedback.innerText,
+    dateInput: dateInput.value,
+    dateMode: dateToggle.innerText,
+    dateFeedback: dateFeedback.innerText,
+    dateStatus: dateInput.classList[0],
+    artistInput: artistInput.value,
+    artistFeedback: artistFeedback.innerText,
+    artistStatus: artistInput.classList[0],
+    styleInput: styleInput.value,
+    styleFeedback: styleFeedback.innerText,
+    styleStatus: styleInput.classList[0],
+  })
+
   submitButton.hidden = false;
   continueButton.hidden = true;
   cards.shift();
   if (cards.length === 0) {
-    alert("Game Over! Your score is: " + score);
+    gamePlayArea.style.display = "none";
+    identifierImage.hidden = true;
+    identifierTitle.hidden = true;
+    gameFeedback.style.display = "grid";
+    let points = Math.round(score*10)/10;
+    if (points%1 === 0 ) points += ".0";
+    gameScore.innerText = points + " points!";
+    replayInstructions.hidden = false;
   } else {
     loadCard(cards[0]);
   }
 })
+const gameFeedback = document.getElementById("game-feedback");
+const gameScore = document.getElementById("game-score");
+const gamePlayArea = document.getElementById("game-play-area");
+const replayInstructions = document.getElementById("game-replay");
 
+
+const reviewButton = document.getElementById("review");
+const reviewControls = document.getElementById("review-controls");
+const reviewPrevious = document.getElementById("review-previous");
+const reviewNext = document.getElementById("review-next");
+reviewButton.addEventListener("click", () => {
+  gamePlayArea.style.display = "flex";
+  gameFeedback.style.display = "none";
+  reviewControls.hidden = false;
+  submitButton.hidden = true;
+  continueButton.hidden = true;
+  replayInstructions.hidden = true;
+
+  switch (identifier) {
+    case "image": {
+      identifierImage.hidden = false;
+      break;
+    }
+    case "title": {
+      identifierTitle.hidden = false;
+      break;
+    }
+    case "both": {
+      identifierImage.hidden = false;
+      identifierTitle.hidden = false;
+      break;
+    }
+  }
+
+  reviewIdx = 0;
+  loadReviewCard(history[reviewIdx]);
+})
+
+function loadReviewCard(card) {
+  switch (identifier) {
+    case "image": {
+      identifierImage.src = card.image;
+      break;
+    }
+    case "title": {
+      identifierTitle.title = card.title;
+      break;
+    }
+    case "both": {
+      identifierImage.src = card.image;
+      identifierTitle.title = card.title;
+      break;
+    }
+  }
+  if (games.includes("location")) {
+    locationFeedback.innerText = card.locationFeedback;
+    locationCorrect.style.display = "flex";
+    locationCorrect.style.left = card.locationCorrect[0];
+    locationCorrect.style.top = card.locationCorrect[1];
+    if (card.locationInput[0]) {
+      locationSelection.style.display = "flex";
+      locationSelection.style.left = card.locationInput[1];
+      locationSelection.style.top = card.locationInput[2];
+    } else locationSelection.style.display = "none";
+  }
+  if (games.includes("date")) {
+    dateInput.value = card.dateInput;
+    dateToggle.innerText = card.dateMode;
+    dateFeedback.innerText = card.dateFeedback;
+    dateInput.classList.add(card.dateStatus);
+  }
+  if (games.includes("artist")) {
+    if (card.card.artist) {
+      gameArtist.style.display = "grid";
+      artistInput.value = card.artistInput;
+      artistFeedback.innerText = card.artistFeedback;
+      artistInput.classList.add(card.artistStatus);
+    } else {
+      gameArtist.style.display = "none";
+    }
+  }
+  if (games.includes("style")) {
+    styleInput.value = card.styleInput;
+    styleFeedback.innerText = card.styleFeedback;
+    styleInput.classList.add(card.styleStatus);
+  }
+}
+
+
+reviewPrevious.addEventListener("click", () => {
+  if (reviewIdx === 0) {
+    gamePlayArea.style.display = "none";
+    identifierImage.hidden = true;
+    identifierTitle.hidden = true;
+    gameFeedback.style.display = "grid";
+    replayInstructions.hidden = false;
+  } else {
+    reviewIdx -= 1;
+    loadReviewCard(history[reviewIdx]);
+  }
+})
+
+reviewNext.addEventListener("click", () => {
+  if (reviewIdx === history.length-1) {
+    gamePlayArea.style.display = "none";
+    identifierImage.hidden = true;
+    identifierTitle.hidden = true;
+    gameFeedback.style.display = "grid";
+    replayInstructions.hidden = false;
+  } else {
+    reviewIdx += 1;
+    loadReviewCard(history[reviewIdx]);
+  }
+})
 
 
 function shuffle(array) {

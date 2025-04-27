@@ -66,10 +66,23 @@
 
         <button id="submit">Submit</button>
         <button id="continue" hidden>Continue</button>
+        <div id="review-controls" hidden>
+          <button id="review-previous">&larr;</button>
+          <button id="review-next">&rarr;</button>
+        </div>
+      </div>
+      <div id="game-feedback">
+        <p>You earned</p>
+        <h1 id="game-score">points!</h1>
+        <button id="review">Review</button>
       </div>
       <div id="game-identifiers">
         <img id="game-identifier-image"></img>
-        <p id="game-identifier-title"></p>
+        <h3 id="game-identifier-title"></h3>
+        <div id="game-replay" hidden>
+          <p>To play again, refresh the tab</p>
+          <p>To play with different settings, go back to the previous tab</p>
+        </div>
       </div>
     </div>
 

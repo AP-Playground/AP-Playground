@@ -64,7 +64,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  & p {
+  & h3 {
     font-weight: bold;
     font-size: 20px;
     margin-top: 10px;
@@ -78,18 +78,16 @@
 }
 
 
-#submit {
+#submit,
+#continue,
+#review,
+#review-next,
+#review-previous {
   width: 100px;
   margin-inline: auto;
   border: 1px solid black;
   background-color: white;
-}
-
-#continue {
-  width: 100px;
-  margin-inline: auto;
-  border: 1px solid black;
-  background-color: white;
+  cursor: pointer;
 }
 
 #game-play-area {
@@ -109,6 +107,13 @@ div:has(> label) {
   gap: 5px;
 }
 
+#game-date-feedback,
+#game-style-feedback,
+#game-artist-feedback {
+  text-align: left;
+  padding-left: 5px;
+}
+
 #game-date {
   & div {
     justify-content: left;
@@ -119,11 +124,18 @@ div:has(> label) {
   & #game-date-toggle {
     background-color: white;
     border: 1px solid black;
+    cursor: pointer;
+    &:disabled {
+      cursor: not-allowed;
+    }
   }
 }
 
 input {
   border: 1px solid black;
+  &:disabled {
+    cursor: not-allowed;
+  }
   &.correct {
     background-color: color-mix(in oklab, limegreen 75%, white);
   }
@@ -171,5 +183,16 @@ input {
       width: 20px;
       user-select: none;
     }
+  }
+}
+
+#game-feedback {
+  min-height: 250px;
+  display: none;
+  align-content: center;
+  order: -1;
+  justify-content: center;
+  & #game-score {
+    margin-top: 0;
   }
 }
