@@ -337,8 +337,14 @@ continueButton.addEventListener("click", () => {
     gameFeedback.style.display = "grid";
     let points = Math.round(score*10)/10;
     if (points%1 === 0 ) points += ".0";
-    gameScore.innerText = points + " points!";
+    gameScore.innerText = points;
     replayInstructions.hidden = false;
+    clearInterval(timerInterval);
+    timer.hidden = true;
+    const diff = new Date().getTime() - time;
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    const minutes = Math.floor(diff  / (1000 * 60));
+    gameTime.innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
   } else {
     loadCard(cards[0]);
   }
@@ -347,6 +353,7 @@ const gameFeedback = document.getElementById("game-feedback");
 const gameScore = document.getElementById("game-score");
 const gamePlayArea = document.getElementById("game-play-area");
 const replayInstructions = document.getElementById("game-replay");
+const gameTime = document.getElementById("game-time");
 
 
 const reviewButton = document.getElementById("review");
@@ -388,12 +395,12 @@ function loadReviewCard(card) {
       break;
     }
     case "title": {
-      identifierTitle.title = card.title;
+      identifierTitle.innerText = card.title;
       break;
     }
     case "both": {
       identifierImage.src = card.image;
-      identifierTitle.title = card.title;
+      identifierTitle.innerText = card.title;
       break;
     }
   }
@@ -457,6 +464,16 @@ reviewNext.addEventListener("click", () => {
     loadReviewCard(history[reviewIdx]);
   }
 })
+
+const timer = document.getElementById("timer")
+let time = new Date().getTime();
+const timerInterval = setInterval(() => {
+  const now = new Date().getTime();
+  const diff = now - time;
+  const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+  const minutes = Math.floor(diff  / (1000 * 60));
+  timer.innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+}, 1000);
 
 
 function shuffle(a,b,c){

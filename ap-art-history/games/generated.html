@@ -72,11 +72,20 @@
         </div>
       </div>
       <div id="game-feedback">
-        <p>You earned</p>
-        <h1 id="game-score">points!</h1>
+        <div id="game-feedback-container">
+          <div>
+            <p>Score:</p>
+            <h1 id="game-score"></h1>
+          </div>
+          <div>
+            <p>Time:</p>
+            <h1 id="game-time"></h1>
+          </div>
+        </div>
         <button id="review">Review</button>
       </div>
       <div id="game-identifiers">
+        <h2 id="timer">00:00</h2>
         <img id="game-identifier-image"></img>
         <h3 id="game-identifier-title"></h3>
         <div id="game-replay" hidden>

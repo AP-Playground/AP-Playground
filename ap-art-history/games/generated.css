@@ -192,8 +192,12 @@ input {
   display: none;
   align-content: center;
   order: -1;
-  justify-content: center;
   & #game-score {
     margin-top: 0;
   }
+}
+
+#game-feedback-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
