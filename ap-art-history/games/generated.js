@@ -459,12 +459,11 @@ reviewNext.addEventListener("click", () => {
 })
 
 
-function shuffle(array) {
-  for (var i = array.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+function shuffle(a,b,c){
+  c=a.length;
+  while(c){
+    b=Math.random()*c--|0,[a[c],a[b]]=[a[b],a[c]]
   }
-  return array;
 }
 
 function chooseOne(i) {

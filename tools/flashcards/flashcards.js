@@ -244,7 +244,7 @@ function filterCards() {
 
   cards = cards.map(i => [chooseOne(i.Term), i[game]])
 
-  shuffleArray(cards)
+  shuffle(cards)
   return cards.slice(0, maxCards);
 }
 
@@ -454,7 +454,7 @@ function updateMatchingBoard() {
       }
     })
   
-    shuffleArray(emptyIndexes);
+    shuffle(emptyIndexes);
   
     newCards.forEach(card => {
       const [idx1, idx2] = [emptyIndexes.shift(), emptyIndexes.shift()];
@@ -551,10 +551,10 @@ function selectCategoryOption(event) {
 
 
 // Utility functions
-function shuffleArray(array) {
-  for (var i = array.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
+function shuffle(a,b,c){
+  c=a.length;
+  while(c){
+    b=Math.random()*c--|0,[a[c],a[b]]=[a[b],a[c]]
   }
 }
 
