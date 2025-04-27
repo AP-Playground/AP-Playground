@@ -217,15 +217,15 @@ function checkDate() {
     date = -date;
   }
 
-  let dateBounds = cards[0]["date-range"];
+  let dateRange = cards[0]["date-range"];
   let dateNum = cards[0]["date-num"];
   if (typeof dateNum === "number") {
     if (date === dateNum) {
       dateInput.classList.add("correct");
       score += 1;
-    } else if (date >= dateBounds[0] && date <= dateBounds[1]){
+    } else if (date >= dateNum-dateRange && date <= dateNum+dateRange){
       dateInput.classList.add("almost-correct");
-      score += 1-Math.abs(dateNum-date)/(dateBounds[1]-dateBounds[0]);
+      score += 1-Math.abs(dateNum-date)/(dateRange*2);
     } else {
       dateInput.classList.add("incorrect");
     }
@@ -233,12 +233,12 @@ function checkDate() {
     if (date >= dateNum[0] && date <= dateNum[1]) {
       dateInput.classList.add("correct");
       score += 1;
-    } else if (date >= dateBounds[0] && date <= dateBounds[1]){
+    } else if (date >= dateNum[0]-dateRange && date <= dateNum[1]+dateRange){
       dateInput.classList.add("almost-correct");
-      if (date < (dateBounds[0]+dateBounds[1])/2) {
-        score += 1-Math.abs(dateNum[0]-date)/(dateBounds[1]-dateBounds[0]);
+      if (date < dateNum[0]) {
+        score += 1-Math.abs(dateNum[0]-date)/(dateRange*2);
       } else {
-        score += 1-Math.abs(dateNum[1]-date)/(dateBounds[1]-dateBounds[0]);
+        score += 1-Math.abs(dateNum[1]-date)/(dateRange*2);
       }
     } else {
       dateInput.classList.add("incorrect");

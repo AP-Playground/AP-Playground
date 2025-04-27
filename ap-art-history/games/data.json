@@ -5,7 +5,7 @@
       "image": "https://smarthistory.org/wp-content/uploads/2018/08/apollo-11-thumb-870x523.jpg",
       "date": "c. 25,500-25,300 BCE",
       "date-num": [-25500, -25300],
-      "date-range": [-26500, -24300],
+      "date-range": 1000,
       "style": ["Prehistoric","Paleolithic"],
       "location": "Namibia",
       "location-coordinate": [17.1, -27.75]
@@ -15,7 +15,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Lascaux_II.jpg/960px-Lascaux_II.jpg",
       "date": "15,000–13,000 BCE",
       "date-num": [-15000, -13000],
-      "date-range": [-16000, -12000],
+      "date-range": 1000,
       "style": ["Prehistoric","Paleolithic"],
       "location": "Lascaux, France",
       "location-coordinate": [1.17, 45.053611]
@@ -25,7 +25,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hueso_sacro_de_Tequixquiac.JPG",
       "date": "14,000–7000 BCE",
       "date-num": [-14000, -7000],
-      "date-range": [-13000, -6000],
+      "date-range": 1000,
       "style": ["Prehistoric","Paleolithic","Neolithic"],
       "location": "Tequixquiac, central Mexico",
       "location-coordinate": [-99.144722, 19.909444]
@@ -35,7 +35,7 @@
       "image": "https://smarthistory.org/wp-content/uploads/2021/09/enhanced.jpeg",
       "date": "6000–4000 BCE",
       "date-num": [-6000, -4000],
-      "date-range": [-7000, -3000],
+      "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Tassili n’Ajjer, Algeria",
       "location-coordinate": [9, 25.5]
@@ -45,7 +45,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Bushel_with_Ibex_Motifs.jpg/440px-Bushel_with_Ibex_Motifs.jpg",
       "date": "4200–3500 BCE",
       "date-num": [-4200, -3500],
-      "date-range": [-5200, -2500],
+      "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Susa, Iran",
       "location-coordinate": [48.257778, 32.190556]
@@ -55,7 +55,7 @@
       "image": "https://smarthistory.org/wp-content/uploads/2021/09/anthro-stele-1000px-870x1305.jpeg",
       "date": "4000–3000 BCE",
       "date-num": [-4000, -3000],
-      "date-range": [-5000, -2000],
+      "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Arabian Peninsula",
       "location-coordinate": [41.683333, 27.516667]
@@ -65,7 +65,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jade_Cong_King%2C_2018-06-09_01.jpg/960px-Jade_Cong_King%2C_2018-06-09_01.jpg",
       "date": "3300–2200 BCE",
       "date-num": [-3300, -2200],
-      "date-range": [-4300, -1200],
+      "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Liangzhu, China",
       "location-coordinate": [119.666667, 30.15]
@@ -75,7 +75,7 @@
       "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/500px-Stonehenge2007_07_30.jpg","https://smarthistory.org/wp-content/uploads/2021/09/14425050602_1aed5cdd31_3k-870x653.jpg"],
       "date": "c. 2500–1600 BCE",
       "date-num": [-2500, -1600],
-      "date-range": [-3500, -600],
+      "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Wiltshire, UK. Neolithic Europe",
       "location-coordinate": [-1.826111, 51.178889]
@@ -85,7 +85,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Ambum_Stone.webp/353px-Ambum_Stone.webp",
       "date": "c. 1500 BCE",
       "date-num": -1500,
-      "date-range": [-2500, -500],
+      "date-range": 1000,
       "style": ["Prehistoric","Melanesian"],
       "location": "Ambum Valley, Enga Province, Papua New Guinea",
       "location-coordinate": [143.5, -5.5]
@@ -95,7 +95,7 @@
       "image": "https://smarthistory.org/wp-content/uploads/2023/11/default-e1701372072437.jpg",
       "date": "1200–900 BCE",
       "date-num": [-1200, -900],
-      "date-range": [-2200, 100],
+      "date-range": 1000,
       "style": ["Tlatilco","Prehistoric","Mesoamerican"],
       "location": "Central Mexico, site of Tlatilco",
       "location-coordinate": [-99.1615770075665, 19.46245940548016]
@@ -105,7 +105,7 @@
       "image": "https://smarthistory.org/wp-content/uploads/2016/12/lapitafragment.jpg",
       "date": "1000 BCE",
       "date-num": -1000,
-      "date-range": [-2000, 0],
+      "date-range": 1000,
       "style": ["Lapita","Prehistoric","Melanesian"],
       "location": "Reef Islands, Solomon Islands",
       "location-coordinate": [166.31194975869076, -10.155206542748278]
