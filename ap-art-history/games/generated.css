@@ -154,6 +154,7 @@ input {
   & #game-location-map {
     width: 100%;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
   & #game-location-container {
     position: relative;
