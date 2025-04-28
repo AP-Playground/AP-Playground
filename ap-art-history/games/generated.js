@@ -89,8 +89,8 @@ function loadCard(card) {
     locationSelection.style.display = "none";
     locationFeedback.innerText = "(Click on the map to select a location)";
     locationCorrect.style.display = "none";
-    locationCorrect.style.top = ((90-card["location-coordinate"][1])/180*100) + "%";
-    locationCorrect.style.left = ((card["location-coordinate"][0]+180)/360*100) + "%";
+    locationCorrect.style.top = ((90-card["location-coordinate"][0])/180*100) + "%";
+    locationCorrect.style.left = ((card["location-coordinate"][1]+180)/360*100) + "%";
     locationMap.style.cursor = "pointer";
   }
   if (games.includes("artist")) {
@@ -258,8 +258,8 @@ function checkLocation() {
   } else {
     let locSelectionX = Number.parseFloat(locationSelection.style.left)*3.6-180;
     let locSelectionY = 90-Number.parseFloat(locationSelection.style.top)*1.8;
-    let locCorrectX = cards[0]["location-coordinate"][0];
-    let locCorrectY = cards[0]["location-coordinate"][1];
+    let locCorrectX = cards[0]["location-coordinate"][1];
+    let locCorrectY = cards[0]["location-coordinate"][0];
     locSelectionX *= Math.PI/180;
     locSelectionY *= Math.PI/180;
     locCorrectX *= Math.PI/180;

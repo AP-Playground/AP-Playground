@@ -8,7 +8,7 @@
       "date-range": 1000,
       "style": ["Prehistoric","Paleolithic"],
       "location": "Namibia",
-      "location-coordinate": [17.1, -27.75]
+      "location-coordinate": [-27.75, 17.1]
     },
     {
       "title": "Great Hall of the Bulls",
@@ -18,7 +18,7 @@
       "date-range": 1000,
       "style": ["Prehistoric","Paleolithic"],
       "location": "Lascaux, France",
-      "location-coordinate": [1.17, 45.053611]
+      "location-coordinate": [45.053611, 1.17]
     },
     {
       "title": "Camelid sacrum in the shape of a canine",
@@ -28,7 +28,7 @@
       "date-range": 1000,
       "style": ["Prehistoric","Paleolithic","Neolithic"],
       "location": "Tequixquiac, central Mexico",
-      "location-coordinate": [-99.144722, 19.909444]
+      "location-coordinate": [19.909444, -99.144722]
     },
     {
       "title": "Running horned woman",
@@ -38,7 +38,7 @@
       "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Tassili n’Ajjer, Algeria",
-      "location-coordinate": [9, 25.5]
+      "location-coordinate": [25.5, 9]
     },
     {
       "title": "Beaker with ibex motifs",
@@ -48,7 +48,7 @@
       "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Susa, Iran",
-      "location-coordinate": [48.257778, 32.190556]
+      "location-coordinate": [32.190556, 48.257778]
     },
     {
       "title": "Anthropomorphic stele",
@@ -58,7 +58,7 @@
       "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Arabian Peninsula",
-      "location-coordinate": [41.683333, 27.516667]
+      "location-coordinate": [27.516667, 41.683333]
     },
     {
       "title": "Jade cong",
@@ -68,7 +68,7 @@
       "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Liangzhu, China",
-      "location-coordinate": [119.666667, 30.15]
+      "location-coordinate": [30.15, 119.666667]
     },
     {
       "title": "Stonehenge",
@@ -78,7 +78,7 @@
       "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
       "location": "Wiltshire, UK. Neolithic Europe",
-      "location-coordinate": [-1.826111, 51.178889]
+      "location-coordinate": [51.178889, -1.826111]
     },
     {
       "title": "The Ambum stone",
@@ -88,7 +88,7 @@
       "date-range": 1000,
       "style": ["Prehistoric","Melanesian"],
       "location": "Ambum Valley, Enga Province, Papua New Guinea",
-      "location-coordinate": [143.5, -5.5]
+      "location-coordinate": [-5.5, 143.5]
     },
     {
       "title": "Tlatilco female figurine",
@@ -98,7 +98,7 @@
       "date-range": 1000,
       "style": ["Tlatilco","Prehistoric","Mesoamerican"],
       "location": "Central Mexico, site of Tlatilco",
-      "location-coordinate": [-99.1615770075665, 19.46245940548016]
+      "location-coordinate": [19.46245940548016, -99.1615770075665]
     },
     {
       "title": "Terra cotta fragment",
@@ -108,7 +108,7 @@
       "date-range": 1000,
       "style": ["Lapita","Prehistoric","Melanesian"],
       "location": "Reef Islands, Solomon Islands",
-      "location-coordinate": [166.31194975869076, -10.155206542748278]
+      "location-coordinate": [-10.155206542748278, 166.31194975869076]
     }
   ],
   [],
@@ -127,7 +127,7 @@
       "date-range": 50,
       "style": ["Saudeleur Dynasty", "Saudeleur", "Micronesian"],
       "location": "Pohnpei, Micronesia",
-      "location-coordinate": [158.332222, 6.841944]
+      "location-coordinate": [6.841944, 158.332222]
     },
     {
       "title": "Moai on platform (ahu)",
@@ -137,7 +137,7 @@
       "date-range": 50,
       "style": ["Polynesian", "Birdman Cult"],
       "location": "Rapa Nui (Easter Island)",
-      "location-coordinate": [-109.35, -27.12]
+      "location-coordinate": [-27.12, -109.35]
     },
     {
       "title": "‘Ahu ‘ula (feather cape)",
@@ -147,7 +147,7 @@
       "date-range": 50,
       "style": ["Polynesian", "Hawaiian"],
       "location": "Hawaii",
-      "location-coordinate": [-158, 21.5]
+      "location-coordinate": [21.5, -158]
     },
     {
       "title": "Staff god",
@@ -157,7 +157,7 @@
       "date-range": 50,
       "style": ["Polynesian", "Cook Islands"],
       "location": "Rarotonga, Cook Islands, central Polynesia",
-      "location-coordinate": [-159.778056, -21.235]
+      "location-coordinate": [-21.235, -159.778056]
     },
     {
       "title": "Female deity",
@@ -167,7 +167,7 @@
       "date-range": 50,
       "style": ["Micronesian", "Polynesian"],
       "location": "Nukuoro, Micronesia",
-      "location-coordinate": [154.940833, 3.848333]
+      "location-coordinate": [3.848333, 154.940833]
     },
     {
       "title": "Buk (mask)",
@@ -177,7 +177,7 @@
       "date-range": 50,
       "style": ["Melanesian", "Torres Strait Islander"],
       "location": "Torres Strait Islands",
-      "location-coordinate": [142.22, -10.579]
+      "location-coordinate": [-10.579, 142.22]
     },
     {
       "title": "Hiapo (tapa)",
@@ -187,7 +187,7 @@
       "date-range": 50,
       "style": ["Polynesian", "Hawaiian", "Samoan", "Fijian"],
       "location": "Niue",
-      "location-coordinate": [-169.51, -19.03]
+      "location-coordinate": [-19.03, -169.51]
     },
     {
       "title": "Tamati Waka Nene",
@@ -197,7 +197,7 @@
       "date-range": 50,
       "style": ["Māori", "Polynesian"],
       "location": "New Zealand",
-      "location-coordinate": [173, -42],
+      "location-coordinate": [-42, 173],
       "artist": ["Gottfried Lindauer", "Lindauer"]
     },
     {
@@ -208,7 +208,7 @@
       "date-range": 50,
       "style": ["Micronesian", "Mashall Islander"],
       "location": "Marshall Islands, Micronesia",
-      "location-coordinate": [169.29, 9.82]
+      "location-coordinate": [9.82, 169.29]
     },
     {
       "title": "Malagan display and mask",
@@ -218,7 +218,7 @@
       "date-range": 50,
       "style": ["Melanesian", "Papua New Guinean"],
       "location": "New Ireland Province, Papua New Guinea",
-      "location-coordinate": [152, -3.33]
+      "location-coordinate": [-3.33, 152]
     },
     {
       "title": "Presentation of Fijian mats and tapa cloths to Queen Elizabeth II",
@@ -228,7 +228,7 @@
       "date-range": 50,
       "style": ["Polynesian", "Fijian"],
       "location": "Fiji, Polynesia",
-      "location-coordinate": [179, -18]
+      "location-coordinate": [-18, 179]
     }
   ],
   []
