@@ -23,7 +23,7 @@
     {
       "title": "Camelid sacrum in the shape of a canine",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hueso_sacro_de_Tequixquiac.JPG",
-      "date": "14,000–7000 BCE",
+      "date": "14,000–7,000 BCE",
       "date-num": [-14000, -7000],
       "date-range": 1000,
       "style": ["Prehistoric","Paleolithic","Neolithic"],
@@ -53,7 +53,7 @@
     {
       "title": "Anthropomorphic stele",
       "image": "https://smarthistory.org/wp-content/uploads/2021/09/anthro-stele-1000px-870x1305.jpeg",
-      "date": "4000–3000 BCE",
+      "date": "Fourth millennium BCE",
       "date-num": [-4000, -3000],
       "date-range": 1000,
       "style": ["Prehistoric","Neolithic"],
@@ -118,6 +118,118 @@
   [],
   [],
   [],
-  [],
+  [
+    {
+      "title": "Nan Madol",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Nan_Madol_2.jpg",
+      "date": "c. 700–1600 CE",
+      "date-num": [700, 1600],
+      "date-range": 50,
+      "style": ["Saudeleur Dynasty", "Saudeleur", "Micronesian"],
+      "location": "Pohnpei, Micronesia",
+      "location-coordinate": [158.332222, 6.841944]
+    },
+    {
+      "title": "Moai on platform (ahu)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG",
+      "date": "c. 1100–1600 CE",
+      "date-num": [1100,1600],
+      "date-range": 50,
+      "style": ["Polynesian", "Birdman Cult"],
+      "location": "Rapa Nui (Easter Island)",
+      "location-coordinate": [-109.35, -27.12]
+    },
+    {
+      "title": "‘Ahu ‘ula (feather cape)",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/07/123033001-2048x1452.jpg",
+      "date": "Late 18th century CE",
+      "date-num": [1775, 1800],
+      "date-range": 50,
+      "style": ["Polynesian", "Hawaiian"],
+      "location": "Hawaii",
+      "location-coordinate": [-158, 21.5]
+    },
+    {
+      "title": "Staff god",
+      "image": ["https://smarthistory.org/wp-content/uploads/2022/08/818651001.jpg","https://smarthistory.org/wp-content/uploads/2022/08/886975001.jpg"],
+      "date": "Late 18th to early 19th century CE",
+      "date-num": [1775, 1825],
+      "date-range": 50,
+      "style": ["Polynesian", "Cook Islands"],
+      "location": "Rarotonga, Cook Islands, central Polynesia",
+      "location-coordinate": [-159.778056, -21.235]
+    },
+    {
+      "title": "Female deity",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/08/alt-option.jpg",
+      "date": "c. 18th to 19th century CE",
+      "date-num": [1700, 1899],
+      "date-range": 50,
+      "style": ["Micronesian", "Polynesian"],
+      "location": "Nukuoro, Micronesia",
+      "location-coordinate": [154.940833, 3.848333]
+    },
+    {
+      "title": "Buk (mask)",
+      "image": "https://smarthistory.org/wp-content/uploads/2018/08/Buk-mask-870x523.jpg",
+      "date": "Mid-to late 19th century CE",
+      "date-num": [1840, 1899],
+      "date-range": 50,
+      "style": ["Melanesian", "Torres Strait Islander"],
+      "location": "Torres Strait Islands",
+      "location-coordinate": [142.22, -10.579]
+    },
+    {
+      "title": "Hiapo (tapa)",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/08/crop-copy-1536x1222.jpg",
+      "date": "c. 1850–1900 CE",
+      "date-num": [1850, 1900],
+      "date-range": 50,
+      "style": ["Polynesian", "Hawaiian", "Samoan", "Fijian"],
+      "location": "Niue",
+      "location-coordinate": [-169.51, -19.03]
+    },
+    {
+      "title": "Tamati Waka Nene",
+      "image": "https://smarthistory.org/wp-content/uploads/2023/03/Tamati-Waka-Nene-full-sm-1216x1536.jpg",
+      "date": "1890 CE",
+      "date-num": 1890,
+      "date-range": 50,
+      "style": ["Māori", "Polynesian"],
+      "location": "New Zealand",
+      "location-coordinate": [173, -42],
+      "artist": ["Gottfried Lindauer", "Lindauer"]
+    },
+    {
+      "title": "Navigation chart",
+      "image": "https://smarthistory.org/wp-content/uploads/2023/11/102093001-2048x1475.jpg",
+      "date": "19th to early 20th century CE",
+      "date-num": [1800,1925],
+      "date-range": 50,
+      "style": ["Micronesian", "Mashall Islander"],
+      "location": "Marshall Islands, Micronesia",
+      "location-coordinate": [169.29, 9.82]
+    },
+    {
+      "title": "Malagan display and mask",
+      "image": ["https://smarthistory.org/wp-content/uploads/2017/02/metmalsm-870x766.jpg","https://smarthistory.org/wp-content/uploads/2017/03/lacmamalagansm-870x1217.jpg"],
+      "date": "c. 20th century CE",
+      "date-num": 1900,
+      "date-range": 50,
+      "style": ["Melanesian", "Papua New Guinean"],
+      "location": "New Ireland Province, Papua New Guinea",
+      "location-coordinate": [152, -3.33]
+    },
+    {
+      "title": "Presentation of Fijian mats and tapa cloths to Queen Elizabeth II",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/07/Fiji-1.png",
+      "date": "1953 CE",
+      "date-num": 1953,
+      "date-range": 50,
+      "style": ["Polynesian", "Fijian"],
+      "location": "Fiji, Polynesia",
+      "location-coordinate": [179, -18]
+    }
+  ],
   []
 ]
