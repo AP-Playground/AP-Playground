@@ -117,7 +117,236 @@
   [],
   [],
   [],
-  [],
+  [
+    {
+      "title": "Great Stupa at Sanchi",
+      "image": ["https://smarthistory.org/wp-content/uploads/2022/08/6370232595_3efdefaf63_o-corrected-1536x890.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sanchi_Stupa%2C_Bhopal%2C_Inda_16.JPG/960px-Sanchi_Stupa%2C_Bhopal%2C_Inda_16.JPG"],
+      "date": "c. 300 BCE–100 CE",
+      "date-num": [-300, 100],
+      "date-range": 100,
+      "style": ["Buddhist", "Mauryan", "Sunga Dynasty"],
+      "location": "Madhya Pradesh, India",
+      "location-coordinate": [23.479223, 77.739683]
+    },
+    {
+      "title": "Terra cotta warriors",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/51714-Terracota-Army.jpg/960px-51714-Terracota-Army.jpg", "https://smarthistory.org/wp-content/uploads/2021/07/pit-1-870x578.jpg"],
+      "date": "c. 221–209 BCE",
+      "date-num": [-221, -209],
+      "date-range": 100,
+      "style": ["Qin Dynasty", "Qin"],
+      "location": "Mausoleum of the first Qin emperor of China",
+      "location-coordinate": [34.385, 109.273056]
+    },
+    {
+      "title": "Funeral banner of Lady Dai (Xin Zhui)",
+      "image": "https://smarthistory.org/wp-content/uploads/2023/09/FuneralBannerLadyDai-300x703.jpg",
+      "date": "c. 180 BCE",
+      "date-num": -180,
+      "date-range": 100,
+      "style": ["Han Dynasty", "Han"],
+      "location": "Han Dynasty, China",
+      "location-coordinate": [28.208611, 113.021667]
+    },
+    {
+      "title": "Longmen caves",
+      "image": ["https://smarthistory.org/wp-content/uploads/2022/02/11_BuddhaMonksBodhisattvas-870x582.jpg", "https://smarthistory.org/wp-content/uploads/2022/02/1_Longmen-870x579.jpg","https://smarthistory.org/wp-content/uploads/2022/02/12_VaisravanaVajrapani-870x580.jpeg"],
+      "date": "493–1127 CE",
+      "date-num": -180,
+      "date-range": 100,
+      "style": ["Tang Dynasty", "Tang"],
+      "location": "Luoyang, China",
+      "location-coordinate": [34.555556, 112.469722]
+    },
+    {
+      "title": "Gold and jade crown",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/11/2067984_1-870x1359.jpg",
+      "date": "Fifth to sixth century CE",
+      "date-num": [400, 599],
+      "date-range": 100,
+      "style": ["Korean", "Three Kingdoms period"],
+      "location": "Silla Kingdom, Korea",
+      "location-coordinate": [35.85, 129.216667]
+    },
+    {
+      "title": "Todai-ji",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/960px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/NaraTodaijiDaibutsu0212.jpg/500px-NaraTodaijiDaibutsu0212.jpg","https://smarthistory.org/wp-content/uploads/2023/02/14d5453d65281123f9e720e30e232a34a7f3a594.jpg"],
+      "date": "743 CE (rebuilt c. 1700 CE)",
+      "date-num": 743,
+      "date-range": 100,
+      "style": ["Kamakura","Nara"],
+      "location": "Nara, Japan",
+      "location-coordinate": [34.689167, 135.839722],
+      "artist": ["Unkei, Keikei, Kei School", "Unkei", "Keikei", "Kei School"]
+    },
+    {
+      "title": "Borobudur Temple",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Borobudur-perfect-buddha.jpg/250px-Borobudur-perfect-buddha.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Panoramic_views_of_Borobudur.jpg/960px-Panoramic_views_of_Borobudur.jpg","https://smarthistory.org/wp-content/uploads/2023/11/14763462482_96a8e8df70_o-870x489.jpg"],
+      "date": "c. 750–842 CE",
+      "date-num": [750, 842],
+      "date-range": 100,
+      "style": ["Sailendra Dynasty","Sailendra"],
+      "location": "Central Java, Indonesia",
+      "location-coordinate": [-7.608, 110.204]
+    },
+    {
+      "title": "Angkor; temple of Angkor Wat; city of Angkor Thom",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20171126_Angkor_Wat_4712_DxO.jpg/960px-20171126_Angkor_Wat_4712_DxO.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Angkor_Thom_%28I%29.jpg/960px-Angkor_Thom_%28I%29.jpg","https://smarthistory.org/wp-content/uploads/2023/11/2277125012_31c4b15449_o-870x653.jpg","https://smarthistory.org/wp-content/uploads/2022/01/face-tower-bayon-870x580.jpg"],
+      "date": "c. 800–1400 CE",
+      "date-num": [800, 1400],
+      "date-range": 100,
+      "style": ["Khmer","Hindu","Angkor Dynasty"],
+      "location": "Angkor, Cambodia",
+      "location-coordinate": [13.4125, 103.866667]
+    },
+    {
+      "title": "Angkor Wat, city of Angkor Thom",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20171126_Angkor_Wat_4712_DxO.jpg/960px-20171126_Angkor_Wat_4712_DxO.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Angkor_Thom_%28I%29.jpg/960px-Angkor_Thom_%28I%29.jpg","https://smarthistory.org/wp-content/uploads/2023/11/2277125012_31c4b15449_o-870x653.jpg","https://smarthistory.org/wp-content/uploads/2022/01/face-tower-bayon-870x580.jpg","https://upload.wikimedia.org/wikipedia/commons/a/ad/Angkor_Wat_M3.png"],
+      "date": "c. 800–1400 CE",
+      "date-num": [800, 1400],
+      "date-range": 100,
+      "style": ["Hindu","Angkor Dynasty","Khmer","Angkor"],
+      "location": "Angkor, Cambodia",
+      "location-coordinate": [13.4125, 103.866667]
+    },
+    {
+      "title": "Lakshmana Temple",
+      "image": ["https://smarthistory.org/wp-content/uploads/2023/11/Khajuraho.KandariyaMahadeva-870x653.jpg","https://smarthistory.org/wp-content/uploads/2016/05/lakshmanaplan-870x525.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lakshmana_Temple_24.jpg/960px-Lakshmana_Temple_24.jpg","https://smarthistory.org/wp-content/uploads/2023/11/6334563652_203ca2291a_o-300x451.jpg"],
+      "date": "c. 930–950 CE",
+      "date-num": [930, 950],
+      "date-range": 100,
+      "style": ["Hindu","Chandella Dynasty","Chandella"],
+      "location": "Khajuraho, India",
+      "location-coordinate": [24.852139, 79.921694]
+    },
+    {
+      "title": "Travelers among Mountains and Streams",
+      "image": "https://smarthistory.org/wp-content/uploads/2023/11/K2A000826N000000000PAA-300x653.png",
+      "date": "c. 1000 CE",
+      "date-num": 1000,
+      "date-range": 100,
+      "style": ["Song Dynasty", "Song"],
+      "location": "Northern China (Shaanxi province?)",
+      "location-coordinate": [34.905833, 108.976667],
+      "artist": ["Fan Kuan","Kuan"]
+    },
+    {
+      "title": "Shiva as Lord of Dance (Nataraja)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Shiva_as_Lord_of_the_Dance_%28Nataraja%29.jpg/500px-Shiva_as_Lord_of_the_Dance_%28Nataraja%29.jpg",
+      "date": "c. 11th century CE",
+      "date-num": [1000,1099],
+      "date-range": 100,
+      "style": ["Hindu", "Chola Dynasty", "Chola"],
+      "location": "Tamil Nadu, India",
+      "location-coordinate": [11, 79]
+    },
+    {
+      "title": "Night Attack on the Sanjô Palace",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Heiji_no_ran.jpg/960px-Heiji_no_ran.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_2.jpg/960px-Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_2.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_4.jpg/960px-Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_4.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_8.jpg/960px-Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_8.jpg"],
+      "date": "c. 1250–1300 CE",
+      "date-num": [1250,1300],
+      "date-range": 100,
+      "style": ["Kamakura period", "Kamakura", "Yamato-é", "Heiji"],
+      "location": "Kamakura period, Japan",
+      "location-coordinate": [35.319722, 139.5525]
+    },
+    {
+      "title": "The David Vases",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_David_Vases.jpg/500px-The_David_Vases.jpg",
+      "date": "1351 CE",
+      "date-num": 1351,
+      "date-range": 100,
+      "style": ["Mongol", "Yuan Dynasty", "Yuan"],
+      "location": "Jingdezhen, Jiangxi province, China",
+      "location-coordinate": [29.2917, 117.1986]
+    },
+    {
+      "title": "Portrait of Sin Sukju",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Shin_Suk-ju.jpg/330px-Shin_Suk-ju.jpg",
+      "date": "c. 15th century CE",
+      "date-num": [1400,1499],
+      "date-range": 100,
+      "style": ["Joseon dynasty", "Joseon"],
+      "location": "Joseon dynasty, Korea",
+      "location-coordinate": [37.58, 126.98],
+      "artist": ["Imperial Bureau of Painting"]
+    },
+    {
+      "title": "Forbidden City",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg/960px-Hall_of_Supreme_Harmony_%2820241127120000%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Forbidden_City_-_View_from_Coal_Hill.jpg/960px-The_Forbidden_City_-_View_from_Coal_Hill.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Forbidden_city_map_wp_1.png/504px-Forbidden_city_map_wp_1.png","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Forbidden_City_-_Meridian_Gate_View_from_North.jpg/960px-Forbidden_City_-_Meridian_Gate_View_from_North.jpg"],
+      "date": "15th century CE (and later)",
+      "date-num": [1400,1499],
+      "date-range": 100,
+      "style": ["Ming Dynasty", "Ming"],
+      "location": "Beijing, China",
+      "location-coordinate": [39.915833, 116.390833]
+    },
+    {
+      "title": "Ryoan-ji",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ryoan-ji.JPG/960px-Ryoan-ji.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg/960px-Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg","https://smarthistory.org/wp-content/uploads/2022/06/ryjoanji-plan-copy-300x288.jpgT"],
+      "date": "c. 1480 CE (current design likely dates to 1700s)",
+      "date-num": 1480,
+      "date-range": 100,
+      "style": ["Muromachi period", "Muromachi"],
+      "location": "Kyoto, Japan",
+      "location-coordinate": [35.034444, 135.718333]
+    },
+    {
+      "title": "Jahangir Preferring a Sufi Shaikh to Kings",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bichitr_-_Jahangir_Preferring_a_Sufi_Shaikh_to_Kings%2C_from_the_St._Petersburg_album_-_Google_Art_Project.jpg/960px-Bichitr_-_Jahangir_Preferring_a_Sufi_Shaikh_to_Kings%2C_from_the_St._Petersburg_album_-_Google_Art_Project.jpg",
+      "date": "c. 1620 CE",
+      "date-num": 1620,
+      "date-range": 100,
+      "style": ["Mughal Empire", "Mughal"],
+      "location": "Mughal Empire, India",
+      "location-coordinate": [27.18, 78.02],
+      "artist": ["Bichitr"]
+    },
+    {
+      "title": "Taj Mahal",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/960px-Taj_Mahal_%28Edited%29.jpeg","https://smarthistory.org/wp-content/uploads/2022/05/6492155073_31d929ae4e_k-copy-870x566.jpg"],
+      "date": "1632–1653 CE",
+      "date-num": [1632,1653],
+      "date-range": 100,
+      "style": ["Mughal Empire", "Mughal"],
+      "location": "Agra, Uttar Pradesh, India",
+      "location-coordinate": [27.175, 78.041944],
+      "artist": ["Ustad Ahmad Lahori", "Lahori"]
+    },
+    {
+      "title": "White and Red Plum Blossoms",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ogata_Korin_-_RED_AND_WHITE_PLUM_BLOSSOMS_%28National_Treasure%29_-_Google_Art_Project.jpg/960px-Ogata_Korin_-_RED_AND_WHITE_PLUM_BLOSSOMS_%28National_Treasure%29_-_Google_Art_Project.jpg",
+      "date": "c. 1710–1716 CE",
+      "date-num": [1710,1716],
+      "date-range": 100,
+      "style": ["Edo","Edo period","Rinpa"],
+      "location": "Kyoto, Tokugawa shogunate, Japan",
+      "location-coordinate": [35.011667, 135.768333],
+      "artist": ["Ogata Korin", "Korin"]
+    },
+    {
+      "title": "Under the Wave off Kanagawa (Great Wave)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/960px-Tsunami_by_hokusai_19th_century.jpg",
+      "date": "1830–1833 CE",
+      "date-num": [1830,1833],
+      "date-range": 100,
+      "style": ["Edo","Edo period","Ukiyo-e"],
+      "location": "Edo (Tokyo), Tokugawa shogunate, Japan",
+      "location-coordinate": [35.683889, 139.774444],
+      "artist": ["Katsushika Hokusai", "Hokusai"]
+    },
+    {
+      "title": "Chairman Mao en Route to Anyuan",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Chairman_Mao_en_route_to_Anyuan_by_Liu_Chunhua.jpg",
+      "date": "c. 1969 CE",
+      "date-num": 1969,
+      "date-range": 100,
+      "style": ["Socialist Realism", "Cultural Revolution"],
+      "location": "Central Academy of Fine Arts, Beijing, China (original)",
+      "location-coordinate": [39.98459373751854, 116.46537704832947],
+      "artist": ["Based on an oil painting by Liu Chunhua", "Liu Chunhua", "Chunhua"]
+    }
+],
   [
     {
       "title": "Nan Madol",
