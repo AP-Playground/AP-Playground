@@ -11,7 +11,7 @@
       "location-coordinate": [-27.75, 17.1]
     },
     {
-      "title": "Great Hall of the Bulls",
+      "title": ["Great Hall of the Bulls","Great Hall of Bulls"],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Lascaux_II.jpg/960px-Lascaux_II.jpg",
       "date": "15,000–13,000 BCE",
       "date-num": [-15000, -13000],
@@ -21,7 +21,7 @@
       "location-coordinate": [45.053611, 1.17]
     },
     {
-      "title": "Camelid sacrum in the shape of a canine",
+      "title": ["Camelid sacrum in the shape of a canine","Camelid sacrum"],
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hueso_sacro_de_Tequixquiac.JPG",
       "date": "14,000–7,000 BCE",
       "date-num": [-14000, -7000],
@@ -81,7 +81,7 @@
       "location-coordinate": [51.178889, -1.826111]
     },
     {
-      "title": "The Ambum stone",
+      "title": ["The Ambum stone","Ambum stone"],
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Ambum_Stone.webp/353px-Ambum_Stone.webp",
       "date": "c. 1500 BCE",
       "date-num": -1500,
@@ -91,7 +91,7 @@
       "location-coordinate": [-5.5, 143.5]
     },
     {
-      "title": "Tlatilco female figurine",
+      "title": ["Tlatilco female figurine","Tlatilco female figure","Tlatilco figure°","Tlatilco figurine°"],
       "image": "https://smarthistory.org/wp-content/uploads/2023/11/default-e1701372072437.jpg",
       "date": "1200–900 BCE",
       "date-num": [-1200, -900],
@@ -101,7 +101,7 @@
       "location-coordinate": [19.46245940548016, -99.1615770075665]
     },
     {
-      "title": "Terra cotta fragment",
+      "title": ["Terra cotta fragment","Terracotta fragment"],
       "image": "https://smarthistory.org/wp-content/uploads/2016/12/lapitafragment.jpg",
       "date": "1000 BCE",
       "date-num": -1000,
@@ -119,7 +119,7 @@
   [],
   [
     {
-      "title": "Great Stupa at Sanchi",
+      "title": ["Great Stupa at Sanchi","Great Stupa°"],
       "image": ["https://smarthistory.org/wp-content/uploads/2022/08/6370232595_3efdefaf63_o-corrected-1536x890.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sanchi_Stupa%2C_Bhopal%2C_Inda_16.JPG/960px-Sanchi_Stupa%2C_Bhopal%2C_Inda_16.JPG"],
       "date": "c. 300 BCE–100 CE",
       "date-num": [-300, 100],
@@ -129,7 +129,7 @@
       "location-coordinate": [23.479223, 77.739683]
     },
     {
-      "title": "Terra cotta warriors",
+      "title": ["Terra cotta warriors","Terracotta Army°","Terra cotta army°","Terracotta warriors"],
       "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/51714-Terracota-Army.jpg/960px-51714-Terracota-Army.jpg", "https://smarthistory.org/wp-content/uploads/2021/07/pit-1-870x578.jpg"],
       "date": "c. 221–209 BCE",
       "date-num": [-221, -209],
@@ -139,7 +139,7 @@
       "location-coordinate": [34.385, 109.273056]
     },
     {
-      "title": "Funeral banner of Lady Dai (Xin Zhui)",
+      "title": ["Funeral banner of Lady Dai (Xin Zhui)","Funeral banner of Lady Dai","Funeral banner°", "Funeral banner of Xin Zhui"],
       "image": "https://smarthistory.org/wp-content/uploads/2023/09/FuneralBannerLadyDai-300x703.jpg",
       "date": "c. 180 BCE",
       "date-num": -180,
@@ -152,7 +152,7 @@
       "title": "Longmen caves",
       "image": ["https://smarthistory.org/wp-content/uploads/2022/02/11_BuddhaMonksBodhisattvas-870x582.jpg", "https://smarthistory.org/wp-content/uploads/2022/02/1_Longmen-870x579.jpg","https://smarthistory.org/wp-content/uploads/2022/02/12_VaisravanaVajrapani-870x580.jpeg"],
       "date": "493–1127 CE",
-      "date-num": -180,
+      "date-num": [493, 1127],
       "date-range": 100,
       "style": ["Tang Dynasty", "Tang"],
       "location": "Luoyang, China",
@@ -190,22 +190,12 @@
       "location-coordinate": [-7.608, 110.204]
     },
     {
-      "title": "Angkor; temple of Angkor Wat; city of Angkor Thom",
+      "title": ["Angkor Wat, city of Angkor Thom","Angkor Wat","Angkor Thom","Angkor°"],
       "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20171126_Angkor_Wat_4712_DxO.jpg/960px-20171126_Angkor_Wat_4712_DxO.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Angkor_Thom_%28I%29.jpg/960px-Angkor_Thom_%28I%29.jpg","https://smarthistory.org/wp-content/uploads/2023/11/2277125012_31c4b15449_o-870x653.jpg","https://smarthistory.org/wp-content/uploads/2022/01/face-tower-bayon-870x580.jpg"],
       "date": "c. 800–1400 CE",
       "date-num": [800, 1400],
       "date-range": 100,
-      "style": ["Khmer","Hindu","Angkor Dynasty"],
-      "location": "Angkor, Cambodia",
-      "location-coordinate": [13.4125, 103.866667]
-    },
-    {
-      "title": "Angkor Wat, city of Angkor Thom",
-      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20171126_Angkor_Wat_4712_DxO.jpg/960px-20171126_Angkor_Wat_4712_DxO.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Angkor_Thom_%28I%29.jpg/960px-Angkor_Thom_%28I%29.jpg","https://smarthistory.org/wp-content/uploads/2023/11/2277125012_31c4b15449_o-870x653.jpg","https://smarthistory.org/wp-content/uploads/2022/01/face-tower-bayon-870x580.jpg","https://upload.wikimedia.org/wikipedia/commons/a/ad/Angkor_Wat_M3.png"],
-      "date": "c. 800–1400 CE",
-      "date-num": [800, 1400],
-      "date-range": 100,
-      "style": ["Hindu","Angkor Dynasty","Khmer","Angkor"],
+      "style": ["Hindu","Khmer","Angkor Dynasty","Angkor"],
       "location": "Angkor, Cambodia",
       "location-coordinate": [13.4125, 103.866667]
     },
@@ -231,7 +221,7 @@
       "artist": ["Fan Kuan","Kuan"]
     },
     {
-      "title": "Shiva as Lord of Dance (Nataraja)",
+      "title": ["Shiva as Lord of Dance (Nataraja)","Shiva as Lord of Dance","Dancing Shiva°","Nataraja°"],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Shiva_as_Lord_of_the_Dance_%28Nataraja%29.jpg/500px-Shiva_as_Lord_of_the_Dance_%28Nataraja%29.jpg",
       "date": "c. 11th century CE",
       "date-num": [1000,1099],
@@ -241,7 +231,7 @@
       "location-coordinate": [11, 79]
     },
     {
-      "title": "Night Attack on the Sanjô Palace",
+      "title": ["Night Attack on the Sanjô Palace","Night attack on Sanjo Palace"],
       "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Heiji_no_ran.jpg/960px-Heiji_no_ran.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_2.jpg/960px-Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_2.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_4.jpg/960px-Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_4.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_8.jpg/960px-Heiji_Monogatari_Emaki_-_Sanjo_scroll_part_8.jpg"],
       "date": "c. 1250–1300 CE",
       "date-num": [1250,1300],
@@ -251,7 +241,7 @@
       "location-coordinate": [35.319722, 139.5525]
     },
     {
-      "title": "The David Vases",
+      "title": ["The David Vases","David Vases"],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_David_Vases.jpg/500px-The_David_Vases.jpg",
       "date": "1351 CE",
       "date-num": 1351,
@@ -283,7 +273,7 @@
     },
     {
       "title": "Ryoan-ji",
-      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ryoan-ji.JPG/960px-Ryoan-ji.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg/960px-Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg","https://smarthistory.org/wp-content/uploads/2022/06/ryjoanji-plan-copy-300x288.jpgT"],
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ryoan-ji.JPG/960px-Ryoan-ji.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg/960px-Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg","https://smarthistory.org/wp-content/uploads/2022/06/ryjoanji-plan-copy-300x288.jpg"],
       "date": "c. 1480 CE (current design likely dates to 1700s)",
       "date-num": 1480,
       "date-range": 100,
@@ -314,7 +304,7 @@
       "artist": ["Ustad Ahmad Lahori", "Lahori"]
     },
     {
-      "title": "White and Red Plum Blossoms",
+      "title": ["White and Red Plum Blossoms","White and Red Blossoms°","Red and White Plum Blossoms°","Red and White Blossoms°"],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ogata_Korin_-_RED_AND_WHITE_PLUM_BLOSSOMS_%28National_Treasure%29_-_Google_Art_Project.jpg/960px-Ogata_Korin_-_RED_AND_WHITE_PLUM_BLOSSOMS_%28National_Treasure%29_-_Google_Art_Project.jpg",
       "date": "c. 1710–1716 CE",
       "date-num": [1710,1716],
@@ -325,7 +315,7 @@
       "artist": ["Ogata Korin", "Korin"]
     },
     {
-      "title": "Under the Wave off Kanagawa (Great Wave)",
+      "title": ["Under the Wave off Kanagawa (Great Wave)","Under the Wave off Kanagawa","The Great Wave","Great Wave","Kanagawa oki nami ura"],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/960px-Tsunami_by_hokusai_19th_century.jpg",
       "date": "1830–1833 CE",
       "date-num": [1830,1833],
@@ -346,7 +336,7 @@
       "location-coordinate": [39.98459373751854, 116.46537704832947],
       "artist": ["Based on an oil painting by Liu Chunhua", "Liu Chunhua", "Chunhua"]
     }
-],
+  ],
   [
     {
       "title": "Nan Madol",
@@ -359,7 +349,7 @@
       "location-coordinate": [6.841944, 158.332222]
     },
     {
-      "title": "Moai on platform (ahu)",
+      "title": ["Moai on platform (ahu)","Moai on platform","Moai"],
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG",
       "date": "c. 1100–1600 CE",
       "date-num": [1100,1600],
@@ -369,7 +359,7 @@
       "location-coordinate": [-27.12, -109.35]
     },
     {
-      "title": "‘Ahu ‘ula (feather cape)",
+      "title": ["‘Ahu ‘ula (feather cape)","Feather cape","Ahu ula","‘Ahu ‘ula","'Ahu 'ula", "'Ahu'ula"],
       "image": "https://smarthistory.org/wp-content/uploads/2022/07/123033001-2048x1452.jpg",
       "date": "Late 18th century CE",
       "date-num": [1775, 1800],
@@ -399,7 +389,7 @@
       "location-coordinate": [3.848333, 154.940833]
     },
     {
-      "title": "Buk (mask)",
+      "title": ["Buk (mask)","Buk mask","Buk"],
       "image": "https://smarthistory.org/wp-content/uploads/2018/08/Buk-mask-870x523.jpg",
       "date": "Mid-to late 19th century CE",
       "date-num": [1840, 1899],
@@ -409,7 +399,7 @@
       "location-coordinate": [-10.579, 142.22]
     },
     {
-      "title": "Hiapo (tapa)",
+      "title": ["Hiapo (tapa)","Tapa","Hiapo"],
       "image": "https://smarthistory.org/wp-content/uploads/2022/08/crop-copy-1536x1222.jpg",
       "date": "c. 1850–1900 CE",
       "date-num": [1850, 1900],
@@ -430,7 +420,7 @@
       "artist": ["Gottfried Lindauer", "Lindauer"]
     },
     {
-      "title": "Navigation chart",
+      "title": ["Navigation chart","Navigational chart"],
       "image": "https://smarthistory.org/wp-content/uploads/2023/11/102093001-2048x1475.jpg",
       "date": "19th to early 20th century CE",
       "date-num": [1800,1925],
@@ -440,7 +430,7 @@
       "location-coordinate": [9.82, 169.29]
     },
     {
-      "title": "Malagan display and mask",
+      "title": ["Malagan display and mask","Malagan mask and display","Malagan display","Malagan mask"],
       "image": ["https://smarthistory.org/wp-content/uploads/2017/02/metmalsm-870x766.jpg","https://smarthistory.org/wp-content/uploads/2017/03/lacmamalagansm-870x1217.jpg"],
       "date": "c. 20th century CE",
       "date-num": 1900,
@@ -450,7 +440,7 @@
       "location-coordinate": [-3.33, 152]
     },
     {
-      "title": "Presentation of Fijian mats and tapa cloths to Queen Elizabeth II",
+      "title": ["Presentation of Fijian mats and tapa cloths to Queen Elizabeth II","Presentation of Fijian mats and tapa cloths to Queen Elizabeth","Presentation of Fijian mats and tapa cloths°"],
       "image": "https://smarthistory.org/wp-content/uploads/2022/07/Fiji-1.png",
       "date": "1953 CE",
       "date-num": 1953,

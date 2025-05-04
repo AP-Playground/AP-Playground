@@ -60,6 +60,9 @@
       <fieldset>
         <legend>Select Games:</legend>
         <label>
+          <input type="checkbox" value="style" form="game-options" name="game" class="game-option" id="title-game">Title
+        </label>
+        <label>
           <input type="checkbox" value="location" form="game-options" name="game" class="game-option">
           <div>Location</div>
         </label>
@@ -87,6 +90,22 @@
         <label>
           <input type="radio" name="identifier" value="both" form="game-options" class="identifier-option">
           Image and title
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select Sort:</legend>
+        <label>
+          <input type="radio" name="sort" value="random" form="game-options" class="sort-option">
+          Random
+        </label>
+        <label>
+          <input type="radio" name="sort" value="date" form="game-options" class="sort-option">
+          Chronological
+        </label>
+        <label>
+          <input type="radio" name="sort" value="ced" form="game-options" class="sort-option">
+          CED (College Board order)
         </label>
       </fieldset>
       <script src="/ap-art-history/games/index.js"></script>

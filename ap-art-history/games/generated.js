@@ -2,6 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const units = urlParams.getAll('unit');
 const games = urlParams.getAll('game');
 const identifier = urlParams.get('identifier');
+const sort = urlParams.get("sort");
 
 const loading = document.getElementById("loading");
 const gameContainer = document.getElementById("game-container");
@@ -12,6 +13,7 @@ const gameLocation = document.getElementById("game-location");
 const gameDate = document.getElementById("game-date");
 const gameArtist = document.getElementById("game-artist");
 const gameStyle = document.getElementById("game-style");
+const gameTitle = document.getElementById("game-title");
 
 let cards = [];
 let history = [];
@@ -36,7 +38,24 @@ function loadGame() {
     alert("No cards found for the selected units and games. Please try again with different parameters.");
     return;
   }
-  shuffle(cards);
+  if (identifier !== "image" && games.includes("title")) {
+    alert("The only allowed identifier for the \"title\" gamemode is \"image\"");
+    return;
+  }
+
+  switch (sort) {
+    case "random": {
+      shuffle(cards);
+      break;
+    }
+    case "ced": {
+      break;
+    }
+    case "date": {
+      cards.sort((a,b) => chooseFirst(a["date-num"]) - chooseFirst(b["date-num"]));
+      break;
+    }
+  }
 
   switch (identifier) {
     case "image": {
@@ -51,10 +70,14 @@ function loadGame() {
       break;
     }
   }
+  if (identifier !== "title") {
+    preloadSrc = chooseOne(cards[0].image);
+  }
 
   gameDate.style.display = games.includes("date") ? "grid" : "none";
   gameLocation.style.display = games.includes("location") ? "block" : "none";
   gameStyle.style.display = games.includes("style") ? "grid" : "none";
+  gameTitle.style.display = games.includes("title") ? "grid" : "none";
   gameArtist.style.display = "none";
   
   loading.style.display = "none";
@@ -62,20 +85,23 @@ function loadGame() {
   loadCard(cards[0]);
 }
 
-
+let preloadSrc;
 function loadCard(card) {
 
-  if (cards[1] && typeof cards[1].image === "string") {
-    const preload = new Image();
-    preload.src = cards[1].image;
-  }
-
   if (identifier !== "title") {
-    identifierImage.src = chooseOne(card.image);
+    identifierImage.src = preloadSrc;
+    
+    if (cards.length > 1) {
+      const preload = new Image();
+      preloadSrc = chooseOne(cards[1].image);
+      preload.src = preloadSrc;
+    }
   }
   if (identifier !== "image") {
-    identifierTitle.innerText = card.title;
+    identifierTitle.innerText = chooseFirst(card.title);
   }
+
+
   if (games.includes("date")) {
     dateInput.classList.remove("correct", "almost-correct", "incorrect");
     dateInput.value = "";
@@ -107,6 +133,12 @@ function loadCard(card) {
     styleInput.disabled = false;
     styleFeedback.innerText = "";
   }
+  if (games.includes("title")) {
+    titleInput.classList.remove("correct", "almost-correct", "incorrect");
+    titleInput.value = "";
+    titleInput.disabled = false;
+    titleFeedback.innerText = "";
+  }
 }
 
 
@@ -127,6 +159,9 @@ const artistFeedback = document.getElementById("game-artist-feedback");
 const styleInput = document.getElementById("game-style-input");
 const styleFeedback = document.getElementById("game-style-feedback");
 
+const titleInput = document.getElementById("game-title-input");
+const titleFeedback = document.getElementById("game-title-feedback");
+
 function checkAnswer() {
   if (games.includes("date")) checkDate();
   
@@ -135,6 +170,8 @@ function checkAnswer() {
   if (games.includes("artist")) checkArtist();
 
   if (games.includes("style")) checkStyle();
+
+  if (games.includes("title")) checkTitle();
 }
 
 function checkArtist() {
@@ -150,21 +187,21 @@ function checkArtist() {
   let artistCorrect = cards[0].artist;
 
   let closest = 10000;
-  let closestIndex = -1;
-  artistCorrect.forEach((s,i) => {
-    let distance = levenshtein(artist, s);
+  let closestArtist;
+  artistCorrect.forEach(a => {
+    let distance = levenshtein(artist, a);
     if (distance < closest) {
       closest = distance;
-      closestIndex = i;
+      closestArtist = a;
     }
   })
 
   if (closest === 0) {
     artistInput.classList.add("correct");
     score += 1;
-  } else if (closest < artist.length/2) {
+  } else if (closest < closestArtist.length/4) {
     artistInput.classList.add("almost-correct");
-    score += 1-closest/artist.length;
+    score += 1-closest/closestArtist.length;
   } else {
     artistInput.classList.add("incorrect");
   }
@@ -182,23 +219,59 @@ function checkStyle() {
   let styleCorrect = cards[0].style;
 
   let closest = 10000;
-  let closestIndex = -1;
-  styleCorrect.forEach((s,i) => {
+  let closestStyle;
+  styleCorrect.forEach(s => {
     let distance = levenshtein(style, s);
     if (distance < closest) {
       closest = distance;
-      closestIndex = i;
+      closestStyle = s;
     }
   })
 
   if (closest === 0) {
     styleInput.classList.add("correct");
     score += 1;
-  } else if (closest < style.length/2) {
+  } else if (closest < closestStyle.length/4) {
     styleInput.classList.add("almost-correct");
-    score += 1-closest/style.length;
+    score += 1-closest/closestStyle.length;
   } else {
     styleInput.classList.add("incorrect");
+  }
+}
+
+function checkTitle() {
+  titleInput.disabled = true;
+  titleFeedback.innerText = chooseFirst(cards[0].title);
+  if (titleInput.value === "") {
+    titleInput.classList.add("incorrect");
+    return;
+  }
+  let title = titleInput.value;
+  let titleCorrect = cards[0].title;
+
+  let closest = 10000;
+  let closestTitle;
+  if (typeof titleCorrect === "string") {
+    closest = levenshtein(title, titleCorrect)
+    closestTitle = titleCorrect;
+  } else {
+    titleCorrect.forEach(t => {
+      let distance = levenshtein(title, t);
+      if (distance < closest) {
+        closest = distance;
+        closestTitle = t;
+      }
+    })
+  }
+
+  if (closest === 0) {
+    titleInput.classList.add("correct");
+    score += 1;
+  } else if (closest < closestTitle.length/4) {
+    titleInput.classList.add("almost-correct");
+    score += 1-closest/closestTitle.length;
+  } else {
+    titleInput.classList.add("incorrect");
   }
 }
 
@@ -325,6 +398,9 @@ continueButton.addEventListener("click", () => {
     styleInput: styleInput.value,
     styleFeedback: styleFeedback.innerText,
     styleStatus: styleInput.classList[0],
+    titleInput: titleInput.value,
+    titleFeedback: titleFeedback.innerText,
+    titleStatus: titleInput.classList[0],
   })
 
   submitButton.hidden = false;
@@ -335,8 +411,10 @@ continueButton.addEventListener("click", () => {
     identifierImage.hidden = true;
     identifierTitle.hidden = true;
     gameFeedback.style.display = "grid";
+
     let points = Math.round(score*10)/10;
     if (points%1 === 0 ) points += ".0";
+
     gameScore.innerText = points;
     replayInstructions.hidden = false;
     clearInterval(timerInterval);
@@ -345,6 +423,13 @@ continueButton.addEventListener("click", () => {
     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
     const minutes = Math.floor(diff  / (1000 * 60));
     gameTime.innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+    locationMap.style.cursor = "not-allowed";
+    styleInput.disabled = true;
+    artistInput.disabled = true;
+    dateInput.disabled = true;
+    titleInput.disabled = true;
+
   } else {
     loadCard(cards[0]);
   }
@@ -419,6 +504,7 @@ function loadReviewCard(card) {
     dateInput.value = card.dateInput;
     dateToggle.innerText = card.dateMode;
     dateFeedback.innerText = card.dateFeedback;
+    dateInput.classList.remove("correct", "almost-correct", "incorrect");
     dateInput.classList.add(card.dateStatus);
   }
   if (games.includes("artist")) {
@@ -426,6 +512,7 @@ function loadReviewCard(card) {
       gameArtist.style.display = "grid";
       artistInput.value = card.artistInput;
       artistFeedback.innerText = card.artistFeedback;
+      artistInput.classList.remove("correct", "almost-correct", "incorrect");
       artistInput.classList.add(card.artistStatus);
     } else {
       gameArtist.style.display = "none";
@@ -434,7 +521,14 @@ function loadReviewCard(card) {
   if (games.includes("style")) {
     styleInput.value = card.styleInput;
     styleFeedback.innerText = card.styleFeedback;
+    styleInput.classList.remove("correct", "almost-correct", "incorrect");
     styleInput.classList.add(card.styleStatus);
+  }
+  if (games.includes("title")) {
+    titleInput.value = card.titleInput;
+    titleFeedback.innerText = card.titleFeedback;
+    titleInput.classList.remove("correct", "almost-correct", "incorrect");
+    titleInput.classList.add(card.titleStatus);
   }
 }
 
@@ -490,15 +584,20 @@ function chooseOne(i) {
   return i[Math.floor(Math.random() * i.length)];
 }
 
+function chooseFirst(i) {
+  if (typeof i === "string" || typeof i === "number") {
+    return i;
+  }
+  return i[0];
+}
+
 function levenshtein(input, target) {
   input = input.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   target = target.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  let v0 = [];
-  let v1 = new Array(target.length + 1);
 
-  for (let i = 0; i < target.length + 1; i++) {
-    v0.push(i);
-  }
+  let v0 = [];
+  for (let i = 0; i < target.length + 1; i++) v0.push(i)
+  let v1 = new Array(target.length + 1);
 
   for (let i = 0; i < input.length; i++) {
     v1[0] = i + 1;

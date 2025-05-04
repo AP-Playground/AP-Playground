@@ -31,3 +31,12 @@ fieldset {
   border-radius: .25rem;
   margin-bottom: 1rem;
 }
+
+label:has(> input[disabled]) {
+  color: #999;
+  cursor: not-allowed;
+  text-decoration: line-through;
+}
+input:disabled {
+  cursor: not-allowed;
+}
