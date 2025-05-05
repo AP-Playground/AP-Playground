@@ -114,7 +114,180 @@
   [],
   [],
   [],
-  [],
+  [
+    {
+      "title": "Chavín de Huántar",
+      "image": ["https://smarthistory.org/wp-content/uploads/2018/07/Chavin-thumb-870x523.jpg", "https://smarthistory.org/wp-content/uploads/2022/02/9ad38092fbedc3b39b0a76617d8bb857acfb6a4a.jpeg","https://smarthistory.org/wp-content/uploads/2022/02/51149644124_91bf74837e_k.jpg","https://cdn.kastatic.org/ka-perseus-images/479cf48c4bff7a467352016ad1af91a0a0cf326a.jpg"],
+      "date": "900–200 BCE",
+      "date-num": [-900, -200],
+      "date-range": 100,
+      "style": ["Chavín","Chavín culture"],
+      "location": "Northern highlands, Peru",
+      "location-coordinate": [-9.592778, -77.178333]
+    },
+    {
+      "title": ["Mesa Verde cliff dwellings","Mesa Verde"],
+      "image": "https://smarthistory.org/wp-content/uploads/2022/02/17062813499_74070291c3_b.jpg",
+      "date": "450–1300 CE",
+      "date-num": [450, 1300],
+      "date-range": 100,
+      "style": ["Ancestral Puebloan","Puebloan","Anasazi"],
+      "location": "Montezuma County, Colorado",
+      "location-coordinate": [37.1838, -108.4887]
+    },
+    {
+      "title": "Yaxchilán",
+      "image": ["https://smarthistory.org/wp-content/uploads/2016/04/16425423149_e6d676cbb7_o-1-870x339.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Yaxchilan_lintel_25.jpg/500px-Yaxchilan_lintel_25.jpg","https://smarthistory.org/wp-content/uploads/2023/03/1340673150_40314babd7_o.jpg"],
+      "date": "725 CE",
+      "date-num": 725,
+      "date-range": 100,
+      "style": ["Maya civilization","Maya"],
+      "location": "Chiapas, Mexico",
+      "location-coordinate": [16.9, -90.966667]
+    },
+    {
+      "title": "Great Serpent Mound",
+      "image": "/ap-art-history/images/Great%20Serpent%20Mound.jpg",
+      "date": "c. 1070 CE",
+      "date-num": 1070,
+      "date-range": 100,
+      "style": ["Mississippian","Eastern Woodlands"],
+      "location": "Adams County, southern Ohio",
+      "location-coordinate": [39.026389, -83.430833]
+    },
+    {
+      "title": "Templo Mayor",
+      "image": "https://smarthistory.org/wp-content/uploads/2018/07/Templo-Mayor-thumb-870x523.jpg",
+      "date": "1375–1520 CE",
+      "date-num": [1375,1520],
+      "date-range": 100,
+      "style": ["Mexica","Aztec"],
+      "location": "Tenochtitlan (modern Mexico City, Mexico)",
+      "location-coordinate": [19.4333, -99.13278]
+    },
+    {
+      "title": ["The Coyolxauhqui Stone","Coyolxauhqui Stone"],
+      "image": "https://smarthistory.org/wp-content/uploads/2022/08/16193910604_9aa925e600_o-1-2048x1152.jpg",
+      "date": "1375–1520 CE",
+      "date-num": [1375,1520],
+      "date-range": 100,
+      "style": ["Mexica","Aztec"],
+      "location": "Tenochtitlan (modern Mexico City, Mexico)",
+      "location-coordinate": [19.4333, -99.13278]
+    },
+    {
+      "title": "Calendar Stone",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Piedra_del_Sol.png/960px-Piedra_del_Sol.png",
+      "date": "1375–1520 CE",
+      "date-num": [1375,1520],
+      "date-range": 100,
+      "style": ["Mexica","Aztec"],
+      "location": "Tenochtitlan (modern Mexico City, Mexico)",
+      "location-coordinate": [19.4333, -99.13278]
+    },
+    {
+      "title": "Olmec-style mask",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/08/16628671888_970a07dd4a_o.jpg",
+      "date": "1375–1520 CE",
+      "date-num": [1375,1520],
+      "date-range": 100,
+      "style": ["Mexica","Aztec"],
+      "location": "Tenochtitlan (modern Mexico City, Mexico)",
+      "location-coordinate": [19.4333, -99.13278]
+    },
+    {
+      "title": ["Ruler’s feather headdress (probably of Motecuhzoma II)","Ruler’s feather headdress","Feather headdress°"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Feather_headdress_Moctezuma_II.JPG/960px-Feather_headdress_Moctezuma_II.JPG",
+      "date": "1428–1520 CE",
+      "date-num": [1428,1520],
+      "date-range": 100,
+      "style": ["Mexica","Aztec"],
+      "location": "Tenochtitlan (modern Mexico City, Mexico)",
+      "location-coordinate": [19.4333, -99.13278]
+    },
+    {
+      "title": "City of Cusco",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_38.JPG/960px-Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_38.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Coricancha%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_68.JPG/960px-Coricancha%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_68.JPG"],
+      "date": "c. 1440 CE",
+      "date-num": 1440,
+      "date-range": 100,
+      "style": ["Inka","Inca"],
+      "location": "Central highlands, Peru",
+      "location-coordinate": [-13.525, -71.972222]
+    },
+    {
+      "title": "Maize cobs",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/02/cj7d3BpKJiIq.jpg",
+      "date": "c. 1440–1533 CE",
+      "date-num": [1440,1533],
+      "date-range": 100,
+      "style": ["Inka","Inca"],
+      "location": "Central highlands, Peru",
+      "location-coordinate": [-13.52, -71.975556]
+    },
+    {
+      "title": "City of Machu Picchu",
+      "image": ["https://smarthistory.org/wp-content/uploads/2023/03/50618773601_7983706494_o.jpg","https://smarthistory.org/wp-content/uploads/2023/03/Machu-Picchu-observatory.jpg","https://smarthistory.org/wp-content/uploads/2023/04/7914094258_d0d6328f09_o.jpg"],
+      "date": "c. 1450–1540 CE",
+      "date-num": [1450,1540],
+      "date-range": 100,
+      "style": ["Inka","Inca"],
+      "location": "Central highlands, Peru",
+      "location-coordinate": [-13.163333, -72.545556]
+    },
+    {
+      "title": "All-T’oqapu tunic",
+      "image": "https://smarthistory.org/wp-content/uploads/2019/11/InkaTunic-1323x1536.jpg",
+      "date": "c. 1450–1540 CE",
+      "date-num": [1450,1540],
+      "date-range": 100,
+      "style": ["Inka","Inca"],
+      "location": "Central highlands, Peru",
+      "location-coordinate": [-13.163333, -72.545556]
+    },
+    {
+      "title": "Bandolier bag",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/06/213358_900-870x1463.jpg",
+      "date": "c. 1850 CE",
+      "date-num": 1850,
+      "date-range": 100,
+      "style": ["Lenape","Delaware tribe","Delaware"],
+      "location": "Delaware tribe, Eastern Woodlands",
+      "location-coordinate": [40.385043316547225, -75.02013049689364]
+    },
+    {
+      "title": "Transformation mask",
+      "image": ["https://smarthistory.org/wp-content/uploads/2024/04/collcon-e1712952058914.jpeg","/ap-art-history/images/Transformation%20mask.jpg"],
+      "date": "Late 19th century CE",
+      "date-num": [1875,1899],
+      "date-range": 100,
+      "style": ["Kwakwaka’wakw","Kwakiutl"],
+      "location": "Northwest coast of Canada",
+      "location-coordinate": [50.14317347909118, -125.24026962856146]
+    },
+    {
+      "title": "Painted elk hide",
+      "image": "https://smarthistory.org/wp-content/uploads/2023/09/resize_formatfull-1536x1369.jpeg",
+      "date": "c. 1890–1900 CE",
+      "date-num": [1890,1900],
+      "date-range": 100,
+      "style": ["Eastern Shoshone","Shoshone"],
+      "location": "Wind River Reservation, Wyoming",
+      "location-coordinate": [43.26980433507175, -108.80528155155056],
+      "artist": ["Cotsiogo","Cadzi Cody"]
+    },
+    {
+      "title": ["Black-on-black ceramic vessel","Black on black ceramic vessel","Black-on-black vessel°","Black on black vessel°"],
+      "image": "https://smarthistory.org/wp-content/uploads/2023/07/1986.213.jpg",
+      "date": "c. mid-20th century CE",
+      "date-num": [1930,1970],
+      "date-range": 100,
+      "style": ["Tewa", "Puebloan","San Ildefonso Pueblo"],
+      "location": "San Ildefonso Pueblo, New Mexico",
+      "location-coordinate": [35.890556, -106.132778],
+      "artist": ["Maria Martínez and Julian Martínez","Maria Martinez","Julian Martinez","Maria and Julian Martinez"]
+    }
+  ],
   [],
   [],
   [
