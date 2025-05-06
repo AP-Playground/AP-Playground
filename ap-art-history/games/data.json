@@ -186,7 +186,7 @@
       "location-coordinate": [19.4333, -99.13278]
     },
     {
-      "title": "Olmec-style mask",
+      "title": ["Olmec-style mask","Olmec style mask","Olmec mask"],
       "image": "https://smarthistory.org/wp-content/uploads/2022/08/16628671888_970a07dd4a_o.jpg",
       "date": "1375–1520 CE",
       "date-num": [1375,1520],
@@ -288,7 +288,149 @@
       "artist": ["Maria Martínez and Julian Martínez","Maria Martinez","Julian Martinez","Maria and Julian Martinez"]
     }
   ],
-  [],
+  [
+    {
+      "title": "Great Zimbabwe",
+      "image": ["https://smarthistory.org/wp-content/uploads/2023/03/Great-zim-aerial-looking-West-copy-2048x1361.jpg","https://upload.wikimedia.org/wikipedia/commons/d/d4/Conical_Tower_-_Great_Enclosure_III_%2833736918448%29.jpg","https://upload.wikimedia.org/wikipedia/commons/d/d6/Great_zimbabwe_2.jpg","https://smarthistory.org/wp-content/uploads/2023/03/28037480480_637c2367a5_5k-2048x1536.jpg","https://upload.wikimedia.org/wikipedia/commons/9/9d/Zimbabwe_wall.jpg"],
+      "date": "c. 1000–1400 CE",
+      "date-num": [1000,1400],
+      "date-range": 100,
+      "style": ["Shona peoples","Shona"],
+      "location": "Southeastern Zimbabwe",
+      "location-coordinate": [-20.266667, 30.933333]
+    },
+    {
+      "title": "Great Mosque of Djenné",
+      "image": ["https://smarthistory.org/wp-content/uploads/2023/05/2434809322_f76c6575e5_o-2048x1033.png","https://smarthistory.org/wp-content/uploads/2022/09/La_grande_mosque%CC%81e-1_Djenne%CC%81_Mali_au_petit_matin._Date_du_cliche%CC%81_27-12-1972.jpg"],
+      "date": "Founded c. 1200 CE; rebuilt 1906–1907 CE",
+      "date-num": 1200,
+      "date-range": 100,
+      "style": ["Mali Empire", "Mali","Islamic"],
+      "location": "Mali",
+      "location-coordinate": [13.905278, -4.555556]
+    },
+    {
+      "title": ["Wall plaque, from Oba’s palace","Wall plaque"],
+      "image": "https://smarthistory.org/wp-content/uploads/2016/09/dp295360.jpg",
+      "date": "16th century CE",
+      "date-num": [1500,1599],
+      "date-range": 100,
+      "style": ["Edo peoples", "Edo","Kingdom of Benin","Benin"],
+      "location": "Kingdom of Benin, Nigeria",
+      "location-coordinate": [6.333333, 5.616667]
+    },
+    {
+      "title": ["Sika dwa kofi (Golden Stool)","Sika dwa kofi","Golden Stool"],
+      "image": "https://smarthistory.org/wp-content/uploads/2018/08/golden-stool-thumb-870x523.jpg",
+      "date": "c. 1700 CE",
+      "date-num": 1700,
+      "date-range": 100,
+      "style": ["Ashanti peoples", "Ashanti","Asante"],
+      "location": "South central Ghana",
+      "location-coordinate": [5.45, -0.966667]
+    },
+    {
+      "title": ["Ndop (portrait figure) of King Mishe miShyaang maMbul","Ndop of King Mishe miShyaang maMbul","Portrait figure of King Mishe miShyaang maMbul","Ndop","Portrait figure","King Mishe miShyaang maMbul"],
+      "image": "https://smarthistory.org/wp-content/uploads/2022/10/61.33_PS2-870x1160.jpg",
+      "date": "c. 1760–1780 CE",
+      "date-num": [1760,1780],
+      "date-range": 100,
+      "style": ["Kuba peoples", "Kuba"],
+      "location": "Democratic Republic of the Congo",
+      "location-coordinate": [-4.176439409414317, 21.091086830834854]
+    },
+    {
+      "title": ["Power figure (Nkisi n’kondi )","Power figure","Nkisi n'kondi","Nkisi nkondi"],
+      "image": "https://smarthistory.org/wp-content/uploads/2022/11/76.79-S3-2-1198x1536.jpeg",
+      "date": "c. late 19th century CE",
+      "date-num": [1875,1899],
+      "date-range": 100,
+      "style": ["Kongo peoples","Kongo"],
+      "location": "Democratic Republic of the Congo",
+      "location-coordinate": [-5.951337978386487, 14.294806568291893]
+    },
+    {
+      "title": ["Female (Pwo) mask","Female mask","Pwo mask"],
+      "image": "https://apstudy.github.io/ap-art-history/images/Female%20(pwo)%20mask.jpeg",
+      "date": "Late 19th to early 20th century CE",
+      "date-num": [1875,1925],
+      "date-range": 100,
+      "style": ["Chokwe peoples","Chokwe"],
+      "location": "Democratic Republic of the Congo",
+      "location-coordinate": [-11.10957200932285, 24.088021274217354]
+    },
+    {
+      "title": ["Portrait mask (Mblo)","Portrait mask","Mblo"],
+      "image": "https://smarthistory.org/wp-content/uploads/2022/07/portrait-copy-870x1237.png",
+      "date": "Early 20th century CE",
+      "date-num": [1900,1925],
+      "date-range": 100,
+      "style": ["Baule peoples","Baule"],
+      "location": "Côte d’Ivoire (Ivory Coast)",
+      "location-coordinate": [8, -5]
+    },
+    {
+      "title": ["Bundu mask","Bundu helmet mask","Bundu helmet"],
+      "image": "https://apstudy.github.io/ap-art-history/images/Bundu%20mask.png",
+      "date": "19th to 20th century CE",
+      "date-num": [1800,1999],
+      "date-range": 100,
+      "style": ["Sande Society","Sande","Mende peoples","Mande"],
+      "location": "West African forests of Sierra Leone and Liberia",
+      "location-coordinate": [6.942292937053245, -11.35465363384656]
+    },
+    {
+      "title": ["Ikenga (shrine figure)","Ikenga","Shrine figure"],
+      "image": "https://apstudy.github.io/ap-art-history/images/Ikenga.png",
+      "date": "c. 19th to 20th century CE",
+      "date-num": [1800,1999],
+      "date-range": 100,
+      "style": ["Igbo peoples","Igbo"],
+      "location": "Nigeria",
+      "location-coordinate": [6, 7]
+    },
+    {
+      "title": ["Lukasa (memory board)","Lukasa","Memory board"],
+      "image": "https://smarthistory.org/wp-content/uploads/2022/11/Lukasa.jpeg",
+      "date": "c. 19th to 20th century CE",
+      "date-num": [1800,1999],
+      "date-range": 100,
+      "style": ["Mbudye Society","Mbudye","Luba peoples","Luba"],
+      "location": "Democratic Republic of the Congo",
+      "location-coordinate": [-7.177647679114142, 23.153302491430768]
+    },
+    {
+      "title": ["Aka elephant mask","Aka mask°","Elephant mask°"],
+      "image": "https://apstudy.github.io/ap-art-history/images/Aka.png",
+      "date": "c. 19th to 20th century CE",
+      "date-num": [1800,1999],
+      "date-range": 100,
+      "style": ["Bamileke people","Bamileke"],
+      "location": "Cameroon, western grassfields region",
+      "location-coordinate": [6.5, 10.5]
+    },
+    {
+      "title": ["Reliquary figure (byeri)","Reliquary figure","Byeri"],
+      "image": "https://apstudy.github.io/ap-art-history/images/Reliquary%20figure.png",
+      "date": "c. 19th to 20th century CE",
+      "date-num": [1800,1999],
+      "date-range": 100,
+      "style": ["Fang peoples","Fang"],
+      "location": "Southern Cameroon",
+      "location-coordinate": [3.2918407638362974, 12.48240125631749]
+    },
+    {
+      "title": ["Veranda post of enthroned king and senior wife (Opo Ogoga)","Opo Ogoga","Veranda post of enthroned king and senior wife","Veranda post","Opo Ogoga of enthroned king and senior wife"],
+      "image": "https://smarthistory.org/wp-content/uploads/2019/10/IMG_5717.jpg",
+      "date": "c. 1910–1914 CE",
+      "date-num": [1910,1914],
+      "date-range": 100,
+      "style": ["Yoruba peoples","Yoruba"],
+      "location": "Nigeria",
+      "location-coordinate": [8, 10],
+      "artist": ["Olowe of Ise"]
+    }
+  ],
   [],
   [
     {
