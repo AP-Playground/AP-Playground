@@ -488,8 +488,8 @@
       "date": "c. 700 CE (modifications in 14th, 18th, and 20th centuries)",
       "date-num": 700,
       "date-range": 100,
-      "style": ["Islamic","Persian","Seljuk", "Il-Khanid", "Timurid", "Safavid"],
-      "location": "Isfahan, Iran",
+      "style": ["Persian","Seljuk Turk", "Seljuk","Islamic"],
+      "location": "Isfahan, Iran; Ilkhanid, Timurid and Safavid Dynasties",
       "location-coordinate": [32.669722, 51.685278]
     },
     {
