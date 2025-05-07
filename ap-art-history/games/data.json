@@ -431,7 +431,121 @@
       "artist": ["Olowe of Ise"]
     }
   ],
-  [],
+  [
+    {
+      "title": ["Petra: Treasury and Great Temple", "Petra", "Treasury", "Great Temple"],
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Treasury_petra_crop.jpeg/500px-Treasury_petra_crop.jpeg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Great_Temple_of_Petra_02.jpg/960px-Great_Temple_of_Petra_02.jpg",""],
+      "date": "c. 400 BCE–100 CE",
+      "date-num": [-400,100],
+      "date-range": 100,
+      "style": ["Nabataean","Ptolemaic","Roman"],
+      "location": "Jordan",
+      "location-coordinate": [30.328611, 35.441944]
+    },
+    {
+      "title": ["Buddha","Buddha of Bamiyan"],
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/4/46/Buddha_of_Bamiyan.jpg","https://smarthistory.org/wp-content/uploads/2023/10/standing_buddha_bamiyan-870x410.png"],
+      "date": "c. 400–800 CE (destroyed 2001)",
+      "date-num": [400,800],
+      "date-range": 100,
+      "style": ["Gandharan"],
+      "location": "Bamiyan, Afghanistan",
+      "location-coordinate": [34.832, 67.8267]
+    },
+    {
+      "title": ["The Kaaba","Kaaba"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2022/01/Kaaba_Masjid_Haraam_Makkah-870x870.jpeg","https://smarthistory.org/wp-content/uploads/2022/01/3343681248_16a178708f_o-870x653.jpg"],
+      "date": "Rededicated by Muhammad in 631–632 CE",
+      "date-num": [631,632],
+      "date-range": 100,
+      "style": ["Islamic", "Pre-Islamic"],
+      "location": "Mecca, Saudi Arabia",
+      "location-coordinate": [21.4225, 39.826167]
+    },
+    {
+      "title": "Jowo Rinpoche",
+      "image": ["https://smarthistory.org/wp-content/uploads/2023/04/4129795123_5b7d618fbb_o-870x653.jpg","https://smarthistory.org/wp-content/uploads/2023/04/4130562396_f1c225f5ec_o.jpg"],
+      "date": "Brought to Tibet in 641 CE",
+      "date-num": 641,
+      "date-range": 100,
+      "style": ["Yarlung Dynasty", "Yarlung","Tibetan"],
+      "location": "Jokhang Temple, Lhasa, Tibet",
+      "location-coordinate": [29.653056, 91.0475]
+    },
+    {
+      "title": "Dome of the Rock",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg/960px-Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg","https://smarthistory.org/wp-content/uploads/2021/03/DomeoftheRockUp-870x635.jpg"],
+      "date": "691–692 CE",
+      "date-num": [691,692],
+      "date-range": 100,
+      "style": ["Islamic", "Umayyad"],
+      "location": "Jerusalem, Israel",
+      "location-coordinate": [31.778, 35.2354]
+    },
+    {
+      "title": ["Great Mosque (Masjid-e Jameh)","Great Mosque","Masjid-e Jameh"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2022/09/8610407451_5291a54c4a_4k-870x580.jpg","https://smarthistory.org/wp-content/uploads/2022/09/875455613_ba0bcf4111_o-870x581.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/20180301124354_IMG_4179And6more_Interior_3.jpg/500px-20180301124354_IMG_4179And6more_Interior_3.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gran_Mezquita_de_Isfah%C3%A1n%2C_Isfahan%2C_Ir%C3%A1n%2C_2016-09-19%2C_DD_43-45_HDR_Alt.jpg/500px-Gran_Mezquita_de_Isfah%C3%A1n%2C_Isfahan%2C_Ir%C3%A1n%2C_2016-09-19%2C_DD_43-45_HDR_Alt.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Gran_Mezquita_de_Isfah%C3%A1n%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_24.jpg/330px-Gran_Mezquita_de_Isfah%C3%A1n%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_24.jpg"],
+      "date": "c. 700 CE (modifications in 14th, 18th, and 20th centuries)",
+      "date-num": 700,
+      "date-range": 100,
+      "style": ["Islamic","Persian","Seljuk", "Il-Khanid", "Timurid", "Safavid"],
+      "location": "Isfahan, Iran",
+      "location-coordinate": [32.669722, 51.685278]
+    },
+    {
+      "title": ["Folio from a Qur’an","Folio°"],
+      "image": "https://smarthistory.org/wp-content/uploads/2022/01/Cropped77372v_0040-870x627.jpg",
+      "date": "c. eighth to ninth century CE",
+      "date-num": [700,899],
+      "date-range": 100,
+      "style": ["Abbasid Empire","Abbasid"],
+      "location": "Arab, North Africa, or Near East",
+      "location-coordinate": [33.315278, 44.366111]
+    },
+    {
+      "title": ["Basin (Baptistère de St. Louis)","Basin","Baptistère de St. Louis"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Baptist%C3%A8re_de_Saint_Louis_-_Mus%C3%A9e_du_Louvre_Arts_de_l%27Islam_LP_16.jpg/330px-Baptist%C3%A8re_de_Saint_Louis_-_Mus%C3%A9e_du_Louvre_Arts_de_l%27Islam_LP_16.jpg",
+      "date": "c. 1320–1340 CE",
+      "date-num": [1320,1340],
+      "date-range": 100,
+      "style": ["Mamluk Sultanate","Mamluk"],
+      "location": "Arab, North Africa, or Near East",
+      "location-coordinate": [30.044444, 31.235833],
+      "artist": ["Muhammad ibn al-Zain","al-Zain"]
+    },
+    {
+      "title": ["Bahram Gur Fights the Karg, folio from the Great Il-Khanid Shahnama","Bahram Gur Fights the Karg"],
+      "image": "https://smarthistory.org/wp-content/uploads/2023/11/469446516-870x1183.jpeg",
+      "date": "c. 1330–1340 CE",
+      "date-num": [1330,1340],
+      "date-range": 100,
+      "style": ["Persian", "Il’Khanid"],
+      "location": "Islamic, Il'Khanid court",
+      "location-coordinate": [36.434167, 48.794444]
+    },
+    {
+      "title": ["The Court of Gayumars, folio from Shah Tahmasp’s Shahnama","The Court of Gayumars"],
+      "image": "https://smarthistory.org/wp-content/uploads/2020/07/49824148617_882b447469_o-870x1324.jpg",
+      "date": "c. 1522–1525 CE",
+      "date-num": [1522,1525],
+      "date-range": 100,
+      "style": ["Safavid Empire", "Safavid"],
+      "location": "Tabriz, Iran",
+      "location-coordinate": [38.081667, 46.299167],
+      "artist": ["Sultan Muhammad"]
+    },
+    {
+      "title": ["The Ardabil Carpet","Ardabil Carpet"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ardabil_Carpet.jpg/250px-Ardabil_Carpet.jpg",
+      "date": "1539–1540 CE",
+      "date-num": [1539,1540],
+      "date-range": 100,
+      "style": ["Safavid Empire", "Safavid"],
+      "location": "Sheikh Safi al-Din Khānegāh and Shrine Ensemble, Ardabil, Iran",
+      "location-coordinate": [38.248611, 48.291389],
+      "artist": ["Maqsud of Kashan"]
+    }
+  ],
   [
     {
       "title": ["Great Stupa at Sanchi","Great Stupa°"],
