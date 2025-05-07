@@ -434,7 +434,7 @@
   [
     {
       "title": ["Petra: Treasury and Great Temple", "Petra", "Treasury", "Great Temple"],
-      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Treasury_petra_crop.jpeg/500px-Treasury_petra_crop.jpeg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Great_Temple_of_Petra_02.jpg/960px-Great_Temple_of_Petra_02.jpg",""],
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Treasury_petra_crop.jpeg/500px-Treasury_petra_crop.jpeg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Great_Temple_of_Petra_02.jpg/960px-Great_Temple_of_Petra_02.jpg"],
       "date": "c. 400 BCE–100 CE",
       "date-num": [-400,100],
       "date-range": 100,
