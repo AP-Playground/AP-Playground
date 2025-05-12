@@ -111,7 +111,375 @@
       "location-coordinate": [-10.155206542748278, 166.31194975869076]
     }
   ],
-  [],
+  [
+    {
+      "title": ["White Temple and its ziggurat","White temple and ziggurat"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/10/ae381cd2defdd955a5284dd0c7a8b8bf66150822.jpeg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/White_Temple_ziggurat_in_Uruk.jpg/960px-White_Temple_ziggurat_in_Uruk.jpg"],
+      "date": "c. 3500–3000 BCE",
+      "date-num": [-3500,3000],
+      "date-range": 100,
+      "style": ["Sumerian"],
+      "location": "Uruk (modern Warka, Iraq)",
+      "location-coordinate": [31.324167, 45.637222]
+    },
+    {
+      "title": ["Palette of King Narmer","Palette of Narmer"],
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Narmer_Palette_smiting_side.jpg/330px-Narmer_Palette_smiting_side.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Narmer_Palette_serpopard_side.jpg/330px-Narmer_Palette_serpopard_side.jpg"],
+      "date": "c. 3000–2920 BCE",
+      "date-num": [-3000,-2920],
+      "date-range": 100,
+      "style": ["Ancient Egyptian", "Predynastic Egypt", "Predynastic"],
+      "location": "Predynastic Egypt",
+      "location-coordinate": [30.0478, 31.2333]
+    },
+    {
+      "title": ["Statues of votive figures","Votive figures"],
+      "image": "https://smarthistory.org/wp-content/uploads/2023/07/Sumerian_Status_from_Tell_Asmar_part_of_the_Tell_Asmar_Hoard-870x1382.jpg",
+      "date": "c. 2700 BCE",
+      "date-num": -2700,
+      "date-range": 100,
+      "style": ["Sumerian"],
+      "location": "Square Temple at Eshnunna (modern Tell Asmar, Iraq)",
+      "location-coordinate": [33.484167, 44.728333]
+    },
+    {
+      "title": "Seated scribe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg/500px-The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg",
+      "date": "c. 2620–2500 BCE",
+      "date-num": [-2620,-2500],
+      "date-range": 100,
+      "style": ["Old Kingdom","Old Kingdom Egypt","Fourth Dynasty"],
+      "location": "Saqqara, Egypt",
+      "location-coordinate": [29.871111, 31.216389]
+    },
+    {
+      "title": "Standard of Ur",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg/960px-Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Standard_of_Ur_-_War.jpg/960px-Standard_of_Ur_-_War.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Standard_of_Ur_-_peace_side.jpg/960px-Standard_of_Ur_-_peace_side.jpg"],
+      "date": "c. 2600–2400 BCE",
+      "date-num": [-2600,-2400],
+      "date-range": 100,
+      "style": ["Sumerian"],
+      "location": "Royal Tombs at Ur (modern Tell el-Muqayyar, Iraq)",
+      "location-coordinate": [30.9615, 46.1061]
+    },
+    {
+      "title": ["Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx","Great Pyramids and Great Sphinx","Great Pyramids","Pyramids of Menkaura, Khafre, and Khufu","Great Pyramids","Pyramids of Menkaura, Khafre, Khufu","Great Pyramids","Great Pyramids of Menkaura Khafre and Khufu","Great Pyramids of Menkaura Khafre Khufu"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2020/11/Pyramids_of_the_Giza_Necropolis.jpg","https://smarthistory.org/wp-content/uploads/2021/10/Pyramid_of_Khafre_Giza_Egypt_in_2015_2-870x580.jpeg","https://smarthistory.org/wp-content/uploads/2021/10/Giza_pyramid_complex_from_air_2928-870x653.jpeg","https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Egypt%2C_Giza.jpg/960px-Egypt%2C_Giza.jpg","https://smarthistory.org/wp-content/uploads/2021/10/2342808125_025cf85a39_k-870x582.jpg"],
+      "date": "c. 2550–2490 BCE",
+      "date-num": [-2550,-2490],
+      "date-range": 100,
+      "style": ["Old Kingdom","Old Kingdom Egypt","Fourth Dynasty"],
+      "location": "Giza, Egypt",
+      "location-coordinate": [29.976111, 31.132778]
+    },
+    {
+      "title": "King Menkaura and queen",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/King_Menkaura_and_queen-11.1738-IMG_4928-gradient.jpg/500px-King_Menkaura_and_queen-11.1738-IMG_4928-gradient.jpg",
+      "date": "c. 2490–2472 BCE",
+      "date-num": [-2490,-2472],
+      "date-range": 100,
+      "style": ["Old Kingdom","Old Kingdom Egypt","Fourth Dynasty"],
+      "location": "Giza, Egypt",
+      "location-coordinate": [29.972492255640542, 31.13615372218268]
+    },
+    {
+      "title": ["The Code of Hammurabi","Code of Hammurabi","Hammurabi's Code"],
+      "image": "https://smarthistory.org/wp-content/uploads/2022/06/0000230553_OG-300x466.jpg",
+      "date": "c. 1792–1750 BCE",
+      "date-num": [-1792,-1750],
+      "date-range": 100,
+      "style": ["Susian"],
+      "location": "Babylon (modern Iran)",
+      "location-coordinate": [33.058829, 44.252153]
+    },
+    {
+      "title": ["Temple of Amun-Re and Hypostyle Hall","Temple of Amun-Re"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/10/AmunReHypostyleHall-2048x832.jpeg","https://smarthistory.org/wp-content/uploads/2021/10/AmunRaEastWest.jpeg"],
+      "date": "c. 1550 BCE (Hall: c. 1250 BCE)",
+      "date-num": -1550,
+      "date-range": 100,
+      "style": ["New Kingdom","New Kingdom Egypt","18th and 19th Dynasties"],
+      "location": "Karnak, near Luxor, Egypt",
+      "location-coordinate": [25.7186, 32.6579]
+    },
+    {
+      "title": "Mortuary temple of Hatshepsut",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Large_Kneeling_Statue_of_Hatshepsut_MET_21V_CAT091R2.jpg/330px-Large_Kneeling_Statue_of_Hatshepsut_MET_21V_CAT091R2.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Templo_funerario_de_Hatshepsut%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_13.jpg/960px-Templo_funerario_de_Hatshepsut%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_13.jpg"],
+      "date": "c. 1473–1458 BCE",
+      "date-num": [-1473,-1458],
+      "date-range": 100,
+      "style": ["New Kingdom","New Kingdom Egypt","18th Dynasty"],
+      "location": "Near Luxor, Egypt",
+      "location-coordinate": [25.738278, 32.606583]
+    },
+    {
+      "title": ["Akhenaten, Nefertiti, and three daughters","Akhenaten Nefertiti and three daughters","Akhenaten and Nefertiti°"],
+      "image": "https://lh3.googleusercontent.com/ci/AL18g_Txz5B3iFnrxR1BuhfJolm2ahqLHFZeQ-m7vwhsw7ogsH1WxEbUjR6cVKQPja-ayXZ5gySAw5ld=s1200",
+      "date": "c. 1353–1335 BCE",
+      "date-num": [-1353,-1335],
+      "date-range": 100,
+      "style": ["Amarna","New Kingdom Amarna"],
+      "location": "Tell el-Amarna, Middle Egypt",
+      "location-coordinate": [27.645278, 30.896389]
+    },
+    {
+      "title": ["Tutankhamun’s tomb, innermost coffin","Innermost coffin of Tutankhamun’s tomb","Tutankhamun’s coffin"],
+      "image": "https://smarthistory.org/wp-content/uploads/2021/10/tut-coffin-long.jpeg",
+      "date": "c. 1323 BCE",
+      "date-num": -1323,
+      "date-range": 100,
+      "style": ["New Kingdom","New Kingdom Egypt","18th Dynasty"],
+      "location": "Tomb of Tutankhamun, Valley of the Kings, Egypt",
+      "location-coordinate": [25.740389, 32.601417]
+    },
+    {
+      "title": ["Last judgment of Hunefer (page from the Book of the Dead)","Last judgment of Hunefer"],
+      "image": "https://smarthistory.org/wp-content/uploads/2021/10/HuneferFull-2048x944.jpg",
+      "date": "c. 1275 BCE",
+      "date-num": -1275,
+      "date-range": 100,
+      "style": ["New Kingdom","New Kingdom Egypt","18th Dynasty"],
+      "location": "Thebes, Egypt",
+      "location-coordinate": [25.720556, 32.610278]
+    },
+    {
+      "title": ["Lamassu from the citadel of Sargon II","Lamassu from citadel of Sargon II","Lamassu"],
+      "image": "https://smarthistory.org/wp-content/uploads/2023/07/14581729882_1be6955e2e_k.jpg",
+      "date": "c. 720–705 BCE",
+      "date-num": [-720,-705],
+      "date-range": 100,
+      "style": ["Neo-Assyrian","Assyrian°"],
+      "location": "Dur Sharrukin (modern Khorsabad, Iraq)",
+      "location-coordinate": [36.509444, 43.229444]
+    },
+    {
+      "title": "Athenian agora",
+      "image": "https://smarthistory.org/wp-content/uploads/2021/02/Site-plan-of-the-Agora-of-Athens-in-the-Classical-period-1502x1536.jpg",
+      "date": "600 BCE–150 CE",
+      "date-num": [-600,-150],
+      "date-range": 100,
+      "style": ["Archaic through Hellenistic Greek","Archaic", "Classical", "Hellenistic"],
+      "location": "Athens, Greece",
+      "location-coordinate": [37.975, 23.7225]
+    },
+    {
+      "title": "Anavysos Kouros",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kouros_anavissos.jpg/500px-Kouros_anavissos.jpg",
+      "date": "c. 530 BCE",
+      "date-num": -530,
+      "date-range": 100,
+      "style": ["Archaic Greek","Archaic"],
+      "location": "Anavyssos, Greece",
+      "location-coordinate": [37.733333, 23.95]
+    },
+    {
+      "title": "Peplos Kore",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/ACMA_679_Kore_1.JPG/330px-ACMA_679_Kore_1.JPG",
+      "date": "c. 530 BCE",
+      "date-num": -530,
+      "date-range": 100,
+      "style": ["Archaic Greek","Archaic"],
+      "location": "Acropolis, Athens, Greece",
+      "location-coordinate": [37.971667, 23.726111]
+    },
+    {
+      "title": "Sarcophagus of the Spouses",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sarcophagus_of_the_Spouses_from_Villa_Giulia_in_Rome.jpg/960px-Sarcophagus_of_the_Spouses_from_Villa_Giulia_in_Rome.jpg",
+      "date": "c. 520 BCE",
+      "date-num": -520,
+      "date-range": 100,
+      "style": ["Etruscan"],
+      "location": "Caere, Etruria, Italy",
+      "location-coordinate": [42.001667, 12.108333]
+    },
+    {
+      "title": ["Audience Hall (apadana) of Darius and Xerxes","Audience Hall of Darius and Xerxes","Apadana","Audience Hall"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/10/EastStairwayPersepolis.jpeg","https://smarthistory.org/wp-content/uploads/2021/10/Persepolis.jpeg","https://smarthistory.org/wp-content/uploads/2021/10/20388181404_69af0513cf_k.jpg","https://smarthistory.org/wp-content/uploads/2021/10/20388181404_69af0513cf_k.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Persepolis001.jpg/960px-Persepolis001.jpg"],
+      "date": "c. 520–465 BCE",
+      "date-num": [-520,-465],
+      "date-range": 100,
+      "style": ["Persian","Achaemenid Empire","Achaemenid"],
+      "location": "Persepolis, Iran",
+      "location-coordinate": [29.935, 52.89]
+    },
+    {
+      "title": ["Temple of Minerva and sculpture of Apollo","Temple of Minerva","Sculpture of Apollo"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2022/01/PlanEtruscanTemplepsd-870x1200.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Decorazione_fittile_del_santuario_di_portonaccio%2C_510-500_ac_ca%2C_acroteri%2C_apollo_02.jpg/500px-Decorazione_fittile_del_santuario_di_portonaccio%2C_510-500_ac_ca%2C_acroteri%2C_apollo_02.jpg","https://smarthistory.org/wp-content/uploads/2022/01/16748028961_eab113dbff_k-870x499.jpg"],
+      "date": "c. 510–500 BCE",
+      "date-num": [-510,-500],
+      "date-range": 100,
+      "style": ["Etruscan"],
+      "location": "Veii, near Rome, Italy",
+      "location-coordinate": [42.021111, 12.390833],
+      "artist": ["Master sculptor Vulca","Vulca"]
+    },
+    {
+      "title": "Tomb of the Triclinium",
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/10/triclinium-2048x1365.jpeg","https://smarthistory.org/wp-content/uploads/2021/10/tmp1027784400357556225.png","https://smarthistory.org/wp-content/uploads/2021/10/Etruskischer_Meister_002-1536x1128.jpeg"],
+      "date": "c. 480–470 BCE",
+      "date-num": [-480,-470],
+      "date-range": 100,
+      "style": ["Etruscan"],
+      "location": "Tarquinia, Italy",
+      "location-coordinate": [42.248889, 11.771667]
+    },
+    {
+      "title": "Niobides Krater",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Niobid_Krater_-_Niobid_massacre.jpg/500px-Niobid_Krater_-_Niobid_massacre.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Krater_Niobid_Painter_A_Louvre_G341.jpg/960px-Krater_Niobid_Painter_A_Louvre_G341.jpg"],
+      "date": "c. 460–450 BCE",
+      "date-num": [-460,-450],
+      "date-range": 100,
+      "style": ["Classical Greek","Classical","Early Classical"],
+      "location": "Athens, Greece",
+      "location-coordinate": [37.984167, 23.728056],
+      "artist": ["Niobid Painter"]
+    },
+    {
+      "title": ["Doryphoros (Spear Bearer)","Doryphoros","Spear Bearer"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/02_10_2024_Photo_Paolo_Villa-Napoli-mann-Museo_Archeologico-FO232526tris-Arte_Greca_copia_romana-Policleto_Doriforo_Polykleitos_Doryphoros_from_Pompeii-marmo_marble_carrara.jpg/500px-thumbnail.jpg",
+      "date": "450–440 BCE (original)",
+      "date-num": [-450,-440],
+      "date-range": 100,
+      "style": ["Classical Greek","Classical","High Classical"],
+      "location": "Árgos, Greece",
+      "location-coordinate": [37.616667, 22.716667],
+      "artist": ["Polykleitos"]
+    },
+    {
+      "title": "Acropolis",
+      "image": ["https://smarthistory.org/wp-content/uploads/2016/08/parthenonlg.jpg","https://smarthistory.org/wp-content/uploads/2021/02/14296260440_5f1057779f_k-870x580.jpg","https://upload.wikimedia.org/wikipedia/commons/9/97/Flickr_-_Nic%27s_events_-_London_-_14-15_Dec_2007_-_067.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nike_adjusting_sandal.jpg/500px-Nike_adjusting_sandal.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Temple_of_Athena_Nik%C3%A8_from_Propylaea%2C_Acropolis%2C_Athens%2C_Greece.jpg/960px-Temple_of_Athena_Nik%C3%A8_from_Propylaea%2C_Acropolis%2C_Athens%2C_Greece.jpg"],
+      "date": "c. 447–410 BCE",
+      "date-num": [-447,-410],
+      "date-range": 100,
+      "style": ["Classical Greek","Classical","High Classical"],
+      "location": "Athens, Greece",
+      "location-coordinate": [37.971667, 23.726111],
+      "artist": ["Iktinos and Kallikrates","Iktinos","Kallikrates"]
+    },
+    {
+      "title": "Grave stele of Hegeso",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/NAMA_St%C3%A8le_d%27H%C3%A8g%C3%A8s%C3%B4.jpg",
+      "date": "c. 410 BCE",
+      "date-num": -410,
+      "date-range": 100,
+      "style": ["Classical Greek","Classical","High Classical"],
+      "location": "Athens, Greece",
+      "location-coordinate": [37.978333, 23.718889],
+      "artist": ["Attributed to Kallimachos","Kallimachos"]
+    },
+    {
+      "title": "Winged Victory of Samothrace",
+      "image": "https://smarthistory.org/wp-content/uploads/2021/08/5604386389_80952d8483_o-1152x1536.jpg",
+      "date": "c. 190 BCE",
+      "date-num": -190,
+      "date-range": 100,
+      "style": ["Hellenistic Greek","Hellenistic"],
+      "location": "Samothrace, Aegean Sea, Greece",
+      "location-coordinate": [40.45, 25.5875]
+    },
+    {
+      "title": ["Great Altar of Zeus and Athena at Pergamon","Great Altar of Zeus and Athena"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/03/pergamon-flickr-fixed-2048x1152.jpg","https://smarthistory.org/wp-content/uploads/2021/03/athena-pergamon-scaled.jpg"],
+      "date": "c. 175 BCE",
+      "date-num": -175,
+      "date-range": 100,
+      "style": ["Hellenistic Greek","Hellenistic"],
+      "location": "Asia Minor (present-day Turkey)",
+      "location-coordinate": [39.131051, 27.183931]
+    },
+    {
+      "title": "House of the Vettii",
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/10/vettii-floorplan-870x1125.png","https://smarthistory.org/wp-content/uploads/2021/10/2431217760_4f2827fb26_o-1536x1024.jpg","https://smarthistory.org/wp-content/uploads/2021/10/2692255918_3e5a9d3149_o-1536x1152.jpg"],
+      "date": "c. 2nd century BCE (rebuilt c. 62–79 CE)",
+      "date-num": [-199,-100],
+      "date-range": 100,
+      "style": ["Imperial Roman"],
+      "location": "Pompeii, Italy",
+      "location-coordinate": [40.752083, 14.484583]
+    },
+    {
+      "title": "Alexander Mosaic",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Battle_of_Issus_mosaic_-_Museo_Archeologico_Nazionale_-_Naples_2013-05-16_16-25-06_BW.jpg/960px-Battle_of_Issus_mosaic_-_Museo_Archeologico_Nazionale_-_Naples_2013-05-16_16-25-06_BW.jpg",
+      "date": "c. 100 BCE",
+      "date-num": -100,
+      "date-range": 100,
+      "style": ["Republican Roman","Roman Republic"],
+      "location": "House of Faun, Pompeii, Italy",
+      "location-coordinate": [40.75125, 14.484583]
+    },
+    {
+      "title": "Seated boxer",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/P%C3%BAgil_en_rep%C3%B2s_%28s._IV_a.C.%29%2C_Museu_Nacional_Rom%C3%A0_%28Palau_Massimo%29%2C_Roma_%28Vista_general%29.jpg/500px-P%C3%BAgil_en_rep%C3%B2s_%28s._IV_a.C.%29%2C_Museu_Nacional_Rom%C3%A0_%28Palau_Massimo%29%2C_Roma_%28Vista_general%29.jpg",
+      "date": "c. 100 BCE",
+      "date-num": -100,
+      "date-range": 100,
+      "style": ["Hellenistic Greek","Hellenistic"],
+      "location": "Rome, Italy",
+      "location-coordinate": [41.901111, 12.488333],
+      "artist": ["Apollonius"]
+    },
+    {
+      "title": ["Head of a Roman patrician","Roman patrician"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/11/Profilesm-2048x1152.jpg","https://smarthistory.org/wp-content/uploads/2021/11/Topsm-2048x1152.jpg","https://smarthistory.org/wp-content/uploads/2021/11/From-right-Up-sm-2048x1152.jpg"],
+      "date": "c. 75–50 BCE",
+      "date-num": [-75,-50],
+      "date-range": 100,
+      "style": ["Republican Roman","Roman Republic"],
+      "location": "Otricoli (ancient Ocriculum), Italy",
+      "location-coordinate": [42.416667, 12.483333]
+    },
+    {
+      "title": ["Augustus of Prima Porta", "Augustus of Primaporta"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Augustus_of_Prima_Porta.jpg/500px-Augustus_of_Prima_Porta.jpg",
+      "date": "Early 1st century CE",
+      "date-num": [0,50],
+      "date-range": 100,
+      "style": ["Imperial Roman"],
+      "location": "Villa of Livia, Primaporta, Italy",
+      "location-coordinate": [41.90646, 12.45435]
+    },
+    {
+      "title": ["Colosseum (Flavian Amphitheater)", "Colosseum","Flavian Amphitheater"],
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Piranesi_Kolosseum.jpg/960px-Piranesi_Kolosseum.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Exterior_of_the_Colosseum_01.JPG/960px-Exterior_of_the_Colosseum_01.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/0_Colosseum_-_Rome_111001_%282%29.JPG/960px-0_Colosseum_-_Rome_111001_%282%29.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rom_Colosseum_Sept_2021_3.jpg/960px-Rom_Colosseum_Sept_2021_3.jpg"],
+      "date": "70–80 CE",
+      "date-num": [70,80],
+      "date-range": 100,
+      "style": ["Imperial Roman"],
+      "location": "Rome, Italy",
+      "location-coordinate": [41.890278, 12.492222]
+    },
+    {
+      "title": "Forum of Trajan",
+      "image": ["https://smarthistory.org/wp-content/uploads/2020/10/trajan-full-sm-870x1325.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mercati_di_Traiano_-_Roma.jpg/960px-Mercati_di_Traiano_-_Roma.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Basilica_Ulpia_J_Guadet_1867.jpg/960px-Basilica_Ulpia_J_Guadet_1867.jpg","/ap-art-history/images/Forum%20of%20Trajan%20(reconstruction%20drawing).jpg"],
+      "date": "106–112 CE (column completed 113 CE)",
+      "date-num": [106,112],
+      "date-range": 100,
+      "style": ["Imperial Roman"],
+      "location": "Rome, Italy",
+      "location-coordinate": [41.895419, 12.485869],
+      "artist": ["Apollodorus of Damascus","Apollodorus"]
+    },
+    {
+      "title": "Pantheon",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pantheon_Rom_1_cropped.jpg/960px-Pantheon_Rom_1_cropped.jpg","https://smarthistory.org/wp-content/uploads/2015/12/pan1.jpg","https://smarthistory.org/wp-content/uploads/2015/12/24910806851_7ab0edf0a2_b.jpg","https://smarthistory.org/wp-content/uploads/2015/12/13476624383_fd706a1ad9_h.jpg"],
+      "date": "118–125 CE",
+      "date-num": [118,125],
+      "date-range": 100,
+      "style": ["Imperial Roman"],
+      "location": "Rome, Italy",
+      "location-coordinate": [41.8986, 12.4768]
+    },
+    {
+      "title": "Ludovisi Battle Sarcophagus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/10_2023_-_Palazzo_Altemps%2C_Roma%2C_Lazio%2C_00186%2C_Italia_-_Sarcofago_Grande_Ludovisi_%28Grande_Ludovisi_sarcophagus%29_-_Arte_Romana_-_Photo_Paolo_Villa_FO232047_ombre_gimp_bis.jpg/960px-thumbnail.jpg",
+      "date": "c. 250 CE",
+      "date-num": 250,
+      "date-range": 100,
+      "style": ["Late Imperial Roman","Imperial Roman"],
+      "location": "Rome, Italy",
+      "location-coordinate": [41.901194, 12.472833]
+    }
+  ],
   [],
   [],
   [
@@ -445,7 +813,7 @@
     {
       "title": ["Buddha","Buddha of Bamiyan"],
       "image": ["https://upload.wikimedia.org/wikipedia/commons/4/46/Buddha_of_Bamiyan.jpg","https://smarthistory.org/wp-content/uploads/2023/10/standing_buddha_bamiyan-870x410.png"],
-      "date": "c. 400–800 CE (destroyed 2001)",
+      "date": "c. 400–800 CE (destroyed 2001 CE)",
       "date-num": [400,800],
       "date-range": 100,
       "style": ["Gandharan"],
