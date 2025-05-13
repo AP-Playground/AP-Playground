@@ -480,7 +480,300 @@
       "location-coordinate": [41.901194, 12.472833]
     }
   ],
-  [],
+  [
+    {
+      "title": "Catacomb of Priscilla",
+      "image": ["https://smarthistory.org/wp-content/uploads/2018/07/Catacomb-of-Priscilla-Rome-thumb.jpg","/ap-art-hisyory/images/Greek%20Chapel.jpg","/ap-art-history/images/Good%20Shepherd%20Fresco.png"],
+      "date": "c. 200–400 CE",
+      "date-num": [200,400],
+      "date-range": 100,
+      "style": ["Late Antique Europe","Medieval","Early Christian"],
+      "location": "Rome, Italy",
+      "location-coordinate": [41.9297, 12.5087]
+    },
+    {
+      "title": "Santa Sabina",
+      "image": ["https://smarthistory.org/wp-content/uploads/2022/01/16542925467_a0dd79c2c8_k.jpg","https://smarthistory.org/wp-content/uploads/2022/01/16564087789_a134b57e6d_k.jpg"],
+      "date": "c. 422–432 CE",
+      "date-num": [422,432],
+      "date-range": 100,
+      "style": ["Late Antique Europe","Medieval","Early Christian"],
+      "location": "Rome, Italy",
+      "location-coordinate": [41.884444, 12.479722]
+    },
+    {
+      "title": ["Vienna Genesis","Rebecca and Eliezer at the Well and Jacob Wrestling the Angel, from the Vienna Genesis","Rebecca and Eliezer at the Well from the Vienna Genesis","Rebecca and Eliezer at the Well","Jacob Wrestling the Angel from the Vienna Genesis","Jacob Wrestling the Angel"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2017/04/rebekah-genesis-from-beths-folder.jpg","https://upload.wikimedia.org/wikipedia/commons/a/a0/ViennGenFol12vJacob.jpg"],
+      "date": "Early 6th century CE",
+      "date-num": [500,540],
+      "date-range": 100,
+      "style": ["Early Byzantine","Byzantine"],
+      "location": "Syria (likely)",
+      "location-coordinate": [35, 38]
+    },
+    {
+      "title": "San Vitale",
+      "image": ["https://smarthistory.org/wp-content/uploads/2022/07/52188874888_5b1f2cab73_k.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/San_vitale%2C_ravenna%2C_int._01.JPG/960px-San_vitale%2C_ravenna%2C_int._01.JPG","https://smarthistory.org/wp-content/uploads/2022/07/52189366395_61093ca9cd_k.jpg","https://smarthistory.org/wp-content/uploads/2021/06/Theodora-2048x1331.jpg","https://upload.wikimedia.org/wikipedia/commons/5/53/Byggnadskonsten%2C_San_Vitale_i_Ravenna%2C_Nordisk_familjebok.png"],
+      "date": "c. 526–547 CE",
+      "date-num": [526,547],
+      "date-range": 100,
+      "style": ["Early Byzantine","Byzantine"],
+      "location": "Ravenna, Italy",
+      "location-coordinate": [44.420556, 12.196389]
+    },
+    {
+      "title": "Hagia Sophia",
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/10/HagiaSophia-1.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hagia-Sophia-Grundriss.jpg/960px-Hagia-Sophia-Grundriss.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Istanbul_asv2021-10_img22_Hagia_Sophia.jpg/500px-Istanbul_asv2021-10_img22_Hagia_Sophia.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Interior_of_Haghia_Sophia.jpg/960px-Interior_of_Haghia_Sophia.jpg"],
+      "date": "532–537 CE",
+      "date-num": [532,537],
+      "date-range": 100,
+      "style": ["Early Byzantine","Byzantine"],
+      "location": "Constantinople (Istanbul), Turkey",
+      "location-coordinate": [41.008333, 28.98],
+      "artist": ["Anthemius of Tralles and Isidorus of Miletus","Anthemius of Tralles","Isidore of Miletus","Anthemius","Isidorus"]
+    },
+    {
+      "title": ["Merovingian looped fibulae","Looped fibulae°","Fibulae°"],
+      "image": "https://smarthistory.org/wp-content/uploads/2018/07/fibulae.jpg",
+      "date": "Mid-6th century CE",
+      "date-num": [530,570],
+      "date-range": 100,
+      "style": ["Early medieval","Medieval"],
+      "location": "Northern France",
+      "location-coordinate": [49.12774926320784, 2.206550032246683]
+    },
+    {
+      "title": ["Virgin (Theotokos) and Child between Saints Theodore and George","Virgin and Child between Saints Theodore and George","Theotokos and Child between Saints Theodore and George","Virgin and Child between Saints","Thekotos and Child between Saints","Virgin and Child","Theokotos and Child"],
+      "image": "https://smarthistory.org/wp-content/uploads/2023/12/53378290946_2e90ce6f1f_o-870x1214.jpg",
+      "date": "6th or early 7th century CE",
+      "date-num": [500,630],
+      "date-range": 100,
+      "style": ["Early Byzantine","Byzantine"],
+      "location": "Saint Catherine’s Monastery, Mount Sinai (Egypt)",
+      "location-coordinate": [28.555556, 33.976111]
+    },
+    {
+      "title": ["Lindisfarne Gospels","St. Matthew cross-carpet page", "St. Luke portrait page", "St. Luke incipit page"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/01/Lindinfarne-apostle-1127x1536.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lindisfarne_Gospels_folio_139r.jpg/960px-Lindisfarne_Gospels_folio_139r.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/F26v.jpg/960px-F26v.jpg"],
+      "date": "c. 700 CE",
+      "date-num": 700,
+      "date-range": 100,
+      "style": ["Early medieval","Hiberno Saxon","Medieval"],
+      "location": "Monastery at Lindisfarne, off coast of Northumberland, UK",
+      "location-coordinate": [55.68, -1.8025]
+    },
+    {
+      "title": ["Great Mosque of Cordoba","Great Mosque"],
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg/960px-Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Great_Mosque_of_Cordoba%2C_interior%2C_8th_-_10th_centuries_%2838%29_%2829721130342%29.jpg/960px-Great_Mosque_of_Cordoba%2C_interior%2C_8th_-_10th_centuries_%2838%29_%2829721130342%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Floor_plan_of_Mosque_of_C%C3%B3rdoba_%28rotated_and_labelled%29.png/960px-Floor_plan_of_Mosque_of_C%C3%B3rdoba_%28rotated_and_labelled%29.png","https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cordoba_Cathedral_2024_-_Views_from_Guadalquivir.jpg/960px-Cordoba_Cathedral_2024_-_Views_from_Guadalquivir.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cordoba_Cathedral_2024_-_Maqsura.jpg/960px-Cordoba_Cathedral_2024_-_Maqsura.jpg"],
+      "date": "c. 785–786 CE",
+      "date-num": [785,786],
+      "date-range": 100,
+      "style": ["Umayyad"],
+      "location": "Córdoba, Spain",
+      "location-coordinate": [37.879167, -4.779722]
+    },
+    {
+      "title": ["Pyxis of al-Mughira","Pyxis°"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/10/PyxTop.jpg","https://smarthistory.org/wp-content/uploads/2021/10/LutePlayer.jpg","https://smarthistory.org/wp-content/uploads/2021/10/PyxFront-870x1199.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pyxid_Al_Mughira_OA_4068.jpg/500px-Pyxid_Al_Mughira_OA_4068.jpg"],
+      "date": "c. 968 CE",
+      "date-num": 968,
+      "date-range": 100,
+      "style": ["Umayyad"],
+      "location": "Near Córdoba, Spain",
+      "location-coordinate": [37.888, -4.867]
+    },
+    {
+      "title": "Church of Sainte-Foy",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Conques_JPG02.jpg/960px-Conques_JPG02.jpg","https://smarthistory.org/wp-content/uploads/2021/10/7621507888_2086f09a28_o.jpg","https://smarthistory.org/wp-content/uploads/2021/10/Conques_eglise_nef-1431x1536.jpeg","https://smarthistory.org/wp-content/uploads/2021/10/SainteFoyReliquary.jpg"],
+      "date": "c. 1050–1130 CE (reliquary: 800s CE)",
+      "date-num": [1050,1130],
+      "date-range": 100,
+      "style": ["Romanesque"],
+      "location": "Conques, France",
+      "location-coordinate": [44.6003, 2.3972]
+    },
+    {
+      "title": "Bayeux Tapestry",
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/10/Screen-Shot-2021-10-18-at-10.51.53-AM-870x386.png","https://upload.wikimedia.org/wikipedia/commons/4/47/Normans_Bayeux.jpg"],
+      "date": "c. 1066–1080 CE",
+      "date-num": [1066,1080],
+      "date-range": 100,
+      "style": ["Romanesque","English","Norman"],
+      "location": "Kent, England? (speculative)",
+      "location-coordinate": [51.2, 0.7]
+    },
+    {
+      "title": "Chartres Cathedral",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Chartres_JBU01.JPG/960px-Chartres_JBU01.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Notre_Dame_de_Chartres.jpg/960px-Notre_Dame_de_Chartres.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vitrail_Chartres_Notre-Dame_210209_1.jpg/500px-Vitrail_Chartres_Notre-Dame_210209_1.jpg","https://upload.wikimedia.org/wikipedia/commons/b/b1/Plan.cathedrale.Chartres.png","https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Triforium_Chartres.jpg/1024px-Triforium_Chartres.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Chartres_Cathedral_Royal_Portal_Statues_2_2007_08_31.jpg/960px-Chartres_Cathedral_Royal_Portal_Statues_2_2007_08_31.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Chartres_-_Westportal_Monatsbilder.jpg/960px-Chartres_-_Westportal_Monatsbilder.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Chartres_-_portail_royal%2C_tympan_central.jpg/960px-Chartres_-_portail_royal%2C_tympan_central.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Chartres_-_cath%C3%A9drale_-_lancettes_de_la_rosace_ouest.jpg/1280px-Chartres_-_cath%C3%A9drale_-_lancettes_de_la_rosace_ouest.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Chartres_RosetteNord_121_DSC08241.jpg/960px-Chartres_RosetteNord_121_DSC08241.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Chartres_-_Cath%C3%A9drale_%282012.01%29_03.jpg/960px-Chartres_-_Cath%C3%A9drale_%282012.01%29_03.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Strebewerk.jpg/960px-Strebewerk.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Chartres_-_Cath%C3%A9drale_%282012.01%29_08.jpg/960px-Chartres_-_Cath%C3%A9drale_%282012.01%29_08.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chartres_Cath%C3%A9drale_Notre-Dame_de_Chartres_Innen_Chor_4.jpg/960px-Chartres_Cath%C3%A9drale_Notre-Dame_de_Chartres_Innen_Chor_4.jpg"],
+      "date": "c. 1145–1155 CE (reconstructed 1194–1220 CE)",
+      "date-num": [1145,1220],
+      "date-range": 100,
+      "style": ["Gothic","Gothic"],
+      "location": "Chartres, France",
+      "location-coordinate": [48.447778, 1.487778]
+    },
+    {
+      "title": ["Bibles moralisées","Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées","Dedication Page with Blanche of Castile and King Louis IX of France from Bibles moralisées","Scenes from the Apocalypse from Bibles moralisées"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2024/04/53476192528_9b6d52dc7c_6k-1172x1536.jpg","https://smarthistory.org/wp-content/uploads/2021/10/E123719.jpeg"],
+      "date": "c. 1225–1245 CE",
+      "date-num": [1225,1245],
+      "date-range": 100,
+      "style": ["Gothic","Gothic"],
+      "location": "Toledo, Spain",
+      "location-coordinate": [39.857083, -4.023889]
+    },
+    {
+      "title": "Röttgen Pietà",
+      "image": "https://smarthistory.org/wp-content/uploads/2021/10/8297481802_090d1c9915_k-870x1310.jpg",
+      "date": "c. 1300–1325 CE",
+      "date-num": [1300,1325],
+      "date-range": 100,
+      "style": ["Late medieval Europe","Medieval"],
+      "location": "Rhineland, Germany",
+      "location-coordinate": [50.015579631520204, 7.248457585602103]
+    },
+    {
+      "title": ["Arena (Scrovegni) Chapel","Arena Chapel","Scrovegni Chapel","Lamentation"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2020/10/scrovegni-sm-2048x1632.jpg","https://smarthistory.org/wp-content/uploads/2021/01/GiottoWhole-copy-3-870x521.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/La_Cappella_degli_Scrovegni.JPG/960px-La_Cappella_degli_Scrovegni.JPG"],
+      "date": "c. 1303 CE (Fresco: c. 1305 CE)",
+      "date-num": [1303,1305],
+      "date-range": 100,
+      "style": ["Late Gothic","Gothic"],
+      "location": "Padua, Italy",
+      "location-coordinate": [45.41184, 11.87952],
+      "artist": ["Giotto di Bondone","Giotto"]
+    },
+    {
+      "title": ["Golden Haggadah","The Plagues of Egypt", "Scenes of Liberation", "Preparation for Passover"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2015/08/f60073-15.jpg","https://smarthistory.org/wp-content/uploads/2015/08/f60074-12.jpg","https://smarthistory.org/wp-content/uploads/2015/08/f60074-14.jpg"],
+      "date": "c. 1320 CE",
+      "date-num": 1320,
+      "date-range": 100,
+      "style": ["Late medieval Spain","Medieval","Gothic"],
+      "location": "Catalonia, Spain",
+      "location-coordinate": [41.85, 1.566667]
+    },
+    {
+      "title": ["Alhambra","Alhambra Palace"],
+      "image": ["https://www.alhambradegranada.org/imagenes/paginasInterior/o7f3ijbl2b53qd25v6x3xzvuja_3.webp","https://smarthistory.org/wp-content/uploads/2021/10/CourtLions.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/960px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"],
+      "date": "1354–1391 CE",
+      "date-num": [1354,1391],
+      "date-range": 100,
+      "style": ["Nasrid Dynasty","Nasrid"],
+      "location": "Granada, Spain",
+      "location-coordinate": [37.1775, -3.59]
+    },
+    {
+      "title": ["Annunciation Triptych (Merode Altarpiece)","Annunciation Triptych", "Merode Altarpiece"],
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/12/24521557023_e1153f6588_5k-870x559.jpg"],
+      "date": "1427–1432 CE",
+      "date-num": [1427,1432],
+      "date-range": 100,
+      "style": ["Northern Renaissance"],
+      "location": "Netherlands",
+      "location-coordinate": [52, 6],
+      "arist": ["Workshop of Robert Campin","Robert Campin","Campin"]
+    },
+    {
+      "title": "Pazzi Chapel",
+      "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pazzi_Chapel_Florence_Apr_2008.jpg/960px-Pazzi_Chapel_Florence_Apr_2008.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Florence%2C_Santa_Croce%2C_Cappella_dei_Pazzi%2C_1440s-70s.jpg/960px-Florence%2C_Santa_Croce%2C_Cappella_dei_Pazzi%2C_1440s-70s.jpg"],
+      "date": "c. 1429–1461 CE",
+      "date-num": [1429,1461],
+      "date-range": 100,
+      "style": ["Renaissance"],
+      "location": "Basilica di Santa Croce; Florence, Italy",
+      "location-coordinate": [43.768006, 11.262989],
+      "arist": ["Filippo Brunelleschi","Brunelleschi"]
+    },
+    {
+      "title": ["The Arnolfini Portrait","Arnolfini Portrait"],
+      "image": "https://smarthistory.org/wp-content/uploads/2025/02/1-Full-size-1160x1536.jpg",
+      "date": "c. 1434 CE",
+      "date-num": 1434,
+      "date-range": 100,
+      "style": ["Northern Renaissance"],
+      "location": "Bruges, Belgium",
+      "location-coordinate": [51.208889, 3.224167],
+      "arist": ["Jan van Eyck","van Eyck","Eyck°"]
+    },
+    {
+      "title": ["David", "David by Donatello"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Florenz_-_Bargello_2014-08-09r.jpg/960px-Florenz_-_Bargello_2014-08-09r.jpg",
+      "date": "c. 1440–1460 CE",
+      "date-num": [1440,1460],
+      "date-range": 100,
+      "style": ["Renaissance"],
+      "location": "Florence, Italy",
+      "location-coordinate": [43.771389, 11.254167],
+      "arist": ["Donatello"]
+    },
+    {
+      "title": "Palazzo Rucellai",
+      "image": "https://smarthistory.org/wp-content/uploads/2021/10/15876451506_51c74f4bcc_k.jpg",
+      "date": "c. 1450 CE",
+      "date-num": 1450,
+      "date-range": 100,
+      "style": ["Renaissance"],
+      "location": "Florence, Italy",
+      "location-coordinate": [43.7712, 11.2495],
+      "arist": ["Leon Battista Alberti","Alberti"]
+    },
+    {
+      "title": "Madonna and Child with Two Angels",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/06/standard_Fra_Filippo_Lippi_-_Madonna_and_Child_with_two_Angels_-_Uffizi.jpeg",
+      "date": "c. 1465 CE",
+      "date-num": 1465,
+      "date-range": 100,
+      "style": ["Renaissance"],
+      "location": "Florence, Italy",
+      "location-coordinate": [43.771389, 11.254167],
+      "arist": ["Fra Filippo Lippi","Lippi"]
+    },
+    {
+      "title": "Birth of Venus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/960px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+      "date": "c. 1484–1486 CE",
+      "date-num": [1484,1486],
+      "date-range": 100,
+      "style": ["Renaissance"],
+      "location": "Florence, Italy",
+      "location-coordinate": [43.771389, 11.254167],
+      "arist": ["Sandro Botticelli","Botticelli"]
+    },
+    {
+      "title": "Last Supper",
+      "image": "https://smarthistory.org/wp-content/uploads/2022/11/52083520739_1e5b3aa6d6_6k-2048x1228.jpg",
+      "date": "c. 1494–1498 CE",
+      "date-num": [1494,1498],
+      "date-range": 100,
+      "style": ["Renaissance"],
+      "location": "Santa Maria delle Grazie, Milan, Italy",
+      "location-coordinate": [45.466667, 9.170833],
+      "arist": ["Leonardo da Vinci","da Vinci","Vinci°"]
+    },
+    {
+      "title": "Adam and Eve",
+      "image": "https://smarthistory.org/wp-content/uploads/2021/10/Durer-1214x1536.jpeg",
+      "date": "1504 CE",
+      "date-num": 1504,
+      "date-range": 100,
+      "style": ["Northern Renaissance"],
+      "location": "Nuremberg, Germany",
+      "location-coordinate": [49.453889, 11.0775],
+      "arist": ["Albrecht Dürer","Dürer"]
+    },
+    {
+      "title": "Sistine Chapel",
+      "image": ["https://smarthistory.org/wp-content/uploads/2021/09/Delphic_Sibyl-870x1305.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sistine_Chapel_ceiling_02_%28brightened%29.jpg/960px-Sistine_Chapel_ceiling_02_%28brightened%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Deluge%2C_Michelangelo.png/960px-Deluge%2C_Michelangelo.png","https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cappella_Sistina_-_2005.jpg/960px-Cappella_Sistina_-_2005.jpg"],
+      "date": "Ceiling: c. 1508–1512 CE; altar: c. 1536–1541 CE",
+      "date-num": [1508,1541],
+      "date-range": 100,
+      "style": ["Renaissance"],
+      "location": "Vatican City, Italy",
+      "location-coordinate": [41.903056, 12.454444],
+      "arist": ["Michelangelo"]
+    }
+  ],
   [],
   [
     {
