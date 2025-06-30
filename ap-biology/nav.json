@@ -1,0 +1,106 @@
+{
+  "course": "ap-biology",
+  "title": "AP Biology",
+  "units": [
+    {
+      "title": "Chemistry of Life",
+      "prefix": "Unit 1",
+      "slug": "unit-1",
+      "lessons": [
+        {
+          "title": "Structure of Water and Hydrogen Bonding",
+          "prefix": "1.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "Elements of Life",
+          "prefix": "1.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Introduction to Biological Macromolecules",
+          "prefix": "1.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Properties of Biological Macromolecules",
+          "prefix": "1.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Structure and Function of Biological Macromolecules",
+          "prefix": "1.5",
+          "slug": "lesson-5"
+        },
+        {
+          "title": "Nucleic Acids",
+          "prefix": "1.6",
+          "slug": "lesson-6"
+        }
+      ]
+    },
+    {
+      "title": "Cell Structure and Function",
+      "prefix": "Unit 2",
+      "slug": "unit-2",
+      "lessons": [
+        {
+          "title": "Cell Structure: Subcellular Components",
+          "prefix": "2.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "Cell Structure and Function",
+          "prefix": "2.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Cell Size",
+          "prefix": "2.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Plasma Membranes",
+          "prefix": "2.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Membrane Permeability",
+          "prefix": "2.5",
+          "slug": "lesson-5"
+        },
+        {
+          "title": "Membrane Transport",
+          "prefix": "2.6",
+          "slug": "lesson-6"
+        },
+        {
+          "title": "Facilitated Diffusion",
+          "prefix": "2.7",
+          "slug": "lesson-7"
+        },
+        {
+          "title": "Tonicity and Osmoregulation",
+          "prefix": "2.8",
+          "slug": "lesson-8"
+        },
+        {
+          "title": "Mechanisms of Transport",
+          "prefix": "2.9",
+          "slug": "lesson-9"
+        },
+        {
+          "title": "Cell Compartmentalization",
+          "prefix": "2.10",
+          "slug": "lesson-10"
+        },
+        {
+          "title": "Origins of Cell Compartmentalization",
+          "prefix": "2.11",
+          "slug": "lesson-11"
+        }
+      ]
+    }
+  ],
+  "games": []
+}
