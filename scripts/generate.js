@@ -15,5 +15,11 @@ const pages = [
 
 // write each page
 pages.forEach(({ filename, content }) => {
-  fs.writeFileSync(path.join(outDir, filename), content);
+  const fullPath = path.join(outDir, filename);
+  const dir = path.dirname(fullPath);
+
+  // Ensure parent directories exist
+  fs.mkdirSync(dir, { recursive: true });
+
+  fs.writeFileSync(fullPath, content);
 });
