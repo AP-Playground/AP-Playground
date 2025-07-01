@@ -25,7 +25,7 @@ pages.forEach(({ filename, content }) => {
 });
 
 
-// copy static assets
+// static assets to copy
 const staticAssets = [
   { src: 'src/svgs/logo.svg', dest: 'svgs/logo.svg' }
 ]
