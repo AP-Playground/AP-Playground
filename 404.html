@@ -4,16 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AP Biology 1.1 | AP Playground</title>
-  <link href="/templates/lesson.css" rel="stylesheet">
-  <link href="/accordion.css" rel="stylesheet">
-  <link rel="icon" href="/favicon.png">
+  <title>Loading...</title>
 </head>
 
 <body>
   <script>
-    const path = window.location.pathname;
-    console.log("Path:", path);
+    let time = new Date().getTime();
+    var pageData;
+    let path = window.location.pathname;
+    path = "/ap-biology/unit-1/lesson-1"
+    fetch(path + ".json")
+      .then(response => response.json())
+      .then(data => {
+        pageData = data;
+        loadTemplate(data.template);
+      })
+      .catch(error => console.error("Error fetching JSON:", error));
+
+    function loadTemplate(template) {
+      fetch("/templates/" + template + ".html")
+        .then(response => response.text())
+        .then(html => {
+          console.log("Loaded in " + (new Date().getTime() - time) + "ms");
+          document.write(html)
+          })
+    }
   </script>
 </body>
 

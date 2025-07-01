@@ -2,8 +2,9 @@ document.querySelector('.side-nav-btn').addEventListener('click', () => {
   document.querySelector('body').classList.toggle('side-nav-closed')
 });
 
-
-let currentPage = "ap-biology/unit-2/lesson-9"
+let currentPage = window.location.pathname
+currentPage = "/ap-biology/unit-1/lesson-1"
+currentPage = currentPage.slice(1);
 let nav = "ap-biology"
 
 let navData;
@@ -13,6 +14,8 @@ fetch("/" + nav + "/nav.json").then(response => response.json()).then(
     loadNav()
   }
 )
+
+const lessonData = pageData;
 
 const lessonNavContent = document.querySelector(".lesson-nav > ul");
 let temp = "";

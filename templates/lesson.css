@@ -15,12 +15,8 @@ body {
 
 .side-nav {
   background-color: #45818e;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
   padding: 10px;
-  position: relative;
+  padding-top: calc(var(--side-nav-btn-diameter) + 10px);
   & .side-nav-header .side-nav-btn {
     & .shrink {
       display: block;
@@ -29,6 +25,16 @@ body {
       display: none;
     }
   }
+  & > .side-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+  display: grid;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 body.side-nav-closed {
@@ -63,6 +69,7 @@ body.side-nav-closed {
   background-color: lightblue;
   left: 0;
   transition: width 0.3s ease-in-out;
+  z-index: 1000;
 }
 
 .side-nav-logo {
