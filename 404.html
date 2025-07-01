@@ -9,7 +9,6 @@
 
 <body>
   <script>
-    let time = new Date().getTime();
     var pageData;
     let path = window.location.pathname;
     path = "/ap-biology/unit-1/lesson-1"
@@ -25,7 +24,6 @@
       fetch("/templates/" + template + ".html")
         .then(response => response.text())
         .then(html => {
-          console.log("Loaded in " + (new Date().getTime() - time) + "ms");
           document.write(html)
           })
     }
