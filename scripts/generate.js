@@ -10,7 +10,7 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 // array of pages to generate
 const pages = [
   { filename: 'index.html', content: '<!DOCTYPE html><html><body><h1>Home</h1><p>Welcome!</p></body></html>' },
-  { filename: 'about.html', content: '<!DOCTYPE html><html><body><h1>About</h1><p>About us.</p></body></html>' }
+  { filename: 'test/about.html', content: '<!DOCTYPE html><html><body><h1>About</h1><p>About us.</p></body></html>' }
 ];
 
 // write each page
