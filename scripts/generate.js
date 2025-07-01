@@ -23,3 +23,22 @@ pages.forEach(({ filename, content }) => {
 
   fs.writeFileSync(fullPath, content);
 });
+
+
+// copy static assets
+const staticAssets = [
+  { src: 'src/svgs/logo.svg', dest: 'svgs/logo.svg' }
+]
+
+// copy each static asset
+staticAssets.forEach(({ src, dest }) => {
+  const srcPath = path.resolve(__dirname, '..', src);
+  const destPath = path.resolve(outDir, dest);
+  const destDir = path.dirname(destPath);
+
+  // Ensure destination directory exists
+  fs.mkdirSync(destDir, { recursive: true });
+
+  // Copy the file
+  fs.copyFileSync(srcPath, destPath);
+})
