@@ -78,10 +78,10 @@ function genLesson(filename) {
 
   let navText = "";
   navData.units.forEach(unit => {
-    navText += `<a href="${navData.course}/${unit.slug}" class="item">${unit.prefix}: ${unit.title}</a>`
+    navText += `<a href="/${navData.course}/${unit.slug}" class="item">${unit.prefix}: ${unit.title}</a>`
     if (unit.slug === pagePath[1]) {
       unit.lessons.forEach(lesson => {
-        navText += `<a href="${navData.course}/${unit.slug}/${lesson.slug}" class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
+        navText += `<a href="/${navData.course}/${unit.slug}/${lesson.slug}" class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
       })
     }
   })
