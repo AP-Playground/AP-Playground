@@ -29,23 +29,18 @@ pages.forEach(({ filename, content }) => {
 });
 
 
-// static assets to copy
-const staticAssets = [
-  { src: 'src/svgs/logo.svg', dest: 'svgs/logo.svg' }
-]
-
-// copy each static asset
-staticAssets.forEach(({ src, dest }) => {
-  const srcPath = path.resolve(__dirname, '..', src);
-  const destPath = path.resolve(outDir, dest);
+// copy icons from src/icons to public/icons
+const icons = fs.readdirSync(path.resolve(__dirname, '..', 'src/icons'));
+icons.forEach(icon => {
+  const destPath = path.resolve(outDir, "icons", icon);
   const destDir = path.dirname(destPath);
 
   // Ensure destination directory exists
   fs.mkdirSync(destDir, { recursive: true });
 
-  // Copy the file
-  fs.copyFileSync(srcPath, destPath);
+  fs.copyFileSync(icon, destDir)
 })
+
 
 // function to generate lesson content
 function genLesson(filename) {
