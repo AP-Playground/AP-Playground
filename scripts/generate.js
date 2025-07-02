@@ -10,7 +10,7 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 // array of pages to generate
 const pages = [
   { filename: 'index.html', content: '<!DOCTYPE html><html><body><h1>Home</h1><p>Welcome!</p></body></html>' },
-  { filename: 'test/about.html', content: '<!DOCTYPE html><html><body><h1>About</h1><p>About us.</p></body></html>' }
+  { filename: 'ap-biology/unit-1/lesson-1.html', content: genLesson }
 ];
 
 // write each page
@@ -21,7 +21,11 @@ pages.forEach(({ filename, content }) => {
   // Ensure parent directories exist
   fs.mkdirSync(dir, { recursive: true });
 
-  fs.writeFileSync(fullPath, content);
+  if (typeof content === "function") {
+    fs.writeFileSync(fullPath, content(filename));
+  } else if (typeof content === "string") {
+    fs.writeFileSync(fullPath, content);
+  }
 });
 
 
@@ -42,3 +46,9 @@ staticAssets.forEach(({ src, dest }) => {
   // Copy the file
   fs.copyFileSync(srcPath, destPath);
 })
+
+// function to generate lesson content
+const lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
+function genLesson(filename) {
+  return lessonTemplate;
+}
