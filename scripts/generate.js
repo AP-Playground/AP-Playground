@@ -32,14 +32,14 @@ pages.forEach(({ filename, content }) => {
 // copy icons from src/icons to public/icons
 const icons = fs.readdirSync(path.resolve(__dirname, '..', 'src/icons'));
 icons.forEach(icon => {
-  const srcPath = path.resolve(__dirname, "..", "src", "icons", icon)
+  const srcPath = path.resolve(__dirname, "..", "src/icons", icon)
   const destPath = path.resolve(outDir, "icons", icon);
   const destDir = path.dirname(destPath);
 
   // Ensure destination directory exists
   fs.mkdirSync(destDir, { recursive: true });
 
-  fs.copyFileSync(srcPath, destDir)
+  fs.copyFileSync(srcPath, destPath)
 })
 
 
