@@ -70,7 +70,10 @@ function genLesson(filename) {
 
   lesson = lesson.replace("{{page.title}}", data.title);
 
-  
+  const navPath = path.resolve(__dirname, "..", "src", data["nav-data"] + ".json");
+  const nav = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
+
+  lesson = lesson.replace("{{course.title}}", nav.title)
 
   return lesson;
 }
