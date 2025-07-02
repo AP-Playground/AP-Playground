@@ -63,5 +63,14 @@ stylesheets.forEach(css => {
 
 // function to generate lesson content
 function genLesson(filename) {
-  return lessonTemplate;
+  const dataPath = "src/" + filename.replace('.html', '.json');
+  const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+
+  let lesson = lessonTemplate;
+
+  lesson = lesson.replace("{{page.title}}", data.title);
+
+  
+
+  return lesson;
 }
