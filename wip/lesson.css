@@ -13,10 +13,26 @@ body {
   transition: grid-template-columns 0.3s ease-in-out;
 }
 
+@media (max-width: 800px) {
+  .side-nav {
+    display: none !important;
+  }
+  .mobile-nav {
+    display: block !important;
+  }
+  body {
+    display: block;
+  }
+}
+
+.mobile-nav {
+  display: none;;
+}
+
 .side-nav {
   background-color: #45818e;
+  margin-top: var(--side-nav-btn-diameter);
   padding: 10px;
-  padding-top: calc(var(--side-nav-btn-diameter) + 10px);
   & .side-nav-header .side-nav-btn {
     & .shrink {
       display: block;
@@ -35,6 +51,19 @@ body {
   align-items: center;
   overflow-y: auto;
   overflow-x: hidden;
+  scrollbar-gutter: stable;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: none;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #0005;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #000a;
+  }
 }
 
 body.side-nav-closed {
