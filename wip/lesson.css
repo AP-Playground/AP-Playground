@@ -1,0 +1,138 @@
+* {
+  font-family: Arial;
+}
+
+body {
+  --side-nav-width: 400px;
+  --side-nav-btn-diameter: 50px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: var(--side-nav-width) auto;
+  height: 100vh;
+  transition: grid-template-columns 0.3s ease-in-out;
+}
+
+.side-nav {
+  background-color: #45818e;
+  padding: 10px;
+  padding-top: calc(var(--side-nav-btn-diameter) + 10px);
+  & .side-nav-header .side-nav-btn {
+    & .shrink {
+      display: block;
+    }
+    & .expand {
+      display: none;
+    }
+  }
+  & > .side-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+  display: grid;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body.side-nav-closed {
+  --side-nav-width: calc(var(--side-nav-btn-diameter) / 2);
+
+  & .side-nav {
+    & .side-nav-header {
+      .side-nav-btn {
+        & .shrink {
+          display: none;
+        }
+        & .expand {
+          display: block;
+        }
+        border-radius: 0 100% 100% 0;
+      }
+      & .side-nav-logo {
+        display: none;
+      }
+    }
+    & > :not(:first-child) {
+      display: none;
+    }
+  }
+}
+
+.side-nav-header {
+  position: absolute;
+  top: 0;
+  width: var(--side-nav-width);
+  height: var(--side-nav-btn-diameter);
+  background-color: lightblue;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.side-nav-logo {
+  display: flex;
+  overflow: hidden;
+  height: inherit;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.side-nav-btn {
+  position: absolute;
+  top: 0;
+  right: calc(0px - var(--side-nav-btn-diameter)/2);
+  background-color: lightblue;
+  border: none;
+  width: var(--side-nav-btn-diameter);
+  aspect-ratio: 1;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  &:hover {
+    filter: brightness(0.8);
+  }
+  &:active {
+    filter: brightness(0.65);
+  }
+  & img {
+    opacity: 80%;
+  }
+  transition: border-radius 0.3s ease-in-out, filter 0.1s linear;
+}
+
+.side-nav-tab {
+  overflow: hidden;
+  & h1 {
+    margin: 0;
+  }
+  & hr {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+    border: 1px solid black;
+  }
+  & > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 5px;
+    & a.item {
+      margin-left: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    & a.sub-item {
+      margin-left: 30px;
+    }
+  }
+}
+
+
+main {
+  padding: 20px 40px;
+}
