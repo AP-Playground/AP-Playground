@@ -62,10 +62,10 @@ stylesheets.forEach(css => {
 
 
 // copy scripts from src/css to public/css
-const scriptsDir = path.resolve(__dirname, "..", "src/css")
+const scriptsDir = path.resolve(__dirname, "..", "src/js")
 const scripts = fs.readdirSync(scriptsDir);
-scripts.forEach(script => {
-  const srcPath = path.join(scriptsDir, css)
+scripts.forEach(js => {
+  const srcPath = path.join(scriptsDir, js)
   const destPath = path.resolve(outDir, "js", js);
   const destDir = path.dirname(destPath);
 
