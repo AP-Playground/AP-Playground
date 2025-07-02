@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+let lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
+
 // output directory for all generated files
 const outDir = path.resolve(__dirname, '..', 'public');
 
@@ -30,10 +32,26 @@ pages.forEach(({ filename, content }) => {
 
 
 // copy icons from src/icons to public/icons
-const icons = fs.readdirSync(path.resolve(__dirname, '..', 'src/icons'));
+const iconsDir = path.resolve(__dirname, "..", "src/icons")
+const icons = fs.readdirSync(iconsDir);
 icons.forEach(icon => {
-  const srcPath = path.resolve(__dirname, "..", "src/icons", icon)
+  const srcPath = path.join(iconsDir, icon)
   const destPath = path.resolve(outDir, "icons", icon);
+  const destDir = path.dirname(destPath);
+
+  // Ensure destination directory exists
+  fs.mkdirSync(destDir, { recursive: true });
+
+  fs.copyFileSync(srcPath, destPath)
+})
+
+
+// copy stylesheets from src/css to public/css
+const stylesheetsDir = path.resolve(__dirname, "..", "src/css")
+const stylesheets = fs.readdirSync(stylesheetsDir);
+stylesheets.forEach(css => {
+  const srcPath = path.join(stylesheetsDir, css)
+  const destPath = path.resolve(outDir, "css", css);
   const destDir = path.dirname(destPath);
 
   // Ensure destination directory exists
@@ -45,6 +63,5 @@ icons.forEach(icon => {
 
 // function to generate lesson content
 function genLesson(filename) {
-  let lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
   return lessonTemplate;
 }
