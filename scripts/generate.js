@@ -48,7 +48,7 @@ staticAssets.forEach(({ src, dest }) => {
 })
 
 // function to generate lesson content
-const lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
 function genLesson(filename) {
+  let lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
   return lessonTemplate;
 }
