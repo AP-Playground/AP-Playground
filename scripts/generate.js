@@ -81,7 +81,11 @@ function genLesson(filename) {
     navText += `<a href="/${navData.course}/${unit.slug}" class="item">${unit.prefix}: ${unit.title}</a>`
     if (unit.slug === pagePath[1]) {
       unit.lessons.forEach(lesson => {
-        navText += `<a href="/${navData.course}/${unit.slug}/${lesson.slug}" class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
+        if (lesson.slug === pagePath[2]) {
+          navText += `<a class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
+        } else {
+          navText += `<a href="/${navData.course}/${unit.slug}/${lesson.slug}" class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
+        }
       })
     }
   })
