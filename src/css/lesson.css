@@ -109,6 +109,7 @@ body.side-nav-closed {
   cursor: pointer;
   display: flex;
   align-items: center;
+  margin: 0;
   &:hover {
     filter: brightness(0.8);
   }
