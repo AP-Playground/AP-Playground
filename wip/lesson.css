@@ -5,6 +5,7 @@
 body {
   --side-nav-width: 400px;
   --side-nav-btn-diameter: 50px;
+  --indent: 30px;
   margin: 0;
   padding: 0;
   display: grid;
@@ -51,7 +52,7 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100%;
-  gap: 20px;
+    gap: 20px;
   }
   width: var(--side-nav-width);
   transition: width 0.3s ease-in-out, padding 0.3s ease-in-out;
@@ -138,12 +139,14 @@ body.side-nav-closed {
     display: grid;
     gap: 5px;
     & a.item {
-      margin-left: 10px;
+      margin-left: calc(10px + var(--indent));
+      text-indent: calc(0px - var(--indent));
       font-size: 20px;
       font-weight: bold;
     }
     & a.sub-item {
-      margin-left: 30px;
+      margin-left: calc(30px + var(--indent));
+      text-indent: calc(0px - var(--indent));
     }
   }
 }
