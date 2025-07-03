@@ -23,13 +23,9 @@ body {
       translate: -2px
     }
   }
-  width: var(--side-nav-width);
-  transition: width 0.3s ease-in-out;
-  display: grid;
 }
 
 .side-nav-links {
-  padding: 10px;
   background-color: #45818e;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -54,9 +50,12 @@ body {
     justify-content: center;
     min-height: 100%;
     gap: 20px;
+    width: var(--side-nav-width);
+    padding: 10px;
+    box-sizing: border-box;
   }
   width: var(--side-nav-width);
-  transition: width 0.3s ease-in-out, padding 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
 }
 
 body.side-nav-closed {
@@ -178,7 +177,6 @@ body.side-nav-closed {
     }
     & .side-nav-links {
       width: 0px;
-      padding: 0px;
     }
     & .side-nav-background {
       background-color: transparent;
