@@ -104,7 +104,7 @@ body.side-nav-closed {
   background-color: lightblue;
   border: none;
   width: var(--side-nav-btn-diameter);
-  aspect-ratio: 1;
+  height: var(--side-nav-btn-diameter);
   border-radius: 100%;
   cursor: pointer;
   display: flex;
