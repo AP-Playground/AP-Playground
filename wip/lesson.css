@@ -16,10 +16,11 @@ body {
 .side-nav {
   & .side-nav-header .side-nav-btn {
     & .shrink {
-      display: block;
+      display: inline;
     }
     & .expand {
       display: none;
+      translate: -2px
     }
   }
   width: var(--side-nav-width);
@@ -68,7 +69,7 @@ body.side-nav-closed {
           display: none;
         }
         & .expand {
-          display: block;
+          display: inline;
         }
         border-radius: 0 100% 100% 0;
       }
@@ -105,11 +106,11 @@ body.side-nav-closed {
   background-color: lightblue;
   border: none;
   width: var(--side-nav-btn-diameter);
-  height: var(--side-nav-btn-diameter);
+  aspect-ratio: 1;
   border-radius: 100%;
   cursor: pointer;
-  display: flex;
-  align-items: center;
+  line-height: 0;
+  text-align: center;
   &:hover {
     filter: brightness(0.8);
   }
@@ -117,6 +118,8 @@ body.side-nav-closed {
     filter: brightness(0.65);
   }
   & img {
+    height: calc(var(--side-nav-btn-diameter)* 0.6);
+    vertical-align: middle;
     opacity: 80%;
   }
   transition: border-radius 0.3s ease-in-out, filter 0.1s linear;
