@@ -44,7 +44,7 @@ body {
   &::-webkit-scrollbar-thumb:hover {
     background: #000a;
   }
-  height: calc(100vh - var(--side-nav-btn-diameter));
+  height: calc(100dvh - var(--side-nav-btn-diameter));
   box-sizing: border-box;
   & > div {
     display: flex;
