@@ -1,11 +1,14 @@
 * {
   font-family: Arial;
-}
-
-body {
   --side-nav-width: 400px;
   --side-nav-btn-diameter: 50px;
   --indent: 30px;
+  --theme: #437e8a;
+  --theme-light: lightblue;
+  --accent: #cc4125;
+}
+
+body {
   margin: 0;
   padding: 0;
   display: grid;
@@ -26,7 +29,7 @@ body {
 }
 
 .side-nav-links {
-  background-color: #45818e;
+  background-color: var(--theme);
   overflow-x: hidden;
   overflow-y: scroll;
   scrollbar-gutter: stable;
@@ -83,7 +86,7 @@ body.side-nav-closed {
 }
 
 .side-nav-header {
-  background-color: lightblue;
+  background-color: var(--theme-light);
   height: var(--side-nav-btn-diameter);
   position: relative;
   width: var(--side-nav-width);
@@ -102,7 +105,7 @@ body.side-nav-closed {
   position: absolute;
   top: 0;
   right: calc(0px - var(--side-nav-btn-diameter)/2);
-  background-color: lightblue;
+  background-color: var(--theme-light);
   border: none;
   width: var(--side-nav-btn-diameter);
   aspect-ratio: 1;
@@ -151,6 +154,9 @@ body.side-nav-closed {
       text-indent: calc(0px - var(--indent));
     }
   }
+  a {
+    color: black;
+  }
 }
 
 .side-nav-background {
@@ -169,19 +175,6 @@ main {
   height: 100dvh;
   overflow-y: scroll;
   box-sizing: border-box;
-  scrollbar-gutter: stable;
-  &::-webkit-scrollbar {
-    width: 10px;
-  }
-  &::-webkit-scrollbar-track {
-    background: none;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: #0005;
-  }
-  &::-webkit-scrollbar-thumb:hover {
-    background: #000a;
-  }
 }
 
 
@@ -212,4 +205,25 @@ main {
   main {
     padding: 20px 20px;
   }
+}
+
+.breadcrumbs {
+  padding: 0;
+  margin-top: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  & li + li::before {
+    content: ">";
+    padding: 0 4px 0 8px;
+  }
+}
+
+a {
+  color: var(--theme);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent);
+  text-decoration: underline;
 }
