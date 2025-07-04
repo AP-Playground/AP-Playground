@@ -81,13 +81,13 @@ function genLesson(filename) {
   const dataPath = "src/" + filename.replace('.html', '.json');
   const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
 
-  let lesson = lessonTemplate;
+  let page = lessonTemplate;
 
   const navPath = path.resolve(__dirname, "..", "src", data["nav"] + ".json");
   const navData = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
   const pagePath = data.slug.split("/")
 
-  lesson = lesson.replace("{{course.title}}", navData.title)
+  page = page.replace("{{course.title}}", navData.title)
 
   let navText = "";
   navData.units.forEach(unit => {
@@ -97,14 +97,14 @@ function genLesson(filename) {
         if (lesson.slug === pagePath[2]) {
           navText += `<a class="sub-item">${lesson.prefix}: ${lesson.title}</a>`;
           
-          lesson = lesson.replace("{{page.title}}", lesson.prefix + ": " + lesson.title);
-          
-          lesson = lesson.replace("{{course.slug}}", navData.course);
-          lesson = lesson.replace("{{unit.slug}}", unit.slug);
-          lesson = lesson.replace("{{lesson.slug}}", lesson.slug);
-          lesson = lesson.replace("{{course.title}}", navData.title);
-          lesson = lesson.replace("{{unit.title}}", unit.prefix + ": " + unit.title);
-          lesson = lesson.replace("{{lesson.title}}", lesson.prefix + ": " + lesson.title);
+          page = page.replace("{{page.title}}", lesson.prefix + ": " + lesson.title);
+
+          page = page.replace("{{course.slug}}", navData.course);
+          page = page.replace("{{unit.slug}}", unit.slug);
+          page = page.replace("{{lesson.slug}}", lesson.slug);
+          page = page.replace("{{course.title}}", navData.title);
+          page = page.replace("{{unit.title}}", unit.prefix + ": " + unit.title);
+          page = page.replace("{{lesson.title}}", lesson.prefix + ": " + lesson.title);
         } else {
           navText += `<a href="/${navData.course}/${unit.slug}/${lesson.slug}" class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
         }
@@ -112,7 +112,7 @@ function genLesson(filename) {
     }
   })
 
-  lesson = lesson.replace("{{navigation}}", navText);
+  page = page.replace("{{navigation}}", navText);
 
-  return lesson;
+  return page;
 }
