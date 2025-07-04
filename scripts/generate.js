@@ -87,7 +87,7 @@ function genLesson(filename) {
   const navData = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
   const pagePath = data.slug.split("/")
 
-  page = page.replace("{{course.title}}", navData.title)
+  page = page.replaceAll("{{course.title}}", navData.title)
 
   let navText = "";
   navData.units.forEach(unit => {
@@ -97,14 +97,13 @@ function genLesson(filename) {
         if (lesson.slug === pagePath[2]) {
           navText += `<a class="sub-item">${lesson.prefix}: ${lesson.title}</a>`;
           
-          page = page.replace("{{page.title}}", lesson.prefix + ": " + lesson.title);
+          page = page.replaceAll("{{page.title}}", lesson.prefix + ": " + lesson.title);
 
-          page = page.replace("{{course.slug}}", navData.course);
-          page = page.replace("{{unit.slug}}", unit.slug);
-          page = page.replace("{{lesson.slug}}", lesson.slug);
-          page = page.replace("{{course.title}}", navData.title);
-          page = page.replace("{{unit.title}}", unit.prefix + ": " + unit.title);
-          page = page.replace("{{lesson.title}}", lesson.prefix + ": " + lesson.title);
+          page = page.replaceAll("{{course.slug}}", navData.course);
+          page = page.replaceAll("{{unit.slug}}", unit.slug);
+          page = page.replaceAll("{{lesson.slug}}", lesson.slug);
+          page = page.replaceAll("{{unit.title}}", unit.prefix + ": " + unit.title);
+          page = page.replaceAll("{{lesson.title}}", lesson.prefix + ": " + lesson.title);
         } else {
           navText += `<a href="/${navData.course}/${unit.slug}/${lesson.slug}" class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
         }
