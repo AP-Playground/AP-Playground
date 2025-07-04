@@ -83,8 +83,6 @@ function genLesson(filename) {
 
   let lesson = lessonTemplate;
 
-  lesson = lesson.replace("{{page.title}}", data.title);
-
   const navPath = path.resolve(__dirname, "..", "src", data["nav"] + ".json");
   const navData = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
   const pagePath = data.slug.split("/")
@@ -97,7 +95,16 @@ function genLesson(filename) {
     if (unit.slug === pagePath[1]) {
       unit.lessons.forEach(lesson => {
         if (lesson.slug === pagePath[2]) {
-          navText += `<a class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
+          navText += `<a class="sub-item">${lesson.prefix}: ${lesson.title}</a>`;
+          
+          lesson = lesson.replace("{{page.title}}", lesson.prefix + ": " + lesson.title);
+          
+          lesson = lesson.replace("{{course.slug}}", navData.course);
+          lesson = lesson.replace("{{unit.slug}}", unit.slug);
+          lesson = lesson.replace("{{lesson.slug}}", lesson.slug);
+          lesson = lesson.replace("{{course.title}}", navData.title);
+          lesson = lesson.replace("{{unit.title}}", unit.prefix + ": " + unit.title);
+          lesson = lesson.replace("{{lesson.title}}", lesson.prefix + ": " + lesson.title);
         } else {
           navText += `<a href="/${navData.course}/${unit.slug}/${lesson.slug}" class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
         }

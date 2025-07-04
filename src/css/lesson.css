@@ -173,7 +173,7 @@ body.side-nav-closed {
 main {
   padding: 20px calc(max(calc(50% - 50ch), 0px) + 20px) 20px calc(max(calc(50% - 50ch), 0px) + 40px);
   height: 100dvh;
-  overflow-y: scroll;
+  overflow-y: auto;
   box-sizing: border-box;
 }
 
