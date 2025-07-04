@@ -160,6 +160,10 @@ body.side-nav-closed {
   a {
     color: black;
   }
+  &.pages-nav {
+    display: grid;
+    gap: 20px;
+  }
 }
 
 .side-nav-background {
