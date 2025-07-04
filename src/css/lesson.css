@@ -163,6 +163,28 @@ body.side-nav-closed {
   transition: background-color 0.3s ease-in-out;
 }
 
+
+main {
+  padding: 20px calc(max(calc(50% - 50ch), 0px) + 20px) 20px calc(max(calc(50% - 50ch), 0px) + 40px);
+  height: 100dvh;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  scrollbar-gutter: stable;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: none;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #0005;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #000a;
+  }
+}
+
+
 @media (max-width: 800px) {
   .side-nav {
     position: fixed;
@@ -187,9 +209,7 @@ body.side-nav-closed {
     background-color: #0007;
     display: block;
   }
-}
-
-
-main {
-  padding: 20px 40px;
+  main {
+    padding: 20px 20px;
+  }
 }
