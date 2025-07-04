@@ -1,7 +1,8 @@
 * {
   font-family: Arial;
-  --side-nav-width: 400px;
-  --side-nav-btn-diameter: 50px;
+}
+
+:root {
   --indent: 30px;
   --theme: #437e8a;
   --theme-light: lightblue;
@@ -9,6 +10,8 @@
 }
 
 body {
+  --side-nav-width: 400px;
+  --side-nav-btn-diameter: 50px;
   margin: 0;
   padding: 0;
   display: grid;
