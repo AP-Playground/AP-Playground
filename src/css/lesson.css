@@ -146,19 +146,20 @@ body.side-nav-closed {
     margin: 0;
     display: grid;
     gap: 5px;
-    & .item {
-      margin-left: calc(10px + var(--indent));
+    & .item a {
+      padding-left: calc(10px + var(--indent));
       text-indent: calc(0px - var(--indent));
       font-size: 20px;
       font-weight: bold;
     }
-    & .sub-item {
-      margin-left: calc(30px + var(--indent));
+    & .sub-item a {
+      padding-left: calc(30px + var(--indent));
       text-indent: calc(0px - var(--indent));
     }
   }
   a {
     color: black;
+    display: block;
   }
   &.pages-nav {
     display: grid;
