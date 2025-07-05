@@ -91,11 +91,11 @@ function genLesson(filename) {
 
   let navText = "";
   navData.units.forEach(unit => {
-    navText += `<a href="/${navData.course}/${unit.slug}" class="item">${unit.prefix}: ${unit.title}</a>`
+    navText += `<li><a href="/${navData.course}/${unit.slug}" class="item">${unit.prefix}: ${unit.title}</a></li>`
     if (unit.slug === pagePath[1]) {
       unit.lessons.forEach(lesson => {
         if (lesson.slug === pagePath[2]) {
-          navText += `<a class="sub-item">${lesson.prefix}: ${lesson.title}</a>`;
+          navText += `<li><a class="sub-item">${lesson.prefix}: ${lesson.title}</a></li>`;
           
           page = page.replaceAll("{{page.title}}", lesson.prefix + ": " + lesson.title);
 
@@ -105,7 +105,7 @@ function genLesson(filename) {
           page = page.replaceAll("{{unit.title}}", unit.prefix + ": " + unit.title);
           page = page.replaceAll("{{lesson.title}}", lesson.prefix + ": " + lesson.title);
         } else {
-          navText += `<a href="/${navData.course}/${unit.slug}/${lesson.slug}" class="sub-item">${lesson.prefix}: ${lesson.title}</a>`
+          navText += `<li><a href="/${navData.course}/${unit.slug}/${lesson.slug}" class="sub-item">${lesson.prefix}: ${lesson.title}</a></li>`
         }
       })
     }
