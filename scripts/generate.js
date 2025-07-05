@@ -98,7 +98,7 @@ function genLesson(filename) {
     if (unit.slug === pagePath[1]) {
       unit.lessons.forEach(lesson => {
         if (lesson.slug === pagePath[2]) {
-          navText += `<li class="sub-item side-nav-current"><a>${lesson.prefix}: ${lesson.title}</a></li>`;
+          navText += `<li class="sub-item side-nav-current"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`;
           
           page = page.replaceAll("{{page.title}}", lesson.prefix + ": " + lesson.title);
 
