@@ -156,6 +156,10 @@ body.side-nav-closed {
       padding-left: calc(30px + var(--indent));
       text-indent: calc(0px - var(--indent));
     }
+    & .side-nav-current a {
+      text-decoration: underline;
+      color: var(--accent);
+    }
   }
   a {
     color: black;
