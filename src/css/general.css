@@ -9,9 +9,15 @@
   --accent: #cc4125;
 }
 
-body {
+html {
   --side-nav-width: 400px;
   --side-nav-btn-diameter: 50px;
+  &.no-transition * {
+    transition: none !important;
+  }
+}
+
+body {
   margin: 0;
   padding: 0;
   display: grid;
@@ -64,7 +70,7 @@ body {
   transition: width 0.3s ease-in-out;
 }
 
-body.side-nav-closed {
+html.side-nav-closed {
   --side-nav-width: calc(var(--side-nav-btn-diameter) / 2);
 
   & .side-nav {
@@ -207,7 +213,7 @@ main {
     display: block;
     --side-nav-width: calc(90vw - var(--side-nav-btn-diameter)/2);
   }
-  body.side-nav-closed {
+  html.side-nav-closed {
     & .side-nav-header {
       width: calc(var(--side-nav-btn-diameter)/2);
     }
