@@ -113,7 +113,7 @@ function genLesson(filename) {
 
   page = page.replace("{{navigation}}", navText);
 
-  page = page.replace("lesson.summary", data["summary"])
+  page = page.replace("{{lesson.summary}", data["summary"])
 
   const vocabData = data["vocab"]
   let vocabText = "";
@@ -122,8 +122,8 @@ function genLesson(filename) {
     vocabText += `<li>${vocab}</li>`;
   })
 
-  page = page.replace("lesson.vocab", vocabText);
-  page = page.replace("lesson.vocab-row-count", Math.ceil(vocabData.length/2))
+  page = page.replace("{{lesson.vocab}}", vocabText);
+  page = page.replace("{{lesson.vocab-row-count}}", Math.ceil(vocabData.length/2))
 
   return page;
 }
