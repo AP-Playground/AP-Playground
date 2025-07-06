@@ -113,7 +113,7 @@ function genLesson(filename) {
 
   page = page.replace("{{navigation}}", navText);
 
-  page = page.replace("{{lesson.summary}", data["summary"])
+  page = page.replace("{{lesson.summary}}", data["summary"])
 
   const vocabData = data["vocab"]
   let vocabText = "";
