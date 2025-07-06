@@ -66,21 +66,31 @@
         <a href="/{{course.slug}}/{{unit.slug}}/{{lesson.slug}}">{{lesson.title}}</a>
       </li>
     </ul>
-    <h1>{{page.title}}</h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minus atque saepe, asperiores nobis accusamus officiis voluptatem assumenda, soluta fugiat corporis, maxime rem sit natus quidem iste? Quod, in quam.
-    <h1>12345</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi sit nam possimus cum ducimus animi illo incidunt sapiente nihil aut! Molestias inventore laudantium autem voluptates, nihil earum maxime modi quis.
-      Iste minima id odit odio ex necessitatibus adipisci aut dignissimos hic, vel minus aliquid consequuntur obcaecati quia omnis quo culpa delectus debitis ratione quam dolores. Tempora quos porro sint reiciendis.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae veritatis dicta inventore maxime. Officiis et, eligendi, quas perferendis, quibusdam hic quo eius exercitationem eum excepturi eos maiores quos incidunt sunt?
-      Odio, tempore pariatur! Iste temporibus corporis magni assumenda debitis? Esse dolorum, accusantium iste est non, debitis ipsam nisi, deleniti modi aspernatur totam! Ex explicabo, earum suscipit labore sunt eius blanditiis!
-      Temporibus iste soluta ab pariatur vero asperiores eos dolores provident distinctio illo expedita exercitationem ut accusamus natus, harum error voluptate consectetur dolorum in veritatis! Iste labore ipsa iusto error expedita?
-      In commodi at nemo et dolorem facilis quam natus vero, iste placeat illo omnis tempore, error optio nobis praesentium facere magnam consectetur velit. Facilis, beatae hic quia repellendus quis dignissimos.
-      Earum corrupti et sunt iusto quaerat quas impedit consequatur minima accusantium distinctio! Quam laudantium nihil eligendi rem sapiente incidunt ullam reprehenderit fugiat, officiis, atque aliquid obcaecati, beatae adipisci suscipit quia?
-      Optio dicta beatae tempore atque rerum consequuntur recusandae voluptatibus ad voluptatem harum distinctio, vitae ut at exercitationem sit nihil reprehenderit obcaecati eveniet enim illo molestias dolor animi excepturi! Qui, quos!
-    </p>
+    <div class="content-block">
+      <h1>{{page.title}}</h1>
+      <p>
+        {{lesson.summary}}
+      </p>
+    </div>
+    <div class="content-block">
+      <div class="vocab-header">
+        <h2>Vocab:</h2>
+        <a href="{{lesson.vocab-link}}">Practice &rightarrow;</a>
+      </div>
+      <ol class="vocab-grid" style="--row-count: {{lesson.vocab-row-count}};">
+        {{lesson.vocab}}
+      </ol>
+    </div>
+    <div class="content-block">
+      <h2>Resources:</h2>
+      <ul>
+        {{lesson.links}}
+      </ul>
+    </div>
+    <div class="content-block">
+      <h2>Videos:</h2>
+      {{lesson.videos}}
+    </div>
   </main>
 </body>
 
