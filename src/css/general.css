@@ -276,6 +276,13 @@ a:hover {
   box-sizing: border-box;
 }
 
+.resources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 30px;
+}
+
 
 @media (max-width: 1200px) {
   .side-nav {
