@@ -127,5 +127,14 @@ function genLesson(filename) {
   page = page.replace("{{lesson.vocab-row-count}}", Math.ceil(vocabData.length/2))
   page = page.replace("{{lesson.vocab-row-count-3}}", Math.ceil(vocabData.length/3))
 
+  const linkData = data["links"];
+  let linkText = "";
+
+  linkData.forEach(link => {
+    linkText += `<li><a target="_blank" href="${link["link"]}">${link.title}</a></li>`
+  })
+
+  page = page.replace("{{lesson.links}}", linkText);
+
   return page;
 }
