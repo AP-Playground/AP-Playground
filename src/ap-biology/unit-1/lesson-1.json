@@ -2,5 +2,104 @@
   "nav": "ap-biology/nav",
   "slug": "ap-biology/unit-1/lesson-1",
   "summary": "Lesson 1.1 describes the properties of water which make it essential to life. In it, you will learn how the atomic structure of water determines its properties, how hydrogen bonding results from polarity, and how hydrogen bonds between water molecules (cohesion) result in further properties.",
-  "vocab": ["Electronegativity", "Polarity", "Hydrogen bonds", "Cohesion", "Surface tension", "Adhesion", "Meniscus", "Capillary action", "Transpiration", "High specific heat", "High heat of vaporization", "Solution", "Solvent", "Solute", "Hydrophilic", "Hydrophobic"]
+  "vocab": [
+    {
+      "term": "Electronegativity",
+      "link": "https://en.wikipedia.org/wiki/Electronegativity"
+    },
+    {
+      "term": "Polarity",
+      "link": "https://en.wikipedia.org/wiki/Chemical_polarity"
+    },
+    {
+      "term": "Hydrogen bonds",
+      "link": "https://en.wikipedia.org/wiki/Hydrogen_bond"
+    },
+    {
+      "term": "Cohesion",
+      "link": "https://en.wikipedia.org/wiki/Cohesion_(chemistry)"
+    },
+    {
+      "term": "Surface tension",
+      "link": "https://en.wikipedia.org/wiki/Surface_tension"
+    },
+    {
+      "term": "Adhesion",
+      "link": "https://en.wikipedia.org/wiki/Adhesion"
+    },
+    {
+      "term": "Meniscus",
+      "link": "https://en.wikipedia.org/wiki/Meniscus_(liquid)"
+    },
+    {
+      "term": "Capillary action",
+      "link": "https://en.wikipedia.org/wiki/Capillary_action"
+    },
+    {
+      "term": "Transpiration",
+      "link": "https://en.wikipedia.org/wiki/Transpiration"
+    },
+    {
+      "term": "High specific heat",
+      "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion"
+    },
+    {
+      "term": "High heat of vaporization",
+      "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion"
+    },
+    {
+      "term": "Solution",
+      "link": "https://en.wikipedia.org/wiki/Aqueous_solution"
+    },
+    {
+      "term": "Solvent",
+      "link": "https://en.wikipedia.org/wiki/Properties_of_water#Water_as_a_solvent"
+    },
+    {
+      "term": "Solute",
+      "link": "https://en.wikipedia.org/wiki/Solution_(chemistry)"
+    },
+    {
+      "term": "Hydrophilic",
+      "link": "https://en.wikipedia.org/wiki/Hydrophile"
+    },
+    {
+      "term": "Hydrophobic",
+      "link": "https://en.wikipedia.org/wiki/Hydrophobe"
+    }
+  ],
+  "links": [
+    {
+      "title": "",
+      "link": ""
+    },
+    {
+      "title": "",
+      "link": ""
+    },
+    {
+      "title": "",
+      "link": ""
+    },
+    {
+      "title": "",
+      "link": ""
+    },
+    {
+      "title": "",
+      "link": ""
+    },
+    {
+      "title": "",
+      "link": ""
+    },
+    {
+      "title": "",
+      "link": ""
+    },
+    {
+      "title": "",
+      "link": ""
+    }
+  ]
 }

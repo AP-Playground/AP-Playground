@@ -119,7 +119,7 @@ function genLesson(filename) {
   let vocabText = "";
 
   vocabData.forEach(vocab => {
-    vocabText += `<li>${vocab}</li>`;
+    vocabText += `<li><a href="${vocab.link}">${vocab.term}<a></li>`;
   })
 
   page = page.replace("{{lesson.vocab}}", vocabText);
