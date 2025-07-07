@@ -38,7 +38,7 @@ body {
 }
 
 .side-nav-links {
-  background-color: var(--theme);
+  background-color: var(--theme-light);
   overflow-x: hidden;
   overflow-y: scroll;
   scrollbar-gutter: stable;
@@ -95,7 +95,7 @@ html.side-nav-closed {
 }
 
 .side-nav-header {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   height: var(--side-nav-btn-diameter);
   position: relative;
   width: var(--side-nav-width);
@@ -114,7 +114,7 @@ html.side-nav-closed {
   position: absolute;
   top: 0;
   right: calc(0px - var(--side-nav-btn-diameter)/2);
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border: none;
   width: var(--side-nav-btn-diameter);
   aspect-ratio: 1;

@@ -198,14 +198,14 @@ html.side-nav-closed {
 
 
 main {
-  padding: 20px calc(max(calc(50% - 50ch), 0px) + 20px) 20px calc(max(calc(50% - 50ch), 0px) + 40px);
+  padding: 20px calc(max(calc(50% - 60ch), 0px) + 20px) 20px calc(max(calc(50% - 60ch), 0px) + 40px);
   height: 100dvh;
   overflow-y: auto;
   box-sizing: border-box;
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1250px) {
   .side-nav {
     position: fixed;
   }
@@ -266,7 +266,7 @@ main {
     margin: 0;
   }
   & .content-block {
-    background-color: #ccc;
+    background-color: #ddd;
     padding: 20px;
     border-radius: calc(var(--side-nav-btn-diameter)/2);
     margin-bottom: 20px;
