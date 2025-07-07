@@ -315,3 +315,13 @@ a:hover {
     grid-template-rows: repeat(var(--row-count-3), auto);
   }
 }
+
+@media (max-width: 900px) {
+  .video-embed:nth-child(2) {
+    margin-top: 0.5rem;
+  }
+  .video-embed {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+}
