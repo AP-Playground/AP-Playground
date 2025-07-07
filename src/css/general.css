@@ -212,7 +212,7 @@ main {
   }
   body {
     display: block;
-    --side-nav-width: min(calc(90vw - var(--side-nav-btn-diameter)/2), 400px);
+    --side-nav-width: min(calc(95vw - var(--side-nav-btn-diameter)/2), 400px);
   }
   html.side-nav-closed {
     & .side-nav-header {
