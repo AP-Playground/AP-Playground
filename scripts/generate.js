@@ -140,10 +140,10 @@ function genLesson(filename) {
   let vidText = "";
 
   vidData.forEach(vid => {
-    vidText += `<iframe src="https://www.youtube.com/embed/${vid}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+    vidText += `<iframe class="video-embed" src="https://www.youtube.com/embed/${vid}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   })
 
-  page = page.replace("lesson.videos", vidText)
+  page = page.replace("{{lesson.videos}}", vidText)
 
   return page;
 }
