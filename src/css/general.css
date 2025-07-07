@@ -275,6 +275,7 @@ a:hover {
   aspect-ratio: 16/9;
   padding: 1rem;
   box-sizing: border-box;
+  transition: padding 0.3s ease-in-out, margin 0.3s ease-in-out;
 }
 
 .resources-list {
