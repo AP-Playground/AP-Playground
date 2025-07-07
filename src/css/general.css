@@ -205,13 +205,13 @@ main {
 }
 
 
-@media (max-width: 1250px) {
+@media (max-width: 1200px) {
   .side-nav {
     position: fixed;
   }
   body {
     display: block;
-    --side-nav-width: calc(90vw - var(--side-nav-btn-diameter)/2);
+    --side-nav-width: min(calc(90vw - var(--side-nav-btn-diameter)/2), 400px);
   }
   html.side-nav-closed {
     & .side-nav-header {
@@ -230,7 +230,7 @@ main {
     display: block;
   }
   main {
-    padding: 20px 20px;
+    padding: 20px calc(max(calc(50% - 60ch), 0px) + 20px) 20px calc(max(calc(50% - 60ch), 0px) + 20px);
   }
 }
 
