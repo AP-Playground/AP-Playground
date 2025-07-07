@@ -124,6 +124,7 @@ function genLesson(filename) {
 
   page = page.replace("{{lesson.vocab}}", vocabText);
   page = page.replace("{{lesson.vocab-row-count}}", Math.ceil(vocabData.length/2))
+  page = page.replace("{{lesson.vocab-row-count-3}}", Math.ceil(vocabData.length/3))
 
   return page;
 }

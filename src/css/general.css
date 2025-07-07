@@ -300,3 +300,10 @@ a:hover {
     display: block;
   }
 }
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .vocab-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(var(--row-count-3), auto);
+  }
+}
