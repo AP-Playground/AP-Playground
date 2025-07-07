@@ -42,7 +42,6 @@ body {
   background-color: var(--theme-light);
   overflow-x: hidden;
   overflow-y: auto;
-  scrollbar-gutter: stable;
   &::-webkit-scrollbar {
     width: 10px;
   }
@@ -65,6 +64,7 @@ body {
     gap: 20px;
     width: var(--side-nav-width);
     padding: 10px;
+    padding-right: 20px;
     box-sizing: border-box;
   }
   width: var(--side-nav-width);
