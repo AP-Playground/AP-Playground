@@ -1,0 +1,92 @@
+{
+  "nav": "ap-biology/nav",
+  "slug": "ap-biology/unit-1/lesson-2",
+  "summary": "Now that we understand the most important molecule for life, water, we can go over the most important atoms for life. Topic 1.2 is a crucial lesson to cover, and while it is one of the easiest topics to learn in unit 1, it provides the foundation which the rest of the unit builds upon.",
+  "vocab": [
+    {
+      "term": "Essential Elements",
+      "link": "https://en.wikipedia.org/wiki/Composition_of_the_human_body"
+    },
+    {
+      "term": "Macromolecules",
+      "link": "https://en.wikipedia.org/wiki/Macromolecule"
+    },
+    {
+      "term": "Organic Compound",
+      "link": "https://en.wikipedia.org/wiki/Organic_compound"
+    },
+    {
+      "term": "Hydrocarbon Chain",
+      "link": "https://en.wikipedia.org/wiki/Hydrocarbon"
+    },
+    {
+      "term": "Valence",
+      "link": "https://en.wikipedia.org/wiki/Valence_(chemistry)"
+    },
+    {
+      "term": "Functional Groups",
+      "link": "https://en.wikipedia.org/wiki/Functional_group"
+    },
+    {
+      "term": "Hydroxyl Group",
+      "link": "https://en.wikipedia.org/wiki/Hydroxy_group"
+    },
+    {
+      "term": "Methyl Group",
+      "link": "https://en.wikipedia.org/wiki/Methyl_group"
+    },
+    {
+      "term": "Carbonyl Group",
+      "link": "https://en.wikipedia.org/wiki/Carbonyl_group"
+    },
+    {
+      "term": "Aldehydes",
+      "link": "https://en.wikipedia.org/wiki/Aldehyde"
+    },
+    {
+      "term": "Ketones",
+      "link": "https://en.wikipedia.org/wiki/Ketone"
+    },
+    {
+      "term": "Carboxyl Group",
+      "link": "https://en.wikipedia.org/wiki/Carboxylic_acid"
+    },
+    {
+      "term": "Amino Group",
+      "link": "https://en.wikipedia.org/wiki/Amine"
+    },
+    {
+      "term": "Phosphate Group",
+      "link": "https://en.wikipedia.org/wiki/Phosphate"
+    },
+    {
+      "term": "Sulfhydryl Group",
+      "link": "https://en.wikipedia.org/wiki/Thiol"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Carbon as a building block of life (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/elements-of-life/v/carbon-as-a-building-block-of-life"
+    },
+    {
+      "title": "Khan Academy | Functional groups (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/elements-of-life/v/functional-groups"
+    },
+    {
+      "title": "Wikipedia | Carbon",
+      "link": "https://en.wikipedia.org/wiki/Carbon"
+    },
+    {
+      "title": "Wikipedia | Functional groups",
+      "link": "https://en.wikipedia.org/wiki/Functional_group"
+    },
+    {
+      "title": "Biology Dictionary | The Elements of Life",
+      "link": "https://biologydictionary.net/ap-biology/1-2-the-elements-of-life/"
+    }
+  ],
+  "videos": [
+    "h2L2pkNNhpo", "fJ1Wre_boxI", "1Dx7LDwINLU", "QnQe0xW_JY4", "QWf2jcznLsY"
+  ]
+}

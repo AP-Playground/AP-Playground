@@ -12,7 +12,12 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 // array of pages to generate
 const pages = [
   { filename: 'index.html', content: '<!DOCTYPE html><html><body><h1>Home</h1><p>Welcome!</p></body></html>' },
-  { filename: 'ap-biology/unit-1/lesson-1.html', content: genLesson }
+  { filename: 'ap-biology/unit-1/lesson-1.html', content: genLesson },
+  { filename: 'ap-biology/unit-1/lesson-2.html', content: genLesson },
+  // { filename: 'ap-biology/unit-1/lesson-3.html', content: genLesson },
+  // { filename: 'ap-biology/unit-1/lesson-4.html', content: genLesson },
+  // { filename: 'ap-biology/unit-1/lesson-5.html', content: genLesson },
+  // { filename: 'ap-biology/unit-1/lesson-6.html', content: genLesson }
 ];
 
 // write each page
@@ -96,7 +101,7 @@ function genLesson(filename) {
   let navText = "";
   navData.units.forEach(unit => {
     navText += `<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`
-    if (unit.slug === pagePath[1]) {
+    if (unit.slug === pagePath[1] && unit.hasOwnProperty("lessons")) {
       unit.lessons.forEach(lesson => {
         if (lesson.slug === pagePath[2]) {
           navText += `<li class="sub-item side-nav-current"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`;
