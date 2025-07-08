@@ -199,11 +199,14 @@ html.side-nav-closed {
 
 
 main {
-  padding: 20px calc(max(calc(50% - 60ch), 0px) + 20px) 20px calc(max(calc(50% - 60ch), 0px) + 40px);
+  padding: 30px calc(max(calc(50% - 60ch), 0px) + 20px) 20px calc(max(calc(50% - 60ch), 0px) + 40px);
   height: 100%;
   overflow-y: auto;
   box-sizing: border-box;
   grid-column-start: 2;
+  transition: padding 0.3s ease-in-out;
+  display: grid;
+  gap: 20px;
   & .content-block > :first-child {
     margin-top: 0;
   }
@@ -217,13 +220,12 @@ main {
     background-color: #ddd;
     padding: 20px;
     border-radius: calc(var(--side-nav-btn-diameter)/2);
-    margin-bottom: 20px;
   }
 }
 
 .breadcrumbs {
   padding: 0;
-  margin-top: 0;
+  margin: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -311,7 +313,7 @@ a:hover {
     display: block;
   }
   main {
-    padding: 20px calc(max(calc(50% - 60ch), 0px) + 20px) 20px calc(max(calc(50% - 60ch), 0px) + 20px);
+    padding: 55px calc(max(calc(50% - 60ch), 0px) + 20px) 20px calc(max(calc(50% - 60ch), 0px) + 20px);
   }
   .double-content-block {
     display: block;
