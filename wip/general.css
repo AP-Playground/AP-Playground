@@ -7,6 +7,7 @@
   --theme: #437e8a;
   --theme-light: lightblue;
   --accent: #cc4125;
+  --main-width: 120ch;
 }
 
 html {
@@ -20,13 +21,14 @@ html {
 body {
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: var(--side-nav-width) auto;
-  transition: grid-template-columns 0.3s ease-in-out;
+  margin-left: var(--side-nav-width);
+  transition: margin 0.3s ease-in-out;
   height: 100dvh;
 }
 
 .side-nav {
+  position: fixed;
+  left: 0;
   & .side-nav-header .side-nav-btn {
     & .shrink {
       display: inline;
@@ -205,7 +207,8 @@ main {
   box-sizing: border-box;
   grid-column-start: 2;
   transition: padding 0.3s ease-in-out;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   & .content-block > :first-child {
     margin-top: 0;
@@ -290,14 +293,14 @@ a:hover {
 
 
 @media (max-width: 1200px) {
-  .side-nav {
-    position: fixed;
-  }
-  body {
-    grid-template-columns: 0px auto;
+  html {
     --side-nav-width: min(calc(95vw - var(--side-nav-btn-diameter)/2), 400px);
   }
+  body {
+    margin-left: 0;
+  }
   html.side-nav-closed {
+    --side-nav-width: 0;
     & .side-nav-header {
       width: calc(var(--side-nav-btn-diameter)/2);
     }
