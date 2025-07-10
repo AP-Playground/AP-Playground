@@ -87,6 +87,25 @@
     }
   ],
   "videos": [
-    "IX5bRDtiELw", "yPlkIqu7Ge4", "1Dx7LDwINLU", "H8WJ2KENlK0", "PYH63o10iTE"
+    {
+      "title": "AP Study | AP Biology 1.3: Introduction to Biological Macromolecules",
+      "link": "IX5bRDtiELw"
+    },
+    {
+      "title": "PoseKnows Biology | 1.3 Introduction to Biological Macromolecules",
+      "link": "yPlkIqu7Ge4"
+    },
+    {
+      "title": "Amoeba Sisters | Biomolecules",
+      "link": "1Dx7LDwINLU"
+    },
+    {
+      "title": "Crash Course Biology | Biological Molecules - You Are What You Eat",
+      "link": "H8WJ2KENlK0"
+    },
+    {
+      "title": "Bozeman Science | Biological Molecules",
+      "link": "PYH63o10iTE"
+    }
   ]
 }
