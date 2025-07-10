@@ -288,7 +288,8 @@ a:hover {
 .video-header {
   display: grid;
   grid-template-columns: auto 20px;
-  margin-inline: 15px;
+  gap: 1rem;
+  margin-inline: 5px;
   align-items: center;
   & img {
     width: 100%;
