@@ -148,7 +148,7 @@ function genLesson(filename) {
     vidText += `<div class="video-container">`
     vidText += `<div class="video-header">`
     vidText += `<h3>${vid.title}</h3>`
-    vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"><img src="/icons/external-link.svg"></a>`
+    vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"><img src="/icons/external_link.svg"></a>`
     vidText += `<iframe class="video-embed" src="https://www.youtube.com/embed/${vid.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
     vidText += `</div>`
   })
