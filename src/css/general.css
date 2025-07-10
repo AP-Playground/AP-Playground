@@ -218,13 +218,13 @@ main {
   & .content-block > :last-child {
     margin-bottom: 0;
   }
-  & h2 {
-    margin: 0;
-  }
   & .content-block {
     background-color: #ddd;
     padding: 20px;
     border-radius: calc(var(--side-nav-btn-diameter)/2);
+  }
+  & h1, & h2 {
+    margin: 0;
   }
   & p {
     line-height: 1.25;
