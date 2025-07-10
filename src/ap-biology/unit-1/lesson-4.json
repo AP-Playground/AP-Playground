@@ -1,0 +1,155 @@
+{
+  "nav": "ap-biology/nav",
+  "slug": "ap-biology/unit-1/lesson-4",
+  "summary": "All important biological molecules in your body are macromolecules. These include carbohydrates, proteins, nucleic acids, and lipids. Topic 1.4 is about what makes up these macromolecules and their different properties.",
+  "vocab": [
+    {
+      "term": "Properties of Carbohydrates",
+      "link": "https://en.wikipedia.org/wiki/Carbohydrate"
+    },
+    {
+      "term": "Structural isomers",
+      "link": "https://en.wikipedia.org/wiki/Structural_isomer"
+    },
+    {
+      "term": "Enantiomers",
+      "link": "https://en.wikipedia.org/wiki/Enantiomer"
+    },
+    {
+      "term": "α and β carbs",
+      "link": "https://en.wikipedia.org/wiki/Anomer"
+    },
+    {
+      "term": "Properties of Amino Acids",
+      "link": "https://en.wikipedia.org/wiki/Amino_acid"
+    },
+    {
+      "term": "R side chains",
+      "link": "https://en.wikipedia.org/wiki/Side_chain"
+    },
+    {
+      "term": "Properties of Nucleic Acids",
+      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
+    },
+    {
+      "term": "Ribose",
+      "link": "https://en.wikipedia.org/wiki/Ribose"
+    },
+    {
+      "term": "Deoxyribose",
+      "link": "https://en.wikipedia.org/wiki/Deoxyribose"
+    },
+    {
+      "term": "Nitrogenous base",
+      "link": "https://en.wikipedia.org/wiki/Nucleotide_base"
+    },
+    {
+      "term": "Adenine",
+      "link": "https://en.wikipedia.org/wiki/Adenine"
+    },
+    {
+      "term": "Thymine",
+      "link": "https://en.wikipedia.org/wiki/Thymine"
+    },
+    {
+      "term": "Guanine",
+      "link": "https://en.wikipedia.org/wiki/Guanine"
+    },
+    {
+      "term": "Cytosine",
+      "link": "https://en.wikipedia.org/wiki/Cytosine"
+    },
+    {
+      "term": "Uracil",
+      "link": "https://en.wikipedia.org/wiki/Uracil"
+    },
+    {
+      "term": "Properties of Lipids",
+      "link": "https://en.wikipedia.org/wiki/Lipid"
+    },
+    {
+      "term": "Triglycerides",
+      "link": "https://en.wikipedia.org/wiki/Triglyceride"
+    },
+    {
+      "term": "Fatty acid chain",
+      "link": "https://en.wikipedia.org/wiki/Fatty_acid"
+    },
+    {
+      "term": "Saturated fats",
+      "link": "https://en.wikipedia.org/wiki/Saturated_fat"
+    },
+    {
+      "term": "Unsaturated fats",
+      "link": "https://en.wikipedia.org/wiki/Unsaturated_fat"
+    },
+    {
+      "term": "Phospholipids",
+      "link": "https://en.wikipedia.org/wiki/Phospholipid"
+    },
+    {
+      "term": "Steroids",
+      "link": "https://en.wikipedia.org/wiki/Steroid"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Biological macromolecules review (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/properties-structure-and-function-of-biological-macromolecules/a/hs-biological-macromolecules-review"
+    },
+    {
+      "title": "Wikipedia | Carbohydrate",
+      "link": "https://en.wikipedia.org/wiki/Carbohydrate"
+    },
+    {
+      "title": "Wikipedia | Amino Acid",
+      "link": "https://en.wikipedia.org/wiki/Amino_acid"
+    },
+    {
+      "title": "Wikipedia | Nucleic acid",
+      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
+    },
+    {
+      "title": "Wikipedia | Lipid",
+      "link": "https://en.wikipedia.org/wiki/Lipid"
+    },
+    {
+      "title": "Biology Dictionary | Properties of Biological Macromolecules",
+      "link": "https://biologydictionary.net/ap-biology/1-4-properties-of-biological-macromolecules/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Study | AP Biology 1.4: Properties of Biological Macromolecules",
+      "link": "HX37eu9-XvM"
+    },
+    {
+      "title": "PoseKnows Biology | 1.4 Properties of Biological Macromolecules",
+      "link": "Azb7g78h8SQ"
+    },
+    {
+      "title": "Amoeba Sisters | Biomolecules",
+      "link": "1Dx7LDwINLU"
+    },
+    {
+      "title": "Crash Course Biology | Biological Molecules - You Are What You Eat",
+      "link": "H8WJ2KENlK0"
+    },
+    {
+      "title": "Bozeman Science | Carbohydrates",
+      "link": "_zm_DyD6FJ0"
+    },
+    {
+      "title": "Bozeman Science | Proteins",
+      "link": "2Jgb_DpaQhM"
+    },
+    {
+      "title": "Bozeman Science | Nucleic Acids",
+      "link": "NNASRkIU5Fw"
+    },
+    {
+      "title": "Bozeman Science | Lipids",
+      "link": "VGHD9e3yRIU"
+    }
+  ]
+}
