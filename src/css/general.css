@@ -8,6 +8,7 @@
   --theme-light: lightblue;
   --accent: #cc4125;
   --main-width: 120ch;
+  overscroll-behavior: none;
 }
 
 html {
