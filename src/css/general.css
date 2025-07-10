@@ -225,6 +225,9 @@ main {
     padding: 20px;
     border-radius: calc(var(--side-nav-btn-diameter)/2);
   }
+  & p {
+    line-height: 1.25;
+  }
 }
 
 .breadcrumbs {
