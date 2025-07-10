@@ -87,6 +87,25 @@
     }
   ],
   "videos": [
-    "h2L2pkNNhpo", "fJ1Wre_boxI", "1Dx7LDwINLU", "QnQe0xW_JY4", "QWf2jcznLsY"
+    {
+      "title": "AP Study | AP Biology 1.2: The Elements of Life",
+      "link": "h2L2pkNNhpo"
+    },
+    {
+      "title": "PoseKnows Biology | 1.2 Elements of Life",
+      "link": "fJ1Wre_boxI"
+    },
+    {
+      "title": "Amoeba Sisters | Biomolecules",
+      "link": "1Dx7LDwINLU"
+    },
+    {
+      "title": "Crash Course Biology | Carbon... SO SIMPLE",
+      "link": "QnQe0xW_JY4"
+    },
+    {
+      "title": "Bozeman Science | The Molecules of Life",
+      "link": "QWf2jcznLsY"
+    }
   ]
 }
