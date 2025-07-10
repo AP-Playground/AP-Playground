@@ -150,7 +150,7 @@ html.side-nav-closed {
 }
 
 .side-nav-tab {
-  & h1 {
+  & h2 {
     margin: 0;
   }
   & hr {
