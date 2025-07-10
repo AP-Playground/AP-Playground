@@ -13,8 +13,8 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 const pages = [
   { filename: 'index.html', content: '<!DOCTYPE html><html><body><h1>Home</h1><p>Welcome!</p></body></html>' },
   { filename: 'ap-biology/unit-1/lesson-1.html', content: genLesson },
-  { filename: 'ap-biology/unit-1/lesson-2.html', content: genLesson },
-  { filename: 'ap-biology/unit-1/lesson-3.html', content: genLesson },
+  // { filename: 'ap-biology/unit-1/lesson-2.html', content: genLesson },
+  // { filename: 'ap-biology/unit-1/lesson-3.html', content: genLesson },
   // { filename: 'ap-biology/unit-1/lesson-4.html', content: genLesson },
   // { filename: 'ap-biology/unit-1/lesson-5.html', content: genLesson },
   // { filename: 'ap-biology/unit-1/lesson-6.html', content: genLesson }
@@ -145,7 +145,7 @@ function genLesson(filename) {
   let vidText = "";
 
   vidData.forEach(vid => {
-    vidText += `<iframe class="video-embed" src="https://www.youtube.com/embed/${vid}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+    vidText += `<iframe class="video-embed" src="https://www.youtube.com/embed/${vid.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   })
 
   page = page.replace("{{lesson.videos}}", vidText)

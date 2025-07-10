@@ -83,6 +83,29 @@
     }
   ],
   "videos": [
-    "vW840pO-DNA", "GOcslgVHciI", "3jwAGWky98c", "HVT3Y3_gHGg", "iOOvX0jmhJ4", "ZScEgE55XTM"
+    {
+      "title": "AP Study | AP Biology 1.1: Structure of Water and Hydrogen Bonding",
+      "link": "vW840pO-DNA"
+    },
+    {
+      "title": "PoseKnows Biology | 1.1 Structure of Water and Hydrogen Bonding",
+      "link": "GOcslgVHciI"
+    },
+    {
+      "title": "Amoeba Sisters | Properties of Water",
+      "link": "3jwAGWky98c"
+    },
+    {
+      "title": "Crash Course Biology | Water - Liquid Awesome",
+      "link": "HVT3Y3_gHGg"
+    },
+    {
+      "title": "Bozeman Science | Water: A Polar Molecule",
+      "link": "iOOvX0jmhJ4"
+    },
+    {
+      "title": "Bozeman Science | Water and Life",
+      "link": "ZScEgE55XTM"
+    }
   ]
 }
