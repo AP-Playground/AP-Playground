@@ -60,7 +60,6 @@ body {
   }
   height: calc(100dvh - var(--side-nav-btn-diameter));
   box-sizing: border-box;
-  padding-bottom: calc(100lvh - 100svh);
   & > div {
     display: flex;
     flex-direction: column;
@@ -196,7 +195,7 @@ html.side-nav-closed {
   display: none;
   position: absolute;
   width: 100vw;
-  height: 100dvh;
+  height: 100lvh;
   background-color: transparent;
   z-index: -1;
   transition: background-color 0.3s ease-in-out;
