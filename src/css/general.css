@@ -276,13 +276,27 @@ a:hover {
   gap: 20px;
 }
 
+.video-container {
+  padding: 1rem;
+  transition: padding 0.3s ease-in-out;
+}
+
+.video-header {
+  display: grid;
+  grid-template-columns: auto 20px;
+  margin-inline: 15px;
+  align-items: center;
+  & img {
+    width: 100%;
+  }
+  & h3 {
+    margin-block: 0.5rem;
+  }
+}
+
 .video-embed {
-  display: block;
   width: 100%;
   aspect-ratio: 16/9;
-  padding: 1rem;
-  box-sizing: border-box;
-  transition: padding 0.3s ease-in-out, margin 0.3s ease-in-out;
 }
 
 .resources-list {
@@ -334,11 +348,11 @@ a:hover {
 }
 
 @media (max-width: 900px) {
-  .video-embed:nth-child(2) {
+  .video-container:nth-child(2) {
     margin-top: 0.5rem;
   }
-  .video-embed {
+  .video-container {
     padding: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 }
