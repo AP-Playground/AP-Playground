@@ -60,6 +60,7 @@ body {
   }
   height: calc(100dvh - var(--side-nav-btn-diameter));
   box-sizing: border-box;
+  padding-bottom: calc(100lvh - 100svh);
   & > div {
     display: flex;
     flex-direction: column;
