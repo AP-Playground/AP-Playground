@@ -17,7 +17,7 @@ const pages = [
   { filename: 'ap-biology/unit-1/lesson-3.html', content: genLesson },
   { filename: 'ap-biology/unit-1/lesson-4.html', content: genLesson },
   { filename: 'ap-biology/unit-1/lesson-5.html', content: genLesson },
-  // { filename: 'ap-biology/unit-1/lesson-6.html', content: genLesson }
+  { filename: 'ap-biology/unit-1/lesson-6.html', content: genLesson }
 ];
 
 // write each page
