@@ -11,28 +11,24 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
 // array of pages to generate
 const pages = [
-  { filename: 'index.html', content: '<!DOCTYPE html><html><body><h1>Home</h1><p>Welcome!</p></body></html>' },
-  { filename: 'ap-biology/unit-1/lesson-1.html', content: genLesson },
-  { filename: 'ap-biology/unit-1/lesson-2.html', content: genLesson },
-  { filename: 'ap-biology/unit-1/lesson-3.html', content: genLesson },
-  { filename: 'ap-biology/unit-1/lesson-4.html', content: genLesson },
-  { filename: 'ap-biology/unit-1/lesson-5.html', content: genLesson },
-  { filename: 'ap-biology/unit-1/lesson-6.html', content: genLesson }
+  'ap-biology/unit-1/lesson-1.html',
+  'ap-biology/unit-1/lesson-2.html',
+  'ap-biology/unit-1/lesson-3.html',
+  'ap-biology/unit-1/lesson-4.html',
+  'ap-biology/unit-1/lesson-5.html',
+  'ap-biology/unit-1/lesson-6.html'
 ];
 
 // write each page
-pages.forEach(({ filename, content }) => {
+pages.forEach((filename) => {
   const fullPath = path.join(outDir, filename);
   const dir = path.dirname(fullPath);
 
   // Ensure parent directories exist
   fs.mkdirSync(dir, { recursive: true });
 
-  if (typeof content === "function") {
-    fs.writeFileSync(fullPath, content(filename));
-  } else if (typeof content === "string") {
-    fs.writeFileSync(fullPath, content);
-  }
+  fs.writeFileSync(fullPath, genGeneric(filename));
+
   console.log("Uploaded file: " + filename);
 });
 
@@ -82,16 +78,24 @@ scripts.forEach(js => {
 })
 
 
-// function to generate lesson content
-function genLesson(filename) {
-  const dataPath = "src/" + filename.replace('.html', '.json');
-  const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+// origin point of generate functions
+function genGeneric(filename) {
+  const slug = filename.replace(".html", "");
+  const data = JSON.parse(fs.readFileSync("src/" + slug + '.json', 'utf-8'));
 
+  if (data.type === "lesson") {
+    genLesson(slug, data)
+  }
+}
+
+
+// function to generate lesson content
+function genLesson(lessonSlug, data) {
   let page = lessonTemplate;
 
   const navPath = path.resolve(__dirname, "..", "src", data["nav"] + ".json");
   const navData = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
-  const pagePath = data.slug.split("/")
+  const pagePath = lessonSlug.split("/")
 
   page = page.replaceAll("{{course.title}}", navData.title)
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
