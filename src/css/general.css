@@ -31,6 +31,7 @@ body {
   position: fixed;
   left: 0;
   width: var(--side-nav-width);
+  z-index: 1;
   & .side-nav-header .side-nav-btn {
     & .shrink {
       display: inline;
