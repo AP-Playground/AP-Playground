@@ -84,7 +84,7 @@ function genGeneric(filename) {
   const data = JSON.parse(fs.readFileSync("src/" + slug + '.json', 'utf-8'));
 
   if (data.type === "lesson") {
-    genLesson(slug, data)
+    return genLesson(slug, data)
   }
 }
 
