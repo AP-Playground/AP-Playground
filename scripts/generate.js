@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 let lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
+let unitTemplate = fs.readFileSync("src/templates/unit.html", "utf-8");
 
 // output directory for all generated files
 const outDir = path.resolve(__dirname, '..', 'public');
@@ -11,6 +12,7 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
 // array of pages to generate
 const pages = [
+  'ap-biology/unit-1.html',
   'ap-biology/unit-1/lesson-1.html',
   'ap-biology/unit-1/lesson-2.html',
   'ap-biology/unit-1/lesson-3.html',
@@ -84,7 +86,9 @@ function genGeneric(filename) {
   const data = JSON.parse(fs.readFileSync("src/" + slug + '.json', 'utf-8'));
 
   if (data.type === "lesson") {
-    return genLesson(slug, data)
+    return genLesson(slug, data);
+  } else if (data.type === "unit") {
+    return genUnit(slug, data);
   }
 }
 
@@ -159,6 +163,79 @@ function genLesson(lessonSlug, data) {
   })
 
   page = page.replace("{{lesson.videos}}", vidText)
+
+  return page;
+}
+
+
+// function to generate unit content
+function genUnit(unitSlug, data) {
+  let page = unitTemplate;
+
+  const navPath = path.resolve(__dirname, "..", "src", data["nav"] + ".json");
+  const navData = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
+  const pagePath = unitSlug.split("/")
+
+  page = page.replaceAll("{{course.title}}", navData.title)
+  page = page.replaceAll("{{course.slug}}", pagePath[0]);
+  page = page.replaceAll("{{unit.slug}}", pagePath[1]);
+
+  let navText = "";
+  navData.units.forEach(unit => {
+    if (unit.slug === pagePath[1]) {
+      navText += `<li class="item side-nav-current"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`;
+      if (unit.hasOwnProperty("lessons")) {
+        unit.lessons.forEach(lesson => {
+          navText += `<li class="sub-item"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`
+        })
+      }
+
+      page = page.replaceAll("{{page.title}}", unit.prefix + ": " + unit.title)
+      page = page.replaceAll("{{unit.title}}", unit.prefix + ": " + unit.title)
+
+    } else {
+      navText += `<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`
+    }
+  })
+
+  page = page.replace("{{navigation}}", navText);
+
+  // page = page.replace("{{lesson.summary}}", data["summary"])
+
+  // const vocabData = data["vocab"]
+  // let vocabText = "";
+
+  // vocabData.forEach(vocab => {
+  //   vocabText += `<li><a target="_blank" href="${vocab.link}">${vocab.term}</a></li>`;
+  // })
+
+  // page = page.replace("{{lesson.vocab}}", vocabText);
+  // page = page.replace("{{lesson.vocab-row-count}}", Math.ceil(vocabData.length/2))
+  // page = page.replace("{{lesson.vocab-row-count-3}}", Math.ceil(vocabData.length/3))
+
+  // const linkData = data["links"];
+  // let linkText = "";
+
+  // linkData.forEach(link => {
+  //   linkText += `<li><a target="_blank" href="${link["link"]}">${link.title}</a></li>`
+  // })
+
+  // page = page.replace("{{lesson.links}}", linkText);
+
+  // const vidData = data["videos"];
+  // let vidText = "";
+
+  // vidData.forEach(vid => {
+  //   vidText += `<div class="video-container">`
+  //     vidText += `<div class="video-header">`
+  //       vidText += `<h3>${vid.title}</h3>`
+  //       vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"><img src="/icons/external_link.svg"></a>`
+  //     vidText += `</div>`;
+  //     vidText += `<iframe class="video-embed" src="https://www.youtube.com/embed/${vid.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+  //   vidText += `</div>`
+  // })
+
+  // page = page.replace("{{lesson.videos}}", vidText)
 
   return page;
 }
