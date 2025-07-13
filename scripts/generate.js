@@ -202,7 +202,7 @@ function genUnit(unitSlug, data) {
 
   page = page.replace("{{unit.summary}}", data["summary"])
 
-  const unitVidData = data["videos"];
+  const unitVidData = data["unit-video"];
   let unitVidText = "";
 
   unitVidText += `<div class="video-header">`
