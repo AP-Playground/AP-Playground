@@ -2,28 +2,11 @@
   "nav": "ap-biology/nav",
   "type": "unit",
   "summary": "This first unit sets the foundation for students to understand the chemical basis of life, which is needed for mastery of future areas of focus and provides students with a survey of the elements necessary for carbon-based systems to function. Students learn that water and the properties of water play a vital role in the survival of individuals and biological systems. They also learn that living systems exist in a highly complex organization that requires input of energy and the exchange of macromolecules. This unit also addresses in detail how and in what conformations molecules called monomers bond together to form polymers. The structure of monomers and polymers determines their function. In the units that follow, students will need tounderstand and explain the interaction and bonding of atoms to form molecules.<sup>(AP&reg; Biology CED)</sup>",
-  "vocab": [
-    {
-      "term": "Deoxyribonucleic acid (DNA)",
-      "link": "https://en.wikipedia.org/wiki/DNA"
-    },
-    {
-      "term": "Ribonucleic acid (RNA)",
-      "link": "https://en.wikipedia.org/wiki/RNA"
-    },
-    {
-      "term": "mRNA",
-      "link": "https://en.wikipedia.org/wiki/Messenger_RNA"
-    },
-    {
-      "term": "tRNA",
-      "link": "https://en.wikipedia.org/wiki/Transfer_RNA"
-    },
-    {
-      "term": "rRNA",
-      "link": "https://en.wikipedia.org/wiki/Ribosomal_RNA"
-    }
-  ],
+  "unit-video": {
+    "title": "AP Study | AP Biology Unit 1 Review",
+    "link": "g3L-kUnknf4"
+  },
+  "games": [],
   "links": [
     {
       "title": "Khan Academy | Molecular structure of DNA (video)",

@@ -202,6 +202,20 @@ function genUnit(unitSlug, data) {
 
   page = page.replace("{{unit.summary}}", data["summary"])
 
+  const unitVidData = data["videos"];
+  let unitVidText = "";
+
+  unitVidText += `<div class="video-header">`
+    unitVidText += `<h3>${unitVidData.title}</h3>`
+    unitVidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${unitVidData.link}"><img src="/icons/external_link.svg"></a>`
+  vidText += `</div>`;
+
+  unitVidText += `<div class="video-container">`
+    unitVidText += `<iframe class="video-embed" src="https://www.youtube.com/embed/${unitVidData.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+  unitVidText += `</div>`
+
+  page = page.replace("{{unit.unit-video}}", unitVidText)
+
   // const vocabData = data["vocab"]
   // let vocabText = "";
 
