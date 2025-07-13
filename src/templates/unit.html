@@ -78,24 +78,21 @@
     </div>
     <div class="double-content-block">
       <div class="content-block">
-        <div class="vocab-header">
-          <h2>Vocabulary:</h2>
-          <a href="{{lesson.vocab-link}}">Practice &rightarrow;</a>
-        </div>
-        <ol class="vocab-grid" style="--row-count: {{lesson.vocab-row-count}};--row-count-3: {{lesson.vocab-row-count-3}};">
-          {{lesson.vocab}}
-        </ol>
+        <h2>Games:</h2>
+        <ul class="games-list">
+          {{unit.games}}
+        </ul>
       </div>
       <div class="content-block">
         <h2>Resources:</h2>
         <ul class="resources-list">
-          {{lesson.links}}
+          {{unit.links}}
         </ul>
       </div>
     </div>
     <div class="content-block">
       <h2>Videos:</h2>
-      {{lesson.videos}}
+      {{unit.videos}}
     </div>
   </main>
 </body>

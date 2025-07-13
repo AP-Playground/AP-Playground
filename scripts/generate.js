@@ -216,25 +216,23 @@ function genUnit(unitSlug, data) {
 
   page = page.replace("{{unit.unit-video}}", unitVidText)
 
-  // const vocabData = data["vocab"]
-  // let vocabText = "";
+  const gameData = data["games"]
+  let gameText = "";
 
-  // vocabData.forEach(vocab => {
-  //   vocabText += `<li><a target="_blank" href="${vocab.link}">${vocab.term}</a></li>`;
-  // })
+  gameData.forEach(game => {
+    gameText += `<li><a target="_blank" href="${game.link}">${game.term}</a></li>`;
+  })
 
-  // page = page.replace("{{lesson.vocab}}", vocabText);
-  // page = page.replace("{{lesson.vocab-row-count}}", Math.ceil(vocabData.length/2))
-  // page = page.replace("{{lesson.vocab-row-count-3}}", Math.ceil(vocabData.length/3))
+  page = page.replace("{{unit.games}}", gameText);
 
-  // const linkData = data["links"];
-  // let linkText = "";
+  const linkData = data["links"];
+  let linkText = "";
 
-  // linkData.forEach(link => {
-  //   linkText += `<li><a target="_blank" href="${link["link"]}">${link.title}</a></li>`
-  // })
+  linkData.forEach(link => {
+    linkText += `<li><a target="_blank" href="${link["link"]}">${link.title}</a></li>`
+  })
 
-  // page = page.replace("{{lesson.links}}", linkText);
+  page = page.replace("{{unit.links}}", linkText);
 
   // const vidData = data["videos"];
   // let vidText = "";
