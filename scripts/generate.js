@@ -13,6 +13,7 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 // array of pages to generate
 const pages = [
   'ap-biology/unit-1.html',
+  'ap-biology/unit-1/lesson-0.html',
   'ap-biology/unit-1/lesson-1.html',
   'ap-biology/unit-1/lesson-2.html',
   'ap-biology/unit-1/lesson-3.html',
