@@ -220,7 +220,7 @@ function genUnit(unitSlug, data) {
   let gameText = "";
 
   gameData.forEach(game => {
-    gameText += `<li><a target="_blank" href="${game.link}">${game.term}</a></li>`;
+    gameText += `<li><a target="_blank" href="${game.link}">${game.title}</a></li>`;
   })
 
   page = page.replace("{{unit.games}}", gameText);
