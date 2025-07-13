@@ -3,15 +3,15 @@
   "title": "AP Biology",
   "units": [
     {
-      "title": "Chemistry Fundamentals",
-      "prefix": "Unit 0",
-      "slug": "unit-0"
-    },
-    {
       "title": "Chemistry of Life",
       "prefix": "Unit 1",
       "slug": "unit-1",
       "lessons": [
+        {
+          "title": "Chemistry Fundamentals",
+          "prefix": "1.0",
+          "slug": "lesson-0"
+        },
         {
           "title": "Structure of Water and Hydrogen Bonding",
           "prefix": "1.1",
