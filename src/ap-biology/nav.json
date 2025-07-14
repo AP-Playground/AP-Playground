@@ -1,6 +1,7 @@
 {
   "course": "ap-biology",
   "title": "AP Biology",
+  "ced": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf",
   "units": [
     {
       "title": "Chemistry of Life",

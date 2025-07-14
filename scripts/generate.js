@@ -182,6 +182,8 @@ function genUnit(unitSlug, data) {
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
   page = page.replaceAll("{{unit.slug}}", pagePath[1]);
 
+  page = page.replaceAll("{{course.ced}}", navData.ced)
+
   let navText = "";
   navData.units.forEach(unit => {
     if (unit.slug === pagePath[1]) {
