@@ -265,7 +265,7 @@ a:hover {
 }
 
 .page-header .nav-buttons {
-  max-width: min-content;
+  min-width: max-content;
   & button {
     border: none;
     border-radius: 100px;
