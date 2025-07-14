@@ -264,8 +264,14 @@ a:hover {
   }
 }
 
-.page-header .nav-buttons button {
-
+.page-header .nav-buttons {
+  max-width: min-content;
+  & button {
+    border: none;
+    border-radius: 100px;
+    background-color: #ddd;
+    aspect-ratio: 1;
+  }
 }
 
 .vocab-grid {
