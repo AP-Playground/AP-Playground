@@ -55,23 +55,33 @@
     </div>
   </nav>
   <main>
-    <ul class="breadcrumbs">
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/courses">Courses</a>
-      </li>
-      <li>
-        <a href="/{{course.slug}}">{{course.title}}</a>
-      </li>
-      <li>
-        <a href="/{{course.slug}}/{{unit.slug}}">{{unit.title}}</a>
-      </li>
-      <li>
-        <a href="/{{course.slug}}/{{unit.slug}}/{{lesson.slug}}">{{lesson.title}}</a>
-      </li>
-    </ul>
+    <div class="page-header">
+      <ul class="breadcrumbs">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/courses">Courses</a>
+        </li>
+        <li>
+          <a href="/{{course.slug}}">{{course.title}}</a>
+        </li>
+        <li>
+          <a href="/{{course.slug}}/{{unit.slug}}">{{unit.title}}</a>
+        </li>
+        <li>
+          <a href="/{{course.slug}}/{{unit.slug}}/{{lesson.slug}}">{{lesson.title}}</a>
+        </li>
+      </ul>
+      <div class="nav-buttons">
+        <button>
+          <a href="{{navigation.previous}}"><</a>
+        </button>
+        <button>
+          <a href="{{navigation.next}}">></a>
+        </button>
+      </div>
+    </div>
     <div class="content-block">
       <h1>{{page.title}}</h1>
       <p>{{lesson.summary}}</p>
