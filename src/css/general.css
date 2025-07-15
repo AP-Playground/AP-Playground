@@ -104,6 +104,9 @@ html.side-nav-closed {
     & .side-nav-links > * {
       display: none;
     }
+    & .side-nav-links {
+      overflow-y: hidden;
+    }
   }
 }
 
