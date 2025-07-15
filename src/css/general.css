@@ -4,11 +4,9 @@
 
 :root {
   --indent: 30px;
-  --theme: #437e8a;
-  --theme-light: lightblue;
-  --accent: #cc4125;
+  --accent: #e03513;
   --main-width: 120ch;
-  --theme-100: #437e8a;
+  --theme-100: #296c7a;
   --theme-90: color-mix(in oklab, var(--theme-100) 90%, white 10%);
   --theme-80: color-mix(in oklab, var(--theme-100) 80%, white 20%);
   --theme-70: color-mix(in oklab, var(--theme-100) 70%, white 30%);
@@ -52,20 +50,21 @@ body {
 }
 
 .side-nav-links {
-  background-color: var(--theme-light);
+  background-color: var(--theme-10);
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
   &::-webkit-scrollbar {
     width: 10px;
   }
   &::-webkit-scrollbar-track {
-    background: #0002;
+    background: var(--theme-30);
   }
   &::-webkit-scrollbar-thumb {
     background: #0005;
+    border-radius: 5px;
   }
   &::-webkit-scrollbar-thumb:hover {
-    background: #000a;
+    background: #0008;
   }
   height: calc(100dvh - var(--side-nav-btn-diameter));
   box-sizing: border-box;
@@ -109,7 +108,7 @@ html.side-nav-closed {
 }
 
 .side-nav-header {
-  background-color: var(--theme);
+  background-color: var(--theme-80);
   height: var(--side-nav-btn-diameter);
   position: relative;
   width: var(--side-nav-width);
@@ -128,7 +127,7 @@ html.side-nav-closed {
   position: absolute;
   top: 0;
   right: calc(0px - var(--side-nav-btn-diameter)/2);
-  background-color: var(--theme);
+  background-color: var(--theme-80);
   border: none;
   width: var(--side-nav-btn-diameter);
   aspect-ratio: 1;
@@ -228,9 +227,10 @@ main {
     margin-bottom: 0;
   }
   & .content-block {
-    background-color: #ddd;
+    background-color: var(--theme-10);
     padding: 20px;
     border-radius: calc(var(--side-nav-btn-diameter)/2);
+    border: 5px solid var(--theme-80);
   }
   & h1, & h2 {
     margin: 0;
@@ -254,7 +254,7 @@ main {
 }
 
 a {
-  color: var(--theme);
+  color: var(--theme-100);
   text-decoration: none;
 }
 a:hover {
@@ -277,8 +277,9 @@ a:hover {
   & button {
     border: none;
     border-radius: 100px;
-    background-color: #ddd;
+    background-color: var(--theme-10);
     aspect-ratio: 1;
+    font-size: 20px;
   }
 }
 
