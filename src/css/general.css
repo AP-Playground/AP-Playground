@@ -148,13 +148,8 @@ html.side-nav-closed {
   transition: border-radius 0.3s ease-in-out, filter 0.1s linear;
 }
 
-.side-nav-links:hover .side-nav-current a {
-  text-decoration: none;
-  color: black;
-  &:hover {
-    text-decoration: underline;
-    color: var(--accent);
-  }
+.side-nav-links:hover .side-nav-current a:hover {
+  color: var(--accent);
 }
 
 .side-nav-tab {
@@ -197,7 +192,7 @@ html.side-nav-closed {
     }
     & .side-nav-current a {
       text-decoration: underline;
-      color: var(--accent);
+      color: var(--theme);
     }
   }
   a {
