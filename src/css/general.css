@@ -4,18 +4,27 @@
 
 :root {
   --indent: 30px;
-  --accent: #e03513;
   --main-width: 120ch;
-  --theme-100: #296c7a;
-  --theme-90: color-mix(in oklab, var(--theme-100) 90%, white 10%);
-  --theme-80: color-mix(in oklab, var(--theme-100) 80%, white 20%);
-  --theme-70: color-mix(in oklab, var(--theme-100) 70%, white 30%);
-  --theme-60: color-mix(in oklab, var(--theme-100) 60%, white 40%);
-  --theme-50: color-mix(in oklab, var(--theme-100) 50%, white 50%);
-  --theme-40: color-mix(in oklab, var(--theme-100) 40%, white 60%);
-  --theme-30: color-mix(in oklab, var(--theme-100) 30%, white 70%);
-  --theme-20: color-mix(in oklab, var(--theme-100) 20%, white 80%);
-  --theme-10: color-mix(in oklab, var(--theme-100) 10%, white 90%);
+  --accent: #e03513;
+  --accent-90: color-mix(in oklab, var(--accent) 90%, white 10%);
+  --accent-80: color-mix(in oklab, var(--accent) 80%, white 20%);
+  --accent-70: color-mix(in oklab, var(--accent) 70%, white 30%);
+  --accent-60: color-mix(in oklab, var(--accent) 60%, white 40%);
+  --accent-50: color-mix(in oklab, var(--accent) 50%, white 50%);
+  --accent-40: color-mix(in oklab, var(--accent) 40%, white 60%);
+  --accent-30: color-mix(in oklab, var(--accent) 30%, white 70%);
+  --accent-20: color-mix(in oklab, var(--accent) 20%, white 80%);
+  --accent-10: color-mix(in oklab, var(--accent) 10%, white 90%);
+  --theme: #296c7a;
+  --theme-90: color-mix(in oklab, var(--theme) 90%, white 10%);
+  --theme-80: color-mix(in oklab, var(--theme) 80%, white 20%);
+  --theme-70: color-mix(in oklab, var(--theme) 70%, white 30%);
+  --theme-60: color-mix(in oklab, var(--theme) 60%, white 40%);
+  --theme-50: color-mix(in oklab, var(--theme) 50%, white 50%);
+  --theme-40: color-mix(in oklab, var(--theme) 40%, white 60%);
+  --theme-30: color-mix(in oklab, var(--theme) 30%, white 70%);
+  --theme-20: color-mix(in oklab, var(--theme) 20%, white 80%);
+  --theme-10: color-mix(in oklab, var(--theme) 10%, white 90%);
 }
 
 html {
@@ -265,7 +274,7 @@ main {
 }
 
 a {
-  color: var(--theme-100);
+  color: var(--theme);
   text-decoration: none;
 }
 a:hover {
@@ -285,6 +294,10 @@ a:hover {
 
 .page-header .nav-buttons {
   min-width: max-content;
+  & a {
+    text-decoration: none;
+    display: inline-block;
+  }
   & button {
     border: none;
     border-radius: 100px;
@@ -292,7 +305,11 @@ a:hover {
     width: 2rem;
     height: 2rem;
     font-size: 20px;
-    text-decoration: none;
+    color: var(--theme);
+    cursor: pointer;
+    &:hover {
+      color: var(--accent);
+    }
   }
 }
 
