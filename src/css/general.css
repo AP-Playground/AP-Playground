@@ -54,7 +54,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   &::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
   }
   &::-webkit-scrollbar-track {
     background: var(--theme-30);
@@ -100,6 +100,9 @@ html.side-nav-closed {
     }
     & .side-nav-links > * {
       display: none;
+    }
+    & .side-nav-links::-webkit-scrollbar-track {
+      background: var(--theme-80);
     }
   }
 }
