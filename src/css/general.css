@@ -54,9 +54,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   &::-webkit-scrollbar {
-    width: 5px;
-  }
-  &::-webkit-scrollbar-track {
+    width: 7px;
     background: var(--theme-30);
   }
   &::-webkit-scrollbar-thumb {
@@ -101,7 +99,8 @@ html.side-nav-closed {
     & .side-nav-links > * {
       display: none;
     }
-    & .side-nav-links::-webkit-scrollbar-track {
+    & .side-nav-links::-webkit-scrollbar {
+      width: 5px;
       background: var(--theme-80);
     }
   }
@@ -290,8 +289,10 @@ a:hover {
     border: none;
     border-radius: 100px;
     background-color: var(--theme-10);
-    aspect-ratio: 1;
+    width: 2rem;
+    height: 2rem;
     font-size: 20px;
+    text-decoration: none;
   }
 }
 
