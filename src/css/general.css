@@ -101,9 +101,6 @@ html.side-nav-closed {
     & .side-nav-links > * {
       display: none;
     }
-    & .side-nav-links {
-      overflow-y: hidden;
-    }
   }
 }
 
@@ -183,6 +180,18 @@ html.side-nav-closed {
     & .sub-item a {
       padding-left: calc(30px + var(--indent));
       text-indent: calc(0px - var(--indent));
+    }
+    & .item + .item {
+      margin-top: 5px;
+    }
+    & .sub-item + .sub-item {
+      margin-top: 1px;
+    }
+    & .sub-item + .item {
+      margin-top: 5px;
+    }
+    & .item + .sub-item {
+      margin-top: -1px;
     }
     & .side-nav-current a {
       text-decoration: underline;
