@@ -54,29 +54,26 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   &::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
   }
   &::-webkit-scrollbar-track {
     background: var(--theme-30);
   }
   &::-webkit-scrollbar-thumb {
-    background: #0005;
+    background: var(--theme-60);
     border-radius: 5px;
   }
   &::-webkit-scrollbar-thumb:hover {
-    background: #0008;
+    background: var(--theme-80);
   }
   height: calc(100dvh - var(--side-nav-btn-diameter));
-  box-sizing: border-box;
   & > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100%;
     gap: 20px;
-    width: var(--side-nav-width);
     padding: 10px;
-    padding-right: 20px;
     box-sizing: border-box;
   }
   width: var(--side-nav-width);
