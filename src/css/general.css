@@ -73,6 +73,7 @@ body {
     gap: 20px;
     padding: 10px;
     box-sizing: border-box;
+    width: calc(var(--side-nav-width) - 7px);
   }
   width: var(--side-nav-width);
   transition: width 0.3s ease-in-out;
@@ -408,5 +409,11 @@ sup {
   .video-container {
     padding: 0;
     margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    padding: 55px 15px 20px 15px;
   }
 }
