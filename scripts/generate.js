@@ -20,7 +20,6 @@ const pages = [
   'ap-biology/unit-1/lesson-4.html',
   'ap-biology/unit-1/lesson-5.html',
   'ap-biology/unit-1/lesson-6.html',
-  'ap-biology/unit-1/lesson-7.html',
   'ap-biology/unit-2.html',
 ];
 
