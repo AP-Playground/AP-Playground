@@ -205,10 +205,12 @@ function genUnit(unitSlug, data) {
         page = page.replace("{{navigation.previous}}", `/${navData.course}/${navData.units[unitIdx - 1].slug}`)
       }
 
-      if (unitIdx === navData.units.length - 1 && unit.hasOwnProperty("lessons")) {
+      if (unit.hasOwnProperty("lessons")) {
         page = page.replace("{{navigation.next}}", `/${navData.course}/${unit.slug}/${unit.lessons[0].slug}`);
-      } else {
+      } else if (unitIdx === navData.units.length - 1) {
         page = page.replace("{{navigation.next}}", "/" + navData.course)
+      } else {
+        page = page.replace("{{navigation.next}}", `/${navData.course}/${navData.units[unitIdx + 1].slug}`)
       }
 
     } else {
