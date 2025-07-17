@@ -1,0 +1,71 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "All important biological molecules in your body are macromolecules. These include carbohydrates, proteins, nucleic acids, and lipids. There are two kinds of nucleic acids: DNA and RNA. Topic 1.6 looks at the key differences between the structure and function of these two nucleic acids.",
+  "vocab": [
+    {
+      "term": "Deoxyribonucleic acid (DNA)",
+      "link": "https://en.wikipedia.org/wiki/DNA"
+    },
+    {
+      "term": "Ribonucleic acid (RNA)",
+      "link": "https://en.wikipedia.org/wiki/RNA"
+    },
+    {
+      "term": "mRNA",
+      "link": "https://en.wikipedia.org/wiki/Messenger_RNA"
+    },
+    {
+      "term": "tRNA",
+      "link": "https://en.wikipedia.org/wiki/Transfer_RNA"
+    },
+    {
+      "term": "rRNA",
+      "link": "https://en.wikipedia.org/wiki/Ribosomal_RNA"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Molecular structure of DNA (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/nucleic-acids-ap/v/molecular-structure-of-dna"
+    },
+    {
+      "title": "Khan Academy | Molecular structure of RNA (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/nucleic-acids-ap/v/molecular-structure-of-rna"
+    },
+    {
+      "title": "Wikipedia | Nucleic acid",
+      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
+    },
+    {
+      "title": "Biology Dictionary | Nucleic Acids",
+      "link": "https://biologydictionary.net/ap-biology/1-6-nucleic-acids/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Study | AP Biology 1.6: Nucleic Acids",
+      "link": "fKvrFq4kGgc"
+    },
+    {
+      "title": "PoseKnows Biology | 1.6 Nucleic Acids",
+      "link": "8YjDU25S-2c"
+    },
+    {
+      "title": "Amoeba Sisters | DNA vs RNA",
+      "link": "JQByjprj_mA"
+    },
+    {
+      "title": "Crash Course Biology | Biological Molecules - You Are What You Eat",
+      "link": "H8WJ2KENlK0"
+    },
+    {
+      "title": "Bozeman Science | Nucleic Acids",
+      "link": "NNASRkIU5Fw"
+    },
+    {
+      "title": "Bozeman Science | DNA and RNA - Part 1",
+      "link": "qoERVSWKmGk"
+    }
+  ]
+}
