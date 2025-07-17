@@ -40,12 +40,8 @@
       "link": "https://en.wikipedia.org/wiki/Ionic_bonding"
     },
     {
-      "term": "Cations",
-      "link": "https://en.wikipedia.org/wiki/Ion#Anions_and_cations"
-    },
-    {
-      "term": "Anions",
-      "link": "https://en.wikipedia.org/wiki/Ion#Anions_and_cations"
+      "term": "Ion",
+      "link": "https://en.wikipedia.org/wiki/Ion"
     },
     {
       "term": "Hydrogen bonds",
@@ -60,32 +56,12 @@
       "link": "https://en.wikipedia.org/wiki/Isomer"
     },
     {
-      "term": "Structural isomer",
-      "link": "https://en.wikipedia.org/wiki/Structural_isomer"
-    },
-    {
-      "term": "Stereoisomers",
-      "link": "https://en.wikipedia.org/wiki/Stereoisomerism"
-    },
-    {
-      "term": "Cis-trans isomer",
-      "link": "https://en.wikipedia.org/wiki/Cis%E2%80%93trans_isomerism"
-    },
-    {
-      "term": "Enantiomer",
-      "link": "https://en.wikipedia.org/wiki/Enantiomer"
-    },
-    {
       "term": "pH",
       "link": "https://en.wikipedia.org/wiki/PH"
     },
     {
       "term": "Buffers",
       "link": "https://en.wikipedia.org/wiki/Buffer_solution"
-    },
-    {
-      "term": "Hydrogen ion",
-      "link": "https://en.wikipedia.org/wiki/Hydrogen_ion"
     },
     {
       "term": "Acids",
