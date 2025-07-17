@@ -109,10 +109,10 @@ function genLesson(lessonSlug, data) {
   page = page.replaceAll("{{lesson.slug}}", pagePath[2]);
 
   let navText = "";
-  navData.units.forEach(unit => {
+  navData.units.forEach((unit, unitIdx) => {
     navText += `<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`
     if (unit.slug === pagePath[1] && unit.hasOwnProperty("lessons")) {
-      unit.lessons.forEach(lesson => {
+      unit.lessons.forEach((lesson, lessonIdx) => {
         if (lesson.slug === pagePath[2]) {
           navText += `<li class="sub-item side-nav-current"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`;
           
@@ -120,6 +120,19 @@ function genLesson(lessonSlug, data) {
 
           page = page.replaceAll("{{unit.title}}", unit.prefix + ": " + unit.title);
           page = page.replaceAll("{{lesson.title}}", lesson.prefix + ": " + lesson.title);
+
+          if (lessonIdx === 0) {
+            page = page.replace("{{navigation.previous}}", `/${navData.course}/${unit.slug}`)
+          } else {
+            page = page.replace("{{navigation.previous}}", `/${navData.course}/${unit.slug}/${unit.lessons[lessonIdx - 1].slug}`)
+          }
+
+          if (lessonIdx === unit.lessons.length - 1) {
+            page = page.replace("{{navigation.next}}", `/${navData.course}/${navData.units[unitIdx + 1].slug}`)
+          } else {
+            page = page.replace("{{navigation.next}}", `${navData.course}/${unit.slug}/${unit.lessons[lessonIdx + 1].slug}`)
+          }
+
         } else {
           navText += `<li class="sub-item"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`
         }
