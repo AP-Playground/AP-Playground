@@ -130,7 +130,7 @@ function genLesson(lessonSlug, data) {
           if (lessonIdx === unit.lessons.length - 1) {
             page = page.replace("{{navigation.next}}", `/${navData.course}/${navData.units[unitIdx + 1].slug}`)
           } else {
-            page = page.replace("{{navigation.next}}", `${navData.course}/${unit.slug}/${unit.lessons[lessonIdx + 1].slug}`)
+            page = page.replace("{{navigation.next}}", `/${navData.course}/${unit.slug}/${unit.lessons[lessonIdx + 1].slug}`)
           }
 
         } else {
