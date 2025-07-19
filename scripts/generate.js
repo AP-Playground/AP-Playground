@@ -312,12 +312,8 @@ function genCourse(courseSlug, data) {
   } else {
     page = page.replace("{{navigation.previous}}", `/${navData.course}/${navData.units.at(-1).slug}`)
   }
-
-  if (navData.units[0].hasOwnProperty("lessons")) {
-    page = page.replace("{{navigation.next}}", `/${navData.course}/${navData.units[0].slug}/${navData.units[0].lessons[0].slug}`)
-  } else {
-    page = page.replace("{{navigation.next}}", `/${navData.course}/${navData.units[0].slug}`)
-  }
+  
+  page = page.replace("{{navigation.next}}", `/${navData.course}/${navData.units[0].slug}`)
 
   page = page.replace("{{navigation}}", navText);
 
