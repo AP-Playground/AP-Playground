@@ -1,0 +1,61 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "course",
+  "summary": "The cell is the basic unit of life. Cells contribute to the organization of life and provide the environment in which organelles function. Organelles in turn provide compartmentalization and organize cellular products for dispersal and waste for disposal. Cells have membranes that allow them to establish and maintain an internal environment. These membranes also control the exchange of material with the cell's external environment—an important, foundational concept. The maintenance of the internal and external conditions of a cell is called homeostasis. Student understanding of these concepts will be necessary in later units when the focus of instruction shifts to cellular products and by-products and when students learn why cellular exchange of energy and materials matters.",
+  "games": [
+    {
+      "title": "Vocab Review",
+      "link": "vocab-review"
+    },
+    {
+      "title": "Matching",
+      "link": "matching"
+    }
+  ],
+  "links": [
+    {
+      "title": "AP Biology Course and Exam Description",
+      "link": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+    },
+    {
+      "title": "AP Biology Equations and Formulas Sheet",
+      "link": "https://apcentral.collegeboard.org/media/pdf/ap-biology-equations-and-formulas-sheet.pdf"
+    },
+    {
+      "title": "College Board AP Biology Playlist",
+      "link": "https://www.youtube.com/playlist?list=PLoGgviqq4847VchRdUdvbDPzsp9ResrjD"
+    },
+    {
+      "title": "AP Biology Online Labs",
+      "link": "https://biologycorner.com/AP_biology_labs.html"
+    },
+    {
+      "title": "Crash Course | Biology",
+      "link": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtPW_ofbxdHNciuLoTRLPMgB"
+    },
+    {
+      "title": "Marco Learning | AP Biology Unit Reviews",
+      "link": "https://www.youtube.com/playlist?list=PLCEja84uspXsN8Cxx-p-RK6pMpwghiJ4d"
+    },
+    {
+      "title": "Khan Academy | AP Biology",
+      "link": "https://www.youtube.com/playlist?list=PLoGgviqq4847VchRdUdvbDPzsp9ResrjD"
+    },
+    {
+      "title": "Biology Dictionary | AP Biology",
+      "link": "https://biologydictionary.net/ap-biology/"
+    },
+    {
+      "title": "PoseKnows Biology | AP Biology YouTube Channel",
+      "link": "https://www.youtube.com/@poseknowsbio"
+    },
+    {
+      "title": "Bozeman Science | AP Biology YouTube Channel",
+      "link": "https://www.youtube.com/@Bozemanscience1"
+    },
+    {
+      "title": "APStudy | AP Biology Resources",
+      "link": "https://resources.apstudy.org/ap-bio"
+    }
+  ]
+}
