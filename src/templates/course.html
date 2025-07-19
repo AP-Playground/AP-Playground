@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="no-transition">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{page.title}} | AP Playground</title>
+  <link href="/css/general.css" rel="stylesheet">
+  <link rel="icon" href="/icons/favicon.png">
+  <script src="/js/side-nav.js"></script>
+</head>
+
+<body>
+  <nav class="side-nav">
+    <div class="side-nav-background"></div>
+    <div class="side-nav-header">
+      <div class="side-nav-logo">
+        <img src="/icons/logo.svg" alt="AP Playground Logo">
+      </div>
+      <button class="side-nav-btn">
+        <img src="/icons/shrink.svg" class="shrink" draggable="false">
+        <img src="/icons/expand.svg" class="expand" draggable="false">
+      </button>
+    </div>
+    <div class="side-nav-links">
+      <div>
+        <div class="side-nav-tab pages-nav">
+          <h2>
+            <a href="/">Home</a>
+          </h2>
+          <h2>
+            <a href="/courses">Courses</a>
+          </h2>
+          <h2>
+            <a href="/about">About</a>
+          </h2>
+        </div>
+        <div class="side-nav-tab game-nav">
+          <h2>
+            <a href="/games">Games</a>
+          </h2>
+          <hr>
+          <ul>
+            <a href="">123</a>
+            <a href="">456</a>
+            <a href="">789</a>
+          </ul>
+        </div>
+        <div class="side-nav-tab lesson-nav">
+          <h2 class="side-nav-current">
+            <a href="/{{course.slug}}">{{course.title}}</a>
+          </h2>
+          <hr>
+          <ul>
+            {{navigation}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="page-header">
+      <ul class="breadcrumbs">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/courses">Courses</a>
+        </li>
+        <li>
+          <a href="/{{course.slug}}">{{course.title}}</a>
+        </li>
+      </ul>
+      <div class="nav-buttons">
+        <a href="{{navigation.previous}}">
+          <button><</button>
+        </a>
+        <a href="{{navigation.next}}">
+          <button>></button>
+        </a>
+      </div>
+    </div>
+    <div class="content-block">
+      <h1>{{page.title}}</h1>
+      <p>{{course.summary}}</p>
+    </div>
+    <div class="double-content-block">
+      <div class="content-block">
+        <h2>Games:</h2>
+        <ul class="games-list">
+          {{course.games}}
+        </ul>
+      </div>
+      <div class="content-block">
+        <h2>Resources:</h2>
+        <ul class="resources-list">
+          {{course.links}}
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

@@ -191,10 +191,6 @@ html.side-nav-closed {
     & .item + .sub-item {
       margin-top: -1px;
     }
-    & .side-nav-current a {
-      text-decoration: underline;
-      color: var(--theme);
-    }
   }
   a {
     color: black;
@@ -203,6 +199,10 @@ html.side-nav-closed {
   &.pages-nav {
     display: grid;
     gap: 20px;
+  }
+  & .side-nav-current a {
+    text-decoration: underline;
+    color: var(--theme);
   }
 }
 

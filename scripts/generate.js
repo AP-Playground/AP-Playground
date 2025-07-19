@@ -3,6 +3,7 @@ const path = require('path');
 
 let lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
 let unitTemplate = fs.readFileSync("src/templates/unit.html", "utf-8");
+let courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
 
 // output directory for all generated files
 const outDir = path.resolve(__dirname, '..', 'public');
@@ -12,20 +13,21 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
 // array of pages to generate
 const pages = [
-  'ap-biology/unit-1.html',
-  'ap-biology/unit-1/lesson-0.html',
-  'ap-biology/unit-1/lesson-1.html',
-  'ap-biology/unit-1/lesson-2.html',
-  'ap-biology/unit-1/lesson-3.html',
-  'ap-biology/unit-1/lesson-4.html',
-  'ap-biology/unit-1/lesson-5.html',
-  'ap-biology/unit-1/lesson-6.html',
-  'ap-biology/unit-2.html',
+  'ap-biology/index.json',
+  'ap-biology/unit-1/index.json',
+  'ap-biology/unit-1/lesson-0.json',
+  'ap-biology/unit-1/lesson-1.json',
+  'ap-biology/unit-1/lesson-2.json',
+  'ap-biology/unit-1/lesson-3.json',
+  'ap-biology/unit-1/lesson-4.json',
+  'ap-biology/unit-1/lesson-5.json',
+  'ap-biology/unit-1/lesson-6.json',
+  'ap-biology/unit-2/index.json',
 ];
 
 // write each page
 pages.forEach((filename) => {
-  const fullPath = path.join(outDir, filename);
+  const fullPath = path.join(outDir, filename.replace(".json", ".html").replace("/index",""));
   const dir = path.dirname(fullPath);
 
   // Ensure parent directories exist
@@ -84,13 +86,15 @@ scripts.forEach(js => {
 
 // origin point of generate functions
 function genGeneric(filename) {
-  const slug = filename.replace(".html", "");
-  const data = JSON.parse(fs.readFileSync("src/" + slug + '.json', 'utf-8'));
+  const slug = filename.replace(".json", "").replace("/index", "");
+  const data = JSON.parse(fs.readFileSync("src/" + filename, 'utf-8'));
 
   if (data.type === "lesson") {
     return genLesson(slug, data);
   } else if (data.type === "unit") {
     return genUnit(slug, data);
+  } else if (data.type === "course") {
+    return genCourse(slug, data);
   }
 }
 
@@ -281,6 +285,63 @@ function genUnit(unitSlug, data) {
   })
 
   page = page.replace("{{unit.videos}}", vidText)
+
+  return page;
+}
+
+
+// function to generate course content
+function genCourse(courseSlug, data) {
+  let page = courseTemplate;
+
+  const navPath = path.resolve(__dirname, "..", "src", data["nav"] + ".json");
+  const navData = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
+  const pagePath = courseSlug.split("/")
+
+  page = page.replaceAll("{{course.title}}", navData.title)
+  page = page.replaceAll("{{course.slug}}", pagePath[0]);
+  page = page.replace("{{page.title}}", navData.title);
+
+  let navText = "";
+  navData.units.forEach(unit => {
+    navText += `<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`;
+  })
+
+  if (navData.units.at(-1).hasOwnProperty("lessons")) {
+    page = page.replace("{{navigation.previous}}", `/${navData.course}/${navData.units.at(-1).slug}/${navData.units.at(-1).lessons.at(-1).slug}`);
+  } else {
+    page = page.replace("{{navigation.previous}}", `/${navData.course}/${navData.units.at(-1).slug}`)
+  }
+
+  if (navData.units[0].hasOwnProperty("lessons")) {
+    page = page.replace("{{navigation.next}}", `/${navData.course}/${navData.units[0].slug}/${navData.units[0].lessons[0].slug}`)
+  } else {
+    page = page.replace("{{navigation.next}}", `/${navData.course}/${navData.units[0].slug}`)
+  }
+
+  page = page.replace("{{navigation}}", navText);
+
+  page = page.replace("{{course.summary}}", data["summary"])
+
+
+  
+  const gameData = data["games"]
+  let gameText = "";
+
+  gameData.forEach(game => {
+    gameText += `<li><a target="_blank" href="${game.link}">${game.title}</a></li>`;
+  })
+
+  page = page.replace("{{course.games}}", gameText);
+
+  const linkData = data["links"];
+  let linkText = "";
+
+  linkData.forEach(link => {
+    linkText += `<li><a target="_blank" href="${link["link"]}">${link.title}</a></li>`
+  })
+
+  page = page.replace("{{course.links}}", linkText);
 
   return page;
 }
