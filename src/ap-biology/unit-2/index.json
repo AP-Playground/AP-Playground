@@ -1,7 +1,11 @@
 {
   "nav": "ap-biology/nav",
-  "type": "course",
+  "type": "unit",
   "summary": "The cell is the basic unit of life. Cells contribute to the organization of life and provide the environment in which organelles function. Organelles in turn provide compartmentalization and organize cellular products for dispersal and waste for disposal. Cells have membranes that allow them to establish and maintain an internal environment. These membranes also control the exchange of material with the cell's external environment—an important, foundational concept. The maintenance of the internal and external conditions of a cell is called homeostasis. Student understanding of these concepts will be necessary in later units when the focus of instruction shifts to cellular products and by-products and when students learn why cellular exchange of energy and materials matters.",
+  "unit-video": {
+    "title": "AP Study | AP Biology Unit 2 Review",
+    "link": "IhWXwnWUNXw"
+  },
   "games": [
     {
       "title": "Vocab Review",
@@ -14,48 +18,26 @@
   ],
   "links": [
     {
-      "title": "AP Biology Course and Exam Description",
-      "link": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+      "title": "Khan Academy | Unit 2: Cell structure and function",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function"
     },
     {
-      "title": "AP Biology Equations and Formulas Sheet",
-      "link": "https://apcentral.collegeboard.org/media/pdf/ap-biology-equations-and-formulas-sheet.pdf"
+      "title": "PoseKnows Biology | Unit 2 Playlist",
+      "link": "https://www.youtube.com/playlist?list=PLrQji7zW6lY-ysl-JQwC-9T2GuAFi6xam"
     },
     {
-      "title": "College Board AP Biology Playlist",
-      "link": "https://www.youtube.com/playlist?list=PLoGgviqq4847VchRdUdvbDPzsp9ResrjD"
+      "title": "Excel at Science | Unit 2 - Cells",
+      "link": "https://www.excelatscience.com/ap-biology-unit-2"
+    }
+  ],
+  "videos": [
+    {
+      "title": "PoseKnows Biology | Unit 2: Cell Structure and Function Recap",
+      "link": "Q-cvflzmSUE"
     },
     {
-      "title": "AP Biology Online Labs",
-      "link": "https://biologycorner.com/AP_biology_labs.html"
-    },
-    {
-      "title": "Crash Course | Biology",
-      "link": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtPW_ofbxdHNciuLoTRLPMgB"
-    },
-    {
-      "title": "Marco Learning | AP Biology Unit Reviews",
-      "link": "https://www.youtube.com/playlist?list=PLCEja84uspXsN8Cxx-p-RK6pMpwghiJ4d"
-    },
-    {
-      "title": "Khan Academy | AP Biology",
-      "link": "https://www.youtube.com/playlist?list=PLoGgviqq4847VchRdUdvbDPzsp9ResrjD"
-    },
-    {
-      "title": "Biology Dictionary | AP Biology",
-      "link": "https://biologydictionary.net/ap-biology/"
-    },
-    {
-      "title": "PoseKnows Biology | AP Biology YouTube Channel",
-      "link": "https://www.youtube.com/@poseknowsbio"
-    },
-    {
-      "title": "Bozeman Science | AP Biology YouTube Channel",
-      "link": "https://www.youtube.com/@Bozemanscience1"
-    },
-    {
-      "title": "APStudy | AP Biology Resources",
-      "link": "https://resources.apstudy.org/ap-bio"
+      "title": "Marco Learning | AP Biology: Unit 2 Review",
+      "link": "qkUuLV--Gp4"
     }
   ]
 }
