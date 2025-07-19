@@ -300,7 +300,7 @@ function genCourse(courseSlug, data) {
 
   page = page.replaceAll("{{course.title}}", navData.title)
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
-  page = page.replace("{{page.title}}", navData.title);
+  page = page.replaceAll("{{page.title}}", navData.title);
 
   let navText = "";
   navData.units.forEach(unit => {
@@ -324,7 +324,7 @@ function genCourse(courseSlug, data) {
   page = page.replace("{{course.summary}}", data["summary"])
 
 
-  
+
   const gameData = data["games"]
   let gameText = "";
 
