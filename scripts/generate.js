@@ -7,13 +7,18 @@ const unitTemplate = fs.readFileSync("src/templates/unit.html", "utf-8");
 const courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
 
 // fetch up-to-date data from the internet
+function fetchData(url) {
+  const request = new XMLHttpRequest();
+  request.open("GET", url, false);
+  request.send(null);
 
-
-function request(url) {
-  const response = fetch(url);
-  console.log(response);
+  if (request.status === 200) {
+    return request.responseText;
+  } else {
+    throw new Error(`Failed to fetch data from ${url}: ${request.statusText}`);
+  }
 }
-request("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates")
+console.log(fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates").responseText);
 
 
 // output directory for all generated files
