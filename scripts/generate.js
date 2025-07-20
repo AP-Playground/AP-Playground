@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const request = require('sync-request')
 
 // read templates from src/templates
 const lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
@@ -8,7 +7,13 @@ const unitTemplate = fs.readFileSync("src/templates/unit.html", "utf-8");
 const courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
 
 // fetch up-to-date data from the internet
-console.log(request('GET',"https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates").getBody('utf8'))
+
+
+function request(url) {
+  const response = fetch(url);
+  console.log(response);
+}
+request("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates")
 
 
 // output directory for all generated files
