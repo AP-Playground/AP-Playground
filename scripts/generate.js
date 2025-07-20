@@ -9,10 +9,14 @@ const courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
 // fetch up-to-date data from the internet
 async function fetchData(url) {
     const response = await fetch(url);
-    console.log(await response.text());
-    // return await response.text();
+    return await response.text();
 }
-fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
+
+let examDates
+(async () => {
+  examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
+  writePages();
+})
 
 
 // output directory for all generated files
@@ -36,17 +40,19 @@ const pages = [
 ];
 
 // write each page
-pages.forEach((filename) => {
-  const fullPath = path.join(outDir, filename.replace(".json", ".html").replace("/index",""));
-  const dir = path.dirname(fullPath);
+function writePages() {
+  pages.forEach((filename) => {
+    const fullPath = path.join(outDir, filename.replace(".json", ".html").replace("/index",""));
+    const dir = path.dirname(fullPath);
 
-  // Ensure parent directories exist
-  fs.mkdirSync(dir, { recursive: true });
+    // Ensure parent directories exist
+    fs.mkdirSync(dir, { recursive: true });
 
-  fs.writeFileSync(fullPath, genGeneric(filename));
+    fs.writeFileSync(fullPath, genGeneric(filename));
 
-  console.log("Uploaded file: " + filename);
-});
+    console.log("Uploaded file: " + filename);
+  });
+}
 
 
 // copy icons from src/icons to public/icons
