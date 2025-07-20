@@ -1,9 +1,15 @@
 const fs = require('fs');
 const path = require('path');
+const request = require('sync-request')
 
-let lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
-let unitTemplate = fs.readFileSync("src/templates/unit.html", "utf-8");
-let courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
+// read templates from src/templates
+const lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
+const unitTemplate = fs.readFileSync("src/templates/unit.html", "utf-8");
+const courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
+
+// fetch up-to-date data from the internet
+console.log(request('GET',"https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates").getBody('utf8'))
+
 
 // output directory for all generated files
 const outDir = path.resolve(__dirname, '..', 'public');
