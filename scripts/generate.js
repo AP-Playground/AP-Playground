@@ -17,7 +17,7 @@ const courseTemplate = readFileSync("src/templates/course.html", "utf-8");
 
 
 // output directory for all generated files
-const outDir = resolve(__dirname, '..', 'public');
+const outDir = resolve(path.dirname(), '..', 'public');
 
 // ensure the directory exists
 if (!existsSync(outDir)) mkdirSync(outDir);
@@ -51,7 +51,7 @@ pages.forEach((filename) => {
 
 
 // copy icons from src/icons to public/icons
-const iconsDir = resolve(__dirname, "..", "src/icons")
+const iconsDir = resolve(path.dirname(), "..", "src/icons")
 const icons = readdirSync(iconsDir);
 icons.forEach(icon => {
   const srcPath = join(iconsDir, icon)
@@ -66,7 +66,7 @@ icons.forEach(icon => {
 
 
 // copy stylesheets from src/css to public/css
-const stylesheetsDir = resolve(__dirname, "..", "src/css")
+const stylesheetsDir = resolve(path.dirname(), "..", "src/css")
 const stylesheets = readdirSync(stylesheetsDir);
 stylesheets.forEach(css => {
   const srcPath = join(stylesheetsDir, css)
@@ -81,7 +81,7 @@ stylesheets.forEach(css => {
 
 
 // copy scripts from src/css to public/css
-const scriptsDir = resolve(__dirname, "..", "src/js")
+const scriptsDir = resolve(path.dirname(), "..", "src/js")
 const scripts = readdirSync(scriptsDir);
 scripts.forEach(js => {
   const srcPath = join(scriptsDir, js)
@@ -114,7 +114,7 @@ function genGeneric(filename) {
 function genLesson(lessonSlug, data) {
   let page = lessonTemplate;
 
-  const navPath = resolve(__dirname, "..", "src", data["nav"] + ".json");
+  const navPath = resolve(path.dirname(), "..", "src", data["nav"] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = lessonSlug.split("/")
 
@@ -202,7 +202,7 @@ function genLesson(lessonSlug, data) {
 function genUnit(unitSlug, data) {
   let page = unitTemplate;
 
-  const navPath = resolve(__dirname, "..", "src", data["nav"] + ".json");
+  const navPath = resolve(path.dirname(), "..", "src", data["nav"] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = unitSlug.split("/")
 
@@ -305,7 +305,7 @@ function genUnit(unitSlug, data) {
 function genCourse(courseSlug, data) {
   let page = courseTemplate;
 
-  const navPath = resolve(__dirname, "..", "src", data["nav"] + ".json");
+  const navPath = resolve(path.dirname(), "..", "src", data["nav"] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = courseSlug.split("/")
 
