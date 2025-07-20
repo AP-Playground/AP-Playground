@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const fetch = require("node-fetch");
 
 // read templates from src/templates
 const lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
@@ -7,18 +8,11 @@ const unitTemplate = fs.readFileSync("src/templates/unit.html", "utf-8");
 const courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
 
 // fetch up-to-date data from the internet
-function fetchData(url) {
-  const request = new XMLHttpRequest();
-  request.open("GET", url, false);
-  request.send(null);
-
-  if (request.status === 200) {
-    return request.responseText;
-  } else {
-    throw new Error(`Failed to fetch data from ${url}: ${request.statusText}`);
-  }
+async function fetchData(url) {
+    const response = await fetch(url);
+    return await response.body()
 }
-console.log(fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates").responseText);
+console.log(fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
 
 
 // output directory for all generated files
