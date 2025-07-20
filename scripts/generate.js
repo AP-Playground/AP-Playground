@@ -12,13 +12,8 @@ async function fetchData(url) {
     return await response.text();
 }
 
-console.log(0)
-let examDates
-(async () => {
-  examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
-  console.log(1)
-  writePages();
-})
+const examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
+console.log(examDates)
 
 
 // output directory for all generated files
@@ -42,19 +37,17 @@ const pages = [
 ];
 
 // write each page
-function writePages() {
-  pages.forEach((filename) => {
-    const fullPath = path.join(outDir, filename.replace(".json", ".html").replace("/index",""));
-    const dir = path.dirname(fullPath);
+pages.forEach((filename) => {
+  const fullPath = path.join(outDir, filename.replace(".json", ".html").replace("/index",""));
+  const dir = path.dirname(fullPath);
 
-    // Ensure parent directories exist
-    fs.mkdirSync(dir, { recursive: true });
+  // Ensure parent directories exist
+  fs.mkdirSync(dir, { recursive: true });
 
-    fs.writeFileSync(fullPath, genGeneric(filename));
+  fs.writeFileSync(fullPath, genGeneric(filename));
 
-    console.log("Uploaded file: " + filename);
-  });
-}
+  console.log("Uploaded file: " + filename);
+});
 
 
 // copy icons from src/icons to public/icons
