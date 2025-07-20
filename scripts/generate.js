@@ -1,10 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync } from 'fs';
+import { resolve, join, dirname } from 'path';
 
 // read templates from src/templates
-const lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
-const unitTemplate = fs.readFileSync("src/templates/unit.html", "utf-8");
-const courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
+const lessonTemplate = readFileSync("src/templates/lesson.html", "utf-8");
+const unitTemplate = readFileSync("src/templates/unit.html", "utf-8");
+const courseTemplate = readFileSync("src/templates/course.html", "utf-8");
 
 // fetch up-to-date data from the internet
 // async function fetchData(url) {
@@ -17,10 +17,10 @@ const courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
 
 
 // output directory for all generated files
-const outDir = path.resolve(__dirname, '..', 'public');
+const outDir = resolve(__dirname, '..', 'public');
 
 // ensure the directory exists
-if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
+if (!existsSync(outDir)) mkdirSync(outDir);
 
 // array of pages to generate
 const pages = [
@@ -38,67 +38,67 @@ const pages = [
 
 // write each page
 pages.forEach((filename) => {
-  const fullPath = path.join(outDir, filename.replace(".json", ".html").replace("/index",""));
-  const dir = path.dirname(fullPath);
+  const fullPath = join(outDir, filename.replace(".json", ".html").replace("/index",""));
+  const dir = dirname(fullPath);
 
   // Ensure parent directories exist
-  fs.mkdirSync(dir, { recursive: true });
+  mkdirSync(dir, { recursive: true });
 
-  fs.writeFileSync(fullPath, genGeneric(filename));
+  writeFileSync(fullPath, genGeneric(filename));
 
   console.log("Uploaded file: " + filename);
 });
 
 
 // copy icons from src/icons to public/icons
-const iconsDir = path.resolve(__dirname, "..", "src/icons")
-const icons = fs.readdirSync(iconsDir);
+const iconsDir = resolve(__dirname, "..", "src/icons")
+const icons = readdirSync(iconsDir);
 icons.forEach(icon => {
-  const srcPath = path.join(iconsDir, icon)
-  const destPath = path.resolve(outDir, "icons", icon);
-  const destDir = path.dirname(destPath);
+  const srcPath = join(iconsDir, icon)
+  const destPath = resolve(outDir, "icons", icon);
+  const destDir = dirname(destPath);
 
   // Ensure destination directory exists
-  fs.mkdirSync(destDir, { recursive: true });
+  mkdirSync(destDir, { recursive: true });
 
-  fs.copyFileSync(srcPath, destPath)
+  copyFileSync(srcPath, destPath)
 })
 
 
 // copy stylesheets from src/css to public/css
-const stylesheetsDir = path.resolve(__dirname, "..", "src/css")
-const stylesheets = fs.readdirSync(stylesheetsDir);
+const stylesheetsDir = resolve(__dirname, "..", "src/css")
+const stylesheets = readdirSync(stylesheetsDir);
 stylesheets.forEach(css => {
-  const srcPath = path.join(stylesheetsDir, css)
-  const destPath = path.resolve(outDir, "css", css);
-  const destDir = path.dirname(destPath);
+  const srcPath = join(stylesheetsDir, css)
+  const destPath = resolve(outDir, "css", css);
+  const destDir = dirname(destPath);
 
   // Ensure destination directory exists
-  fs.mkdirSync(destDir, { recursive: true });
+  mkdirSync(destDir, { recursive: true });
 
-  fs.copyFileSync(srcPath, destPath)
+  copyFileSync(srcPath, destPath)
 })
 
 
 // copy scripts from src/css to public/css
-const scriptsDir = path.resolve(__dirname, "..", "src/js")
-const scripts = fs.readdirSync(scriptsDir);
+const scriptsDir = resolve(__dirname, "..", "src/js")
+const scripts = readdirSync(scriptsDir);
 scripts.forEach(js => {
-  const srcPath = path.join(scriptsDir, js)
-  const destPath = path.resolve(outDir, "js", js);
-  const destDir = path.dirname(destPath);
+  const srcPath = join(scriptsDir, js)
+  const destPath = resolve(outDir, "js", js);
+  const destDir = dirname(destPath);
 
   // Ensure destination directory exists
-  fs.mkdirSync(destDir, { recursive: true });
+  mkdirSync(destDir, { recursive: true });
 
-  fs.copyFileSync(srcPath, destPath)
+  copyFileSync(srcPath, destPath)
 })
 
 
 // origin point of generate functions
 function genGeneric(filename) {
   const slug = filename.replace(".json", "").replace("/index", "");
-  const data = JSON.parse(fs.readFileSync("src/" + filename, 'utf-8'));
+  const data = JSON.parse(readFileSync("src/" + filename, 'utf-8'));
 
   if (data.type === "lesson") {
     return genLesson(slug, data);
@@ -114,8 +114,8 @@ function genGeneric(filename) {
 function genLesson(lessonSlug, data) {
   let page = lessonTemplate;
 
-  const navPath = path.resolve(__dirname, "..", "src", data["nav"] + ".json");
-  const navData = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
+  const navPath = resolve(__dirname, "..", "src", data["nav"] + ".json");
+  const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = lessonSlug.split("/")
 
   page = page.replaceAll("{{course.title}}", navData.title)
@@ -202,8 +202,8 @@ function genLesson(lessonSlug, data) {
 function genUnit(unitSlug, data) {
   let page = unitTemplate;
 
-  const navPath = path.resolve(__dirname, "..", "src", data["nav"] + ".json");
-  const navData = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
+  const navPath = resolve(__dirname, "..", "src", data["nav"] + ".json");
+  const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = unitSlug.split("/")
 
   page = page.replaceAll("{{course.title}}", navData.title)
@@ -305,8 +305,8 @@ function genUnit(unitSlug, data) {
 function genCourse(courseSlug, data) {
   let page = courseTemplate;
 
-  const navPath = path.resolve(__dirname, "..", "src", data["nav"] + ".json");
-  const navData = JSON.parse(fs.readFileSync(navPath, 'utf-8'));
+  const navPath = resolve(__dirname, "..", "src", data["nav"] + ".json");
+  const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = courseSlug.split("/")
 
   page = page.replaceAll("{{course.title}}", navData.title)
