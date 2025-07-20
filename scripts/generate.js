@@ -12,9 +12,9 @@ async function fetchData(url) {
     return await response.text();
 }
 
+console.log(0)
 let examDates
 (async () => {
-  console.log(0)
   examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
   console.log(1)
   writePages();
