@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const fetch = require("node-fetch");
 
 // read templates from src/templates
 const lessonTemplate = fs.readFileSync("src/templates/lesson.html", "utf-8");
