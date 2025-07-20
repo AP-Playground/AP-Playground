@@ -9,7 +9,7 @@ const courseTemplate = fs.readFileSync("src/templates/course.html", "utf-8");
 // fetch up-to-date data from the internet
 async function fetchData(url) {
     const response = await fetch(url);
-    return await response.body()
+    return await response.text();
 }
 console.log(fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
 
