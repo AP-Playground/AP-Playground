@@ -1,5 +1,6 @@
 import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir } from 'fs';
 import { resolve, join, dirname } from 'path';
+import cheerio from 'cheerio';
 
 // read templates from src/templates
 const lessonTemplate = readFileSync("src/templates/lesson.html", "utf-8");
@@ -12,7 +13,7 @@ async function fetchData(url) {
     return await response.text();
 }
 
-let examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
+let examDates = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
 console.log(examDates);
 
 
