@@ -49,7 +49,6 @@ examDatesTemp.forEach((el, i) => {
     }
   })
 })
-console.log(examDates);
 
 
 // output directory for all generated files
@@ -385,6 +384,8 @@ function genCourse(courseSlug, data) {
   })
 
   page = page.replace("{{course.links}}", linkText);
+
+  page = page.replace("{{course.exam-date}}", examDates[navData.title].date + " at " + examDates[navData.title].time);
 
   return page;
 }
