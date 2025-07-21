@@ -20,7 +20,7 @@ examDatesPage('table.cb-table tbody').each((i, el1) => {
     examDates.push(examDatesPage(el2).html())
   })
 })
-examDates = examDates.filter(el => !el.includes(`colspan="3"`))
+examDates = examDates.filter(el => !el.includes(`colspan="3"`)).map(el => el.replace("<br>"," "))
 examDates.forEach((el, i) => {
   const date = cheerio.load("<tr>" + el + "</tr>", null, false);
   date("tr > *").each((j, el2) => {
