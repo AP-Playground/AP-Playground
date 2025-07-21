@@ -13,14 +13,14 @@ async function fetchData(url) {
 }
 
 let examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
-examDates = examDates.matchAll('/<table class="cb-table">[\s\S]*?<\/table>/');
+examDates = examDates.matchAll('<table class="cb-table">[\s\S]*?<\/table>');
+console.log(examDates, "test");
 
 
 // output directory for all generated files
 const outDir = resolve('public');
-mkdirSync(outDir, { recursive: true });
-console.log(examDates);
-writeFileSync(join(outDir, "test.html"), examDates[0]);
+// mkdirSync(outDir, { recursive: true });
+// writeFileSync(join(outDir, "test.html"), examDates);
 
 // ensure the directory exists
 if (!existsSync(outDir)) mkdirSync(outDir);
