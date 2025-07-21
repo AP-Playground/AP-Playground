@@ -13,11 +13,11 @@ async function fetchData(url) {
 }
 
 const examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
-writeFileSync(join(outDir, "test.html"), examDates);
 
 
 // output directory for all generated files
 const outDir = resolve('public');
+writeFileSync(join(outDir, "test.html"), examDates);
 
 // ensure the directory exists
 if (!existsSync(outDir)) mkdirSync(outDir);
