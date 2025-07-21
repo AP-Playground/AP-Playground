@@ -14,7 +14,7 @@ async function fetchData(url) {
 
 let examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
 examDates = examDates.matchAll(/<table class="cb-table">.*?<\/table>/gs);
-console.log(examDates[0], "test");
+console.log(examDates[0], examDates, "test");
 
 
 // output directory for all generated files
