@@ -23,10 +23,26 @@ examDatesPage('table.cb-table tbody').each((i, el1) => {
 examDates = examDates.filter(el => !el.includes(`colspan="3"`)).map(el => el.replace("<br>"," "))
 examDates.forEach((el, i) => {
   const date = cheerio.load("<tr>" + el + "</tr>", null, false);
+  let temp = [];
   date("tr > *").each((j, el2) => {
-    console.log(date(el2).html());
+    temp.push(date(el2));
   })
+  temp[0] = date(temp[0]).text().trim();
+  temp.push([]);
+  date(temp[1]).each((j, el2) => {
+    if (date(el2).text().trim() !== "") {
+      temp[3].push(date(el2).text().trim());
+    }
+  })
+  temp.push([]);
+  date(temp[2]).each((j, el2) => {
+    if (date(el2).text().trim() !== "") {
+      temp[4].push(date(el2).text().trim());
+    }
+  })
+  examDates[i] = [temp[0], temp[3], temp[4]];
 })
+console.log(examDates);
 
 
 // output directory for all generated files
