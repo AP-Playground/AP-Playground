@@ -19,7 +19,8 @@ examDates = examDates.matchAll('/<table class="cb-table">[\s\S]*?<\/table>/');
 // output directory for all generated files
 const outDir = resolve('public');
 mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, "test.html"), examDates.join('\n'));
+console.log(examDates);
+writeFileSync(join(outDir, "test.html"), examDates[0]);
 
 // ensure the directory exists
 if (!existsSync(outDir)) mkdirSync(outDir);
