@@ -14,8 +14,8 @@ async function fetchData(url) {
 }
 
 let examDates = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
-examDates('table.cb-table').each((i, el) => {
-  console.log(examDates(el.html()))
+examDates('table.cb-table tbody').each((i, el) => {
+  console.log(examDates(el).html())
 })
 
 
