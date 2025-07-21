@@ -17,7 +17,7 @@ console.log(examDates)
 
 
 // output directory for all generated files
-const outDir = resolve(__dirname, '..', 'public');
+const outDir = resolve('public');
 
 // ensure the directory exists
 if (!existsSync(outDir)) mkdirSync(outDir);
