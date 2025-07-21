@@ -13,9 +13,12 @@ async function fetchData(url) {
     return await response.text();
 }
 
-let examDates = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
-examDates('table.cb-table tbody').each((i, el) => {
-  console.log(examDates(el).html())
+let examDatesPage = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
+let examDates = [];
+examDatesPage('table.cb-table tbody').each((i, el1) => {
+  examDatesPage(el1.children).each((j, el2) => {
+    examDates.push(examDatesPage(el2).html())
+  })
 })
 
 
