@@ -1,4 +1,4 @@
-import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync } from 'fs';
+import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile } from 'fs';
 import { resolve, join, dirname } from 'path';
 
 // read templates from src/templates
@@ -13,7 +13,7 @@ async function fetchData(url) {
 }
 
 const examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
-console.log(examDates)
+writeFileSync(join(outDir, "test.html"), examDates);
 
 
 // output directory for all generated files
