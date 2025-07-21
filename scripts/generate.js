@@ -12,7 +12,8 @@ async function fetchData(url) {
     return await response.text();
 }
 
-const examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
+let examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
+examDates = examDates.matchAll('/<table class="cb-table">[\s\S]*?<\/table>/');
 
 
 // output directory for all generated files
