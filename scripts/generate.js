@@ -13,7 +13,7 @@ async function fetchData(url) {
     return await response.text();
 }
 
-let examDatesPage = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
+const examDatesPage = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
 let examDates = [];
 examDatesPage('table.cb-table tbody').each((i, el1) => {
   examDatesPage(el1.children).each((j, el2) => {
@@ -21,7 +21,12 @@ examDatesPage('table.cb-table tbody').each((i, el1) => {
   })
 })
 examDates = examDates.filter(el => !el.includes(`colspan="3"`))
-console.log(examDates)
+examDates.forEach((el, i) => {
+  const date = cheerio.load(el, false)
+  date.each((j, el2) => {
+    console.log(date(el2).text());
+  })
+})
 
 
 // output directory for all generated files
