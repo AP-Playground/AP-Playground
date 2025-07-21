@@ -7,17 +7,17 @@ const unitTemplate = readFileSync("src/templates/unit.html", "utf-8");
 const courseTemplate = readFileSync("src/templates/course.html", "utf-8");
 
 // fetch up-to-date data from the internet
-// async function fetchData(url) {
-//     const response = await fetch(url);
-//     return await response.text();
-// }
+async function fetchData(url) {
+    const response = await fetch(url);
+    return await response.text();
+}
 
-// const examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
-// console.log(examDates)
+const examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
+console.log(examDates)
 
 
 // output directory for all generated files
-const outDir = resolve(dirname(), '..', 'public');
+const outDir = resolve(__dirname, '..', 'public');
 
 // ensure the directory exists
 if (!existsSync(outDir)) mkdirSync(outDir);
@@ -51,7 +51,7 @@ pages.forEach((filename) => {
 
 
 // copy icons from src/icons to public/icons
-const iconsDir = resolve(dirname(), "..", "src/icons")
+const iconsDir = resolve("src/icons")
 const icons = readdirSync(iconsDir);
 icons.forEach(icon => {
   const srcPath = join(iconsDir, icon)
@@ -66,7 +66,7 @@ icons.forEach(icon => {
 
 
 // copy stylesheets from src/css to public/css
-const stylesheetsDir = resolve(dirname(), "..", "src/css")
+const stylesheetsDir = resolve("src/css")
 const stylesheets = readdirSync(stylesheetsDir);
 stylesheets.forEach(css => {
   const srcPath = join(stylesheetsDir, css)
@@ -81,7 +81,7 @@ stylesheets.forEach(css => {
 
 
 // copy scripts from src/css to public/css
-const scriptsDir = resolve(dirname(), "..", "src/js")
+const scriptsDir = resolve("src/js")
 const scripts = readdirSync(scriptsDir);
 scripts.forEach(js => {
   const srcPath = join(scriptsDir, js)
@@ -114,7 +114,7 @@ function genGeneric(filename) {
 function genLesson(lessonSlug, data) {
   let page = lessonTemplate;
 
-  const navPath = resolve(dirname(), "..", "src", data["nav"] + ".json");
+  const navPath = resolve("src", data["nav"] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = lessonSlug.split("/")
 
@@ -202,7 +202,7 @@ function genLesson(lessonSlug, data) {
 function genUnit(unitSlug, data) {
   let page = unitTemplate;
 
-  const navPath = resolve(dirname(), "..", "src", data["nav"] + ".json");
+  const navPath = resolve("src", data["nav"] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = unitSlug.split("/")
 
@@ -305,7 +305,7 @@ function genUnit(unitSlug, data) {
 function genCourse(courseSlug, data) {
   let page = courseTemplate;
 
-  const navPath = resolve(dirname(), "..", "src", data["nav"] + ".json");
+  const navPath = resolve("src", data["nav"] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = courseSlug.split("/")
 
