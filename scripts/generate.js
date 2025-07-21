@@ -1,4 +1,4 @@
-import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile } from 'fs';
+import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir } from 'fs';
 import { resolve, join, dirname } from 'path';
 
 // read templates from src/templates
@@ -17,6 +17,7 @@ const examDates = await fetchData("https://apcentral.collegeboard.org/exam-admin
 
 // output directory for all generated files
 const outDir = resolve('public');
+mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "test.html"), examDates);
 
 // ensure the directory exists
