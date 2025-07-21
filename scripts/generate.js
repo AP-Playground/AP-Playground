@@ -29,13 +29,13 @@ examDates.forEach((el, i) => {
   })
   temp[0] = date(temp[0]).text().trim();
   temp.push([]);
-  date(temp[1]).each((j, el2) => {
+  date(temp[1]).find("p").each((j, el2) => {
     if (date(el2).text().trim() !== "") {
       temp[3].push(date(el2).text().trim());
     }
   })
   temp.push([]);
-  date(temp[2]).each((j, el2) => {
+  date(temp[2]).find("p").each((j, el2) => {
     if (date(el2).text().trim() !== "") {
       temp[4].push(date(el2).text().trim());
     }
