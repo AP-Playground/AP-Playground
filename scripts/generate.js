@@ -13,8 +13,10 @@ async function fetchData(url) {
     return await response.text();
 }
 
-let examDates = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"))('table.cb-table').find('tbody').html();
-console.log(examDates);
+let examDates = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"))('table.cb-table');
+examDates('table.cb-table').each((i, el) => {
+  console.log(examDates(el.text()))
+})
 
 
 // output directory for all generated files
