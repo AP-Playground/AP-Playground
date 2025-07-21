@@ -22,7 +22,7 @@ examDatesPage('table.cb-table tbody').each((i, el1) => {
   })
 })
 examDatesTemp = examDatesTemp.filter(el => !el.includes(`colspan="3"`)).map(el => el.replace("<br>"," "))
-let examDates = [];
+let examDates = {};
 examDatesTemp.forEach((el, i) => {
   const date = cheerio.load("<tr>" + el + "</tr>", null, false);
   let temp = [];
@@ -33,24 +33,21 @@ examDatesTemp.forEach((el, i) => {
   temp.push([]);
   date(temp[1]).find("p").each((j, el2) => {
     if (date(el2).text().trim() !== "") {
-      examDates.push({
-        course: date(el2).text().trim(),
+      examDates["AP " + date(el2).text().trim()] = {
         date: temp[0],
         time: "8 a.m."
-      })
+      }
     }
   })
   temp.push([]);
   date(temp[2]).find("p").each((j, el2) => {
     if (date(el2).text().trim() !== "") {
-      examDates.push({
-        course: date(el2).text().trim(),
+      examDates["AP " + date(el2).text().trim()] = {
         date: temp[0],
         time: "12 p.m."
-      })
+      }
     }
   })
-  examDatesTemp[i] = [temp[0], temp[3], temp[4]];
 })
 console.log(examDates);
 
