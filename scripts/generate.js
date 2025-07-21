@@ -13,7 +13,7 @@ async function fetchData(url) {
     return await response.text();
 }
 
-let examDates = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"))('table.cb-table');
+let examDates = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
 examDates('table.cb-table').each((i, el) => {
   console.log(examDates(el.text()))
 })
