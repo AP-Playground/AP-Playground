@@ -22,7 +22,7 @@ examDatesPage('table.cb-table tbody').each((i, el1) => {
 })
 examDates = examDates.filter(el => !el.includes(`colspan="3"`))
 examDates.forEach((el, i) => {
-  const date = cheerio.load(el, false)
+  const date = cheerio.load("<tr>" + el + "</tr>", false)
   date.each((j, el2) => {
     console.log(date(el2).text());
   })
