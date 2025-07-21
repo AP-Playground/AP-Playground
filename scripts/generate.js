@@ -1,6 +1,7 @@
 import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir } from 'fs';
 import { resolve, join, dirname } from 'path';
 import * as cheerio from 'cheerio';
+import { time } from 'console';
 
 // read templates from src/templates
 const lessonTemplate = readFileSync("src/templates/lesson.html", "utf-8");
@@ -14,14 +15,15 @@ async function fetchData(url) {
 }
 
 const examDatesPage = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
-let examDates = [];
+let examDatesTemp = [];
 examDatesPage('table.cb-table tbody').each((i, el1) => {
   examDatesPage(el1.children).each((j, el2) => {
-    examDates.push(examDatesPage(el2).html())
+    examDatesTemp.push(examDatesPage(el2).html())
   })
 })
-examDates = examDates.filter(el => !el.includes(`colspan="3"`)).map(el => el.replace("<br>"," "))
-examDates.forEach((el, i) => {
+examDatesTemp = examDatesTemp.filter(el => !el.includes(`colspan="3"`)).map(el => el.replace("<br>"," "))
+let examDates = [];
+examDatesTemp.forEach((el, i) => {
   const date = cheerio.load("<tr>" + el + "</tr>", null, false);
   let temp = [];
   date("tr > *").each((j, el2) => {
@@ -31,16 +33,24 @@ examDates.forEach((el, i) => {
   temp.push([]);
   date(temp[1]).find("p").each((j, el2) => {
     if (date(el2).text().trim() !== "") {
-      temp[3].push(date(el2).text().trim());
+      examDates.push({
+        course: date(el2).text().trim(),
+        date: temp[0],
+        time: "8 a.m."
+      })
     }
   })
   temp.push([]);
   date(temp[2]).find("p").each((j, el2) => {
     if (date(el2).text().trim() !== "") {
-      temp[4].push(date(el2).text().trim());
+      examDates.push({
+        course: date(el2).text().trim(),
+        date: temp[0],
+        time: "12 p.m."
+      })
     }
   })
-  examDates[i] = [temp[0], temp[3], temp[4]];
+  examDatesTemp[i] = [temp[0], temp[3], temp[4]];
 })
 console.log(examDates);
 
