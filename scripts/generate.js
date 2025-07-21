@@ -13,7 +13,7 @@ async function fetchData(url) {
 }
 
 let examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
-examDates = examDates.matchAll(new RegExp('<table class="cb-table">.*?<\/table>'));
+examDates = examDates.matchAll(new RegExp('<table class="cb-table">.*?<\/table>', 'gs'));
 console.log(examDates[0], "test");
 
 
