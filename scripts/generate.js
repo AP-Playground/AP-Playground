@@ -14,7 +14,7 @@ async function fetchData(url) {
 }
 
 let examDates = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
-console.log(examDates);
+console.log(examDates.find('table.cb-table'));
 
 
 // output directory for all generated files
