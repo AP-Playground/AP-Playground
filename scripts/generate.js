@@ -14,7 +14,7 @@ async function fetchData(url) {
 
 let examDates = await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates");
 examDates = Array.from(examDates.matchAll(/<table class="cb-table">[\s\S]*?<\/table>/g)).map(m => m[0]).join("");
-// examDates = Array.from(examDates.matchAll(/<tr><td scope="row">[\s\S]*?<\/td><\/tr>/g)).map(m => m[0])
+examDates = Array.from(examDates.matchAll(/<tr><t[dh] scope="row">[\s\S]*?<\/td><\/tr>/g)).map(m => m[0])
 console.log(examDates, "test");
 
 
