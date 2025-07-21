@@ -20,6 +20,8 @@ examDatesPage('table.cb-table tbody').each((i, el1) => {
     examDates.push(examDatesPage(el2).html())
   })
 })
+examDates = examDates.filter(el => !el.contains(`colspan="3"`))
+console.log(examDates)
 
 
 // output directory for all generated files
