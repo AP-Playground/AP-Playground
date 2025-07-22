@@ -296,8 +296,12 @@ a:hover {
     display: inline-block;
   }
   & button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
     border: none;
-    border-radius: 100px;
+    border-radius: 50%;
     background-color: var(--theme-10);
     width: 2rem;
     height: 2rem;
