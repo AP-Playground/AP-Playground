@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", function() {
       if (this.window.innerWidth <= 1200) {
         sideNavStatus = 'closed';
         localStorage.setItem('sideNavStatus', sideNavStatus);
-        html.classList.remove('side-nav-closed');
+        html.classList.add('side-nav-closed');
       }
     })
   })
