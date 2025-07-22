@@ -223,7 +223,7 @@ function genLesson(lessonSlug, data) {
         vidText += `<h3>${vid.title}</h3>`
         vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"><img src="/icons/external_link.svg"></a>`
       vidText += `</div>`;
-      vidText += `<iframe class="video-embed" src="https://www.youtube.com/embed/${vid.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      vidText += `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${vid.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
     vidText += `</div>`
   })
 
@@ -294,7 +294,7 @@ function genUnit(unitSlug, data) {
   unitVidText += `</div>`;
 
   unitVidText += `<div class="video-container">`
-    unitVidText += `<iframe class="video-embed" src="https://www.youtube.com/embed/${unitVidData.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+    unitVidText += `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${unitVidData.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   unitVidText += `</div>`
 
   page = page.replace("{{unit.unit-video}}", unitVidText)
@@ -326,7 +326,7 @@ function genUnit(unitSlug, data) {
         vidText += `<h3>${vid.title}</h3>`
         vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"><img src="/icons/external_link.svg"></a>`
       vidText += `</div>`;
-      vidText += `<iframe class="video-embed" src="https://www.youtube.com/embed/${vid.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      vidText += `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${vid.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
     vidText += `</div>`
   })
 
