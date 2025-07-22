@@ -289,7 +289,7 @@ function genUnit(unitSlug, data) {
   let unitVidText = "";
 
   unitVidText += `<div class="video-header">`
-    unitVidText += `<h2>Unit Review</h2>`
+    unitVidText += `<h2>Unit Review:</h2>`
     unitVidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${unitVidData}"><img src="/icons/external_link.svg"></a>`
   unitVidText += `</div>`;
 
