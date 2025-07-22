@@ -5,7 +5,8 @@ let sideNavStatus = localStorage.getItem("sideNavStatus") || "open";
 if (sideNavStatus === "closed") html.classList.add("side-nav-closed");
 
 
-window.addEventListener("load", function() {
+window.addEventListener("readystatechange", function() {
+  if (document.readyState !== "complete") return;
   requestAnimationFrame(function() {
     document.documentElement.classList.remove("no-transition");
     requestAnimationFrame(function() {
