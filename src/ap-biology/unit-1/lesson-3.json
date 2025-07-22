@@ -16,56 +16,28 @@
       "link": "https://en.wikipedia.org/wiki/Polymer"
     },
     {
-      "term": "Carbohydrates",
-      "link": "https://en.wikipedia.org/wiki/Carbohydrate"
-    },
-    {
-      "term": "Monosaccharides",
-      "link": "https://en.wikipedia.org/wiki/Monosaccharide"
-    },
-    {
-      "term": "Polysaccharides",
-      "link": "https://en.wikipedia.org/wiki/Polysaccharide"
-    },
-    {
-      "term": "Glysodic linkages",
-      "link": "https://en.wikipedia.org/wiki/Glycosidic_bond"
-    },
-    {
-      "term": "Amino acids",
-      "link": "https://en.wikipedia.org/wiki/Amino_acid"
-    },
-    {
-      "term": "Peptide bonds",
-      "link": "https://en.wikipedia.org/wiki/Peptide_bond"
-    },
-    {
-      "term": "Nucleic acids",
-      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
-    },
-    {
-      "term": "DNA",
-      "link": "https://en.wikipedia.org/wiki/DNA"
-    },
-    {
-      "term": "RNA",
-      "link": "https://en.wikipedia.org/wiki/RNA"
-    },
-    {
-      "term": "Nucleotides",
-      "link": "https://en.wikipedia.org/wiki/Nucleotide"
-    },
-    {
-      "term": "Lipids",
-      "link": "https://en.wikipedia.org/wiki/Lipid"
-    },
-    {
       "term": "Dehydration synthesis",
       "link": "https://en.wikipedia.org/wiki/Condensation_reaction"
     },
     {
       "term": "Hydrolysis",
       "link": "https://en.wikipedia.org/wiki/Hydrolysis"
+    },
+    {
+      "term": "Carbohydrates",
+      "link": "https://en.wikipedia.org/wiki/Carbohydrate"
+    },
+    {
+      "term": "Amino acids",
+      "link": "https://en.wikipedia.org/wiki/Amino_acid"
+    },
+    {
+      "term": "Nucleic acids",
+      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
+    },
+    {
+      "term": "Lipids",
+      "link": "https://en.wikipedia.org/wiki/Lipid"
     }
   ],
   "links": [
@@ -78,10 +50,6 @@
       "link": "https://en.wikipedia.org/wiki/Macromolecule"
     },
     {
-      "title": "Wikipedia | Carbon",
-      "link": "https://en.wikipedia.org/wiki/Carbon"
-    },
-    {
       "title": "Biology Dictionary | Introduction to Biological Macromolecules",
       "link": "https://biologydictionary.net/ap-biology/1-3-introduction-to-biological-macromolecules/"
     }
@@ -89,7 +57,7 @@
   "videos": [
     {
       "title": "AP Study | AP Biology 1.3: Introduction to Biological Macromolecules",
-      "link": "IX5bRDtiELw"
+      "link": "U7zLbNiQc7o"
     },
     {
       "title": "PoseKnows Biology | 1.3 Introduction to Biological Macromolecules",

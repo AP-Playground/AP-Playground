@@ -1,0 +1,75 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "All important biological molecules in your body are macromolecules. Topic 1.7 is about the structure and function of one of them: proteins. This lesson explains where proteins are found in biological organisms and how their chemical composition enables their function.",
+  "vocab": [
+    {
+      "term": "Proteins",
+      "link": "https://en.wikipedia.org/wiki/Protein"
+    },
+    {
+      "term": "Amino Acids",
+      "link": "https://en.wikipedia.org/wiki/Amino_acid"
+    },
+    {
+      "term": "Peptide bonds",
+      "link": "https://en.wikipedia.org/wiki/Peptide_bond"
+    },
+    {
+      "term": "R side chains",
+      "link": "https://en.wikipedia.org/wiki/Side_chain"
+    },
+    {
+      "term": "Primary structure",
+      "link": "https://en.wikipedia.org/wiki/Protein_primary_structure"
+    },
+    {
+      "term": "Secondary structure",
+      "link": "https://en.wikipedia.org/wiki/Protein_secondary_structure"
+    },
+    {
+      "term": "Tertiary structure",
+      "link": "https://en.wikipedia.org/wiki/Protein_tertiary_structure"
+    },
+    {
+      "term": "Quaternary structure",
+      "link": "https://en.wikipedia.org/wiki/Protein_quaternary_structure"
+    },
+    {
+      "term": "Denaturation",
+      "link": "https://en.wikipedia.org/wiki/Denaturation_(biochemistry)"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Introduction to amino acids (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/properties-structure-and-function-of-biological-macromolecules/v/introduction-to-amino-acids"
+    },
+    {
+      "title": "Khan Academy | Overview of protein structure (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/properties-structure-and-function-of-biological-macromolecules/v/overview-of-protein-structure"
+    },
+    {
+      "title": "Wikipedia | Protein",
+      "link": "https://en.wikipedia.org/wiki/Protein"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology 1.7: Proteins",
+      "link": "1puYIcNyXNc"
+    },
+    {
+      "title": "Amoeba Sisters | Biomolecules",
+      "link": "1Dx7LDwINLU"
+    },
+    {
+      "title": "Crash Course Biology | Biological Molecules - You Are What You Eat",
+      "link": "H8WJ2KENlK0"
+    },
+    {
+      "title": "Bozeman Science | Proteins",
+      "link": "2Jgb_DpaQhM"
+    }
+  ]
+}

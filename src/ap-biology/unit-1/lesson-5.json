@@ -1,119 +1,35 @@
 {
   "nav": "ap-biology/nav",
   "type": "lesson",
-  "summary": "All important biological molecules in your body are macromolecules. These include carbohydrates, proteins, nucleic acids, and lipids. Topic 1.5 is about what these macromolecules do.",
+  "summary": "All important biological molecules in your body are macromolecules. Topic 1.5 is about the structure and function of one of them: lipids. This lesson explains where lipids are found in biological organisms and how their chemical composition enables their function.",
   "vocab": [
-    {
-      "term": "Carbohydrates",
-      "link": "https://en.wikipedia.org/wiki/Carbohydrate"
-    },
-    {
-      "term": "Starch",
-      "link": "https://en.wikipedia.org/wiki/Starch"
-    },
-    {
-      "term": "Glycogen",
-      "link": "https://en.wikipedia.org/wiki/Glycogen"
-    },
-    {
-      "term": "Cellulose",
-      "link": "https://en.wikipedia.org/wiki/Cellulose"
-    },
-    {
-      "term": "Chitin",
-      "link": "https://en.wikipedia.org/wiki/Chitin"
-    },
-    {
-      "term": "Microfibrils",
-      "link": "https://en.wikipedia.org/wiki/Microfibril"
-    },
-    {
-      "term": "Proteins",
-      "link": "https://en.wikipedia.org/wiki/Protein"
-    },
-    {
-      "term": "Gene expression",
-      "link": "https://en.wikipedia.org/wiki/Gene_expression"
-    },
-    {
-      "term": "Primary structure",
-      "link": "https://en.wikipedia.org/wiki/Protein_primary_structure"
-    },
-    {
-      "term": "Secondary structure",
-      "link": "https://en.wikipedia.org/wiki/Protein_secondary_structure"
-    },
-    {
-      "term": "α helix",
-      "link": "https://en.wikipedia.org/wiki/Alpha_helix"
-    },
-    {
-      "term": "β pleated sheet",
-      "link": "https://en.wikipedia.org/wiki/Beta_sheet"
-    },
-    {
-      "term": "Tertiary structure",
-      "link": "https://en.wikipedia.org/wiki/Protein_tertiary_structure"
-    },
-    {
-      "term": "Disulfide bridges",
-      "link": "https://en.wikipedia.org/wiki/Disulfide"
-    },
-    {
-      "term": "Hydrophobic interactions",
-      "link": "https://en.wikipedia.org/wiki/Van_der_Waals_force"
-    },
-    {
-      "term": "Quaternary structure",
-      "link": "https://en.wikipedia.org/wiki/Protein_quaternary_structure"
-    },
-    {
-      "term": "Denaturation",
-      "link": "https://en.wikipedia.org/wiki/Denaturation_(biochemistry)"
-    },
-    {
-      "term": "Nucleic Acids",
-      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
-    },
-    {
-      "term": "Antiparallel",
-      "link": "https://en.wikipedia.org/wiki/Antiparallel_(biochemistry)"
-    },
-    {
-      "term": "Nitrogenous bases",
-      "link": "https://en.wikipedia.org/wiki/Nucleotide_base"
-    },
-    {
-      "term": "Adenine",
-      "link": "https://en.wikipedia.org/wiki/Adenine"
-    },
-    {
-      "term": "Thymine",
-      "link": "https://en.wikipedia.org/wiki/Thymine"
-    },
-    {
-      "term": "Guanine",
-      "link": "https://en.wikipedia.org/wiki/Guanine"
-    },
-    {
-      "term": "Cytosine",
-      "link": "https://en.wikipedia.org/wiki/Cytosine"
-    },
-    {
-      "term": "Uracil",
-      "link": "https://en.wikipedia.org/wiki/Uracil"
-    },
-    {
-      "term": "Purines",
-      "link": "https://en.wikipedia.org/wiki/Purine"
-    },
-    {
-      "term": "Pyrmidines",
-      "link": "https://en.wikipedia.org/wiki/Pyrimidine"
-    },
     {
       "term": "Lipids",
       "link": "https://en.wikipedia.org/wiki/Lipid"
+    },
+    {
+      "term": "Triglycerides",
+      "link": "https://en.wikipedia.org/wiki/Triglyceride"
+    },
+    {
+      "term": "Fatty acid chain",
+      "link": "https://en.wikipedia.org/wiki/Fatty_acid"
+    },
+    {
+      "term": "Saturated fats",
+      "link": "https://en.wikipedia.org/wiki/Saturated_fat"
+    },
+    {
+      "term": "Unsaturated fats",
+      "link": "https://en.wikipedia.org/wiki/Unsaturated_fat"
+    },
+    {
+      "term": "Steroids",
+      "link": "https://en.wikipedia.org/wiki/Steroid"
+    },
+    {
+      "term": "Phospholipids",
+      "link": "https://en.wikipedia.org/wiki/Phospholipid"
     },
     {
       "term": "Cholesterol",
@@ -122,20 +38,12 @@
   ],
   "links": [
     {
-      "title": "Khan Academy | Biological macromolecules review (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/properties-structure-and-function-of-biological-macromolecules/a/hs-biological-macromolecules-review"
+      "title": "Khan Academy | Molecular structure of triglycerides (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/properties-structure-and-function-of-biological-macromolecules/v/molecular-structure-of-triglycerides-fats"
     },
     {
-      "title": "Wikipedia | Carbohydrate",
-      "link": "https://en.wikipedia.org/wiki/Carbohydrate"
-    },
-    {
-      "title": "Wikipedia | Amino Acid",
-      "link": "https://en.wikipedia.org/wiki/Amino_acid"
-    },
-    {
-      "title": "Wikipedia | Nucleic acid",
-      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
+      "title": "Khan Academy | Saturated fats, unsaturated fats, and trans fats (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/properties-structure-and-function-of-biological-macromolecules/v/saturated-fats-unsaturated-fats-and-trans-fats"
     },
     {
       "title": "Wikipedia | Lipid",
@@ -148,8 +56,8 @@
   ],
   "videos": [
     {
-      "title": "AP Study | AP Biology 1.5: Structure and Function of Biological Macromolecules",
-      "link": "QpZFWhzszDs"
+      "title": "AP Study | AP Biology 1.5: Lipids",
+      "link": "8aPBjBN9CB4"
     },
     {
       "title": "PoseKnows Biology | 1.5 Structure and Function of Biological Macromolecules",
@@ -162,18 +70,6 @@
     {
       "title": "Crash Course Biology | Biological Molecules - You Are What You Eat",
       "link": "H8WJ2KENlK0"
-    },
-    {
-      "title": "Bozeman Science | Carbohydrates",
-      "link": "_zm_DyD6FJ0"
-    },
-    {
-      "title": "Bozeman Science | Proteins",
-      "link": "2Jgb_DpaQhM"
-    },
-    {
-      "title": "Bozeman Science | Nucleic Acids",
-      "link": "NNASRkIU5Fw"
     },
     {
       "title": "Bozeman Science | Lipids",

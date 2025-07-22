@@ -4,12 +4,48 @@
   "summary": "All important biological molecules in your body are macromolecules. These include carbohydrates, proteins, nucleic acids, and lipids. There are two kinds of nucleic acids: DNA and RNA. Topic 1.6 looks at the key differences between the structure and function of these two nucleic acids.",
   "vocab": [
     {
+      "term": "Nucleic Acids",
+      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
+    },
+    {
       "term": "Deoxyribonucleic acid (DNA)",
       "link": "https://en.wikipedia.org/wiki/DNA"
     },
     {
+      "term": "Antiparallel",
+      "link": "https://en.wikipedia.org/wiki/Antiparallel_(biochemistry)"
+    },
+    {
       "term": "Ribonucleic acid (RNA)",
       "link": "https://en.wikipedia.org/wiki/RNA"
+    },
+    {
+      "term": "Nucleotides",
+      "link": "https://en.wikipedia.org/wiki/Nucleotide"
+    },
+    {
+      "term": "Nitrogenous base",
+      "link": "https://en.wikipedia.org/wiki/Nucleotide_base"
+    },
+    {
+      "term": "Adenine",
+      "link": "https://en.wikipedia.org/wiki/Adenine"
+    },
+    {
+      "term": "Thymine",
+      "link": "https://en.wikipedia.org/wiki/Thymine"
+    },
+    {
+      "term": "Guanine",
+      "link": "https://en.wikipedia.org/wiki/Guanine"
+    },
+    {
+      "term": "Cytosine",
+      "link": "https://en.wikipedia.org/wiki/Cytosine"
+    },
+    {
+      "term": "Uracil",
+      "link": "https://en.wikipedia.org/wiki/Uracil"
     },
     {
       "term": "mRNA",
@@ -22,6 +58,14 @@
     {
       "term": "rRNA",
       "link": "https://en.wikipedia.org/wiki/Ribosomal_RNA"
+    },
+    {
+      "term": "Ribose",
+      "link": "https://en.wikipedia.org/wiki/Ribose"
+    },
+    {
+      "term": "Deoxyribose",
+      "link": "https://en.wikipedia.org/wiki/Deoxyribose"
     }
   ],
   "links": [
@@ -45,7 +89,7 @@
   "videos": [
     {
       "title": "AP Study | AP Biology 1.6: Nucleic Acids",
-      "link": "fKvrFq4kGgc"
+      "link": "DSaXAyyiDb8"
     },
     {
       "title": "PoseKnows Biology | 1.6 Nucleic Acids",
