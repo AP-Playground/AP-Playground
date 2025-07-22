@@ -4,7 +4,8 @@ let sideNavStatus = localStorage.getItem("sideNavStatus") || "open";
 
 if (sideNavStatus === "closed") html.classList.add("side-nav-closed");
 
-window.addEventListener("DOMContentLoaded", function() {
+
+window.addEventListener("load", function() {
   requestAnimationFrame(function() {
     document.documentElement.classList.remove("no-transition");
     requestAnimationFrame(function() {
@@ -13,12 +14,12 @@ window.addEventListener("DOMContentLoaded", function() {
         localStorage.setItem('sideNavStatus', sideNavStatus);
         html.classList.add('side-nav-closed');
       }
-    })
-  })
 
-  document.querySelector(".side-nav-btn").addEventListener("click", () => {
-    html.classList.toggle('side-nav-closed');
-    sideNavStatus = sideNavStatus === 'open' ? 'closed' : 'open';
-    localStorage.setItem('sideNavStatus', sideNavStatus);
+      document.querySelector(".side-nav-btn").addEventListener("click", () => {
+        html.classList.toggle('side-nav-closed');
+        sideNavStatus = sideNavStatus === 'open' ? 'closed' : 'open';
+        localStorage.setItem('sideNavStatus', sideNavStatus);
+      })
+    })
   })
 })
