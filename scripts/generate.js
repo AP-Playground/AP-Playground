@@ -29,7 +29,6 @@ examDatesTemp.forEach((el, i) => {
     temp.push(date(el2));
   })
   temp[0] = date(temp[0]).text().trim();
-  temp.push([]);
   date(temp[1]).find("p").each((j, el2) => {
     if (date(el2).text().trim() !== "") {
       examDates["AP " + date(el2).text().trim()] = {
@@ -38,7 +37,6 @@ examDatesTemp.forEach((el, i) => {
       }
     }
   })
-  temp.push([]);
   date(temp[2]).find("p").each((j, el2) => {
     if (date(el2).text().trim() !== "") {
       examDates["AP " + date(el2).text().trim()] = {
