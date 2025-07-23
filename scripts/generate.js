@@ -69,6 +69,8 @@ const pages = [
   'ap-biology/unit-1/lesson-6.json',
   'ap-biology/unit-1/lesson-7.json',
   'ap-biology/unit-2/index.json',
+  'ap-biology/unit-2/lesson-1.json',
+  'ap-biology/unit-2/lesson-2.json',
 ];
 
 // write each page

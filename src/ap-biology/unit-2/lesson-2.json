@@ -1,0 +1,63 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "Cells are small, really small. Very few cells can be seen with the naked eye, and those that can are as small as a speck of dust. This miniscule cell size is actually very intentional and very necessary. Topic 2.3 explains why cells are the size they are, and how this helps them function.",
+  "vocab": [
+    {
+      "term": "Surface area",
+      "link": "https://en.wikipedia.org/wiki/Surface_area"
+    },
+    {
+      "term": "Volume",
+      "link": "https://en.wikipedia.org/wiki/Volume"
+    },
+    {
+      "term": "Surface area to volume ratio",
+      "link": "https://en.wikipedia.org/wiki/Surface-area-to-volume_ratio"
+    },
+    {
+      "term": "Membrane folds",
+      "link": "https://en.wikipedia.org/wiki/Cell_membrane"
+    },
+    {
+      "term": "Cristae",
+      "link": "https://en.wikipedia.org/wiki/Crista"
+    },
+    {
+      "term": "Vesicles",
+      "link": "https://en.wikipedia.org/wiki/Vesicle"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Surface area to volume ratio of cells (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/cell-size/v/surface-area-to-volume-ratio-of-cells"
+    },
+    {
+      "title": "Wikipedia | Surface-area-to-volume ratio",
+      "link": "https://en.wikipedia.org/wiki/Surface-area-to-volume_ratio"
+    },
+    {
+      "title": "Biology Dictionary | Cell Size",
+      "link": "https://biologydictionary.net/ap-biology/2-3-cell-size/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology 2.2: Cell Size",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | 2.2 Cell Size",
+      "link": "02IcucxMcvI"
+    },
+    {
+      "title": "Amoeba Sisters | Introduction to Cells: The Grand Cell Tour",
+      "link": "8IlzKri08kk"
+    },
+    {
+      "title": "Bozeman Science | Why Are Cells Small?",
+      "link": "wuXSEOKNxN8"
+    }
+  ]
+}

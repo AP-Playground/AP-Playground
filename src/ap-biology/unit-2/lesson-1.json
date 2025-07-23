@@ -1,0 +1,227 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "All living organisms are composed of cells. Unicellular organisms (like bacteria) are made of one cell. Multicellular organisms (like humans) are made of many cells. Topic 2.1 explores the structures and components that make these cells function.",
+  "vocab": [
+    {
+      "term": "Cell",
+      "link": "https://en.wikipedia.org/wiki/Cell_(biology)"
+    },
+    {
+      "term": "Prokaryotic Cells",
+      "link": "https://en.wikipedia.org/wiki/Prokaryote"
+    },
+    {
+      "term": "Eukaryotic Cells",
+      "link": "https://en.wikipedia.org/wiki/Eukaryote"
+    },
+    {
+      "term": "Cell/Plasma Membrane",
+      "link": "https://en.wikipedia.org/wiki/Cell_membrane"
+    },
+    {
+      "term": "Cytoplasm",
+      "link": "https://en.wikipedia.org/wiki/Cytoplasm"
+    },
+    {
+      "term": "Cytosol",
+      "link": "https://en.wikipedia.org/wiki/Cytosol"
+    },
+    {
+      "term": "Cytoskeleton",
+      "link": "https://en.wikipedia.org/wiki/Cytoskeleton"
+    },
+    {
+      "term": "Cilia",
+      "link": "https://en.wikipedia.org/wiki/Cilium"
+    },
+    {
+      "term": "Flagella",
+      "link": "https://en.wikipedia.org/wiki/Flagellum"
+    },
+    {
+      "term": "Cell wall",
+      "link": "https://en.wikipedia.org/wiki/Cell_wall"
+    },
+    {
+      "term": "Plasmodesmata",
+      "link": "https://en.wikipedia.org/wiki/Plasmodesma"
+    },
+    {
+      "term": "Ribosome",
+      "link": "https://en.wikipedia.org/wiki/Ribosome"
+    },
+    {
+      "term": "Organelles",
+      "link": "https://en.wikipedia.org/wiki/Organelle"
+    },
+    {
+      "term": "Nucleus",
+      "link": "https://en.wikipedia.org/wiki/Cell_nucleus"
+    },
+    {
+      "term": "Nuclear envelope",
+      "link": "https://en.wikipedia.org/wiki/Nuclear_envelope"
+    },
+    {
+      "term": "Nuclear pores",
+      "link": "https://en.wikipedia.org/wiki/Nuclear_pore_complex"
+    },
+    {
+      "term": "Nucleolus",
+      "link": "https://en.wikipedia.org/wiki/Nucleolus"
+    },
+    {
+      "term": "Endoplasmic Reticulum",
+      "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum"
+    },
+    {
+      "term": "Smooth ER",
+      "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Smooth_endoplasmic_reticulum"
+    },
+    {
+      "term": "Rough ER",
+      "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Rough_endoplasmic_reticulum"
+    },
+    {
+      "term": "Golgi Apparatus",
+      "link": "https://en.wikipedia.org/wiki/Golgi_apparatus"
+    },
+    {
+      "term": "Lysosome",
+      "link": "https://en.wikipedia.org/wiki/Lysosome"
+    },
+    {
+      "term": "Vacuole",
+      "link": "https://en.wikipedia.org/wiki/Vacuole"
+    },
+    {
+      "term": "Large Central Vacuole",
+      "link": "https://en.wikipedia.org/wiki/Vacuole#Central"
+    },
+    {
+      "term": "Vesicle",
+      "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)"
+    },
+    {
+      "term": "Mitochondria",
+      "link": "https://en.wikipedia.org/wiki/Mitochondrion"
+    },
+    {
+      "term": "Cellular respiration",
+      "link": "https://en.wikipedia.org/wiki/Cellular_respiration"
+    },
+    {
+      "term": "Matrix",
+      "link": "https://en.wikipedia.org/wiki/Matrix"
+    },
+    {
+      "term": "Cristae",
+      "link": "https://en.wikipedia.org/wiki/Crista"
+    },
+    {
+      "term": "Chloroplast",
+      "link": "https://en.wikipedia.org/wiki/Chloroplast"
+    },
+    {
+      "term": "Photosynthesis",
+      "link": "https://en.wikipedia.org/wiki/Photosynthesis"
+    },
+    {
+      "term": "Thylakoids",
+      "link": "https://en.wikipedia.org/wiki/Thylakoid"
+    },
+    {
+      "term": "Granum",
+      "link": "https://en.wikipedia.org/wiki/Thylakoid#Granum_and_stroma_lamellae"
+    },
+    {
+      "term": "Stroma",
+      "link": "https://en.wikipedia.org/wiki/Stroma_(fluid)"
+    },
+    {
+      "term": "Protein Production Chain",
+      "link": "https://en.wikipedia.org/wiki/Protein_production"
+    },
+    {
+      "term": "Transport vesicle",
+      "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Transport_vesicles"
+    },
+    {
+      "term": "Secretory vesicles",
+      "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Secretory_vesicles"
+    },
+    {
+      "term": "Centrioles",
+      "link": "https://en.wikipedia.org/wiki/Centriole"
+    },
+    {
+      "term": "Centrosomes",
+      "link": "https://en.wikipedia.org/wiki/Centrosome"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Intro to eukaryotic cells (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/cell-structures-and-their-functions/a/intro-to-eukaryotic-cells"
+    },
+    {
+      "title": "Khan Academy | Organelles in eukaryotic cells (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/cell-structures-and-their-functions/v/organelles-in-eukaryotic-cells"
+    },
+    {
+      "title": "Khan Academy | Mitochondria and chloroplasts (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/cell-structures-and-their-functions/a/chloroplasts-and-mitochondria"
+    },
+    {
+      "title": "Wikipedia | Cell (biology)",
+      "link": "https://en.wikipedia.org/wiki/Cell_(biology)"
+    },
+    {
+      "title": "Biology Dictionary | Cell Structure: Subcellular Components",
+      "link": "https://biologydictionary.net/ap-biology/2-1-cell-structure-subcellular-components/"
+    },
+    {
+      "title": "Biology Dictionary | Cell Structure and Function",
+      "link": "https://biologydictionary.net/ap-biology/2-2-cell-structure-and-function/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology 2.1: Cell Structure and Function",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | 2.1 Cell Structure: Subcellular Components",
+      "link": "18WDVtAu-3k"
+    },
+    {
+      "title": "PoseKnows Biology | 2.2 Cell Structure and Function",
+      "link": "hGrP4Nj9nBQ"
+    },
+    {
+      "title": "Amoeba Sisters | Introduction to Cells: The Grand Cell Tour",
+      "link": "8IlzKri08kk"
+    },
+    {
+      "title": "Amoeba Sisters | Cell Organelles and Structures Review",
+      "link": "6mgkoqcm6Sg"
+    },
+    {
+      "title": "Crash Course Biology | A Tour of the Cell",
+      "link": "jsDxw63QqK0"
+    },
+    {
+      "title": "Crash Course Biology | Eukaryopolis - The City of Animal Cells",
+      "link": "cj8dDTHGJBY"
+    },
+    {
+      "title": "Bozeman Science | A Tour of the Cell",
+      "link": "1Z9pqST72is"
+    },
+    {
+      "title": "Bozeman Science | Cellular Organelles",
+      "link": "aczbMlSMr8U"
+    }
+  ]
+}
