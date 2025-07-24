@@ -303,11 +303,11 @@ a:hover {
 }
 
 .page-footer {
+  margin-top: 10px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  & * {
-    margin: 0;
+  & a {
+    flex: 1;
+    text-align: center;
   }
 }
 
