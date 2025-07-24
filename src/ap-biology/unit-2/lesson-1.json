@@ -16,7 +16,7 @@
       "link": "https://en.wikipedia.org/wiki/Eukaryote"
     },
     {
-      "term": "Cell/Plasma Membrane",
+      "term": "Cell Membrane",
       "link": "https://en.wikipedia.org/wiki/Cell_membrane"
     },
     {
@@ -32,20 +32,8 @@
       "link": "https://en.wikipedia.org/wiki/Cytoskeleton"
     },
     {
-      "term": "Cilia",
-      "link": "https://en.wikipedia.org/wiki/Cilium"
-    },
-    {
-      "term": "Flagella",
-      "link": "https://en.wikipedia.org/wiki/Flagellum"
-    },
-    {
       "term": "Cell wall",
       "link": "https://en.wikipedia.org/wiki/Cell_wall"
-    },
-    {
-      "term": "Plasmodesmata",
-      "link": "https://en.wikipedia.org/wiki/Plasmodesma"
     },
     {
       "term": "Ribosome",
@@ -64,23 +52,15 @@
       "link": "https://en.wikipedia.org/wiki/Nuclear_envelope"
     },
     {
-      "term": "Nuclear pores",
-      "link": "https://en.wikipedia.org/wiki/Nuclear_pore_complex"
+      "term": "Endomembrane System",
+      "link": "https://en.wikipedia.org/wiki/Protein_production"
     },
     {
-      "term": "Nucleolus",
-      "link": "https://en.wikipedia.org/wiki/Nucleolus"
-    },
-    {
-      "term": "Endoplasmic Reticulum",
-      "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum"
-    },
-    {
-      "term": "Smooth ER",
+      "term": "Smooth Endoplasmic Reticulum",
       "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Smooth_endoplasmic_reticulum"
     },
     {
-      "term": "Rough ER",
+      "term": "Rough Endoplasmic Reticulum",
       "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Rough_endoplasmic_reticulum"
     },
     {
@@ -100,50 +80,6 @@
       "link": "https://en.wikipedia.org/wiki/Vacuole#Central"
     },
     {
-      "term": "Vesicle",
-      "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)"
-    },
-    {
-      "term": "Mitochondria",
-      "link": "https://en.wikipedia.org/wiki/Mitochondrion"
-    },
-    {
-      "term": "Cellular respiration",
-      "link": "https://en.wikipedia.org/wiki/Cellular_respiration"
-    },
-    {
-      "term": "Matrix",
-      "link": "https://en.wikipedia.org/wiki/Matrix"
-    },
-    {
-      "term": "Cristae",
-      "link": "https://en.wikipedia.org/wiki/Crista"
-    },
-    {
-      "term": "Chloroplast",
-      "link": "https://en.wikipedia.org/wiki/Chloroplast"
-    },
-    {
-      "term": "Photosynthesis",
-      "link": "https://en.wikipedia.org/wiki/Photosynthesis"
-    },
-    {
-      "term": "Thylakoids",
-      "link": "https://en.wikipedia.org/wiki/Thylakoid"
-    },
-    {
-      "term": "Granum",
-      "link": "https://en.wikipedia.org/wiki/Thylakoid#Granum_and_stroma_lamellae"
-    },
-    {
-      "term": "Stroma",
-      "link": "https://en.wikipedia.org/wiki/Stroma_(fluid)"
-    },
-    {
-      "term": "Protein Production Chain",
-      "link": "https://en.wikipedia.org/wiki/Protein_production"
-    },
-    {
       "term": "Transport vesicle",
       "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Transport_vesicles"
     },
@@ -152,12 +88,16 @@
       "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Secretory_vesicles"
     },
     {
-      "term": "Centrioles",
-      "link": "https://en.wikipedia.org/wiki/Centriole"
+      "term": "Mitochondria",
+      "link": "https://en.wikipedia.org/wiki/Mitochondrion"
     },
     {
-      "term": "Centrosomes",
-      "link": "https://en.wikipedia.org/wiki/Centrosome"
+      "term": "Cristae",
+      "link": "https://en.wikipedia.org/wiki/Crista"
+    },
+    {
+      "term": "Chloroplast",
+      "link": "https://en.wikipedia.org/wiki/Chloroplast"
     }
   ],
   "links": [
@@ -192,11 +132,11 @@
       "link": ""
     },
     {
-      "title": "PoseKnows Biology | 2.1 Cell Structure: Subcellular Components",
+      "title": "PoseKnows Biology | Cell Structure: Subcellular Components",
       "link": "18WDVtAu-3k"
     },
     {
-      "title": "PoseKnows Biology | 2.2 Cell Structure and Function",
+      "title": "PoseKnows Biology | Cell Structure and Function",
       "link": "hGrP4Nj9nBQ"
     },
     {
