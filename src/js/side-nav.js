@@ -4,7 +4,7 @@ let sideNavStatus = localStorage.getItem("sideNavStatus") || "open";
 
 if (sideNavStatus === "closed") html.classList.add("side-nav-closed");
 
-window.addEventListener("load", function() {
+window.addEventListener("DOMContentLoaded", function() {
   document.documentElement.classList.remove("no-transition");
   if (this.window.innerWidth <= 1200) {
     sideNavStatus = 'closed';
