@@ -41,6 +41,9 @@ html {
   html {
     filter: invert(1);
   }
+  & .video-embed {
+    filter: invert(1);
+  }
 }
 
 body {
