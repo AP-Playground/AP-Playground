@@ -302,6 +302,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.page-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  & * {
+    margin: 0;
+  }
+}
+
 .vocab-header,
 .page-header {
   display: flex;
