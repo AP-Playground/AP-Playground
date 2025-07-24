@@ -1,0 +1,63 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "In Topic 2.9, we discussed the principle of cell compartmentalization and how it allows for the separation of reactions in order to make them efficient. In 2.10 we'll discuss one key part of cell compartmentalization, the origin of organelle membranes.",
+  "vocab": [
+    {
+      "term": "Endosymbiotic Theory",
+      "link": "https://en.wikipedia.org/wiki/Symbiogenesis"
+    },
+    {
+      "term": "Ancestral Eukaryote",
+      "link": "https://en.wikipedia.org/wiki/Eukaryogenesis"
+    },
+    {
+      "term": "Cyanobacteria",
+      "link": "https://en.wikipedia.org/wiki/Cyanobacteria"
+    },
+    {
+      "term": "Aerobic bacteria",
+      "link": "https://en.wikipedia.org/wiki/Aerobic_organism"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Endosymbiosis theory (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/cell-compartmentalization-and-its-origins/v/endosymbiosis-theory"
+    },
+    {
+      "title": "Khan Academy | Mitochondria and chloroplasts (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/cell-compartmentalization-and-its-origins/a/chloroplasts-and-mitochondria"
+    },
+    {
+      "title": "Wikipedia | Symbiogenesis",
+      "link": "https://en.wikipedia.org/wiki/Symbiogenesis"
+    },
+    {
+      "title": "Biology Dictionary | Origins of Cell Compartmentalization",
+      "link": "https://biologydictionary.net/ap-biology/2-11-origins-of-cell-compartmentalization/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology 2.10: Origins of Cell Compartmentalization",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Compartmentalization/Origins of Compartmentalization",
+      "link": "z-dcgDysxYo"
+    },
+    {
+      "title": "Amoeba Sisters | Endosymbiotic Theory",
+      "link": "FGnS-Xk0ZqU"
+    },
+    {
+      "title": "Crash Course Biology | A Tour of the Cell",
+      "link": "jsDxw63QqK0"
+    },
+    {
+      "title": "Bozeman Science | Endosymbiosis",
+      "link": "-FQmAnmLZtE"
+    }
+  ]
+}

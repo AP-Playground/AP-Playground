@@ -1,0 +1,71 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "Besides the cell membrane itself as a barrier between the external environment and the cell, processes within the cell are separated through the principle of compartmentalization. This characteristic of intracellular components also has added benefits which make cellular reactions more efficient. Topic 2.9 is all about cell compartmentalization.",
+  "vocab": [
+    {
+      "term": "Compartmentalization",
+      "link": "https://en.wikipedia.org/wiki/Cellular_compartment"
+    },
+    {
+      "term": "Anabolic reactions",
+      "link": "https://en.wikipedia.org/wiki/Metabolism#Anabolism"
+    },
+    {
+      "term": "Catabolic reactions",
+      "link": "https://en.wikipedia.org/wiki/Metabolism#Catabolism"
+    },
+    {
+      "term": "Lysosomes",
+      "link": "https://en.wikipedia.org/wiki/Lysosome"
+    },
+    {
+      "term": "Mitochondria",
+      "link": "https://en.wikipedia.org/wiki/Mitochondrion"
+    },
+    {
+      "term": "Mitochondrial DNA",
+      "link": "https://en.wikipedia.org/wiki/Mitochondrial_DNA"
+    },
+    {
+      "term": "Chloroplasts",
+      "link": "https://en.wikipedia.org/wiki/Chloroplast"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | The endomembrane system (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/cell-compartmentalization-and-its-origins/a/the-endomembrane-system"
+    },
+    {
+      "title": "Wikipedia | Cellular compartment",
+      "link": "https://en.wikipedia.org/wiki/Cellular_compartment"
+    },
+    {
+      "title": "Biology Dictionary | Compartmentalization",
+      "link": "https://biologydictionary.net/ap-biology/2-10-compartmentalization/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology 2.9: Cell Compartmentalization",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Compartmentalization/Origins of Compartmentalization",
+      "link": "z-dcgDysxYo"
+    },
+    {
+      "title": "Amoeba Sisters | Prokaryotic vs. Eukaryotic Cells",
+      "link": "Pxujitlv8wc"
+    },
+    {
+      "title": "Crash Course Biology | A Tour of the Cell",
+      "link": "jsDxw63QqK0"
+    },
+    {
+      "title": "Bozeman Science | Compartmentalization",
+      "link": "2rihCCBzqMc"
+    }
+  ]
+}
