@@ -1,0 +1,51 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "Cell membranes have special properties to help keep in, keep out, and transfer useful materials. The membrane can help maintain the pH in a cell, while restricting the movement of larger molecules like glucose. Topic 2.5 is about what can and cannot freely move through the cell membrane.",
+  "vocab": [
+    {
+      "term": "Selective permeability",
+      "link": "https://en.wikipedia.org/wiki/Semipermeable_membrane"
+    },
+    {
+      "term": "Plasmodesmata",
+      "link": "https://en.wikipedia.org/wiki/Plasmodesma"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Fluid mosaic model: cell membranes (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/membrane-permeability/a/fluid-mosaic-model-cell-membranes-article"
+    },
+    {
+      "title": "Wikipedia | Cell membrane",
+      "link": "https://en.wikipedia.org/wiki/Cell_membrane"
+    },
+    {
+      "title": "Biology Dictionary | Membrane Permeability",
+      "link": "https://biologydictionary.net/ap-biology/2-5-membrane-permeability/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology 2.4: Membrane Permeability",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | 2.4 Membrane Permeability",
+      "link": "wd11FuXStWE"
+    },
+    {
+      "title": "Amoeba Sisters | Inside the Cell Membrane",
+      "link": "qBCVVszQQNs"
+    },
+    {
+      "title": "Crash Course Biology | Cell Membranes: How Does Stuff Get Into Your Cells?",
+      "link": "9Ia8zH-qMZw"
+    },
+    {
+      "title": "Bozeman Science | Cell Membranes",
+      "link": "y31DlJ6uGgE"
+    }
+  ]
+}

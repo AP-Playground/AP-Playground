@@ -1,0 +1,79 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "The most likely first component of cells to exist would have been the cell membrane. The membrane was just a thin layer surrounding an empty cell interior. However, that ancient cell membrane is almost indistinguishable from those of the cells in our bodies. Topic 2.4 is about the cell membrane and all the unique bits and bobs that make it work.",
+  "vocab": [
+    {
+      "term": "Fluid mosaic model",
+      "link": "https://en.wikipedia.org/wiki/Fluid_mosaic_model"
+    },
+    {
+      "term": "Phospholipid",
+      "link": "https://en.wikipedia.org/wiki/Phospholipid"
+    },
+    {
+      "term": "Bilayer",
+      "link": "https://en.wikipedia.org/wiki/Lipid_bilayer"
+    },
+    {
+      "term": "Membrane proteins",
+      "link": "https://en.wikipedia.org/wiki/Membrane_protein"
+    },
+    {
+      "term": "Integral membrane protein",
+      "link": "https://en.wikipedia.org/wiki/Integral_membrane_protein"
+    },
+    {
+      "term": "Peripheral membrane protein",
+      "link": "https://en.wikipedia.org/wiki/Peripheral_membrane_protein"
+    },
+    {
+      "term": "Glycoproteins",
+      "link": "https://en.wikipedia.org/wiki/Glycoprotein"
+    },
+    {
+      "term": "Glycolipids",
+      "link": "https://en.wikipedia.org/wiki/Glycolipid"
+    },
+    {
+      "term": "Cholesterol",
+      "link": "https://en.wikipedia.org/wiki/Cholesterol"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Structure of the plasma membrane (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/plasma-membranes/a/structure-of-the-plasma-membrane"
+    },
+    {
+      "title": "Wikipedia | Cell membrane",
+      "link": "https://en.wikipedia.org/wiki/Cell_membrane"
+    },
+    {
+      "title": "Biology Dictionary | Plasma Membrane",
+      "link": "https://biologydictionary.net/ap-biology/2-4-plasma-membrane/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology 2.3: Plasma Membranes",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | 2.3 Plasma Membranes",
+      "link": "c9Bj1VURjpU"
+    },
+    {
+      "title": "Amoeba Sisters | Inside the Cell Membrane",
+      "link": "qBCVVszQQNs"
+    },
+    {
+      "title": "Crash Course Biology | Cell Membranes: How Does Stuff Get Into Your Cells?",
+      "link": "9Ia8zH-qMZw"
+    },
+    {
+      "title": "Bozeman Science | The Cell Membrane",
+      "link": "S7CJ7xZOjm0"
+    }
+  ]
+}
