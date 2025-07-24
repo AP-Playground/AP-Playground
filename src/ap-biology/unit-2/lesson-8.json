@@ -1,0 +1,139 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "The past couple of lessons have all focused on different types of transport across the cell membrane. This is an essential process of all cells and necessary for their functions, as well as for life as a whole. Topic 2.9 serves as a review of passive transport, active transport, and osmosis.",
+  "vocab": [
+    {
+      "term": "Selective permeability",
+      "link": "https://en.wikipedia.org/wiki/Osmosis"
+    },
+    {
+      "term": "Concentration gradient",
+      "link": "https://en.wikipedia.org/wiki/Tonicity"
+    },
+    {
+      "term": "Dynamic equilibrium",
+      "link": "https://en.wikipedia.org/wiki/Tonicity#Isotonicity"
+    },
+    {
+      "term": "Passive transport",
+      "link": "https://en.wikipedia.org/wiki/Turgor_pressure"
+    },
+    {
+      "term": "Simple diffusion",
+      "link": ""
+    },
+    {
+      "term": "Facilitated diffusion",
+      "link": "https://en.wikipedia.org/wiki/Tonicity#Hypertonic_solution"
+    },
+    {
+      "term": "Channel proteins",
+      "link": ""
+    },
+    {
+      "term": "Carrier proteins",
+      "link": ""
+    },
+    {
+      "term": "Aquaporins",
+      "link": "https://en.wikipedia.org/wiki/Tonicity#Hypotonic_solution"
+    },
+    {
+      "term": "Active transport",
+      "link": ""
+    },
+    {
+      "term": "Endocytosis",
+      "link": ""
+    },
+    {
+      "term": "Phagocytosis",
+      "link": "https://en.wikipedia.org/wiki/Water_potential"
+    },
+    {
+      "term": "Pinocytosis",
+      "link": "https://en.wikipedia.org/wiki/Osmotic_pressure"
+    },
+    {
+      "term": "Receptor-mediated endocytosis",
+      "link": "https://en.wikipedia.org/wiki/Contractile_vacuole"
+    },
+    {
+      "term": "Exocytosis",
+      "link": "https://en.wikipedia.org/wiki/Aquaporin"
+    },
+    {
+      "term": "Osmosis",
+      "link": "https://en.wikipedia.org/wiki/Aquaporin"
+    },
+    {
+      "term": "Isotonic",
+      "link": "https://en.wikipedia.org/wiki/Aquaporin"
+    },
+    {
+      "term": "Hypertonic",
+      "link": "https://en.wikipedia.org/wiki/Aquaporin"
+    },
+    {
+      "term": "Hypotonic",
+      "link": "https://en.wikipedia.org/wiki/Aquaporin"
+    },
+    {
+      "term": "Water potential",
+      "link": "https://en.wikipedia.org/wiki/Aquaporin"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Osmosis and tonicity (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/mechanisms-of-transport-tonicity-and-osmoregulation/a/osmosis"
+    },
+    {
+      "title": "Wikipedia | Osmosis",
+      "link": "https://en.wikipedia.org/wiki/Osmosis"
+    },
+    {
+      "title": "Wikipedia | Contractile vacuole",
+      "link": "https://en.wikipedia.org/wiki/Contractile_vacuole"
+    },
+    {
+      "title": "Wikipedia | Aquaporin",
+      "link": "https://en.wikipedia.org/wiki/Aquaporin"
+    },
+    {
+      "title": "Biology Dictionary | Tonicity and Osmoregulation",
+      "link": "https://biologydictionary.net/ap-biology/2-8-facilitated-diffusion/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology 2.7: Tonicity and Osmoregulation",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | 2.7 Tonicity and Osmoregulation (Part I)",
+      "link": "de27hr0Er_E"
+    },
+    {
+      "title": "PoseKnows Biology | 2.7 Tonicity and Osmoregulation (Part II: Water Potential)",
+      "link": "3K_ydf2zMng"
+    },
+    {
+      "title": "Amoeba Sisters | Osmosis and Water Potential",
+      "link": "L-osEc07vMs"
+    },
+    {
+      "title": "Crash Course Biology | In Da Club - Membranes & Transport",
+      "link": "dPKvHrD1eS4"
+    },
+    {
+      "title": "Bozeman Science | Osmosis Demo",
+      "link": "eQsAzXr0UCU"
+    },
+    {
+      "title": "Bozeman Science | Water Potential",
+      "link": "nDZud2g1RVY"
+    }
+  ]
+}

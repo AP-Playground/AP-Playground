@@ -4,52 +4,40 @@
   "summary": "In Topic 2.6 we started to discuss the different forms of membrane transport that allow substances to enter and exit the cell. Topic 2.7 dives deeper into the various types of membrane transport.",
   "vocab": [
     {
-      "term": "Concentration gradient",
-      "link": "https://en.wikipedia.org/wiki/Fick%27s_laws_of_diffusion"
+      "term": "Integral proteins",
+      "link": "https://en.wikipedia.org/wiki/Integral_membrane_protein"
     },
     {
-      "term": "Dynamic equilibrium",
-      "link": "https://en.wikipedia.org/wiki/Dynamic_equilibrium_(chemistry)"
-    },
-    {
-      "term": "Diffusion",
-      "link": "https://en.wikipedia.org/wiki/Diffusion"
-    },
-    {
-      "term": "Passive transport",
-      "link": "https://en.wikipedia.org/wiki/Passive_transport"
-    },
-    {
-      "term": "Simple diffusion",
-      "link": "https://en.wikipedia.org/wiki/Molecular_diffusion"
+      "term": "Transmembrane proteins",
+      "link": "https://en.wikipedia.org/wiki/Transmembrane_protein"
     },
     {
       "term": "Facilitated diffusion",
       "link": "https://en.wikipedia.org/wiki/Facilitated_diffusion"
     },
     {
-      "term": "Active transport",
-      "link": "https://en.wikipedia.org/wiki/Active_transport"
+      "term": "Channel proteins",
+      "link": "https://en.wikipedia.org/wiki/Ion_channel"
     },
     {
-      "term": "Endocytosis",
-      "link": "https://en.wikipedia.org/wiki/Endocytosis"
+      "term": "Aquaporins",
+      "link": "https://en.wikipedia.org/wiki/Aquaporin"
     },
     {
-      "term": "Phagocytosis",
-      "link": "https://en.wikipedia.org/wiki/Phagocytosis"
+      "term": "Carrier proteins",
+      "link": "https://en.wikipedia.org/wiki/Membrane_transport_protein"
     },
     {
-      "term": "Pinocytosis",
-      "link": "https://en.wikipedia.org/wiki/Pinocytosis"
+      "term": "Sodium-potassium pump",
+      "link": "https://en.wikipedia.org/wiki/Sodium%E2%80%93potassium_pump"
     },
     {
-      "term": "Receptor-mediated endocytosis",
-      "link": "https://en.wikipedia.org/wiki/Receptor-mediated_endocytosis"
+      "term": "Membrane potential",
+      "link": "https://en.wikipedia.org/wiki/Membrane_potential"
     },
     {
-      "term": "Exocytosis",
-      "link": "https://en.wikipedia.org/wiki/Exocytosis"
+      "term": "Electrochemical gradient",
+      "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient"
     }
   ],
   "links": [
