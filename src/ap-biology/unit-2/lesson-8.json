@@ -4,28 +4,16 @@
   "summary": "The past couple of lessons have all focused on different types of transport across the cell membrane. This is an essential process of all cells and necessary for their functions, as well as for life as a whole. Topic 2.8 serves as a review of passive transport, active transport, and osmosis.",
   "vocab": [
     {
-      "term": "Selective permeability",
-      "link": "https://en.wikipedia.org/wiki/Semipermeable_membrane"
-    },
-    {
       "term": "Concentration gradient",
       "link": "https://en.wikipedia.org/wiki/Fick%27s_laws_of_diffusion"
-    },
-    {
-      "term": "Dynamic equilibrium",
-      "link": "https://en.wikipedia.org/wiki/Dynamic_equilibrium_(chemistry)"
     },
     {
       "term": "Passive transport",
       "link": "https://en.wikipedia.org/wiki/Passive_transport"
     },
     {
-      "term": "Simple diffusion",
-      "link": "https://en.wikipedia.org/wiki/Molecular_diffusion"
-    },
-    {
-      "term": "Facilitated diffusion",
-      "link": "https://en.wikipedia.org/wiki/Facilitated_diffusion"
+      "term": "Active transport",
+      "link": "https://en.wikipedia.org/wiki/Active_transport"
     },
     {
       "term": "Channel proteins",
@@ -36,52 +24,12 @@
       "link": "https://en.wikipedia.org/wiki/Membrane_transport_protein"
     },
     {
-      "term": "Aquaporins",
-      "link": "https://en.wikipedia.org/wiki/Aquaporin"
+      "term": "Sodium-potassium pump",
+      "link": "https://en.wikipedia.org/wiki/Sodium%E2%80%93potassium_pump"
     },
     {
-      "term": "Active transport",
-      "link": "https://en.wikipedia.org/wiki/Active_transport"
-    },
-    {
-      "term": "Endocytosis",
-      "link": "https://en.wikipedia.org/wiki/Endocytosis"
-    },
-    {
-      "term": "Phagocytosis",
-      "link": "https://en.wikipedia.org/wiki/Phagocytosis"
-    },
-    {
-      "term": "Pinocytosis",
-      "link": "https://en.wikipedia.org/wiki/Pinocytosis"
-    },
-    {
-      "term": "Receptor-mediated endocytosis",
-      "link": "https://en.wikipedia.org/wiki/Receptor-mediated_endocytosis"
-    },
-    {
-      "term": "Exocytosis",
-      "link": "https://en.wikipedia.org/wiki/Exocytosis"
-    },
-    {
-      "term": "Osmosis",
-      "link": "https://en.wikipedia.org/wiki/Osmosis"
-    },
-    {
-      "term": "Isotonic",
-      "link": "https://en.wikipedia.org/wiki/Tonicity#Isotonicity"
-    },
-    {
-      "term": "Hypertonic",
-      "link": "https://en.wikipedia.org/wiki/Tonicity#Hypertonic_solution"
-    },
-    {
-      "term": "Hypotonic",
-      "link": "https://en.wikipedia.org/wiki/Tonicity#Hypotonic_solution"
-    },
-    {
-      "term": "Water potential",
-      "link": "https://en.wikipedia.org/wiki/Water_potential"
+      "term": "Electrochemical gradient",
+      "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient"
     }
   ],
   "links": [
