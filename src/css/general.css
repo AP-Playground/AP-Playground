@@ -37,11 +37,18 @@ html {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  html {
+    filter: invert(1);
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
   margin-left: var(--side-nav-width);
   transition: margin 0.3s ease-in-out;
+  background-color: white;
 }
 
 .side-nav {
