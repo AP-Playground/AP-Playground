@@ -250,7 +250,7 @@ main {
     border-radius: calc(var(--side-nav-btn-diameter)/2);
     border: 5px solid var(--theme-80);
   }
-  & .content-block:nth-child(2) {
+  & > .content-block:nth-child(2) {
     background-color: var(--accent-10);
     border-color: var(--accent-90);
   }
