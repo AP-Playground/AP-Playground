@@ -490,10 +490,10 @@ html.dark-mode {
   }
   & .dark-mode-btn {
     & .light {
-      display: none;
+      display: none !important;
     }
     & .dark {
-      display: block;
+      display: block !important;
     }
   }
 }
