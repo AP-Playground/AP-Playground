@@ -95,7 +95,7 @@ pages.forEach((filename) => {
 
   writeFileSync(fullPath, genGeneric(filename));
 
-  console.log("Uploaded file: " + filename);
+  console.log("Uploaded page: " + filename);
 });
 
 
@@ -111,6 +111,8 @@ icons.forEach(icon => {
   mkdirSync(destDir, { recursive: true });
 
   copyFileSync(srcPath, destPath)
+
+  console.log("Uploaded icon: " + icon);
 })
 
 
@@ -126,6 +128,8 @@ stylesheets.forEach(css => {
   mkdirSync(destDir, { recursive: true });
 
   copyFileSync(srcPath, destPath)
+
+  console.log("Uploaded stylesheet: " + css);
 })
 
 
@@ -141,6 +145,8 @@ scripts.forEach(js => {
   mkdirSync(destDir, { recursive: true });
 
   copyFileSync(srcPath, destPath)
+
+  console.log("Uploaded script: " + js);
 })
 
 
