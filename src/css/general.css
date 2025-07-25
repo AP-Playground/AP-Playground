@@ -57,7 +57,11 @@ body {
 
 .side-nav {
   position: fixed;
+  top: 0;
   left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
   width: var(--side-nav-width);
   z-index: 1;
   & .side-nav-header .side-nav-btn {
@@ -75,6 +79,8 @@ body {
   background-color: var(--theme-10);
   overflow-x: hidden;
   overflow-y: scroll;
+  width: var(--side-nav-width);
+  transition: width 0.3s ease-in-out;
   &::-webkit-scrollbar {
     width: 7px;
     background: var(--theme-30);
@@ -86,7 +92,6 @@ body {
   &::-webkit-scrollbar-thumb:hover {
     background: var(--theme-80);
   }
-  height: calc(100dvh - var(--side-nav-btn-diameter));
   & > div {
     display: flex;
     flex-direction: column;
@@ -97,8 +102,6 @@ body {
     box-sizing: border-box;
     width: calc(var(--side-nav-width) - 7px);
   }
-  width: var(--side-nav-width);
-  transition: width 0.3s ease-in-out;
 }
 
 html.side-nav-closed {
@@ -118,9 +121,6 @@ html.side-nav-closed {
       & .side-nav-logo {
         display: none;
       }
-    }
-    & .side-nav-links > * {
-      display: none;
     }
     & .side-nav-links::-webkit-scrollbar {
       width: 5px;
@@ -231,8 +231,10 @@ html.side-nav-closed {
 .side-nav-background {
   display: none;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
   width: 100vw;
-  height: 100lvh;
   background-color: transparent;
   z-index: -1;
   transition: background-color 0.3s ease-in-out;
