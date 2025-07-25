@@ -338,11 +338,18 @@ a:hover {
       color: var(--accent);
     }
   }
-  & button .light {
-    display: block;
-  }
-  & button .dark {
-    display: none;
+  & .dark-mode-btn {
+    display: flex;
+    padding: 3px;
+    & * {    
+      filter: brightness(0) saturate(100%) invert(35%) sepia(27%) saturate(963%) hue-rotate(143deg) brightness(96%) contrast(87%);
+    }
+    & .light {
+      display: none;
+    }
+    & .dark {
+      display: block;
+    }
   }
 }
 
@@ -474,11 +481,11 @@ html.dark-mode {
   & .video-embed {
     filter: invert(1);
   }
-  & .nav-buttons {
-    & button .light {
+  & .dark-mode-btn {
+    & .light {
       display: none;
     }
-    & button .dark {
+    & .dark {
       display: block;
     }
   }
