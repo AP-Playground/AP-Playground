@@ -420,7 +420,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding-left: 30px;
+  padding-left: 25px;
 }
 
 sup {
