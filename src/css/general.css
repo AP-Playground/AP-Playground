@@ -37,15 +37,6 @@ html {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    filter: invert(1);
-  }
-  & .video-embed {
-    filter: invert(1);
-  }
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -323,10 +314,8 @@ a:hover {
 
 .page-header .nav-buttons {
   min-width: max-content;
-  & a {
-    text-decoration: none;
-    display: inline-block;
-  }
+  display: flex;
+  gap: 5px;
   & button {
     margin: 0;
     padding: 0;
@@ -343,6 +332,12 @@ a:hover {
     &:hover {
       color: var(--accent);
     }
+  }
+  & button.light {
+    display: visible;
+  }
+  & button.dark {
+    display: none;
   }
 }
 
@@ -465,5 +460,20 @@ sup {
 @media (max-width: 700px) {
   main {
     padding: 55px 15px 20px 15px;
+  }
+}
+
+html.dark-mode {
+  filter: invert(1);
+  & .video-embed {
+    filter: invert(1);
+  }
+  & .nav-buttons {
+    & button.light {
+      display: none;
+    }
+    & button.dark {
+      display: visible;
+    }
   }
 }

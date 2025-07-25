@@ -7,7 +7,7 @@
   <title>{{page.title}} | AP Playground</title>
   <link href="/css/general.css" rel="stylesheet">
   <link rel="icon" href="/icons/favicon.png">
-  <script src="/js/side-nav.js"></script>
+  <script src="/js/setup.js"></script>
 </head>
 
 <body>
@@ -72,12 +72,12 @@
         </li>
       </ul>
       <div class="nav-buttons">
-        <a href="{{navigation.previous}}">
-          <button><</button>
-        </a>
-        <a href="{{navigation.next}}">
-          <button>></button>
-        </a>
+        <a href="{{navigation.previous}}"><button><</button></a>
+        <a href="{{navigation.next}}"><button>></button></a>
+        <button class="dark-mode-btn">
+          <img src="/icons/light.svg" class="light" draggable="false">
+          <img src="/icons/dark.svg" class="dark" draggable="false">
+        </button>
       </div>
     </div>
     <div class="content-block intro-block">
