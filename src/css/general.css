@@ -7,17 +7,9 @@
 :root {
   --indent: 30px;
   --main-width: 120ch;
-  --accent: #e03513;
-  --accent-90: color-mix(in oklab, var(--accent) 90%, white 10%);
-  --accent-80: color-mix(in oklab, var(--accent) 80%, white 20%);
-  --accent-70: color-mix(in oklab, var(--accent) 70%, white 30%);
-  --accent-60: color-mix(in oklab, var(--accent) 60%, white 40%);
-  --accent-50: color-mix(in oklab, var(--accent) 50%, white 50%);
-  --accent-40: color-mix(in oklab, var(--accent) 40%, white 60%);
-  --accent-30: color-mix(in oklab, var(--accent) 30%, white 70%);
-  --accent-20: color-mix(in oklab, var(--accent) 20%, white 80%);
-  --accent-10: color-mix(in oklab, var(--accent) 10%, white 90%);
+  
   --theme: #296c7a;
+  --theme-filter: brightness(0) saturate(100%) invert(35%) sepia(27%) saturate(963%) hue-rotate(143deg) brightness(96%) contrast(87%);;
   --theme-90: color-mix(in oklab, var(--theme) 90%, white 10%);
   --theme-80: color-mix(in oklab, var(--theme) 80%, white 20%);
   --theme-70: color-mix(in oklab, var(--theme) 70%, white 30%);
@@ -27,6 +19,18 @@
   --theme-30: color-mix(in oklab, var(--theme) 30%, white 70%);
   --theme-20: color-mix(in oklab, var(--theme) 20%, white 80%);
   --theme-10: color-mix(in oklab, var(--theme) 10%, white 90%);
+  
+  --accent: #e03513;
+  --accent-filter: brightness(0) saturate(100%) invert(36%) sepia(61%) saturate(7168%) hue-rotate(356deg) brightness(91%) contrast(92%);
+  --accent-90: color-mix(in oklab, var(--accent) 90%, white 10%);
+  --accent-80: color-mix(in oklab, var(--accent) 80%, white 20%);
+  --accent-70: color-mix(in oklab, var(--accent) 70%, white 30%);
+  --accent-60: color-mix(in oklab, var(--accent) 60%, white 40%);
+  --accent-50: color-mix(in oklab, var(--accent) 50%, white 50%);
+  --accent-40: color-mix(in oklab, var(--accent) 40%, white 60%);
+  --accent-30: color-mix(in oklab, var(--accent) 30%, white 70%);
+  --accent-20: color-mix(in oklab, var(--accent) 20%, white 80%);
+  --accent-10: color-mix(in oklab, var(--accent) 10%, white 90%);
 }
 
 html {
@@ -342,13 +346,16 @@ a:hover {
     display: flex;
     padding: 3px;
     & * {    
-      filter: brightness(0) saturate(100%) invert(35%) sepia(27%) saturate(963%) hue-rotate(143deg) brightness(96%) contrast(87%);
+      filter: var(--theme-filter);
+      &:hover {
+        filter: var(--accent-filter);
+      }
     }
     & .light {
-      display: none;
+      display: block;
     }
     & .dark {
-      display: block;
+      display: none;
     }
   }
 }
@@ -392,9 +399,9 @@ a:hover {
   }
   & img {
     width: 100%;
-    filter: brightness(0) saturate(100%) invert(35%) sepia(27%) saturate(963%) hue-rotate(143deg) brightness(96%) contrast(87%);
+    filter: var(--theme-filter);
     &:hover {
-      filter: brightness(0) saturate(100%) invert(36%) sepia(61%) saturate(7168%) hue-rotate(356deg) brightness(91%) contrast(92%);
+      filter: var(--accent-filter);
     }
   }
   & h3 {
