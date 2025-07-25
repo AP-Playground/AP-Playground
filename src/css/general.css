@@ -32,9 +32,15 @@
 html {
   --side-nav-width: 400px;
   --side-nav-btn-diameter: 50px;
+  transition: filter 0.5s ease-in-out;
+  filter: invert(0);
   &.no-transition * {
     transition: none !important;
   }
+}
+
+html.no-transition {
+  transition: none !important;
 }
 
 body {
