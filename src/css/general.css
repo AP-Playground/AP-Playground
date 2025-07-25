@@ -60,10 +60,6 @@ body {
   width: var(--side-nav-width);
   z-index: 1;
   & .side-nav-header .side-nav-btn {
-    & > {
-      height: 100%;
-      width: 100%;
-    }
     & .shrink {
       display: inline;
     }
@@ -349,7 +345,9 @@ a:hover {
   & .dark-mode-btn {
     display: flex;
     padding: 3px;
-    & * {    
+    & > {
+      height: 100%;
+      width: 100%;
       filter: var(--theme-filter);
       &:hover {
         filter: var(--accent-filter);
