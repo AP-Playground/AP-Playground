@@ -60,6 +60,10 @@ body {
   width: var(--side-nav-width);
   z-index: 1;
   & .side-nav-header .side-nav-btn {
+    & > {
+      height: 100%;
+      width: 100%;
+    }
     & .shrink {
       display: inline;
     }
