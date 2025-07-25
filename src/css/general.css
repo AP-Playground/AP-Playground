@@ -303,7 +303,7 @@ a:hover {
 }
 
 .page-footer {
-  margin-top: 10px;
+  margin-top: 5px;
   display: flex;
   & a {
     flex: 1;

@@ -1,119 +1,103 @@
-<!DOCTYPE html>
-<html lang="en" class="no-transition">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{page.title}} | AP Playground</title>
-  <link href="/css/general.css" rel="stylesheet">
-  <link rel="icon" href="/icons/favicon.png">
-  <script src="/js/setup.js"></script>
-</head>
-
-<body>
-  <nav class="side-nav">
-    <div class="side-nav-background"></div>
-    <div class="side-nav-header">
-      <div class="side-nav-logo">
-        <img src="/icons/logo.svg" alt="AP Playground Logo">
+<nav class="side-nav">
+  <div class="side-nav-background"></div>
+  <div class="side-nav-header">
+    <div class="side-nav-logo">
+      <img src="/icons/logo.svg" alt="AP Playground Logo">
+    </div>
+    <button class="side-nav-btn">
+      <img src="/icons/shrink.svg" class="shrink" draggable="false">
+      <img src="/icons/expand.svg" class="expand" draggable="false">
+    </button>
+  </div>
+  <div class="side-nav-links">
+    <div>
+      <div class="side-nav-tab pages-nav">
+        <h2>
+          <a href="/">Home</a>
+        </h2>
+        <h2>
+          <a href="/courses">Courses</a>
+        </h2>
+        <h2>
+          <a href="/about">About</a>
+        </h2>
       </div>
-      <button class="side-nav-btn">
-        <img src="/icons/shrink.svg" class="shrink" draggable="false">
-        <img src="/icons/expand.svg" class="expand" draggable="false">
+      <div class="side-nav-tab game-nav">
+        <h2>
+          <a href="/games">Games</a>
+        </h2>
+        <hr>
+        <ul>
+          <a href="">123</a>
+          <a href="">456</a>
+          <a href="">789</a>
+        </ul>
+      </div>
+      <div class="side-nav-tab lesson-nav">
+        <h2>
+          <a href="/{{course.slug}}">{{course.title}}</a>
+        </h2>
+        <hr>
+        <ul>
+          {{navigation}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<main>
+  <div class="page-header">
+    <ul class="breadcrumbs">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/courses">Courses</a>
+      </li>
+      <li>
+        <a href="/{{course.slug}}">{{course.title}}</a>
+      </li>
+      <li>
+        <a href="/{{course.slug}}/{{unit.slug}}">{{unit.title}}</a>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <a href="{{navigation.previous}}"><button><</button></a>
+      <a href="{{navigation.next}}"><button>></button></a>
+      <button class="dark-mode-btn">
+        <img src="/icons/light.svg" class="light" draggable="false">
+        <img src="/icons/dark.svg" class="dark" draggable="false">
       </button>
     </div>
-    <div class="side-nav-links">
-      <div>
-        <div class="side-nav-tab pages-nav">
-          <h2>
-            <a href="/">Home</a>
-          </h2>
-          <h2>
-            <a href="/courses">Courses</a>
-          </h2>
-          <h2>
-            <a href="/about">About</a>
-          </h2>
-        </div>
-        <div class="side-nav-tab game-nav">
-          <h2>
-            <a href="/games">Games</a>
-          </h2>
-          <hr>
-          <ul>
-            <a href="">123</a>
-            <a href="">456</a>
-            <a href="">789</a>
-          </ul>
-        </div>
-        <div class="side-nav-tab lesson-nav">
-          <h2>
-            <a href="/{{course.slug}}">{{course.title}}</a>
-          </h2>
-          <hr>
-          <ul>
-            {{navigation}}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <main>
-    <div class="page-header">
-      <ul class="breadcrumbs">
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/courses">Courses</a>
-        </li>
-        <li>
-          <a href="/{{course.slug}}">{{course.title}}</a>
-        </li>
-        <li>
-          <a href="/{{course.slug}}/{{unit.slug}}">{{unit.title}}</a>
-        </li>
+  </div>
+  <div class="content-block intro-block">
+    <h1>{{page.title}}</h1>
+    <p>{{unit.summary}} <sup>(<a target="_blank" href="{{course.ced}}">{{course.title}} CED</a>)</sup></p>
+  </div>
+  <div class="content-block">
+    {{unit.unit-video}}
+  </div>
+  <div class="double-content-block">
+    <div class="content-block">
+      <h2>Games:</h2>
+      <ul class="games-list">
+        {{unit.games}}
       </ul>
-      <div class="nav-buttons">
-        <a href="{{navigation.previous}}"><button><</button></a>
-        <a href="{{navigation.next}}"><button>></button></a>
-        <button class="dark-mode-btn">
-          <img src="/icons/light.svg" class="light" draggable="false">
-          <img src="/icons/dark.svg" class="dark" draggable="false">
-        </button>
-      </div>
-    </div>
-    <div class="content-block intro-block">
-      <h1>{{page.title}}</h1>
-      <p>{{unit.summary}} <sup>(<a target="_blank" href="{{course.ced}}">{{course.title}} CED</a>)</sup></p>
     </div>
     <div class="content-block">
-      {{unit.unit-video}}
+      <h2>Resources:</h2>
+      <ul class="resources-list">
+        {{unit.links}}
+      </ul>
     </div>
-    <div class="double-content-block">
-      <div class="content-block">
-        <h2>Games:</h2>
-        <ul class="games-list">
-          {{unit.games}}
-        </ul>
-      </div>
-      <div class="content-block">
-        <h2>Resources:</h2>
-        <ul class="resources-list">
-          {{unit.links}}
-        </ul>
-      </div>
-    </div>
-    <div class="content-block">
-      <h2>Videos:</h2>
-      {{unit.videos}}
-    </div>
-    <div class="page-footer">
-      <a href="mailto:dakacorporation2@gmail.com">Contact Us</a>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2hNIyCBl1jcndz5vX2f5sTx2hDI3-NY_vkbOfJHKgFAnpcA/viewform">Feedback</a>
-      <a href="https://www.youtube.com/@ap-playground">Youtube</a>
-    </div>
-  </main>
-</body>
-
-</html>
+  </div>
+  <div class="content-block">
+    <h2>Videos:</h2>
+    {{unit.videos}}
+  </div>
+  <div class="page-footer">
+    <a href="mailto:dakacorporation2@gmail.com">Contact Us</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2hNIyCBl1jcndz5vX2f5sTx2hDI3-NY_vkbOfJHKgFAnpcA/viewform">Feedback</a>
+    <a href="https://www.youtube.com/@ap-playground">Youtube</a>
+  </div>
+</main>

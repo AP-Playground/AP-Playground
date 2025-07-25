@@ -1,11 +1,14 @@
-import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir } from 'fs';
+import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir, read } from 'fs';
 import { resolve, join, dirname } from 'path';
 import * as cheerio from 'cheerio';
 
 // read templates from src/templates
-const lessonTemplate = readFileSync("src/templates/lesson.html", "utf-8");
-const unitTemplate = readFileSync("src/templates/unit.html", "utf-8");
-const courseTemplate = readFileSync("src/templates/course.html", "utf-8");
+const templatesStart = readFileSync("src/templates/start.html", "utf-8");
+const templatesEnd = readFileSync("src/templates/end.html", "utf-8");
+
+const lessonTemplate = templatesStart + readFileSync("src/templates/lesson.html", "utf-8") + templatesEnd;
+const unitTemplate = templatesStart + readFileSync("src/templates/unit.html", "utf-8") + templatesEnd;
+const courseTemplate = templatesStart + readFileSync("src/templates/course.html", "utf-8") + templatesEnd;
 
 // fetch up-to-date data from the internet
 async function fetchData(url) {
@@ -243,7 +246,7 @@ function genLesson(lessonSlug, data) {
         vidText += `<h3>${vid.title}</h3>`
         vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"><img src="/icons/external_link.svg"></a>`
       vidText += `</div>`;
-      vidText += `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${vid.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      vidText += genVideoEmbed(vid.link);
     vidText += `</div>`
   })
 
@@ -314,7 +317,7 @@ function genUnit(unitSlug, data) {
   unitVidText += `</div>`;
 
   unitVidText += `<div class="video-container">`
-    unitVidText += `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${unitVidData}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+    unitVidText += genVideoEmbed(unitVidData);
   unitVidText += `</div>`
 
   page = page.replace("{{unit.unit-video}}", unitVidText)
@@ -346,7 +349,7 @@ function genUnit(unitSlug, data) {
         vidText += `<h3>${vid.title}</h3>`
         vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"><img src="/icons/external_link.svg"></a>`
       vidText += `</div>`;
-      vidText += `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${vid.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      vidText += genVideoEmbed(vid.link);
     vidText += `</div>`
   })
 
@@ -408,4 +411,8 @@ function genCourse(courseSlug, data) {
   page = page.replace("{{course.exam-date}}", examDates[navData.title].date + " at " + examDates[navData.title].time);
 
   return page;
+}
+
+function genVideoEmbed(link) {
+  return `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 }
