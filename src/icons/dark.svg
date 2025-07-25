@@ -15,6 +15,6 @@
      id="defs4" />
   <path
      id="path6"
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:fill markers stroke"
+     style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill markers stroke"
      d="M 20,4.3200368 A 15.679793,15.679793 0 0 0 4.3200368,20 15.679793,15.679793 0 0 0 20,35.679963 15.679793,15.679793 0 0 0 35.679963,20 15.679793,15.679793 0 0 0 35.628129,18.78016 10.374029,10.374029 0 0 1 27.115161,23.258668 10.374029,10.374029 0 0 1 16.741333,12.884839 10.374029,10.374029 0 0 1 21.21984,4.3718714 15.679793,15.679793 0 0 0 20,4.3200368 Z" />
 </svg>
