@@ -32,8 +32,7 @@
 html {
   --side-nav-width: 400px;
   --side-nav-btn-diameter: 50px;
-  transition: filter 0.5s ease-in-out;
-  filter: invert(0);
+  transition: filter 0.3s ease-in-out;
   &.no-transition * {
     transition: none !important;
   }
@@ -339,10 +338,10 @@ a:hover {
       color: var(--accent);
     }
   }
-  & button.light {
-    display: visible;
+  & button .light {
+    display: block;
   }
-  & button.dark {
+  & button .dark {
     display: none;
   }
 }
@@ -399,6 +398,7 @@ a:hover {
 .video-embed {
   width: 100%;
   aspect-ratio: 16/9;
+  transition: filter 0.3s ease-in-out;
 }
 
 .resources-list,
@@ -475,11 +475,11 @@ html.dark-mode {
     filter: invert(1);
   }
   & .nav-buttons {
-    & button.light {
+    & button .light {
       display: none;
     }
-    & button.dark {
-      display: visible;
+    & button .dark {
+      display: block;
     }
   }
 }
