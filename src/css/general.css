@@ -248,6 +248,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: white;
   & .content-block > :first-child {
     margin-top: 0;
   }
@@ -497,5 +498,8 @@ html.dark-mode {
     & .dark {
       display: block !important;
     }
+  }
+  & body {  
+    background-color: black;
   }
 }
