@@ -51,6 +51,7 @@ body {
   padding: 0;
   margin-left: var(--side-nav-width);
   background-color: white;
+  height: 100dvh;
   transition: margin 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
