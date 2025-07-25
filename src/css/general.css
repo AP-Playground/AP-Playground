@@ -261,6 +261,8 @@ main {
     padding: 20px;
     border-radius: calc(var(--side-nav-btn-diameter)/2);
     border: 5px solid var(--theme-80);
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
   & .content-block.intro-block {
     background-color: var(--accent-10);
