@@ -58,8 +58,11 @@ body {
 .side-nav {
   position: fixed;
   top: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: var(--side-nav-width);
   z-index: 1;
   & .side-nav-header .side-nav-btn {
     & .shrink {
@@ -78,10 +81,6 @@ body {
   overflow-y: scroll;
   width: var(--side-nav-width);
   transition: width 0.3s ease-in-out;
-  position: fixed;
-  top: var(--side-nav-btn-diameter);
-  bottom: 0;
-  left: 0;
   &::-webkit-scrollbar {
     width: 7px;
     background: var(--theme-30);
