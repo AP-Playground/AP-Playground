@@ -1,0 +1,103 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "In topic 3.1, we learned that enzymes can both break apart and join substrates. However, as with most things, it's much harder to build than destroy. Topic 3.3 explains the energy cells need to join molecules.",
+  "vocab": [
+    {
+      "term": "Metabolism",
+      "link": "https://en.wikipedia.org/wiki/Metabolism"
+    },
+    {
+      "term": "Energy",
+      "link": "https://en.wikipedia.org/wiki/Energy"
+    },
+    {
+      "term": "Endergonic reaction",
+      "link": "https://en.wikipedia.org/wiki/Endergonic_reaction"
+    },
+    {
+      "term": "Exergonic reaction",
+      "link": "https://en.wikipedia.org/wiki/Exergonic_reaction"
+    },
+    {
+      "term": "ATP (Adenosine triphosphate)",
+      "link": "https://en.wikipedia.org/wiki/Adenosine_triphosphate"
+    },
+    {
+      "term": "ADP (Adenosine diphosphate)",
+      "link": "https://en.wikipedia.org/wiki/Adenosine_diphosphate"
+    },
+    {
+      "term": "Energy coupling",
+      "link": "https://en.wikipedia.org/wiki/Metabolism#Thermodynamics_of_living_organisms"
+    },
+    {
+      "term": "Thermodynamics",
+      "link": "https://en.wikipedia.org/wiki/Thermodynamics"
+    },
+    {
+      "term": "1st Law of Thermodynamics",
+      "link": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics"
+    },
+    {
+      "term": "2nd Law of Thermodynamics",
+      "link": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics"
+    },
+    {
+      "term": "Entropy",
+      "link": "https://en.wikipedia.org/wiki/Entropy"
+    },
+    {
+      "term": "Free energy",
+      "link": "https://en.wikipedia.org/wiki/Thermodynamic_free_energy"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | The laws of thermodynamics (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-energy/a/the-laws-of-thermodynamics"
+    },
+    {
+      "title": "Khan Academy | ATP and reaction coupling (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-energy/a/atp-and-reaction-coupling"
+    },
+    {
+      "title": "Khan Academy | Overview of metabolism (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-energy/a/overview-of-metabolism"
+    },
+    {
+      "title": "Wikipedia | Adenosine triphosphate",
+      "link": "https://en.wikipedia.org/wiki/Adenosine_triphosphate"
+    },
+    {
+      "title": "Biology Dictionary | Cellular Energy",
+      "link": "https://biologydictionary.net/ap-biology/3-4-cellular-energy/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Cellular Energy",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Cellular Energy",
+      "link": "LY0hmW3XFDc"
+    },
+    {
+      "title": "Amoeba Sisters | What is ATP?",
+      "link": "23ZzI6WZS28"
+    },
+    {
+      "title": "Crash Course Biology | ATP and ADP (clip)",
+      "link": "pIdM52SwK0A"
+    },
+    {
+      "title": "Bozeman Science | ATP: Adenosine Triphosphate",
+      "link": "5GMLIMIVUvo"
+    },
+    {
+      "title": "Bozeman Science | Life Requires Free Energy",
+      "link": "JBmykor-2kU"
+    }
+  ]
+}

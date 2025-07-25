@@ -1,0 +1,159 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "In the previous lesson, you learned how plants use photosynthesis to get and store energy. Once that energy is stored (typically in the form of glucose), eukaryotes have several ways to turn it back to usable energy (ATP). Topic 3.5 explains both the aerobic (with oxygen) and anaerobic (without oxygen) ways cells produce ATP.",
+  "vocab": [
+    {
+      "term": "Aerobic respiration",
+      "link": "https://en.wikipedia.org/wiki/Cellular_respiration"
+    },
+    {
+      "term": "Mitochondria",
+      "link": "https://en.wikipedia.org/wiki/Mitochondrioa"
+    },
+    {
+      "term": "Matrix",
+      "link": "https://en.wikipedia.org/wiki/Mitochondrial_matrix"
+    },
+    {
+      "term": "Intermembrane space",
+      "link": "https://en.wikipedia.org/wiki/Intermembrane_space"
+    },
+    {
+      "term": "Cellular respiration",
+      "link": "https://en.wikipedia.org/wiki/Cellular_respiration"
+    },
+    {
+      "term": "Glycolysis",
+      "link": "https://en.wikipedia.org/wiki/Glycolysis"
+    },
+    {
+      "term": "Pyruvate",
+      "link": "https://en.wikipedia.org/wiki/Pyruvic_acid"
+    },
+    {
+      "term": "NAD+ / NADH",
+      "link": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide"
+    },
+    {
+      "term": "Link Reaction",
+      "link": "https://en.wikipedia.org/wiki/Pyruvate_decarboxylation"
+    },
+    {
+      "term": "Acetyl-CoA",
+      "link": "https://en.wikipedia.org/wiki/Acetyl-CoA"
+    },
+    {
+      "term": "Krebs Cycle/Citric Acid Cycle",
+      "link": "https://en.wikipedia.org/wiki/Citric_acid_cycle"
+    },
+    {
+      "term": "FAD / FADH2",
+      "link": "https://en.wikipedia.org/wiki/Flavin_adenine_dinucleotide"
+    },
+    {
+      "term": "Electron transport chain",
+      "link": "https://en.wikipedia.org/wiki/Electron_transport_chain"
+    },
+    {
+      "term": "Electrochemical gradient",
+      "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient"
+    },
+    {
+      "term": "ATP Synthase",
+      "link": "https://en.wikipedia.org/wiki/ATP_synthase"
+    },
+    {
+      "term": "Oxidative phosphorylation",
+      "link": "https://en.wikipedia.org/wiki/Oxidative_phosphorylation"
+    },
+    {
+      "term": "Chemiosmosis",
+      "link": "https://en.wikipedia.org/wiki/Chemiosmosis"
+    },
+    {
+      "term": "Anaerobic respiration",
+      "link": "https://en.wikipedia.org/wiki/Anaerobic_respiration"
+    },
+    {
+      "term": "Fermentation",
+      "link": "https://en.wikipedia.org/wiki/Fermentation"
+    },
+    {
+      "term": "Alcoholic fermentation",
+      "link": "https://en.wikipedia.org/wiki/Ethanol_fermentation"
+    },
+    {
+      "term": "Lactic acid fermentation",
+      "link": "https://en.wikipedia.org/wiki/Lactic_acid_fermentation"
+    },
+    {
+      "term": "Redox reaction",
+      "link": "https://en.wikipedia.org/wiki/Redox"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Introduction to cellular respiration and redox (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-respiration-ap/a/intro-to-cellular-respiration-and-redox"
+    },
+    {
+      "title": "Khan Academy | Overview of cellular respiration (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-respiration-ap/v/overview-of-cellular-respiration"
+    },
+    {
+      "title": "Khan Academy | Oxidative phosphorylation (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-respiration-ap/a/oxidative-phosphorylation-etc"
+    },
+    {
+      "title": "Khan Academy | Fermentation and anaerobic respiration (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-respiration-ap/a/fermentation-and-anaerobic-respiration"
+    },
+    {
+      "title": "Wikipedia | Cellular respiration",
+      "link": "https://en.wikipedia.org/wiki/Cellular_respiration"
+    },
+    {
+      "title": "Biology Dictionary | Cellular Respiration",
+      "link": "https://biologydictionary.net/ap-biology/3-6-cellular-respiration//"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Cellular Respiration",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Cellular Respiration (Part I)",
+      "link": "oispRPdTsGo"
+    },
+    {
+      "title": "PoseKnows Biology | Cellular Respiration (Part II)",
+      "link": "CmxI5UKaSIc"
+    },
+    {
+      "title": "Amoeba Sisters | Cellular Respiration",
+      "link": "eJ9Zjc-jdys"
+    },
+    {
+      "title": "Amoeba Sisters | Cellular Respiration: Before the Bell Biology",
+      "link": "vSsGHhtMJZs"
+    },
+    {
+      "title": "Amoeba Sisters | Fermentation",
+      "link": "YbdkbCU20_M"
+    },
+    {
+      "title": "Crash Course Biology | Cellular Respiration: Do Cells Breathe?",
+      "link": "HeO3yagexTw"
+    },
+    {
+      "title": "Bozeman Science | Cellular Respiration",
+      "link": "Gh2P5CmCC0M"
+    },
+    {
+      "title": "Bozeman Science | Photosynthesis and Respiration",
+      "link": "0IJMRsTcwcg"
+    }
+  ]
+}

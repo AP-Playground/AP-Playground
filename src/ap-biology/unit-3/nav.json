@@ -1,0 +1,369 @@
+{
+  "course": "ap-biology",
+  "title": "AP Biology",
+  "ced": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf",
+  "units": [
+    {
+      "title": "Chemistry of Life",
+      "prefix": "Unit 1",
+      "slug": "unit-1",
+      "lessons": [
+        {
+          "title": "Chemistry Fundamentals",
+          "prefix": "1.0",
+          "slug": "lesson-0"
+        },
+        {
+          "title": "Structure of Water and Hydrogen Bonding",
+          "prefix": "1.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "Elements of Life",
+          "prefix": "1.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Introduction to Macromolecules",
+          "prefix": "1.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Carbohydrates",
+          "prefix": "1.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Lipids",
+          "prefix": "1.5",
+          "slug": "lesson-5"
+        },
+        {
+          "title": "Nucleic Acids",
+          "prefix": "1.6",
+          "slug": "lesson-6"
+        },
+        {
+          "title": "Proteins",
+          "prefix": "1.7",
+          "slug": "lesson-7"
+        }
+      ]
+    },
+    {
+      "title": "Cell Structure and Function",
+      "prefix": "Unit 2",
+      "slug": "unit-2",
+      "lessons": [
+        {
+          "title": "Cell Structure and Function",
+          "prefix": "2.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "Cell Size",
+          "prefix": "2.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Plasma Membranes",
+          "prefix": "2.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Membrane Permeability",
+          "prefix": "2.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Membrane Transport",
+          "prefix": "2.5",
+          "slug": "lesson-5"
+        },
+        {
+          "title": "Facilitated Diffusion",
+          "prefix": "2.6",
+          "slug": "lesson-6"
+        },
+        {
+          "title": "Tonicity and Osmoregulation",
+          "prefix": "2.7",
+          "slug": "lesson-7"
+        },
+        {
+          "title": "Mechanisms of Transport",
+          "prefix": "2.8",
+          "slug": "lesson-8"
+        },
+        {
+          "title": "Cell Compartmentalization",
+          "prefix": "2.9",
+          "slug": "lesson-9"
+        },
+        {
+          "title": "Origins of Cell Compartmentalization",
+          "prefix": "2.10",
+          "slug": "lesson-10"
+        }
+      ]
+    },
+    {
+      "title": "Cellular Energetics",
+      "prefix": "Unit 3",
+      "slug": "unit-3",
+      "lessons": [
+        {
+          "title": "Enzymes",
+          "prefix": "3.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "Environmental Impacts on Enzyme Function",
+          "prefix": "3.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Cellular Energy",
+          "prefix": "3.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Photosynthesis",
+          "prefix": "3.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Cellular Respiration",
+          "prefix": "3.5",
+          "slug": "lesson-5"
+        }
+      ]
+    },
+    {
+      "title": "Cell Communication and Cell Cycle",
+      "prefix": "Unit 4",
+      "slug": "unit-4",
+      "lessons": [
+        {
+          "title": "Cell Communication",
+          "prefix": "4.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "Introduction to Signal Transduction",
+          "prefix": "4.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Signal Transduction Pathways",
+          "prefix": "4.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Feedback",
+          "prefix": "4.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Cell Cycle",
+          "prefix": "4.5",
+          "slug": "lesson-5"
+        },
+        {
+          "title": "Regulation of Cell Cycle",
+          "prefix": "4.6",
+          "slug": "lesson-6"
+        }
+      ]
+    },
+    {
+      "title": "Heredity",
+      "prefix": "Unit 5",
+      "slug": "unit-5",
+      "lessons": [
+        {
+          "title": "Meiosis",
+          "prefix": "5.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "Meiosis and Genetic Diversity",
+          "prefix": "5.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Mendelian Genetics",
+          "prefix": "5.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Non-Mendelian Genetics",
+          "prefix": "5.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Environmental Effects on Phenotype",
+          "prefix": "5.5",
+          "slug": "lesson-5"
+        }
+      ]
+    },
+    {
+      "title": "Gene Expression and Regulation",
+      "prefix": "Unit 6",
+      "slug": "unit-6",
+      "lessons": [
+        {
+          "title": "DNA and RNA Structure",
+          "prefix": "6.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "DNA Replication",
+          "prefix": "6.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Transcription and RNA Processing",
+          "prefix": "6.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Translation",
+          "prefix": "6.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Regulation of Gene Expression",
+          "prefix": "6.5",
+          "slug": "lesson-5"
+        },
+        {
+          "title": "Gene Expression and Cell Specialization",
+          "prefix": "6.6",
+          "slug": "lesson-6"
+        },
+        {
+          "title": "Mutations",
+          "prefix": "6.7",
+          "slug": "lesson-7"
+        },
+        {
+          "title": "Biotechnology",
+          "prefix": "6.8",
+          "slug": "lesson-8"
+        }
+      ]
+    },
+    {
+      "title": "Natural Selection",
+      "prefix": "Unit 7",
+      "slig": "unit-7",
+      "lessons": [
+        {
+          "title": "Introduction to Natural Selection",
+          "prefix": "7.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "Natural Selection",
+          "prefix": "7.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Artificial Selection",
+          "prefix": "7.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Population Genetics",
+          "prefix": "7.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Hardy–Weinberg Equilibrium",
+          "prefix": "7.5",
+          "slug": "lesson-5"
+        },
+        {
+          "title": "Evidence of Evolution",
+          "prefix": "7.6",
+          "slug": "lesson-6"
+        },
+        {
+          "title": "Common Ancestry",
+          "prefix": "7.7",
+          "slug": "lesson-7"
+        },
+        {
+          "title": "Continuing Evolution",
+          "prefix": "7.8",
+          "slug": "lesson-8"
+        },
+        {
+          "title": "Phylogeny",
+          "prefix": "7.9",
+          "slug": "lesson-9"
+        },
+        {
+          "title": "Speciation",
+          "prefix": "7.10",
+          "slug": "lesson-10"
+        },
+        {
+          "title": "Variations in Populations",
+          "prefix": "7.11",
+          "slug": "lesson-11"
+        },
+        {
+          "title": "Origin of Life on Earth",
+          "prefix": "7.12",
+          "slug": "lesson-12"
+        }
+      ]
+    },
+    {
+      "title": "Ecology",
+      "prefix": "Unit 8",
+      "slug": "unit-8",
+      "lessons": [
+        {
+          "title": "Responses to the Environment",
+          "prefix": "8.1",
+          "slug": "lesson-1"
+        },
+        {
+          "title": "Energy Flow Through Ecosystems",
+          "prefix": "8.2",
+          "slug": "lesson-2"
+        },
+        {
+          "title": "Population Ecology",
+          "prefix": "8.3",
+          "slug": "lesson-3"
+        },
+        {
+          "title": "Effect of Density on Populations",
+          "prefix": "8.4",
+          "slug": "lesson-4"
+        },
+        {
+          "title": "Community Ecology",
+          "prefix": "8.5",
+          "slug": "lesson-5"
+        },
+        {
+          "title": "Biodiversity",
+          "prefix": "8.6",
+          "slug": "lesson-6"
+        },
+        {
+          "title": "Disruptions to Ecosystems",
+          "prefix": "8.7",
+          "slug": "lesson-7"
+        }
+      ]
+    }
+  ],
+  "games": []
+}

@@ -1,0 +1,83 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "So far we've learned about how enzymes are shaped, how they function, and in the future, we'll look at how they're formed. But how do they break? How do we pause their function when they're unneeded? Topic 3.2 answers those questions.",
+  "vocab": [
+    {
+      "term": "Denaturation",
+      "link": "https://en.wikipedia.org/wiki/Denaturation_(biochemistry)"
+    },
+    {
+      "term": "Compartmentalization",
+      "link": "https://en.wikipedia.org/wiki/Cellular_compartment"
+    },
+    {
+      "term": "Enzyme/substrate concentration",
+      "link": "https://en.wikipedia.org/wiki/Enzyme_kinetics"
+    },
+    {
+      "term": "Cofactors",
+      "link": "https://en.wikipedia.org/wiki/Cofactor_(biochemistry)"
+    },
+    {
+      "term": "Coenzymes",
+      "link": "https://en.wikipedia.org/wiki/Enzyme#Coenzymes"
+    },
+    {
+      "term": "Competitive inhibitors",
+      "link": "https://en.wikipedia.org/wiki/Competitive_inhibition"
+    },
+    {
+      "term": "Non-competitive inhibitors",
+      "link": "https://en.wikipedia.org/wiki/Non-competitive_inhibition"
+    },
+    {
+      "term": "Allosteric site",
+      "link": "https://en.wikipedia.org/wiki/Allosteric_regulation"
+    },
+    {
+      "term": "Feedback inhibition",
+      "link": "https://en.wikipedia.org/wiki/Enzyme_inhibitor"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Enzyme reaction velocity and pH (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/environmental-impacts-on-enzyme-function/v/enzyme-reaction-velocity-and-ph"
+    },
+    {
+      "title": "Khan Academy | Enzyme regulation (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/environmental-impacts-on-enzyme-function/a/enzyme-regulation"
+    },
+    {
+      "title": "Khan Academy | Basics of enzyme kinetics graphs (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/environmental-impacts-on-enzyme-function/a/basics-of-enzyme-kinetics-graphs"
+    },
+    {
+      "title": "Wikipedia | Enzyme",
+      "link": "https://en.wikipedia.org/wiki/Enzyme"
+    },
+    {
+      "title": "Biology Dictionary | Environmental Impacts on Enzyme Function",
+      "link": "https://biologydictionary.net/ap-biology/3-3-environmental-impacts-on-enzyme-function/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Environmental Impacts on Enzyme Function",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Environmental Impacts on Enzyme Function",
+      "link": "jlgpVFP670E"
+    },
+    {
+      "title": "Amoeba Sisters | Enzyme Examples, Cofactors/Coenzymes, Inhibitors, and Feedback Inhibition",
+      "link": "6EDBlowVST0"
+    },
+    {
+      "title": "Bozeman Science | Enzymes",
+      "link": "ok9esggzN18"
+    }
+  ]
+}

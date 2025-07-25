@@ -1,0 +1,119 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "So far, you've learned about all the different types of molecules and structures that make up a living organism, but how are those things formed? How do they interact? Topic 3.1 answers both of those questions: cells use enzymes.",
+  "vocab": [
+    {
+      "term": "Enzyme",
+      "link": "https://en.wikipedia.org/wiki/Enzyme"
+    },
+    {
+      "term": "Catalyst",
+      "link": "https://en.wikipedia.org/wiki/Catalysis"
+    },
+    {
+      "term": "Activation energy",
+      "link": "https://en.wikipedia.org/wiki/Activation_energy"
+    },
+    {
+      "term": "Active site",
+      "link": "https://en.wikipedia.org/wiki/Active_site"
+    },
+    {
+      "term": "Cytoplasm",
+      "link": "https://en.wikipedia.org/wiki/Cytoplasm"
+    },
+    {
+      "term": "Cytosol",
+      "link": "https://en.wikipedia.org/wiki/Cytosol"
+    },
+    {
+      "term": "Substrate",
+      "link": "https://en.wikipedia.org/wiki/Substrate_(chemistry)"
+    },
+    {
+      "term": "Enzyzme-substrate complex",
+      "link": "https://en.wikipedia.org/wiki/Enzyme#Substrate_binding"
+    },
+    {
+      "term": "Lock and Key Model (outdated)",
+      "link": "https://en.wikipedia.org/wiki/Enzyme#%22Lock_and_key%22_model"
+    },
+    {
+      "term": "Induced Fit Model",
+      "link": "https://en.wikipedia.org/wiki/Enzyme#Induced_fit_model"
+    },
+    {
+      "term": "Conformational change",
+      "link": "https://en.wikipedia.org/wiki/Conformational_change"
+    },
+    {
+      "term": "Exergonic reaction",
+      "link": "https://en.wikipedia.org/wiki/Exergonic_reaction"
+    },
+    {
+      "term": "Catabolic",
+      "link": "https://en.wikipedia.org/wiki/Catabolism"
+    },
+    {
+      "term": "Exothermic process",
+      "link": "https://en.wikipedia.org/wiki/Exothermic_process"
+    },
+    {
+      "term": "Endergonic reaction",
+      "link": "https://en.wikipedia.org/wiki/Exergonic_reaction"
+    },
+    {
+      "term": "Anabolic",
+      "link": "https://en.wikipedia.org/wiki/Anabolism"
+    },
+    {
+      "term": "Endothermic process",
+      "link": "https://en.wikipedia.org/wiki/Endothermic_process"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Enzymes and the active site (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/enzymes-and-the-active-site"
+    },
+    {
+      "title": "Khan Academy | Enzymes review (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/hs-enzymes-review"
+    },
+    {
+      "title": "Wikipedia | Enzyme",
+      "link": "https://en.wikipedia.org/wiki/Enzyme"
+    },
+    {
+      "title": "Biology Dictionary | Enzyme Structure",
+      "link": "https://biologydictionary.net/ap-biology/3-1-enzyme-structure/"
+    },
+    {
+      "title": "Biology Dictionary | Enzyme Catalysis",
+      "link": "https://biologydictionary.net/ap-biology/3-2-enzyme-catalysis/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Enzymes",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Enzyme Structure + Catalysis",
+      "link": "mfoVLBOyomg"
+    },
+    {
+      "title": "Amoeba Sisters | Enzymes",
+      "link": "qgVFkRn8f10"
+    },
+    {
+      "title": "Bozeman Science | Enzymes",
+      "link": "ok9esggzN18"
+    },
+    {
+      "title": "Bozeman Science | Enzyme Catalysis",
+      "link": "hs75JmgGW5Y"
+    }
+  ]
+}

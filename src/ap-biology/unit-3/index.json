@@ -1,0 +1,40 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "unit",
+  "summary": "In Unit 3, students build on knowledge gained in Unit 2 about the structure and function of cells, focusing on cellular energetics. Living systems are complex in their organization and require constant energy input. This unit provides students with the knowledge necessary to master the concepts of energy capture and usage. Students work through enzyme structure and function, learning the ways in which the environment plays a role in how enzymes perform their function(s). Students gain a deeper understanding of the processes of photosynthesis and cellular respiration, which is knowledge they will use in Unit 6 while studying how cells use energy to fuel life processes.",
+  "unit-video": "",
+  "games": [
+    {
+      "title": "Vocab Review",
+      "link": "vocab-review"
+    },
+    {
+      "title": "Matching",
+      "link": "matching"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Unit 3: Cellular energetics",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics"
+    },
+    {
+      "title": "PoseKnows Biology | Unit 3 Playlist",
+      "link": "https://www.youtube.com/playlist?list=PLrQji7zW6lY-CmA0gFpHfLIt2iikhDpPt"
+    },
+    {
+      "title": "Excel at Science | Unit 2 - Cells",
+      "link": "https://www.excelatscience.com/ap-biology-unit-2"
+    }
+  ],
+  "videos": [
+    {
+      "title": "PoseKnows Biology | Unit 3: Cellular Energetics Recap",
+      "link": "VW10mCh4xYc"
+    },
+    {
+      "title": "Marco Learning | AP Biology: Unit 3 Review",
+      "link": "kYRwkdz76Pc"
+    }
+  ]
+}

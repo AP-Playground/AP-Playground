@@ -1,0 +1,167 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "Now that you know how enzymes work, it's time to learn about one of their most important uses. Topic 3.4 goes over the complex (and quite technical) process of photosynthesis. Feel free to watch the video and read the lesson multiple times to make sure you get the hang of this process.",
+  "vocab": [
+    {
+      "term": "Autotrophs",
+      "link": "https://en.wikipedia.org/wiki/Autotroph"
+    },
+    {
+      "term": "Heterotrophs",
+      "link": "https://en.wikipedia.org/wiki/Heterotroph"
+    },
+    {
+      "term": "Stroma",
+      "link": "https://en.wikipedia.org/wiki/Stroma_(fluid)"
+    },
+    {
+      "term": "Thylakoids",
+      "link": "https://en.wikipedia.org/wiki/Thylakoid"
+    },
+    {
+      "term": "Chlorophyll",
+      "link": "https://en.wikipedia.org/wiki/Chlorophyll"
+    },
+    {
+      "term": "Stomata",
+      "link": "https://en.wikipedia.org/wiki/Stoma"
+    },
+    {
+      "term": "Photosynthesis",
+      "link": "https://en.wikipedia.org/wiki/Photosynthesis"
+    },
+    {
+      "term": "Light-dependent reactions",
+      "link": "https://en.wikipedia.org/wiki/Light-dependent_reactions"
+    },
+    {
+      "term": "Photosystem II",
+      "link": "https://en.wikipedia.org/wiki/Photosystem_II"
+    },
+    {
+      "term": "Light-harvesting compound",
+      "link": "https://en.wikipedia.org/wiki/Photosystem_II_light-harvesting_protein"
+    },
+    {
+      "term": "P680",
+      "link": "https://en.wikipedia.org/wiki/P680"
+    },
+    {
+      "term": "Reaction center",
+      "link": "https://en.wikipedia.org/wiki/Photosynthetic_reaction_centre"
+    },
+    {
+      "term": "Primary electron acceptor",
+      "link": "https://en.wikipedia.org/wiki/Pheophytin"
+    },
+    {
+      "term": "Electron transport chain",
+      "link": "https://en.wikipedia.org/wiki/Electron_transport_chain"
+    },
+    {
+      "term": "Cytochrome",
+      "link": "https://en.wikipedia.org/wiki/Cytochrome"
+    },
+    {
+      "term": "Electrochemical gradient",
+      "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient"
+    },
+    {
+      "term": "Photosytem I",
+      "link": "https://en.wikipedia.org/wiki/Photosystem_I"
+    },
+    {
+      "term": "P700",
+      "link": "https://en.wikipedia.org/wiki/P700"
+    },
+    {
+      "term": "NADP+ / NADPH",
+      "link": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide_phosphate"
+    },
+    {
+      "term": "ATP Synthase",
+      "link": "https://en.wikipedia.org/wiki/ATP_synthase"
+    },
+    {
+      "term": "Chemiosmosis",
+      "link": "https://en.wikipedia.org/wiki/Chemiosmosis"
+    },
+    {
+      "term": "Light-independent reactions",
+      "link": "https://en.wikipedia.org/wiki/Calvin_cycle"
+    },
+    {
+      "term": "Calvin cycle",
+      "link": "https://en.wikipedia.org/wiki/Calvin_cycle"
+    },
+    {
+      "term": "Rubisco",
+      "link": "https://en.wikipedia.org/wiki/RuBisCO"
+    },
+    {
+      "term": "G3P",
+      "link": "https://en.wikipedia.org/wiki/Glyceraldehyde_3-phosphate"
+    },
+    {
+      "term": "Reactions",
+      "link": "https://en.wikipedia.org/wiki/Chemical_reaction"
+    },
+    {
+      "term": "Oxidation reaction!!!",
+      "link": "https://en.wikipedia.org/wiki/Redox"
+    },
+    {
+      "term": "Reduction reaction!!!",
+      "link": "https://en.wikipedia.org/wiki/Redox"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Intro to photosynthesis (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/photosynthesis/a/intro-to-photosynthesis"
+    },
+    {
+      "title": "Khan Academy | The light-dependent reactions (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/photosynthesis/a/light-dependent-reactions"
+    },
+    {
+      "title": "Khan Academy | The Calvin cycle (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/photosynthesis/a/calvin-cycle"
+    },
+    {
+      "title": "Wikipedia | Photosynthesis",
+      "link": "https://en.wikipedia.org/wiki/Photosynthesis"
+    },
+    {
+      "title": "Biology Dictionary | Photosynthesis",
+      "link": "https://biologydictionary.net/ap-biology/3-5-photosynthesis/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Photosynthesis",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Photosynthesis",
+      "link": "VQqpoyOfW6I"
+    },
+    {
+      "title": "Amoeba Sisters | Photosynthesis",
+      "link": "CMiPYHNNg28"
+    },
+    {
+      "title": "Amoeba Sisters | Photosynthesis: Before the Bell Biology",
+      "link": "MSx4rgLV_Ro"
+    },
+    {
+      "title": "Crash Course Biology | Photosynthesis: The Original Solar Power",
+      "link": "-ZRsLhaukn8"
+    },
+    {
+      "title": "Bozeman Science | Photosynthesis",
+      "link": "g78utcLQrJ4"
+    }
+  ]
+}
