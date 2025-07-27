@@ -37,13 +37,10 @@ html {
   --side-nav-width: 400px;
   --side-nav-btn-diameter: 50px;
   transition: filter 0.3s ease-in-out;
+  &.no-transition,
   &.no-transition * {
     transition: none !important;
   }
-}
-
-html.no-transition {
-  transition: none !important;
 }
 
 body {
@@ -51,14 +48,17 @@ body {
   padding: 0;
   margin-left: var(--side-nav-width);
   background-color: white;
-  height: 100dvh;
   transition: margin 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .side-nav {
   position: fixed;
   left: 0;
+  top: 0;
+  bottom: 0;
   width: var(--side-nav-width);
+  display: flex;
+  flex-direction: column;
   z-index: 1;
   & .side-nav-header .side-nav-btn {
     & .shrink {
@@ -75,6 +75,7 @@ body {
   background-color: var(--theme-10);
   overflow-x: hidden;
   overflow-y: scroll;
+  flex: 1;
   &::-webkit-scrollbar {
     width: 7px;
     background: var(--theme-30);
@@ -86,7 +87,6 @@ body {
   &::-webkit-scrollbar-thumb:hover {
     background: var(--theme-80);
   }
-  height: calc(100dvh - var(--side-nav-btn-diameter));
   & > div {
     display: flex;
     flex-direction: column;
@@ -171,10 +171,6 @@ html.side-nav-closed {
   transition: border-radius 0.3s ease-in-out, filter 0.1s linear;
 }
 
-.side-nav-links:hover .side-nav-current a:hover {
-  color: var(--accent);
-}
-
 .side-nav-tab {
   & h2 {
     margin: 0;
@@ -228,11 +224,16 @@ html.side-nav-closed {
   }
 }
 
+.side-nav-links:hover .side-nav-current a:hover {
+  color: var(--accent);
+}
+
 .side-nav-background {
   display: none;
   position: absolute;
+  top: 0;
+  bottom: 0;
   width: 100vw;
-  height: 100lvh;
   background-color: transparent;
   z-index: -1;
   transition: background-color 0.3s ease-in-out;
@@ -241,8 +242,9 @@ html.side-nav-closed {
 
 main {
   padding: 30px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px) 20px calc(max(calc(50% - var(--main-width)/2), 0px) + 40px);
-  height: 100%;
-  overflow-y: auto;
+  height: 100dvh;
+  overflow-y: scroll;
+  overflow-x: hidden;
   box-sizing: border-box;
   grid-column-start: 2;
   transition: padding 0.3s ease-in-out;
