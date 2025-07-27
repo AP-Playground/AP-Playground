@@ -97,6 +97,7 @@ body {
     padding: 10px;
     box-sizing: border-box;
     width: calc(var(--side-nav-width) - 7px);
+    margin-bottom: calc(max(100vh, 100lvh) - 100dvh);
   }
   width: var(--side-nav-width);
   transition: width 0.3s ease-in-out;
