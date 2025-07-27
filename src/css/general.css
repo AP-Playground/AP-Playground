@@ -311,10 +311,10 @@ a:hover {
 
 .page-footer {
   margin-top: 5px;
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
   & a {
-    flex: 1;
-    text-align: center;
+    justify-self: center;
   }
 }
 
