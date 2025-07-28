@@ -60,24 +60,24 @@ if (!existsSync(outDir)) mkdirSync(outDir);
 
 // array of pages that are already filled
 const staticPages = [
-  { path: 'about.html', title: 'About' }
+  { filename: 'about.html', title: 'About' }
 ]
 
 // write each page
-staticPages.forEach((file) => {
-  let page = readFileSync("src/static/" + file.path, 'utf-8');
+staticPages.forEach(({filename, title}) => {
+  let page = readFileSync("src/static/" + filename, 'utf-8');
   page = templatesStart + page + templatesEnd;
-  page = page.replace("{{page.title}}", file.title);
+  page = page.replace("{{page.title}}", title);
 
-  const fullPath = join(outDir, file.path);
+  const fullPath = join(outDir, filename);
   const dir = dirname(fullPath);
 
   // Ensure parent directories exist
   mkdirSync(dir, { recursive: true });
 
-  writeFileSync(fullPath, );
+  writeFileSync(fullPath, page);
 
-  console.log("Uploaded page: " + file.path);
+  console.log("Uploaded page: " + filename);
 });
 
 
