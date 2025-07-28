@@ -66,8 +66,8 @@ const staticPages = [
 // write each page
 staticPages.forEach((filename) => {
   const page = readFileSync("src/static/" + filename, 'utf-8');
-  
-  const fullPath = join(outDir, filename.replace(".json", ".html").replace("/index",""));
+
+  const fullPath = join(outDir, filename);
   const dir = dirname(fullPath);
 
   // Ensure parent directories exist
