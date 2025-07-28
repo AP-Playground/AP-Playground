@@ -308,7 +308,8 @@ a:hover {
 }
 
 .page-footer {
-  margin-top: 5px;
+  padding-top: 5px;
+  margin-top: auto;
   display: grid;
   grid-auto-flow: column;
   & a {
