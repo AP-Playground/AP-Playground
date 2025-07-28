@@ -65,13 +65,15 @@ const staticPages = [
 
 // write each page
 staticPages.forEach((filename) => {
-  const dir = dirname(filename);
   const page = readFileSync("src/static/" + filename, 'utf-8');
+  
+  const fullPath = join(outDir, filename.replace(".json", ".html").replace("/index",""));
+  const dir = dirname(fullPath);
 
   // Ensure parent directories exist
   mkdirSync(dir, { recursive: true });
 
-  writeFileSync(filename, templatesStart + page + templatesEnd);
+  writeFileSync(fullPath, templatesStart + page + templatesEnd);
 
   console.log("Uploaded page: " + filename);
 });
@@ -126,7 +128,7 @@ generatePages.forEach((filename) => {
 
   writeFileSync(fullPath, genGeneric(filename));
 
-  console.log("Uploaded page: " + fullPath);
+  console.log("Uploaded page: " + filename);
 });
 
 
