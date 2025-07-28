@@ -12,10 +12,6 @@
       "link": "https://en.wikipedia.org/wiki/Cellular_compartment"
     },
     {
-      "term": "Enzyme/substrate concentration",
-      "link": "https://en.wikipedia.org/wiki/Enzyme_kinetics"
-    },
-    {
       "term": "Cofactors",
       "link": "https://en.wikipedia.org/wiki/Cofactor_(biochemistry)"
     },
@@ -37,7 +33,7 @@
     },
     {
       "term": "Feedback inhibition",
-      "link": "https://en.wikipedia.org/wiki/Enzyme_inhibitor"
+      "link": "https://en.wikipedia.org/wiki/Enzyme_inhibitor#Metabolic_regulation"
     }
   ],
   "links": [

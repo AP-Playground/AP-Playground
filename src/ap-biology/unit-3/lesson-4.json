@@ -40,40 +40,16 @@
       "link": "https://en.wikipedia.org/wiki/Photosystem_II"
     },
     {
-      "term": "Light-harvesting compound",
-      "link": "https://en.wikipedia.org/wiki/Photosystem_II_light-harvesting_protein"
-    },
-    {
-      "term": "P680",
-      "link": "https://en.wikipedia.org/wiki/P680"
-    },
-    {
-      "term": "Reaction center",
-      "link": "https://en.wikipedia.org/wiki/Photosynthetic_reaction_centre"
-    },
-    {
-      "term": "Primary electron acceptor",
-      "link": "https://en.wikipedia.org/wiki/Pheophytin"
-    },
-    {
       "term": "Electron transport chain",
       "link": "https://en.wikipedia.org/wiki/Electron_transport_chain"
-    },
-    {
-      "term": "Cytochrome",
-      "link": "https://en.wikipedia.org/wiki/Cytochrome"
     },
     {
       "term": "Electrochemical gradient",
       "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient"
     },
     {
-      "term": "Photosytem I",
+      "term": "Photosystem I",
       "link": "https://en.wikipedia.org/wiki/Photosystem_I"
-    },
-    {
-      "term": "P700",
-      "link": "https://en.wikipedia.org/wiki/P700"
     },
     {
       "term": "NADP+ / NADPH",
@@ -104,15 +80,7 @@
       "link": "https://en.wikipedia.org/wiki/Glyceraldehyde_3-phosphate"
     },
     {
-      "term": "Reactions",
-      "link": "https://en.wikipedia.org/wiki/Chemical_reaction"
-    },
-    {
-      "term": "Oxidation reaction!!",
-      "link": "https://en.wikipedia.org/wiki/Redox"
-    },
-    {
-      "term": "Reduction reaction!!",
+      "term": "Redox reactions",
       "link": "https://en.wikipedia.org/wiki/Redox"
     }
   ],
