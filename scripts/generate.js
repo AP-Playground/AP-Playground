@@ -57,8 +57,29 @@ const outDir = resolve('public');
 // ensure the directory exists
 if (!existsSync(outDir)) mkdirSync(outDir);
 
+
+// array of pages that are already filled
+const staticPages = [
+  'about.html'
+]
+
+// write each page
+staticPages.forEach((filename) => {
+  const dir = dirname(filename);
+  const page = readFileSync("src/static/" + filename, 'utf-8');
+
+  // Ensure parent directories exist
+  mkdirSync(dir, { recursive: true });
+
+  writeFileSync(filename, templatesStart + page + templatesEnd);
+
+  console.log("Uploaded page: " + filename);
+});
+
+
+
 // array of pages to generate
-const pages = [
+const generatePages = [
   'ap-biology/index.json',
   'ap-biology/unit-1/index.json',
   'ap-biology/unit-1/lesson-0.json',
@@ -96,7 +117,7 @@ const pages = [
 ];
 
 // write each page
-pages.forEach((filename) => {
+generatePages.forEach((filename) => {
   const fullPath = join(outDir, filename.replace(".json", ".html").replace("/index",""));
   const dir = dirname(fullPath);
 
@@ -105,7 +126,7 @@ pages.forEach((filename) => {
 
   writeFileSync(fullPath, genGeneric(filename));
 
-  console.log("Uploaded page: " + filename);
+  console.log("Uploaded page: " + fullPath);
 });
 
 
