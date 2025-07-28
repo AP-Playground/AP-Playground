@@ -1,0 +1,40 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "unit",
+  "summary": "In Unit 4, students continue to learn about the role of cells, focusing on how cells use energy and information transmission to communicate and replicate. Through systems of complex transduction pathways, cells can communicate with one another. Cells can also generate and receive signals, coordinate mechanisms for growth, and respond to environmental cues. To maintain homeostasis, cells respond to their environment. They can also replicate and regulate replication as part of the cell cycle that provides for the continuity of life. In Unit 5, students will move on to learn about heredity.",
+  "unit-video": "",
+  "games": [
+    {
+      "title": "Vocab Review",
+      "link": "vocab-review"
+    },
+    {
+      "title": "Matching",
+      "link": "matching"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Unit 4: Cell communication and cell cycle",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle"
+    },
+    {
+      "title": "PoseKnows Biology | Unit 4 Playlist",
+      "link": "https://www.youtube.com/playlist?list=PLrQji7zW6lY_jfkJi6e-9PeDqALgdY9Ra"
+    },
+    {
+      "title": "Excel at Science | Unit 2 - Cells",
+      "link": "https://www.excelatscience.com/ap-biology-unit-2"
+    }
+  ],
+  "videos": [
+    {
+      "title": "PoseKnows Biology | Unit 4: Cell Communication and Cell Cycle AP Biology Recap",
+      "link": "l-eqEqAl01o"
+    },
+    {
+      "title": "Marco Learning | AP Biology: Unit 4/5 Review",
+      "link": "iHo9CFH0lHo"
+    }
+  ]
+}

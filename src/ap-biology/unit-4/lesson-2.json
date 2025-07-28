@@ -1,0 +1,103 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "Last lesson, we were introduced to the signal transduction pathway. We learned about the general concepts and terms that are related to signal movement. Topic 4.2 delves deeper into the specifics of transduction, providing examples of each step of the process.",
+  "vocab": [
+    {
+      "term": "Steroid hormones",
+      "link": "https://en.wikipedia.org/wiki/Steroid_hormone"
+    },
+    {
+      "term": "Cell surface receptors",
+      "link": "https://en.wikipedia.org/wiki/Cell_surface_receptor"
+    },
+    {
+      "term": "Ligand-gated ion channels",
+      "link": "https://en.wikipedia.org/wiki/Ligand-gated_ion_channel"
+    },
+    {
+      "term": "G-protein coupled receptors",
+      "link": "https://en.wikipedia.org/wiki/G_protein-coupled_receptor"
+    },
+    {
+      "term": "G protein",
+      "link": "https://en.wikipedia.org/wiki/G_protein"
+    },
+    {
+      "term": "GTP / GDP???",
+      "link": "https://en.wikipedia.org/wiki/Guanosine_triphosphate"
+    },
+    {
+      "term": "Receptor tyrosine kinases",
+      "link": "https://en.wikipedia.org/wiki/Receptor_tyrosine_kinase"
+    },
+    {
+      "term": "Phosphorylation cascade",
+      "link": "https://en.wikipedia.org/wiki/Phosphorylation_cascade"
+    },
+    {
+      "term": "Kinase",
+      "link": "https://en.wikipedia.org/wiki/Kinase"
+    },
+    {
+      "term": "Phosphatase",
+      "link": "https://en.wikipedia.org/wiki/Phosphatase"
+    },
+    {
+      "term": "Second messengers",
+      "link": "https://en.wikipedia.org/wiki/Second_messenger_system"
+    },
+    {
+      "term": "Calcium ions (Ca2+)",
+      "link": "https://en.wikipedia.org/wiki/Calcium_in_biology"
+    },
+    {
+      "term": "Cyclic adenosine monophosphate (cyclic AMP / cAMP)",
+      "link": "https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Enzymes and the active site (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/enzymes-and-the-active-site"
+    },
+    {
+      "title": "Khan Academy | Enzymes review (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/hs-enzymes-review"
+    },
+    {
+      "title": "Wikipedia | Enzyme",
+      "link": "https://en.wikipedia.org/wiki/Enzyme"
+    },
+    {
+      "title": "Biology Dictionary | Enzyme Structure",
+      "link": "https://biologydictionary.net/ap-biology/3-1-enzyme-structure/"
+    },
+    {
+      "title": "Biology Dictionary | Enzyme Catalysis",
+      "link": "https://biologydictionary.net/ap-biology/3-2-enzyme-catalysis/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Enzymes",
+      "link": "S4MMid36MtM"
+    },
+    {
+      "title": "PoseKnows Biology | Enzyme Structure + Catalysis",
+      "link": "mfoVLBOyomg"
+    },
+    {
+      "title": "Amoeba Sisters | Enzymes",
+      "link": "qgVFkRn8f10"
+    },
+    {
+      "title": "Bozeman Science | Enzymes",
+      "link": "ok9esggzN18"
+    },
+    {
+      "title": "Bozeman Science | Enzyme Catalysis",
+      "link": "hs75JmgGW5Y"
+    }
+  ]
+}

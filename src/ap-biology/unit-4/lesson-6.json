@@ -1,0 +1,103 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "In the previous lesson, we learned about how cells grow and replicate in the cell cycle. But how does an organism keep the cell cycle under control so that there are always enough resources to go around? Topic 4.6 explains the restrictions cells place on their replication. Please keep note that this is not the same process that organisms use to mate (more on that in unit 5).",
+  "vocab": [
+    {
+      "term": "Cell cycle checkpoint",
+      "link": "https://en.wikipedia.org/wiki/Cell_cycle_checkpoint"
+    },
+    {
+      "term": "G1 phase checkpoint???",
+      "link": "https://en.wikipedia.org/wiki/Restriction_point"
+    },
+    {
+      "term": "G2 phase checkpoint???",
+      "link": "https://en.wikipedia.org/wiki/G2-M_DNA_damage_checkpoint"
+    },
+    {
+      "term": "M phase checkpoint???",
+      "link": "https://en.wikipedia.org/wiki/Spindle_checkpoint"
+    },
+    {
+      "term": "Cyclin-dependent kinases (CDKs)",
+      "link": "https://en.wikipedia.org/wiki/Cyclin-dependent_kinase"
+    },
+    {
+      "term": "Growth factor",
+      "link": "https://en.wikipedia.org/wiki/Growth_factor"
+    },
+    {
+      "term": "Density-dependent inhibition",
+      "link": "https://en.wikipedia.org/wiki/Density_dependence"
+    },
+    {
+      "term": "Anchorage dependency???",
+      "link": "https://en.wikipedia.org/wiki/Adherent_culture"
+    },
+    {
+      "term": "Cancer",
+      "link": "https://en.wikipedia.org/wiki/Cancer"
+    },
+    {
+      "term": "Tumor",
+      "link": "https://en.wikipedia.org/wiki/Neoplasm"
+    },
+    {
+      "term": "Benign tumor",
+      "link": "https://en.wikipedia.org/wiki/Benign_tumor"
+    },
+    {
+      "term": "Malignant tumor",
+      "link": "https://en.wikipedia.org/wiki/Cancer"
+    },
+    {
+      "term": "Metastasis",
+      "link": "https://en.wikipedia.org/wiki/Metastasis"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Enzymes and the active site (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/enzymes-and-the-active-site"
+    },
+    {
+      "title": "Khan Academy | Enzymes review (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/hs-enzymes-review"
+    },
+    {
+      "title": "Wikipedia | Enzyme",
+      "link": "https://en.wikipedia.org/wiki/Enzyme"
+    },
+    {
+      "title": "Biology Dictionary | Enzyme Structure",
+      "link": "https://biologydictionary.net/ap-biology/3-1-enzyme-structure/"
+    },
+    {
+      "title": "Biology Dictionary | Enzyme Catalysis",
+      "link": "https://biologydictionary.net/ap-biology/3-2-enzyme-catalysis/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Enzymes",
+      "link": "S4MMid36MtM"
+    },
+    {
+      "title": "PoseKnows Biology | Enzyme Structure + Catalysis",
+      "link": "mfoVLBOyomg"
+    },
+    {
+      "title": "Amoeba Sisters | Enzymes",
+      "link": "qgVFkRn8f10"
+    },
+    {
+      "title": "Bozeman Science | Enzymes",
+      "link": "ok9esggzN18"
+    },
+    {
+      "title": "Bozeman Science | Enzyme Catalysis",
+      "link": "hs75JmgGW5Y"
+    }
+  ]
+}

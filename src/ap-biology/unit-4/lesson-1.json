@@ -1,0 +1,131 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "In Unit 3, we learned about how individual cells get their energy and function. However, all multicellular organisms, including ourselves, need their cells to work together as one being. Topic 4.1 begins to explain how cells talk to one another to convey the information necessary for day-to-day operations.",
+  "vocab": [
+    {
+      "term": "Signal Transduction Pathways",
+      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
+    },
+    {
+      "term": "Reception???",
+      "link": "https://en.wikipedia.org/wiki/Signal_transduction#Stimuli"
+    },
+    {
+      "term": "Receptor",
+      "link": "https://en.wikipedia.org/wiki/Receptor_(biochemistry)"
+    },
+    {
+      "term": "Ligand",
+      "link": "https://en.wikipedia.org/wiki/Ligand_(biochemistry)"
+    },
+    {
+      "term": "Target Cell???",
+      "link": ""
+    },
+    {
+      "term": "Transduction???",
+      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
+    },
+    {
+      "term": "Response???",
+      "link": "https://en.wikipedia.org/wiki/Signal_transduction#Cellular_responses"
+    },
+    {
+      "term": "Autocrine signaling",
+      "link": "https://en.wikipedia.org/wiki/Autocrine_signaling"
+    },
+    {
+      "term": "Juxtacrine signaling",
+      "link": "https://en.wikipedia.org/wiki/Juxtacrine_signalling"
+    },
+    {
+      "term": "Plasmodesmata",
+      "link": "https://en.wikipedia.org/wiki/Plasmodesma"
+    },
+    {
+      "term": "Gap junctions",
+      "link": "https://en.wikipedia.org/wiki/Gap_junction"
+    },
+    {
+      "term": "Paracrine signaling",
+      "link": "https://en.wikipedia.org/wiki/Paracrine_signaling"
+    },
+    {
+      "term": "Synaptic signaling???",
+      "link": "https://en.wikipedia.org/wiki/Chemical_synapse"
+    },
+    {
+      "term": "Neurotransmitters",
+      "link": "https://en.wikipedia.org/wiki/Neurotransmitter"
+    },
+    {
+      "term": "Quorum sensing",
+      "link": "https://en.wikipedia.org/wiki/Quorum_sensing"
+    },
+    {
+      "term": "Morphogens???",
+      "link": "https://en.wikipedia.org/wiki/Morphogen"
+    },
+    {
+      "term": "Endocrine signaling???",
+      "link": "https://en.wikipedia.org/wiki/Endocrine_system"
+    },
+    {
+      "term": "Hormones",
+      "link": "https://en.wikipedia.org/wiki/Hormone"
+    },
+    {
+      "term": "Insulin",
+      "link": "https://en.wikipedia.org/wiki/Insulin"
+    },
+    {
+      "term": "Growth hormone",
+      "link": "https://en.wikipedia.org/wiki/Growth_hormone"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Enzymes and the active site (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/enzymes-and-the-active-site"
+    },
+    {
+      "title": "Khan Academy | Enzymes review (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/hs-enzymes-review"
+    },
+    {
+      "title": "Wikipedia | Enzyme",
+      "link": "https://en.wikipedia.org/wiki/Enzyme"
+    },
+    {
+      "title": "Biology Dictionary | Enzyme Structure",
+      "link": "https://biologydictionary.net/ap-biology/3-1-enzyme-structure/"
+    },
+    {
+      "title": "Biology Dictionary | Enzyme Catalysis",
+      "link": "https://biologydictionary.net/ap-biology/3-2-enzyme-catalysis/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Enzymes",
+      "link": "S4MMid36MtM"
+    },
+    {
+      "title": "PoseKnows Biology | Enzyme Structure + Catalysis",
+      "link": "mfoVLBOyomg"
+    },
+    {
+      "title": "Amoeba Sisters | Enzymes",
+      "link": "qgVFkRn8f10"
+    },
+    {
+      "title": "Bozeman Science | Enzymes",
+      "link": "ok9esggzN18"
+    },
+    {
+      "title": "Bozeman Science | Enzyme Catalysis",
+      "link": "hs75JmgGW5Y"
+    }
+  ]
+}
