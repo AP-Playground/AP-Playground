@@ -44,7 +44,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  height: 100dvh;
   margin-left: var(--side-nav-width);
   background-color: white;
   transition: margin 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -54,7 +53,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  height: max(100vh, 100lvh);
+  bottom: 0;
   width: var(--side-nav-width);
   display: flex;
   flex-direction: column;
@@ -95,7 +94,6 @@ body {
     padding: 10px;
     box-sizing: border-box;
     width: calc(var(--side-nav-width) - 7px);
-    margin-bottom: calc(max(100vh, 100lvh) - 100dvh);
   }
   width: var(--side-nav-width);
   transition: width 0.3s ease-in-out;
@@ -242,7 +240,7 @@ html.side-nav-closed {
 
 main {
   padding: 30px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px) 20px calc(max(calc(50% - var(--main-width)/2), 0px) + 40px);
-  height: 100%;
+  height: 100dvh;
   overflow-y: auto;
   box-sizing: border-box;
   grid-column-start: 2;
