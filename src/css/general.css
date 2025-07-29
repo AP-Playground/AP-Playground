@@ -98,7 +98,7 @@ body {
     width: calc(var(--side-nav-width) - 7px);
   }
   width: var(--side-nav-width);
-  box-shadow: 0 calc(100dvh - max(100lvh,100dvh)) var(--accent-10);
+  box-shadow: 0 calc(max(100lvh,100dvh) - 100dvh) var(--accent-10);
   transition: width 0.3s ease-in-out;
 }
 
