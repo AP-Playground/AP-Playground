@@ -360,9 +360,8 @@ a:hover {
       -webkit-mask-size: cover;
       mask-size: cover;
       background-color: var(--theme);
-      filter: var(--theme-filter);
       &:hover {
-        filter: var(--accent-filter);
+        background-color: var(--accent);
       }
     }
     & .light {
@@ -503,8 +502,8 @@ html.dark-mode {
     filter: invert(1);
   }
   & .dark-mode-btn {
-    -webkit-mask-image: url("/icons/dark.svg");
-    mask-image: url("/icons/dark.svg");
+    -webkit-mask-image: url("/icons/dark.svg") !important;
+    mask-image: url("/icons/dark.svg") !important;
   }
   & body {  
     background-color: black;
