@@ -7,7 +7,6 @@
   --main-width: 120ch;
   
   --theme: #296c7a;
-  --theme-filter: brightness(0) saturate(100%) invert(35%) sepia(27%) saturate(963%) hue-rotate(143deg) brightness(96%) contrast(87%);;
   --theme-90: color-mix(in oklab, var(--theme) 90%, white 10%);
   --theme-80: color-mix(in oklab, var(--theme) 80%, white 20%);
   --theme-70: color-mix(in oklab, var(--theme) 70%, white 30%);
@@ -19,7 +18,6 @@
   --theme-10: color-mix(in oklab, var(--theme) 10%, white 90%);
   
   --accent: #e03513;
-  --accent-filter: brightness(0) saturate(100%) invert(36%) sepia(61%) saturate(7168%) hue-rotate(356deg) brightness(91%) contrast(92%);
   --accent-90: color-mix(in oklab, var(--accent) 90%, white 10%);
   --accent-80: color-mix(in oklab, var(--accent) 80%, white 20%);
   --accent-70: color-mix(in oklab, var(--accent) 70%, white 30%);
@@ -405,14 +403,12 @@ a:hover {
   margin-inline: 5px;
   align-items: center;
   & a {
-    display: flex;
-    align-items: center;
-  }
-  & img {
-    width: 100%;
-    filter: var(--theme-filter);
+    aspect-ratio: 1;
+    mask-image: url("/icons/external_link.svg");
+    mask-size: cover;
+    background-color: var(--theme);
     &:hover {
-      filter: var(--accent-filter);
+      background-color: var(--accent);
     }
   }
   & h3 {

@@ -276,7 +276,7 @@ function genLesson(lessonSlug, data) {
     vidText += `<div class="video-container">`
       vidText += `<div class="video-header">`
         vidText += `<h3>${vid.title}</h3>`
-        vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"><img src="/icons/external_link.svg"></a>`
+        vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"></a>`
       vidText += `</div>`;
       vidText += genVideoEmbed(vid.link);
     vidText += `</div>`
@@ -345,7 +345,7 @@ function genUnit(unitSlug, data) {
 
   unitVidText += `<div class="video-header">`
     unitVidText += `<h2>Unit Review:</h2>`
-    unitVidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${unitVidData}"><img src="/icons/external_link.svg"></a>`
+    unitVidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${unitVidData}"></a>`
   unitVidText += `</div>`;
 
   unitVidText += `<div class="video-container">`
@@ -379,7 +379,7 @@ function genUnit(unitSlug, data) {
     vidText += `<div class="video-container">`
       vidText += `<div class="video-header">`
         vidText += `<h3>${vid.title}</h3>`
-        vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"><img src="/icons/external_link.svg"></a>`
+        vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"></a>`
       vidText += `</div>`;
       vidText += genVideoEmbed(vid.link);
     vidText += `</div>`
