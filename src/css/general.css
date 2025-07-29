@@ -404,7 +404,9 @@ a:hover {
   align-items: center;
   & a {
     aspect-ratio: 1;
+    -webkit-mask-image: url("/icons/external_link.svg");
     mask-image: url("/icons/external_link.svg");
+    -webkit-mask-size: cover;
     mask-size: cover;
     background-color: var(--theme);
     &:hover {
