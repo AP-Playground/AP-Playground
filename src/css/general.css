@@ -352,9 +352,14 @@ a:hover {
   & .dark-mode-btn {
     display: flex;
     padding: 3px;
-    & > img {
+    & > div {
       height: 100%;
       width: 100%;
+      -webkit-mask-image: url("/icons/light.svg");
+      mask-image: url("/icons/light.svg");
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: var(--theme);
       filter: var(--theme-filter);
       &:hover {
         filter: var(--accent-filter);
@@ -498,12 +503,8 @@ html.dark-mode {
     filter: invert(1);
   }
   & .dark-mode-btn {
-    & .light {
-      display: none !important;
-    }
-    & .dark {
-      display: block !important;
-    }
+    -webkit-mask-image: url("/icons/dark.svg");
+    mask-image: url("/icons/dark.svg");
   }
   & body {  
     background-color: black;
