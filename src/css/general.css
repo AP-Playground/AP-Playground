@@ -47,7 +47,6 @@ body {
   height: 100dvh;
   margin-left: var(--side-nav-width);
   background-color: white;
-  /* overflow: hidden; */
   transition: margin 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -98,7 +97,7 @@ body {
     width: calc(var(--side-nav-width) - 7px);
   }
   width: var(--side-nav-width);
-  box-shadow: 0 calc(max(100lvh,100dvh) - 100dvh) var(--accent-10);
+  box-shadow: 0 calc(max(100lvh,100dvh) - 100dvh) var(--theme-10);
   transition: width 0.3s ease-in-out;
 }
 
