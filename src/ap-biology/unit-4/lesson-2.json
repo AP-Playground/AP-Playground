@@ -4,6 +4,10 @@
   "summary": "Last lesson, we were introduced to the signal transduction pathway. We learned about the general concepts and terms that are related to signal movement. Topic 4.2 delves deeper into the specifics of transduction, providing examples of each step of the process.",
   "vocab": [
     {
+      "term": "Signal Transduction Pathway",
+      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
+    },
+    {
       "term": "Steroid hormones",
       "link": "https://en.wikipedia.org/wiki/Steroid_hormone"
     },
@@ -22,10 +26,6 @@
     {
       "term": "G protein",
       "link": "https://en.wikipedia.org/wiki/G_protein"
-    },
-    {
-      "term": "GTP / GDP???",
-      "link": "https://en.wikipedia.org/wiki/Guanosine_triphosphate"
     },
     {
       "term": "Receptor tyrosine kinases",
@@ -58,46 +58,38 @@
   ],
   "links": [
     {
-      "title": "Khan Academy | Enzymes and the active site (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/enzymes-and-the-active-site"
+      "title": "Khan Academy | Ligands & receptors (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/signal-transduction/a/signal-perception"
     },
     {
-      "title": "Khan Academy | Enzymes review (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/hs-enzymes-review"
+      "title": "Khan Academy | Signal relay pathways (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/signal-transduction/a/intracellular-signal-transduction"
     },
     {
-      "title": "Wikipedia | Enzyme",
-      "link": "https://en.wikipedia.org/wiki/Enzyme"
+      "title": "Wikipedia | Signal transduction",
+      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
     },
     {
-      "title": "Biology Dictionary | Enzyme Structure",
-      "link": "https://biologydictionary.net/ap-biology/3-1-enzyme-structure/"
-    },
-    {
-      "title": "Biology Dictionary | Enzyme Catalysis",
-      "link": "https://biologydictionary.net/ap-biology/3-2-enzyme-catalysis/"
+      "title": "Biology Dictionary | Introduction to Signal Transduction",
+      "link": "https://biologydictionary.net/ap-biology/4-2-introduction-to-signal-transduction/"
     }
   ],
   "videos": [
     {
-      "title": "AP Playground | Enzymes",
-      "link": "S4MMid36MtM"
+      "title": "AP Playground | Introduction to Signal Transduction",
+      "link": ""
     },
     {
-      "title": "PoseKnows Biology | Enzyme Structure + Catalysis",
-      "link": "mfoVLBOyomg"
+      "title": "PoseKnows Biology | Introduction to Signal Transduction",
+      "link": "oju7DXmpz1Y"
     },
     {
-      "title": "Amoeba Sisters | Enzymes",
-      "link": "qgVFkRn8f10"
+      "title": "Amoeba Sisters | Intro to Cell Signaling",
+      "link": "-dbRterutHY"
     },
     {
-      "title": "Bozeman Science | Enzymes",
-      "link": "ok9esggzN18"
-    },
-    {
-      "title": "Bozeman Science | Enzyme Catalysis",
-      "link": "hs75JmgGW5Y"
+      "title": "Bozeman Science | Signal Transduction Pathways",
+      "link": "qOVkedxDqQo"
     }
   ]
 }

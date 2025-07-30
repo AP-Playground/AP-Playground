@@ -8,18 +8,6 @@
       "link": "https://en.wikipedia.org/wiki/Cell_cycle_checkpoint"
     },
     {
-      "term": "G1 phase checkpoint???",
-      "link": "https://en.wikipedia.org/wiki/Restriction_point"
-    },
-    {
-      "term": "G2 phase checkpoint???",
-      "link": "https://en.wikipedia.org/wiki/G2-M_DNA_damage_checkpoint"
-    },
-    {
-      "term": "M phase checkpoint???",
-      "link": "https://en.wikipedia.org/wiki/Spindle_checkpoint"
-    },
-    {
       "term": "Cyclin-dependent kinases (CDKs)",
       "link": "https://en.wikipedia.org/wiki/Cyclin-dependent_kinase"
     },
@@ -32,7 +20,7 @@
       "link": "https://en.wikipedia.org/wiki/Density_dependence"
     },
     {
-      "term": "Anchorage dependency???",
+      "term": "Anchorage dependency",
       "link": "https://en.wikipedia.org/wiki/Adherent_culture"
     },
     {
@@ -58,46 +46,50 @@
   ],
   "links": [
     {
-      "title": "Khan Academy | Enzymes and the active site (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/enzymes-and-the-active-site"
+      "title": "Khan Academy | Cell cycle checkpoints (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/regulation-of-cell-cycle/a/cell-cycle-checkpoints-article"
     },
     {
-      "title": "Khan Academy | Enzymes review (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/hs-enzymes-review"
+      "title": "Khan Academy | Cell cycle regulators (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/regulation-of-cell-cycle/a/cell-cycle-regulators"
     },
     {
-      "title": "Wikipedia | Enzyme",
-      "link": "https://en.wikipedia.org/wiki/Enzyme"
+      "title": "Khan Academy | Cancer and the cell cycle (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/regulation-of-cell-cycle/a/cancer"
     },
     {
-      "title": "Biology Dictionary | Enzyme Structure",
-      "link": "https://biologydictionary.net/ap-biology/3-1-enzyme-structure/"
+      "title": "Wikipedia | Regulation of eukaryotic cell cycle",
+      "link": "https://en.wikipedia.org/wiki/Cell_cycle#Regulation_of_eukaryotic_cell_cycle"
     },
     {
-      "title": "Biology Dictionary | Enzyme Catalysis",
-      "link": "https://biologydictionary.net/ap-biology/3-2-enzyme-catalysis/"
+      "title": "Wikipedia | Cancer",
+      "link": "https://en.wikipedia.org/wiki/Cancer"
+    },
+    {
+      "title": "Biology Dictionary | Regulation of Cell Cycle",
+      "link": "https://biologydictionary.net/ap-biology/4-7-regulation-of-cell-cycle/"
     }
   ],
   "videos": [
     {
-      "title": "AP Playground | Enzymes",
-      "link": "S4MMid36MtM"
+      "title": "AP Playground | Regulation of Cell Cycle",
+      "link": ""
     },
     {
-      "title": "PoseKnows Biology | Enzyme Structure + Catalysis",
-      "link": "mfoVLBOyomg"
+      "title": "PoseKnows Biology | Regulation of the Cell Cycle",
+      "link": "vEJd4Ez2wTc"
     },
     {
-      "title": "Amoeba Sisters | Enzymes",
-      "link": "qgVFkRn8f10"
+      "title": "Amoeba Sisters | The Cell Cycle (and cancer)",
+      "link": "QVCjdNxJreE"
     },
     {
-      "title": "Bozeman Science | Enzymes",
-      "link": "ok9esggzN18"
+      "title": "Crash Course Biology | Mitosis & the Cell Cycle: How Cells Clone Themselves",
+      "link": "skPOXcVvS5c"
     },
     {
-      "title": "Bozeman Science | Enzyme Catalysis",
-      "link": "hs75JmgGW5Y"
+      "title": "Bozeman Science | What is Cancer?",
+      "link": "UopUxkeC4Ls"
     }
   ]
 }

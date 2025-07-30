@@ -28,12 +28,8 @@
       "link": "https://en.wikipedia.org/wiki/DNA_replication"
     },
     {
-      "term": "Sister chromatids???",
+      "term": "Sister chromatids",
       "link": "https://en.wikipedia.org/wiki/Sister_chromatids"
-    },
-    {
-      "term": "Centromere",
-      "link": "https://en.wikipedia.org/wiki/Centromere"
     },
     {
       "term": "G2 phase",
@@ -44,24 +40,12 @@
       "link": "https://en.wikipedia.org/wiki/G0_phase"
     },
     {
-      "term": "M phase???",
-      "link": "https://en.wikipedia.org/wiki/Mitosis"
-    },
-    {
       "term": "Mitosis",
       "link": "https://en.wikipedia.org/wiki/Mitosis"
     },
     {
       "term": "Prophase",
       "link": "https://en.wikipedia.org/wiki/Prophase"
-    },
-    {
-      "term": "Mitotic spindle???",
-      "link": "https://en.wikipedia.org/wiki/Spindle_apparatus"
-    },
-    {
-      "term": "Kinetochores",
-      "link": "https://en.wikipedia.org/wiki/Kinetochore"
     },
     {
       "term": "Metaphase",
@@ -80,8 +64,8 @@
       "link": "https://en.wikipedia.org/wiki/Cytokinesis"
     },
     {
-      "term": "Contractile ring",
-      "link": "https://en.wikipedia.org/wiki/Actomyosin_ring"
+      "term": "Cleavage furrow",
+      "link": "https://en.wikipedia.org/wiki/Cleavage_furrow"
     },
     {
       "term": "Cell plate",
@@ -96,7 +80,7 @@
       "link": "https://en.wikipedia.org/wiki/Somatic_cell"
     },
     {
-      "term": "Diploid???",
+      "term": "Diploid",
       "link": "https://en.wikipedia.org/wiki/Ploidy"
     },
     {
@@ -104,52 +88,60 @@
       "link": "https://en.wikipedia.org/wiki/Gamete"
     },
     {
-      "term": "Haploid???",
+      "term": "Haploid",
       "link": "https://en.wikipedia.org/wiki/Ploidy"
     }
   ],
   "links": [
     {
-      "title": "Khan Academy | Enzymes and the active site (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/enzymes-and-the-active-site"
+      "title": "Khan Academy | Phases of the cell cycle (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/cell-cycle/a/cell-cycle-phases"
     },
     {
-      "title": "Khan Academy | Enzymes review (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/hs-enzymes-review"
+      "title": "Khan Academy | Phases of mitosis (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/cell-cycle/a/phases-of-mitosis"
     },
     {
-      "title": "Wikipedia | Enzyme",
-      "link": "https://en.wikipedia.org/wiki/Enzyme"
+      "title": "Wikipedia | Cell cycle",
+      "link": "https://en.wikipedia.org/wiki/Cell_cycle"
     },
     {
-      "title": "Biology Dictionary | Enzyme Structure",
-      "link": "https://biologydictionary.net/ap-biology/3-1-enzyme-structure/"
+      "title": "Wikipedia | Mitosis",
+      "link": "https://en.wikipedia.org/wiki/Mitosis"
     },
     {
-      "title": "Biology Dictionary | Enzyme Catalysis",
-      "link": "https://biologydictionary.net/ap-biology/3-2-enzyme-catalysis/"
+      "title": "Biology Dictionary | Cell Cycle",
+      "link": "https://biologydictionary.net/ap-biology/4-6-cell-cycle/"
     }
   ],
   "videos": [
     {
-      "title": "AP Playground | Enzymes",
-      "link": "S4MMid36MtM"
+      "title": "AP Playground | Cell Cycle",
+      "link": ""
     },
     {
-      "title": "PoseKnows Biology | Enzyme Structure + Catalysis",
-      "link": "mfoVLBOyomg"
+      "title": "PoseKnows Biology | Cell Cycle",
+      "link": "A_bpsbqhyOQ"
     },
     {
-      "title": "Amoeba Sisters | Enzymes",
-      "link": "qgVFkRn8f10"
+      "title": "Amoeba Sisters | The Cell Cycle (and cancer)",
+      "link": "QVCjdNxJreE"
     },
     {
-      "title": "Bozeman Science | Enzymes",
-      "link": "ok9esggzN18"
+      "title": "Amoeba Sisters | Mitosis: The Amazing Cell Process that Uses Division to Multiply!",
+      "link": "f-ldPgEfAHI"
     },
     {
-      "title": "Bozeman Science | Enzyme Catalysis",
-      "link": "hs75JmgGW5Y"
+      "title": "Crash Course Biology | Mitosis & the Cell Cycle: How Cells Clone Themselves",
+      "link": "skPOXcVvS5c"
+    },
+    {
+      "title": "Bozeman Science | Mitosis",
+      "link": "1cVZBV9tD-A"
+    },
+    {
+      "title": "Bozeman Science | Phases of Mitosis",
+      "link": "mXVoTj06zwg"
     }
   ]
 }

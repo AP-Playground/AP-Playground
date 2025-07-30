@@ -8,28 +8,12 @@
       "link": "https://en.wikipedia.org/wiki/Signal_transduction"
     },
     {
-      "term": "Reception???",
-      "link": "https://en.wikipedia.org/wiki/Signal_transduction#Stimuli"
-    },
-    {
       "term": "Receptor",
       "link": "https://en.wikipedia.org/wiki/Receptor_(biochemistry)"
     },
     {
       "term": "Ligand",
       "link": "https://en.wikipedia.org/wiki/Ligand_(biochemistry)"
-    },
-    {
-      "term": "Target Cell???",
-      "link": ""
-    },
-    {
-      "term": "Transduction???",
-      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
-    },
-    {
-      "term": "Response???",
-      "link": "https://en.wikipedia.org/wiki/Signal_transduction#Cellular_responses"
     },
     {
       "term": "Autocrine signaling",
@@ -52,11 +36,7 @@
       "link": "https://en.wikipedia.org/wiki/Paracrine_signaling"
     },
     {
-      "term": "Synaptic signaling???",
-      "link": "https://en.wikipedia.org/wiki/Chemical_synapse"
-    },
-    {
-      "term": "Neurotransmitters",
+      "term": "Neuro-transmitters",
       "link": "https://en.wikipedia.org/wiki/Neurotransmitter"
     },
     {
@@ -64,11 +44,7 @@
       "link": "https://en.wikipedia.org/wiki/Quorum_sensing"
     },
     {
-      "term": "Morphogens???",
-      "link": "https://en.wikipedia.org/wiki/Morphogen"
-    },
-    {
-      "term": "Endocrine signaling???",
+      "term": "Endocrine signaling",
       "link": "https://en.wikipedia.org/wiki/Endocrine_system"
     },
     {
@@ -86,46 +62,42 @@
   ],
   "links": [
     {
-      "title": "Khan Academy | Enzymes and the active site (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/enzymes-and-the-active-site"
+      "title": "Khan Academy | Overview of cell signaling (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/cell-communication/v/overview-of-cell-signaling"
     },
     {
-      "title": "Khan Academy | Enzymes review (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/hs-enzymes-review"
+      "title": "Khan Academy | Introduction to cell signaling (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/cell-communication/a/introduction-to-cell-signaling"
     },
     {
-      "title": "Wikipedia | Enzyme",
-      "link": "https://en.wikipedia.org/wiki/Enzyme"
+      "title": "Khan Academy | Cell-cell signaling in unicellular organisms (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/cell-communication/a/cell-cell-signaling-in-unicellular-organisms"
     },
     {
-      "title": "Biology Dictionary | Enzyme Structure",
-      "link": "https://biologydictionary.net/ap-biology/3-1-enzyme-structure/"
+      "title": "Wikipedia | Cell signaling",
+      "link": "https://en.wikipedia.org/wiki/Cell_signaling"
     },
     {
-      "title": "Biology Dictionary | Enzyme Catalysis",
-      "link": "https://biologydictionary.net/ap-biology/3-2-enzyme-catalysis/"
+      "title": "Biology Dictionary | Cell Communication",
+      "link": "https://biologydictionary.net/ap-biology/4-1-cell-communication/"
     }
   ],
   "videos": [
     {
-      "title": "AP Playground | Enzymes",
-      "link": "S4MMid36MtM"
+      "title": "AP Playground | Cell Communication",
+      "link": ""
     },
     {
-      "title": "PoseKnows Biology | Enzyme Structure + Catalysis",
-      "link": "mfoVLBOyomg"
+      "title": "PoseKnows Biology | Cell Communication",
+      "link": "h-NPp370I2o"
     },
     {
-      "title": "Amoeba Sisters | Enzymes",
-      "link": "qgVFkRn8f10"
+      "title": "Crash Course Biology | Why Do Cells Need to Communicate?",
+      "link": "p15KSbNxb28"
     },
     {
-      "title": "Bozeman Science | Enzymes",
-      "link": "ok9esggzN18"
-    },
-    {
-      "title": "Bozeman Science | Enzyme Catalysis",
-      "link": "hs75JmgGW5Y"
+      "title": "Bozeman Science | Cell Communication",
+      "link": "xnGXItWrJ3k"
     }
   ]
 }

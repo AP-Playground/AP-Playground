@@ -4,6 +4,10 @@
   "summary": "In topics 4.1 and 4.2, we got a grasp of the first two steps of signal transduction. We learned about the general concepts and specifics for reception and transduction. Topic 4.3 provides some more specific examples of signal response.",
   "vocab": [
     {
+      "term": "Signal Transduction Pathway",
+      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
+    },
+    {
       "term": "Gene expression",
       "link": "https://en.wikipedia.org/wiki/Gene_expression"
     },
@@ -28,23 +32,11 @@
       "link": "https://en.wikipedia.org/wiki/Environmental_factor"
     },
     {
-      "term": "pH",
-      "link": "https://en.wikipedia.org/wiki/PH"
-    },
-    {
-      "term": "Temperature",
-      "link": "https://en.wikipedia.org/wiki/Temperature"
-    },
-    {
-      "term": "Genetic factors???",
-      "link": "https://en.wikipedia.org/wiki/Transcription_factor"
-    },
-    {
       "term": "Mutations",
       "link": "https://en.wikipedia.org/wiki/Mutation"
     },
     {
-      "term": "Inhibitors???",
+      "term": "Inhibitors",
       "link": "https://en.wikipedia.org/wiki/Repressor"
     },
     {
@@ -54,46 +46,54 @@
   ],
   "links": [
     {
-      "title": "Khan Academy | Enzymes and the active site (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/enzymes-and-the-active-site"
+      "title": "Khan Academy | Response to a signal (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/signal-transduction/a/cellular-response"
     },
     {
-      "title": "Khan Academy | Enzymes review (article)",
-      "link": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/a/hs-enzymes-review"
+      "title": "Khan Academy | Example of a signal transduction pathway (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/signal-transduction/v/example-of-signal-transduction-pathway"
     },
     {
-      "title": "Wikipedia | Enzyme",
-      "link": "https://en.wikipedia.org/wiki/Enzyme"
+      "title": "Khan Academy | Activation and inhibition of signal transduction pathways (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/changes-in-signal-transduction-pathways/v/activation-and-inhibition-of-signal-transduction-pathways"
     },
     {
-      "title": "Biology Dictionary | Enzyme Structure",
-      "link": "https://biologydictionary.net/ap-biology/3-1-enzyme-structure/"
+      "title": "Wikipedia | Signal transduction",
+      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
     },
     {
-      "title": "Biology Dictionary | Enzyme Catalysis",
-      "link": "https://biologydictionary.net/ap-biology/3-2-enzyme-catalysis/"
+      "title": "Biology Dictionary | Signal Transduction",
+      "link": "https://biologydictionary.net/ap-biology/4-3-signal-transduction/"
+    },
+    {
+      "title": "Biology Dictionary | Changes in Signal Transduction Pathways",
+      "link": "https://biologydictionary.net/ap-biology/4-4-changes-in-signal-transduction-pathways/"
     }
   ],
   "videos": [
     {
-      "title": "AP Playground | Enzymes",
+      "title": "AP Playground | Signal Transduction Pathways",
       "link": "S4MMid36MtM"
     },
     {
-      "title": "PoseKnows Biology | Enzyme Structure + Catalysis",
-      "link": "mfoVLBOyomg"
+      "title": "PoseKnows Biology | Signal Transduction",
+      "link": "Q_tg5-Z2MRc"
     },
     {
-      "title": "Amoeba Sisters | Enzymes",
-      "link": "qgVFkRn8f10"
+      "title": "PoseKnows Biology | Changes in Signal Transduction Pathways",
+      "link": "n_xQhydeN9U"
     },
     {
-      "title": "Bozeman Science | Enzymes",
-      "link": "ok9esggzN18"
+      "title": "Amoeba Sisters | Intro to Cell Signaling",
+      "link": "-dbRterutHY"
     },
     {
-      "title": "Bozeman Science | Enzyme Catalysis",
-      "link": "hs75JmgGW5Y"
+      "title": "Bozeman Science | Signal Transduction Pathways",
+      "link": "qOVkedxDqQo"
+    },
+    {
+      "title": "Bozeman Science | Effects of Changes in Pathways",
+      "link": "W48Gk2Om3wI"
     }
   ]
 }
