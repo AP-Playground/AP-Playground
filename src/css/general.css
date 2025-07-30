@@ -85,10 +85,10 @@ body {
   & > div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     min-height: 100%;
     gap: 20px;
     padding: 10px;
+    padding-top: 20px;
     box-sizing: border-box;
     width: calc(var(--side-nav-width) - 7px);
   }
@@ -139,6 +139,20 @@ html.side-nav-closed {
   & img {
     height: calc(var(--side-nav-btn-diameter) - 10px);
   }
+}
+
+.side-nav-divider {
+  width: 100%;
+  border: 3px solid var(--theme-80);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.side-nav-back-img {
+  opacity: 0.15;
+  padding-inline: 30px;
+  margin-block: auto;
+  display: block;
 }
 
 .side-nav-btn {
