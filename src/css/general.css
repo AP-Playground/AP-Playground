@@ -176,6 +176,7 @@ html.side-nav-closed {
     display: grid;
     justify-content: space-between;
     grid-template-columns: 1fr auto;
+    gap: 20px;
   }
   & .accordion-btn {
     background-color: var(--theme-10);
