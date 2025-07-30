@@ -37,9 +37,18 @@
         </div>
       </div>
       <div class="side-nav-tab">
-        <h2>
-          <a href="/games">Games</a>
-        </h2>
+        <div class="accordion-header">
+          <h2><a href="/games">Games</a></h2>
+          <button class="accordion-btn"><div></div></button>
+        </div>
+        <div class="accordion-content">
+          <div>
+            <hr>
+            <ul>
+              {{nav.games}}
+            </ul>
+          </div>
+        </div>
       </div>
       <hr class="side-nav-divider">
       <img src="/icons/favicon.svg" class="side-nav-back-img">

@@ -88,7 +88,7 @@ body {
     min-height: 100%;
     gap: 20px;
     padding: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
     box-sizing: border-box;
     width: calc(var(--side-nav-width) - 7px);
   }
@@ -146,7 +146,7 @@ html.side-nav-closed {
   border: 3px solid var(--theme-80);
   box-sizing: border-box;
   border-radius: 3px;
-  margin-block: 20px;
+  margin-block: 10px;
 }
 
 .side-nav-back-img {
