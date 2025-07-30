@@ -199,6 +199,7 @@ html.side-nav-closed {
       mask-repeat: no-repeat;
       -webkit-mask-position: center;
       mask-position: center;
+      rotate: -90deg;
     }
   }
   & .accordion-content {
@@ -208,6 +209,9 @@ html.side-nav-closed {
     & > div {
       overflow: hidden;
     }
+  }
+  &.open .accordion-btn > div{
+    rotate: 0;
   }
   &.open .accordion-content {
     grid-template-rows: 1fr;
