@@ -185,6 +185,7 @@ html.side-nav-closed {
     margin-block: 2px;
     rotate: -90deg;
     transition: rotate 0.5s ease-in-out, filter 0.1s linear;
+    cursor: pointer;
     &:active {
       filter: brightness(0.65);
     }
