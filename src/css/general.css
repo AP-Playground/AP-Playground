@@ -156,9 +156,6 @@ html.side-nav-closed {
   display: flex;
   align-items: center;
   justify-content: center;
-  &:hover {
-    filter: brightness(0.8);
-  }
   &:active {
     filter: brightness(0.65);
   }
@@ -181,9 +178,6 @@ html.side-nav-closed {
     border-radius: 50%;
     aspect-ratio: 1;
     margin-block: 2px;
-    &:hover {
-      filter: brightness(0.8);
-    }
     &:active {
       filter: brightness(0.65);
     }
@@ -550,5 +544,12 @@ html.dark-mode {
   }
   & body {  
     background-color: black;
+  }
+}
+
+@media (pointer: fine) and (hover: hover) {
+  .side-nav-btn:hover,
+  .accordion-btn:hover {
+    filter: brightness(0.8);
   }
 }
