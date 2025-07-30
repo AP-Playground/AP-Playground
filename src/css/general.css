@@ -146,6 +146,7 @@ html.side-nav-closed {
   border: 3px solid var(--theme-80);
   box-sizing: border-box;
   border-radius: 3px;
+  margin-block: 20px;
 }
 
 .side-nav-back-img {
