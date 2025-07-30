@@ -173,7 +173,7 @@ html.side-nav-closed {
   & .accordion-header {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr auto;
   }
   & .accordion-btn {
     background-color: var(--theme-10);
