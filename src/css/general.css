@@ -178,6 +178,8 @@ html.side-nav-closed {
     border-radius: 50%;
     aspect-ratio: 1;
     margin-block: 2px;
+    rotate: -90deg;
+    transition: rotate 0.5s ease-in-out, filter 0.1s linear;
     &:active {
       filter: brightness(0.65);
     }
@@ -193,8 +195,6 @@ html.side-nav-closed {
       mask-repeat: no-repeat;
       -webkit-mask-position: center;
       mask-position: center;
-      rotate: -90deg;
-      transition: rotate 0.5s ease-in-out, filter 0.1s linear;
     }
   }
   & .accordion-content {
@@ -205,7 +205,7 @@ html.side-nav-closed {
       overflow: hidden;
     }
   }
-  &.open .accordion-btn > div{
+  &.open .accordion-btn {
     rotate: 0deg;
   }
   &.open .accordion-content {
