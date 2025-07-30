@@ -51,6 +51,15 @@ examDatesTemp.forEach((el, i) => {
 })
 
 
+const courses = [
+  { title: "AP Biology", slug: "ap-biology" }
+]
+let navCourses = "";
+courses.forEach(({title, slug}) => {
+  navCourses += `<li class="item"><a href="/${slug}">${title}</a></li>`
+})
+
+
 // output directory for all generated files
 const outDir = resolve('public');
 
@@ -59,15 +68,16 @@ if (!existsSync(outDir)) mkdirSync(outDir);
 
 
 // array of pages that are already filled
-const staticPages = [
+const completePages = [
   { filename: 'about.html', title: 'About' }
 ]
 
 // write each page
-staticPages.forEach(({filename, title}) => {
+completePages.forEach(({filename, title}) => {
   let page = readFileSync("src/static/" + filename, 'utf-8');
   page = templatesStart + page + templatesEnd;
   page = page.replace("{{page.title}}", title);
+  page = page.replace("{{nav.courses}}", navCourses)
 
   const fullPath = join(outDir, filename);
   const dir = dirname(fullPath);
@@ -208,6 +218,7 @@ function genLesson(lessonSlug, data) {
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = lessonSlug.split("/")
 
+  page = page.replace("{{nav.courses}}", navCourses)
   page = page.replaceAll("{{course.title}}", navData.title)
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
   page = page.replaceAll("{{unit.slug}}", pagePath[1]);
@@ -296,6 +307,7 @@ function genUnit(unitSlug, data) {
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = unitSlug.split("/")
 
+  page = page.replace("{{nav.courses}}", navCourses)
   page = page.replaceAll("{{course.title}}", navData.title)
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
   page = page.replaceAll("{{unit.slug}}", pagePath[1]);
@@ -399,6 +411,16 @@ function genCourse(courseSlug, data) {
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = courseSlug.split("/")
 
+  let temp = "";
+  courses.forEach(({title, slug}) => {
+    if (slug === navData.course) {
+      temp += `<li class="item side-nav-current"><a href="/${slug}">${title}</a></li>`
+    } else {
+      temp += `<li class="item"><a href="/${slug}">${title}</a></li>`
+    }
+  })
+
+  page = page.replace("{{nav.courses}}", temp)
   page = page.replaceAll("{{course.title}}", navData.title)
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
   page = page.replaceAll("{{page.title}}", navData.title);
