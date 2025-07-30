@@ -171,15 +171,16 @@ html.side-nav-closed {
 
 .side-nav-tab {
   & .accordion-header {
-    display: flex;
+    display: grid;
     justify-content: space-between;
+    grid-template-columns: auto auto;
   }
   & .accordion-btn {
-    height: 100%;
-    aspect-ratio: 1;
-    padding: 5px;
     background-color: var(--theme-10);
     border: none;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    margin-block: 2px;
     &:hover {
       filter: brightness(0.8);
     }
