@@ -52,7 +52,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     document.querySelectorAll(".accordion-btn").forEach(btn => {
       btn.addEventListener("click", e => {
-        e.target.parentElement.parentElement.classList.toggle("open");
+        e.currentTarget.parentElement.parentElement.classList.toggle("open");
       })
     })
   })
