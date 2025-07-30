@@ -200,6 +200,7 @@ html.side-nav-closed {
       -webkit-mask-position: center;
       mask-position: center;
       rotate: -90deg;
+      transition: rotate 0.5s;
     }
   }
   & .accordion-content {
