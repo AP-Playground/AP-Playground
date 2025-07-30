@@ -187,6 +187,14 @@ html.side-nav-closed {
     &:active {
       filter: brightness(0.65);
     }
+    & > div {
+      margin: 5px;
+      -webkit-mask-image: url("/icons/accordion.svg");
+      mask-image: url("/icons/accordion.svg");
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: black;
+    }
   }
   & .accordion-content {
     display: grid;
