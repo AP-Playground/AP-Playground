@@ -2,13 +2,13 @@ import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFi
 import { resolve, join, dirname } from 'path';
 import * as cheerio from 'cheerio';
 
-// read templates from src/templates
-const templatesStart = readFileSync("src/templates/start.html", "utf-8");
-const templatesEnd = readFileSync("src/templates/end.html", "utf-8");
+// read templates from src/template
+const templateStart = readFileSync("src/template/start.html", "utf-8");
+const templateEnd = readFileSync("src/template/end.html", "utf-8");
 
-const lessonTemplate = templatesStart + readFileSync("src/templates/lesson.html", "utf-8") + templatesEnd;
-const unitTemplate = templatesStart + readFileSync("src/templates/unit.html", "utf-8") + templatesEnd;
-const courseTemplate = templatesStart + readFileSync("src/templates/course.html", "utf-8") + templatesEnd;
+const lessonTemplate = templateStart + readFileSync("src/template/lesson.html", "utf-8") + templateEnd;
+const unitTemplate = templateStart + readFileSync("src/template/unit.html", "utf-8") + templateEnd;
+const courseTemplate = templateStart + readFileSync("src/template/course.html", "utf-8") + templateEnd;
 
 // fetch up-to-date data from the internet
 async function fetchData(url) {
@@ -68,15 +68,15 @@ if (!existsSync(outDir)) mkdirSync(outDir);
 
 
 // array of pages that are already filled
-const completePages = [
+const uniquePages = [
   { filename: 'about.html', title: 'About' },
   { filename: 'courses.html', title: 'Courses' }
 ]
 
 // write each page
-completePages.forEach(({filename, title}) => {
-  let page = readFileSync("src/static/" + filename, 'utf-8');
-  page = templatesStart + page + templatesEnd;
+uniquePages.forEach(({filename, title}) => {
+  let page = readFileSync("src/unique/" + filename, 'utf-8');
+  page = templateStart + page + templateEnd;
   page = page.replace("{{page.title}}", title);
   page = page.replace("{{nav.courses}}", navCourses)
 
