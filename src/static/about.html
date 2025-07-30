@@ -11,16 +11,31 @@
   </div>
   <div class="side-nav-links">
     <div>
-      <div class="side-nav-tab pages-nav">
+      <div class="side-nav-tab">
         <h2>
           <a href="/">Home</a>
         </h2>
-        <h2>
-          <a href="/courses">Courses</a>
-        </h2>
+      </div>
+      <div class="side-nav-tab open">
+        <div class="accordion-header">
+          <h2><a href="/courses">Courses</a></h2>
+          <button class="accordion-btn"><div></div></button>
+        </div>
+        <div class="accordion-content">
+          <div>
+            <hr>
+            <ul>
+              {{nav.courses}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="side-nav-tab">
         <h2>
           <a href="/about">About</a>
         </h2>
+      </div>
+      <div class="side-nav-tab">
         <h2>
           <a href="/games">Games</a>
         </h2>
