@@ -411,16 +411,7 @@ function genCourse(courseSlug, data) {
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
   const pagePath = courseSlug.split("/")
 
-  let temp = "";
-  courses.forEach(({title, slug}) => {
-    if (slug === navData.course) {
-      temp += `<li class="item side-nav-current"><a href="/${slug}">${title}</a></li>`
-    } else {
-      temp += `<li class="item"><a href="/${slug}">${title}</a></li>`
-    }
-  })
-
-  page = page.replace("{{nav.courses}}", temp)
+  page = page.replace("{{nav.courses}}", navCourses)
   page = page.replaceAll("{{course.title}}", navData.title)
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
   page = page.replaceAll("{{page.title}}", navData.title);
