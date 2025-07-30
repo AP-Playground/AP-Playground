@@ -1,4 +1,4 @@
-const courseBlocks = document.querySelectorAll(".courses-container > .content-block")
+const courseBlocks = Array.from(document.querySelectorAll(".courses-container > .content-block"));
 const endBlock = courseBlocks.pop()
 let courses = [];
 courseBlocks.forEach(course => {
