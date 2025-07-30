@@ -5,7 +5,7 @@ courseBlocks.forEach(course => {
   courses.push(course.querySelector("h2").textContent.slice(0,-1).toLowerCase())
 })
 
-document.getElementById("course-search").addEventListener("change", (e) => {
+document.getElementById("course-search").addEventListener("input", (e) => {
   const search = e.target.value;
   let found = false;
   courses.forEach((course, idx) => {
