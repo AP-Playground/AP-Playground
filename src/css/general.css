@@ -211,7 +211,7 @@ html.side-nav-closed {
     }
   }
   &.open .accordion-btn > div{
-    rotate: 0;
+    rotate: 0deg;
   }
   &.open .accordion-content {
     grid-template-rows: 1fr;
