@@ -174,11 +174,12 @@ html.side-nav-closed {
     display: flex;
     justify-content: space-between;
   }
-  & .accordion-button {
+  & .accordion-btn {
     height: 100%;
     aspect-ratio: 1;
     padding: 5px;
     background-color: var(--theme-10);
+    border: none;
     &:hover {
       filter: brightness(0.8);
     }
