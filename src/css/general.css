@@ -170,6 +170,33 @@ html.side-nav-closed {
 }
 
 .side-nav-tab {
+  & .accordion-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  & .accordion-button {
+    height: 100%;
+    aspect-ratio: 1;
+    padding: 5px;
+    background-color: var(--theme-10);
+    &:hover {
+      filter: brightness(0.8);
+    }
+    &:active {
+      filter: brightness(0.65);
+    }
+  }
+  & .accordion-content {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-in-out;
+    & > div {
+      overflow: hidden;
+    }
+  }
+  &.open .accordion-content {
+    grid-template-rows: 1fr;
+  }
   & h2 {
     margin: 0;
   }
@@ -179,7 +206,7 @@ html.side-nav-closed {
     margin-top: 0;
     border: 1px solid black;
   }
-  & > ul {
+  & ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -211,10 +238,6 @@ html.side-nav-closed {
   a {
     color: black;
     display: block;
-  }
-  &.pages-nav {
-    display: grid;
-    gap: 20px;
   }
   & .side-nav-current a {
     text-decoration: underline;

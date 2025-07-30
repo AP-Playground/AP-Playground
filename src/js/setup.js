@@ -49,5 +49,11 @@ window.addEventListener("DOMContentLoaded", function() {
       darkModeStatus = darkModeStatus === "dark" ? "light" : "dark";
       localStorage.setItem("darkModeStatus", darkModeStatus);
     });
+
+    document.querySelectorAll(".accordion-btn").forEach(btn => {
+      btn.addEventListener("click", e => {
+        e.target.parentElement.parentElement.classList.toggle("open");
+      })
+    })
   })
 })
