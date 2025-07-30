@@ -1,0 +1,5 @@
+.courses-container {
+  & .hidden {
+    display: none;
+  }
+}
