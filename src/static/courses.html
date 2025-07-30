@@ -1,0 +1,76 @@
+<nav class="side-nav">
+  <div class="side-nav-background"></div>
+  <div class="side-nav-header">
+    <div class="side-nav-logo">
+      <img src="/icons/logo.svg" alt="AP Playground Logo">
+    </div>
+    <button class="side-nav-btn">
+      <img src="/icons/shrink.svg" class="shrink" draggable="false">
+      <img src="/icons/expand.svg" class="expand" draggable="false">
+    </button>
+  </div>
+  <div class="side-nav-links">
+    <div>
+      <div class="side-nav-tab">
+        <h2>
+          <a href="/">Home</a>
+        </h2>
+      </div>
+      <div class="side-nav-tab open">
+        <div class="accordion-header side-nav-current">
+          <h2><a href="/courses">Courses</a></h2>
+          <button class="accordion-btn"><div></div></button>
+        </div>
+        <div class="accordion-content">
+          <div>
+            <hr>
+            <ul>
+              {{nav.courses}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="side-nav-tab">
+        <h2>
+          <a href="/about">About</a>
+        </h2>
+      </div>
+      <div class="side-nav-tab">
+        <h2>
+          <a href="/games">Games</a>
+        </h2>
+      </div>
+    </div>
+  </div>
+</nav>
+<main>
+  <div class="page-header">
+    <ul class="breadcrumbs">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/about">About</a>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <button class="dark-mode-btn"><div></div></button>
+    </div>
+  </div>
+  <div class="content-block intro-block">
+    <h1>Courses:</h1>
+    <p>This is a full list of classes offered by AP-Study at this time. The list is growing all the time, so check it out later if something is missing.</p>
+    <input class="course-search" type="text">
+  </div>
+  <div class="double-content-block">
+    <div class="content-block">
+      <h2>AP Biology:</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo saepe quam optio porro! Atque sunt, dignissimos sint dolorem, nulla commodi perspiciatis ea quia deserunt, laborum iusto laudantium officiis dolores!</p>
+    </div>
+  </div>
+  <div class="page-footer">
+    <a href="mailto:dakacorporation2@gmail.com">Contact Us</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2hNIyCBl1jcndz5vX2f5sTx2hDI3-NY_vkbOfJHKgFAnpcA/viewform">Feedback</a>
+    <a href="https://www.youtube.com/@ap-playground">Youtube</a>
+  </div>
+</main>

@@ -69,7 +69,8 @@ if (!existsSync(outDir)) mkdirSync(outDir);
 
 // array of pages that are already filled
 const completePages = [
-  { filename: 'about.html', title: 'About' }
+  { filename: 'about.html', title: 'About' },
+  { filename: 'courses.html', title: 'Courses' }
 ]
 
 // write each page
