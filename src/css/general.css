@@ -190,12 +190,14 @@ html.side-nav-closed {
     & > div {
       -webkit-mask-image: url("/icons/accordion.svg");
       mask-image: url("/icons/accordion.svg");
-      -webkit-mask-size: cover;
-      mask-size: cover;
+      -webkit-mask-size: contain;
+      mask-size: contain;
       background-color: black;
       width: 100%;
       height: 100%;
+      -webkit-mask-repeat: no-repeat;
       mask-repeat: no-repeat;
+      -webkit-mask-position: center;
       mask-position: center;
     }
   }
