@@ -1,5 +1,5 @@
 import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir, read, readFile } from 'fs';
-import { resolve, join, dirname } from 'path';
+import { resolve, join, dirname, relative } from 'path';
 import * as cheerio from 'cheerio';
 
 // read templates from src/template
@@ -472,7 +472,7 @@ function getFiles(dir) {
 
   entries.forEach(i => {
     if (i.isDirectory()) return;
-    results.push(path.relative(dir, i.parentPath));
+    results.push(relative(dir, i.parentPath));
   })
 
   return results;
