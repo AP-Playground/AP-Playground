@@ -149,20 +149,18 @@ generatePages.forEach((filename) => {
 
 // copy icons from src/icons to public/icons
 const iconsDir = resolve("src/icons")
-const icons = readdirSync(iconsDir, { recursive: true, withFileTypes: true });
-icons.forEach(icon => {
-  if (icon.isDirectory()) return;
-  icon = icon.name;
-  const srcPath = join(iconsDir, icon)
-  const destPath = resolve(outDir, "icons", icon);
-  const destDir = dirname(destPath);
+getFiles(iconsDir).forEach(icon => {
+  console.log(icon)
+  // const srcPath = join(iconsDir, icon)
+  // const destPath = resolve(outDir, "icons", icon);
+  // const destDir = dirname(destPath);
 
-  // Ensure destination directory exists
-  mkdirSync(destDir, { recursive: true });
+  // // Ensure destination directory exists
+  // mkdirSync(destDir, { recursive: true });
 
-  copyFileSync(srcPath, destPath)
+  // copyFileSync(srcPath, destPath)
 
-  console.log("Uploaded icon: " + icon);
+  // console.log("Uploaded icon: " + icon);
 })
 
 
@@ -465,4 +463,19 @@ function genCourse(courseSlug, data) {
 
 function genVideoEmbed(link) {
   return `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+}
+
+function getFiles(dir) {
+  let results = [];
+
+  const entries = readdirSync(dir, {withFileTypes: true, recursive: true});
+
+  entries.forEach(i => {
+    if (i.isDirectory) return;
+    if (i.isFile) {
+      results += i.parentPath;
+    }
+  })
+
+  return results;
 }
