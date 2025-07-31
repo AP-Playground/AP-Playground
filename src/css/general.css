@@ -42,7 +42,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  height: 100dvh;
+  /* height: 100dvh; */
   margin-left: var(--side-nav-width);
   background-color: white;
   transition: margin 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -93,7 +93,7 @@ body {
     width: calc(var(--side-nav-width) - 7px);
   }
   width: var(--side-nav-width);
-  box-shadow: 0 calc(max(100lvh,100dvh) - 100dvh) var(--theme-10);
+  box-shadow: 0 calc(max(100lvh,100vh) - 100dvh) var(--theme-10);
   transition: width 0.3s ease-in-out;
 }
 
@@ -301,7 +301,7 @@ html.side-nav-closed {
 
 main {
   padding: 30px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px) 20px calc(max(calc(50% - var(--main-width)/2), 0px) + 40px);
-  height: 100%;
+  /* height: 100%; */
   overflow-y: auto;
   box-sizing: border-box;
   scrollbar-gutter: stable;
