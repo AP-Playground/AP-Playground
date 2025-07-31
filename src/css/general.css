@@ -306,7 +306,6 @@ main {
   height: 100dvh;
   overflow-y: auto;
   box-sizing: border-box;
-  scrollbar-gutter: stable;
   grid-column-start: 2;
   transition: padding 0.3s ease-in-out;
   display: flex;
