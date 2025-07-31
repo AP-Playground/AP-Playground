@@ -368,7 +368,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.page-footer {
+main > footer {
   padding-top: 5px;
   margin-top: auto;
   display: grid;
@@ -379,7 +379,7 @@ a:hover {
 }
 
 .split-header,
-.page-header {
+main > header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -388,7 +388,7 @@ a:hover {
   }
 }
 
-.page-header .nav-buttons {
+main > header .nav-buttons {
   min-width: max-content;
   display: flex;
   gap: 5px;
