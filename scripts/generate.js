@@ -96,54 +96,22 @@ console.log("Uploaded page: courses.html");
 
 
 // array of pages to generate
-const generatePages = [
-  'ap-biology/index.json',
-  'ap-biology/unit-1/index.json',
-  'ap-biology/unit-1/lesson-0.json',
-  'ap-biology/unit-1/lesson-1.json',
-  'ap-biology/unit-1/lesson-2.json',
-  'ap-biology/unit-1/lesson-3.json',
-  'ap-biology/unit-1/lesson-4.json',
-  'ap-biology/unit-1/lesson-5.json',
-  'ap-biology/unit-1/lesson-6.json',
-  'ap-biology/unit-1/lesson-7.json',
-  'ap-biology/unit-2/index.json',
-  'ap-biology/unit-2/lesson-1.json',
-  'ap-biology/unit-2/lesson-2.json',
-  'ap-biology/unit-2/lesson-3.json',
-  'ap-biology/unit-2/lesson-4.json',
-  'ap-biology/unit-2/lesson-5.json',
-  'ap-biology/unit-2/lesson-6.json',
-  'ap-biology/unit-2/lesson-7.json',
-  'ap-biology/unit-2/lesson-8.json',
-  'ap-biology/unit-2/lesson-9.json',
-  'ap-biology/unit-2/lesson-10.json',
-  'ap-biology/unit-3/index.json',
-  'ap-biology/unit-3/lesson-1.json',
-  'ap-biology/unit-3/lesson-2.json',
-  'ap-biology/unit-3/lesson-3.json',
-  'ap-biology/unit-3/lesson-4.json',
-  'ap-biology/unit-3/lesson-5.json',
-  'ap-biology/unit-4/index.json',
-  'ap-biology/unit-4/lesson-1.json',
-  'ap-biology/unit-4/lesson-2.json',
-  'ap-biology/unit-4/lesson-3.json',
-  'ap-biology/unit-4/lesson-4.json',
-  'ap-biology/unit-4/lesson-5.json',
-  'ap-biology/unit-4/lesson-6.json'
-];
+
 
 // write each page
-generatePages.forEach((filename) => {
-  const fullPath = join(outDir, filename.replace(".json", ".html").replace("/index",""));
-  const dir = dirname(fullPath);
+courses.forEach(({title, slug}) => {
+  const courseDir = resolve("src/" + slug)
+  getFiles(courseDir).forEach((filename) => {
+    const fullPath = join(outDir, filename.replace(".json", ".html").replace("/index",""));
+    const dir = dirname(fullPath);
 
-  // Ensure parent directories exist
-  mkdirSync(dir, { recursive: true });
+    // Ensure parent directories exist
+    mkdirSync(dir, { recursive: true });
 
-  writeFileSync(fullPath, genGeneric(filename));
+    writeFileSync(fullPath, genGeneric(filename));
 
-  console.log("Uploaded page: " + filename);
+    console.log("Uploaded page: " + filename);
+  });
 });
 
 
