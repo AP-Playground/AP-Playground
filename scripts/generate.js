@@ -1,4 +1,4 @@
-import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir, read } from 'fs';
+import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir, read, readFile } from 'fs';
 import { resolve, join, dirname } from 'path';
 import * as cheerio from 'cheerio';
 
@@ -67,30 +67,29 @@ const outDir = resolve('public');
 if (!existsSync(outDir)) mkdirSync(outDir);
 
 
-// array of pages that are already filled
-const uniquePages = [
-  { filename: 'about.html', title: 'About' },
-  { filename: 'courses.html', title: 'Courses' }
-]
 
-// write each page
-uniquePages.forEach(({filename, title}) => {
-  let page = readFileSync("src/unique/" + filename, 'utf-8');
-  page = templateStart + page + templateEnd;
-  page = page.replace("{{page.title}}", title);
-  page = page.replace("{{nav.courses}}", navCourses)
+// generate and write unique pages
+let aboutPage = templateStart.replace("{{page.title}}", "About");
+aboutPage += readFileSync("src/unique/" + filename, 'utf-8').replace("{{nav.courses}}", navCourses);
+aboutPage += templateEnd;
+writeFileSync(join(outDir, "about.html"), aboutPage);
+console.log("Uploaded page: about.html");
 
-  const fullPath = join(outDir, filename);
-  const dir = dirname(fullPath);
 
-  // Ensure parent directories exist
-  mkdirSync(dir, { recursive: true });
-
-  writeFileSync(fullPath, page);
-
-  console.log("Uploaded page: " + filename);
-});
-
+let coursePage = templateStart.replace("{{page.title}}", "Courses");
+coursePage += readFileSync("src/unique" + filename, "utf-8").replace("{{nav.courses}}", navCourses);
+coursePage += templateEnd;
+let coursePageList = "";
+courses.forEach(({title, slug}) => {
+  coursePageList += `<div class="content-block">`
+    coursePageList += `<h2>${title}:</h2>`
+    coursePageList += `<p>${JSON.parse(readFileSync("src/" + slug + "/index.html", "utf-8")).summary}</p>`
+    coursePageList += `<p><a href="/${slug}">Course page</a></p>`
+  coursePageList += `</div>`
+})
+coursePage = coursePage.replace("{{courses-list}}", coursePageList);
+writeFileSync(join(outDir, "courses.html"), coursePage);
+console.log("Uploaded page: courses.html");
 
 
 // array of pages to generate
