@@ -152,6 +152,7 @@ const iconsDir = resolve("src/icons")
 const icons = readdirSync(iconsDir, { recursive: true, withFileTypes: true });
 icons.forEach(icon => {
   if (icon.isDirectory()) return;
+  icon = icon.name;
   const srcPath = join(iconsDir, icon)
   const destPath = resolve(outDir, "icons", icon);
   const destDir = dirname(destPath);
