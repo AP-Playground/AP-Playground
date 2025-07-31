@@ -100,13 +100,13 @@ console.log("Uploaded page: courses.html");
 courses.forEach(({title, slug}) => {
   const courseDir = resolve("src/" + slug)
   getFiles(courseDir).forEach((filename) => {
-    // const fullPath = join(outDir, filename.replace(".json", ".html").replace("/index",""));
-    // const dir = dirname(fullPath);
+    const fullPath = join(outDir, slug, filename.replace(".json", ".html").replace("/index",""));
+    const dir = dirname(fullPath);
 
-    // // Ensure parent directories exist
-    // mkdirSync(dir, { recursive: true });
+    // Ensure parent directories exist
+    mkdirSync(dir, { recursive: true });
 
-    // writeFileSync(fullPath, genGeneric(filename));
+    writeFileSync(fullPath, genGeneric(filename));
 
     console.log("Uploaded page: " + filename);
   });
