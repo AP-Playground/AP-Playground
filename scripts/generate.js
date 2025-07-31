@@ -471,7 +471,7 @@ function getFiles(dir) {
   const entries = readdirSync(dir, {withFileTypes: true, recursive: true});
 
   entries.forEach(i => {
-    console.log(i)
+    console.log(i, i.isDirectory, i.isFile)
     if (i.isDirectory) return;
     if (i.isFile) {
       results.push(i.parentPath);
