@@ -150,17 +150,16 @@ generatePages.forEach((filename) => {
 // copy icons from src/icons to public/icons
 const iconsDir = resolve("src/icons")
 getFiles(iconsDir).forEach(icon => {
-  console.log(icon)
-  // const srcPath = join(iconsDir, icon)
-  // const destPath = resolve(outDir, "icons", icon);
-  // const destDir = dirname(destPath);
+  const srcPath = join(iconsDir, icon)
+  const destPath = resolve(outDir, "icons", icon);
+  const destDir = dirname(destPath);
 
-  // // Ensure destination directory exists
-  // mkdirSync(destDir, { recursive: true });
+  // Ensure destination directory exists
+  mkdirSync(destDir, { recursive: true });
 
-  // copyFileSync(srcPath, destPath)
+  copyFileSync(srcPath, destPath)
 
-  // console.log("Uploaded icon: " + icon);
+  console.log("Uploaded icon: " + icon);
 })
 
 
@@ -472,7 +471,7 @@ function getFiles(dir) {
 
   entries.forEach(i => {
     if (i.isDirectory()) return;
-    results.push(relative(dir, i.parentPath));
+    results.push(relative(dir, i.parentPath) + i.name);
   })
 
   return results;
