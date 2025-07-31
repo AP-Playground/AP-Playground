@@ -165,8 +165,7 @@ getFiles(iconsDir).forEach(icon => {
 
 // copy stylesheets from src/css to public/css
 const stylesheetsDir = resolve("src/css")
-const stylesheets = readdirSync(stylesheetsDir);
-stylesheets.forEach(css => {
+getFiles(stylesheetsDir).forEach(css => {
   const srcPath = join(stylesheetsDir, css)
   const destPath = resolve(outDir, "css", css);
   const destDir = dirname(destPath);
@@ -182,8 +181,7 @@ stylesheets.forEach(css => {
 
 // copy scripts from src/css to public/css
 const scriptsDir = resolve("src/js")
-const scripts = readdirSync(scriptsDir);
-scripts.forEach(js => {
+getFiles(scriptsDir).forEach(js => {
   const srcPath = join(scriptsDir, js)
   const destPath = resolve(outDir, "js", js);
   const destDir = dirname(destPath);
