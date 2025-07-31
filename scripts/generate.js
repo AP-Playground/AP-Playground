@@ -70,14 +70,14 @@ if (!existsSync(outDir)) mkdirSync(outDir);
 
 // generate and write unique pages
 let aboutPage = templateStart.replace("{{page.title}}", "About");
-aboutPage += readFileSync("src/unique/" + filename, 'utf-8').replace("{{nav.courses}}", navCourses);
+aboutPage += readFileSync("src/unique/about.html", 'utf-8').replace("{{nav.courses}}", navCourses);
 aboutPage += templateEnd;
 writeFileSync(join(outDir, "about.html"), aboutPage);
 console.log("Uploaded page: about.html");
 
 
 let coursePage = templateStart.replace("{{page.title}}", "Courses");
-coursePage += readFileSync("src/unique" + filename, "utf-8").replace("{{nav.courses}}", navCourses);
+coursePage += readFileSync("src/unique/courses.html", "utf-8").replace("{{nav.courses}}", navCourses);
 coursePage += templateEnd;
 let coursePageList = "";
 courses.forEach(({title, slug}) => {
