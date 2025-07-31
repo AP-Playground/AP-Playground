@@ -377,7 +377,7 @@ a:hover {
   }
 }
 
-.vocab-header,
+.split-header,
 .page-header {
   display: flex;
   justify-content: space-between;
