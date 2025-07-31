@@ -154,6 +154,7 @@ html.side-nav-closed {
   flex-shrink: 1;
   opacity: 0.15;
   padding-inline: 30px;
+  padding-bottom: 20px;
   margin-block: auto;
 }
 
