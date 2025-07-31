@@ -471,7 +471,7 @@ function getFiles(dir) {
 
   entries.forEach(i => {
     if (i.isDirectory()) return;
-    results.push(resolve(relative(dir, i.parentPath), i.name));
+    results.push([relative(dir, i.parentPath), i.name].join("/"));
   })
 
   return results;
