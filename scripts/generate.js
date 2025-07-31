@@ -214,9 +214,9 @@ function genGeneric(filename) {
 function genLesson(lessonSlug, data) {
   let page = lessonTemplate;
 
-  const navPath = resolve("src", data["nav"] + ".json");
+  const pagePath = lessonSlug.split("/");
+  const navPath = resolve("src/nav", pagePath[0] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
-  const pagePath = lessonSlug.split("/")
 
   page = page.replace("{{nav.courses}}", navCourses)
   page = page.replaceAll("{{course.title}}", navData.title)
@@ -303,9 +303,9 @@ function genLesson(lessonSlug, data) {
 function genUnit(unitSlug, data) {
   let page = unitTemplate;
 
-  const navPath = resolve("src", data["nav"] + ".json");
+  const pagePath = unitSlug.split("/");
+  const navPath = resolve("src/nav", pagePath[0] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
-  const pagePath = unitSlug.split("/")
 
   page = page.replace("{{nav.courses}}", navCourses)
   page = page.replaceAll("{{course.title}}", navData.title)
@@ -407,9 +407,9 @@ function genUnit(unitSlug, data) {
 function genCourse(courseSlug, data) {
   let page = courseTemplate;
 
-  const navPath = resolve("src", data["nav"] + ".json");
+  const pagePath = courseSlug.split("/");
+  const navPath = resolve("src/nav", pagePath[0] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
-  const pagePath = courseSlug.split("/")
 
   page = page.replace("{{nav.courses}}", navCourses)
   page = page.replaceAll("{{course.title}}", navData.title)
