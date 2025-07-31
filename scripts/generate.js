@@ -149,8 +149,9 @@ generatePages.forEach((filename) => {
 
 // copy icons from src/icons to public/icons
 const iconsDir = resolve("src/icons")
-const icons = readdirSync(iconsDir);
+const icons = readdirSync(iconsDir, { recursive: true, withFileTypes: true });
 icons.forEach(icon => {
+  if (icon.isDirectory()) return;
   const srcPath = join(iconsDir, icon)
   const destPath = resolve(outDir, "icons", icon);
   const destDir = dirname(destPath);
