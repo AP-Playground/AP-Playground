@@ -83,7 +83,7 @@ let coursePageList = "";
 courses.forEach(({title, slug}) => {
   coursePageList += `<div class="content-block">`
     coursePageList += `<h2>${title}:</h2>`
-    coursePageList += `<p>${JSON.parse(readFileSync("src/" + slug + "/index.html", "utf-8")).summary}</p>`
+    coursePageList += `<p>${JSON.parse(readFileSync("src/" + slug + "/index.json", "utf-8")).summary}</p>`
     coursePageList += `<p><a href="/${slug}">Course page</a></p>`
   coursePageList += `</div>`
 })
