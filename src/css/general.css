@@ -188,6 +188,9 @@ html.side-nav-closed {
 }
 
 .side-nav-tab {
+  &:last-child {
+    padding-bottom: 10px;
+  }
   & .accordion-header {
     display: grid;
     justify-content: space-between;
