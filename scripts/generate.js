@@ -100,7 +100,8 @@ console.log("Uploaded page: courses.html");
 courses.forEach(({title, slug}) => {
   const courseDir = resolve("src/" + slug)
   getFiles(courseDir).forEach((filename) => {
-    const fullPath = join(outDir, slug, filename.replace(".json", ".html").replace("/index",""));
+    filename = slug + "/" + filename;
+    const fullPath = join(outDir, filename.replace(".json", ".html").replace("/index",""));
     const dir = dirname(fullPath);
 
     // Ensure parent directories exist
