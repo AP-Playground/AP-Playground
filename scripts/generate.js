@@ -77,7 +77,7 @@ if (!existsSync(outDir)) mkdirSync(outDir);
 let aboutPage = templateStart.replace("{{page.title}}", "About");
 aboutPage += readFileSync("src/unique/about.html", 'utf-8').replace("{{nav.courses}}", navCourses);
 aboutPage += templateEnd;
-aboutPage = aboutPage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration)
+aboutPage = aboutPage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration);
 writeFileSync(join(outDir, "about.html"), aboutPage);
 console.log("Uploaded page: about.html");
 
@@ -97,7 +97,7 @@ courses.forEach(({title, slug}) => {
   coursePageList += `</div>`
 })
 coursePage = coursePage.replace("{{courses-list}}", coursePageList);
-aboutPage = aboutPage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration)
+coursePage = coursePage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration);
 writeFileSync(join(outDir, "courses.html"), coursePage);
 console.log("Uploaded page: courses.html");
 
@@ -275,6 +275,8 @@ function genLesson(lessonSlug, data) {
   page = page.replace("{{lesson.videos}}", vidText)
   page = page.replace("{{lesson.more-videos}}", moreVidText)
 
+  page = page.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration);
+
   return page;
 }
 
@@ -372,6 +374,8 @@ function genUnit(unitSlug, data) {
   page = page.replace("{{unit.videos}}", vidText)
   page = page.replace("{{unit.more-videos}}", moreVidText)
 
+  page = page.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration);
+
   return page;
 }
 
@@ -428,6 +432,8 @@ function genCourse(courseSlug, data) {
   page = page.replace("{{course.links}}", linkText);
 
   page = page.replace("{{course.exam-date}}", examDates[navData.title].date + " at " + examDates[navData.title].time);
+
+  page = page.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration);
 
   return page;
 }
