@@ -90,9 +90,6 @@
     <h1>{{page.title}}</h1>
     <p>{{unit.summary}} <sup>(<a target="_blank" href="{{course.ced}}">{{course.title}} CED</a>)</sup></p>
   </div>
-  <div class="content-block">
-    {{unit.unit-video}}
-  </div>
   <div class="double-content-block">
     <div class="content-block">
       <h2>Games:</h2>
@@ -110,6 +107,13 @@
   <div class="content-block">
     <h2>Videos:</h2>
     {{unit.videos}}
+    <div class="more">
+      {{unit.more-videos}}
+    </div>
+    <button class="more-btn">
+      <span class="more">&darr; More videos &darr;</span>
+      <span class="less">&uarr; Less videos &uarr;</span>
+    </button>
   </div>
   <footer>
     <a href="mailto:dakacorporation2@gmail.com">Contact Us</a>

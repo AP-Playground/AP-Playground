@@ -251,13 +251,7 @@ function genLesson(lessonSlug, data) {
   let vidText = "";
 
   vidData.forEach(vid => {
-    vidText += `<div class="video-container">`
-      vidText += `<div class="video-header">`
-        vidText += `<h3>${vid.title}</h3>`
-        vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"></a>`
-      vidText += `</div>`;
-      vidText += genVideoEmbed(vid.link);
-    vidText += `</div>`
+    vidText += genVideo(vid.title, vid.link)
   })
 
   page = page.replace("{{lesson.videos}}", vidText)
@@ -319,19 +313,6 @@ function genUnit(unitSlug, data) {
 
   page = page.replace("{{unit.summary}}", data["summary"])
 
-  const unitVidData = data["unit-video"];
-  let unitVidText = "";
-
-  unitVidText += `<div class="video-header">`
-    unitVidText += `<h2>Unit Review:</h2>`
-    unitVidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${unitVidData}"></a>`
-  unitVidText += `</div>`;
-
-  unitVidText += `<div class="video-container">`
-    unitVidText += genVideoEmbed(unitVidData);
-  unitVidText += `</div>`
-
-  page = page.replace("{{unit.unit-video}}", unitVidText)
 
   const gameData = data["games"]
   let gameText = "";
@@ -353,18 +334,18 @@ function genUnit(unitSlug, data) {
 
   const vidData = data["videos"];
   let vidText = "";
+  let moreVidText = "";
 
   vidData.forEach(vid => {
-    vidText += `<div class="video-container">`
-      vidText += `<div class="video-header">`
-        vidText += `<h3>${vid.title}</h3>`
-        vidText += `<a target="_blank" href="https://www.youtube.com/watch?v=${vid.link}"></a>`
-      vidText += `</div>`;
-      vidText += genVideoEmbed(vid.link);
-    vidText += `</div>`
+    if (vid.hasOwnProperty("more") && vid["more"]) {
+      moreVidText += genVideo(vid.title, vid.link)
+    } else {
+      vidText += genVideo(vid.title, vid.link)
+    }
   })
 
   page = page.replace("{{unit.videos}}", vidText)
+  page = page.replace("{{unit.more-videos}}", moreVidText)
 
   return page;
 }
@@ -423,6 +404,10 @@ function genCourse(courseSlug, data) {
   page = page.replace("{{course.exam-date}}", examDates[navData.title].date + " at " + examDates[navData.title].time);
 
   return page;
+}
+
+function genVideo(title, link) {
+  return `<div class="video-container"><div class="video-header"><h3>${title}</h3><a target="_blank" href="https://www.youtube.com/watch?v=${link}"></a></div>${genVideoEmbed(link)}</div>`
 }
 
 function genVideoEmbed(link) {

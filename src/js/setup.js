@@ -55,5 +55,11 @@ window.addEventListener("DOMContentLoaded", function() {
         e.currentTarget.parentElement.parentElement.classList.toggle("open");
       })
     })
+
+    document.querySelectorAll(".more-btn").forEach(btn => {
+      btn.addEventListener("click", e => {
+        e.currentTarget.classList.toggle("expanded");
+      })
+    })
   })
 })
