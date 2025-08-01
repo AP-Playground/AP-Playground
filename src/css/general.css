@@ -518,7 +518,7 @@ main > header .nav-buttons {
   }
 }
 
-.content-block.expanded > .more-container {
+.more-container.expanded {
   grid-template-rows: 1fr auto;
   & > .more-btn {
     & > .more {
