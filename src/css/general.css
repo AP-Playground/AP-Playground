@@ -502,33 +502,36 @@ main > header .nav-buttons {
 
 .more-container {
   display: grid;
-  grid-template-rows: 0fr auto;
+  grid-template-rows: 0fr;
   transition: grid-template-rows 0.5s ease-in-out;
   & > div {
     overflow: hidden;
   }
-  & > .more-btn {
-    margin-inline: auto;
-    border: none;
-    background: none;
-    font-size: 16px;
-    color: var(--theme);
-    cursor: pointer;
-    &:hover {
-      color: var(--accent);
-      text-decoration: underline;
-    }
-    & > .more {
-      display: block;
-    }
-    & > .less {
-      display: none;
-    }
+}
+.more-btn {
+  margin-inline: auto;
+  display: block;
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: var(--theme);
+  cursor: pointer;
+  &:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  & > .more {
+    display: block;
+  }
+  & > .less {
+    display: none;
   }
 }
 
-.more-container.expanded {
-  grid-template-rows: 1fr auto;
+.content-block.expanded {
+  & > .more-container {
+  grid-template-rows: 1fr;
+  }
   & > .more-btn {
     & > .more {
       display: none;
