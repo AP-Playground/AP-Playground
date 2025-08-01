@@ -338,7 +338,7 @@ function genUnit(unitSlug, data) {
 
   vidData.forEach(vid => {
     if (vid.hasOwnProperty("more") && vid["more"]) {
-      moreVidText += genVideo(vid.title, vid.link)
+      moreVidText += genVideo(vid.title, vid.link, vid.more)
     } else {
       vidText += genVideo(vid.title, vid.link)
     }
@@ -406,12 +406,16 @@ function genCourse(courseSlug, data) {
   return page;
 }
 
-function genVideo(title, link) {
-  return `<div class="video-container"><div class="video-header"><h3>${title}</h3><a target="_blank" href="https://www.youtube.com/watch?v=${link}"></a></div>${genVideoEmbed(link)}</div>`
+function genVideo(title, link, more = false) {
+  return `<div class="video-container"><div class="video-header"><h3>${title}</h3><a target="_blank" href="https://www.youtube.com/watch?v=${link}"></a></div>${more ? genMoreVideoEmbed(link) : genVideoEmbed(link)}</div>`
 }
 
 function genVideoEmbed(link) {
   return `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+}
+
+function genMoreVideoEmbed(link) {
+  return `<iframe class="video-embed unloaded" data-src="https://www.youtube-nocookie.com/embed/${link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 }
 
 function getFiles(dir) {
