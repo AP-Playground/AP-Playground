@@ -23,7 +23,7 @@
           <h2><a href="/courses">Courses</a></h2>
           <button class="accordion-btn"><div></div></button>
         </div>
-        <div class="accordion-content">
+        <div class="accordion-content" style="transition-duration: {{nav.courses.duration}}">
           <div>
             <hr>
             <ul>
@@ -37,7 +37,7 @@
           <h2><a href="/games">Games</a></h2>
           <button class="accordion-btn"><div></div></button>
         </div>
-        <div class="accordion-content">
+        <div class="accordion-content" style="transition-duration: {{nav.games.duration}}">
           <div>
             <hr>
             <ul>
@@ -52,7 +52,7 @@
           <h2><a href="/{{course.slug}}">{{course.title}}</a></h2>
           <button class="accordion-btn"><div></div></button>
         </div>
-        <div class="accordion-content">
+        <div class="accordion-content" style="transition-duration: {{nav.course.duration}}">
           <div>
             <hr>
             <ul>

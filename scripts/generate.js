@@ -50,7 +50,7 @@ examDatesTemp.forEach((el, i) => {
   })
 })
 
-
+// set up global courses data
 const courses = [
   { title: "AP Biology", slug: "ap-biology" }
 ]
@@ -58,6 +58,11 @@ let navCourses = "";
 courses.forEach(({title, slug}) => {
   navCourses += `<li class="item"><a href="/${slug}">${title}</a></li>`
 })
+const coursesDuration = transitionDuration(courses.length);
+
+
+// set up global games data
+const gamesDuration = transitionDuration(1);
 
 
 // output directory for all generated files
@@ -72,6 +77,7 @@ if (!existsSync(outDir)) mkdirSync(outDir);
 let aboutPage = templateStart.replace("{{page.title}}", "About");
 aboutPage += readFileSync("src/unique/about.html", 'utf-8').replace("{{nav.courses}}", navCourses);
 aboutPage += templateEnd;
+aboutPage = aboutPage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration)
 writeFileSync(join(outDir, "about.html"), aboutPage);
 console.log("Uploaded page: about.html");
 
@@ -91,6 +97,7 @@ courses.forEach(({title, slug}) => {
   coursePageList += `</div>`
 })
 coursePage = coursePage.replace("{{courses-list}}", coursePageList);
+aboutPage = aboutPage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration)
 writeFileSync(join(outDir, "courses.html"), coursePage);
 console.log("Uploaded page: courses.html");
 
@@ -191,13 +198,13 @@ function genLesson(lessonSlug, data) {
   page = page.replaceAll("{{unit.slug}}", pagePath[1]);
   page = page.replaceAll("{{lesson.slug}}", pagePath[2]);
 
-  let navText = "";
+  let navText = [];
   navData.units.forEach((unit, unitIdx) => {
-    navText += `<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`
+    navText.push(`<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`);
     if (unit.slug === pagePath[1] && unit.hasOwnProperty("lessons")) {
       unit.lessons.forEach((lesson, lessonIdx) => {
         if (lesson.slug === pagePath[2]) {
-          navText += `<li class="sub-item side-nav-current"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`;
+          navText.push(`<li class="sub-item side-nav-current"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`);
           
           page = page.replaceAll("{{page.title}}", lesson.prefix + ": " + lesson.title);
 
@@ -217,13 +224,14 @@ function genLesson(lessonSlug, data) {
           }
 
         } else {
-          navText += `<li class="sub-item"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`
+          navText.push(`<li class="sub-item"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`);
         }
       })
     }
   })
 
-  page = page.replace("{{navigation}}", navText);
+  page = page.replace("{{navigation}}", navText.join(""));
+  page = page.replace("{{nav.course.duration}}", transitionDuration(navText.length));
 
   page = page.replace("{{lesson.summary}}", data["summary"])
 
@@ -286,13 +294,13 @@ function genUnit(unitSlug, data) {
 
   page = page.replaceAll("{{course.ced}}", navData.ced)
 
-  let navText = "";
+  let navText = [];
   navData.units.forEach((unit, unitIdx) => {
     if (unit.slug === pagePath[1]) {
-      navText += `<li class="item side-nav-current"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`;
+      navText.push(`<li class="item side-nav-current"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`);
       if (unit.hasOwnProperty("lessons")) {
         unit.lessons.forEach(lesson => {
-          navText += `<li class="sub-item"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`
+          navText.push(`<li class="sub-item"><a href="/${navData.course}/${unit.slug}/${lesson.slug}">${lesson.prefix}: ${lesson.title}</a></li>`);
         })
       }
 
@@ -316,11 +324,12 @@ function genUnit(unitSlug, data) {
       }
 
     } else {
-      navText += `<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`
+      navText.push(`<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`);
     }
   })
 
-  page = page.replace("{{navigation}}", navText);
+  page = page.replace("{{navigation}}", navText.join(""));
+  page = page.replace("{{nav.course.duration}}", transitionDuration(navText.length));
 
   page = page.replace("{{unit.summary}}", data["summary"])
 
@@ -380,9 +389,9 @@ function genCourse(courseSlug, data) {
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
   page = page.replaceAll("{{page.title}}", navData.title);
 
-  let navText = "";
+  let navText = [];
   navData.units.forEach(unit => {
-    navText += `<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`;
+    navText.push(`<li class="item"><a href="/${navData.course}/${unit.slug}">${unit.prefix}: ${unit.title}</a></li>`);
   })
 
   if (navData.units.at(-1).hasOwnProperty("lessons")) {
@@ -393,7 +402,8 @@ function genCourse(courseSlug, data) {
   
   page = page.replace("{{navigation.next}}", `/${navData.course}/${navData.units[0].slug}`)
 
-  page = page.replace("{{navigation}}", navText);
+  page = page.replace("{{navigation}}", navText.join(""));
+  page = page.replace("{{nav.course.duration}}", transitionDuration(navText.length));
 
   page = page.replace("{{course.summary}}", data["summary"])
 
@@ -445,4 +455,8 @@ function getFiles(dir) {
   })
 
   return results;
+}
+
+function transitionDuration(itemCount) {
+  return (0.47 + 0.03*itemCount) + "s";
 }

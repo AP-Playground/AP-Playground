@@ -226,7 +226,7 @@ html.side-nav-closed {
   & .accordion-content {
     display: grid;
     grid-template-rows: 0fr;
-    transition: grid-template-rows 0.5s ease-in-out;
+    transition: grid-template-rows ease-in-out;
     & > div {
       overflow: hidden;
     }
