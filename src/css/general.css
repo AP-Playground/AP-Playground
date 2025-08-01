@@ -499,6 +499,36 @@ main > header .nav-buttons {
   padding-left: 25px;
 }
 
+.more-btn {
+  margin-inline: auto;
+  & > .more {
+    display: block;
+  }
+  & > .less {
+    display: none;
+  }
+}
+
+.more-container {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease-in-out;
+}
+
+.content-block.expanded > .more-container {
+  grid-template-rows: 1fr;
+}
+
+.content-block.expanded > .more-btn {
+  & > .more {
+    display: none;
+  }
+  & > .less {
+    display: block;
+  }
+}
+
+
 sup {
   line-height: 0;
   display: inline-block;
