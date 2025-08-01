@@ -499,32 +499,34 @@ main > header .nav-buttons {
   padding-left: 25px;
 }
 
-.more-btn {
-  margin-inline: auto;
-  & > .more {
-    display: block;
-  }
-  & > .less {
-    display: none;
-  }
-}
 
 .more-container {
   display: grid;
-  grid-template-rows: 0fr;
+  grid-template-rows: 0fr auto;
   transition: grid-template-rows 0.5s ease-in-out;
+  & > div {
+    overflow: hidden;
+  }
+  & > .more-btn {
+    margin-inline: auto;
+    & > .more {
+      display: block;
+    }
+    & > .less {
+      display: none;
+    }
+  }
 }
 
 .content-block.expanded > .more-container {
-  grid-template-rows: 1fr;
-}
-
-.content-block.expanded > .more-btn {
-  & > .more {
-    display: none;
-  }
-  & > .less {
-    display: block;
+  grid-template-rows: 1fr auto;
+  & > .more-btn {
+    & > .more {
+      display: none;
+    }
+    & > .less {
+      display: block;
+    }
   }
 }
 
