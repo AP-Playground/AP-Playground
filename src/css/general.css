@@ -509,6 +509,15 @@ main > header .nav-buttons {
   }
   & > .more-btn {
     margin-inline: auto;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: var(--theme);
+    cursor: pointer;
+    &:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
     & > .more {
       display: block;
     }
