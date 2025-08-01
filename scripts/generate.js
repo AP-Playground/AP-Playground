@@ -344,6 +344,11 @@ function genUnit(unitSlug, data) {
     }
   })
 
+  if (moreVidText) {
+    moreVidText = `<div class="more-container"><div>${moreVidText}</div></div>`
+    moreVidText += `<button class="more-btn"><span class="more">&darr; More Videos &darr;</span><span class="less">&uarr; Less Videos &uarr;</span></button>`
+  }
+
   page = page.replace("{{unit.videos}}", vidText)
   page = page.replace("{{unit.more-videos}}", moreVidText)
 
