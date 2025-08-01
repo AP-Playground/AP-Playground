@@ -249,12 +249,23 @@ function genLesson(lessonSlug, data) {
 
   const vidData = data["videos"];
   let vidText = "";
+  let moreVidText = "";
 
   vidData.forEach(vid => {
-    vidText += genVideo(vid.title, vid.link)
+    if (vid.hasOwnProperty("more") && vid["more"]) {
+      moreVidText += genVideo(vid.title, vid.link, vid.more)
+    } else {
+      vidText += genVideo(vid.title, vid.link)
+    }
   })
 
+  if (moreVidText) {
+    moreVidText = `<div class="more-container"><div>${moreVidText}</div></div>`
+    moreVidText += `<button class="more-btn"><span class="more">&darr; More Videos &darr;</span><span class="less">&uarr; Less Videos &uarr;</span></button>`
+  }
+
   page = page.replace("{{lesson.videos}}", vidText)
+  page = page.replace("{{lesson.more-videos}}", moreVidText)
 
   return page;
 }
