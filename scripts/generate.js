@@ -1,7 +1,7 @@
 import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir, read, readFile } from 'fs';
 import { resolve, join, dirname, relative, sep } from 'path';
 import * as cheerio from 'cheerio';
-import { breadcrumbs } from './header.js';
+import * as header from './header.js';
 
 // read templates from src/template
 const templateStart = readFileSync("src/template/start.html", "utf-8");
@@ -79,7 +79,7 @@ let aboutPage = templateStart.replace("{{page.title}}", "About");
 aboutPage += readFileSync("src/unique/about.html", 'utf-8').replace("{{nav.courses}}", navCourses);
 aboutPage += templateEnd;
 aboutPage = aboutPage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration);
-aboutPage = aboutPage.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["About", ""]))
+aboutPage = aboutPage.replace("{{header.breadcrumbs}}", header.breadcrumbs(["Home", "/"], ["About", ""]))
 writeFileSync(join(outDir, "about.html"), aboutPage);
 console.log("Uploaded page: about.html");
 
@@ -100,7 +100,7 @@ courses.forEach(({title, slug}) => {
 })
 coursePage = coursePage.replace("{{courses-list}}", coursePageList);
 coursePage = coursePage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration);
-coursePage = coursePage.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["Courses", ""]))
+coursePage = coursePage.replace("{{header.breadcrumbs}}", header.breadcrumbs(["Home", "/"], ["Courses", ""]))
 writeFileSync(join(outDir, "courses.html"), coursePage);
 console.log("Uploaded page: courses.html");
 
@@ -215,7 +215,7 @@ function genLesson(lessonSlug, data) {
           page = page.replaceAll("{{unit.title}}", unit.prefix + ": " + unit.title);
           page = page.replaceAll("{{lesson.title}}", lesson.prefix + ": " + lesson.title);
 
-          page = page.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["Courses", "/courses"], [navData.title, "../"], [unit.prefix + ": " + unit.title, "./"], [lesson.prefix + ": " + lesson.title, ""]))
+          page = page.replace("{{header.breadcrumbs}}", header.breadcrumbs(["Home", "/"], ["Courses", "/courses"], [navData.title, "../"], [unit.prefix + ": " + unit.title, "./"], [lesson.prefix + ": " + lesson.title, ""]))
 
           if (lessonIdx === 0) {
             page = page.replace("{{navigation.previous}}", `/${navData.course}/${unit.slug}`)
@@ -315,7 +315,7 @@ function genUnit(unitSlug, data) {
       page = page.replaceAll("{{page.title}}", unit.prefix + ": " + unit.title)
       page = page.replaceAll("{{unit.title}}", unit.prefix + ": " + unit.title)
 
-      page = page.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["Courses", "/courses"], [navData.title, "./"], [unit.prefix + ": " + unit.title, ""]))
+      page = page.replace("{{header.breadcrumbs}}", header.breadcrumbs(["Home", "/"], ["Courses", "/courses"], [navData.title, "./"], [unit.prefix + ": " + unit.title, ""]))
 
       if (unitIdx === 0) {
         page = page.replace("{{navigation.previous}}", "/" + navData.course);
@@ -401,7 +401,7 @@ function genCourse(courseSlug, data) {
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
   page = page.replaceAll("{{page.title}}", navData.title);
 
-  page = page.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["Courses", "/courses"], [navData.title, ""]))
+  page = page.replace("{{header.breadcrumbs}}", header.breadcrumbs(["Home", "/"], ["Courses", "/courses"], [navData.title, ""]))
 
   let navText = [];
   navData.units.forEach(unit => {
