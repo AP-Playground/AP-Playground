@@ -1,6 +1,7 @@
 import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir, read, readFile } from 'fs';
 import { resolve, join, dirname, relative } from 'path';
 import * as cheerio from 'cheerio';
+import { breadcrumbs } from './breadcrumbs.js';
 
 // read templates from src/template
 const templateStart = readFileSync("src/template/start.html", "utf-8");
