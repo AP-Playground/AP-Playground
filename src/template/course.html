@@ -66,17 +66,7 @@
 </nav>
 <main>
   <header>
-    <ul class="breadcrumbs">
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/courses">Courses</a>
-      </li>
-      <li>
-        <a href="/{{course.slug}}">{{course.title}}</a>
-      </li>
-    </ul>
+    {{header.breadcrumbs}}
     <div class="nav-buttons">
       <a href="{{navigation.previous}}"><button><</button></a>
       <a href="{{navigation.next}}"><button>></button></a>

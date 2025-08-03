@@ -347,15 +347,15 @@ main {
 }
 
 .breadcrumbs {
-  padding: 0;
-  margin-inline: 20px;
-  margin-block: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  & li + li::before {
-    content: ">";
-    padding: 0 4px 0 8px;
+  & ol {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    & li + li::before {
+      content: ">";
+      padding: 0 8px;
+    }
   }
 }
 

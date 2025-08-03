@@ -1,7 +1,7 @@
 import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync, copyFileSync, writeFile, mkdir, read, readFile } from 'fs';
-import { resolve, join, dirname, relative } from 'path';
+import { resolve, join, dirname, relative, sep } from 'path';
 import * as cheerio from 'cheerio';
-import { breadcrumbs } from './breadcrumbs.js';
+import { breadcrumbs } from './header.js';
 
 // read templates from src/template
 const templateStart = readFileSync("src/template/start.html", "utf-8");
@@ -79,6 +79,7 @@ let aboutPage = templateStart.replace("{{page.title}}", "About");
 aboutPage += readFileSync("src/unique/about.html", 'utf-8').replace("{{nav.courses}}", navCourses);
 aboutPage += templateEnd;
 aboutPage = aboutPage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration);
+aboutPage = aboutPage.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["About", ""]))
 writeFileSync(join(outDir, "about.html"), aboutPage);
 console.log("Uploaded page: about.html");
 
@@ -99,6 +100,7 @@ courses.forEach(({title, slug}) => {
 })
 coursePage = coursePage.replace("{{courses-list}}", coursePageList);
 coursePage = coursePage.replace("{{nav.courses.duration}}", coursesDuration).replace("{{nav.games.duration}}", gamesDuration);
+coursePage = coursePage.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["Courses", ""]))
 writeFileSync(join(outDir, "courses.html"), coursePage);
 console.log("Uploaded page: courses.html");
 
@@ -108,8 +110,8 @@ console.log("Uploaded page: courses.html");
 courses.forEach(({title, slug}) => {
   const courseDir = resolve("src/" + slug)
   getFiles(courseDir).forEach((filename) => {
-    filename = slug + "/" + filename;
-    const fullPath = join(outDir, filename.replace(".json", ".html").replace("/index",""));
+    filename = join(slug, filename);
+    const fullPath = join(outDir, filename.replace(".json", ".html").replace(sep+"index",""));
     const dir = dirname(fullPath);
 
     // Ensure parent directories exist
@@ -172,10 +174,11 @@ getFiles(scriptsDir).forEach(js => {
 
 // origin point of generate functions
 function genGeneric(filename) {
-  const slug = filename.replace(".json", "").replace("/index", "");
+  const slug = filename.replace(".json", "").replace(sep+"index", "");
   const data = JSON.parse(readFileSync("src/" + filename, 'utf-8'));
 
   if (data.type === "lesson") {
+    console.log(slug)
     return genLesson(slug, data);
   } else if (data.type === "unit") {
     return genUnit(slug, data);
@@ -189,7 +192,7 @@ function genGeneric(filename) {
 function genLesson(lessonSlug, data) {
   let page = lessonTemplate;
 
-  const pagePath = lessonSlug.split("/");
+  const pagePath = lessonSlug.split(sep);
   const navPath = resolve("src/nav", pagePath[0] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
 
@@ -211,6 +214,8 @@ function genLesson(lessonSlug, data) {
 
           page = page.replaceAll("{{unit.title}}", unit.prefix + ": " + unit.title);
           page = page.replaceAll("{{lesson.title}}", lesson.prefix + ": " + lesson.title);
+
+          page = page.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["Courses", "/courses"], [navData.title, "../"], [unit.prefix + ": " + unit.title, "./"], [lesson.prefix + ": " + lesson.title, ""]))
 
           if (lessonIdx === 0) {
             page = page.replace("{{navigation.previous}}", `/${navData.course}/${unit.slug}`)
@@ -286,7 +291,7 @@ function genLesson(lessonSlug, data) {
 function genUnit(unitSlug, data) {
   let page = unitTemplate;
 
-  const pagePath = unitSlug.split("/");
+  const pagePath = unitSlug.split(sep);
   const navPath = resolve("src/nav", pagePath[0] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
 
@@ -309,6 +314,8 @@ function genUnit(unitSlug, data) {
 
       page = page.replaceAll("{{page.title}}", unit.prefix + ": " + unit.title)
       page = page.replaceAll("{{unit.title}}", unit.prefix + ": " + unit.title)
+
+      page = page.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["Courses", "/courses"], [navData.title, "./"], [unit.prefix + ": " + unit.title, ""]))
 
       if (unitIdx === 0) {
         page = page.replace("{{navigation.previous}}", "/" + navData.course);
@@ -385,7 +392,7 @@ function genUnit(unitSlug, data) {
 function genCourse(courseSlug, data) {
   let page = courseTemplate;
 
-  const pagePath = courseSlug.split("/");
+  const pagePath = courseSlug.split(sep);
   const navPath = resolve("src/nav", pagePath[0] + ".json");
   const navData = JSON.parse(readFileSync(navPath, 'utf-8'));
 
@@ -393,6 +400,8 @@ function genCourse(courseSlug, data) {
   page = page.replaceAll("{{course.title}}", navData.title)
   page = page.replaceAll("{{course.slug}}", pagePath[0]);
   page = page.replaceAll("{{page.title}}", navData.title);
+
+  page = page.replace("{{header.breadcrumbs}}", breadcrumbs(["Home", "/"], ["Courses", "/courses"], [navData.title, ""]))
 
   let navText = [];
   navData.units.forEach(unit => {

@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/generate.js",
-    "dev": "concurrently \"nodemon scripts/generate.js\" \"live-server public --open\""
+    "dev": "concurrently \"nodemon --verbose\" \"live-server public --open\""
   },
   "dependencies": {
     "cheerio": "^1.1.1"
@@ -11,5 +11,11 @@
     "concurrently": "^9.2.0",
     "live-server": "^1.2.2",
     "nodemon": "^3.1.10"
+  },
+  "nodemonConfig": {
+    "watch": ["scripts", "src"],
+    "ext": "js,json,css,html",
+    "ignore": ["public/**/*", "node_modules/**/*"],
+    "exec": "npm run build"
   }
 }
