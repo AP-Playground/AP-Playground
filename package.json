@@ -1,9 +1,15 @@
 {
   "type": "module",
   "scripts": {
-    "build": "node scripts/generate.js"
+    "build": "node scripts/generate.js",
+    "dev": "concurrently \"nodemon scripts/generate.js\" \"live-server public --open\""
   },
   "dependencies": {
     "cheerio": "^1.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "live-server": "^1.2.2",
+    "nodemon": "^3.1.10"
   }
 }
