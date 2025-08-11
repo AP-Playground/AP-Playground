@@ -1,0 +1,54 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "",
+  "vocab": [],
+  "links": [
+    {
+      "title": "Khan Academy | Meiosis (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/meiosis-and-genetic-diversity/a/phases-of-meiosis"
+    },
+    {
+      "title": "Khan Academy | Comparing mitosis and meiosis (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/meiosis-and-genetic-diversity/v/comparing-mitosis-and-meiosis"
+    },
+    {
+      "title": "Wikipedia | Meiosis",
+      "link": "https://en.wikipedia.org/wiki/Meiosis"
+    },
+    {
+      "title": "Biology Dictionary | Meiosis",
+      "link": "https://biologydictionary.net/ap-biology/5-1-meiosis/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Meiosis",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Meiosis",
+      "link": "ESi4hH0rA5E"
+    },
+    {
+      "title": "Crash Course Biology | Meiosis: Why Are All Humans Unique?",
+      "link": "pj1oFx42d48"
+    },
+    {
+      "title": "Amoeba Sisters | Meiosis",
+      "link": "VzDMG7ke69g"
+    },
+    {
+      "title": "Amoeba Sisters | Mitosis vs. Meiosis: Side by Side Comparison",
+      "link": "zrKdz93WlVk"
+    },
+    {
+      "title": "Amoeba Sisters | Chromosome Numbers During Division: Demystified!",
+      "link": "gcz1FOWw0Cg"
+    },
+    {
+      "title": "Bozeman Science | Phases of Meiosis",
+      "link": "16enC385R0w"
+    }
+  ]
+}

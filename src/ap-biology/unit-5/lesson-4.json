@@ -1,0 +1,62 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "",
+  "vocab": [],
+  "links": [
+    {
+      "title": "Khan Academy | Variations on Mendel's laws (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/non-mendelian-genetics/a/variations-on-mendels-laws-overview"
+    },
+    {
+      "title": "Khan Academy | X-linked inheritance (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/non-mendelian-genetics/a/sex-linkage-sex-determination-and-x-inactivation"
+    },
+    {
+      "title": "Khan Academy | Genetic linkage & mapping (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/non-mendelian-genetics/a/linkage-mapping"
+    },
+    {
+      "title": "Khan Academy | Pedigree for determining probability of exhibiting sex linked recessive trait (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/non-mendelian-genetics/v/pedigree-for-determining-probability-of-exhibiting-sex-linked-recessive-trait"
+    },
+    {
+      "title": "Wikipedia | Non-Mendelian inheritance",
+      "link": "https://en.wikipedia.org/wiki/Non-Mendelian_inheritance"
+    },
+    {
+      "title": "Biology Dictionary | Non-Mendelian Genetics",
+      "link": "https://biologydictionary.net/ap-biology/5-4-non-mendelian-genetics/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Non-Mendelian Genetics",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Non-Mendelian Genetics",
+      "link": "Mw0uX3i6Kkw"
+    },
+    {
+      "title": "PoseKnows Biology | Non-Mendelian Genetics (Morgan's Experiments and Gene Mapping)",
+      "link": "ofHh06FXF18"
+    },
+    {
+      "title": "Amoeba Sisters | Incomplete Dominance, Codominance, Polygenic Traits, and Epistasis!",
+      "link": "YJHGfbW55l0"
+    },
+    {
+      "title": "Amoeba Sisters | Punnett Squares and Sex-Linked Traits",
+      "link": "h2xufrHWG3E"
+    },
+    {
+      "title": "Amoeba Sisters | Pedigrees",
+      "link": "Gd09V2AkZv4"
+    },
+    {
+      "title": "Bozeman Science | Advanced Genetics",
+      "link": "YoEgUqHOcbc"
+    }
+  ]
+}

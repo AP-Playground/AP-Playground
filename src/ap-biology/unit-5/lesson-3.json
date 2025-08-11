@@ -1,0 +1,66 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "",
+  "vocab": [],
+  "links": [
+    {
+      "title": "Khan Academy | The law of segregation (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/mendelian-genetics-ap/a/the-law-of-segregation"
+    },
+    {
+      "title": "Khan Academy | Example of a signal transduction pathway (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/mendelian-genetics-ap/a/the-law-of-independent-assortment"
+    },
+    {
+      "title": "Khan Academy | Probabilities in genetics (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/mendelian-genetics-ap/a/probabilities-in-genetics"
+    },
+    {
+      "title": "Wikipedia | Mendelian inheritance",
+      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance"
+    },
+    {
+      "title": "Biology Dictionary | Signal Transduction",
+      "link": "https://biologydictionary.net/ap-biology/4-3-signal-transduction/"
+    },
+    {
+      "title": "Biology Dictionary | Mendelian Genetics",
+      "link": "https://biologydictionary.net/ap-biology/5-3-mendelian-genetics/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Mendelian Genetics",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Mendelian Genetics (Part I)",
+      "link": "JGt7ekIJSJg"
+    },
+    {
+      "title": "PoseKnows Biology | Mendelian Genetics (Part II)",
+      "link": "U6UrBY5OCSw"
+    },
+    {
+      "title": "Crash Course Botany | What Do Pea Plants Have To Do With Your Eye Color? (Mendelian Genetics)",
+      "link": "Ox4bHA9fGGY"
+    },
+    {
+      "title": "Crash Course Biology | Heredity",
+      "link": "CBezq1fFUEA"
+    },
+    {
+      "title": "Amoeba Sisters | Monohybrids and the Punnett Square Guinea Pigs",
+      "link": "i-0rSv6oxSY"
+    },
+    {
+      "title": "Amoeba Sisters | Punnett Squares and Sex-Linked Traits",
+      "link": "h2xufrHWG3E"
+    },
+    {
+      "title": "Bozeman Science | Mendelian Genetics",
+      "link": "NWqgZUnJdAY"
+    }
+  ]
+}

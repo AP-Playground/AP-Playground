@@ -1,0 +1,38 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "",
+  "vocab": [],
+  "links": [
+    {
+      "title": "Khan Academy | Ligands & receptors (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/meiosis-and-genetic-diversity/v/chromosomal-crossover-in-meiosis-i"
+    },
+    {
+      "title": "Wikipedia | Meiosis",
+      "link": "https://en.wikipedia.org/wiki/Meiosis"
+    },
+    {
+      "title": "Biology Dictionary | Meiosis and Genetic Diversity",
+      "link": "https://biologydictionary.net/ap-biology/5-2-meiosis-and-genetic-diversity/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Meiosis and Genetic Diversity",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Meiosis and Genetic Diversity",
+      "link": "yLTGkbqHJjI"
+    },
+    {
+      "title": "Crash Course Biology | Meiosis: Why Are All Humans Unique?",
+      "link": "pj1oFx42d48"
+    },
+    {
+      "title": "Bozeman Science | Meiosis",
+      "link": "rB_8dTuh73c"
+    }
+  ]
+}

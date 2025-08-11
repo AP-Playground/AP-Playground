@@ -81,7 +81,7 @@ body {
   &::-webkit-scrollbar-thumb:hover {
     background: var(--theme-80);
   }
-  & > div {
+  & > nav {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -102,13 +102,12 @@ html.side-nav-closed {
   & .side-nav {
     & .side-nav-header {
       .side-nav-btn {
-        & .shrink {
-          display: none;
-        }
-        & .expand {
-          display: inline;
-        }
         border-radius: 0 100% 100% 0;
+        & > div {
+          -webkit-mask-image: url("/icons/expand.svg");
+          mask-image: url("/icons/expand.svg");
+          translate: -2px
+        }
       }
       & .side-nav-logo {
         display: none;
@@ -173,16 +172,19 @@ html.side-nav-closed {
   &:active {
     filter: brightness(0.65);
   }
-  & img {
-    height: 55%;
+  & > div {
+    width: 70%;
+    height: 100%;
     opacity: 80%;
-  }
-  & .shrink {
-    display: inline;
-  }
-  & .expand {
-    display: none;
-    translate: -2px
+    -webkit-mask-image: url("/icons/shrink.svg");
+    mask-image: url("/icons/shrink.svg");
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    background-color: black;
   }
   transition: border-radius 0.3s ease-in-out, filter 0.1s linear;
 }
@@ -279,13 +281,13 @@ html.side-nav-closed {
     color: black;
     display: block;
   }
-  & .side-nav-current a {
+  & a[aria-current="page"] {
     text-decoration: underline;
     color: var(--theme);
   }
 }
 
-.side-nav-links:hover .side-nav-current a:hover {
+.side-nav-links:hover a[aria-current="page"]:hover {
   color: var(--accent);
 }
 
@@ -301,12 +303,11 @@ html.side-nav-closed {
 }
 
 
-main {
+.page-wrapper {
   padding: 30px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px) 20px calc(max(calc(50% - var(--main-width)/2), 0px) + 40px);
   height: 100dvh;
   overflow-y: auto;
   box-sizing: border-box;
-  grid-column-start: 2;
   transition: padding 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
@@ -359,6 +360,12 @@ main {
   }
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 a {
   color: var(--theme);
   text-decoration: none;
@@ -368,18 +375,25 @@ a:hover {
   text-decoration: underline;
 }
 
-main > footer {
-  padding-top: 5px;
+.page-wrapper > footer {
+  padding-block: 5px;
   margin-top: auto;
-  display: grid;
-  grid-auto-flow: column;
+  & nav {
+    display: grid;
+    grid-auto-flow: column;
+  }
   & a {
     justify-self: center;
+  }
+  & .disclaimer {
+    margin-top: 15px;
+    padding-inline: 10px;
+    text-align: center;
   }
 }
 
 .split-header,
-main > header {
+.page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -388,14 +402,21 @@ main > header {
   }
 }
 
-main > header .nav-buttons {
+.page-controls {
   min-width: max-content;
   display: flex;
   gap: 5px;
-  & a {
-    border-radius: 50%;
+  & ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
   }
-  & button {
+  & button,
+  & a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -413,7 +434,6 @@ main > header .nav-buttons {
     }
   }
   & .dark-mode-btn {
-    display: flex;
     padding: 3px;
     & > div {
       height: 100%;
@@ -545,8 +565,6 @@ main > header .nav-buttons {
 
 sup {
   line-height: 0;
-  display: inline-block;
-  translate: 0 1px;
 }
 
 
@@ -574,7 +592,7 @@ sup {
     background-color: #0007;
     display: block;
   }
-  main {
+  .page-wrapper {
     padding: 55px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px) 20px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px);
   }
   .double-content-block {
@@ -598,7 +616,7 @@ sup {
 }
 
 @media (max-width: 700px) {
-  main {
+  .page-wrapper {
     padding: 55px 15px 20px 15px;
   }
 }

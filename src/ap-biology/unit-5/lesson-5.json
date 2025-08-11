@@ -1,0 +1,38 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "",
+  "vocab": [],
+  "links": [
+    {
+      "title": "Khan Academy | Polygenic inheritance and environmental effects (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/heredity/environmental-effects-on-phenotype/a/polygenic-inheritance-and-environmental-effects"
+    },
+    {
+      "title": "Wikipedia | Phenotypic plasticity",
+      "link": "https://en.wikipedia.org/wiki/Phenotypic_plasticity"
+    },
+    {
+      "title": "Wikipedia | Epigenetics",
+      "link": "https://en.wikipedia.org/wiki/Epigenetics"
+    },
+    {
+      "title": "Biology Dictionary | Environmental Effects on Phenotype",
+      "link": "https://biologydictionary.net/ap-biology/5-5-environmental-effects-on-phenotype/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Environmental Effects on Phenotype",
+      "link": ""
+    },
+    {
+      "title": "PoseKnows Biology | Environmental Effects on Phenotype",
+      "link": "0vrYTugETXI"
+    },
+    {
+      "title": "Amoeba Sisters | Epigenetics",
+      "link": "MD3Fc0XOjWk"
+    }
+  ]
+}
