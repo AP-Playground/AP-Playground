@@ -256,7 +256,7 @@ export function header(path) {
 
 
 export function video(title, link, more = false) {
-  return `<div class="video-container"><div class="video-header"><h3>${title}</h3><a target="_blank" href="https://www.youtube.com/watch?v=${link}"></a></div>${more ? moreVideoEmbed(link) : videoEmbed(link)}</div>`
+  return `<div class="video-container"><div class="video-header"><h3>${title}</h3><a aria-label="Open video in new tab" target="_blank" href="https://www.youtube.com/watch?v=${link}"></a></div>${more ? moreVideoEmbed(link) : videoEmbed(link)}</div>`
 }
 
 function videoEmbed(link) {

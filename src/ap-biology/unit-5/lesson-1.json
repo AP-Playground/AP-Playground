@@ -1,8 +1,77 @@
 {
   "nav": "ap-biology/nav",
   "type": "lesson",
-  "summary": "",
-  "vocab": [],
+  "summary": "Unit 4 discussed cell replication and division through the process of mitosis, the creation of genetically identical cells. Topic 5.1 starts Unit 5 with a discussion of the process organisms use to reproduce sexually and maintain genetic diversity within their populations: meiosis.",
+  "vocab": [
+    {
+      "term": "Genes",
+      "link": "https://en.wikipedia.org/wiki/Gene"
+    },
+    {
+      "term": "Asexual Reproduction",
+      "link": "https://en.wikipedia.org/wiki/Asexual_reproduction"
+    },
+    {
+      "term": "Sexual Reproduction",
+      "link": "https://en.wikipedia.org/wiki/Sexual_reproduction"
+    },
+    {
+      "term": "Homologous chromosomes",
+      "link": "https://en.wikipedia.org/wiki/Homologous_chromosome"
+    },
+    {
+      "term": "Autosomes",
+      "link": "https://en.wikipedia.org/wiki/Autosome"
+    },
+    {
+      "term": "Sex chromosomes",
+      "link": "https://en.wikipedia.org/wiki/Sex_chromosome"
+    },
+    {
+      "term": "Somatic cells",
+      "link": "https://en.wikipedia.org/wiki/Somatic_cell"
+    },
+    {
+      "term": "Gametes",
+      "link": "https://en.wikipedia.org/wiki/Gamete"
+    },
+    {
+      "term": "Diploid Cell",
+      "link": "https://en.wikipedia.org/wiki/Ploidy#Diploid"
+    },
+    {
+      "term": "Haploid Cell",
+      "link": "https://en.wikipedia.org/wiki/Ploidy#Haploid_and_monoploid"
+    },
+    {
+      "term": "Meiosis",
+      "link": "https://en.wikipedia.org/wiki/Meiosis"
+    },
+    {
+      "term": "Fertilization",
+      "link": "https://en.wikipedia.org/wiki/Fertilisation"
+    },
+    {
+      "term": "Synapsis",
+      "link": "https://en.wikipedia.org/wiki/Synapsis"
+    },
+    {
+      "term": "Crossing over",
+      "link": "https://en.wikipedia.org/wiki/Chromosomal_crossover"
+    },
+    {
+      "term": "Independent assortment",
+      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_independent_assortment"
+    },
+    {
+      "term": "Random fertilization",
+      "link": "https://en.wikipedia.org/wiki/Quantitative_genetics#Random_fertilization"
+    },
+    {
+      "term": "Mitosis",
+      "link": "https://en.wikipedia.org/wiki/Mitosis"
+    }
+  ],
   "links": [
     {
       "title": "Khan Academy | Meiosis (article)",
@@ -24,7 +93,7 @@
   "videos": [
     {
       "title": "AP Playground | Meiosis",
-      "link": ""
+      "link": "uI4hOznOVy4"
     },
     {
       "title": "PoseKnows Biology | Meiosis",

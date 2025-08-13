@@ -1,8 +1,53 @@
 {
   "nav": "ap-biology/nav",
   "type": "lesson",
-  "summary": "",
-  "vocab": [],
+  "summary": "Topic 5.3 explained the basis of genetics: patterns of inheritance which followed the findings of Gregor Mendel. Not all forms of inheritance follow the laws the Austrian observed, and Topic 5.4 is dedicated to explaining these Non-Mendelian patterns of inheritance.",
+  "vocab": [
+    {
+      "term": "Complete dominance",
+      "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Complete_dominance_(Mendelian)"
+    },
+    {
+      "term": "Incomplete dominance",
+      "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Incomplete_dominance_(non-Mendelian)"
+    },
+    {
+      "term": "Codominance",
+      "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Co-dominance_(non-Mendelian)"
+    },
+    {
+      "term": "Multiple alleles",
+      "link": "https://en.wikipedia.org/wiki/Allele#Multiple_alleles"
+    },
+    {
+      "term": "Linked genes",
+      "link": "https://en.wikipedia.org/wiki/Genetic_linkage"
+    },
+    {
+      "term": "Linkage map",
+      "link": "https://en.wikipedia.org/wiki/Genetic_linkage#Linkage_map"
+    },
+    {
+      "term": "Parental type",
+      "link": "https://en.wikipedia.org/wiki/Genetic_recombination"
+    },
+    {
+      "term": "Recombinant type",
+      "link": "https://en.wikipedia.org/wiki/Genetic_recombination"
+    },
+    {
+      "term": "Nonnuclear inheritance",
+      "link": "https://en.wikipedia.org/wiki/Mitochondrial_DNA#Mitochondrial_inheritance"
+    },
+    {
+      "term": "Sex-linked gene",
+      "link": "https://en.wikipedia.org/wiki/Sex_linkage"
+    },
+    {
+      "term": "Pedigree",
+      "link": "https://en.wikipedia.org/wiki/Pedigree_chart"
+    }
+  ],
   "links": [
     {
       "title": "Khan Academy | Variations on Mendel's laws (article)",
@@ -32,7 +77,7 @@
   "videos": [
     {
       "title": "AP Playground | Non-Mendelian Genetics",
-      "link": ""
+      "link": "3QfkZTyrodM"
     },
     {
       "title": "PoseKnows Biology | Non-Mendelian Genetics",

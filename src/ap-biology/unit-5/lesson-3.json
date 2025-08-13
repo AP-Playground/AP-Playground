@@ -1,8 +1,57 @@
 {
   "nav": "ap-biology/nav",
   "type": "lesson",
-  "summary": "",
-  "vocab": [],
+  "summary": "Discussing meiosis in Topics 5.1 and 5.2 gave us the means by which sexual reproduction occurs, and in Topic 5.3 we'll continue exploring the transmission of traits from generation to generation by looking at the work of a monk named Gregor Mendel.",
+  "vocab": [
+    {
+      "term": "Dominant Alleles",
+      "link": "https://en.wikipedia.org/wiki/Allele"
+    },
+    {
+      "term": "Recessive Alleles",
+      "link": "https://en.wikipedia.org/wiki/Allele"
+    },
+    {
+      "term": "Homozygous",
+      "link": "https://en.wikipedia.org/wiki/Zygosity#Homozygous"
+    },
+    {
+      "term": "Heterozygous",
+      "link": "https://en.wikipedia.org/wiki/Zygosity#Heterozygous"
+    },
+    {
+      "term": "Punnett Square",
+      "link": "https://en.wikipedia.org/wiki/Punnett_square"
+    },
+    {
+      "term": "Law of Segregation",
+      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_segregation_of_genes"
+    },
+    {
+      "term": "Test Cross",
+      "link": "https://en.wikipedia.org/wiki/Test_cross"
+    },
+    {
+      "term": "Monohybrid Cross",
+      "link": "https://en.wikipedia.org/wiki/Monohybrid_cross"
+    },
+    {
+      "term": "Law of Independent Assortment",
+      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_independent_assortment"
+    },
+    {
+      "term": "Dihybrid Cross",
+      "link": "https://en.wikipedia.org/wiki/Dihybrid_cross"
+    },
+    {
+      "term": "Chi-Square Test",
+      "link": "https://en.wikipedia.org/wiki/Chi-squared_test"
+    },
+    {
+      "term": "Null hypothesis",
+      "link": "https://en.wikipedia.org/wiki/Null_hypothesis"
+    }
+  ],
   "links": [
     {
       "title": "Khan Academy | The law of segregation (article)",
@@ -32,7 +81,7 @@
   "videos": [
     {
       "title": "AP Playground | Mendelian Genetics",
-      "link": ""
+      "link": "LVJip0nCTi8"
     },
     {
       "title": "PoseKnows Biology | Mendelian Genetics (Part I)",
