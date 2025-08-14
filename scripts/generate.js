@@ -4,6 +4,8 @@ import * as util from './util.js'
 import * as global from './global.js'
 import * as about from './unique/about.js'
 import * as courses from './unique/courses.js'
+import * as home from './unique/home.js'
+import * as page404 from './unique/404.js'
 
 
 // proccess global data
@@ -13,6 +15,8 @@ global.init();
 // generate and write unique pages
 about.upload()
 courses.upload()
+home.upload()
+page404.upload()
 
 
 // write each page

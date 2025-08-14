@@ -29,6 +29,10 @@
   --accent-10: color-mix(in oklab, var(--accent) 10%, white 90%);
 }
 
+.visually-hidden {
+  display: none;
+}
+
 html {
   --side-nav-width: 400px;
   --side-nav-btn-diameter: 50px;

@@ -70,7 +70,7 @@ export function nav(path) {
   side += `<hr class="side-nav-divider">`
 
   side += navTab(path, "Courses", "/courses", global.navCourses, transitionDuration(global.courses.length))
-  side += navTab(path, "Games", "/games", '{{nav.games}}', transitionDuration(1))
+  side += navTab(path, "Games", "/games", 'Games are not supported at this time', transitionDuration(1))
 
   side += `<hr class="side-nav-divider">`
 
@@ -79,6 +79,7 @@ export function nav(path) {
   switch (pathSegments[0]) {
     case "":
     case "about":
+    case "404":
     case "courses": {
       side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
       break;
@@ -160,6 +161,10 @@ export function header(path) {
       breadcrumb.push(["Games","/games"])
       break;
     }
+    case "404": {
+      breadcrumb = []
+      break;
+    }
     default: {
       breadcrumb.push(["Courses","/courses"])
       navData = JSON.parse(readFileSync(`src/nav/${pathSegments[0]}.json`))
@@ -183,6 +188,7 @@ export function header(path) {
     case "":
     case "about":
     case "courses":
+    case "404":
     case "games": {
       break;
     }

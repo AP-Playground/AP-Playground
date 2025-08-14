@@ -1,0 +1,29 @@
+.intro-block {
+  & img {
+    width: min(100%, 600px);
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 10px;
+  }
+  & h2 {
+    text-align: center;
+  }
+}
+
+ul.features {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.5rem;
+  padding: 0;
+  margin-top: 20px;
+  
+  & li:before {
+    content: "\2611";
+    margin-right:5px;
+  }
+  & li {
+    font-size: 20px;
+    text-align: center;
+  }
+}
