@@ -1,0 +1,111 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "From previous topics, we know that DNA is the material that carries genetic instructions for living things. But how does DNA become expressed and contribute to an organism's outward appearance? Topic 6.3 begins this process by discussing transcription and mRNA processing.",
+  "vocab": [
+    {
+      "term": "Gene expression",
+      "link": "https://en.wikipedia.org/wiki/Gene_expression"
+    },
+    {
+      "term": "Central dogma",
+      "link": "https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology"
+    },
+    {
+      "term": "Transcription",
+      "link": "https://en.wikipedia.org/wiki/Transcription_(biology)"
+    },
+    {
+      "term": "mRNA",
+      "link": "https://en.wikipedia.org/wiki/Messenger_RNA"
+    },
+    {
+      "term": "Template strand",
+      "link": "https://en.wikipedia.org/wiki/Transcription_(biology)"
+    },
+    {
+      "term": "Coding strand",
+      "link": "https://en.wikipedia.org/wiki/Coding_strand"
+    },
+    {
+      "term": "RNA polymerase",
+      "link": "https://en.wikipedia.org/wiki/RNA_polymerase"
+    },
+    {
+      "term": "Transcription factors",
+      "link": "https://en.wikipedia.org/wiki/Transcription_factor"
+    },
+    {
+      "term": "5' cap",
+      "link": "https://en.wikipedia.org/wiki/Five-prime_cap"
+    },
+    {
+      "term": "Poly-A-tail",
+      "link": "https://en.wikipedia.org/wiki/Polyadenylation"
+    },
+    {
+      "term": "RNA splicing",
+      "link": "https://en.wikipedia.org/wiki/RNA_splicing"
+    },
+    {
+      "term": "Introns",
+      "link": "https://en.wikipedia.org/wiki/Intron"
+    },
+    {
+      "term": "Exons",
+      "link": "https://en.wikipedia.org/wiki/Exon"
+    },
+    {
+      "term": "Spliceosome",
+      "link": "https://en.wikipedia.org/wiki/Spliceosome"
+    },
+    {
+      "term": "Ribozyme",
+      "link": "https://en.wikipedia.org/wiki/Ribozyme"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Overview of transcription (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/transcription-and-rna-processing/a/overview-of-transcription"
+    },
+    {
+      "title": "Khan Academy | Eukaryotic pre-mRNA processing (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/transcription-and-rna-processing/a/eukaryotic-pre-mrna-processing"
+    },
+    {
+      "title": "Wikipedia | Transcription",
+      "link": "https://en.wikipedia.org/wiki/Transcription_(biology)"
+    },
+    {
+      "title": "Wikipedia | Post-transcriptional modification",
+      "link": "https://en.wikipedia.org/wiki/Post-transcriptional_modification"
+    },
+    {
+      "title": "Biology Dictionary | Transcription and RNA Processing",
+      "link": "https://biologydictionary.net/ap-biology/6-3-transcription-and-rna-processing/"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Transcription and RNA Processing",
+      "link": "CPEE1vHzt4Y"
+    },
+    {
+      "title": "PoseKnows Biology | Transcription and RNA Processing",
+      "link": "unZw9JvZ6Q4"
+    },
+    {
+      "title": "Crash Course Botany | Transcription: How mRNA Helped Save Lives",
+      "link": "j6YaOqKORYY"
+    },
+    {
+      "title": "Amoeba Sisters | Protein Synthesis",
+      "link": "oefAI2x2CQM"
+    },
+    {
+      "title": "Bozeman Science | Transcription and Translation",
+      "link": "h3b9ArupXZg"
+    }
+  ]
+}

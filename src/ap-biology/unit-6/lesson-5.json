@@ -1,0 +1,115 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "Topics 6.3 and 6.4 dove deep into the process of gene expression, but how can transcription and translation be regulated? Topic 6.5 covers the many ways in which gene expression can be promoted or inhibited in both eukaryotes and prokaryotes.",
+  "vocab": [
+    {
+      "term": "Epigenetics",
+      "link": "https://en.wikipedia.org/wiki/Epigenetics"
+    },
+    {
+      "term": "DNA methylation",
+      "link": "https://en.wikipedia.org/wiki/DNA_methylation"
+    },
+    {
+      "term": "Histone acetylation",
+      "link": "https://en.wikipedia.org/wiki/Histone_acetylation_and_deacetylation"
+    },
+    {
+      "term": "Regulatory sequences",
+      "link": "https://en.wikipedia.org/wiki/Regulatory_sequence"
+    },
+    {
+      "term": "Constitutive genes",
+      "link": "https://en.wikipedia.org/wiki/Gene_expression#Regulation"
+    },
+    {
+      "term": "Inducible expression",
+      "link": "https://en.wikipedia.org/wiki/Gene_expression#Inducible_expression"
+    },
+    {
+      "term": "Transcription-initiation complex",
+      "link": "https://en.wikipedia.org/wiki/Transcription_(biology)#Initiation"
+    },
+    {
+      "term": "Activator",
+      "link": "https://en.wikipedia.org/wiki/Activator_(genetics)"
+    },
+    {
+      "term": "Enhancer",
+      "link": "https://en.wikipedia.org/wiki/Enhancer_(genetics)"
+    },
+    {
+      "term": "Promoter",
+      "link": "https://en.wikipedia.org/wiki/Promoter_(genetics)"
+    },
+    {
+      "term": "Alternative RNA splicing",
+      "link": "https://en.wikipedia.org/wiki/Alternative_splicing"
+    },
+    {
+      "term": "Ubiquitin",
+      "link": "https://en.wikipedia.org/wiki/Ubiquitin"
+    },
+    {
+      "term": "Inducible operon",
+      "link": "https://en.wikipedia.org/wiki/Operon"
+    },
+    {
+      "term": "Repressible operon",
+      "link": "https://en.wikipedia.org/wiki/Operon"
+    },
+    {
+      "term": "Operator",
+      "link": "https://en.wikipedia.org/wiki/Operon"
+    },
+    {
+      "term": "Repressor",
+      "link": "https://en.wikipedia.org/wiki/Operon"
+    },
+    {
+      "term": "Cell differentiation",
+      "link": "https://en.wikipedia.org/wiki/Cellular_differentiation"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Overview: Gene regulation in bacteria (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/regulation-of-gene-expression-and-cell-specialization/a/overview-gene-regulation-in-bacteria"
+    },
+    {
+      "title": "Khan Academy | Overview: Eukaryotic gene regulation (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/regulation-of-gene-expression-and-cell-specialization/a/overview-of-eukaryotic-gene-regulation"
+    },
+    {
+      "title": "Wikipedia | Regulation of gene expression",
+      "link": "https://en.wikipedia.org/wiki/Regulation_of_gene_expression"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Regulation of Gene Expression",
+      "link": "biGIybMDJes"
+    },
+    {
+      "title": "PoseKnows Biology | Regulation of Gene Expression (Operons)",
+      "link": "sR0EHfVL5KE"
+    },
+    {
+      "title": "PoseKnows Biology | Regulation of Gene Expression (Eukaryotic)",
+      "link": "R2PhaERz8fo"
+    },
+    {
+      "title": "Crash Course Biology | How Genes Express Themselves",
+      "link": "NeeaP8pp9HI"
+    },
+    {
+      "title": "Amoeba Sisters | Gene Expression and Regulation",
+      "link": "ebIpkw3XapE"
+    },
+    {
+      "title": "Bozeman Science | Gene Regulation",
+      "link": "3S3ZOmleAj0"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "Throughout Unit 6, we've linked up gene expression and outward appearance, but how are new genes created? Topic 6.7 discusses mutations, horizontal gene transfer, and other ways that the genome of an organism can change, resulting in a change in phenotype.",
+  "vocab": [
+    {
+      "term": "Mutation",
+      "link": "https://en.wikipedia.org/wiki/Mutation"
+    },
+    {
+      "term": "Point mutation",
+      "link": "https://en.wikipedia.org/wiki/Point_mutation"
+    },
+    {
+      "term": "Insertion",
+      "link": "https://en.wikipedia.org/wiki/Insertion_(genetics)"
+    },
+    {
+      "term": "Deletion",
+      "link": "https://en.wikipedia.org/wiki/Deletion_(genetics)"
+    },
+    {
+      "term": "Frameshift mutation",
+      "link": "https://en.wikipedia.org/wiki/Frameshift_mutation"
+    },
+    {
+      "term": "Nonsense mutation",
+      "link": "https://en.wikipedia.org/wiki/Nonsense_mutation"
+    },
+    {
+      "term": "Silent mutation",
+      "link": "https://en.wikipedia.org/wiki/Silent_mutation"
+    },
+    {
+      "term": "Codon chart",
+      "link": "https://en.wikipedia.org/wiki/DNA_and_RNA_codon_tables"
+    },
+    {
+      "term": "Mutagens",
+      "link": "https://en.wikipedia.org/wiki/Mutagen"
+    },
+    {
+      "term": "Nondisjunction",
+      "link": "https://en.wikipedia.org/wiki/Nondisjunction"
+    },
+    {
+      "term": "Horizontal gene transfer",
+      "link": "https://en.wikipedia.org/wiki/Horizontal_gene_transfer"
+    },
+    {
+      "term": "Transformation",
+      "link": "https://en.wikipedia.org/wiki/Genetic_transformation"
+    },
+    {
+      "term": "Transduction",
+      "link": "https://en.wikipedia.org/wiki/Transduction_(genetics)"
+    },
+    {
+      "term": "Conjugation",
+      "link": "https://en.wikipedia.org/wiki/Conjugation"
+    },
+    {
+      "term": "Transposition",
+      "link": "https://en.wikipedia.org/wiki/Transposition"
+    },
+    {
+      "term": "Plasmid",
+      "link": "https://en.wikipedia.org/wiki/Plasmid"
+    },
+    {
+      "term": "Virus",
+      "link": "https://en.wikipedia.org/wiki/Virus"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Genetic variation in prokaryotes (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/mutations-ap/a/genetic-variation-in-prokaryotes"
+    },
+    {
+      "title": "Khan Academy | Impact of mutations on translation into amino acids (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/mutations-ap/v/impact-of-mutations-on-translation-into-amino-acids"
+    },
+    {
+      "title": "Wikipedia | Mutation",
+      "link": "https://en.wikipedia.org/wiki/Mutation"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Mutations",
+      "link": "4hgJ6A81xuw"
+    },
+    {
+      "title": "PoseKnows Biology | Mutations",
+      "link": "f2cUHGriR1M"
+    },
+    {
+      "title": "PoseKnows Biology | Mutations (Transformation, Transduction, Conjugation)",
+      "link": "BI_ahtvnc4E"
+    },
+    {
+      "title": "Crash Course Biology | Genetic Mutations: Is Drinking Milk a Super Power?",
+      "link": "8HfzUgxumVE"
+    },
+    {
+      "title": "Amoeba Sisters | Mutations",
+      "link": "vl6Vlf2thvI"
+    },
+    {
+      "title": "Bozeman Science | Mutations",
+      "link": "eDbK0cxKKsk"
+    }
+  ]
+}

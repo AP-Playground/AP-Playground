@@ -1,0 +1,95 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "In Topic 6.3, we discussed the process of transcription - turning a DNA molecule into a strand of mRNA. Topic 6.4 contains the next step of the Central Dogma of gene expression, translating the mRNA into proteins.",
+  "vocab": [
+    {
+      "term": "Gene expression",
+      "link": "https://en.wikipedia.org/wiki/Gene_expression"
+    },
+    {
+      "term": "Central dogma",
+      "link": "https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology"
+    },
+    {
+      "term": "Translation",
+      "link": "https://en.wikipedia.org/wiki/Translation_(biology)"
+    },
+    {
+      "term": "tRNA",
+      "link": "https://en.wikipedia.org/wiki/Transfer_RNA"
+    },
+    {
+      "term": "Ribosomes",
+      "link": "https://en.wikipedia.org/wiki/Ribosome"
+    },
+    {
+      "term": "rRNA",
+      "link": "https://en.wikipedia.org/wiki/Ribosomal_RNA"
+    },
+    {
+      "term": "Codon",
+      "link": "https://en.wikipedia.org/wiki/Genetic_code#Codons"
+    },
+    {
+      "term": "Anticodon",
+      "link": "https://en.wikipedia.org/wiki/Transfer_RNA#Anticodon"
+    },
+    {
+      "term": "Signal peptide",
+      "link": "https://en.wikipedia.org/wiki/Signal_peptide"
+    },
+    {
+      "term": "Retroviruses",
+      "link": "https://en.wikipedia.org/wiki/Retrovirus"
+    },
+    {
+      "term": "Reverse transcriptase",
+      "link": "https://en.wikipedia.org/wiki/Reverse_transcriptase"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Overview of translation (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/a/translation-overview"
+    },
+    {
+      "title": "Khan Academy | Retroviruses (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/v/retroviruses"
+    },
+    {
+      "title": "Khan Academy | Differences in translation between prokaryotes and eukaryotes (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/v/differences-in-translation-between-prokaryotes-and-eukaryotes"
+    },
+    {
+      "title": "Wikipedia | Translation",
+      "link": "https://en.wikipedia.org/wiki/Translation_(biology)"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Translation",
+      "link": "nPWDIUmsIwc"
+    },
+    {
+      "title": "PoseKnows Biology | Translation",
+      "link": "a7_07pxiPqQ"
+    },
+    {
+      "title": "PoseKnows Biology | Translation (Viruses and Retroviruses)",
+      "link": "wD0jXdItd4M"
+    },
+    {
+      "title": "Crash Course Biology | Translation: How RNA Gets Translated into Protein Power",
+      "link": "6ulXau2HyHg"
+    },
+    {
+      "title": "Amoeba Sisters | Protein Synthesis",
+      "link": "oefAI2x2CQM"
+    },
+    {
+      "title": "Bozeman Science | Transcription and Translation",
+      "link": "h3b9ArupXZg"
+    }
+  ]
+}

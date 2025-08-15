@@ -1,0 +1,47 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "unit",
+  "summary": "Progressing from the continuity of life to gene expression, students gain in-depth knowledge about nucleic acids and their role in gene expression in this unit. There is also a finer focus on the comparison between the structures of DNA and RNA. This unit highlights how an individual’s genotype is physically expressed through their phenotype, thus emphasizing the importance of protein synthesis (transcription and translation) in gene expression. Regulation of gene expression and cell specialization are instrumental in ensuring survival within an individual and across populations. Unit 7 moves on to cover natural selection.",
+  "games": [
+    {
+      "title": "Vocab Review",
+      "link": "vocab-review"
+    },
+    {
+      "title": "Matching",
+      "link": "matching"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Unit 6: Gene expression and regulation",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation"
+    },
+    {
+      "title": "PoseKnows Biology | Unit 6 Playlist",
+      "link": "https://www.youtube.com/playlist?list=PLrQji7zW6lY9QfOwVxfl9rrzYmTc6DULR"
+    },
+    {
+      "title": "Excel at Science | Unit 3 - Genetics Pt 1",
+      "link": "https://www.excelatscience.com/unit-3-genetics"
+    },
+    {
+      "title": "Excel at Science | Unit 3 - Genetics Pt 2",
+      "link": "https://www.excelatscience.com/unit-3-pt-2-biotechnology-genomes"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology Unit 6 Review",
+      "link": "X2YoYy6_uEk"
+    },
+    {
+      "title": "PoseKnows Biology | Unit 6: Gene Expression and Regulation AP Biology Recap",
+      "link": "KmKW1Tdsis8"
+    },
+    {
+      "title": "Marco Learning | AP Biology: Unit 5/6 Review",
+      "link": "1zJe4wzE7NU"
+    }
+  ]
+}

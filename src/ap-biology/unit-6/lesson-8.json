@@ -1,0 +1,95 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "Ending our discussion of DNA and gene expression, Topic 6.8 explains the different technological methods in which DNA is manipulated and analyzed, and the applications of these techniques.",
+  "vocab": [
+    {
+      "term": "Biotechnology",
+      "link": "https://en.wikipedia.org/wiki/Biotechnology"
+    },
+    {
+      "term": "DNA sequencing",
+      "link": "https://en.wikipedia.org/wiki/DNA_sequencing"
+    },
+    {
+      "term": "Gel electrophoresis",
+      "link": "https://en.wikipedia.org/wiki/Gel_electrophoresis"
+    },
+    {
+      "term": "PCR",
+      "link": "https://en.wikipedia.org/wiki/Polymerase_chain_reaction"
+    },
+    {
+      "term": "Recombinant DNA",
+      "link": "https://en.wikipedia.org/wiki/Recombinant_DNA"
+    },
+    {
+      "term": "Gene cloning",
+      "link": "https://en.wikipedia.org/wiki/Molecular_cloning"
+    },
+    {
+      "term": "Plasmid",
+      "link": "https://en.wikipedia.org/wiki/Plasmid"
+    },
+    {
+      "term": "Restriction enzymes",
+      "link": "https://en.wikipedia.org/wiki/Restriction_enzyme"
+    },
+    {
+      "term": "CRISPR-Cas9",
+      "link": "https://en.wikipedia.org/wiki/CRISPR_gene_editing"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Overview: DNA cloning (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/biotechnology/a/overview-dna-cloning"
+    },
+    {
+      "title": "Khan Academy | Polymerase chain reaction (PCR) (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/biotechnology/a/polymerase-chain-reaction-pcr"
+    },
+    {
+      "title": "Khan Academy | Gel electrophoresis (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/biotechnology/a/gel-electrophoresis"
+    },
+    {
+      "title": "Khan Academy | DNA sequencing (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/biotechnology/a/dna-sequencing"
+    },
+    {
+      "title": "Wikipedia | Biotechnology",
+      "link": "https://en.wikipedia.org/wiki/Biotechnology"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Biotechnology",
+      "link": "aICxKOF_RtI"
+    },
+    {
+      "title": "PoseKnows Biology | Biotechnology",
+      "link": "BRMzrvj5ZTY"
+    },
+    {
+      "title": "Crash Course Engineering | Changing the Blueprints of Life - Genetic Engineering",
+      "link": "FY_ZUEKWhBc"
+    },
+    {
+      "title": "Amoeba Sisters | Genetic Engineering",
+      "link": "CDw4WPng2iE"
+    },
+    {
+      "title": "Amoeba Sisters | Gel Electrophoresis",
+      "link": "ZDZUAleWX78"
+    },
+    {
+      "title": "Amoeba Sisters | PCR (Polymerase Chain Reaction)",
+      "link": "a5jmdh9AnS4"
+    },
+    {
+      "title": "Bozeman Science | Molecular Biology",
+      "link": "yYIZgS-L5Sc"
+    }
+  ]
+}

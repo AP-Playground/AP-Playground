@@ -1,0 +1,59 @@
+{
+  "nav": "ap-biology/nav",
+  "type": "lesson",
+  "summary": "Much of Unit 6 has been spent talking about gene expression, and how genetic instructions in the form of DNA can become proteins that affect an organism's outward appearance. Topic 6.6 takes it a step further, focusing on the connection between gene expression and phenotype.",
+  "vocab": [
+    {
+      "term": "Differential gene expression",
+      "link": "https://en.wikipedia.org/wiki/Gene_expression"
+    },
+    {
+      "term": "Cell specialization",
+      "link": "https://en.wikipedia.org/wiki/Cellular_differentiation"
+    },
+    {
+      "term": "Small RNAs",
+      "link": "https://en.wikipedia.org/wiki/Small_RNA"
+    },
+    {
+      "term": "miRNA",
+      "link": "https://en.wikipedia.org/wiki/MicroRNA"
+    },
+    {
+      "term": "siRNA",
+      "link": "https://en.wikipedia.org/wiki/Small_interfering_RNA"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Cellular specialization (differentiation) (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/regulation-of-gene-expression-and-cell-specialization/v/cellular-specialization-differentiation"
+    },
+    {
+      "title": "Wikipedia | Gene expression",
+      "link": "https://en.wikipedia.org/wiki/Gene_expression"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Mendelian Genetics",
+      "link": "_2iCAoHWCME"
+    },
+    {
+      "title": "PoseKnows Biology | Gene Expression and Cell Specialization",
+      "link": "2D8miji-OV4"
+    },
+    {
+      "title": "Crash Course Botany | How Genes Express Themselves",
+      "link": "NeeaP8pp9HI"
+    },
+    {
+      "title": "Amoeba Sisters | How Cells Become Specialized",
+      "link": "t3g26p9Mh_k"
+    },
+    {
+      "title": "Bozeman Science | Cellular Specialization",
+      "link": "jp6L5emD8rw"
+    }
+  ]
+}
