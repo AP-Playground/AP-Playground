@@ -48,3 +48,12 @@ util.getAllFiles(scriptsDir).forEach(js => {
   const destPath = join("js", js);
   util.copyFile(srcPath, destPath)
 })
+
+
+// copy slides from src/slides to public/slides
+const slidesDir = resolve("src/slides")
+util.getAllFiles(slidesDir).forEach(slide => {
+  const srcPath = join(slidesDir, slide)
+  const destPath = join("slides", slide);
+  util.copyFile(srcPath, destPath)
+})
