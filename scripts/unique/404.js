@@ -4,7 +4,7 @@ import * as util from '../util.js'
 import * as global from '../global.js'
 
 export function upload() {
-  let page = templates.head("Home", "", ["/css/home.css"])
+  let page = templates.head("404")
   page += "<body>"
   page += templates.nav("/404");
 
