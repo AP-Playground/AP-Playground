@@ -148,7 +148,10 @@ export function header(path) {
   let breadcrumb = [["Home","/"]]
 
   switch (pathSegments[0]) {
-    case "": break;
+    case "": {
+      breadcrumb = []
+      break;
+    }
     case "about": {
       breadcrumb.push(["About","/about"])
       break;

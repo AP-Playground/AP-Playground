@@ -401,8 +401,12 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
   & * {
     margin: 0;
+  }
+  & a {
+    white-space: nowrap;
   }
 }
 
