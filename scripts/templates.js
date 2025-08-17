@@ -272,7 +272,7 @@ export function video({title, link, more = false, download = false, filename = f
     if (filename) {
       filename = `="${filename}"`
     }
-    return `<div class="video-container"><div class="video-header split-header"><h3>${title}</h3><div class="video-header-btns"><a class="download" aria-label="Download the presentation" download${filename} target="_blank" href="${download}"></a><a class="external-open" aria-label="Open video in new tab" href="https://www.youtube.com/watch?v=${link}"></a></div></div>${more ? moreVideoEmbed(link) : videoEmbed(link)}</div>`
+    return `<div class="video-container"><div class="video-header split-header"><h3>${title}</h3><div class="video-header-btns"><a class="download" aria-label="Download the presentation" download${filename} href="${download}"></a><a class="external-open" target="_blank" aria-label="Open video in new tab" href="https://www.youtube.com/watch?v=${link}"></a></div></div>${more ? moreVideoEmbed(link) : videoEmbed(link)}</div>`
   } else {
     return `<div class="video-container"><div class="video-header split-header"><h3>${title}</h3><div class="video-header-btns"><a class="external-open" aria-label="Open video in new tab" target="_blank" href="https://www.youtube.com/watch?v=${link}"></a></div></div>${more ? moreVideoEmbed(link) : videoEmbed(link)}</div>`
   }
