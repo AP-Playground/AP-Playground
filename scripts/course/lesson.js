@@ -36,8 +36,8 @@ export function upload(path, title) {
 
   
   const vidData = data["videos"];
-  const vidText = vidData.filter(vid => !vid.hasOwnProperty("more") || !vid.more).map(vid => templates.video(vid.title, vid.link)).join("")
-  let moreVidText = vidData.filter(vid => vid.hasOwnProperty("more") && vid.more).map(vid => templates.video(vid.title, vid.link, true)).join("")
+  const vidText = vidData.filter(vid => !vid.hasOwnProperty("more") || !vid.more).map(vid => templates.video(vid, path)).join("")
+  let moreVidText = vidData.filter(vid => vid.hasOwnProperty("more") && vid.more).map(vid => templates.video(vid, path)).join("")
 
   if (moreVidText) {
     moreVidText = `<div class="more-container"><div>${moreVidText}</div></div>`

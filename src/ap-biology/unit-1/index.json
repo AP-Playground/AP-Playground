@@ -29,7 +29,9 @@
   "videos": [
     {
       "title": "AP Playground | AP Biology Unit 1 Review",
-      "link": "Nib_MiNaavM"
+      "link": "Nib_MiNaavM",
+      "download": true,
+      "filename": "AP Playground Biology Unit 1"
     },
     {
       "title": "PoseKnows Biology | Unit 1: Chemistry of Life Recap",

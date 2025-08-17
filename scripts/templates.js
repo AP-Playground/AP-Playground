@@ -264,8 +264,18 @@ export function header(path) {
 
 
 
-export function video(title, link, more = false) {
-  return `<div class="video-container"><div class="video-header"><h3>${title}</h3><a aria-label="Open video in new tab" target="_blank" href="https://www.youtube.com/watch?v=${link}"></a></div>${more ? moreVideoEmbed(link) : videoEmbed(link)}</div>`
+export function video({title, link, more = false, download = false, filename = false}, path) {
+  if (download) {
+    if (typeof download === 'boolean') {
+      download = "/slides" + path + ".pptx"
+    }
+    if (filename) {
+      filename = `="${filename}"`
+    }
+    return `<div class="video-container"><div class="video-header split-header"><h3>${title}</h3><div class="video-header-btns"><a class="download" aria-label="Download the presentation" download${filename} target="_blank" href="${download}"></a><a class="external-open" aria-label="Open video in new tab" href="https://www.youtube.com/watch?v=${link}"></a></div></div>${more ? moreVideoEmbed(link) : videoEmbed(link)}</div>`
+  } else {
+    return `<div class="video-container"><div class="video-header split-header"><h3>${title}</h3><div class="video-header-btns"><a class="external-open" aria-label="Open video in new tab" target="_blank" href="https://www.youtube.com/watch?v=${link}"></a></div></div>${more ? moreVideoEmbed(link) : videoEmbed(link)}</div>`
+  }
 }
 
 function videoEmbed(link) {

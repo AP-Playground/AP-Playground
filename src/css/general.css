@@ -492,20 +492,27 @@ a:hover {
 }
 
 .video-header {
-  display: grid;
-  grid-template-columns: auto 20px;
-  gap: 1rem;
   margin-inline: 5px;
-  align-items: center;
+  & .video-header-btns {
+    display: flex;
+    gap: 10px;
+  }
   & a {
+    width: 20px;
     aspect-ratio: 1;
-    -webkit-mask-image: url("/icons/external_link.svg");
-    mask-image: url("/icons/external_link.svg");
     -webkit-mask-size: cover;
     mask-size: cover;
     background-color: var(--theme);
     &:hover {
       background-color: var(--accent);
+    }
+    &.external-open {
+      -webkit-mask-image: url("/icons/external_link.svg");
+      mask-image: url("/icons/external_link.svg");
+    }
+    &.download {
+      -webkit-mask-image: url("/icons/download.svg");
+      mask-image: url("/icons/download.svg");
     }
   }
   & h3 {
