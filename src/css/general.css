@@ -405,9 +405,10 @@ a:hover {
   & * {
     margin: 0;
   }
-  & a {
-    white-space: nowrap;
-  }
+}
+
+.split-header a {
+  white-space: nowrap;
 }
 
 .page-controls {
