@@ -73,7 +73,9 @@
   "videos": [
     {
       "title": "AP Playground | Signal Transduction Pathways",
-      "link": "zIAIVyP6WwU"
+      "link": "zIAIVyP6WwU",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 4.3.pptx"
     },
     {
       "title": "PoseKnows Biology | Signal Transduction",

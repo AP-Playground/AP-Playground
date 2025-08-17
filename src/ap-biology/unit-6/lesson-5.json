@@ -89,7 +89,9 @@
   "videos": [
     {
       "title": "AP Playground | Regulation of Gene Expression",
-      "link": "biGIybMDJes"
+      "link": "biGIybMDJes",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 6.5.pptx"
     },
     {
       "title": "PoseKnows Biology | Regulation of Gene Expression (Operons)",

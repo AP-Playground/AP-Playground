@@ -65,7 +65,9 @@
   "videos": [
     {
       "title": "AP Playground | Proteins",
-      "link": "1puYIcNyXNc"
+      "link": "1puYIcNyXNc",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 1.7.pptx"
     },
     {
       "title": "PoseKnows Biology | Properties of Biological Macromolecules",

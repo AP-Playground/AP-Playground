@@ -109,7 +109,9 @@
   "videos": [
     {
       "title": "AP Playground | Photosynthesis",
-      "link": "Z_gG7n7SOe4"
+      "link": "Z_gG7n7SOe4",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 3.4.pptx"
     },
     {
       "title": "PoseKnows Biology | Photosynthesis",

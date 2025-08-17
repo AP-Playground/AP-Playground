@@ -49,7 +49,9 @@
   "videos": [
     {
       "title": "AP Playground | Cell Size",
-      "link": "eAkMA4JO_Zs"
+      "link": "eAkMA4JO_Zs",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 2.2.pptx"
     },
     {
       "title": "PoseKnows Biology | Cell Size",

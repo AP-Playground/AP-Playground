@@ -93,7 +93,9 @@
   "videos": [
     {
       "title": "AP Playground | Meiosis",
-      "link": "uI4hOznOVy4"
+      "link": "uI4hOznOVy4",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 5.1.pptx"
     },
     {
       "title": "PoseKnows Biology | Meiosis",

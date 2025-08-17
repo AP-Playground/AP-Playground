@@ -73,7 +73,9 @@
   "videos": [
     {
       "title": "AP Playground | Regulation of Cell Cycle",
-      "link": "cu8fYiZYpaE"
+      "link": "cu8fYiZYpaE",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 4.6.pptx"
     },
     {
       "title": "PoseKnows Biology | Regulation of the Cell Cycle",

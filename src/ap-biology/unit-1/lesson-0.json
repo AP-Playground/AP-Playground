@@ -97,7 +97,9 @@
   "videos": [
     {
       "title": "AP Playground | Chemistry Fundamentals",
-      "link": "2ap2LMEj8ms"
+      "link": "2ap2LMEj8ms",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 1.0.pptx"
     },
     {
       "title": "MooMooMath and Science | Valence Electrons Periodic Table",

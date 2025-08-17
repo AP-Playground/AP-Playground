@@ -61,7 +61,9 @@
   "videos": [
     {
       "title": "AP Playground | Lipids",
-      "link": "8aPBjBN9CB4"
+      "link": "8aPBjBN9CB4",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 1.5.pptx"
     },
     {
       "title": "PoseKnows Biology | Properties of Biological Macromolecules",

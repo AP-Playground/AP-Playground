@@ -45,7 +45,9 @@
   "videos": [
     {
       "title": "AP Playground | Feedback",
-      "link": "DCaz1A9_rVc"
+      "link": "DCaz1A9_rVc",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 4.4.pptx"
     },
     {
       "title": "PoseKnows Biology | Feedback",

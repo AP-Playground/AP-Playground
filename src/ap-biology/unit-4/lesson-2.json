@@ -77,7 +77,9 @@
   "videos": [
     {
       "title": "AP Playground | Introduction to Signal Transduction",
-      "link": "ND8m7akWY2Q"
+      "link": "ND8m7akWY2Q",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 4.2.pptx"
     },
     {
       "title": "PoseKnows Biology | Introduction to Signal Transduction",

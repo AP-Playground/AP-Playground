@@ -117,7 +117,9 @@
   "videos": [
     {
       "title": "AP Playground | Cell Cycle",
-      "link": "KYUfxOnhMs8"
+      "link": "KYUfxOnhMs8",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 4.5.pptx"
     },
     {
       "title": "PoseKnows Biology | Cell Cycle",

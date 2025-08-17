@@ -49,7 +49,9 @@
   "videos": [
     {
       "title": "AP Playground | Facilitated Diffusion",
-      "link": "UzleSNMt_f0"
+      "link": "UzleSNMt_f0",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 2.6.pptx"
     },
     {
       "title": "PoseKnows Biology | Facilitated Diffusion",
@@ -61,13 +63,11 @@
     },
     {
       "title": "Crash Course Biology | In Da Club - Membranes & Transport",
-      "link": "dPKvHrD1eS4",
-      "more": true
+      "link": "dPKvHrD1eS4"
     },
     {
       "title": "Bozeman Science | Transport Across Cell Membranes",
-      "link": "RPAZvs4hvGA",
-      "more": true
+      "link": "RPAZvs4hvGA"
     }
   ]
 }
