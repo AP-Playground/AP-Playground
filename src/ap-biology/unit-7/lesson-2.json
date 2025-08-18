@@ -1,0 +1,51 @@
+{
+  "summary": "Topic 7.2 picks up where Topic 7.1 dropped off, furthering the discussion of natural selection by connecting variation in a population and organism, with biological fitness.",
+  "vocab": [
+    {
+      "term": "Evolution",
+      "link": "https://en.wikipedia.org/wiki/Evolution"
+    },
+    {
+      "term": "Natural selection",
+      "link": "https://en.wikipedia.org/wiki/Natural_selection"
+    },
+    {
+      "term": "Population",
+      "link": "https://en.wikipedia.org/wiki/Population"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Darwin, evolution, & natural selection (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/natural-selection-ap/a/darwin-evolution-natural-selection"
+    },
+    {
+      "title": "Wikipedia | Natural selection",
+      "link": "https://en.wikipedia.org/wiki/Natural_selection"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Natural Selection",
+      "link": "78QbSulNwXE",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 7.2.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Natural Selection",
+      "link": "-8eqMV-6A14"
+    },
+    {
+      "title": "Crash Course Biology | Natural Selection: Life's Way of Stayin' Alive",
+      "link": "i-VeKZeyHZs"
+    },
+    {
+      "title": "Amoeba Sisters | Natural Selection",
+      "link": "7VM9YxmULuo"
+    },
+    {
+      "title": "Bozeman Science | Examples of Natural Selection",
+      "link": "S7EhExhXOPQ"
+    }
+  ]
+}

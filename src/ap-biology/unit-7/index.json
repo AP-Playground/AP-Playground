@@ -1,0 +1,47 @@
+{
+  "summary": "The concepts in Unit 7 build on foundational content from previous units as students discover natural selection—a mechanism of evolution. Natural selection is the theory that populations that are better adapted to their environment will survive and reproduce. Thus, the evolution of a species involves a change in its genetic makeup over time. In this unit, students study the evidence for and mechanisms of evolutionary change. Students also learn what happens when a species does not adapt to a changing or volatile environment and about the Hardy–Weinberg equilibrium as a model for describing and predicting allele frequencies in nonevolving populations. Students will learn to calculate and draw conclusions about the evolution, or lack thereof, of a population from data related to allele frequencies. The biological principles studied here and in previous units will carry over into Unit 8, which focuses on ecology",
+  "games": [
+    {
+      "title": "Vocab Review",
+      "link": "vocab-review"
+    },
+    {
+      "title": "Matching",
+      "link": "matching"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Unit 7: Natural selection",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection"
+    },
+    {
+      "title": "PoseKnows Biology | Unit 7 Playlist",
+      "link": "https://www.youtube.com/playlist?list=PLrQji7zW6lY8TumqP4zc3Br91CbXld-Ky"
+    },
+    {
+      "title": "Excel at Science | Unit 4 - Evolution",
+      "link": "https://www.excelatscience.com/unit-4-evolution"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | AP Biology Unit 7 Review",
+      "link": "O5IOh7Z67u8",
+      "download": true,
+      "filename": "AP Playground Biology Unit 7.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Unit 7: Natural Selection AP Biology Recap (Part I)",
+      "link": "P2Xe9YxFOQ8"
+    },
+    {
+      "title": "PoseKnows Biology | Unit 7: Natural Selection AP Biology Recap (Part II)",
+      "link": "_Rveba-IrSE"
+    },
+    {
+      "title": "Marco Learning | AP Biology: Unit 7 Review",
+      "link": "tQKrhxbtMmE"
+    }
+  ]
+}

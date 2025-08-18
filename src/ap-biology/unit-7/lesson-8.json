@@ -1,0 +1,51 @@
+{
+  "summary": "As we've already discussed in Topic 7.6, evidence for evolution exists. Topic 7.8 expands on this evidence by showing that evolution has not only occurred, but will continue to happen.",
+  "vocab": [
+    {
+      "term": "Evolution",
+      "link": "https://en.wikipedia.org/wiki/Evolution"
+    },
+    {
+      "term": "Fossil record",
+      "link": "https://en.wikipedia.org/wiki/Fossil"
+    },
+    {
+      "term": "Mutations",
+      "link": "https://en.wikipedia.org/wiki/Mutation"
+    },
+    {
+      "term": "DDT resistance",
+      "link": "https://en.wikipedia.org/wiki/Pesticide_resistance"
+    },
+    {
+      "term": "Antibiotic resistance",
+      "link": "https://en.wikipedia.org/wiki/Antimicrobial_resistance"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Evolution of viruses (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/common-ancestry-and-continuing-evolution/a/evolution-of-viruses"
+    },
+    {
+      "title": "Wikipedia | Evidence of common descent",
+      "link": "https://en.wikipedia.org/wiki/Evidence_of_common_descent"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Continuing Evolution",
+      "link": "YueVnh-A0H4",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 7.8.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Continuing Evolution",
+      "link": "P5zdL5-IalQ"
+    },
+    {
+      "title": "Bozeman Science | Evolution Continues",
+      "link": "fCu1RVq40QI"
+    }
+  ]
+}

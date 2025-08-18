@@ -1,0 +1,59 @@
+{
+  "summary": "Unit 7 is titled \"Natural Selection,\" and Topic 7.1 begins to introduce this idea. Discussing different explanations for evolution, this lesson will explain the causes of natural selection, and the effect it has on populations.",
+  "vocab": [
+    {
+      "term": "Evolution",
+      "link": "https://en.wikipedia.org/wiki/Evolution"
+    },
+    {
+      "term": "Charles Darwin",
+      "link": "https://en.wikipedia.org/wiki/Charles_Darwin"
+    },
+    {
+      "term": "Adaptations",
+      "link": "https://en.wikipedia.org/wiki/Adaptation"
+    },
+    {
+      "term": "Natural selection",
+      "link": "https://en.wikipedia.org/wiki/Natural_selection"
+    },
+    {
+      "term": "Biological fitness",
+      "link": "https://en.wikipedia.org/wiki/Fitness_(biology)"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Darwin, evolution, & natural selection (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/natural-selection-ap/a/darwin-evolution-natural-selection"
+    },
+    {
+      "title": "Wikipedia | Natural selection",
+      "link": "https://en.wikipedia.org/wiki/Natural_selection"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Introduction to Natural Selection",
+      "link": "SZb6BTFKy_A",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 7.1.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Introduction to Natural Selection",
+      "link": "IYQmEYzHNjs"
+    },
+    {
+      "title": "Crash Course History of Science | Darwin and Natural Selection",
+      "link": "dfsUz2O2jww"
+    },
+    {
+      "title": "Amoeba Sisters | Natural Selection",
+      "link": "7VM9YxmULuo"
+    },
+    {
+      "title": "Bozeman Science | Natural Selection",
+      "link": "R6La6_kIr9g"
+    }
+  ]
+}

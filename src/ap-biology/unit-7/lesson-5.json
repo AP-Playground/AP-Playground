@@ -1,0 +1,79 @@
+{
+  "summary": "Following our discussion of the forces behind evolution in Topic 7.4, we'll now take a look at non-evolving populations. Described by Hardy-Weinberg Equilibrium, it is possible to calculate the allele and genotypic frequencies of populations which are evolutionarily static.",
+  "vocab": [
+    {
+      "term": "Allele frequency",
+      "link": "https://en.wikipedia.org/wiki/Allele_frequency"
+    },
+    {
+      "term": "Hardy-Weinberg equilibrium",
+      "link": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle"
+    },
+    {
+      "term": "Null hypothesis",
+      "link": "https://en.wikipedia.org/wiki/Null_hypothesis"
+    },
+    {
+      "term": "Mutations",
+      "link": "https://en.wikipedia.org/wiki/Mutation"
+    },
+    {
+      "term": "Sexual selection",
+      "link": "https://en.wikipedia.org/wiki/Sexual_selection"
+    },
+    {
+      "term": "Natural selection",
+      "link": "https://en.wikipedia.org/wiki/Natural_selection"
+    },
+    {
+      "term": "Genetic drift",
+      "link": "https://en.wikipedia.org/wiki/Genetic_drift"
+    },
+    {
+      "term": "Gene flow",
+      "link": "https://en.wikipedia.org/wiki/Gene_flow"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Allele frequency & the gene pool (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/hardy-weinberg-equilibrium/a/allele-frequency-the-gene-pool"
+    },
+    {
+      "title": "Khan Academy | Mechanisms of evolution (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/hardy-weinberg-equilibrium/a/hardy-weinberg-mechanisms-of-evolution"
+    },
+    {
+      "title": "Khan Academy | Applying the Hardy-Weinberg equation (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/hardy-weinberg-equilibrium/v/applying-hardy-weinberg"
+    },
+    {
+      "title": "Wikipedia | Hardy–Weinberg principle",
+      "link": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Hardy-Weinberg Equilibrium",
+      "link": "FFkIS020G5Q",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 7.5.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Hardy-Weinberg Equilibrium",
+      "link": "qubkq_o3Aa4"
+    },
+    {
+      "title": "Crash Course Biology | Microevolution: What's An Allele Got to Do With It?",
+      "link": "fBOrzQP423A"
+    },
+    {
+      "title": "Amoeba Sisters | Hardy-Weinberg Equilibrium",
+      "link": "7S4WMwesMts"
+    },
+    {
+      "title": "Bozeman Science | Hardy-Weinberg Equation",
+      "link": "oEBNom3K9cQ"
+    }
+  ]
+}

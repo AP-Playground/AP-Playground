@@ -1,0 +1,67 @@
+{
+  "summary": "Throughout this unit, we've covered evolutionary principles such as descent with modification, phylogeny, and even common ancestry. Topic 7.12 takes us to the origin of all these processes: the beginning of life on Earth.",
+  "vocab": [
+    {
+      "term": "Radiometric dating",
+      "link": "https://en.wikipedia.org/wiki/Radiometric_dating"
+    },
+    {
+      "term": "Primordial soup",
+      "link": "https://en.wikipedia.org/wiki/Primordial_soup"
+    },
+    {
+      "term": "Miller-Urey Experiment",
+      "link": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment"
+    },
+    {
+      "term": "Protocells",
+      "link": "https://en.wikipedia.org/wiki/Protocell"
+    },
+    {
+      "term": "RNA world hypothesis",
+      "link": "https://en.wikipedia.org/wiki/RNA_world"
+    },
+    {
+      "term": "Ribozymes",
+      "link": "https://en.wikipedia.org/wiki/Ribozyme"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Hypotheses about the origins of life (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/origins-of-life-on-earth/a/hypotheses-about-the-origins-of-life"
+    },
+    {
+      "title": "Khan Academy | RNA world (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/origins-of-life-on-earth/a/rna-world"
+    },
+    {
+      "title": "Wikipedia | Abiogenesis",
+      "link": "https://en.wikipedia.org/wiki/Abiogenesis"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Origins of Life on Earth",
+      "link": "x2VaEvRWYNs",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 7.12.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Origins of Life on Earth",
+      "link": "gDMdkHRJ_dY"
+    },
+    {
+      "title": "Crash Course Biology | Evolutionary History: The Timeline of Life",
+      "link": "4mxJbgdiyIY"
+    },
+    {
+      "title": "Bozeman Science | The Origin of Life - Scientific Evidence",
+      "link": "SWY3FKbtEz8"
+    },
+    {
+      "title": "Bozeman Science | Abiogenesis",
+      "link": "W3ceg--uQKM"
+    }
+  ]
+}

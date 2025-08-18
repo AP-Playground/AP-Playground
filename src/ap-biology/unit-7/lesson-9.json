@@ -1,0 +1,87 @@
+{
+  "summary": "Although we've talked about evolution within populations in Topic 7.4, we have not yet discussed the evolutionary relationships that resulted in all of modern life: those between different species. Topic 7.9 shows us how we can demonstrate evolutionary relationships using both phylogeny and cladistics.",
+  "vocab": [
+    {
+      "term": "Phylogeny",
+      "link": "https://en.wikipedia.org/wiki/Phylogenetics"
+    },
+    {
+      "term": "Phylogenetic trees",
+      "link": "https://en.wikipedia.org/wiki/Phylogenetic_tree"
+    },
+    {
+      "term": "Taxon",
+      "link": "https://en.wikipedia.org/wiki/Taxon"
+    },
+    {
+      "term": "Branch points",
+      "link": "https://en.wikipedia.org/wiki/Branch_point"
+    },
+    {
+      "term": "Outgroup",
+      "link": "https://en.wikipedia.org/wiki/Outgroup_(cladistics)"
+    },
+    {
+      "term": "Sister taxa",
+      "link": "https://en.wikipedia.org/wiki/Sister_group"
+    },
+    {
+      "term": "Molecular clock",
+      "link": "https://en.wikipedia.org/wiki/Molecular_clock"
+    },
+    {
+      "term": "Cladogram",
+      "link": "https://en.wikipedia.org/wiki/Cladogram"
+    },
+    {
+      "term": "Clades",
+      "link": "https://en.wikipedia.org/wiki/Clade"
+    },
+    {
+      "term": "Shared derived characteristics",
+      "link": "https://en.wikipedia.org/wiki/Primitive_(phylogenetics)"
+    },
+    {
+      "term": "Shared ancestral characteristics",
+      "link": "https://en.wikipedia.org/wiki/Primitive_(phylogenetics)"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Phylogenetic trees (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/phylogeny/a/phylogenetic-trees"
+    },
+    {
+      "title": "Khan Academy | Building a phylogenetic tree (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/phylogeny/a/building-an-evolutionary-tree"
+    },
+    {
+      "title": "Wikipedia | Phylogenetic tree",
+      "link": "https://en.wikipedia.org/wiki/Phylogenetic_tree"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Phylogeny",
+      "link": "YtzHPXB-elo",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 7.9.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Phylogeny",
+      "link": "RIY3DotA1Mo"
+    },
+    {
+      "title": "Crash Course Biology | Phylogeny: How We're All Related",
+      "link": "YM6Ekb5De2o"
+    },
+    {
+      "title": "Amoeba Sisters | Intro to Cladograms and Phylogenetic Trees",
+      "link": "cIQobFHFwcM"
+    },
+    {
+      "title": "Bozeman Science | Phylogenetics",
+      "link": "fQwI90bkJl4"
+    }
+  ]
+}

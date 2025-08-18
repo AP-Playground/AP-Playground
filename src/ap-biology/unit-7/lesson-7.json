@@ -1,0 +1,51 @@
+{
+  "summary": "With the evidence for evolution thoroughly examined in Topic 7.6, Topic 7.7 takes a look at another phenomena which goes hand in hand with evolution: common ancestry.",
+  "vocab": [
+    {
+      "term": "Endosymbiotic theory",
+      "link": "https://en.wikipedia.org/wiki/Symbiogenesis"
+    },
+    {
+      "term": "Introns",
+      "link": "https://en.wikipedia.org/wiki/Intron"
+    },
+    {
+      "term": "Exons",
+      "link": "https://en.wikipedia.org/wiki/Exon"
+    },
+    {
+      "term": "Organelles",
+      "link": "https://en.wikipedia.org/wiki/Organelle"
+    },
+    {
+      "term": "Linear chromosomes",
+      "link": "https://en.wikipedia.org/wiki/Linear_chromosome"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Cellular evidence of common ancestry (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/common-ancestry-and-continuing-evolution/v/cellular-evidence-of-common-ancestry"
+    },
+    {
+      "title": "Wikipedia | Evidence of common descent",
+      "link": "https://en.wikipedia.org/wiki/Evidence_of_common_descent"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Common Ancestry",
+      "link": "i-PY2Hq4C6E",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 7.7.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Common Ancestry",
+      "link": "Ein86p3Ds9I"
+    },
+    {
+      "title": "Bozeman Science | Evidence of Common Ancestry and Diversity",
+      "link": "Q9Aa_VsHK3I"
+    }
+  ]
+}

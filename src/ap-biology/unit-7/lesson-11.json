@@ -1,0 +1,51 @@
+{
+  "summary": "As mentioned in Topic 7.2, natural selection cannot occur without genetic variation within a population. Topic 7.11 looks at all the benefits of this variation and how it contributes to population survival.",
+  "vocab": [
+    {
+      "term": "Genetic variation",
+      "link": "https://en.wikipedia.org/wiki/Genetic_variation"
+    },
+    {
+      "term": "Natural selection",
+      "link": "https://en.wikipedia.org/wiki/Natural_selection"
+    },
+    {
+      "term": "Bottleneck effect",
+      "link": "https://en.wikipedia.org/wiki/Population_bottleneck"
+    },
+    {
+      "term": "Selective pressures",
+      "link": "https://en.wikipedia.org/wiki/Evolutionary_pressure"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Population diversity and resilience (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/variations-in-populations/v/population-diversity-and-resilience"
+    },
+    {
+      "title": "Wikipedia | Genetic variation",
+      "link": "https://en.wikipedia.org/wiki/Genetic_variation"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Variations in Populations",
+      "link": "jxT-kZaIk90",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 7.11.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Variations in Populations",
+      "link": "kO4is1-JgK0"
+    },
+    {
+      "title": "PoseKnows Biology | Extinction",
+      "link": "wOSlfqBYgPU"
+    },
+    {
+      "title": "Bozeman Science | Population Variation",
+      "link": "uXlHZGLzc6k"
+    }
+  ]
+}

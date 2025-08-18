@@ -1,0 +1,99 @@
+{
+  "summary": "Topic 7.9 looked at the evolutionary relationship between species, but how are all of these different species formed? Topic 7.10 brings us to the process of speciation and the various reproductive barriers that result in the creation of new species.",
+  "vocab": [
+    {
+      "term": "Species",
+      "link": "https://en.wikipedia.org/wiki/Species"
+    },
+    {
+      "term": "Speciation",
+      "link": "https://en.wikipedia.org/wiki/Speciation"
+    },
+    {
+      "term": "Reproductive isolation",
+      "link": "https://en.wikipedia.org/wiki/Reproductive_isolation"
+    },
+    {
+      "term": "Prezygotic barriers",
+      "link": "https://en.wikipedia.org/wiki/Reproductive_isolation#Pre-zygotic_isolation"
+    },
+    {
+      "term": "Postzygotic barriers",
+      "link": "https://en.wikipedia.org/wiki/Reproductive_isolation#Post-zygotic_isolation"
+    },
+    {
+      "term": "Allopatric speciation",
+      "link": "https://en.wikipedia.org/wiki/Allopatric_speciation"
+    },
+    {
+      "term": "Sympatric speciation",
+      "link": "https://en.wikipedia.org/wiki/Sympatric_speciation"
+    },
+    {
+      "term": "Polyploidy",
+      "link": "https://en.wikipedia.org/wiki/Polyploidy"
+    },
+    {
+      "term": "Hybrid zones",
+      "link": "https://en.wikipedia.org/wiki/Hybrid_zone"
+    },
+    {
+      "term": "Divergent evolution",
+      "link": "https://en.wikipedia.org/wiki/Divergent_evolution"
+    },
+    {
+      "term": "Adaptive radiation",
+      "link": "https://en.wikipedia.org/wiki/Adaptive_radiation"
+    },
+    {
+      "term": "Punctuated equilibrium",
+      "link": "https://en.wikipedia.org/wiki/Punctuated_equilibrium"
+    },
+    {
+      "term": "Gradualism",
+      "link": "https://en.wikipedia.org/wiki/Gradualism"
+    },
+    {
+      "term": "Convergent evolution",
+      "link": "https://en.wikipedia.org/wiki/Convergent_evolution"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Species & speciation (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/natural-selection/speciation/a/species-speciation"
+    },
+    {
+      "title": "Wikipedia | Speciation",
+      "link": "https://en.wikipedia.org/wiki/Speciation"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Speciation",
+      "link": "Cp4fXjQ0sfk",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 7.10.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Speciation",
+      "link": "yTHX5HkUbxE"
+    },
+    {
+      "title": "Crash Course Biology | Speciation: Where Do Species Come From?",
+      "link": "WAUX8dXu6aw"
+    },
+    {
+      "title": "Amoeba Sisters | Speciation",
+      "link": "udZUaNKXbJA"
+    },
+    {
+      "title": "Bozeman Science | Speciation",
+      "link": "rlfNvoyijmo"
+    },
+    {
+      "title": "Bozeman Science | Speciation and Extinction",
+      "link": "yJLRl2G41nQ"
+    }
+  ]
+}
