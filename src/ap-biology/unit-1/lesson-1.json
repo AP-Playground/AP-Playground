@@ -85,7 +85,7 @@
     },
     {
       "title": "PoseKnows Biology | Structure of Water and Hydrogen Bonding",
-      "link": "GOcslgVHciI"
+      "link": "t21f03JfGPk"
     },
     {
       "title": "Crash Course Biology | Water - Liquid Awesome",
@@ -93,15 +93,18 @@
     },
     {
       "title": "Amoeba Sisters | Properties of Water",
-      "link": "3jwAGWky98c"
+      "link": "3jwAGWky98c",
+      "more": true
     },
     {
       "title": "Bozeman Science | Water: A Polar Molecule",
-      "link": "iOOvX0jmhJ4"
+      "link": "iOOvX0jmhJ4",
+      "more": true
     },
     {
       "title": "Bozeman Science | Water and Life",
-      "link": "ZScEgE55XTM"
+      "link": "ZScEgE55XTM",
+      "more": true
     }
   ]
 }

@@ -100,20 +100,23 @@
       "filename": "AP Playground Biology Lesson 1.0.pptx"
     },
     {
-      "title": "MooMooMath and Science | Valence Electrons Periodic Table",
-      "link": "YbpsDiTBejI"
-    },
-    {
       "title": "Khan Academy | Intermolecular forces | Chemistry of life",
       "link": "pBZ-RiT5nEE"
     },
     {
       "title": "Khan Academy | Hydrogen bonding in water | Water, acids, and bases",
-      "link": "6G1evL7ELwE"
+      "link": "6G1evL7ELwE",
+      "more": true
     },
     {
       "title": "Khan Academy | Isomers | Properties of carbon",
-      "link": "z8M4EciPpYI"
+      "link": "z8M4EciPpYI",
+      "more": true
+    },
+    {
+      "title": "MooMooMath and Science | Valence Electrons Periodic Table",
+      "link": "YbpsDiTBejI",
+      "more": true
     }
   ]
 }

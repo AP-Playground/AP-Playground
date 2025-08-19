@@ -85,7 +85,7 @@
     },
     {
       "title": "PoseKnows Biology | Elements of Life",
-      "link": "fJ1Wre_boxI"
+      "link": "K5safXu2T4k"
     },
     {
       "title": "Crash Course Biology | Carbon... SO SIMPLE",
@@ -93,11 +93,13 @@
     },
     {
       "title": "Amoeba Sisters | Biomolecules",
-      "link": "1Dx7LDwINLU"
+      "link": "1Dx7LDwINLU",
+      "more": true
     },
     {
       "title": "Bozeman Science | The Molecules of Life",
-      "link": "QWf2jcznLsY"
+      "link": "QWf2jcznLsY",
+      "more": true
     }
   ]
 }

@@ -81,15 +81,7 @@
     },
     {
       "title": "PoseKnows Biology | Nucleic Acids",
-      "link": "8YjDU25S-2c"
-    },
-    {
-      "title": "Crash Course Biology | Biological Molecules - You Are What You Eat",
-      "link": "H8WJ2KENlK0"
-    },
-    {
-      "title": "Amoeba Sisters | DNA vs RNA",
-      "link": "JQByjprj_mA"
+      "link": "7T5BT_8lOIU"
     },
     {
       "title": "Bozeman Science | Nucleic Acids",
@@ -97,7 +89,18 @@
     },
     {
       "title": "Bozeman Science | DNA and RNA - Part 1",
-      "link": "qoERVSWKmGk"
+      "link": "qoERVSWKmGk",
+      "more": true
+    },
+    {
+      "title": "Crash Course Biology | Biological Molecules - You Are What You Eat",
+      "link": "H8WJ2KENlK0",
+      "more": true
+    },
+    {
+      "title": "Amoeba Sisters | DNA vs RNA",
+      "link": "JQByjprj_mA",
+      "more": true
     }
   ]
 }
