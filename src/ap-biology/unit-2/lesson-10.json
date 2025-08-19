@@ -53,7 +53,8 @@
     },
     {
       "title": "Crash Course Biology | A Tour of the Cell",
-      "link": "jsDxw63QqK0"
+      "link": "jsDxw63QqK0",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Endosymbiotic Theory",
@@ -61,7 +62,8 @@
     },
     {
       "title": "Bozeman Science | Endosymbiosis",
-      "link": "-FQmAnmLZtE"
+      "link": "-FQmAnmLZtE",
+      "more": true
     }
   ]
 }

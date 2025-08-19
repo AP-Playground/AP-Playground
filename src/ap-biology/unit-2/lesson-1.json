@@ -123,13 +123,13 @@
   "videos": [
     {
       "title": "AP Playground | Cell Structure and Function",
-      "link": "a1n_jvCe9qE"
+      "link": "a1n_jvCe9qE",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 2.1.pptx"
     },
     {
       "title": "PoseKnows Biology | Cell Structure: Subcellular Components",
-      "link": "18WDVtAu-3k",
-      "download": true,
-      "filename": "AP Playground Biology Lesson 2.1.pptx"
+      "link": "18WDVtAu-3k"
     },
     {
       "title": "PoseKnows Biology | Cell Structure and Function",
@@ -137,11 +137,8 @@
     },
     {
       "title": "Crash Course Biology | A Tour of the Cell",
-      "link": "jsDxw63QqK0"
-    },
-    {
-      "title": "Crash Course Biology | Eukaryopolis - The City of Animal Cells",
-      "link": "cj8dDTHGJBY"
+      "link": "jsDxw63QqK0",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Introduction to Cells: The Grand Cell Tour",
@@ -149,7 +146,8 @@
     },
     {
       "title": "Amoeba Sisters | Cell Organelles and Structures Review",
-      "link": "6mgkoqcm6Sg"
+      "link": "6mgkoqcm6Sg",
+      "more": true
     },
     {
       "title": "Bozeman Science | A Tour of the Cell",
@@ -157,7 +155,8 @@
     },
     {
       "title": "Bozeman Science | Cellular Organelles",
-      "link": "aczbMlSMr8U"
+      "link": "aczbMlSMr8U",
+      "more": true
     }
   ]
 }

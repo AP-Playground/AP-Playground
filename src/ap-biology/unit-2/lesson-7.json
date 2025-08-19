@@ -101,7 +101,8 @@
     },
     {
       "title": "Crash Course Biology | In Da Club - Membranes & Transport",
-      "link": "dPKvHrD1eS4"
+      "link": "dPKvHrD1eS4",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Osmosis and Water Potential",
@@ -109,11 +110,13 @@
     },
     {
       "title": "Bozeman Science | Osmosis Demo",
-      "link": "eQsAzXr0UCU"
+      "link": "eQsAzXr0UCU",
+      "more": true
     },
     {
       "title": "Bozeman Science | Water Potential",
-      "link": "nDZud2g1RVY"
+      "link": "nDZud2g1RVY",
+      "more": true
     }
   ]
 }
