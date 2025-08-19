@@ -1,0 +1,67 @@
+{
+  "summary": "Although we talked about uncumbered population growth in Topic 8.3, rarely do actual environments reflect such conditions. Topic 8.4 covers population growth when the environment has a maximum carrying capacity due to limiting factors.",
+  "vocab": [
+    {
+      "term": "Exponential population growth???",
+      "link": "https://en.wikipedia.org/wiki/Population_ecology#Exponential_vs._logistic_growth"
+    },
+    {
+      "term": "Logistic population growth???",
+      "link": "https://en.wikipedia.org/wiki/Population_ecology#Exponential_vs._logistic_growth"
+    },
+    {
+      "term": "Carrying capacity",
+      "link": "https://en.wikipedia.org/wiki/Carrying_capacity"
+    },
+    {
+      "term": "Life history???",
+      "link": "https://en.wikipedia.org/wiki/Life_history_theory"
+    },
+    {
+      "term": "Density dependent limiting factors???",
+      "link": "https://en.wikipedia.org/wiki/Density_dependence"
+    },
+    {
+      "term": "Density independent limiting factors???",
+      "link": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Exponential & logistic growth (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/population-ecology-ap/a/exponential-logistic-growth"
+    },
+    {
+      "title": "Khan Academy | Population regulation (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/population-ecology-ap/a/mechanisms-of-population-regulation"
+    },
+    {
+      "title": "Wikipedia | Population ecology",
+      "link": "https://en.wikipedia.org/wiki/Population_ecology"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Effects of Density on Populations",
+      "link": "k91Vp90BeMs",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 8.4.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Effect of Density of Populations",
+      "link": "aqG4iNUnoh4"
+    },
+    {
+      "title": "Crash Course Biology | Population Ecology: How We Saved the Bald Eagle",
+      "link": "KfHYN6tZnpU"
+    },
+    {
+      "title": "Bozeman Science | Logistic Growth",
+      "link": "rXlyYFXyfIM"
+    },
+    {
+      "title": "Bozeman Science | Population Ecology",
+      "link": "PQ-CQ3CQE3g"
+    }
+  ]
+}

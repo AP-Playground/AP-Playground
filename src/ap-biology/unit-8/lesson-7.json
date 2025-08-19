@@ -1,0 +1,95 @@
+{
+  "summary": "Continuing our discussion on ecosystems which began in Topic 8.2 and continued in Topic 8.6, Topic 8.7 covers the different ways in which ecosystems can be disturbed, both due to human involvement and natural occurrences.",
+  "vocab": [
+    {
+      "term": "Adaptations",
+      "link": "https://en.wikipedia.org/wiki/Adaptation"
+    },
+    {
+      "term": "Invasive species",
+      "link": "https://en.wikipedia.org/wiki/Invasive_species"
+    },
+    {
+      "term": "Biological niche",
+      "link": "https://en.wikipedia.org/wiki/Ecological_niche"
+    },
+    {
+      "term": "Habitat loss",
+      "link": "https://en.wikipedia.org/wiki/Habitat_destruction"
+    },
+    {
+      "term": "Habitat fragmentation",
+      "link": "https://en.wikipedia.org/wiki/Habitat_fragmentation"
+    },
+    {
+      "term": "Climate change",
+      "link": "https://en.wikipedia.org/wiki/Climate_change"
+    },
+    {
+      "term": "Greenhouse effect",
+      "link": "https://en.wikipedia.org/wiki/Greenhouse_effect"
+    },
+    {
+      "term": "El nino",
+      "link": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation"
+    },
+    {
+      "term": "Continental drift",
+      "link": "https://en.wikipedia.org/wiki/Continental_drift"
+    },
+    {
+      "term": "Biomagnification",
+      "link": "https://en.wikipedia.org/wiki/Biomagnification"
+    },
+    {
+      "term": "Eutrophication",
+      "link": "https://en.wikipedia.org/wiki/Eutrophication"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Invasive species (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/disruptions-to-ecosystems/a/invasive-species"
+    },
+    {
+      "title": "Khan Academy | Human impact on ecosystems review (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/disruptions-to-ecosystems/a/hs-human-impact-on-ecosystems-review"
+    },
+    {
+      "title": "Wikipedia | Causes of biodiversity loss",
+      "link": "https://en.wikipedia.org/wiki/Biodiversity_loss#Causes"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Disruptions to Ecosystems",
+      "link": "fWMET4SUkAg",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 8.7.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Disruptions to Ecosystems",
+      "link": "b-f8I7PH0_8"
+    },
+    {
+      "title": "Crash Course Biology | The Effects of Climate Change",
+      "link": "HsAUGbUgx6Y"
+    },
+    {
+      "title": "Crash Course Biology | Conservation Biology: Sixth Mass Extinction?",
+      "link": "IALw687nswo"
+    },
+    {
+      "title": "Amoeba Sisters | Biomagnification and the Trouble with Toxins",
+      "link": "TZk6vcmLcKw"
+    },
+    {
+      "title": "Bozeman Science | Ecosystem Change",
+      "link": "8976iKm3fYI"
+    },
+    {
+      "title": "Bozeman Science | Global Climate Change",
+      "link": "QLteLZNXmyI"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "summary": "Thus far, we've discussed both population dynamics and community interactions, briefly touching on how energy flows between these groups. Topic 8.6 expands the scope to ecosystems, explaining the importance of biodiversity to a resilient ecosystem",
+  "vocab": [
+    {
+      "term": "Biodiversity",
+      "link": "https://en.wikipedia.org/wiki/Biodiversity"
+    },
+    {
+      "term": "Dominant species",
+      "link": "https://en.wikipedia.org/wiki/Dominance_(ecology)"
+    },
+    {
+      "term": "Keystone species",
+      "link": "https://en.wikipedia.org/wiki/Keystone_species"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Community structure (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/community-ecology/a/community-structure"
+    },
+    {
+      "title": "Wikipedia | Biodiversity",
+      "link": "https://en.wikipedia.org/wiki/Biodiversity"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Biodiversity ",
+      "link": "yAS0G-gDU1M",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 8.6.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Biodiversity",
+      "link": "fO9GTbgVHMw"
+    },
+    {
+      "title": "Bozeman Science | Biodiversity",
+      "link": "0-PE3ve3w2w"
+    },
+    {
+      "title": "Bozeman Science | Loss of Biodiversity",
+      "link": "vCkDxD0DV0Q"
+    }
+  ]
+}

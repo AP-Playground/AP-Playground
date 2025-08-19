@@ -1,0 +1,63 @@
+{
+  "summary": "Having covered the way energy flows between organisms in Topic 8.2, we will now focus in on populations, namely the different ways they can be analyzed. Topic 8.3 will also look at how populations grow in environments with abundant resources.",
+  "vocab": [
+    {
+      "term": "Population",
+      "link": "https://en.wikipedia.org/wiki/Population"
+    },
+    {
+      "term": "Density???",
+      "link": "https://en.wikipedia.org/wiki/Population_density"
+    },
+    {
+      "term": "Dispersions???",
+      "link": "https://en.wikipedia.org/wiki/Biological_dispersal"
+    },
+    {
+      "term": "Survivorship curves",
+      "link": "https://en.wikipedia.org/wiki/Survivorship_curve"
+    },
+    {
+      "term": "Age-structure pyramids???",
+      "link": "https://en.wikipedia.org/wiki/Population_pyramid"
+    },
+    {
+      "term": "Exponential population growth???",
+      "link": "https://en.wikipedia.org/wiki/Population_growth"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Exponential & logistic growth (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/population-ecology-ap/a/exponential-logistic-growth"
+    },
+    {
+      "title": "Wikipedia | Population ecology",
+      "link": "https://en.wikipedia.org/wiki/Population_ecology"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Population Ecology",
+      "link": "LWxO8brfe6k",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 8.3.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Population Ecology",
+      "link": "i198WWV822c"
+    },
+    {
+      "title": "Crash Course Biology | Population Ecology: How We Saved the Bald Eagle",
+      "link": "KfHYN6tZnpU"
+    },
+    {
+      "title": "Bozeman Science | Exponential Growth",
+      "link": "c6pcRR5Uy6w"
+    },
+    {
+      "title": "Bozeman Science | Population Ecology",
+      "link": "PQ-CQ3CQE3g"
+    }
+  ]
+}

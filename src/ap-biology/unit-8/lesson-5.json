@@ -1,0 +1,111 @@
+{
+  "summary": "In Topics 8.3 and 8.4 we discussed the dynamics of individual populations. Topic 8.5 begins to take a look at the bigger picture and covers interactions between these populations of different species.",
+  "vocab": [
+    {
+      "term": "Community",
+      "link": "https://en.wikipedia.org/wiki/Community_(ecology)"
+    },
+    {
+      "term": "Simpson's Diversity Index",
+      "link": "https://en.wikipedia.org/wiki/Diversity_index"
+    },
+    {
+      "term": "Species richness",
+      "link": "https://en.wikipedia.org/wiki/Species_richness"
+    },
+    {
+      "term": "Relative abundance",
+      "link": "https://en.wikipedia.org/wiki/Relative_species_abundance"
+    },
+    {
+      "term": "Interspecific competition",
+      "link": "https://en.wikipedia.org/wiki/Interspecific_competition"
+    },
+    {
+      "term": "Competitive exclusion???",
+      "link": "https://en.wikipedia.org/wiki/Competitive_exclusion_principle"
+    },
+    {
+      "term": "Fundamental niche???",
+      "link": "https://en.wikipedia.org/wiki/Ecological_niche"
+    },
+    {
+      "term": "Realized niche???",
+      "link": "https://en.wikipedia.org/wiki/Realized_niche_width"
+    },
+    {
+      "term": "Niche partitioning",
+      "link": "https://en.wikipedia.org/wiki/Ecological_niche#Niche_differentiation"
+    },
+    {
+      "term": "Predation",
+      "link": "https://en.wikipedia.org/wiki/Predation"
+    },
+    {
+      "term": "Herbivory???",
+      "link": "https://en.wikipedia.org/wiki/Herbivore"
+    },
+    {
+      "term": "Trophic cascade",
+      "link": "https://en.wikipedia.org/wiki/Trophic_cascade"
+    },
+    {
+      "term": "Food web",
+      "link": "https://en.wikipedia.org/wiki/Food_web"
+    },
+    {
+      "term": "Parasitism",
+      "link": "https://en.wikipedia.org/wiki/Parasitism"
+    },
+    {
+      "term": "Mutualism",
+      "link": "https://en.wikipedia.org/wiki/Mutualism_(biology)"
+    },
+    {
+      "term": "Commensalism",
+      "link": "https://en.wikipedia.org/wiki/Commensalism"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Interactions in communities (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/community-ecology/a/interactions-in-communities"
+    },
+    {
+      "title": "Khan Academy | Niches & competition (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/community-ecology/a/niches-competition"
+    },
+    {
+      "title": "Khan Academy | Simpson's index of diversity (video)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/community-ecology/v/simpsons-index-of-diversity"
+    },
+    {
+      "title": "Wikipedia | Community (ecology)",
+      "link": "https://en.wikipedia.org/wiki/Community_%28ecology%29"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Community Ecology",
+      "link": "xSoMbP4x98g",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 8.5.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Community Ecology",
+      "link": "lN46ZqXuZGM"
+    },
+    {
+      "title": "Crash Course Biology | Community Ecology: Interspecies Interactions",
+      "link": "yGYnwMSflBU"
+    },
+    {
+      "title": "Amoeba Sisters | Ecological Relationships",
+      "link": "rNjPI84sApQ"
+    },
+    {
+      "title": "Bozeman Science | Communities",
+      "link": "pOp-qLLTMso"
+    }
+  ]
+}

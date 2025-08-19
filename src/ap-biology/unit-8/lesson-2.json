@@ -1,0 +1,143 @@
+{
+  "summary": "Topic 8.2 talks about two key components of ecosystems: energy and matter. This lesson will focus on ways energy transfers between organisms through food webs and tropic levels, and the ways matter and nutrients cycle through the environment, focusing on water, carbon, nitrogen, and phosphorus.",
+  "vocab": [
+    {
+      "term": "Homeostasis",
+      "link": "https://en.wikipedia.org/wiki/Homeostasis"
+    },
+    {
+      "term": "Thermoregulation",
+      "link": "https://en.wikipedia.org/wiki/Thermoregulation"
+    },
+    {
+      "term": "Endotherms",
+      "link": "https://en.wikipedia.org/wiki/Endotherm"
+    },
+    {
+      "term": "Ectotherms",
+      "link": "https://en.wikipedia.org/wiki/Ectotherm"
+    },
+    {
+      "term": "Reproductive diapause???",
+      "link": "https://en.wikipedia.org/wiki/Diapause"
+    },
+    {
+      "term": "Metabolic rate???",
+      "link": "https://en.wikipedia.org/wiki/Basal_metabolic_rate"
+    },
+    {
+      "term": "Ecosystems",
+      "link": "https://en.wikipedia.org/wiki/Ecosystem"
+    },
+    {
+      "term": "Biotic factors???",
+      "link": "https://en.wikipedia.org/wiki/Ecosystem#Definition"
+    },
+    {
+      "term": "Abiotic factors",
+      "link": "https://en.wikipedia.org/wiki/Abiotic_component"
+    },
+    {
+      "term": "Law of Conservation of Mass",
+      "link": "https://en.wikipedia.org/wiki/Conservation_of_mass"
+    },
+    {
+      "term": "Law of Conservation of Energy",
+      "link": "https://en.wikipedia.org/wiki/Conservation_of_energy"
+    },
+    {
+      "term": "Water cycle",
+      "link": "https://en.wikipedia.org/wiki/Water_cycle"
+    },
+    {
+      "term": "Carbon cycle",
+      "link": "https://en.wikipedia.org/wiki/Carbon_cycle"
+    },
+    {
+      "term": "Nitrogen cycle",
+      "link": "https://en.wikipedia.org/wiki/Nitrogen_cycle"
+    },
+    {
+      "term": "Phosphorus cycle",
+      "link": "https://en.wikipedia.org/wiki/Phosphorus_cycle"
+    },
+    {
+      "term": "Autotrophs",
+      "link": "https://en.wikipedia.org/wiki/Autotroph"
+    },
+    {
+      "term": "Photosynthetic???",
+      "link": "https://en.wikipedia.org/wiki/Photosynthesis"
+    },
+    {
+      "term": "Chemosynthetic???",
+      "link": "https://en.wikipedia.org/wiki/Chemosynthesis"
+    },
+    {
+      "term": "Heterotrophs",
+      "link": "https://en.wikipedia.org/wiki/Heterotroph"
+    },
+    {
+      "term": "Trophic levels",
+      "link": "https://en.wikipedia.org/wiki/Trophic_level"
+    },
+    {
+      "term": "Food web",
+      "link": "https://en.wikipedia.org/wiki/Food_web"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Endotherms & ectotherms (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/energy-flow-through-ecosystems/a/endotherms-ectotherms"
+    },
+    {
+      "title": "Khan Academy | Food chains & food webs (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/energy-flow-through-ecosystems/a/food-chains-food-webs"
+    },
+    {
+      "title": "Wikipedia | Energy flow (ecology)",
+      "link": "https://en.wikipedia.org/wiki/Energy_flow_%28ecology%29"
+    },
+    {
+      "title": "Wikipedia | Biogeochemical cycle",
+      "link": "https://en.wikipedia.org/wiki/Biogeochemical_cycle"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Energy Flow Through Ecosystems",
+      "link": "c83_zkb_Efk",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 8.2.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Energy Flow Through Ecosystems",
+      "link": "hk5jnZPUKUk"
+    },
+    {
+      "title": "Crash Course Biology | Intro to Ecology: Why Did All These Elephants Die?",
+      "link": "aO3Yp45zmw8"
+    },
+    {
+      "title": "Amoeba Sisters | Autotrophs and Heterotrophs",
+      "link": "f8G7IulYxiA"
+    },
+    {
+      "title": "Amoeba Sisters | Food Webs and Energy Pyramids: Bedrocks of Biodiversity",
+      "link": "-oVavgmveyY"
+    },
+    {
+      "title": "Amoeba Sisters | Carbon and Nitrogen Cycles",
+      "link": "NHqEthRCqQ4"
+    },
+    {
+      "title": "Bozeman Science | Energy Flow in Ecosystems",
+      "link": "lnAKICtJIA4"
+    },
+    {
+      "title": "Bozeman Science | Biogeochemical Cycles",
+      "link": "Bn41lXKyVWQ"
+    }
+  ]
+}

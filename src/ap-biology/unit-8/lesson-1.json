@@ -1,0 +1,83 @@
+{
+  "summary": "Unit 8 begins with a discussion of the ways organisms respond to the environment. From behavioral to physiological responses, organisms will react to stimuli in their environment to increase their survival or enhance the fitness of their population by communication.",
+  "vocab": [
+    {
+      "term": "Behavioral change???",
+      "link": ""
+    },
+    {
+      "term": "Physiological change???",
+      "link": ""
+    },
+    {
+      "term": "Stimulus",
+      "link": "https://en.wikipedia.org/wiki/Stimulus_(physiology)"
+    },
+    {
+      "term": "Flight-or-fight response",
+      "link": "https://en.wikipedia.org/wiki/Fight-or-flight_response"
+    },
+    {
+      "term": "Signals???",
+      "link": "https://en.wikipedia.org/wiki/Animal_communication"
+    },
+    {
+      "term": "Pheromones",
+      "link": "https://en.wikipedia.org/wiki/Pheromone"
+    },
+    {
+      "term": "Innate behaviors",
+      "link": "https://en.wikipedia.org/wiki/Instinct"
+    },
+    {
+      "term": "Learned behaviors???",
+      "link": "https://en.wikipedia.org/wiki/Learning"
+    },
+    {
+      "term": "Cooperative behaviors???",
+      "link": "https://en.wikipedia.org/wiki/Cooperation"
+    },
+    {
+      "term": "Altruism",
+      "link": "https://en.wikipedia.org/wiki/Altruism"
+    },
+    {
+      "term": "Kin selection",
+      "link": "https://en.wikipedia.org/wiki/Kin_selection"
+    }
+  ],
+  "links": [
+    {
+      "title": "Khan Academy | Intro to animal behavior (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/responses-to-the-environment/a/intro-to-animal-behavior"
+    },
+    {
+      "title": "Khan Academy | Animal communication (article)",
+      "link": "https://www.khanacademy.org/science/ap-biology/ecology-ap/responses-to-the-environment/a/animal-communication"
+    },
+    {
+      "title": "Wikipedia | Animal communication",
+      "link": "https://en.wikipedia.org/wiki/Animal_communication"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP Playground | Responses to the Environment",
+      "link": "9vZ_1XC4WL0",
+      "download": true,
+      "filename": "AP Playground Biology Lesson 8.1.pptx"
+    },
+    {
+      "title": "PoseKnows Biology | Responses to the Environment",
+      "link": "bgoJouJ2y2U"
+    },
+    {
+      "title": "Crash Course Biology | Animal Behavior: Why This Toad Is Bad at Jumping",
+      "link": "9R_6FoM1cog"
+    },
+    {
+      "title": "Bozeman Science | Animal Behavior",
+      "link": "6hREwakXmAo"
+    }
+  ]
+}
