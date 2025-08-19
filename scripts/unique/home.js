@@ -17,7 +17,7 @@ export function upload() {
       let title = `<img src="/icons/logo.svg" alt="AP Playground Logo">`
       title += `<h1 class="visually-hidden">AP Playground</h1>`
       title += `<h2>"Play hard. Score harder"</h2>`
-      let content = ["Unit reviews", "Practice games", "Vocab sets", "Library of resources"].map(i => "<li>"+i+"</li>").join("")
+      let content = ["Unit reviews", "Practice games", "Vocab sets", "Resource library"].map(i => "<li>"+i+"</li>").join("")
       content = `<ul class="features">${content}</ul>`
       page += templates.block(title, content, true)
 
