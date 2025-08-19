@@ -55,11 +55,11 @@
     },
     {
       "term": "Conjugation",
-      "link": "https://en.wikipedia.org/wiki/Conjugation"
+      "link": "https://en.wikipedia.org/wiki/Bacterial_conjugation"
     },
     {
       "term": "Transposition",
-      "link": "https://en.wikipedia.org/wiki/Transposition"
+      "link": "https://en.wikipedia.org/wiki/Transposable_element"
     },
     {
       "term": "Plasmid",
@@ -101,7 +101,8 @@
     },
     {
       "title": "Crash Course Biology | Genetic Mutations: Is Drinking Milk a Super Power?",
-      "link": "8HfzUgxumVE"
+      "link": "8HfzUgxumVE",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Mutations",
@@ -109,7 +110,8 @@
     },
     {
       "title": "Bozeman Science | Mutations",
-      "link": "eDbK0cxKKsk"
+      "link": "eDbK0cxKKsk",
+      "more": true
     }
   ]
 }

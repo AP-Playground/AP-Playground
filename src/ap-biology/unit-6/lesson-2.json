@@ -73,11 +73,13 @@
     },
     {
       "title": "Amoeba Sisters | DNA Replication",
-      "link": "Qqe4thU-os8"
+      "link": "Qqe4thU-os8",
+      "more": true
     },
     {
       "title": "Bozeman Science | DNA Replication",
-      "link": "FBmO_rmXxIw"
+      "link": "FBmO_rmXxIw",
+      "more": true
     }
   ]
 }

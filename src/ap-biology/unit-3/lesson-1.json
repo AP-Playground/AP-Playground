@@ -101,11 +101,13 @@
     },
     {
       "title": "Bozeman Science | Enzymes",
-      "link": "ok9esggzN18"
+      "link": "ok9esggzN18",
+      "more": true
     },
     {
       "title": "Bozeman Science | Enzyme Catalysis",
-      "link": "hs75JmgGW5Y"
+      "link": "hs75JmgGW5Y",
+      "more": true
     }
   ]
 }

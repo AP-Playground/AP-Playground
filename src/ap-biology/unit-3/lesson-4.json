@@ -116,20 +116,18 @@
       "link": "VQqpoyOfW6I"
     },
     {
-      "title": "Amoeba Sisters | Photosynthesis",
-      "link": "CMiPYHNNg28"
-    },
-    {
       "title": "Crash Course Biology | Photosynthesis: The Original Solar Power",
       "link": "-ZRsLhaukn8"
     },
     {
-      "title": "Amoeba Sisters | Photosynthesis: Before the Bell Biology",
-      "link": "MSx4rgLV_Ro"
+      "title": "Amoeba Sisters | Photosynthesis",
+      "link": "CMiPYHNNg28",
+      "more": true
     },
     {
       "title": "Bozeman Science | Photosynthesis",
-      "link": "g78utcLQrJ4"
+      "link": "g78utcLQrJ4",
+      "more": true
     }
   ]
 }

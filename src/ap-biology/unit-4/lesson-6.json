@@ -81,7 +81,8 @@
     },
     {
       "title": "Crash Course Biology | Mitosis & the Cell Cycle: How Cells Clone Themselves",
-      "link": "skPOXcVvS5c"
+      "link": "skPOXcVvS5c",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | The Cell Cycle (and cancer)",
@@ -89,7 +90,8 @@
     },
     {
       "title": "Bozeman Science | What is Cancer?",
-      "link": "UopUxkeC4Ls"
+      "link": "UopUxkeC4Ls",
+      "more": true
     }
   ]
 }

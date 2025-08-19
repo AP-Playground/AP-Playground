@@ -85,7 +85,8 @@
     },
     {
       "title": "Amoeba Sisters | Intro to Cell Signaling",
-      "link": "-dbRterutHY"
+      "link": "-dbRterutHY",
+      "more": true
     },
     {
       "title": "Bozeman Science | Signal Transduction Pathways",
@@ -93,7 +94,8 @@
     },
     {
       "title": "Bozeman Science | Effects of Changes in Pathways",
-      "link": "W48Gk2Om3wI"
+      "link": "W48Gk2Om3wI",
+      "more": true
     }
   ]
 }

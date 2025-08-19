@@ -96,16 +96,18 @@
       "link": "unZw9JvZ6Q4"
     },
     {
-      "title": "Crash Course Botany | Transcription: How mRNA Helped Save Lives",
+      "title": "Crash Course Biology | Transcription: How mRNA Helped Save Lives",
       "link": "j6YaOqKORYY"
     },
     {
       "title": "Amoeba Sisters | Protein Synthesis",
-      "link": "oefAI2x2CQM"
+      "link": "oefAI2x2CQM",
+      "more": true
     },
     {
       "title": "Bozeman Science | Transcription and Translation",
-      "link": "h3b9ArupXZg"
+      "link": "h3b9ArupXZg",
+      "more": true
     }
   ]
 }

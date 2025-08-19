@@ -101,7 +101,8 @@
     },
     {
       "title": "Crash Course Biology | Meiosis: Why Are All Humans Unique?",
-      "link": "pj1oFx42d48"
+      "link": "pj1oFx42d48",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Meiosis",
@@ -109,7 +110,8 @@
     },
     {
       "title": "Amoeba Sisters | Mitosis vs. Meiosis: Side by Side Comparison",
-      "link": "zrKdz93WlVk"
+      "link": "zrKdz93WlVk",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Chromosome Numbers During Division: Demystified!",
@@ -117,7 +119,8 @@
     },
     {
       "title": "Bozeman Science | Phases of Meiosis",
-      "link": "16enC385R0w"
+      "link": "16enC385R0w",
+      "more": true
     }
   ]
 }

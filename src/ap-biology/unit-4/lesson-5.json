@@ -125,11 +125,13 @@
     },
     {
       "title": "Crash Course Biology | Mitosis & the Cell Cycle: How Cells Clone Themselves",
-      "link": "skPOXcVvS5c"
+      "link": "skPOXcVvS5c",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | The Cell Cycle (and cancer)",
-      "link": "QVCjdNxJreE"
+      "link": "QVCjdNxJreE",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Mitosis: The Amazing Cell Process that Uses Division to Multiply!",
@@ -137,11 +139,13 @@
     },
     {
       "title": "Bozeman Science | Mitosis",
-      "link": "1cVZBV9tD-A"
+      "link": "1cVZBV9tD-A",
+      "more": true
     },
     {
       "title": "Bozeman Science | Phases of Mitosis",
-      "link": "mXVoTj06zwg"
+      "link": "mXVoTj06zwg",
+      "more": true
     }
   ]
 }

@@ -85,11 +85,13 @@
     },
     {
       "title": "Amoeba Sisters | Protein Synthesis",
-      "link": "oefAI2x2CQM"
+      "link": "oefAI2x2CQM",
+      "more": true
     },
     {
       "title": "Bozeman Science | Transcription and Translation",
-      "link": "h3b9ArupXZg"
+      "link": "h3b9ArupXZg",
+      "more": true
     }
   ]
 }
