@@ -85,7 +85,8 @@
     },
     {
       "title": "Crash Course Biology | Intro to Evolution: What We Can Learn From a Giraffe's Neck",
-      "link": "2TSIUt-lHyo"
+      "link": "2TSIUt-lHyo",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Evolution",
@@ -93,7 +94,8 @@
     },
     {
       "title": "Bozeman Science | Evidence of Evolution",
-      "link": "cC8k2Sb1oQ8"
+      "link": "cC8k2Sb1oQ8",
+      "more": true
     }
   ]
 }
