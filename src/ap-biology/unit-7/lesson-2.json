@@ -41,11 +41,13 @@
     },
     {
       "title": "Amoeba Sisters | Natural Selection",
-      "link": "7VM9YxmULuo"
+      "link": "7VM9YxmULuo",
+      "more": true
     },
     {
       "title": "Bozeman Science | Examples of Natural Selection",
-      "link": "S7EhExhXOPQ"
+      "link": "S7EhExhXOPQ",
+      "more": true
     }
   ]
 }
