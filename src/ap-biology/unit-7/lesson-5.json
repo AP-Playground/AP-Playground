@@ -65,7 +65,8 @@
     },
     {
       "title": "Crash Course Biology | Microevolution: What's An Allele Got to Do With It?",
-      "link": "fBOrzQP423A"
+      "link": "fBOrzQP423A",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Hardy-Weinberg Equilibrium",
@@ -73,7 +74,8 @@
     },
     {
       "title": "Bozeman Science | Hardy-Weinberg Equation",
-      "link": "oEBNom3K9cQ"
+      "link": "oEBNom3K9cQ",
+      "more": true
     }
   ]
 }
