@@ -18,19 +18,19 @@
       "link": "https://en.wikipedia.org/wiki/Ectotherm"
     },
     {
-      "term": "Reproductive diapause???",
+      "term": "Reproductive diapause",
       "link": "https://en.wikipedia.org/wiki/Diapause"
     },
     {
-      "term": "Metabolic rate???",
-      "link": "https://en.wikipedia.org/wiki/Basal_metabolic_rate"
+      "term": "Metabolic rate",
+      "link": "https://en.wikipedia.org/wiki/Metabolism"
     },
     {
       "term": "Ecosystems",
       "link": "https://en.wikipedia.org/wiki/Ecosystem"
     },
     {
-      "term": "Biotic factors???",
+      "term": "Biotic factors",
       "link": "https://en.wikipedia.org/wiki/Ecosystem#Definition"
     },
     {
@@ -66,11 +66,11 @@
       "link": "https://en.wikipedia.org/wiki/Autotroph"
     },
     {
-      "term": "Photosynthetic???",
+      "term": "Photosynthetic",
       "link": "https://en.wikipedia.org/wiki/Photosynthesis"
     },
     {
-      "term": "Chemosynthetic???",
+      "term": "Chemosynthetic",
       "link": "https://en.wikipedia.org/wiki/Chemosynthesis"
     },
     {
@@ -121,19 +121,23 @@
     },
     {
       "title": "Amoeba Sisters | Autotrophs and Heterotrophs",
-      "link": "f8G7IulYxiA"
+      "link": "f8G7IulYxiA",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Food Webs and Energy Pyramids: Bedrocks of Biodiversity",
-      "link": "-oVavgmveyY"
+      "link": "-oVavgmveyY",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Carbon and Nitrogen Cycles",
-      "link": "NHqEthRCqQ4"
+      "link": "NHqEthRCqQ4",
+      "more": true
     },
     {
       "title": "Bozeman Science | Energy Flow in Ecosystems",
-      "link": "lnAKICtJIA4"
+      "link": "lnAKICtJIA4",
+      "more": true
     },
     {
       "title": "Bozeman Science | Biogeochemical Cycles",
