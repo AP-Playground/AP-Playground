@@ -12,6 +12,18 @@
     {
       "term": "Population",
       "link": "https://en.wikipedia.org/wiki/Population"
+    },
+    {
+      "term": "DDT Resistance",
+      "link": "https://en.wikipedia.org/wiki/Pesticide_resistance"
+    },
+    {
+      "term": "Sickle cell anemia",
+      "link": "https://en.wikipedia.org/wiki/Sickle_cell_disease"
+    },
+    {
+      "term": "Heterozygote advantage",
+      "link": "https://en.wikipedia.org/wiki/Heterozygote_advantage"
     }
   ],
   "links": [
