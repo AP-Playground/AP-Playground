@@ -2,6 +2,7 @@ import { readFileSync } from 'fs';
 import * as util from '../util.js'
 import * as templates from '../templates.js'
 import * as global from '../global.js';
+import * as vocab from './vocab.js'
 
 export function upload(path, title) {
   const pathSegments = path.split("/")
@@ -25,6 +26,7 @@ export function upload(path, title) {
   let vocabText = `<ol class="vocab-grid" style="--row-count:${Math.ceil(vocabCount/2)};--row-count-3:${Math.ceil(vocabCount/3)};">` 
   vocabText += data["vocab"].map(i => `<li><a target="_blank" href="${i.link}">${i.term}</a></li>`).join("")
   vocabText += `</ol>`
+  vocab.upload(path + "/vocab", title, data["vocab"])
 
   const vocabHeader = `<div class="split-header"><h2>Vocabulary:</h2><a href="${path}/vocab">Practice &rightarrow;</a></div>`
   const vocabBlock = templates.block(vocabHeader, vocabText)

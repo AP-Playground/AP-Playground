@@ -99,7 +99,7 @@ export function nav(path) {
         if (pathSegments[1]===unitSlug) {
           for (const [lessonSlug, lesson] of Object.entries(navData.data[unitSlug].data)) {
             const lessonLink = "/"+navData.slug+"/"+unitSlug+"/"+lessonSlug
-            tabContent.push(`<li class="sub-item"><a href="${lessonLink}"${path === lessonLink ? " aria-current='page'" : ""}>${lesson.prefix + ": " + lesson.title}</a></li>`)
+            tabContent.push(`<li class="sub-item"><a href="${lessonLink}"${pathSegments[2] === lessonSlug ? " aria-current='page'" : ""}>${lesson.prefix + ": " + lesson.title}</a></li>`)
           }
         }
       }
@@ -177,10 +177,15 @@ export function header(path) {
       if (pathSegments.length > 1) {
         const unit = navData.data[pathSegments[1]]
         breadcrumb.push([unit.prefix+": "+unit.title, `/${pathSegments[0]}/${pathSegments[1]}`])
-      }
-      if (pathSegments.length > 2) {
-        const lesson = navData.data[pathSegments[1]].data[pathSegments[2]]
-        breadcrumb.push([lesson.prefix+": "+lesson.title, `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}`])
+
+        if (pathSegments.length > 2) {
+          const lesson = unit.data[pathSegments[2]]
+          breadcrumb.push([lesson.prefix+": "+lesson.title, `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}`])
+
+          if (pathSegments.length > 3) {
+            breadcrumb.push(["Vocab Review", `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}/${pathSegments[3]}`])
+          }
+        }
       }
     }
   }
@@ -284,4 +289,13 @@ function videoEmbed(link) {
 
 function moreVideoEmbed(link) {
   return `<iframe class="video-embed unloaded" data-src="https://www.youtube-nocookie.com/embed/${link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+}
+
+export function splitHeader(title, link, linkText = "More &rightarrow;", intro = false) {
+  let temp = "<h2>" + title + "</h2>"
+  if (intro) {
+    temp = "<h1>" + title + "</h1>"
+  }
+  temp += `<a href="${link}">${linkText}</a>`
+  return `<div class="split-header">${temp}</div>`
 }

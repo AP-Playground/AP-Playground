@@ -23,8 +23,8 @@ export function upload() {
       page += templates.block(title, content, true)
 
 
-      let courseExplore = templates.block(header(homeData.courses.title,"/courses"), homeData.courses.content);
-      let gamesExplore = templates.block(header(homeData.games.title,"/games"), homeData.games.content);
+      let courseExplore = templates.block(templates.splitHeader(homeData.courses.title,"/courses"), homeData.courses.content);
+      let gamesExplore = templates.block(templates.splitHeader(homeData.games.title,"/games"), homeData.games.content);
       page += templates.doubleBlock(courseExplore + gamesExplore)
 
       page += `</main>`
@@ -34,10 +34,4 @@ export function upload() {
   page += `</div>`
   page += "</body>"
   util.writeFile("index.html", page, true);
-}
-
-function header(title, link) {
-  let temp = "<h2>" + title + "</h2>"
-  temp += `<a href="${link}">More &rightarrow;</a>`
-  return `<div class="split-header">${temp}</div>`
 }

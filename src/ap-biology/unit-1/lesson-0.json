@@ -3,71 +3,101 @@
   "vocab": [
     {
       "term": "Atoms",
-      "link": "https://en.wikipedia.org/wiki/Atom"
+      "link": "https://en.wikipedia.org/wiki/Atom",
+      "definition": "The basic particle of elements, consists of protons, neutrons, and electrons",
+      "image": "https://media.istockphoto.com/id/1300855627/vector/bohr-atomic-model-of-a-nitrogen-atom-vector-illustration-for-science.jpg?s=612x612&w=0&k=20&c=_H--enRYu1jgE0gpaX3cIrzTFhX1F2ZA6JQHQNCyxzc="
     },
     {
       "term": "Molecules",
-      "link": "https://en.wikipedia.org/wiki/Molecule"
+      "link": "https://en.wikipedia.org/wiki/Molecule",
+      "definition": "A group of atoms held together by chemical bonds",
+      "image": "https://www.hawaii.edu/news/wp-content/uploads/2021/12/manoa-chemistry-methanediol-publication-kaiser.jpg"
     },
     {
       "term": "Isotopes",
-      "link": "https://en.wikipedia.org/wiki/Isotope"
+      "link": "https://en.wikipedia.org/wiki/Isotope",
+      "definition": "Atoms of the same element with different numbers of neutrons"
     },
     {
       "term": "Ions",
-      "link": "https://en.wikipedia.org/wiki/Ion"
+      "link": "https://en.wikipedia.org/wiki/Ion",
+      "definition": "An atom or molecule with an electric charge",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-be2b04a2b74debe15b3c45535f503fa7-pjlq"
     },
     {
       "term": "Valence Shell",
-      "link": "https://en.wikipedia.org/wiki/Valence_electron"
+      "link": "https://en.wikipedia.org/wiki/Valence_electron",
+      "definition": "The outermost electron shell, denotes valence based on # of electrons",
+      "image": "https://cdn.kastatic.org/ka-content-images/ad49774316c2452752031eb2a0917f3dd447e87d.svg"
     },
     {
       "term": "Valence",
-      "link": "https://en.wikipedia.org/wiki/Valence_(chemistry)"
+      "link": "https://en.wikipedia.org/wiki/Valence_(chemistry)",
+      "definition": "The number of chemical bonds an atom of a particular element can create"
     },
     {
       "term": "Bonds",
-      "link": "https://en.wikipedia.org/wiki/Chemical_bond"
+      "link": "https://en.wikipedia.org/wiki/Chemical_bond",
+      "definition": "Forces of attraction between atoms or molecules"
     },
     {
       "term": "Covalent bond",
-      "link": "https://en.wikipedia.org/wiki/Covalent_bond"
+      "link": "https://en.wikipedia.org/wiki/Covalent_bond",
+      "definition": "A force of attraction between two atoms due to them sharing an electron",
+      "image": "https://znotes-static.s3.ap-southeast-1.amazonaws.com/cie/igcse/chemistry-0620/6475caa266a1e0599dd960e4f86e40e77da6b1010f46d3e2.png"
     },
     {
       "term": "Ionic bond",
-      "link": "https://en.wikipedia.org/wiki/Ionic_bonding"
+      "link": "https://en.wikipedia.org/wiki/Ionic_bonding",
+      "definition": "A force of attraction between one positively charged ion and one negatively charged ion",
+      "image": "https://cdn.britannica.com/05/96905-050-9A0965D4/bonding-sodium-chloride-atom-one-chlorine-electrons.jpg"
     },
     {
       "term": "Ion",
-      "link": "https://en.wikipedia.org/wiki/Ion"
+      "link": "https://en.wikipedia.org/wiki/Ion",
+      "definition": "An atom or molecule with an electric charge",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-be2b04a2b74debe15b3c45535f503fa7-pjlq"
     },
     {
       "term": "Hydrogen bonds",
-      "link": "https://en.wikipedia.org/wiki/Hydrogen_bond"
+      "link": "https://en.wikipedia.org/wiki/Hydrogen_bond",
+      "definition": "A force of attraction between two opposing partial charges involving a hydrogen atom",
+      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/water-hydrogen-bonds.png"
     },
     {
       "term": "Van der Waals Forces",
-      "link": "https://en.wikipedia.org/wiki/Van_der_Waals_force"
+      "link": "https://en.wikipedia.org/wiki/Van_der_Waals_force",
+      "definition": "Weak forces of attraction resulting from the random movement of electrons",
+      "image": "https://useruploads.socratic.org/i2npYmpxSAuF154XjL6e_London_Dispersion_Force.jpg"
     },
     {
       "term": "Isomers",
-      "link": "https://en.wikipedia.org/wiki/Isomer"
+      "link": "https://en.wikipedia.org/wiki/Isomer",
+      "definition": "Molecules with the same chemical formula but different structures",
+      "image": "https://chemistrytalk.org/wp-content/uploads/2023/03/640px-Isomerism.svg.png"
     },
     {
       "term": "pH",
-      "link": "https://en.wikipedia.org/wiki/PH"
+      "link": "https://en.wikipedia.org/wiki/PH",
+      "definition": "The potential of hydrogen ion dissociation of a substance",
+      "image": "https://static.sciencelearn.org.nz/images/images/000/004/557/full/ART_Acids_and_bases_PH_Scale_v2.png?1674174669"
     },
     {
       "term": "Buffers",
-      "link": "https://en.wikipedia.org/wiki/Buffer_solution"
+      "link": "https://en.wikipedia.org/wiki/Buffer_solution",
+      "definition": "Substances which mitigate changes in pH"
     },
     {
       "term": "Acids",
-      "link": "https://en.wikipedia.org/wiki/Acid"
+      "link": "https://en.wikipedia.org/wiki/Acid",
+      "definition": "Substances with a low pH / high rate of dissociation of H+ ions",
+      "image": "https://m.media-amazon.com/images/I/81TXcXZM3EL.jpg"
     },
     {
       "term": "Bases",
-      "link": "https://en.wikipedia.org/wiki/Base_(chemistry)"
+      "link": "https://en.wikipedia.org/wiki/Base_(chemistry)",
+      "definition": "Substances with a high pH / low rate of dissociation of H+ ions",
+      "image": "https://www.cloroxmalaysia.com/wp-content/uploads/sites/11/2019/01/240518-Ori_2L_960_cropped.png"
     }
   ],
   "links": [
