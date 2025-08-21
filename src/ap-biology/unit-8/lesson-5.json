@@ -22,15 +22,15 @@
       "link": "https://en.wikipedia.org/wiki/Interspecific_competition"
     },
     {
-      "term": "Competitive exclusion???",
+      "term": "Competitive exclusion",
       "link": "https://en.wikipedia.org/wiki/Competitive_exclusion_principle"
     },
     {
-      "term": "Fundamental niche???",
+      "term": "Fundamental niche",
       "link": "https://en.wikipedia.org/wiki/Ecological_niche"
     },
     {
-      "term": "Realized niche???",
+      "term": "Realized niche",
       "link": "https://en.wikipedia.org/wiki/Realized_niche_width"
     },
     {
@@ -42,7 +42,7 @@
       "link": "https://en.wikipedia.org/wiki/Predation"
     },
     {
-      "term": "Herbivory???",
+      "term": "Herbivory",
       "link": "https://en.wikipedia.org/wiki/Herbivore"
     },
     {
@@ -101,11 +101,13 @@
     },
     {
       "title": "Amoeba Sisters | Ecological Relationships",
-      "link": "rNjPI84sApQ"
+      "link": "rNjPI84sApQ",
+      "more": true
     },
     {
       "title": "Bozeman Science | Communities",
-      "link": "pOp-qLLTMso"
+      "link": "pOp-qLLTMso",
+      "more": true
     }
   ]
 }

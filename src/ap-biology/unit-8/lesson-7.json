@@ -77,11 +77,13 @@
     },
     {
       "title": "Crash Course Biology | Conservation Biology: Sixth Mass Extinction?",
-      "link": "IALw687nswo"
+      "link": "IALw687nswo",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Biomagnification and the Trouble with Toxins",
-      "link": "TZk6vcmLcKw"
+      "link": "TZk6vcmLcKw",
+      "more": true
     },
     {
       "title": "Bozeman Science | Ecosystem Change",
@@ -89,7 +91,8 @@
     },
     {
       "title": "Bozeman Science | Global Climate Change",
-      "link": "QLteLZNXmyI"
+      "link": "QLteLZNXmyI",
+      "more": true
     }
   ]
 }

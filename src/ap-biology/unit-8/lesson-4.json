@@ -2,28 +2,28 @@
   "summary": "Although we talked about uncumbered population growth in Topic 8.3, rarely do actual environments reflect such conditions. Topic 8.4 covers population growth when the environment has a maximum carrying capacity due to limiting factors.",
   "vocab": [
     {
-      "term": "Exponential population growth???",
-      "link": "https://en.wikipedia.org/wiki/Population_ecology#Exponential_vs._logistic_growth"
+      "term": "Exponential population growth",
+      "link": "https://en.wikipedia.org/wiki/Exponential_growth"
     },
     {
       "term": "Logistic population growth???",
-      "link": "https://en.wikipedia.org/wiki/Population_ecology#Exponential_vs._logistic_growth"
+      "link": "https://en.wikipedia.org/wiki/Logistic_function"
     },
     {
       "term": "Carrying capacity",
       "link": "https://en.wikipedia.org/wiki/Carrying_capacity"
     },
     {
-      "term": "Life history???",
+      "term": "Life history",
       "link": "https://en.wikipedia.org/wiki/Life_history_theory"
     },
     {
-      "term": "Density dependent limiting factors???",
+      "term": "Density dependent limiting factors",
       "link": "https://en.wikipedia.org/wiki/Density_dependence"
     },
     {
-      "term": "Density independent limiting factors???",
-      "link": ""
+      "term": "Density independent limiting factors",
+      "link": "https://en.wikipedia.org/wiki/Abiotic_stress"
     }
   ],
   "links": [
@@ -53,7 +53,8 @@
     },
     {
       "title": "Crash Course Biology | Population Ecology: How We Saved the Bald Eagle",
-      "link": "KfHYN6tZnpU"
+      "link": "KfHYN6tZnpU",
+      "more": true
     },
     {
       "title": "Bozeman Science | Logistic Growth",
@@ -61,7 +62,8 @@
     },
     {
       "title": "Bozeman Science | Population Ecology",
-      "link": "PQ-CQ3CQE3g"
+      "link": "PQ-CQ3CQE3g",
+      "more": true
     }
   ]
 }

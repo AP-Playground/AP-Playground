@@ -6,24 +6,24 @@
       "link": "https://en.wikipedia.org/wiki/Population"
     },
     {
-      "term": "Density???",
+      "term": "Density",
       "link": "https://en.wikipedia.org/wiki/Population_density"
     },
     {
-      "term": "Dispersions???",
-      "link": "https://en.wikipedia.org/wiki/Biological_dispersal"
+      "term": "Dispersions",
+      "link": "https://en.wikipedia.org/wiki/Species_distribution#Patterns_on_small_scales"
     },
     {
       "term": "Survivorship curves",
       "link": "https://en.wikipedia.org/wiki/Survivorship_curve"
     },
     {
-      "term": "Age-structure pyramids???",
+      "term": "Age-structure pyramids",
       "link": "https://en.wikipedia.org/wiki/Population_pyramid"
     },
     {
-      "term": "Exponential population growth???",
-      "link": "https://en.wikipedia.org/wiki/Population_growth"
+      "term": "Exponential population growth",
+      "link": "https://en.wikipedia.org/wiki/Exponential_growth"
     }
   ],
   "links": [
@@ -53,11 +53,13 @@
     },
     {
       "title": "Bozeman Science | Exponential Growth",
-      "link": "c6pcRR5Uy6w"
+      "link": "c6pcRR5Uy6w",
+      "more": true
     },
     {
       "title": "Bozeman Science | Population Ecology",
-      "link": "PQ-CQ3CQE3g"
+      "link": "PQ-CQ3CQE3g",
+      "more": true
     }
   ]
 }
