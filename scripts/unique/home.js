@@ -4,7 +4,8 @@ import * as util from '../util.js'
 import * as global from '../global.js'
 
 export function upload() {
-  let page = templates.head("Home", "", ["/css/home.css"])
+  const homeData = JSON.parse(readFileSync("src/unique/home.json", "utf-8"))
+  let page = templates.head(homeData.title, "", ["/css/home.css"])
   page += "<body>"
   page += templates.nav("/");
 
@@ -16,14 +17,14 @@ export function upload() {
 
       let title = `<img src="/icons/logo.svg" alt="AP Playground Logo">`
       title += `<h1 class="visually-hidden">AP Playground</h1>`
-      title += `<h2>"Play hard. Score harder"</h2>`
-      let content = ["Unit reviews", "Practice games", "Vocab sets", "Resource library"].map(i => "<li>"+i+"</li>").join("")
+      title += `<h2>"${homeData.slogan}"</h2>`
+      let content = homeData.features.map(i => "<li>"+i+"</li>").join("")
       content = `<ul class="features">${content}</ul>`
       page += templates.block(title, content, true)
 
 
-      let courseExplore = templates.block(header("Explore our courses","/courses"),"So far, we have a completed AP Biology course. Vocab review sets for AP Biology are in the works, alongside content for Art History, World History, Physics, and many more!");
-      let gamesExplore = templates.block(header("Explore our games","/games"),"Games are not supported at this time");
+      let courseExplore = templates.block(header(homeData.courses.title,"/courses"), homeData.courses.content);
+      let gamesExplore = templates.block(header(homeData.games.title,"/games"), homeData.games.content);
       page += templates.doubleBlock(courseExplore + gamesExplore)
 
       page += `</main>`
