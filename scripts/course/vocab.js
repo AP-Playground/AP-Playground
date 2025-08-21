@@ -11,7 +11,7 @@ export function upload(path, title, vocab) {
   page += templates.nav(path + "/vocab")
   page += `<div class="page-wrapper">`
   
-    page += templates.header(path)
+    page += templates.header(path + "/vocab")
   
   
     page += `<main>`
@@ -31,5 +31,5 @@ export function upload(path, title, vocab) {
   page += `</div>`
   page += `</body>`
 
-  util.writeFile(path + ".html", page, true)
+  util.writeFile(path + "/vocab.html", page, true)
 }
