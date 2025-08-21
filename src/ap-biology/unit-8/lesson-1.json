@@ -2,12 +2,12 @@
   "summary": "Unit 8 begins with a discussion of the ways organisms respond to the environment. From behavioral to physiological responses, organisms will react to stimuli in their environment to increase their survival or enhance the fitness of their population by communication.",
   "vocab": [
     {
-      "term": "Behavioral change???",
-      "link": ""
+      "term": "Behavioral change",
+      "link": "https://en.wikipedia.org/wiki/Behavior#Biology"
     },
     {
-      "term": "Physiological change???",
-      "link": ""
+      "term": "Physiological change",
+      "link": "https://en.wikipedia.org/wiki/Physiology#Subdisciplines_by_taxa"
     },
     {
       "term": "Stimulus",
@@ -18,7 +18,7 @@
       "link": "https://en.wikipedia.org/wiki/Fight-or-flight_response"
     },
     {
-      "term": "Signals???",
+      "term": "Signals",
       "link": "https://en.wikipedia.org/wiki/Animal_communication"
     },
     {
@@ -30,12 +30,12 @@
       "link": "https://en.wikipedia.org/wiki/Instinct"
     },
     {
-      "term": "Learned behaviors???",
-      "link": "https://en.wikipedia.org/wiki/Learning"
+      "term": "Learned behaviors",
+      "link": "https://en.wikipedia.org/wiki/Operant_conditioning"
     },
     {
-      "term": "Cooperative behaviors???",
-      "link": "https://en.wikipedia.org/wiki/Cooperation"
+      "term": "Cooperative behaviors",
+      "link": "https://en.wikipedia.org/wiki/Behavioral_ecology#Cooperation"
     },
     {
       "term": "Altruism",
@@ -73,7 +73,8 @@
     },
     {
       "title": "Crash Course Biology | Animal Behavior: Why This Toad Is Bad at Jumping",
-      "link": "9R_6FoM1cog"
+      "link": "9R_6FoM1cog",
+      "more": true
     },
     {
       "title": "Bozeman Science | Animal Behavior",

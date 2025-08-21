@@ -45,7 +45,8 @@
     },
     {
       "title": "Crash Course History of Science | Darwin and Natural Selection",
-      "link": "dfsUz2O2jww"
+      "link": "dfsUz2O2jww",
+      "more": true
     },
     {
       "title": "Amoeba Sisters | Natural Selection",
@@ -53,7 +54,8 @@
     },
     {
       "title": "Bozeman Science | Natural Selection",
-      "link": "R6La6_kIr9g"
+      "link": "R6La6_kIr9g",
+      "more": true
     }
   ]
 }
