@@ -661,3 +661,28 @@ html.dark-mode {
     background-color: black;
   }
 }
+
+
+.img-enlarged-container {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  background-color: #0007;
+  pointer-events: none;
+  cursor: zoom-out;
+  &.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  & > img {
+    background: white;
+    max-width: 100%;
+    max-height: 75%;
+  }
+}

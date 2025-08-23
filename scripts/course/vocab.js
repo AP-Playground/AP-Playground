@@ -6,7 +6,7 @@ import * as vocabGenerator from '../modules/vocab.js'
 
 export function upload(path, title, vocab) {
 
-  let page = templates.head("Vocab | " + title, "", ["/css/vocab.css"],["/js/vocab.js"])
+  let page = templates.head("Vocab for " + title, "", ["/css/vocab.css"],["/js/vocab.js"])
   page += `<body>`
   page += templates.nav(path + "/vocab")
   page += `<div class="page-wrapper">`
@@ -38,10 +38,8 @@ export function upload(path, title, vocab) {
     page += templates.footer()
 
   page += `</div>`
-  
 
-  page += `<div class="img-enlarged-container"><img></div>`
-
+  page += templates.imgEnlargedContainer()
 
   page += `</body>`
 

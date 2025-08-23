@@ -21,8 +21,8 @@ export function head(title, description = "", stylesheets = [], scripts = []) {
   head += `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="preload stylesheet" as="style">`
   head += `<link href="/css/general.css" rel="stylesheet">`
   head += stylesheets.map(css => `<link href="${css}" rel="stylesheet">`).join("")
-  head += `<script src="/js/setup.js"></script>`
-  head += scripts.map(js => `<script src="${js}"></script>`).join("")
+  head += `<script src="/js/setup.js" defer></script>`
+  head += scripts.map(js => `<script src="${js}" defer></script>`).join("")
   head += `</head>`
   return head;
 }
@@ -298,4 +298,8 @@ export function splitHeader(title, link, linkText = "More &rightarrow;", intro =
   }
   temp += `<a href="${link}">${linkText}</a>`
   return `<div class="split-header">${temp}</div>`
+}
+
+export function imgEnlargedContainer() {
+  return `<div class="img-enlarged-container"><img></div>`
 }
