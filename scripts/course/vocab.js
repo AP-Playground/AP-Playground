@@ -16,11 +16,11 @@ export function upload(path, title, vocab) {
   
     page += `<main>`
     
-    let temp = templates.splitHeader("Vocab Review", path, "Back &rightarrow;", true)
-    page += templates.block(temp, "For lesson " + title, true)
+    let temp = templates.splitHeader("Vocabulary", path, "Back &rightarrow;", true)
+    page += templates.block(temp, title, true)
 
 
-    page += vocabGenerator.createBlock(vocab)
+    page += vocabGenerator.create(vocab)
 
 
     temp = ""

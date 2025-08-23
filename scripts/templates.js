@@ -183,7 +183,7 @@ export function header(path) {
           breadcrumb.push([lesson.prefix+": "+lesson.title, `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}`])
 
           if (pathSegments.length > 3) {
-            breadcrumb.push(["Vocab Review", `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}/${pathSegments[3]}`])
+            breadcrumb.push(["Vocabulary", `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}/${pathSegments[3]}`])
           }
         }
       }
