@@ -29,7 +29,7 @@ export function head(title, description = "", stylesheets = [], scripts = []) {
 
 export function block(title, content, intro = false, classes = []) {
   classes = classes.map(i => ` ${i}`).join('')
-  if (content[0] !== "<") content = `<p>${content}</p>`
+  if (content && content[0] !== "<") content = `<p>${content}</p>`
   if (intro) {
     if (title[0] !== "<") title = `<h1>${title}</h1>`
     return `<section class="content-block intro-block${classes}">${title}${content}</section>`

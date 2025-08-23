@@ -23,12 +23,26 @@ export function upload(path, title, vocab) {
     page += vocabGenerator.createBlock(vocab)
 
 
+    temp = ""
+    let cardText = ""
+    vocab.forEach(({term, link, definition, image}) => {
+      cardText = `<h2>${term} <a href="${link}" class="external-open" aria-label="Learn more about ${term}" target="_blank"></a></h2>` + `<p>${definition}</p>`
+      cardText = "<div>" + cardText + "</div>"
+      temp += templates.block(cardText, (image ? `<img src="${image}">` : ""), false, ["vocab-card"])
+    });
+    page += templates.doubleBlock(temp)
+
     page += `</main>`
   
   
     page += templates.footer()
 
   page += `</div>`
+  
+
+  page += `<div class="img-enlarged-container"><img></div>`
+
+
   page += `</body>`
 
   util.writeFile(path + "/vocab.html", page, true)

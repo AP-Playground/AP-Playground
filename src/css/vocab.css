@@ -1,0 +1,65 @@
+.vocab-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 20px;
+  & > img {
+    max-height: 100px;
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    cursor: zoom-in;
+    background: white;
+  }
+  & > div > p {
+    margin-bottom: 0;
+  }
+  & > div > h2 {
+    
+    & a.external-open {
+      translate: 0 2px;
+      width: 20px;
+      display: inline-block;
+      aspect-ratio: 1;
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: var(--theme);
+      -webkit-mask-image: url("/icons/external_link.svg");
+      mask-image: url("/icons/external_link.svg");
+      &:hover {
+        background-color: var(--accent);
+      }
+    }
+  }
+}
+
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .double-content-block {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.img-enlarged-container {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  background-color: #0007;
+  pointer-events: none;
+  cursor: zoom-out;
+  &.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  & > img {
+    background: white;
+    max-width: 100%;
+    max-height: 75%;
+  }
+}
