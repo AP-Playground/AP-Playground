@@ -296,14 +296,15 @@ html.side-nav-closed {
 }
 
 .side-nav-background {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
   position: absolute;
   top: 0;
   height: max(100vh, 100lvh);
   width: 100vw;
-  background-color: transparent;
+  background-color: #0007;
   z-index: -1;
-  transition: background-color 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 
@@ -612,13 +613,13 @@ sup {
       width: 0px;
     }
     & .side-nav-background {
-      background-color: transparent;
+      opacity: 0;
       pointer-events: none;
     }
   }
   .side-nav-background {
-    background-color: #0007;
-    display: block;
+    opacity: 1;
+    pointer-events: all;
   }
   .page-wrapper {
     padding: 55px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px) 20px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px);
