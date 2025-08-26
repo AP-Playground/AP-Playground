@@ -428,6 +428,7 @@ a:hover {
     list-style: none;
     display: flex;
     gap: 5px;
+    padding: 0;
   }
   & button,
   & a {
