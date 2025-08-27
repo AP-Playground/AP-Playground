@@ -61,13 +61,15 @@ document.querySelectorAll(".more-btn").forEach(btn => {
 const imgEnlargedContainer = document.querySelector(".img-enlarged-container");
 const imgEnlarged = document.querySelector(".img-enlarged-container > img");
 
-imgEnlarged.addEventListener("load", e => {
-  imgEnlargedContainer.classList.add("active")
-})
+if (imgEnlargedContainer) {
+  imgEnlarged.addEventListener("load", e => {
+    imgEnlargedContainer.classList.add("active")
+  })
 
-imgEnlargedContainer.addEventListener("click", e => {
-  imgEnlargedContainer.classList.remove("active")
-})
+  imgEnlargedContainer.addEventListener("click", e => {
+    imgEnlargedContainer.classList.remove("active")
+  })
+}
 
 
 function toggleSideNav() {
@@ -81,3 +83,8 @@ function toggleSideNav() {
     sideNavLinks.scrollTo({ top: currentSideNavScroll, behavior: "auto" });
   }
 }
+
+addEventListener("DOMContentLoaded", () => {
+  const breadcrumbs = document.querySelector(".breadcrumbs");
+  if (breadcrumbs) breadcrumbs.scrollLeft = breadcrumbs.scrollWidth;
+})

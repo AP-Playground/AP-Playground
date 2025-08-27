@@ -1,5 +1,5 @@
 * {
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -338,7 +338,7 @@ html.side-nav-closed {
   }
   & h1, & h2 {
     margin: 0;
-    font-family: Kalam;
+    font-family: Kalam, cursive;
     line-height: 1;
   }
   & h1 {
@@ -353,11 +353,25 @@ html.side-nav-closed {
 }
 
 .breadcrumbs {
+  overflow-x: auto;
+  scroll-behavior: auto;
+  &::-webkit-scrollbar {
+    height: 5px;
+    background: var(--theme-20);
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--theme-60);
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--theme-80);
+  }
   & ol {
     padding: 0;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    white-space: nowrap;
     & li + li::before {
       content: ">";
       padding: 0 8px;
