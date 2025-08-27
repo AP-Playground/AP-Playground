@@ -163,6 +163,8 @@ export function header(path) {
       break;
     }
     default: {
+      breadcrumb.push(["Home","/"], ["Courses","/courses"])
+
       navData = JSON.parse(readFileSync(`src/nav/${pathSegments[0]}.json`))
 
       breadcrumb.push([navData.title,"/" + pathSegments[0]])
@@ -179,8 +181,6 @@ export function header(path) {
             breadcrumb.push(["Vocabulary", `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}/${pathSegments[3]}`])
           }
         }
-      } else {
-        breadcrumb.unshift(["Home","/"], ["Courses","/courses"])
       }
     }
   }

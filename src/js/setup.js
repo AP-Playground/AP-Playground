@@ -84,7 +84,18 @@ function toggleSideNav() {
   }
 }
 
+let prevBreadcrumbsScroll;
 addEventListener("DOMContentLoaded", () => {
   const breadcrumbs = document.querySelector(".breadcrumbs");
-  if (breadcrumbs) breadcrumbs.scrollLeft = breadcrumbs.scrollWidth;
+  if (breadcrumbs) {
+    prevBreadcrumbsScroll = breadcrumbs.scrollWidth - breadcrumbs.clientWidth
+    breadcrumbs.scrollLeft = prevBreadcrumbsScroll;
+    addEventListener("resize", () => {
+      const curBreadcrumbsScroll = breadcrumbs.scrollWidth - breadcrumbs.clientWidth
+      if (prevBreadcrumbsScroll < curBreadcrumbsScroll) {
+        breadcrumbs.scrollLeft += curBreadcrumbsScroll - prevBreadcrumbsScroll;
+      }
+      prevBreadcrumbsScroll = curBreadcrumbsScroll;
+    })
+  }
 })
