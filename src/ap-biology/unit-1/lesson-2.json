@@ -3,55 +3,77 @@
   "vocab": [
     {
       "term": "Essential Elements",
-      "link": "https://en.wikipedia.org/wiki/Composition_of_the_human_body"
+      "link": "https://en.wikipedia.org/wiki/Composition_of_the_human_body",
+      "definition": "The elements that are necessary for life (CHON)",
+      "image": "https://i.ytimg.com/vi/qdoQ9NHLuAQ/hqdefault.jpg"
     },
     {
       "term": "Macromolecules",
-      "link": "https://en.wikipedia.org/wiki/Macromolecule"
+      "link": "https://en.wikipedia.org/wiki/Macromolecule",
+      "definition": "A large molecule necessary to life’s biological processes"
     },
     {
       "term": "Organic Compound",
-      "link": "https://en.wikipedia.org/wiki/Organic_compound"
+      "link": "https://en.wikipedia.org/wiki/Organic_compound",
+      "definition": "Compound which contains carbon"
     },
     {
       "term": "Hydrocarbon Chain",
-      "link": "https://en.wikipedia.org/wiki/Hydrocarbon"
+      "link": "https://en.wikipedia.org/wiki/Hydrocarbon",
+      "definition": "An organic compound containing only hydrogen and carbon arranged in a chain",
+      "image": "https://images.ctfassets.net/4yflszkpcwkt/55yilCl19ZLsUfjG1ctm24/e2eeb6936bc731b8f203968c29c43c31/Difference-Between-Straight-and-Branched-Chain-Alkanes_1.png"
     },
     {
       "term": "Valence",
-      "link": "https://en.wikipedia.org/wiki/Valence_(chemistry)"
+      "link": "https://en.wikipedia.org/wiki/Valence_(chemistry)",
+      "definition": "The number of chemical bonds an atom of a particular element can create"
     },
     {
       "term": "Functional Groups",
-      "link": "https://en.wikipedia.org/wiki/Functional_group"
+      "link": "https://en.wikipedia.org/wiki/Functional_group",
+      "definition": "A group of atoms with distinctive chemical properties separate to that of the total molecule they are attached to"
     },
     {
       "term": "Hydroxyl Group",
-      "link": "https://en.wikipedia.org/wiki/Hydroxy_group"
+      "link": "https://en.wikipedia.org/wiki/Hydroxy_group",
+      "definition": "Polar functional group; hydrogen bound to an oxygen atom",
+      "image": "https://www.thoughtco.com/thmb/b_E32exWMZNXj9uyifF5aORL8G8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hydroxylfunctional-56a129e05f9b58b7d0bca5df.jpg"
     },
     {
       "term": "Methyl Group",
-      "link": "https://en.wikipedia.org/wiki/Methyl_group"
+      "link": "https://en.wikipedia.org/wiki/Methyl_group",
+      "definition": "Nonpolar functional group; hydrogen bound to a sulfur atom",
+      "image": "https://www.wikidoc.org/images/7/7c/Methyl_group.jpg"
     },
     {
       "term": "Carbonyl Group",
-      "link": "https://en.wikipedia.org/wiki/Carbonyl_group"
+      "link": "https://en.wikipedia.org/wiki/Carbonyl_group",
+      "definition": "Polar functional group; carbon double bound to oxygen",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Ketone-general.svg"
     },
     {
       "term": "Carboxyl Group",
-      "link": "https://en.wikipedia.org/wiki/Carboxylic_acid"
+      "link": "https://en.wikipedia.org/wiki/Carboxylic_acid",
+      "definition": "Polar acidic functional group; carbon double bound to an oxygen and a hydroxyl group",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Carboxylic-acid.svg/150px-Carboxylic-acid.svg.png"
     },
     {
       "term": "Amino Group",
-      "link": "https://en.wikipedia.org/wiki/Amine"
+      "link": "https://en.wikipedia.org/wiki/Amine",
+      "definition": "Polar basic functional group; nitrogen bound to 2 hydrogen atoms",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Amino-group-primary-2D-flat.png"
     },
     {
       "term": "Phosphate Group",
-      "link": "https://en.wikipedia.org/wiki/Phosphate"
+      "link": "https://en.wikipedia.org/wiki/Phosphate",
+      "definition": "Polar acidic functional group; phosphate bound to oxygen atoms and hydroxyl groups",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Phosphate_Group.svg"
     },
     {
       "term": "Sulfhydryl Group",
-      "link": "https://en.wikipedia.org/wiki/Thiol"
+      "link": "https://en.wikipedia.org/wiki/Thiol",
+      "definition": "Polar functional group; sulfur bound to hydrogen atom",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Mercapto_Group_General_Formulae.png/110px-Mercapto_Group_General_Formulae.png"
     }
   ],
   "links": [
