@@ -353,30 +353,24 @@ html.side-nav-closed {
 }
 
 .breadcrumbs {
-  overflow-x: auto;
-  scroll-behavior: auto;
-  &::-webkit-scrollbar {
-    height: 5px;
-    background: var(--theme-20);
-    border-radius: 5px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: var(--theme-60);
-    border-radius: 5px;
-  }
-  &::-webkit-scrollbar-thumb:hover {
-    background: var(--theme-80);
-  }
+  flex: 1;
   & ol {
     padding: 0;
     list-style: none;
-    display: flex;
-    white-space: nowrap;
-    & li + li::before {
-      content: ">";
+    & li:not(:first-child) + li::before {
+      content: "\200B>";
       padding: 0 8px;
     }
+    & li.collapsed {
+      display: none;
+      cursor: pointer;
+    }
   }
+}
+.breadcrumb-measure {
+  position: absolute;
+  visibility: hidden;
+  white-space: nowrap;
 }
 
 main {

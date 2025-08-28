@@ -2,8 +2,11 @@ import * as global from "./global.js"
 import { readFileSync } from "fs";
 
 function breadcrumbs(...links) {
-  let breadcrumbs = `<nav aria-label="Breadcrumb" class="breadcrumbs"><ol>`;
-  let length = links.length
+  let length = links.length;
+  if (!length) return "<div></div>";
+  let breadcrumbs = `<nav aria-label="Breadcrumb" class="breadcrumbs">`;
+  breadcrumbs += `<div class="breadcrumb-measure"></div><ol>`
+  breadcrumbs += `<li class="collapsed">&hellip;</li>`;
   breadcrumbs += links.map(([title, link], idx) => {
     return `<li><a href="${link}"${idx === length - 1 ? 'aria-current="page"' : ""}>${title}</a></li>`
   }).join("")

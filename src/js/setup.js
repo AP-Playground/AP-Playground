@@ -84,18 +84,48 @@ function toggleSideNav() {
   }
 }
 
-let prevBreadcrumbsScroll;
-addEventListener("DOMContentLoaded", () => {
-  const breadcrumbs = document.querySelector(".breadcrumbs");
-  if (breadcrumbs) {
-    prevBreadcrumbsScroll = breadcrumbs.scrollWidth - breadcrumbs.clientWidth
-    breadcrumbs.scrollLeft = prevBreadcrumbsScroll;
-    addEventListener("resize", () => {
-      const curBreadcrumbsScroll = breadcrumbs.scrollWidth - breadcrumbs.clientWidth
-      if (prevBreadcrumbsScroll < curBreadcrumbsScroll) {
-        breadcrumbs.scrollLeft += curBreadcrumbsScroll - prevBreadcrumbsScroll;
-      }
-      prevBreadcrumbsScroll = curBreadcrumbsScroll;
-    })
-  }
+
+const breadcrumbs = document.querySelector('.breadcrumbs');
+const breadcrumbItems = Array.from(breadcrumbs.querySelectorAll('.breadcrumbs li:not(.collapsed)')).reverse();
+const breadcrumbCollapsed = breadcrumbs.querySelector('.collapsed');
+const breadcrumbMeasure = breadcrumbs.querySelector('.breadcrumb-measure');
+let breadcrumbExpanded = false;
+
+if (breadcrumbs) {
+  window.addEventListener('load', collapseBreadcrumbs);
+  const breadcrumbObserver = new ResizeObserver(collapseBreadcrumbs)
+  breadcrumbObserver.observe(breadcrumbs)
+}
+
+function collapseBreadcrumbs() {
+  if (breadcrumbExpanded) return;
+
+  let totalWidth = 11;
+  let containerWidth = breadcrumbs.offsetWidth;
+
+  breadcrumbCollapsed.style.display = 'none';
+
+  const breadcrumbCount = breadcrumbItems.length
+  breadcrumbItems.forEach((crumb, i) => {
+    crumb.style.display = 'inline';
+
+    breadcrumbMeasure.innerHTML = crumb.textContent;
+    totalWidth += breadcrumbMeasure.offsetWidth;
+
+    if (i === breadcrumbCount - 1) totalWidth -= 1;
+    else totalWidth += 25;
+
+    if (i > 1 && totalWidth > containerWidth) {
+      crumb.style.display = 'none';
+      breadcrumbCollapsed.style.display = 'inline';
+    }
+  })
+}
+
+breadcrumbCollapsed.addEventListener("click", () => {
+  if (breadcrumbExpanded) return;
+  breadcrumbExpanded = true;
+
+  breadcrumbCollapsed.style.display = 'none';
+  breadcrumbItems.forEach(crumb => crumb.style.display = 'inline');
 })
