@@ -3,47 +3,69 @@
   "vocab": [
     {
       "term": "Carbohydrates",
-      "link": "https://en.wikipedia.org/wiki/Carbohydrate"
+      "link": "https://en.wikipedia.org/wiki/Carbohydrate",
+      "definition": "Macromolecules used by organisms as energy storage and structural materials",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Fresh_made_bread_05.jpg/250px-Fresh_made_bread_05.jpg"
     },
     {
       "term": "Monosaccharides",
-      "link": "https://en.wikipedia.org/wiki/Monosaccharide"
+      "link": "https://en.wikipedia.org/wiki/Monosaccharide",
+      "definition": "The monomer unit of carbohydrates",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20220425111013/image6removebgpreview-300x258.jpg"
     },
     {
       "term": "Polysaccharides",
-      "link": "https://en.wikipedia.org/wiki/Polysaccharide"
+      "link": "https://en.wikipedia.org/wiki/Polysaccharide",
+      "definition": "The polymer made up of monosaccharides; a carbohydrate",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Cellulose-Ibeta-from-xtal-2002-3D-balls.png/330px-Cellulose-Ibeta-from-xtal-2002-3D-balls.png"
     },
     {
       "term": "Glysodic linkages",
-      "link": "https://en.wikipedia.org/wiki/Glycosidic_bond"
+      "link": "https://en.wikipedia.org/wiki/Glycosidic_bond",
+      "definition": "Covalent bonds between monosaccharides",
+      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/glycosidic-linkages.png"
     },
     {
       "term": "Structural isomers",
-      "link": "https://en.wikipedia.org/wiki/Structural_isomer"
+      "link": "https://en.wikipedia.org/wiki/Structural_isomer",
+      "definition": "Molecules with identical chemical formula but differing structural makeup",
+      "image": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A2822e0c975fc2711f1992ddaa80bfa4edade86adae070e8e8db0bd0e%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1"
     },
     {
       "term": "Enantiomers",
-      "link": "https://en.wikipedia.org/wiki/Enantiomer"
+      "link": "https://en.wikipedia.org/wiki/Enantiomer",
+      "definition": "Two compounds that are mirror images of each other, but that are not identical",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKnD6GKuP9XOuz5HNbpViebGu7yoaeU7mDw&s"
     },
     {
       "term": "α and β carbs",
-      "link": "https://en.wikipedia.org/wiki/Anomer"
+      "link": "https://en.wikipedia.org/wiki/Anomer",
+      "definition": "Different arrangements of atoms in cyclic forms of sugars that have the same chemical formula",
+      "image": "https://chem.libretexts.org/@api/deki/files/384948/alpha_and_beta_anomers.png?revision=1&size=bestfit&width=586&height=253"
     },
     {
       "term": "Starch",
-      "link": "https://en.wikipedia.org/wiki/Starch"
+      "link": "https://en.wikipedia.org/wiki/Starch",
+      "definition": "The carbohydrate used by plants for energy storage",
+      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/starch.png"
     },
     {
       "term": "Glycogen",
-      "link": "https://en.wikipedia.org/wiki/Glycogen"
+      "link": "https://en.wikipedia.org/wiki/Glycogen",
+      "definition": "The carbohydrate used by animals for energy storage",
+      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/glycogen.png"
     },
     {
       "term": "Cellulose",
-      "link": "https://en.wikipedia.org/wiki/Cellulose"
+      "link": "https://en.wikipedia.org/wiki/Cellulose",
+      "definition": "A structural carbohydrate which forms plant cell walls",
+      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/cellulose.png"
     },
     {
       "term": "Chitin",
-      "link": "https://en.wikipedia.org/wiki/Chitin"
+      "link": "https://en.wikipedia.org/wiki/Chitin",
+      "definition": "A structural carbohydrate which forms exoskeletons",
+      "image": "https://www.greenwaybiotech.com/cdn/shop/articles/crustacean-3377646_1920_2.jpg?v=1599851182&width=1000"
     }
   ],
   "links": [
