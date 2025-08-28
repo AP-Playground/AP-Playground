@@ -3,35 +3,51 @@
   "vocab": [
     {
       "term": "Lipids",
-      "link": "https://en.wikipedia.org/wiki/Lipid"
+      "link": "https://en.wikipedia.org/wiki/Lipid",
+      "definition": "Macromolecules used by organisms to store energy long term, surround cells, and send signals",
+      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/lipids.jpg"
     },
     {
       "term": "Triglycerides",
-      "link": "https://en.wikipedia.org/wiki/Triglyceride"
+      "link": "https://en.wikipedia.org/wiki/Triglyceride",
+      "definition": "The most common lipid, made up of three fatty acid chains and a glycerol molecule",
+      "image": "https://ars.els-cdn.com/content/image/3-s2.0-B9780123750839000970-f00097-04-9780123750839.jpg"
     },
     {
       "term": "Fatty acid chain",
-      "link": "https://en.wikipedia.org/wiki/Fatty_acid"
+      "link": "https://en.wikipedia.org/wiki/Fatty_acid",
+      "definition": "A linear sequence of carbon atoms with hydrogen atoms attached, ending in a carboxyl group",
+      "image": "https://images.nagwa.com/figures/explainers/313147519531/2.svg"
     },
     {
       "term": "Saturated fats",
-      "link": "https://en.wikipedia.org/wiki/Saturated_fat"
+      "link": "https://en.wikipedia.org/wiki/Saturated_fat",,
+      "definition": "A fatty acid hydrocarbon chain without double bonds",
+      "image": "https://study.com/cimages/multimages/16/saturatedfattyacidpicture2.png"
     },
     {
       "term": "Unsaturated fats",
-      "link": "https://en.wikipedia.org/wiki/Unsaturated_fat"
+      "link": "https://en.wikipedia.org/wiki/Unsaturated_fat",
+      "definition": "A fatty acid hydrocarbon chain containing double bonds",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Linoleic_acid3D.png/300px-Linoleic_acid3D.png"
     },
     {
       "term": "Steroids",
-      "link": "https://en.wikipedia.org/wiki/Steroid"
+      "link": "https://en.wikipedia.org/wiki/Steroid",
+      "definition": "Lipids used for signaling made out of four carbon rings fused together",
+      "image": "https://www.thoughtco.com/thmb/5It1L1oSJZU43qmRc8ywDyCwuBg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/aldosterone-56a129883df78cf77267fc6b.jpg"
     },
     {
       "term": "Phospholipids",
-      "link": "https://en.wikipedia.org/wiki/Phospholipid"
+      "link": "https://en.wikipedia.org/wiki/Phospholipid",
+      "definition": "Lipids which contain a hydrophilic head and hydrophobic tail and make up cell membranes",
+      "image": "https://fbi.cults3d.com/uploaders/14196599/illustration-file/d493aaf7-e2a6-42e4-8f08-b204c42ed8e2/Phospholipid.png"
     },
     {
       "term": "Cholesterol",
-      "link": "https://en.wikipedia.org/wiki/Cholesterol"
+      "link": "https://en.wikipedia.org/wiki/Cholesterol",
+      "definition": "The principal steroid; used in animal cell membranes",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cholesterol.svg"
     }
   ],
   "links": [
