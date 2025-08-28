@@ -3,27 +3,39 @@
   "vocab": [
     {
       "term": "Electronegativity",
-      "link": "https://en.wikipedia.org/wiki/Electronegativity"
+      "link": "https://en.wikipedia.org/wiki/Electronegativity",
+      "definition": "The tendency of an atom to attract electrons toward itself",
+      "image": "https://alevelchemistry.co.uk/wp-content/uploads/2019/04/Electronegativity_2.jpg"
     },
     {
       "term": "Polarity",
-      "link": "https://en.wikipedia.org/wiki/Chemical_polarity"
+      "link": "https://en.wikipedia.org/wiki/Chemical_polarity",
+      "definition": "A property of a molecule which has an uneven sharing of electrons",
+      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/water-polarity.png"
     },
     {
       "term": "Hydrogen bonds",
-      "link": "https://en.wikipedia.org/wiki/Hydrogen_bond"
+      "link": "https://en.wikipedia.org/wiki/Hydrogen_bond",
+      "definition": "A force of attraction between two opposing partial charges involving a hydrogen atom",
+      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/water-hydrogen-bonds.png"
     },
     {
       "term": "Cohesion",
-      "link": "https://en.wikipedia.org/wiki/Cohesion_(chemistry)"
+      "link": "https://en.wikipedia.org/wiki/Cohesion_(chemistry)",
+      "definition": "The sticking together of particles of the same substance",
+      "image": "https://study.com/cimages/multimages/16/droplet-macro-photography-of-water-droplets-on-green-leaf-green-green-image-17110799817622839151.jpg"
     },
     {
       "term": "Surface tension",
-      "link": "https://en.wikipedia.org/wiki/Surface_tension"
+      "link": "https://en.wikipedia.org/wiki/Surface_tension",
+      "definition": "A result of cohesion which holds together the surfaces of bodies of water",
+      "image": "https://www.thoughtco.com/thmb/fkp7nXTtsxtFr3wT9eGu5gLIzwE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Surface-Tension-58c6c2365f9b58af5c534f71.jpg"
     },
     {
       "term": "Adhesion",
-      "link": "https://en.wikipedia.org/wiki/Adhesion"
+      "link": "https://en.wikipedia.org/wiki/Adhesion",
+      "definition": "The sticking together of particles of different substances",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Spider_web_Luc_Viatour.jpg/220px-Spider_web_Luc_Viatour.jpg"
     },
     {
       "term": "Meniscus",
@@ -31,35 +43,49 @@
     },
     {
       "term": "Capillary action",
-      "link": "https://en.wikipedia.org/wiki/Capillary_action"
+      "link": "https://en.wikipedia.org/wiki/Capillary_action",
+      "definition": "The process of a liquid flowing against gravity due to adhesion and cohesion",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt45CmcOZTi814Q8Z9uI5hPrG4M3Q4T5LLTQ&s"
     },
     {
       "term": "Transpiration",
-      "link": "https://en.wikipedia.org/wiki/Transpiration"
+      "link": "https://en.wikipedia.org/wiki/Transpiration",
+      "definition": "The process of water movement through a plant towards its eventual evaporation",
+      "image": "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/transpiration-wiki_ver_1.png"
     },
     {
-      "term": "High specific heat",
-      "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion"
+      "term": "High specific heat (water)",
+      "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion",
+      "definition": "Water requires much more energy to change temperature than other substances",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20220916121147/SpecificheatCapacity.png"
     },
     {
-      "term": "High heat of vaporization",
-      "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion"
+      "term": "High heat of vaporization (water)",
+      "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion",
+      "definition": "Water requires a lot of energy to break the hydrogen bonds and evaporate"
     },
     {
       "term": "Solution",
-      "link": "https://en.wikipedia.org/wiki/Aqueous_solution"
+      "link": "https://en.wikipedia.org/wiki/Aqueous_solution",
+      "definition": "A uniform mixture of a solvent and solutes",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-e0525d517e5f11538104205ae01b8853-lq"
     },
     {
       "term": "Solvent",
-      "link": "https://en.wikipedia.org/wiki/Properties_of_water#Water_as_a_solvent"
+      "link": "https://en.wikipedia.org/wiki/Properties_of_water#Water_as_a_solvent",
+      "definition": "A substance that dissolves another substance"
     },
     {
       "term": "Hydrophilic",
-      "link": "https://en.wikipedia.org/wiki/Hydrophile"
+      "link": "https://en.wikipedia.org/wiki/Hydrophile",
+      "definition": "The property of being attracted to water and/or dissolving in it",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSBzL8HHeh1nVfBUEXp7FDgygG20x-qa5S0w&s"
     },
     {
       "term": "Hydrophobic",
-      "link": "https://en.wikipedia.org/wiki/Hydrophobe"
+      "link": "https://en.wikipedia.org/wiki/Hydrophobe",
+      "definition": "The property of not being attracted to water and/or not dissolving in it",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_f775153f-fc46-44c8-a043-1a7d07f6b3b6?wid=488&hei=488&fmt=pjpeg"
     }
   ],
   "links": [
