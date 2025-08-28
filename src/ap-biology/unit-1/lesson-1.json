@@ -39,7 +39,9 @@
     },
     {
       "term": "Meniscus",
-      "link": "https://en.wikipedia.org/wiki/Meniscus_(liquid)"
+      "link": "https://en.wikipedia.org/wiki/Meniscus_(liquid)",
+      "definition": "The curved surface of a liquid like water due to adhesion and cohesion in a container.",
+      "image": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/thumbnails/image/wss-property-meniscus-reading_0.jpg?itok=GsF9Xw1i"
     },
     {
       "term": "Capillary action",
