@@ -3,39 +3,54 @@
   "vocab": [
     {
       "term": "Macromolecules",
-      "link": "https://en.wikipedia.org/wiki/Macromolecule"
+      "link": "https://en.wikipedia.org/wiki/Macromolecule",
+      "definition": "A large molecule necessary to life’s biological processes"
     },
     {
       "term": "Monomers",
-      "link": "https://en.wikipedia.org/wiki/Monomer"
+      "link": "https://en.wikipedia.org/wiki/Monomer",
+      "definition": "A molecule which can combine with others to form large polymers"
     },
     {
       "term": "Polymers",
-      "link": "https://en.wikipedia.org/wiki/Polymer"
+      "link": "https://en.wikipedia.org/wiki/Polymer",
+      "definition": "A molecule composed of a string of monomers"
     },
     {
       "term": "Dehydration synthesis",
-      "link": "https://en.wikipedia.org/wiki/Condensation_reaction"
+      "link": "https://en.wikipedia.org/wiki/Condensation_reaction",
+      "definition": "Bonding of two monomer molecules with the removal of a water molecule",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Figure_03_01_01.jpg"
     },
     {
       "term": "Hydrolysis",
-      "link": "https://en.wikipedia.org/wiki/Hydrolysis"
+      "link": "https://en.wikipedia.org/wiki/Hydrolysis",
+      "definition": "Splitting of a polymer molecule with the addition of a water molecule",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcJ0YBGfwkxcFNA27Mf_pyYzW0XblReEIfMw&s"
     },
     {
       "term": "Carbohydrates",
-      "link": "https://en.wikipedia.org/wiki/Carbohydrate"
+      "link": "https://en.wikipedia.org/wiki/Carbohydrate",
+      "definition": "Macromolecules used by organisms as energy storage and structural materials",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Fresh_made_bread_05.jpg/250px-Fresh_made_bread_05.jpg"
     },
     {
       "term": "Amino acids",
-      "link": "https://en.wikipedia.org/wiki/Amino_acid"
+      "link": "https://en.wikipedia.org/wiki/Amino_acid",
+      "definition": "Monomer unit of a protein; contains carboxyl, amino, and side chain groups",
+      "image": "https://www.astrochem.org/sci_img/Amino_Acid_Structure.jpg"
     },
     {
       "term": "Nucleic acids",
-      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
+      "link": "https://en.wikipedia.org/wiki/Nucleic_acid",
+      "definition": "Macromolecules used by the organisms to store and express genetic information",
+      "image": "https://www.genome.gov/sites/default/files/media/images/tg/nucleic-acid_dyn.jpg"
     },
     {
       "term": "Lipids",
-      "link": "https://en.wikipedia.org/wiki/Lipid"
+      "link": "https://en.wikipedia.org/wiki/Lipid",
+      "definition": "Macromolecules used by organisms to store energy long term, surround cells, and send signals",
+      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/lipids.jpg"
     }
   ],
   "links": [
