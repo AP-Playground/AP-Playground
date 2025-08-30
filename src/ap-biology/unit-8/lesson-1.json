@@ -3,47 +3,62 @@
   "vocab": [
     {
       "term": "Behavioral change",
-      "link": "https://en.wikipedia.org/wiki/Behavior#Biology"
+      "link": "https://en.wikipedia.org/wiki/Behavior#Biology",
+      "definition": "The modification of actions, activities, and reactions that organisms exhibit in response to stimuli within the environment"
     },
     {
       "term": "Physiological change",
-      "link": "https://en.wikipedia.org/wiki/Physiology#Subdisciplines_by_taxa"
+      "link": "https://en.wikipedia.org/wiki/Physiology#Subdisciplines_by_taxa",
+      "definition": "Changes in an organism’s functions, processes, or form"
     },
     {
       "term": "Stimulus",
-      "link": "https://en.wikipedia.org/wiki/Stimulus_(physiology)"
+      "link": "https://en.wikipedia.org/wiki/Stimulus_(physiology)",
+      "definition": "A detectable change in an organism's internal or external environment that triggers a response"
     },
     {
       "term": "Flight-or-fight response",
-      "link": "https://en.wikipedia.org/wiki/Fight-or-flight_response"
+      "link": "https://en.wikipedia.org/wiki/Fight-or-flight_response",
+      "definition": "A physiological reaction that occurs when an individual encounters a perceived threat or danger that prepares the body to either confront the threat or escape it",
+      "image": "https://www.simplypsychology.org/wp-content/uploads/fight-or-flight2.jpg"
     },
     {
       "term": "Signals",
-      "link": "https://en.wikipedia.org/wiki/Animal_communication"
+      "link": "https://en.wikipedia.org/wiki/Animal_communication",
+      "definition": "A message sent from one organism to another that can be visual, audible, chemical, electrical, and tactile"
     },
     {
       "term": "Pheromones",
-      "link": "https://en.wikipedia.org/wiki/Pheromone"
+      "link": "https://en.wikipedia.org/wiki/Pheromone",
+      "definition": "Chemical signals that animals use to communicate within the same species, affecting behaviors like mating, territorial marking, and alarm responses",
+      "image": "https://romneypestcontrol.com/wp-content/uploads/2022/10/close-up-of-ants-in-a-trail.jpg"
     },
     {
       "term": "Innate behaviors",
-      "link": "https://en.wikipedia.org/wiki/Instinct"
+      "link": "https://en.wikipedia.org/wiki/Instinct",
+      "definition": "Behaviors that are genetically programmed, inherited, and occur naturally in all members of a species without the need for learning or practice"
     },
     {
       "term": "Learned behaviors",
-      "link": "https://en.wikipedia.org/wiki/Operant_conditioning"
+      "link": "https://en.wikipedia.org/wiki/Operant_conditioning",
+      "definition": "Actions an organism acquires through experience, observation, and interaction with the environment, rather than being genetically hardwired",
+      "image": "https://www.simplypsychology.org/wp-content/uploads/pavlov2-e1698175375621.jpg"
     },
     {
       "term": "Cooperative behaviors",
-      "link": "https://en.wikipedia.org/wiki/Behavioral_ecology#Cooperation"
+      "link": "https://en.wikipedia.org/wiki/Behavioral_ecology#Cooperation",
+      "definition": "Actions where individuals work together for a common goal, providing benefits to themselves and/or others",
+      "image": "https://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/13307548/rubenstein_figure1.jpg"
     },
     {
       "term": "Altruism",
-      "link": "https://en.wikipedia.org/wiki/Altruism"
+      "link": "https://en.wikipedia.org/wiki/Altruism",
+      "definition": "A behavior where one organism increases the reproductive fitness of another at a cost to its own fitness"
     },
     {
       "term": "Kin selection",
-      "link": "https://en.wikipedia.org/wiki/Kin_selection"
+      "link": "https://en.wikipedia.org/wiki/Kin_selection",
+      "definition": "A theory explaining altruistic behavior toward relatives, where individuals sacrifice their own survival and reproduction to help relatives survive and reproduce, increasing their shared genes"
     }
   ],
   "links": [
