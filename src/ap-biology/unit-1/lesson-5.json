@@ -5,7 +5,7 @@
       "term": "Lipids",
       "link": "https://en.wikipedia.org/wiki/Lipid",
       "definition": "Macromolecules used by organisms to store energy long term, surround cells, and send signals",
-      "image": "https://apstudy.github.io/ap-biology/unit-1/diagrams/lipids.jpg"
+      "image": "/images/ap-biology/unit-1/lipids.jpg"
     },
     {
       "term": "Triglycerides",
@@ -41,7 +41,7 @@
       "term": "Phospholipids",
       "link": "https://en.wikipedia.org/wiki/Phospholipid",
       "definition": "Lipids which contain a hydrophilic head and hydrophobic tail and make up cell membranes",
-      "image": "https://fbi.cults3d.com/uploaders/14196599/illustration-file/d493aaf7-e2a6-42e4-8f08-b204c42ed8e2/Phospholipid.png"
+      "image": "/images/ap-biology/unit-2/phospholipid.svg"
     },
     {
       "term": "Cholesterol",

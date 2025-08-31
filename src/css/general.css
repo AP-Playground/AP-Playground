@@ -549,12 +549,31 @@ a:hover {
   transition: filter 0.3s ease-in-out;
 }
 
-.resources-list,
-.games-list {
+.link-list {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   padding-left: 25px;
+}
+
+.quick-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin: 0;
+  & a {
+    padding: 2px 10px;
+    border: 2.5px solid var(--theme-80);
+    background-color: var(--theme-10);
+    border-radius: 100px;
+    font-weight: bold;
+    display: block;
+    font-size: 1.17em;
+  }
 }
 
 
@@ -633,22 +652,15 @@ sup {
   .page-wrapper {
     padding: 55px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px) 20px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px);
   }
-  .double-content-block {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-  .vocab-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(var(--row-count-3), auto);
-  }
 }
 
 @media (max-width: 900px) {
   .video-container {
     padding: 0;
     margin-bottom: 1.5rem;
+  }
+  .double-content-block {
+    grid-template-columns: 1fr;
   }
 }
 

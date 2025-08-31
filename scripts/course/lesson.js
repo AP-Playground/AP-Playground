@@ -23,7 +23,7 @@ export function upload(path, title) {
   page += templates.block(title, data.summary, true);
 
   const vocabCount = data["vocab"].length;
-  let vocabText = `<ol class="vocab-grid" style="--row-count:${Math.ceil(vocabCount/2)};--row-count-3:${Math.ceil(vocabCount/3)};">` 
+  let vocabText = `<ol class="vocab-grid" style="--row-count:${Math.ceil(vocabCount/2)};">` 
   vocabText += data["vocab"].map(i => `<li><a target="_blank" href="${i.link}">${i.term}</a></li>`).join("")
   vocabText += `</ol>`
   vocab.upload(path, title, data["vocab"])
@@ -32,7 +32,7 @@ export function upload(path, title) {
   const vocabBlock = templates.block(vocabHeader, vocabText)
 
   const linkText = data["links"].map(i => `<li><a target="_blank" href="${i.link}">${i.title}</a></li>`)
-  const linkBlock = templates.block("Resources:", `<ul class="resources-list">${linkText.join("")}</ul>`);
+  const linkBlock = templates.block("Resources:", `<ul class="link-list">${linkText.join("")}</ul>`);
 
   page += templates.doubleBlock(vocabBlock + linkBlock)
 

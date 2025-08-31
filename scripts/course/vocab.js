@@ -25,8 +25,14 @@ export function upload(path, title, vocab) {
 
     temp = vocab.map(({term, link, definition, image}) => {
       let cardText = `<h2>${term} <a href="${link}" class="external-open" aria-label="Learn more about ${term}" target="_blank"></a></h2>` + `<p>${definition}</p>`
-      cardText = "<div>" + cardText + "</div>"
-      return templates.block(cardText, (image ? `<img src="${image}">` : ""), false, ["vocab-card"])
+      cardText = `<div class="vocab-content-container">` + cardText + "</div>"
+      let imageText = "";
+      if (image) {
+        imageText = `<img class="vocab-img" src="${image}">`
+        imageText += `<img class="magnify" src="/icons/magnify.svg">`;
+        imageText =  `<div class="vocab-img-container">${imageText}</div>`
+      }
+      return templates.block(cardText, imageText, false, ["vocab-card"])
     });
     page += templates.doubleBlock(temp.join(""))
 
