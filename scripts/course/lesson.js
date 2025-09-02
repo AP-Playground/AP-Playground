@@ -28,7 +28,7 @@ export function upload(path, title) {
   vocabText += `</ol>`
   vocab.upload(path, title, data["vocab"])
 
-  const vocabHeader = `<div class="split-header"><h2>Vocabulary:</h2><a href="${path}/vocab">Practice &rightarrow;</a></div>`
+  const vocabHeader = `<div class="split-header"><h2>Vocabulary:</h2><a href="${path}/vocab">Flashcards &rightarrow;</a></div>`
   const vocabBlock = templates.block(vocabHeader, vocabText)
 
   const linkText = data["links"].map(i => `<li><a target="_blank" href="${i.link}">${i.title}</a></li>`)

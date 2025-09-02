@@ -34,10 +34,10 @@ export function block(title, content, intro = false, classes = []) {
   classes = classes.map(i => ` ${i}`).join('')
   if (content && content[0] !== "<") content = `<p>${content}</p>`
   if (intro) {
-    if (title[0] !== "<") title = `<h1>${title}</h1>`
+    if (title && title[0] !== "<") title = `<h1>${title}</h1>`
     return `<section class="content-block intro-block${classes}">${title}${content}</section>`
   } else {
-    if (title[0] !== "<") title = `<h2>${title}</h2>`
+    if (title && title[0] !== "<") title = `<h2>${title}</h2>`
     return `<section class="content-block${classes}">${title}${content}</section>`
   }
 }

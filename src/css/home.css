@@ -33,3 +33,7 @@ ul.features {
     grid-template-columns: 1fr;
   }
 }
+
+.page-wrapper {
+  padding-top: 30px;
+}

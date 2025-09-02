@@ -2,7 +2,7 @@ import { readFileSync } from 'fs';
 import * as util from '../util.js'
 import * as templates from '../templates.js'
 import * as global from '../global.js';
-import * as vocabGenerator from '../modules/vocab.js'
+import * as flashcard from '../modules/flashcard.js'
 
 export function upload(path, title, vocab) {
 
@@ -20,21 +20,11 @@ export function upload(path, title, vocab) {
     page += templates.block(temp, title, true)
 
 
-    page += vocabGenerator.create(vocab)
+    page += flashcard.block()
 
+    page += templates.doubleBlock("", ["vocab-cards"])
 
-    temp = vocab.map(({term, link, definition, image}) => {
-      let cardText = `<h2>${term} <a href="${link}" class="external-open" aria-label="Learn more about ${term}" target="_blank"></a></h2>` + `<p>${definition}</p>`
-      cardText = `<div class="vocab-content-container">` + cardText + "</div>"
-      let imageText = "";
-      if (image) {
-        imageText = `<img class="vocab-img" src="${image}">`
-        imageText += `<img class="magnify" src="/icons/magnify.svg">`;
-        imageText =  `<div class="vocab-img-container">${imageText}</div>`
-      }
-      return templates.block(cardText, imageText, false, ["vocab-card"])
-    });
-    page += templates.doubleBlock(temp.join(""))
+    page += `<script>const vocab = ${JSON.stringify(vocab)}</script>`
 
     page += `</main>`
   

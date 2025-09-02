@@ -331,6 +331,7 @@ html.side-nav-closed {
     border: 5px solid var(--theme-80);
     overflow-wrap: break-word;
     word-break: break-word;
+    transition: border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
   }
   & .content-block.intro-block {
     background-color: var(--accent-10);
@@ -667,6 +668,10 @@ sup {
 @media (max-width: 700px) {
   .page-wrapper {
     padding: 55px 15px 20px 15px;
+    & .content-block {
+      padding: 15px;
+      border-radius: calc(var(--side-nav-btn-diameter) / 2 - 5px);
+    }
   }
 }
 
@@ -696,13 +701,13 @@ html.dark-mode {
   opacity: 0;
   background-color: #0007;
   pointer-events: none;
-  cursor: zoom-out;
   &.active {
     opacity: 1;
     pointer-events: all;
   }
 
   & > img {
+    cursor: zoom-out;
     background: white;
     max-width: 100%;
     max-height: 75%;
