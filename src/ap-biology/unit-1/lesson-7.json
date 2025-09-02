@@ -3,39 +3,57 @@
   "vocab": [
     {
       "term": "Proteins",
-      "link": "https://en.wikipedia.org/wiki/Protein"
+      "link": "https://en.wikipedia.org/wiki/Protein",
+      "definition": "Macromolecules used by organisms for building, repair, and movement",
+      "image": "https://images.inc.com/uploaded_files/image/1920x1080/getty_80116649_344560.jpg"
     },
     {
       "term": "Amino Acids",
-      "link": "https://en.wikipedia.org/wiki/Amino_acid"
+      "link": "https://en.wikipedia.org/wiki/Amino_acid",
+      "definition": "Monomer unit of a protein; contains carboxyl, amino, and side chain groups",
+      "image": "https://www.astrochem.org/sci_img/Amino_Acid_Structure.jpg"
     },
     {
       "term": "Peptide bonds",
-      "link": "https://en.wikipedia.org/wiki/Peptide_bond"
+      "link": "https://en.wikipedia.org/wiki/Peptide_bond",
+      "definition": "Covalent bond between single amino acids",
+      "image": "/images/ap-biology/unit-1/peptide-bond.png"
     },
     {
       "term": "R side chains",
-      "link": "https://en.wikipedia.org/wiki/Side_chain"
+      "link": "https://en.wikipedia.org/wiki/Side_chain",
+      "definition": "The unique part of each amino acid that differs from the basic amino acid structure",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-0a465f49662f84e64d8255c12424e34e-lq"
     },
     {
       "term": "Primary structure",
-      "link": "https://en.wikipedia.org/wiki/Protein_primary_structure"
+      "link": "https://en.wikipedia.org/wiki/Protein_primary_structure",
+      "definition": "The linear sequence of amino acids that make up a protein",
+      "image": "/images/ap-biology/unit-1/primary-structure.png"
     },
     {
       "term": "Secondary structure",
-      "link": "https://en.wikipedia.org/wiki/Protein_secondary_structure"
+      "link": "https://en.wikipedia.org/wiki/Protein_secondary_structure",
+      "definition": "The structure of the backbone of the polypeptide, excluding side chain interactions",
+      "image": "https://microbenotes.com/wp-content/uploads/2023/10/Secondary-Structure-of-Protein.jpeg"
     },
     {
       "term": "Tertiary structure",
-      "link": "https://en.wikipedia.org/wiki/Protein_tertiary_structure"
+      "link": "https://en.wikipedia.org/wiki/Protein_tertiary_structure",
+      "definition": "The structure of the polypeptide chain formed from interactions between side chains",
+      "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2001037022004044-gr5.jpg"
     },
     {
       "term": "Quaternary structure",
-      "link": "https://en.wikipedia.org/wiki/Protein_quaternary_structure"
+      "link": "https://en.wikipedia.org/wiki/Protein_quaternary_structure",
+      "definition": "The structure of proteins composed of multiple polypeptides",
+      "image": "https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc0MTY1OTU4MDkxMzUxNTQ4/what-are-proteins-part-3-of-3.png"
     },
     {
       "term": "Denaturation",
-      "link": "https://en.wikipedia.org/wiki/Denaturation_(biochemistry)"
+      "link": "https://en.wikipedia.org/wiki/Denaturation_(biochemistry)",
+      "definition": "The unfolding or breaking up of a protein due to an environmental change",
+      "image": "https://chemistrytalk.org/wp-content/uploads/2023/03/Process_of_Denaturation.svg-e1663786914819.png"
     }
   ],
   "links": [

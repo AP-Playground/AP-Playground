@@ -3,87 +3,125 @@
   "vocab": [
     {
       "term": "Homeostasis",
-      "link": "https://en.wikipedia.org/wiki/Homeostasis"
+      "link": "https://en.wikipedia.org/wiki/Homeostasis",
+      "definition": "The biological process by which organisms maintain a stable internal environment necessary for survival, even when external conditions change"
     },
     {
       "term": "Thermoregulation",
-      "link": "https://en.wikipedia.org/wiki/Thermoregulation"
+      "link": "https://en.wikipedia.org/wiki/Thermoregulation",
+      "definition": "The process by which an animal maintains a stable internal body temperature",
+      "image": "https://news.six2.com/content/uploads/SIXS-thermoregulation-Human-Body-1024x756.jpg"
     },
     {
       "term": "Endotherms",
-      "link": "https://en.wikipedia.org/wiki/Endotherm"
+      "link": "https://en.wikipedia.org/wiki/Endotherm",
+      "definition": "Organisms that generate most of their own body heat, allowing them to maintain a stable internal temperature independent of their environment"
     },
     {
       "term": "Ectotherms",
-      "link": "https://en.wikipedia.org/wiki/Ectotherm"
+      "link": "https://en.wikipedia.org/wiki/Ectotherm",
+      "definition": "An animal that is dependent on external sources of body heat",
+      "image": "https://cdn.britannica.com/01/153401-050-61A59C38/Iguana-Galapagos-National-Park-Ecuador-Islands.jpg"
     },
     {
       "term": "Reproductive diapause",
-      "link": "https://en.wikipedia.org/wiki/Diapause"
+      "link": "https://en.wikipedia.org/wiki/Diapause",
+      "definition": "A state of suspended sexual and reproductive development in adult insects and other arthropods"
     },
     {
       "term": "Metabolic rate",
-      "link": "https://en.wikipedia.org/wiki/Metabolism"
+      "link": "https://en.wikipedia.org/wiki/Metabolism",
+      "definition": "The speed at which the body uses energy to maintain its basic functions, such as breathing, circulation, and cell growth"
     },
     {
       "term": "Ecosystems",
-      "link": "https://en.wikipedia.org/wiki/Ecosystem"
+      "link": "https://en.wikipedia.org/wiki/Ecosystem",
+      "definition": "A natural area where living organisms (biotic factors) interact with each other and their non-living environment (abiotic factors) to form a self-sufficient system",
+      "image": "https://cdn.zmescience.com/wp-content/uploads/2018/03/D095D0BAD0BED0BBD0BED0B3D0B8D187D0BDD0BE_D180D0B0D0B2D0BDD0BED0B2D0B5D181D0B8D0B53.jpg"
     },
     {
       "term": "Biotic factors",
-      "link": "https://en.wikipedia.org/wiki/Ecosystem#Definition"
+      "link": "https://en.wikipedia.org/wiki/Ecosystem#Definition",
+      "definition": "All the living components within an ecosystem, such as plants, animals, fungi, and bacteria",
+      "image": "https://d1yqpar94jqbqm.cloudfront.net/styles/media_middle/s3/images/ConceptAttainmentGraphic.png?itok=8PXoysMP"
     },
     {
       "term": "Abiotic factors",
-      "link": "https://en.wikipedia.org/wiki/Abiotic_component"
+      "link": "https://en.wikipedia.org/wiki/Abiotic_component",
+      "definition": "The non-living, chemical, and physical components of an environment that shape an ecosystem and influence living organisms",
+      "image": "https://d20khd7ddkh5ls.cloudfront.net/ecology_abiotic_factors.jpg"
     },
     {
       "term": "Law of Conservation of Mass",
-      "link": "https://en.wikipedia.org/wiki/Conservation_of_mass"
+      "link": "https://en.wikipedia.org/wiki/Conservation_of_mass",
+      "definition": "Mass in a closed system cannot be created or destroyed during a chemical or physical change, only rearranged",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20221109111923/LawofConservationofMassExample4.png"
     },
     {
       "term": "Law of Conservation of Energy",
-      "link": "https://en.wikipedia.org/wiki/Conservation_of_energy"
+      "link": "https://en.wikipedia.org/wiki/Conservation_of_energy",
+      "definition": "Energy cannot be created or destroyed, only transformed from one form to another within an isolated system",
+      "image": "https://www.ces.fau.edu/ces/nasa/images/Energy/ENERGYINEQUALSENERGYOUT.jpg"
     },
     {
       "term": "Water cycle",
-      "link": "https://en.wikipedia.org/wiki/Water_cycle"
+      "link": "https://en.wikipedia.org/wiki/Water_cycle",
+      "definition": "The continuous movement and transformation of water on, above, and below the Earth's surface, driven by solar energy and gravity",
+      "image": "https://geniebook.com/cms/storage/app/media/Primary%20Science%20Image/water-cycle-img1.webp"
     },
     {
       "term": "Carbon cycle",
-      "link": "https://en.wikipedia.org/wiki/Carbon_cycle"
+      "link": "https://en.wikipedia.org/wiki/Carbon_cycle",
+      "definition": "Describes the continuous movement of carbon between the Earth's atmosphere, oceans, land, and living organisms",
+      "image": "https://farmcarbontoolkit.org.uk/wp-content/uploads/2023/05/The-Carbon-Cycle-Source-Alamy-2020-The-Carbon-Cycle-8.png"
     },
     {
       "term": "Nitrogen cycle",
-      "link": "https://en.wikipedia.org/wiki/Nitrogen_cycle"
+      "link": "https://en.wikipedia.org/wiki/Nitrogen_cycle",
+      "definition": "Describes how nitrogen moves between the atmosphere, soil, water, and living organisms through the processes of fixation, nitrification, ammonification, assimilation, and denitrification",
+      "image": "https://www.studyacs.com/database/files/Garden/Nitrogen%20Cycle%20www.acs.edu.au%20.jpg"
     },
     {
       "term": "Phosphorus cycle",
-      "link": "https://en.wikipedia.org/wiki/Phosphorus_cycle"
+      "link": "https://en.wikipedia.org/wiki/Phosphorus_cycle",
+      "definition": "Describes how phosphorus moves between rocks, soil, water, and living organisms through weathering, decomposition, and human activity",
+      "image": "https://cdn.britannica.com/77/126077-050-117592F5/Phosphorus-environments-growth-plants-elements.jpg"
     },
     {
       "term": "Autotrophs",
-      "link": "https://en.wikipedia.org/wiki/Autotroph"
+      "link": "https://en.wikipedia.org/wiki/Autotroph",
+      "definition": "Organisms that produce their own food from inorganic substances in their environment",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240517143422/Autotroph.png"
     },
     {
       "term": "Photosynthetic",
-      "link": "https://en.wikipedia.org/wiki/Photosynthesis"
+      "link": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "definition": "Describes organisms that can convert light energy into chemical energy through the process of photosynthesis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Photosynthesis_en.svg/1200px-Photosynthesis_en.svg.png"
     },
     {
       "term": "Chemosynthetic",
-      "link": "https://en.wikipedia.org/wiki/Chemosynthesis"
+      "link": "https://en.wikipedia.org/wiki/Chemosynthesis",
+      "definition": "Describes the biological process of chemosynthesis, where organisms use chemical energy, rather than sunlight, to convert inorganic compounds into organic food",
+      "image": "https://www.sciencefacts.net/wp-content/uploads/2022/05/Chemosynthesis.jpg"
     },
     {
       "term": "Heterotrophs",
-      "link": "https://en.wikipedia.org/wiki/Heterotroph"
+      "link": "https://en.wikipedia.org/wiki/Heterotroph",
+      "definition": "An organism that cannot produce its own food, instead taking nutrition from other sources of organic carbon, mainly matter from other organisms",
+      "image": "https://d20khd7ddkh5ls.cloudfront.net/types-of-heterotrophs.png"
     },
     {
       "term": "Trophic levels",
-      "link": "https://en.wikipedia.org/wiki/Trophic_level"
+      "link": "https://en.wikipedia.org/wiki/Trophic_level",
+      "definition": "The position an organism occupies in a food chain; describe how energy is transferred through an ecosystem as organisms consume one another",
+      "image": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Ad8f418421cbd3cf9b655120dcc84b301291fb7b80eb21754860934bf%2BIMAGE_TINY%2BIMAGE_TINY.1"
     },
     {
       "term": "Food web",
-      "link": "https://en.wikipedia.org/wiki/Food_web"
+      "link": "https://en.wikipedia.org/wiki/Food_web",
+      "definition": "A natural system of interconnected food chains that illustrates the flow of energy through an ecosystem by showing which organisms are eaten by others",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Aquatic_food_web.jpg"
     }
   ],
   "links": [

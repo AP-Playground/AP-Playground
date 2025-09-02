@@ -3,27 +3,38 @@
   "vocab": [
     {
       "term": "Exponential population growth",
-      "link": "https://en.wikipedia.org/wiki/Exponential_growth"
+      "link": "https://en.wikipedia.org/wiki/Exponential_growth",
+      "definition": "A model of population increase where the growth rate, or the number of individuals added per generation, is proportional to the current population size",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/7edbd1ab380efb207cf72aa25850838ef6c05824.png"
     },
     {
       "term": "Logistic population growth",
-      "link": "https://en.wikipedia.org/wiki/Logistic_function"
+      "link": "https://en.wikipedia.org/wiki/Logistic_function",
+      "definition": "Describes a population's growth pattern where it initially grows rapidly, but then slows down as it approaches the carrying capacity of its environment",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/5cbb382cc7a53196a402172da5c2fed32c2134ff.png"
     },
     {
       "term": "Carrying capacity",
-      "link": "https://en.wikipedia.org/wiki/Carrying_capacity"
+      "link": "https://en.wikipedia.org/wiki/Carrying_capacity",
+      "definition": "The maximum population of a given species that an environment can sustain indefinitely, limited by available resources like food, water, shelter, and space"
     },
     {
       "term": "Life history",
-      "link": "https://en.wikipedia.org/wiki/Life_history_theory"
+      "link": "https://en.wikipedia.org/wiki/Life_history_theory",
+      "definition": "The sequence of major events in an organism's development and survival, from conception to death, and the traits that influence these events",
+      "image": "https://ars.els-cdn.com/content/image/3-s2.0-B9780080454054008569-gr1.jpg"
     },
     {
       "term": "Density dependent limiting factors",
-      "link": "https://en.wikipedia.org/wiki/Density_dependence"
+      "link": "https://en.wikipedia.org/wiki/Density_dependence",
+      "definition": "Environmental conditions whose impact on a population intensifies as population density increases, such as competition for food and water, predation, disease, and waste accumulation",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/da8d2fad6141b78efc92f533d12d48eb3cb29a20.png"
     },
     {
       "term": "Density independent limiting factors",
-      "link": "https://en.wikipedia.org/wiki/Abiotic_stress"
+      "link": "https://en.wikipedia.org/wiki/Abiotic_stress",
+      "definition": "An environmental factor that affects a population's size regardless of the population's density",
+      "image": "https://cdn.britannica.com/15/128615-050-E26E160E/Zaca-wildfire-Santa-Barbara-county-California-2007.jpg"
     }
   ],
   "links": [

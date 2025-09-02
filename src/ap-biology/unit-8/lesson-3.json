@@ -3,27 +3,38 @@
   "vocab": [
     {
       "term": "Population",
-      "link": "https://en.wikipedia.org/wiki/Population"
+      "link": "https://en.wikipedia.org/wiki/Population",
+      "definition": "A group of individuals of the same species living in the same geographic area at the same time"
     },
     {
       "term": "Density",
-      "link": "https://en.wikipedia.org/wiki/Population_density"
+      "link": "https://en.wikipedia.org/wiki/Population_density",
+      "definition": "A measurement of the number of individuals (people or organisms) per unit of area",
+      "image": "https://study.com/cimages/multimages/16/density_particles.png"
     },
     {
       "term": "Dispersions",
-      "link": "https://en.wikipedia.org/wiki/Species_distribution#Patterns_on_small_scales"
+      "link": "https://en.wikipedia.org/wiki/Species_distribution#Patterns_on_small_scales",
+      "definition": "Describes the spatial distribution or spacing pattern of individuals within a population in their environment",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/0ee2b2f9ef46f4adb40dcbcd43655122e8b8b200.png"
     },
     {
       "term": "Survivorship curves",
-      "link": "https://en.wikipedia.org/wiki/Survivorship_curve"
+      "link": "https://en.wikipedia.org/wiki/Survivorship_curve",
+      "definition": "A graph in population ecology showing the proportion of individuals from a group born at the same time that are still alive at each age",
+      "image": "https://cdn.britannica.com/42/6542-050-B6E0E2B9/survivorship-curve-II-Type-I-curves-III.jpg"
     },
     {
       "term": "Age-structure pyramids",
-      "link": "https://en.wikipedia.org/wiki/Population_pyramid"
+      "link": "https://en.wikipedia.org/wiki/Population_pyramid",
+      "definition": "A graphical tool that visually represents the age and sex distribution of a population, providing insights into its birth rates, death rates, and growth trends",
+      "image": "https://populationeducation.org/wp-content/uploads/2013/10/three-population-pyramids-2020-with-shapes.png"
     },
     {
       "term": "Exponential population growth",
-      "link": "https://en.wikipedia.org/wiki/Exponential_growth"
+      "link": "https://en.wikipedia.org/wiki/Exponential_growth",
+      "definition": "A model of population increase where the growth rate, or the number of individuals added per generation, is proportional to the current population size",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/7edbd1ab380efb207cf72aa25850838ef6c05824.png"
     }
   ],
   "links": [

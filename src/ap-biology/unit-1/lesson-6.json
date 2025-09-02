@@ -3,55 +3,75 @@
   "vocab": [
     {
       "term": "Nucleic Acids",
-      "link": "https://en.wikipedia.org/wiki/Nucleic_acid"
+      "link": "https://en.wikipedia.org/wiki/Nucleic_acid",
+      "definition": "Macromolecules used by the organisms to store and express genetic information",
+      "image": "https://www.genome.gov/sites/default/files/media/images/tg/nucleic-acid_dyn.jpg"
     },
     {
       "term": "Deoxyribonucleic acid (DNA)",
-      "link": "https://en.wikipedia.org/wiki/DNA"
+      "link": "https://en.wikipedia.org/wiki/DNA",
+      "definition": "A nucleic acid used to store genetic information",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbDqomPSLuaC821ns3T_vHzW1PBez3odprIw&s"
     },
     {
       "term": "Antiparallel",
-      "link": "https://en.wikipedia.org/wiki/Antiparallel_(biochemistry)"
+      "link": "https://en.wikipedia.org/wiki/Antiparallel_(biochemistry)",
+      "definition": "Structure of DNA in which two strands of DNA run alongside each other in opposite directions"
     },
     {
       "term": "Ribonucleic acid (RNA)",
-      "link": "https://en.wikipedia.org/wiki/RNA"
+      "link": "https://en.wikipedia.org/wiki/RNA",
+      "definition": "A nucleic acid used to express genetic information",
+      "image": "https://www.yourgenome.org/wp-content/uploads/2023/11/1591-RNA-molecule-576x768.png"
     },
     {
       "term": "Nucleotides",
-      "link": "https://en.wikipedia.org/wiki/Nucleotide"
+      "link": "https://en.wikipedia.org/wiki/Nucleotide",
+      "definition": "The monomer unit of nucleic acids, contains a pentose, phosphate group, and nitrogenous base",
+      "image": "https://www.creative-proteomics.com/upload/image/what-are-nucleotides-1.jpg"
     },
     {
       "term": "Nitrogenous base",
-      "link": "https://en.wikipedia.org/wiki/Nucleotide_base"
+      "link": "https://en.wikipedia.org/wiki/Nucleotide_base",
+      "definition": "Nitrogen containing compounds which are parts of nucleotides (include adenine, guanine, cytosine, uracil, thymine)",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi-bxfkfs5LHFzfGTn10qwHjq8moTEttUOcg&s"
     },
     {
       "term": "Adenine",
-      "link": "https://en.wikipedia.org/wiki/Adenine"
+      "link": "https://en.wikipedia.org/wiki/Adenine",
+      "definition": "A nitrogenous purine derivative, bound to thymine in DNA base pairing"
     },
     {
       "term": "Thymine",
-      "link": "https://en.wikipedia.org/wiki/Thymine"
+      "link": "https://en.wikipedia.org/wiki/Thymine",
+      "definition": "A nitrogenous pyrimidine derivative, bound to adenine in DNA base pairing"
     },
     {
       "term": "Guanine",
-      "link": "https://en.wikipedia.org/wiki/Guanine"
+      "link": "https://en.wikipedia.org/wiki/Guanine",
+      "definition": "A nitrogenous purine derivative, bound to cytosine in DNA base pairing"
     },
     {
       "term": "Cytosine",
-      "link": "https://en.wikipedia.org/wiki/Cytosine"
+      "link": "https://en.wikipedia.org/wiki/Cytosine",
+      "definition": "A nitrogenous pyrimidine derivative, bound to guanine in DNA base pairing"
     },
     {
       "term": "Uracil",
-      "link": "https://en.wikipedia.org/wiki/Uracil"
+      "link": "https://en.wikipedia.org/wiki/Uracil",
+      "definition": "An RNA specific nitrogenous base which replaces thymine and binds with adenine"
     },
     {
       "term": "Ribose",
-      "link": "https://en.wikipedia.org/wiki/Ribose"
+      "link": "https://en.wikipedia.org/wiki/Ribose",
+      "definition": "5 carbon sugar found in RNA backbones",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2C_2gMBBewGHjFY01RB8Z5lLsQjuJ-9-MBQ&s"
     },
     {
       "term": "Deoxyribose",
-      "link": "https://en.wikipedia.org/wiki/Deoxyribose"
+      "link": "https://en.wikipedia.org/wiki/Deoxyribose",
+      "definition": "5 carbon sugar found in DNA backbones",
+      "image": "/images/ap-biology/unit-1/deoxyribose.png"
     }
   ],
   "links": [
