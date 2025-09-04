@@ -71,11 +71,51 @@
   }
 }
 
+.flashcard-block {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  perspective: 4000px;
+  box-sizing: border-box;
+}
+
+.page-wrapper:has(.flashcard-block.fullscreen) {
+  overflow: hidden;
+}
+
+.flashcard-block.fullscreen {
+  position: absolute;
+  padding-inline: max(15px, calc(50% - var(--main-width) / 2));
+  z-index: 1;
+  inset: 0;
+  border-radius: 0;
+  transition: none;
+}
+
+@media (min-width: 1200px) {
+  .flashcard-block.fullscreen {
+    border-left: none;
+  }
+}
+
+.flashcard {
+  position: relative;
+  min-height: 0;
+  aspect-ratio: 16/9;
+  display: grid;
+  place-items: center;
+  transition: transform .3s cubic-bezier(0.7, 0, 0.3, 1);
+  transform-style: preserve-3d;
+}
+
 .flashcard-front,
 .flashcard-back {
-  background: white;
-  border-radius: 10px;
+  position: absolute;
+  height: 100%;
   aspect-ratio: 16/9;
+  border-radius: 10px;
+  background: white;
   box-shadow: 0 0 15px -5px black;
   cursor: pointer;
   display: grid;
@@ -83,6 +123,8 @@
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
   box-sizing: border-box;
+  user-select: none;
+  backface-visibility: hidden;
   & * {
     box-sizing: border-box;
     text-align: center;
@@ -90,6 +132,7 @@
 }
 
 .flashcard-front {
+  transform: rotateX(180deg);
   padding: 50px;
   & h2 {
     font-size: 50px;
@@ -111,15 +154,7 @@
 }
 
 .flashcard.front {
-  .flashcard-back {
-    display: none;
-  }
-}
-
-.flashcard:not(.front) {
-  .flashcard-front {
-    display: none;
-  }
+  transform: rotateX(180deg);
 }
 
 .flashcard-controls {
@@ -142,13 +177,13 @@
     margin: 0;
   }
   
-  & .swap.active,
-  & .shuffle.active {
+  & .active {
     filter: invert(.75);
   }
 }
 
 .flashcard-controls button {
+  user-select: none;
   border: none;
   width: 35px;
   aspect-ratio: 1;
@@ -156,7 +191,7 @@
   background-color: white;
   box-shadow: 0 0 10px -4px black;
   cursor: pointer;
-  transition: all .1s ease-in-out;
+  transition: all .2s ease-in-out;
   display: grid;
   place-items: center;
   & img {
@@ -176,10 +211,6 @@
     filter: invert(.75);
     cursor: not-allowed;
   }
-}
-
-.content-block {
-  transition: padding 0.3s ease-in-out;
 }
 
 @media (max-width: 500px) {

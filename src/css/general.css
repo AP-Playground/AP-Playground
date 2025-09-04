@@ -66,7 +66,7 @@ body {
   width: var(--side-nav-width);
   display: flex;
   flex-direction: column;
-  z-index: 1;
+  z-index: 100;
 }
 
 .side-nav-links {
@@ -309,6 +309,7 @@ html.side-nav-closed {
 
 
 .page-wrapper {
+  position: relative;
   padding: 30px calc(max(calc(50% - var(--main-width)/2), 0px) + 20px) 20px calc(max(calc(50% - var(--main-width)/2), 0px) + 40px);
   height: 100dvh;
   overflow-y: auto;
@@ -693,7 +694,7 @@ html.dark-mode {
 .img-enlarged-container {
   position: fixed;
   inset: 0;
-  z-index: 2;
+  z-index: 200;
   display: flex;
   align-items: center;
   justify-content: center;

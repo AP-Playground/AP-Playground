@@ -25,12 +25,13 @@ vocabCardImages.forEach(img => {
   })
 })
 
-const flashcardContainer = document.querySelector(".flashcard")
+const flashcardBlock = document.querySelector(".flashcard-block")
+const flashcardContainer = flashcardBlock.querySelector(".flashcard")
 const flashcardTitle = flashcardContainer.querySelector(".flashcard-front h2")
 const flashcardText = flashcardContainer.querySelector(".flashcard-back p")
 const flashcardImage = flashcardContainer.querySelector(".flashcard-back img")
 
-const flashcardControls = document.querySelector(".flashcard-controls")
+const flashcardControls = flashcardBlock.querySelector(".flashcard-controls")
 const flashcardShuffle = flashcardControls.querySelector(".shuffle")
 const flashcardSwap = flashcardControls.querySelector(".swap")
 const flashcardPrev = flashcardControls.querySelector(".prev")
@@ -39,7 +40,6 @@ const flashcardMaximize = flashcardControls.querySelector(".fullscreen")
 const flashcardProgress = flashcardControls.querySelector(".progress")
 
 let flashcardCurrentIdx = 0;
-let flashcardFront = true;
 let flashcardSideDefault = true;
 
 let shuffledVocab = [...vocab];
@@ -50,7 +50,6 @@ flashcardPrev.disabled = true;
 if (vocab.length <= 1) flashcardNext.disabled = true;
 
 function loadCard({term, link, definition, image}) {
-  flashcardFront = flashcardSideDefault;
 
   flashcardProgress.textContent = (flashcardCurrentIdx + 1) + " / " + vocab.length;
 
@@ -59,22 +58,22 @@ function loadCard({term, link, definition, image}) {
   if (image) flashcardImage.src = image;
   flashcardImage.hidden = !image;
 
-  if (flashcardFront) {
+  
+  flashcardContainer.style.transition = "none";
+  if (flashcardSideDefault) {
     flashcardContainer.classList.add("front")
   } else {
     flashcardContainer.classList.remove("front")
   }
+  requestAnimationFrame(() => {
+    flashcardContainer.style.transition = "";
+  })
 }
 
 flashcardContainer.addEventListener("click", (event) => {
   if (event.target === flashcardImage) return;
-  flashcardFront = !flashcardFront;
 
-  if (flashcardFront) {
-    flashcardContainer.classList.add("front")
-  } else {
-    flashcardContainer.classList.remove("front")
-  }
+  flashcardContainer.classList.toggle("front")
 })
 
 
@@ -86,30 +85,17 @@ flashcardShuffle.addEventListener("click", () => {
   if (shuffled) {
     shuffleArray(shuffledVocab);
 
-    flashcardShuffle.classList.add("active");
     loadCard(shuffledVocab[flashcardCurrentIdx]);
   } else {
-    flashcardShuffle.classList.remove("active");
     loadCard(vocab[flashcardCurrentIdx]);
   }
+  flashcardShuffle.classList.toggle("active")
 })
 
 
 flashcardSwap.addEventListener("click", () => {
   flashcardSideDefault = !flashcardSideDefault;
-  flashcardFront = !flashcardFront;
-  
-  if (flashcardSideDefault) {
-    flashcardSwap.classList.remove("active")
-  } else {
-    flashcardSwap.classList.add("active")
-  }
-
-  if (flashcardFront) {
-    flashcardContainer.classList.add("front")
-  } else {
-    flashcardContainer.classList.remove("front")
-  }
+  flashcardSwap.classList.toggle("active")
 })
 
 
@@ -132,9 +118,28 @@ flashcardNext.addEventListener("click", () => {
   else loadCard(vocab[flashcardCurrentIdx])
 })
 
-
+const pageWrapper = document.querySelector(".page-wrapper")
+let flashcardMaximized = false;
+let pageScroll = 0;
+const flashcardMaximizeImg = flashcardMaximize.querySelector("img")
 flashcardMaximize.addEventListener("click", () => {
+  flashcardMaximized = !flashcardMaximized
 
+  if (flashcardMaximized) {
+    pageScroll = pageWrapper.scrollTop;
+    pageWrapper.scrollTop = 0;
+    flashcardMaximizeImg.src = "/icons/minimize.svg";
+  } else {
+    pageWrapper.scrollTop = pageScroll;
+    flashcardMaximizeImg.src = "/icons/maximize.svg";
+  }
+
+  flashcardMaximize.classList.toggle("active")
+  flashcardBlock.style.transition = "none";
+  flashcardBlock.classList.toggle("fullscreen")
+  requestAnimationFrame(() => {
+    flashcardBlock.style.transition = "";
+  })
 })
 
 flashcardImage.addEventListener("click", () => {
