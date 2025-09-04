@@ -3,15 +3,20 @@
   "vocab": [
     {
       "term": "Biodiversity",
-      "link": "https://en.wikipedia.org/wiki/Biodiversity"
+      "link": "https://en.wikipedia.org/wiki/Biodiversity",
+      "definition": "The variety of life on Earth at all its levels, encompassing the diversity within species, between species, and across ecosystems, as well as the interactions among them",
+      "image": "https://alevelbiology.co.uk/wp-content/uploads/2021/07/Biodiversity-13.jpg"
     },
     {
       "term": "Dominant species",
-      "link": "https://en.wikipedia.org/wiki/Dominance_(ecology)"
+      "link": "https://en.wikipedia.org/wiki/Dominance_(ecology)",
+      "definition": "An organism that is highly abundant or has the greatest biomass within a particular ecological community, and whose presence disproportionately influences the community"
     },
     {
       "term": "Keystone species",
-      "link": "https://en.wikipedia.org/wiki/Keystone_species"
+      "link": "https://en.wikipedia.org/wiki/Keystone_species",
+      "definition": "An organism that plays a disproportionately large and critical role in maintaining the structure and health of its ecosystem relative to its abundance",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwvJ-YO92IwfhRNvk_hNA-Ua5GRqFlxQ0PKA&s"
     }
   ],
   "links": [

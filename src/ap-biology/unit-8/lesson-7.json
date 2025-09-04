@@ -3,47 +3,67 @@
   "vocab": [
     {
       "term": "Adaptations",
-      "link": "https://en.wikipedia.org/wiki/Adaptation"
+      "link": "https://en.wikipedia.org/wiki/Adaptation",
+      "definition": "A heritable trait—a physical structure, physiological process, or behavior—that increases an organism's ability to survive and reproduce in its environment",
+      "image": "https://biblicalscienceinstitute.com/wp-content/uploads/2019/12/Darwins_finches_by_Gould-1080x675.jpg"
     },
     {
       "term": "Invasive species",
-      "link": "https://en.wikipedia.org/wiki/Invasive_species"
+      "link": "https://en.wikipedia.org/wiki/Invasive_species",
+      "definition": "A non-native organism that is introduced to a new ecosystem and causes harm to the local environment, economy, human health, or native species",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kudzu_on_trees_in_Atlanta%2C_Georgia.jpg"
     },
     {
       "term": "Biological niche",
-      "link": "https://en.wikipedia.org/wiki/Ecological_niche"
+      "link": "https://en.wikipedia.org/wiki/Ecological_niche",
+      "definition": "Describes the functional role a species plays in its ecosystem and how it interacts with its environment, including its habitat, food sources, and relationships with other organisms"
     },
     {
       "term": "Habitat loss",
-      "link": "https://en.wikipedia.org/wiki/Habitat_destruction"
+      "link": "https://en.wikipedia.org/wiki/Habitat_destruction",
+      "definition": "The destruction or degradation of natural environments, often due to human activity, reducing biodiversity",
+      "image": "https://www.sciencing.com/sciencing/effects-habitat-destruction-environment-8403681/2ad8f4e9dfff4d0ba836978109357e5e.jpg"
     },
     {
       "term": "Habitat fragmentation",
-      "link": "https://en.wikipedia.org/wiki/Habitat_fragmentation"
+      "link": "https://en.wikipedia.org/wiki/Habitat_fragmentation",
+      "definition": "The process of breaking down large, continuous natural habitats into smaller, more isolated pieces, primarily due to human activities",
+      "image": "https://i0.wp.com/sciencealcove.com/wp-content/uploads/Habitat-Fragmentation_-The-Truth-about-Why-it-is-Really-Bad-1.png?fit=1080%2C675&ssl=1"
     },
     {
       "term": "Climate change",
-      "link": "https://en.wikipedia.org/wiki/Climate_change"
+      "link": "https://en.wikipedia.org/wiki/Climate_change",
+      "definition": "A change in global or regional climate patterns, attributed largely to the increased levels of atmospheric carbon dioxide produced by the use of fossil fuels"
     },
     {
       "term": "Greenhouse effect",
-      "link": "https://en.wikipedia.org/wiki/Greenhouse_effect"
+      "link": "https://en.wikipedia.org/wiki/Greenhouse_effect",
+      "definition": "A natural process where certain atmospheric gases, called greenhouse gases, trap heat in Earth's atmosphere, warming the planet",
+      "image": "https://climatekids.nasa.gov/greenhouse-effect/greenhouse-effect-diagram.jpg"
     },
     {
       "term": "El niño",
-      "link": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation"
+      "link": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation",
+      "definition": "A recurring climate pattern characterized by a band of unusually warm sea surface temperatures in the Pacific Ocean, leading to significant global weather changes",
+      "image": "https://cdn-images.prepp.in/public/image/55bbab92e13742b3f209cda94990aaf8.png?tr=w-499,h-512,c-force"
     },
     {
       "term": "Continental drift",
-      "link": "https://en.wikipedia.org/wiki/Continental_drift"
+      "link": "https://en.wikipedia.org/wiki/Continental_drift",
+      "definition": "The theory that the Earth's continents were once joined as a single supercontinent called Pangaea and have since slowly moved apart to their current positions",
+      "image": "https://www.accessscience.com/binary/mheasworks/0e412de85d2035e8/86d7605d0eb159ff8bedbccf2e9bf1c954ec9d71770f4e867c009fe731671a90/159000FG0010.png"
     },
     {
       "term": "Biomagnification",
-      "link": "https://en.wikipedia.org/wiki/Biomagnification"
+      "link": "https://en.wikipedia.org/wiki/Biomagnification",
+      "definition": "The process where the concentration of a substance, like a toxin or pesticide, increases as it moves up the food chain from one trophic level to the next",
+      "image": "https://eco-intelligent.com/wp-content/uploads/2020/06/biomagnification1_med.jpeg?w=640"
     },
     {
       "term": "Eutrophication",
-      "link": "https://en.wikipedia.org/wiki/Eutrophication"
+      "link": "https://en.wikipedia.org/wiki/Eutrophication",
+      "definition": "The process where water bodies become overly enriched with nutrients, primarily nitrogen and phosphorus, leading to excessive growth of algae and plants known as algal blooms",
+      "image": "https://helcom.fi/wp-content/uploads/2023/09/AdobeStock_613636111-1024x683.jpeg"
     }
   ],
   "links": [

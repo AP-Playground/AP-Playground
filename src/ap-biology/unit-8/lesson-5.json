@@ -3,67 +3,96 @@
   "vocab": [
     {
       "term": "Community",
-      "link": "https://en.wikipedia.org/wiki/Community_(ecology)"
+      "link": "https://en.wikipedia.org/wiki/Community_(ecology)",
+      "definition": "All the populations of different species that live and interact within a particular area or habitat",
+      "image": "https://d20khd7ddkh5ls.cloudfront.net/community_biology.png"
     },
     {
       "term": "Simpson's Diversity Index",
-      "link": "https://en.wikipedia.org/wiki/Diversity_index"
+      "link": "https://en.wikipedia.org/wiki/Diversity_index",
+      "definition": "A metric used in ecology to quantify species diversity in a community by considering both the number of species and their evenness",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwpHhps7fIkeOOs9aaOLLXToS-jjwphFd7uZxqTFIW_14mcuuxaL9E3q2LjyXN9SMCpVhTWK_JNn3-4lH2GJBaFCrsjSj8trmtUgGrwjGl5z5inAHbcSjYvQVNnuhpREmRszPU1sq8HhU/s1600/simpson%2527s+index.png"
     },
     {
       "term": "Species richness",
-      "link": "https://en.wikipedia.org/wiki/Species_richness"
+      "link": "https://en.wikipedia.org/wiki/Species_richness",
+      "definition": "The total number of different species found in a given area or community"
     },
     {
       "term": "Relative abundance",
-      "link": "https://en.wikipedia.org/wiki/Relative_species_abundance"
+      "link": "https://en.wikipedia.org/wiki/Relative_species_abundance",
+      "definition": "Describes the proportion of one species compared to all other species in an ecosystem"
     },
     {
       "term": "Interspecific competition",
-      "link": "https://en.wikipedia.org/wiki/Interspecific_competition"
+      "link": "https://en.wikipedia.org/wiki/Interspecific_competition",
+      "definition": "Competition between different species; occurs when two or more species require the same limited resources, such as food, water, or space",
+      "image": "https://www.pathwayz.org/Node/Image/url/aHR0cHM6Ly9pLmltZ3VyLmNvbS8wUXF2ZXhULnBuZw=="
     },
     {
       "term": "Competitive exclusion",
-      "link": "https://en.wikipedia.org/wiki/Competitive_exclusion_principle"
+      "link": "https://en.wikipedia.org/wiki/Competitive_exclusion_principle",
+      "definition": "An ecological concept stating that two species occupying the exact same ecological niche cannot coexist indefinitely; one species will eventually outcompete the other"
     },
     {
       "term": "Fundamental niche",
-      "link": "https://en.wikipedia.org/wiki/Ecological_niche"
+      "link": "https://en.wikipedia.org/wiki/Ecological_niche",
+      "definition": "The complete set of environmental conditions and resources in which a species could potentially survive and reproduce, without any interference from other species",
+      "image": "https://cdn.savemyexams.com/uploads/2023/04/YBL77Ozf_2-1-1-fundamental-niche.png"
     },
     {
       "term": "Realized niche",
-      "link": "https://en.wikipedia.org/wiki/Realized_niche_width"
+      "link": "https://en.wikipedia.org/wiki/Realized_niche_width",
+      "definition": "The actual set of resources, habitat, and environmental conditions that a species occupies and uses",
+      "image": "https://cdn.savemyexams.com/uploads/2023/04/hDMOgT6~_2-1-1-realised-niche.png"
     },
     {
       "term": "Niche partitioning",
-      "link": "https://en.wikipedia.org/wiki/Ecological_niche#Niche_differentiation"
+      "link": "https://en.wikipedia.org/wiki/Ecological_niche#Niche_differentiation",
+      "definition": "An ecological process where competing species reduce competition and increase coexistence by utilizing different aspects of a limited resource, leading to greater biodiversity",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/41d25869ec0e8498de31642d8a180679299b80a8.png"
     },
     {
       "term": "Predation",
-      "link": "https://en.wikipedia.org/wiki/Predation"
+      "link": "https://en.wikipedia.org/wiki/Predation",
+      "definition": "An interaction where one organism (the predator) hunts, kills, and consumes another organism (the prey) for food",
+      "image": "https://biologydictionary.net/wp-content/uploads/2016/10/Cheetah_hunting_springbok.jpg"
     },
     {
       "term": "Herbivory",
-      "link": "https://en.wikipedia.org/wiki/Herbivore"
+      "link": "https://en.wikipedia.org/wiki/Herbivore",
+      "definition": "The act of animals eating plants",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/White-tailed_deer_%28Odocoileus_virginianus%29_grazing_-_20050809.jpg"
     },
     {
       "term": "Trophic cascade",
-      "link": "https://en.wikipedia.org/wiki/Trophic_cascade"
+      "link": "https://en.wikipedia.org/wiki/Trophic_cascade",
+      "definition": "An ecological effect that propagates down the food chain",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIXgS60C3o8Pe_EFzBQ6DKfZ7NJY3vAA6oeA&s"
     },
     {
       "term": "Food web",
-      "link": "https://en.wikipedia.org/wiki/Food_web"
+      "link": "https://en.wikipedia.org/wiki/Food_web",
+      "definition": "A natural system of interconnected food chains that illustrates the flow of energy through an ecosystem by showing which organisms are eaten by others",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Aquatic_food_web.jpg"
     },
     {
       "term": "Parasitism",
-      "link": "https://en.wikipedia.org/wiki/Parasitism"
+      "link": "https://en.wikipedia.org/wiki/Parasitism",
+      "definition": "A symbiotic relationship where one organism, the parasite, lives on or inside another organism, the host, benefiting by taking nutrients or resources at the host's expense",
+      "image": "https://o.quizlet.com/H65m961GZClJ470A26nm6A_b.jpg"
     },
     {
       "term": "Mutualism",
-      "link": "https://en.wikipedia.org/wiki/Mutualism_(biology)"
+      "link": "https://en.wikipedia.org/wiki/Mutualism_(biology)",
+      "definition": "A biological and ecological symbiotic relationship where two different species benefit from the interaction, often for survival or reproduction",
+      "image": "https://d20khd7ddkh5ls.cloudfront.net/mutualism.png"
     },
     {
       "term": "Commensalism",
-      "link": "https://en.wikipedia.org/wiki/Commensalism"
+      "link": "https://en.wikipedia.org/wiki/Commensalism",
+      "definition": "An association between two organisms in which one benefits and the other derives neither benefit nor harm",
+      "image": "https://ecologyforall.weebly.com/uploads/1/3/0/1/13012454/8670654.jpg?326"
     }
   ],
   "links": [
