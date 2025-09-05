@@ -45,7 +45,7 @@ let flashcardSideDefault = true;
 let shuffledVocab = [...vocab];
 let shuffled = false;
 
-loadCard(vocab[flashcardCurrentIdx])
+setFlashcardIdx(0)
 flashcardPrev.disabled = true;
 if (vocab.length <= 1) flashcardNext.disabled = true;
 
@@ -76,19 +76,25 @@ flashcardContainer.addEventListener("click", (event) => {
   flashcardContainer.classList.toggle("front")
 })
 
+flashcardContainer.addEventListener("keydown", (event) => {
+  if (event.key === "Enter" || event.key === " ") {
+    event.preventDefault();
+
+    flashcardContainer.classList.toggle("front")
+  }
+  if (event.key === "ArrowLeft") {
+    setFlashcardIdx(flashcardCurrentIdx - 1)
+  }
+  if (event.key === "ArrowRight") {
+    setFlashcardIdx(flashcardCurrentIdx + 1)
+  }
+})
+
 
 flashcardShuffle.addEventListener("click", () => {
   shuffled = !shuffled;
-  flashcardCurrentIdx = 0;
-  flashcardPrev.disabled = true;
-  flashcardNext.disabled = vocab.length - 1 === flashcardCurrentIdx;
-  if (shuffled) {
-    shuffleArray(shuffledVocab);
-
-    loadCard(shuffledVocab[flashcardCurrentIdx]);
-  } else {
-    loadCard(vocab[flashcardCurrentIdx]);
-  }
+  shuffleArray(shuffledVocab);
+  setFlashcardIdx(0)
   flashcardShuffle.classList.toggle("active")
 })
 
@@ -96,26 +102,17 @@ flashcardShuffle.addEventListener("click", () => {
 flashcardSwap.addEventListener("click", () => {
   flashcardSideDefault = !flashcardSideDefault;
   flashcardSwap.classList.toggle("active")
+  flashcardContainer.classList.toggle("front")
 })
 
 
 flashcardPrev.addEventListener("click", () => {
-  flashcardNext.disabled = false;
-  flashcardCurrentIdx--;
-  if (flashcardCurrentIdx === 0) flashcardPrev.disabled = true;
-
-  if (shuffled) loadCard(shuffledVocab[flashcardCurrentIdx])
-  else loadCard(vocab[flashcardCurrentIdx])
+  setFlashcardIdx(flashcardCurrentIdx - 1)
 })
 
 
 flashcardNext.addEventListener("click", () => {
-  flashcardPrev.disabled = false;
-  flashcardCurrentIdx++;
-  if (flashcardCurrentIdx === vocab.length - 1) flashcardNext.disabled = true;
-
-  if (shuffled) loadCard(shuffledVocab[flashcardCurrentIdx])
-  else loadCard(vocab[flashcardCurrentIdx])
+  setFlashcardIdx(flashcardCurrentIdx + 1)
 })
 
 const pageWrapper = document.querySelector(".page-wrapper")
@@ -153,4 +150,17 @@ function shuffleArray(array) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
+}
+
+function setFlashcardIdx(idx) {
+  if (idx < 0) return;
+  if (idx >= vocab.length) return;
+
+  flashcardCurrentIdx = idx
+
+  flashcardPrev.disabled = idx === 0;
+  flashcardNext.disabled = idx === vocab.length - 1;
+
+  if (shuffled) loadCard(shuffledVocab[flashcardCurrentIdx])
+  else loadCard(vocab[flashcardCurrentIdx])
 }

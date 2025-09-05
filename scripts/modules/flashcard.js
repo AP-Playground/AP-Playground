@@ -1,7 +1,7 @@
 import * as templates from '../templates.js'
 
 export function block() {
-  let content = `<div class="flashcard">`
+  let content = `<div class="flashcard" tabindex="0" role="button">`
     content += `<div class="flashcard-front"><h2>Loading&hellip;</h2></div>`
     content += `<div class="flashcard-back"><p></p><img></div>`
   content += `</div>`

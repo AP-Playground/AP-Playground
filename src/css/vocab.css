@@ -76,7 +76,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  perspective: 4000px;
+  perspective: 3000px;
   box-sizing: border-box;
 }
 
@@ -107,6 +107,8 @@
   place-items: center;
   transition: transform .3s cubic-bezier(0.7, 0, 0.3, 1);
   transform-style: preserve-3d;
+  border-radius: 10px;
+  outline-offset: 2px;
 }
 
 .flashcard-front,
@@ -154,7 +156,7 @@
 }
 
 .flashcard.front {
-  transform: rotateX(180deg);
+  transform: rotateX(-180deg);
 }
 
 .flashcard-controls {
