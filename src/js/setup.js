@@ -5,11 +5,12 @@ if (!sideNavStatus) {
   sideNavStatus = "open";
   localStorage.setItem("sideNavStatus", sideNavStatus);
 }
-let currentSideNavScroll = 0;
 let sideNavLinks = document.querySelector(".side-nav-links");
 
-if (sideNavStatus === "closed") html.classList.add("side-nav-closed");
-
+if (sideNavStatus === "closed") {
+  html.classList.add("side-nav-closed")
+  sideNavLinks.inert = true;
+};
 
 
 const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -25,10 +26,8 @@ if (darkModeStatus === "dark") html.classList.add("dark-mode");
 
 requestAnimationFrame(function() {
   document.documentElement.classList.remove("no-transition");
-  if (this.window.innerWidth <= 1200) {
-    sideNavStatus = 'closed';
-    localStorage.setItem('sideNavStatus', sideNavStatus);
-    html.classList.add('side-nav-closed');
+  if (this.window.innerWidth <= 1200 && sideNavStatus === "open") {
+    toggleSideNav();
   }
   document.querySelector(".side-nav-btn").addEventListener("click", toggleSideNav)
   document.querySelector(".side-nav-background").addEventListener("click", toggleSideNav)
@@ -41,8 +40,12 @@ requestAnimationFrame(function() {
 })
 
 document.querySelectorAll(".accordion-btn").forEach(btn => {
+  const accordion = btn.parentElement.parentElement;
+  accordion.querySelector(".accordion-content").inert = !accordion.classList.contains("open")
+
   btn.addEventListener("click", e => {
-    e.currentTarget.parentElement.parentElement.classList.toggle("open");
+    accordion.classList.toggle("open");
+    accordion.querySelector(".accordion-content").inert = !accordion.classList.contains("open")
   })
 })
 
@@ -73,15 +76,10 @@ if (imgEnlargedContainer) {
 
 
 function toggleSideNav() {
-  if (sideNavStatus === 'open') {
-    currentSideNavScroll = sideNavLinks.scrollTop;
-  }
   html.classList.toggle('side-nav-closed');
   sideNavStatus = sideNavStatus === 'open' ? 'closed' : 'open';
   localStorage.setItem('sideNavStatus', sideNavStatus);
-  if (sideNavStatus === 'open') {
-    sideNavLinks.scrollTo({ top: currentSideNavScroll, behavior: "auto" });
-  }
+  sideNavLinks.inert = sideNavStatus === "closed";
 }
 
 

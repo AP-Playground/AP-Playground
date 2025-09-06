@@ -6,7 +6,7 @@ function breadcrumbs(...links) {
   if (!length) return "<div></div>";
   let breadcrumbs = `<nav aria-label="Breadcrumb" class="breadcrumbs">`;
   breadcrumbs += `<div class="breadcrumb-measure"></div><ol>`
-  breadcrumbs += `<li class="collapsed">&hellip;</li>`;
+  breadcrumbs += `<button class="collapsed">&hellip;</button>`;
   breadcrumbs += links.map(([title, link], idx) => {
     return `<li><a href="${link}"${idx === length - 1 ? 'aria-current="page"' : ""}>${title}</a></li>`
   }).join("")

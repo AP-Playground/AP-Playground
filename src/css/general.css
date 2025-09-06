@@ -34,7 +34,8 @@
 }
 
 html {
-  --side-nav-width: 400px;
+  --side-nav-max: min(400px, calc(95vw - var(--side-nav-btn-diameter)/2));
+  --side-nav-width: var(--side-nav-max);
   --side-nav-btn-diameter: 50px;
   transition: filter 0.3s ease-in-out;
   &.no-transition,
@@ -70,6 +71,7 @@ body {
 }
 
 .side-nav-links {
+  position: relative;
   background-color: var(--theme-10);
   overflow-x: hidden;
   overflow-y: scroll;
@@ -93,7 +95,8 @@ body {
     padding: 10px;
     padding-top: 30px;
     box-sizing: border-box;
-    width: calc(var(--side-nav-width) - 7px);
+    width: calc(var(--side-nav-max) - 7px);
+    transition: opacity 0.3s ease-in-out;
   }
   width: var(--side-nav-width);
   box-shadow: 0 calc(max(100lvh,100vh) - 100dvh) var(--theme-10);
@@ -105,24 +108,32 @@ html.side-nav-closed {
 
   & .side-nav {
     & .side-nav-header {
-      .side-nav-btn {
+      & .side-nav-btn {
         border-radius: 0 100% 100% 0;
         & > div {
           -webkit-mask-image: url("/icons/expand.svg");
           mask-image: url("/icons/expand.svg");
-          translate: -2px
+          translate: -2px;
         }
       }
       & .side-nav-logo {
-        display: none;
+        opacity: 0;
       }
     }
-    & .side-nav-links > * {
-      display: none;
-    }
-    & .side-nav-links::-webkit-scrollbar {
-      width: 5px;
-      background: var(--theme-80);
+    & .side-nav-links {
+      overflow: hidden;
+      & > nav {
+        opacity: 0;
+      }
+      &::after {
+        content: "";
+        display: block;
+        position: sticky;
+        inset: 0;
+        height: 100%;
+        box-shadow: -5px 0 0 var(--theme-80) inset;
+        pointer-events: none;
+      }
     }
   }
 }
@@ -138,6 +149,7 @@ html.side-nav-closed {
 .side-nav-logo {
   overflow: hidden;
   padding: 5px;
+  transition: opacity 0.3s ease-in-out;
   & img {
     height: calc(var(--side-nav-btn-diameter) - 10px);
   }
@@ -170,9 +182,9 @@ html.side-nav-closed {
   aspect-ratio: 1;
   border-radius: 100%;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
+  outline-offset: -1px;
   &:active {
     filter: brightness(0.65);
   }
@@ -189,6 +201,7 @@ html.side-nav-closed {
     -webkit-mask-position: center;
     mask-position: center;
     background-color: black;
+    transition: translate .3s ease-in-out;
   }
   transition: border-radius 0.3s ease-in-out, filter 0.1s linear;
 }
@@ -263,10 +276,12 @@ html.side-nav-closed {
       text-indent: calc(0px - var(--indent));
       font-size: 20px;
       font-weight: bold;
+      outline-offset: -1px;
     }
     & .sub-item a {
       padding-left: calc(30px + var(--indent));
       text-indent: calc(0px - var(--indent));
+      outline-offset: -1px;
     }
     & .item + .item {
       margin-top: 5px;
@@ -359,12 +374,17 @@ html.side-nav-closed {
   & ol {
     padding: 0;
     list-style: none;
-    & li:not(:first-child) + li::before {
+    & li + li::before {
       content: "\200B>";
       padding: 0 8px;
     }
-    & li.collapsed {
+    & .collapsed {
       display: none;
+      border: none;
+      background: none;
+      color: black;
+      padding: 0;
+      font-size: inherit;
       cursor: pointer;
     }
   }
@@ -442,9 +462,8 @@ a:hover {
   }
   & button,
   & a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -628,9 +647,6 @@ sup {
 
 
 @media (max-width: 1200px) {
-  html {
-    --side-nav-width: min(calc(95vw - var(--side-nav-btn-diameter)/2), 400px);
-  }
   body {
     margin-left: 0;
   }
