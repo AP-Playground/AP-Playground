@@ -71,13 +71,15 @@
   }
 }
 
-.flashcard-block {
+.flashcard-block.flashcard-block {
   max-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   perspective: 3000px;
   box-sizing: border-box;
+  z-index: 1;
+  transition: all .3s ease-in-out;
 }
 
 .page-wrapper:has(.flashcard-block.fullscreen) {
@@ -87,16 +89,7 @@
 .flashcard-block.fullscreen {
   position: absolute;
   padding-inline: max(15px, calc(50% - var(--main-width) / 2));
-  z-index: 1;
-  inset: 0;
   border-radius: 0;
-  transition: none;
-}
-
-@media (min-width: 1200px) {
-  .flashcard-block.fullscreen {
-    border-left: none;
-  }
 }
 
 .flashcard {
