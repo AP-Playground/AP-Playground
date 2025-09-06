@@ -92,15 +92,23 @@ window.addEventListener("resize", () => {
 })
 
 const breadcrumbs = document.querySelector('.breadcrumbs');
-const breadcrumbItems = Array.from(breadcrumbs.querySelectorAll('.breadcrumbs li:not(.collapsed)')).reverse();
-const breadcrumbCollapsed = breadcrumbs.querySelector('.collapsed');
-const breadcrumbMeasure = breadcrumbs.querySelector('.breadcrumb-measure');
+const breadcrumbItems = Array.from(document.querySelectorAll('.breadcrumbs li:not(.collapsed)')).reverse();
+const breadcrumbCollapsed = document.querySelector('.breadcrumbs .collapsed');
+const breadcrumbMeasure = document.querySelector('.breadcrumbs .breadcrumb-measure');
 let breadcrumbExpanded = false;
 
 if (breadcrumbs) {
   window.addEventListener('load', collapseBreadcrumbs);
   const breadcrumbObserver = new ResizeObserver(collapseBreadcrumbs)
   breadcrumbObserver.observe(breadcrumbs)
+
+  breadcrumbCollapsed.addEventListener("click", () => {
+    if (breadcrumbExpanded) return;
+    breadcrumbExpanded = true;
+
+    breadcrumbCollapsed.style.display = 'none';
+    breadcrumbItems.forEach(crumb => crumb.style.display = 'inline');
+  })
 }
 
 function collapseBreadcrumbs() {
@@ -127,11 +135,3 @@ function collapseBreadcrumbs() {
     }
   })
 }
-
-breadcrumbCollapsed.addEventListener("click", () => {
-  if (breadcrumbExpanded) return;
-  breadcrumbExpanded = true;
-
-  breadcrumbCollapsed.style.display = 'none';
-  breadcrumbItems.forEach(crumb => crumb.style.display = 'inline');
-})
