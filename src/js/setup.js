@@ -26,7 +26,7 @@ if (darkModeStatus === "dark") html.classList.add("dark-mode");
 
 requestAnimationFrame(function() {
   document.documentElement.classList.remove("no-transition");
-  if (this.window.innerWidth <= 1200 && sideNavStatus === "open") {
+  if (window.innerWidth <= 1200 && sideNavStatus === "open") {
     toggleSideNav();
   }
   document.querySelector(".side-nav-btn").addEventListener("click", toggleSideNav)
@@ -74,14 +74,18 @@ if (imgEnlargedContainer) {
   })
 }
 
-
+const pageWrapper = document.querySelector(".page-wrapper")
 function toggleSideNav() {
   html.classList.toggle('side-nav-closed');
   sideNavStatus = sideNavStatus === 'open' ? 'closed' : 'open';
   localStorage.setItem('sideNavStatus', sideNavStatus);
   sideNavLinks.inert = sideNavStatus === "closed";
+  pageWrapper.inert = window.innerWidth <= 1200 && sideNavStatus === "open"
 }
 
+window.addEventListener("resize", () => {
+  pageWrapper.inert = window.innerWidth <= 1200 && sideNavStatus === "open"
+})
 
 const breadcrumbs = document.querySelector('.breadcrumbs');
 const breadcrumbItems = Array.from(breadcrumbs.querySelectorAll('.breadcrumbs li:not(.collapsed)')).reverse();

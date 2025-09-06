@@ -115,7 +115,6 @@ flashcardNext.addEventListener("click", () => {
   setFlashcardIdx(flashcardCurrentIdx + 1)
 })
 
-const pageWrapper = document.querySelector(".page-wrapper")
 let flashcardMaximized = false;
 let pageScroll = 0;
 const flashcardMaximizeImg = flashcardMaximize.querySelector("img")
