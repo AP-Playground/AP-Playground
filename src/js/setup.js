@@ -53,11 +53,15 @@ document.querySelectorAll(".more-btn").forEach(btn => {
   btn.addEventListener("click", e => {
     const parent = e.currentTarget.parentElement
     parent.classList.toggle("expanded");
+    parent.querySelector(".more-container").inert = !parent.classList.contains("expanded");
     parent.querySelectorAll(".more-container .video-embed.unloaded").forEach(iframe => {
       iframe.src = iframe.dataset.src;
       iframe.classList.remove("unloaded")
     })
   })
+})
+document.querySelectorAll(".more-container").forEach(more => {
+  more.inert = !more.parentElement.classList.contains("expanded");
 })
 
   

@@ -115,82 +115,9 @@ flashcardNext.addEventListener("click", () => {
   setFlashcardIdx(flashcardCurrentIdx + 1)
 })
 
-let flashcardMaximized = false;
-const introBlock = document.querySelector(".intro-block");
-const flashcardMaximizeImg = flashcardMaximize.querySelector("img")
 flashcardMaximize.addEventListener("click", () => {
-  flashcardMaximized = !flashcardMaximized
-  
-  flashcardMaximize.disabled = true;
-
   flashcardMaximize.classList.toggle("active");
-  const scrollbarWidth = getScrollbarWidth();
-  if (flashcardMaximized) {
-    flashcardBlock.style.top = flashcardBlock.offsetTop + "px";
-    flashcardBlock.style.left = flashcardBlock.offsetLeft + "px";
-    flashcardBlock.style.right = (pageWrapper.offsetWidth - flashcardBlock.offsetLeft - flashcardBlock.offsetWidth) + "px";
-    flashcardBlock.style.bottom = (pageWrapper.offsetHeight - flashcardBlock.offsetTop - flashcardBlock.offsetHeight) + "px";
-
-    introBlock.style.marginBottom = (flashcardBlock.offsetHeight + 20) + "px";
-    const computedStyle = window.getComputedStyle(pageWrapper).paddingRight;
-    pageWrapper.style.transition = "none";
-    pageWrapper.style.paddingRight = (scrollbarWidth + parseInt(computedStyle)) + "px";
-    requestAnimationFrame(() => {
-      flashcardBlock.classList.add("fullscreen");
-      flashcardBlock.style.left = "0px";
-      flashcardBlock.style.right = "0px";
-      flashcardBlock.style.top = pageWrapper.scrollTop + "px";
-      flashcardBlock.style.bottom = -pageWrapper.scrollTop + "px";
-    })
-
-    pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = i !== flashcardBlock})
-  } else {
-    const temp = introBlock.style.marginBottom;
-
-    flashcardBlock.style.transition = "none"
-    flashcardBlock.classList.remove("fullscreen");
-    introBlock.style.marginBottom = "";
-    pageWrapper.style.paddingRight = "";
-    flashcardBlock.getBoundingClientRect()
-
-    const offsetTop = flashcardBlock.offsetTop;
-    const offsetLeft = flashcardBlock.offsetLeft
-    const offsetWidth = flashcardBlock.offsetWidth;
-    const offsetHeight = flashcardBlock.offsetHeight;
-
-    introBlock.style.marginBottom = temp;
-    flashcardBlock.classList.add("fullscreen");
-    flashcardBlock.getBoundingClientRect()
-    flashcardBlock.style.transition = "";
-
-    flashcardBlock.style.top = offsetTop + "px";
-    flashcardBlock.style.left = offsetLeft + "px";
-    flashcardBlock.style.right = (pageWrapper.offsetWidth - offsetLeft - offsetWidth - scrollbarWidth) + "px"
-    flashcardBlock.style.bottom = (pageWrapper.offsetHeight - offsetTop - offsetHeight) + "px"
-    flashcardBlock.style.position = "absolute"
-    requestAnimationFrame(() => {
-      flashcardBlock.classList.remove("fullscreen");
-      pageWrapper.style.transition = "";
-    })
-
-    pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = false})
-  }
-})
-
-flashcardBlock.addEventListener("transitionend", (e) => {
-  if (e.propertyName === "left") {
-    flashcardMaximize.disabled = false;
-    if (flashcardMaximized) {
-      flashcardBlock.style.transition = "none"
-    } else {
-      flashcardBlock.style.position = "";
-      introBlock.style.marginBottom = "";
-      flashcardBlock.style.top = "";
-      flashcardBlock.style.left = "";
-      flashcardBlock.style.bottom = "";
-      flashcardBlock.style.right = "";
-    }
-  }
+  toggleFullscreen(flashcardBlock, flashcardMaximize)
 })
 
 flashcardImage.addEventListener("click", () => {
@@ -217,25 +144,4 @@ function setFlashcardIdx(idx) {
 
   if (shuffled) loadCard(shuffledVocab[flashcardCurrentIdx])
   else loadCard(vocab[flashcardCurrentIdx])
-}
-
-function getScrollbarWidth() {
-  // Create a temporary div element
-  const outer = document.createElement('div');
-  outer.style.visibility = 'hidden';
-  outer.style.overflow = 'scroll'; // Force scrollbar to appear
-  outer.style.msOverflowStyle = 'scrollbar'; // For IE/Edge
-  document.body.appendChild(outer);
-
-  // Create an inner div with a width of 100%
-  const inner = document.createElement('div');
-  outer.appendChild(inner);
-
-  // Calculate the scrollbar width
-  const scrollbarWidth = outer.offsetWidth - inner.offsetWidth;
-
-  // Remove the temporary elements
-  outer.parentNode.removeChild(outer);
-
-  return scrollbarWidth;
 }

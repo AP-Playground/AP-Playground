@@ -50,6 +50,7 @@
       background-color: var(--theme);
       -webkit-mask-image: url("/icons/external_link.svg");
       mask-image: url("/icons/external_link.svg");
+      &:focus-visible,
       &:hover {
         background-color: var(--accent);
       }
@@ -82,14 +83,8 @@
   transition: all .3s ease-in-out;
 }
 
-.page-wrapper:has(.flashcard-block.fullscreen) {
-  overflow: hidden;
-}
-
 .flashcard-block.fullscreen {
-  position: absolute;
   padding-inline: max(15px, calc(50% - var(--main-width) / 2));
-  border-radius: 0;
 }
 
 .flashcard {

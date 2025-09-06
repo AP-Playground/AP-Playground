@@ -132,9 +132,16 @@ html.side-nav-closed {
         inset: 0;
         height: 100%;
         box-shadow: -5px 0 0 var(--theme-80) inset;
+        transition: box-shadow 0.3s ease-in-out;
         pointer-events: none;
       }
     }
+  }
+}
+
+@media (min-width: 1200.01px) {
+  html.side-nav-closed:has(.content-block.fullscreen) .side-nav-links::after {
+    box-shadow: 0px 0 0 var(--theme-80) inset;
   }
 }
 
@@ -353,6 +360,10 @@ html.side-nav-closed {
     background-color: var(--accent-10);
     border-color: var(--accent-90);
   }
+  & .content-block.fullscreen {
+    position: absolute;
+    border-radius: 0;
+  }
   & h1, & h2 {
     margin: 0;
     font-family: Kalam, cursive;
@@ -547,6 +558,7 @@ a:hover {
     -webkit-mask-size: cover;
     mask-size: cover;
     background-color: var(--theme);
+    &:focus-visible,
     &:hover {
       background-color: var(--accent);
     }
