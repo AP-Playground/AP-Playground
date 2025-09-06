@@ -124,10 +124,8 @@ flashcardMaximize.addEventListener("click", () => {
   if (flashcardMaximized) {
     pageScroll = pageWrapper.scrollTop;
     pageWrapper.scrollTop = 0;
-    flashcardMaximizeImg.src = "/icons/minimize.svg";
   } else {
     pageWrapper.scrollTop = pageScroll;
-    flashcardMaximizeImg.src = "/icons/maximize.svg";
   }
 
   flashcardMaximize.classList.toggle("active")
