@@ -79,8 +79,6 @@
   justify-content: center;
   perspective: 3000px;
   box-sizing: border-box;
-  z-index: 1;
-  transition: all .3s ease-in-out;
 }
 
 .flashcard-block.fullscreen {

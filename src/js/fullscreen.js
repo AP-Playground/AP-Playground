@@ -11,20 +11,21 @@ function toggleFullscreen(block, btn) {
   const scrollbar = getScrollbarWidth();
   const styles = block.style;
   if (fullscreened) {
+    styles.zIndex = 1;
     fullscreenScroll = pageWrapper.scrollTop;
     styles.top = block.offsetTop + "px";
     styles.left = block.offsetLeft + "px";
     styles.right = (pageWrapper.offsetWidth - block.offsetLeft - block.offsetWidth) + "px";
     styles.bottom = (pageWrapper.offsetHeight - block.offsetTop - block.offsetHeight) + "px";
 
-    block.insertAdjacentElement("beforebegin", fullscreenPlaceholder);
+    block.classList.add("fullscreen")
     fullscreenPlaceholder.style.height = block.offsetHeight + "px";
+    block.insertAdjacentElement("beforebegin", fullscreenPlaceholder);
 
     const computedWrapperPadding = window.getComputedStyle(pageWrapper).paddingRight;
     pageWrapper.style.transition = "none";
     pageWrapper.style.paddingRight = (scrollbar + parseInt(computedWrapperPadding)) + "px";
     pageWrapper.style.overflow = "hidden"
-    block.classList.add("fullscreen")
 
     requestAnimationFrame(() => {
       styles.left = "0px";
@@ -53,7 +54,7 @@ function toggleFullscreen(block, btn) {
     const computedWrapperPadding = window.getComputedStyle(pageWrapper).paddingRight;
     pageWrapper.style.paddingRight = (scrollbar + parseInt(computedWrapperPadding)) + "px";
     block.getBoundingClientRect();
-    block.style.transition = "";
+    styles.transition = "all 0.3s ease-in-out";
 
 
     requestAnimationFrame(() => {
@@ -67,14 +68,16 @@ function toggleFullscreen(block, btn) {
     })
     pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = false})
   }
+  pageWrapper.scrollTop = fullscreenScroll;
 }
 
 window.addEventListener("resize", () => {
-  pageWrapper.scrollTop = fullscreenScroll;
+  if (fullscreened) pageWrapper.scrollTop = fullscreenScroll;
 })
 
 function fullscreenTransition(block, btn) {
   pageWrapper.inert = false;
+  pageWrapper.scrollTop = fullscreenScroll;
   if(btn && document.activeElement === document.body) btn.focus()
   if (fullscreened) {
     block.style.transition = "none";
@@ -85,11 +88,13 @@ function fullscreenTransition(block, btn) {
     pageWrapper.getBoundingClientRect()
     pageWrapper.style.transition = ""
 
+    block.style.transition = ""
     block.style.position = "";
     block.style.top = "";
     block.style.left = "";
     block.style.bottom = "";
     block.style.right = "";
+    block.style.zIndex = "";
   }
 }
 

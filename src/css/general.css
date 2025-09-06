@@ -361,6 +361,8 @@ html.side-nav-closed {
     border-color: var(--accent-90);
   }
   & .content-block.fullscreen {
+    transition: all .3s ease-in-out;
+    z-index: 1;
     position: absolute;
     border-radius: 0;
   }
