@@ -5,7 +5,7 @@ if (!sideNavStatus) {
   sideNavStatus = "open";
   localStorage.setItem("sideNavStatus", sideNavStatus);
 }
-let sideNavLinks = document.querySelector(".side-nav-links");
+const sideNavLinks = document.querySelector(".side-nav-links");
 
 if (sideNavStatus === "closed") {
   html.classList.add("side-nav-closed")
@@ -22,6 +22,11 @@ if (!darkModeStatus) {
 
 if (darkModeStatus === "dark") html.classList.add("dark-mode");
 
+
+sideNavLinks.scrollTop = sessionStorage.getItem("sideNavScroll") || 0;
+window.addEventListener("beforeunload", () => {
+  sessionStorage.setItem("sideNavScroll", sideNavLinks.scrollTop);
+})
 
 
 requestAnimationFrame(function() {
