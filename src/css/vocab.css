@@ -82,7 +82,7 @@
 }
 
 .flashcard-block.fullscreen {
-  padding-inline: max(15px, calc(50% - var(--main-width) / 2));
+  padding-inline: max(15px, calc((var(--width) - 135ch) / 2));
 }
 
 .flashcard {
