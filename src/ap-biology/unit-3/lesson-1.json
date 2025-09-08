@@ -3,63 +3,86 @@
   "vocab": [
     {
       "term": "Enzyme",
-      "link": "https://en.wikipedia.org/wiki/Enzyme"
+      "link": "https://en.wikipedia.org/wiki/Enzyme",
+      "definition": "Proteins that act as biological catalysts, speeding up specific chemical reactions necessary for life without being consumed in the process"
     },
     {
       "term": "Catalyst",
-      "link": "https://en.wikipedia.org/wiki/Catalysis"
+      "link": "https://en.wikipedia.org/wiki/Catalysis",
+      "definition": "A substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change"
     },
     {
       "term": "Activation energy",
-      "link": "https://en.wikipedia.org/wiki/Activation_energy"
+      "link": "https://en.wikipedia.org/wiki/Activation_energy",
+      "definition": "The minimum amount of energy that must be provided to initiate a chemical reaction",
+      "image": "https://sciencenotes.org/wp-content/uploads/2021/03/Activation-energy-enzyme.png"
     },
     {
       "term": "Active site",
-      "link": "https://en.wikipedia.org/wiki/Active_site"
+      "link": "https://en.wikipedia.org/wiki/Active_site",
+      "definition": "A region on an enzyme that binds to a protein or other substance during a reaction"
     },
     {
       "term": "Substrate",
-      "link": "https://en.wikipedia.org/wiki/Substrate_(chemistry)"
+      "link": "https://en.wikipedia.org/wiki/Substrate_(chemistry)",
+      "definition": "The molecule that an enzyme acts upon"
     },
     {
       "term": "Enzyzme-substrate complex",
-      "link": "https://en.wikipedia.org/wiki/Enzyme#Substrate_binding"
+      "link": "https://en.wikipedia.org/wiki/Enzyme#Substrate_binding",
+      "definition": "Formed when a substrate molecule binds to an enzyme's active site, allowing a chemical reaction to occur and lowering the activation energy required for the process",
+      "image": "https://images.nagwa.com/figures/explainers/248185482685/2.svg"
     },
     {
       "term": "Lock and Key Model (outdated)",
-      "link": "https://en.wikipedia.org/wiki/Enzyme#%22Lock_and_key%22_model"
+      "link": "https://en.wikipedia.org/wiki/Enzyme#%22Lock_and_key%22_model",
+      "definition": "A biochemical concept explaining how enzymes, or biological catalysts, work with high specificity",
+      "image": "https://chem.libretexts.org/@api/deki/files/25929/18.11.jpg?revision=1"
     },
     {
       "term": "Induced Fit Model",
-      "link": "https://en.wikipedia.org/wiki/Enzyme#Induced_fit_model"
+      "link": "https://en.wikipedia.org/wiki/Enzyme#Induced_fit_model",
+      "definition": "Theory of enzyme-substrate interaction where both the enzyme's active site and the substrate undergo a conformational change upon binding, resulting in a tighter, more precise fit",
+      "image": "https://www.mun.ca/biology/scarr/F09-20bsmc.jpg"
     },
     {
       "term": "Conformational change",
-      "link": "https://en.wikipedia.org/wiki/Conformational_change"
+      "link": "https://en.wikipedia.org/wiki/Conformational_change",
+      "definition": "Alterations in the three-dimensional shape of a molecule, especially proteins, that are essential for their function, activity, and interaction with other molecules"
     },
     {
       "term": "Exergonic reaction",
-      "link": "https://en.wikipedia.org/wiki/Exergonic_reaction"
+      "link": "https://en.wikipedia.org/wiki/Exergonic_reaction",
+      "definition": "Chemical reactions that break unstable bonds in molecules to release energy; decreases stored energy",
+      "image": "https://www.chem.ucla.edu/~harding/IGOC/E/exergonic01.png"
     },
     {
       "term": "Catabolic",
-      "link": "https://en.wikipedia.org/wiki/Catabolism"
+      "link": "https://en.wikipedia.org/wiki/Catabolism",
+      "definition": "Reactions which break down large, complex molecules into smaller, simpler ones, releasing energy in the process",
+      "image": "https://www.i-pathways.org/public/sampleLesson/science/images/catabolism.gif"
     },
     {
       "term": "Exothermic process",
-      "link": "https://en.wikipedia.org/wiki/Exothermic_process"
+      "link": "https://en.wikipedia.org/wiki/Exothermic_process",
+      "definition": "Reactions that release energy, usually as heat or light, to an organism's surroundings"
     },
     {
       "term": "Endergonic reaction",
-      "link": "https://en.wikipedia.org/wiki/Exergonic_reaction"
+      "link": "https://en.wikipedia.org/wiki/Exergonic_reaction",
+      "definition": "Chemical reactions that create bonds to store energy within molecules; decreases free energy",
+      "image": "https://www.chem.ucla.edu/~harding/IGOC/E/endergonic01.png"
     },
     {
       "term": "Anabolic",
-      "link": "https://en.wikipedia.org/wiki/Anabolism"
+      "link": "https://en.wikipedia.org/wiki/Anabolism",
+      "definition": "Reactions which combine small, simple molecules into larger, complex ones, storing energy in the process",
+      "image": "https://antranik.org/wp-content/uploads/2024/10/anabolism.gif"
     },
     {
       "term": "Endothermic process",
-      "link": "https://en.wikipedia.org/wiki/Endothermic_process"
+      "link": "https://en.wikipedia.org/wiki/Endothermic_process",
+      "definition": "Processes that absorb energy from an organism's surroundings, usually in the form of heat"
     }
   ],
   "links": [

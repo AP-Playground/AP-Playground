@@ -3,47 +3,65 @@
   "vocab": [
     {
       "term": "Metabolism",
-      "link": "https://en.wikipedia.org/wiki/Metabolism"
+      "link": "https://en.wikipedia.org/wiki/Metabolism",
+      "definition": "All the chemical reactions that occur within a living organism to maintain life, growth, and repair"
     },
     {
       "term": "Energy",
-      "link": "https://en.wikipedia.org/wiki/Energy"
+      "link": "https://en.wikipedia.org/wiki/Energy",
+      "definition": "The fundamental capacity to do work, existing as either potential energy (stored, like chemical) or kinetic energy (in motion, like heat)"
     },
     {
       "term": "Endergonic reaction",
-      "link": "https://en.wikipedia.org/wiki/Endergonic_reaction"
+      "link": "https://en.wikipedia.org/wiki/Endergonic_reaction",
+      "definition": "Chemical reactions that create bonds to store energy within molecules; decreases free energy",
+      "image": "https://www.chem.ucla.edu/~harding/IGOC/E/endergonic01.png"
     },
     {
       "term": "Exergonic reaction",
-      "link": "https://en.wikipedia.org/wiki/Exergonic_reaction"
+      "link": "https://en.wikipedia.org/wiki/Exergonic_reaction",
+      "definition": "Chemical reactions that break unstable bonds in molecules to release energy; decreases stored energy",
+      "image": "https://www.chem.ucla.edu/~harding/IGOC/E/exergonic01.png"
     },
     {
       "term": "ATP (Adenosine triphosphate)",
-      "link": "https://en.wikipedia.org/wiki/Adenosine_triphosphate"
+      "link": "https://en.wikipedia.org/wiki/Adenosine_triphosphate",
+      "definition": "A molecule found in all living cells that serves as the primary energy carrier, releasing energy when its bonds are broken",
+      "image": "https://study.com/cimages/multimages/16/320px-atp_structure.svg2637762999533848365.png"
     },
     {
       "term": "ADP (Adenosine diphosphate)",
-      "link": "https://en.wikipedia.org/wiki/Adenosine_diphosphate"
+      "link": "https://en.wikipedia.org/wiki/Adenosine_diphosphate",
+      "definition": "A molecule that is converted from ATP when energy is released for cellular work, with the loss of a phosphate group",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Adenosindiphosphat_protoniert.svg"
     },
     {
       "term": "Energy coupling",
-      "link": "https://en.wikipedia.org/wiki/Metabolism"
+      "link": "https://en.wikipedia.org/wiki/Metabolism",
+      "definition": "The process where an exergonic reaction (one that releases energy) drives an endergonic reaction (one that requires energy)",
+      "image": "https://i.sstatic.net/FoKxC.png"
     },
     {
       "term": "1st Law of Thermodynamics",
-      "link": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics"
+      "link": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics",
+      "definition": "Energy cannot be created or destroyed, only transformed from one form to another within an isolated system",
+      "image": "https://www.ces.fau.edu/ces/nasa/images/Energy/ENERGYINEQUALSENERGYOUT.jpg"
     },
     {
       "term": "2nd Law of Thermodynamics",
-      "link": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics"
+      "link": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+      "definition": "The entropy of an isolated system tends to increase, meaning biological processes naturally move towards states of greater disorder and energy dispersal",
+      "image": "https://biblicalscienceinstitute.com/wp-content/uploads/2019/08/thermo.jpg"
     },
     {
       "term": "Entropy",
-      "link": "https://en.wikipedia.org/wiki/Entropy"
+      "link": "https://en.wikipedia.org/wiki/Entropy",
+      "definition": "A measure of the randomness or disorder within a biological system and the dispersal of energy"
     },
     {
       "term": "Free energy",
-      "link": "https://en.wikipedia.org/wiki/Thermodynamic_free_energy"
+      "link": "https://en.wikipedia.org/wiki/Thermodynamic_free_energy",
+      "definition": "The portion of a system's energy that is available to do useful work, such as driving metabolic processes"
     }
   ],
   "links": [

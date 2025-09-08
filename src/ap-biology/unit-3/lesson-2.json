@@ -3,35 +3,48 @@
   "vocab": [
     {
       "term": "Denaturation",
-      "link": "https://en.wikipedia.org/wiki/Denaturation_(biochemistry)"
+      "link": "https://en.wikipedia.org/wiki/Denaturation_(biochemistry)",
+      "definition": "A process that changes the natural shape and structure of a biological molecule, most commonly a protein, leading to a loss of its normal function",
+      "image": "https://ib.bioninja.com.au/img/denaturation.jpg"
     },
     {
       "term": "Compartmentalization",
-      "link": "https://en.wikipedia.org/wiki/Cellular_compartment"
+      "link": "https://en.wikipedia.org/wiki/Cellular_compartment",
+      "definition": "The organization of a cell or organism into distinct regions or compartments, often by membrane-bound organelles, to allow for specialized functions and efficient processes"
     },
     {
       "term": "Cofactors",
-      "link": "https://en.wikipedia.org/wiki/Cofactor_(biochemistry)"
+      "link": "https://en.wikipedia.org/wiki/Cofactor_(biochemistry)",
+      "definition": "A non-protein chemical compound or metal ion that enzymes need to function as biological catalysts",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240604184001/Cofactor.jpg"
     },
     {
       "term": "Coenzymes",
-      "link": "https://en.wikipedia.org/wiki/Enzyme#Coenzymes"
+      "link": "https://en.wikipedia.org/wiki/Enzyme#Coenzymes",
+      "definition": "Cofactors which are organic"
     },
     {
       "term": "Competitive inhibitors",
-      "link": "https://en.wikipedia.org/wiki/Competitive_inhibition"
+      "link": "https://en.wikipedia.org/wiki/Competitive_inhibition",
+      "definition": "Molecules that compete with a substrate for an enzyme's active site, reducing enzyme activity",
+      "image": "https://ib.bioninja.com.au/img/competitive%20mobile.jpg"
     },
     {
       "term": "Non-competitive inhibitors",
-      "link": "https://en.wikipedia.org/wiki/Non-competitive_inhibition"
+      "link": "https://en.wikipedia.org/wiki/Non-competitive_inhibition",
+      "definition": "Molecules that reduce an enzyme's activity by binding to a site distinct from the active site, causing a conformational change in the enzyme that hinders its ability to function",
+      "image": "https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/marketing/global/images/technical-documents/articles/protein-biology/interrogation-protein-pathways/reversible-inhibitors-non-competitive-inhibition/reversible-inhibitors-non-competitive-inhibition.jpg"
     },
     {
       "term": "Allosteric site",
-      "link": "https://en.wikipedia.org/wiki/Allosteric_regulation"
+      "link": "https://en.wikipedia.org/wiki/Allosteric_regulation",
+      "definition": "A region on an enzyme that is distinct from the active site, where a regulator molecule binds to control the protein's function"
     },
     {
       "term": "Feedback inhibition",
-      "link": "https://en.wikipedia.org/wiki/Enzyme_inhibitor#Metabolic_regulation"
+      "link": "https://en.wikipedia.org/wiki/Enzyme_inhibitor#Metabolic_regulation",
+      "definition": "A biological control mechanism where the final product of a metabolic pathway inhibits an allosteric enzyme earlier in that same pathway, preventing overproduction",
+      "image": "https://openoregon.pressbooks.pub/app/uploads/sites/19/2017/04/feedback-inhibition-1024x345.jpg"
     }
   ],
   "links": [

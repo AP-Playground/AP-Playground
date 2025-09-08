@@ -3,83 +3,116 @@
   "vocab": [
     {
       "term": "Autotrophs",
-      "link": "https://en.wikipedia.org/wiki/Autotroph"
+      "link": "https://en.wikipedia.org/wiki/Autotroph",
+      "definition": "Organisms that produce their own food from inorganic substances in their environment",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240517143422/Autotroph.png"
     },
     {
       "term": "Heterotrophs",
-      "link": "https://en.wikipedia.org/wiki/Heterotroph"
+      "link": "https://en.wikipedia.org/wiki/Heterotroph",
+      "definition": "An organism that cannot produce its own food, instead taking nutrition from other sources of organic carbon, mainly matter from other organisms",
+      "image": "https://d20khd7ddkh5ls.cloudfront.net/types-of-heterotrophs.png"
     },
     {
       "term": "Stroma",
-      "link": "https://en.wikipedia.org/wiki/Stroma_(fluid)"
+      "link": "https://en.wikipedia.org/wiki/Stroma_(fluid)",
+      "definition": "The fluid-filled matrix inside a chloroplast that surrounds the thylakoid membranes, location of light-independent reactions",
+      "image": "https://gamesmartz.com/upload/subjects/science/800/stroma.png"
     },
     {
       "term": "Thylakoids",
-      "link": "https://en.wikipedia.org/wiki/Thylakoid"
+      "link": "https://en.wikipedia.org/wiki/Thylakoid",
+      "definition": "Membrane-bound compartments within chloroplasts (in plants and algae) and cyanobacteria, serving as the site for the light-dependent reactions of photosynthesis",
+      "image": "https://www.shutterstock.com/image-vector/structure-chloroplast-granum-thylakoid-isolated-260nw-2117132804.jpg"
     },
     {
       "term": "Chlorophyll",
-      "link": "https://en.wikipedia.org/wiki/Chlorophyll"
+      "link": "https://en.wikipedia.org/wiki/Chlorophyll",
+      "definition": "Green pigments found in cyanobacteria and in the chloroplasts of algae and plants, that allow them to absorb energy from light"
     },
     {
       "term": "Stomata",
-      "link": "https://en.wikipedia.org/wiki/Stoma"
+      "link": "https://en.wikipedia.org/wiki/Stoma",
+      "definition": "Tiny pores, primarily found on the underside of plant leaves, that regulate gas exchange between the plant and the atmosphere",
+      "image": "https://www.sciencefacts.net/wp-content/uploads/2021/01/Stomata-Diagram.jpg"
     },
     {
       "term": "Photosynthesis",
-      "link": "https://en.wikipedia.org/wiki/Photosynthesis"
+      "link": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "definition": "The process plants, algae, and some bacteria use to convert light energy, carbon dioxide, and water into chemical energy (glucose/sugars) and oxygen",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Photosynthesis_en.svg/1200px-Photosynthesis_en.svg.png"
     },
     {
       "term": "Light-dependent reactions",
-      "link": "https://en.wikipedia.org/wiki/Light-dependent_reactions"
+      "link": "https://en.wikipedia.org/wiki/Light-dependent_reactions",
+      "definition": "1st stage of photosynthesis, occurring in the thylakoid membranes, where light energy is captured by pigments (chlorophyll) and converted into chemical energy (ATP and NADPH)",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/faeb1179a538a3a8106fa5f3b9bd90c92f9834a7.png"
     },
     {
       "term": "Photosystem II",
-      "link": "https://en.wikipedia.org/wiki/Photosystem_II"
+      "link": "https://en.wikipedia.org/wiki/Photosystem_II",
+      "definition": "A large protein complex that initiates photosynthesis by capturing sunlight energy to split water molecules into oxygen, protons, and electrons"
     },
     {
       "term": "Electron transport chain",
-      "link": "https://en.wikipedia.org/wiki/Electron_transport_chain"
+      "link": "https://en.wikipedia.org/wiki/Electron_transport_chain",
+      "definition": "A series of protein complexes and molecules that transfer electrons, releasing energy used to create an electrochemical gradient that drives ATP synthesis",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/62120415688fc64d57237535d282247e981bdfed.png"
     },
     {
       "term": "Electrochemical gradient",
-      "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient"
+      "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient",
+      "definition": "The combined force driving ions across a cell membrane, resulting from both a chemical gradient (difference in concentration) and an electrical gradient (difference in electrical charge)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Membrane_potential_ions_en.svg/1200px-Membrane_potential_ions_en.svg.png"
     },
     {
       "term": "Photosystem I",
-      "link": "https://en.wikipedia.org/wiki/Photosystem_I"
+      "link": "https://en.wikipedia.org/wiki/Photosystem_I",
+      "definition": "A multi-subunit protein complex in the thylakoid membrane of plants, algae, and cyanobacteria that uses light energy to facilitate electron transfer, producing NADPH"
     },
     {
       "term": "NADP+ / NADPH",
-      "link": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide_phosphate"
+      "link": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide_phosphate",
+      "definition": "A cofactor used to donate electrons for anabolic reactions, including the Calvin Cycle in photosynthesis. NADP+ is the form that accepts electrons, and NADPH donates them."
     },
     {
       "term": "ATP Synthase",
-      "link": "https://en.wikipedia.org/wiki/ATP_synthase"
+      "link": "https://en.wikipedia.org/wiki/ATP_synthase",
+      "definition": "A molecular motor in cell membranes that creates ATP, the cell's main energy currency, by using a proton gradient across the membrane",
+      "image": "https://microbenotes.com/wp-content/uploads/2023/09/ATP-Synthase.jpeg"
     },
     {
       "term": "Chemiosmosis",
-      "link": "https://en.wikipedia.org/wiki/Chemiosmosis"
+      "link": "https://en.wikipedia.org/wiki/Chemiosmosis",
+      "definition": "The biological process of proton diffusion across a semipermeable membrane down an electrochemical gradient, with the energy from this movement used to synthesize ATP",
+      "image": "https://microbenotes.com/wp-content/uploads/2023/09/Structure-of-ATP-Synthase.jpeg"
     },
     {
       "term": "Light-independent reactions",
-      "link": "https://en.wikipedia.org/wiki/Calvin_cycle"
+      "link": "https://en.wikipedia.org/wiki/Calvin_cycle",
+      "definition": "2nd stage of photosynthesis where the energy from ATP and NADPH is used to convert carbon dioxide into organic compounds (glucose) in the stroma"
     },
     {
       "term": "Calvin cycle",
-      "link": "https://en.wikipedia.org/wiki/Calvin_cycle"
+      "link": "https://en.wikipedia.org/wiki/Calvin_cycle",
+      "definition": "The cycle where photosynthetic organisms use ATP and NADPH to convert carbon dioxide into glyceraldehyde-3-phosphate (G3P), a three-carbon sugar that serves as a precursor for glucose",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/4c9fbc7e4f158fd4bf3e1114e9a7ebe47d08f020.png"
     },
     {
       "term": "Rubisco",
-      "link": "https://en.wikipedia.org/wiki/RuBisCO"
+      "link": "https://en.wikipedia.org/wiki/RuBisCO",
+      "definition": "Earth's most abundant enzyme, which play a critical role in carbon fixation (converting inorganic carbon into organic compounds) during the Calvin Cycle"
     },
     {
       "term": "G3P",
-      "link": "https://en.wikipedia.org/wiki/Glyceraldehyde_3-phosphate"
+      "link": "https://en.wikipedia.org/wiki/Glyceraldehyde_3-phosphate",
+      "definition": "A three-carbon sugar phosphate formed through the Calvin Cycle; the direct precursor for synthesizing glucose"
     },
     {
       "term": "Redox reactions",
-      "link": "https://en.wikipedia.org/wiki/Redox"
+      "link": "https://en.wikipedia.org/wiki/Redox",
+      "definition": "A chemical reaction where electrons are transferred between substances, resulting in a change in their oxidation states, such as photosynthesis and cellular respiration",
+      "image": "https://homework.study.com/cimages/multimages/16/reduction5868157530735599977.png"
     }
   ],
   "links": [

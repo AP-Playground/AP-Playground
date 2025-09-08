@@ -3,87 +3,121 @@
   "vocab": [
     {
       "term": "Aerobic respiration",
-      "link": "https://en.wikipedia.org/wiki/Cellular_respiration"
+      "link": "https://en.wikipedia.org/wiki/Cellular_respiration",
+      "definition": "The cellular process in which organisms use oxygen to convert nutrients, primarily glucose, into chemical energy in the form of ATP"
     },
     {
       "term": "Mitochondria",
-      "link": "https://en.wikipedia.org/wiki/Mitochondrioa"
+      "link": "https://en.wikipedia.org/wiki/Mitochondrioa",
+      "definition": "Organelle responsible for generating most of the chemical energy (ATP) needed to power a cell's biochemical reactions by converting food and oxygen into cellular energy",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Animal_mitochondrion_diagram_en.svg/1200px-Animal_mitochondrion_diagram_en.svg.png"
     },
     {
       "term": "Matrix",
-      "link": "https://en.wikipedia.org/wiki/Mitochondrial_matrix"
+      "link": "https://en.wikipedia.org/wiki/Mitochondrial_matrix",
+      "definition": "The innermost compartment of a mitochondrion, containing enzymes and other molecules necessary for cellular respiration, such as those for the citric acid cycle"
     },
     {
       "term": "Intermembrane space",
-      "link": "https://en.wikipedia.org/wiki/Intermembrane_space"
+      "link": "https://en.wikipedia.org/wiki/Intermembrane_space",
+      "definition": "The compartment of a mitochondrion or chloroplast located between its outer and inner membranes, where oxidative phosphorylation and chemiosmosis take place"
     },
     {
       "term": "Cellular respiration",
-      "link": "https://en.wikipedia.org/wiki/Cellular_respiration"
+      "link": "https://en.wikipedia.org/wiki/Cellular_respiration",
+      "definition": "The process where cells break down biological fuels, like glucose, in the presence of an electron acceptor (usually oxygen) to produce adenosine triphosphate (ATP)",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240311211218/Diagram-of-cellular-respiration.jpg"
     },
     {
       "term": "Glycolysis",
-      "link": "https://en.wikipedia.org/wiki/Glycolysis"
+      "link": "https://en.wikipedia.org/wiki/Glycolysis",
+      "definition": "The initial, ancient metabolic process in which a molecule of glucose is broken down into two molecules of pyruvate, producing a net gain of  2 ATP and 2 NADH",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/3ac5f05c70a76473139a0abb96318146af528f48.png"
     },
     {
       "term": "Pyruvate",
-      "link": "https://en.wikipedia.org/wiki/Pyruvic_acid"
+      "link": "https://en.wikipedia.org/wiki/Pyruvic_acid",
+      "definition": "The natural end-product of glycolysis, a 3 carbon compound which is further broken down in the link reaction and citric acid cycle"
     },
     {
       "term": "NAD+ / NADH",
-      "link": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide"
+      "link": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide",
+      "definition": "A coenzyme used to donate electrons for oxidative phosphorylation in cellular respiration. NAD+ is the form that accepts electrons, and NADH donates them"
     },
     {
       "term": "Link Reaction",
-      "link": "https://en.wikipedia.org/wiki/Pyruvate_decarboxylation"
+      "link": "https://en.wikipedia.org/wiki/Pyruvate_decarboxylation",
+      "definition": "Critical intermediate step in cellular respiration that converts the three-carbon pyruvate, a product of glycolysis, into the two-carbon acetyl-CoA",
+      "image": "https://images.nagwa.com/figures/explainers/962153157942/2.svg"
     },
     {
       "term": "Acetyl-CoA",
-      "link": "https://en.wikipedia.org/wiki/Acetyl-CoA"
+      "link": "https://en.wikipedia.org/wiki/Acetyl-CoA",
+      "definition": "A critical metabolic molecule that provides acetyl groups for the citric acid cycle"
     },
     {
       "term": "Krebs Cycle/Citric Acid Cycle",
-      "link": "https://en.wikipedia.org/wiki/Citric_acid_cycle"
+      "link": "https://en.wikipedia.org/wiki/Citric_acid_cycle",
+      "definition": "Central metabolic pathway in the mitochondrial matrix that completes the breakdown of glucose and to generate energy and reduces electron carriers FAD and NAD+ to FADH2 and NADH",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/c7052763740cb431d8e989fa55460816cc5a074c.png"
     },
     {
       "term": "FAD / FADH2",
-      "link": "https://en.wikipedia.org/wiki/Flavin_adenine_dinucleotide"
+      "link": "https://en.wikipedia.org/wiki/Flavin_adenine_dinucleotide",
+      "definition": "A coenzyme used to donate electrons for oxidative phosphorylation in cellular respiration. FAD is the form that accepts electrons, and FADH2 donates them"
     },
     {
       "term": "Electron transport chain",
-      "link": "https://en.wikipedia.org/wiki/Electron_transport_chain"
+      "link": "https://en.wikipedia.org/wiki/Electron_transport_chain",
+      "definition": "A series of protein complexes and molecules that transfer electrons, releasing energy used to create an electrochemical gradient that drives ATP synthesis",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/62120415688fc64d57237535d282247e981bdfed.png"
     },
     {
       "term": "Electrochemical gradient",
-      "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient"
+      "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient",
+      "definition": "The combined force driving ions across a cell membrane, resulting from both a chemical gradient (difference in concentration) and an electrical gradient (difference in electrical charge)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Membrane_potential_ions_en.svg/1200px-Membrane_potential_ions_en.svg.png"
     },
     {
       "term": "ATP Synthase",
-      "link": "https://en.wikipedia.org/wiki/ATP_synthase"
+      "link": "https://en.wikipedia.org/wiki/ATP_synthase",
+      "definition": "A molecular motor in cell membranes that creates ATP, the cell's main energy currency, by using a proton gradient across the membrane",
+      "image": "https://microbenotes.com/wp-content/uploads/2023/09/ATP-Synthase.jpeg"
     },
     {
       "term": "Oxidative phosphorylation",
-      "link": "https://en.wikipedia.org/wiki/Oxidative_phosphorylation"
+      "link": "https://en.wikipedia.org/wiki/Oxidative_phosphorylation",
+      "definition": "The final stage of aerobic respiration, occurring in the mitochondrial intermembrane space, where the energy released from NADH and FADH2 is used to generate a large amount of ATP",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Mitochondrial_electron_transport_chain%E2%80%94Etc4.svg/500px-Mitochondrial_electron_transport_chain%E2%80%94Etc4.svg.png"
     },
     {
       "term": "Chemiosmosis",
-      "link": "https://en.wikipedia.org/wiki/Chemiosmosis"
+      "link": "https://en.wikipedia.org/wiki/Chemiosmosis",
+      "definition": "The biological process of proton diffusion across a semipermeable membrane down an electrochemical gradient, with the energy from this movement used to synthesize ATP",
+      "image": "https://microbenotes.com/wp-content/uploads/2023/09/Structure-of-ATP-Synthase.jpeg"
     },
     {
       "term": "Anaerobic respiration",
-      "link": "https://en.wikipedia.org/wiki/Anaerobic_respiration"
+      "link": "https://en.wikipedia.org/wiki/Anaerobic_respiration",
+      "definition": "A metabolic process where cells generate energy (ATP) in the absence of oxygen, primarily through glycolysis"
     },
     {
       "term": "Alcoholic fermentation",
-      "link": "https://en.wikipedia.org/wiki/Ethanol_fermentation"
+      "link": "https://en.wikipedia.org/wiki/Ethanol_fermentation",
+      "definition": "The anaerobic process where yeast converts glucose and other sugars into ethanol (alcohol) and carbon dioxide through glycolysis, generating ATP",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/95be5e3a235711613dca5377ed13113aa181c4a7.png"
     },
     {
       "term": "Lactic acid fermentation",
-      "link": "https://en.wikipedia.org/wiki/Lactic_acid_fermentation"
+      "link": "https://en.wikipedia.org/wiki/Lactic_acid_fermentation",
+      "definition": "The anaerobic process in which glucose or other six-carbon sugars are converted into lactic acid and ATP through glycolysis",
+      "image": "https://bioprinciples.biosci.gatech.edu/files/2024/10/Screenshot-2024-10-14-at-18.52.04.png"
     },
     {
       "term": "Redox reaction",
-      "link": "https://en.wikipedia.org/wiki/Redox"
+      "link": "https://en.wikipedia.org/wiki/Redox",
+      "definition": "A chemical reaction where electrons are transferred between substances, resulting in a change in their oxidation states, such as photosynthesis and cellular respiration",
+      "image": "https://homework.study.com/cimages/multimages/16/reduction5868157530735599977.png"
     }
   ],
   "links": [
