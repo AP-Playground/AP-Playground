@@ -1,4 +1,4 @@
-let fullscreenPlaceholder;
+const fullscreenPlaceholder = document.createElement("div");
 let fullscreened = false;
 function toggleFullscreen(block, btn) {
   fullscreened = !fullscreened;
@@ -9,7 +9,6 @@ function toggleFullscreen(block, btn) {
 
   const styles = block.style;
   if (fullscreened) {
-    fullscreenPlaceholder = block.cloneNode(true);
     styles.zIndex = 1;
     const {top, left, width, height} = block.getBoundingClientRect();
     styles.top = top + "px";
@@ -18,7 +17,8 @@ function toggleFullscreen(block, btn) {
     styles.height = height + "px";
 
     block.classList.add("fullscreen")
-    block.insertAdjacentElement("afterend", fullscreenPlaceholder);
+    fullscreenPlaceholder.style.height = height + "px";
+    block.insertAdjacentElement("beforebegin", fullscreenPlaceholder);
 
     requestAnimationFrame(() => {
       styles.top = ""
@@ -30,10 +30,17 @@ function toggleFullscreen(block, btn) {
     pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = i !== block})
 
   } else {
-    const {top, left, width, height} = fullscreenPlaceholder.getBoundingClientRect();
-    styles.transition = "all 0.3s ease-in-out";
+    fullscreenPlaceholder.style.display = "none";
+    styles.transition = "none";
+    block.classList.remove("fullscreen")
+    const {top, left, width, height} = block.getBoundingClientRect();
+
+    fullscreenPlaceholder.style.height = height + "px";
+    fullscreenPlaceholder.style.display = "";
+    block.classList.add("fullscreen")
 
     requestAnimationFrame(() => {
+      styles.transition = "all 0.3s ease-in-out";
       styles.position = "absolute";
       block.classList.remove("fullscreen")
       styles.top = top + "px";
@@ -52,8 +59,7 @@ function fullscreenTransition(block, btn) {
   if (fullscreened) {
     block.style.transition = "left 0.3s ease-in-out, width 0.3s ease-in-out, padding 0.3s ease-in-out";
   } else {
-    fullscreenPlaceholder.remove()
-    fullscreenPlaceholder = undefined;
+    fullscreenPlaceholder.remove();
 
     block.style.transition = ""
     block.style.position = "";
