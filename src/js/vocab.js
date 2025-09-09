@@ -14,7 +14,6 @@ vocab.forEach(({term, link, definition, image}) => {
   vocabContainer.insertAdjacentHTML("beforeend", out)
 })
 
-const vocabCards = document.querySelectorAll(".vocab-card");
 const vocabCardImages = document.querySelectorAll(".vocab-card img");
 
 vocabCardImages.forEach(img => {
@@ -70,9 +69,7 @@ function loadCard({term, link, definition, image}) {
   })
 }
 
-flashcardContainer.addEventListener("click", (event) => {
-  if (event.target === flashcardImage) return;
-
+flashcardContainer.addEventListener("click", () => {
   flashcardContainer.classList.toggle("front")
 })
 
@@ -120,12 +117,6 @@ flashcardMaximize.addEventListener("click", () => {
     flashcardMaximize.classList.toggle("active");
     toggleFullscreen(flashcardBlock, flashcardMaximize)
   })
-})
-
-flashcardImage.addEventListener("click", () => {
-  const imgEnlarged = document.querySelector(".img-enlarged-container > img");
-  imgEnlarged.src = "";
-  imgEnlarged.src = flashcardImage.src;
 })
 
 function shuffleArray(array) {
