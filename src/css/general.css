@@ -551,27 +551,32 @@ a:hover {
     display: flex;
     gap: 10px;
   }
-  & a {
+  & a.external-open div {
+    -webkit-mask-image: url("/icons/external_link.svg");
+    mask-image: url("/icons/external_link.svg");
+  }
+  & a.download div {
+    -webkit-mask-image: url("/icons/download.svg");
+    mask-image: url("/icons/download.svg");
+  }
+  & h3 {
+    margin-block: 0.5rem;
+  }
+}
+
+a.mask {
+  outline-offset: 3px;
+  display: inline-block;
+  & div {
     width: 20px;
     aspect-ratio: 1;
     -webkit-mask-size: cover;
     mask-size: cover;
     background-color: var(--theme);
-    &:focus-visible,
-    &:hover {
-      background-color: var(--accent);
-    }
-    &.external-open {
-      -webkit-mask-image: url("/icons/external_link.svg");
-      mask-image: url("/icons/external_link.svg");
-    }
-    &.download {
-      -webkit-mask-image: url("/icons/download.svg");
-      mask-image: url("/icons/download.svg");
-    }
   }
-  & h3 {
-    margin-block: 0.5rem;
+  &:focus-visible div,
+  &:hover div {
+    background-color: var(--accent);
   }
 }
 

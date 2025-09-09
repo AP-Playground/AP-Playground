@@ -72,15 +72,33 @@ document.querySelectorAll(".more-container").forEach(more => {
   
 const imgEnlargedContainer = document.querySelector(".img-enlarged-container");
 const imgEnlarged = document.querySelector(".img-enlarged-container > img");
-
+const sideNav = document.querySelector(".side-nav");
 if (imgEnlargedContainer) {
+  let prevFocus;
   imgEnlarged.addEventListener("load", e => {
     imgEnlargedContainer.classList.add("active")
+    imgEnlarged.tabIndex = "0";
+    prevFocus = document.activeElement
+    pageWrapper.inert = true;
+    sideNav.inert = true;
+    imgEnlarged.focus();
   })
 
   imgEnlargedContainer.addEventListener("click", e => {
-    imgEnlargedContainer.classList.remove("active")
+    closeImgEnlarged()
   })
+  imgEnlargedContainer.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      closeImgEnlarged()
+    }
+  })
+  function closeImgEnlarged() {
+    imgEnlargedContainer.classList.remove("active")
+    imgEnlarged.tabIndex = "-1";
+    pageWrapper.inert = false;
+    sideNav.inert = false;
+    if (prevFocus !== document.body) prevFocus.focus()
+  }
 }
 
 const pageWrapper = document.querySelector(".page-wrapper")

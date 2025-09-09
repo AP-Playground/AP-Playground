@@ -1,26 +1,34 @@
 const vocabContainer = document.querySelector(".vocab-cards")
 
 vocab.forEach(({term, link, definition, image}) => {
-  let cardText = `<h2>${term} <a href="${link}" class="external-open" aria-label="Learn more about ${term}" target="_blank"></a></h2>` + `<p>${definition}</p>`
+  let cardText = `<h2>${term} <a href="${link}" class="mask external-open" aria-label="Learn more about ${term}" target="_blank"><div></div></a></h2>` + `<p>${definition}</p>`
   cardText = `<div class="vocab-content-container">` + cardText + "</div>"
   let imageText = "";
   if (image) {
     imageText = `<img class="vocab-img" src="${image}">`
     imageText += `<img class="magnify" src="/icons/magnify.svg">`;
-    imageText =  `<div class="vocab-img-container">${imageText}</div>`
+    imageText =  `<div class="vocab-img-container" tabindex="0">${imageText}</div>`
   }
   let out = cardText + imageText;
   out = `<div class="vocab-card content-block">${out}</div>`
   vocabContainer.insertAdjacentHTML("beforeend", out)
 })
 
-const vocabCardImages = document.querySelectorAll(".vocab-card img");
+const vocabCardImages = document.querySelectorAll(".vocab-img-container");
 
-vocabCardImages.forEach(img => {
-  const imgEnlarged = document.querySelector(".img-enlarged-container > img");
-  img.addEventListener("click", e => {
+vocabCardImages.forEach(container => {
+  const img = container.querySelector("img");
+  container.addEventListener("click", e => {
     imgEnlarged.src = "";
     imgEnlarged.src = img.src;
+  })
+  container.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      container.focus()
+      imgEnlarged.src = "";
+      imgEnlarged.src = img.src;
+    }
   })
 })
 
