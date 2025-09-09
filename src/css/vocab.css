@@ -91,8 +91,6 @@
   aspect-ratio: 16/9;
   display: grid;
   place-items: center;
-  transition: transform .3s cubic-bezier(0.7, 0, 0.3, 1);
-  transform-style: preserve-3d;
   border-radius: 10px;
   outline-offset: 2px;
 }
@@ -113,6 +111,8 @@
   box-sizing: border-box;
   user-select: none;
   backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform .3s cubic-bezier(0.7, 0, 0.3, 1);
   & * {
     box-sizing: border-box;
     text-align: center;
@@ -142,7 +142,12 @@
 }
 
 .flashcard.front {
-  transform: rotateX(-180deg);
+  & .flashcard-front {
+    transform: rotateX(0);
+  }
+  & .flashcard-back {
+    transform: rotateX(-180deg);
+  }
 }
 
 .flashcard-controls {

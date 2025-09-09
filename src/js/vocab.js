@@ -116,8 +116,10 @@ flashcardNext.addEventListener("click", () => {
 })
 
 flashcardMaximize.addEventListener("click", () => {
-  flashcardMaximize.classList.toggle("active");
-  toggleFullscreen(flashcardBlock, flashcardMaximize)
+  requestAnimationFrame(() => {
+    flashcardMaximize.classList.toggle("active");
+    toggleFullscreen(flashcardBlock, flashcardMaximize)
+  })
 })
 
 flashcardImage.addEventListener("click", () => {

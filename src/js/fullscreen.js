@@ -30,6 +30,7 @@ function toggleFullscreen(block, btn) {
     pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = i !== block})
 
   } else {
+    if (fullscreenPlaceholder.offsetTop < pageWrapper.scrollTop) pageWrapper.scrollTop = fullscreenPlaceholder.offsetTop;
     fullscreenPlaceholder.style.display = "none";
     styles.transition = "none";
     block.classList.remove("fullscreen")
