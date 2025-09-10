@@ -47,16 +47,17 @@ const flashcardMaximize = flashcardControls.querySelector(".fullscreen")
 const flashcardProgress = flashcardControls.querySelector(".progress")
 
 let flashcardCurrentIdx = 0;
+let flashcardPrevIdx = 0;
 let flashcardSideDefault = true;
 
 let shuffledVocab = [...vocab];
 let shuffled = false;
 
-setFlashcardIdx(0)
+setFlashcardIdx(0, false)
 flashcardPrev.disabled = true;
 if (vocab.length <= 1) flashcardNext.disabled = true;
 
-function loadCard({term, link, definition, image}) {
+function loadCard({term, link, definition, image}, animate) {
 
   flashcardProgress.textContent = (flashcardCurrentIdx + 1) + " / " + vocab.length;
 
@@ -66,14 +67,32 @@ function loadCard({term, link, definition, image}) {
   flashcardImage.hidden = !image;
 
   
-  flashcardContainer.style.transition = "none";
+  flashcardContainer.classList.add("no-transition")
   if (flashcardSideDefault) {
     flashcardContainer.classList.add("front")
   } else {
     flashcardContainer.classList.remove("front")
   }
   requestAnimationFrame(() => {
-    flashcardContainer.style.transition = "";
+    flashcardContainer.classList.remove("no-transition")
+    if (!animate) return;
+    if (flashcardPrevIdx >= flashcardCurrentIdx) {
+      flashcardContainer.animate([
+        {transform: "rotateY(10deg) translateX(-15px) translateZ(40px)"},
+        {transform: ""}
+      ], {
+        duration: 300,
+        easing: "cubic-bezier(0.4, 0, 0.2, 1)"
+      })
+    } else {
+      flashcardContainer.animate([
+        {transform: "rotateY(-10deg) translateX(15px) translateZ(-40px)"},
+        {transform: ""}
+      ], {
+        duration: 300,
+        easing: "cubic-bezier(0.4, 0, 0.2, 1)"
+      })
+    }
   })
 }
 
@@ -134,15 +153,16 @@ function shuffleArray(array) {
   }
 }
 
-function setFlashcardIdx(idx) {
+function setFlashcardIdx(idx, animate = true) {
   if (idx < 0) return;
   if (idx >= vocab.length) return;
 
-  flashcardCurrentIdx = idx
+  flashcardPrevIdx = flashcardCurrentIdx;
+  flashcardCurrentIdx = idx;
 
   flashcardPrev.disabled = idx === 0;
   flashcardNext.disabled = idx === vocab.length - 1;
 
-  if (shuffled) loadCard(shuffledVocab[flashcardCurrentIdx])
-  else loadCard(vocab[flashcardCurrentIdx])
+  if (shuffled) loadCard(shuffledVocab[flashcardCurrentIdx], animate)
+  else loadCard(vocab[flashcardCurrentIdx], animate)
 }

@@ -89,11 +89,20 @@
   border-radius: 10px;
   outline-offset: 2px;
   transform-style: preserve-3d;
-  transition: transform .3s cubic-bezier(0.7, 0, 0.3, 1);
+  container-type: size;
+}
+
+.flashcard.no-transition {
+  transition: none;
 }
 
 .flashcard.front {
-  transform: rotateX(-180deg);
+  & .flashcard-front {
+    transform: rotateX(0)
+  }
+  & .flashcard-back {
+    transform: rotateX(-180deg)
+  }
 }
 
 .flashcard-front,
@@ -112,6 +121,7 @@
   box-sizing: border-box;
   user-select: none;
   backface-visibility: hidden;
+  transition: transform .2s ease-out;
   & * {
     box-sizing: border-box;
     text-align: center;
@@ -120,9 +130,9 @@
 
 .flashcard-front {
   transform: rotateX(180deg);
-  padding: 50px;
+  padding: 8cqw;
   & h2 {
-    font-size: 50px;
+    font-size: 14cqh;
   }
 }
 
@@ -130,12 +140,13 @@
   & p {
     padding: 50px;
     margin: 0;
-    font-size: 25px;
+    font-size: 7cqh;
   }
   & img {
-    padding: 20px;
+    padding: 5cqh;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100cqh;
+    box-sizing: border-box;
     -webkit-user-drag: none;
     -moz-user-drag: none;
   }
@@ -208,23 +219,5 @@
   }
   .flashcard-block.flashcard-block {
     padding: 3vw;
-  }
-}
-
-@media (max-width: 900px) {
-  .flashcard-front {
-    padding: calc(1vw * 50/9);
-    & h2 {
-      font-size: calc(50px + (1vw * 50/9 - 50px) * 0.75)
-    }
-  }
-  .flashcard-back {
-    & p {
-      padding: calc(50px + (1vw * 50/9 - 50px) * 1.5);
-      font-size: calc(25px + (1vw * 25/9 - 25px) * 0.8)
-    }
-    & img {
-      padding: calc(1vw * 20/9)
-    }
   }
 }
