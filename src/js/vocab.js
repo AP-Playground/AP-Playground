@@ -78,7 +78,7 @@ function loadCard({term, link, definition, image}, animate) {
     if (!animate) return;
     if (flashcardPrevIdx >= flashcardCurrentIdx) {
       flashcardContainer.animate([
-        {transform: "rotateY(10deg) translateX(-15px) translateZ(40px)"},
+        {transform: "rotateY(10deg) translateX(-15px) translateZ(-40px)"},
         {transform: ""}
       ], {
         duration: 300,
