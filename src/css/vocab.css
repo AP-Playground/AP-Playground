@@ -92,7 +92,7 @@
   container-type: size;
 }
 
-.flashcard.no-transition {
+.flashcard.no-transition * {
   transition: none;
 }
 
@@ -121,7 +121,7 @@
   box-sizing: border-box;
   user-select: none;
   backface-visibility: hidden;
-  transition: transform .2s ease-out;
+  transition: transform .3s ease-out;
   & * {
     box-sizing: border-box;
     text-align: center;

@@ -53,45 +53,57 @@ let flashcardSideDefault = true;
 let shuffledVocab = [...vocab];
 let shuffled = false;
 
+const easing = "cubic-bezier(0.4, 0, 0.2, 1)";
+
 setFlashcardIdx(0, false)
 flashcardPrev.disabled = true;
 if (vocab.length <= 1) flashcardNext.disabled = true;
 
 function loadCard({term, link, definition, image}, animate) {
-
-  flashcardProgress.textContent = (flashcardCurrentIdx + 1) + " / " + vocab.length;
-
-  flashcardTitle.textContent = term;
-  flashcardText.textContent = definition;
-  if (image) flashcardImage.src = image;
-  flashcardImage.hidden = !image;
-
-  
-  flashcardContainer.classList.add("no-transition")
-  if (flashcardSideDefault) {
-    flashcardContainer.classList.add("front")
+  let anim;
+  const duration = 200 * animate
+  if (flashcardPrevIdx >= flashcardCurrentIdx) {
+    anim = flashcardContainer.animate([
+      {transform: ""},
+      {transform: "rotateY(-5deg) translateX(7px) translateZ(-20px)", opacity: 0}
+    ], { duration: duration, easing: easing })
   } else {
-    flashcardContainer.classList.remove("front")
+    anim = flashcardContainer.animate([
+      {transform: ""},
+      {transform: "rotateY(5deg) translateX(-7px) translateZ(20px)", opacity: 0}
+    ], { duration: duration, easing: easing })
   }
-  requestAnimationFrame(() => {
+  
+
+  anim.finished.then(() => {
+    flashcardProgress.textContent = (flashcardCurrentIdx + 1) + " / " + vocab.length;
+
+    flashcardTitle.textContent = term;
+    flashcardText.textContent = definition;
+    if (image) flashcardImage.src = image;
+    flashcardImage.hidden = !image;
+
+
+    flashcardContainer.classList.add("no-transition")
+    if (flashcardSideDefault) {
+      flashcardContainer.classList.add("front")
+    } else {
+      flashcardContainer.classList.remove("front")
+    }
+    flashcardContainer.getBoundingClientRect()
     flashcardContainer.classList.remove("no-transition")
+    
     if (!animate) return;
     if (flashcardPrevIdx >= flashcardCurrentIdx) {
       flashcardContainer.animate([
-        {transform: "rotateY(10deg) translateX(-15px) translateZ(-40px)"},
+        {transform: "rotateY(10deg) translateX(-15px) translateZ(-40px)", opacity: 0},
         {transform: ""}
-      ], {
-        duration: 300,
-        easing: "cubic-bezier(0.4, 0, 0.2, 1)"
-      })
+      ], { duration: 400, easing: easing })
     } else {
       flashcardContainer.animate([
-        {transform: "rotateY(-10deg) translateX(15px) translateZ(-40px)"},
+        {transform: "rotateY(-10deg) translateX(15px) translateZ(-40px)", opacity: 0},
         {transform: ""}
-      ], {
-        duration: 300,
-        easing: "cubic-bezier(0.4, 0, 0.2, 1)"
-      })
+      ], { duration: 400, easing: easing })
     }
   })
 }
