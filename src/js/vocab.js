@@ -92,7 +92,7 @@ function loadCard({term, link, definition, image}, animate) {
     }
     flashcardContainer.getBoundingClientRect()
     flashcardContainer.classList.remove("no-transition")
-    
+
     if (!animate) return;
     if (flashcardPrevIdx >= flashcardCurrentIdx) {
       flashcardContainer.animate([
@@ -115,14 +115,16 @@ flashcardContainer.addEventListener("click", () => {
 flashcardContainer.addEventListener("keydown", (event) => {
   if (event.key === "Enter" || event.key === " ") {
     event.preventDefault();
-
     flashcardContainer.classList.toggle("front")
-  }
-  if (event.key === "ArrowLeft") {
+  } else if (event.key === "ArrowLeft") {
+    event.preventDefault();
     setFlashcardIdx(flashcardCurrentIdx - 1)
-  }
-  if (event.key === "ArrowRight") {
+  } else if (event.key === "ArrowRight") {
+    event.preventDefault();
     setFlashcardIdx(flashcardCurrentIdx + 1)
+  } else if (event.key === "ArrowUp" || event.key === "ArrowDown") {
+    event.preventDefault();
+    flashcardContainer.classList.toggle("front");
   }
 })
 
