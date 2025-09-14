@@ -151,6 +151,14 @@ document.addEventListener("pointerup", (e) => {
     };
   }
 })
+document.addEventListener("pointercancel", () => {
+  if (mousingFlashcard) {
+    mousingFlashcard = false;
+    flashcardContainer.style.opacity = ""
+    flashcardContainer.style.translate = "";
+    flashcardContainer.style.transition = "all 0.2s ease-in-out"
+  }
+})
 
 
 flashcardContainer.addEventListener("keydown", (event) => {
