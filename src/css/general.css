@@ -304,11 +304,10 @@ html.side-nav-closed {
   & a[aria-current="page"] {
     text-decoration: underline;
     color: var(--theme);
+    &:hover {
+      color: var(--accent);
+    }
   }
-}
-
-.side-nav-links:hover a[aria-current="page"]:hover {
-  color: var(--accent);
 }
 
 .side-nav-background {
