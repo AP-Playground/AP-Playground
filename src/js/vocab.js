@@ -110,12 +110,6 @@ function loadCard({term, link, definition, image}, animate) {
   })
 }
 
-flipFlashcard = true;
-flashcardContainer.addEventListener("click", () => {
-  if (flipFlashcard) flashcardContainer.classList.toggle("front")
-  else flipFlashcard = true;
-})
-
 let mouseX;
 let mouseY;
 let mousingFlashcard = false;
@@ -141,14 +135,16 @@ document.addEventListener("pointerup", (e) => {
 
     const dist = e.clientX - mouseX
     const screenWidth = window.screen.width;
-    if (Math.abs(dist) > screenWidth / 20) {
+    if (Math.abs(dist) > screenWidth / 50) {
       flipFlashcard = false;
-      if (Math.abs(dist) > screenWidth / 10) {
+      if (Math.abs(dist) > screenWidth / 15) {
         if (dist > 0) setFlashcardIdx(flashcardCurrentIdx - 1)
         if (dist < 0) setFlashcardIdx(flashcardCurrentIdx + 1)
       }
+    } else {
+      flashcardContainer.classList.toggle("front")
     }
-    if (Math.abs(dist) <= screenWidth / 10) {
+    if (Math.abs(dist) <= screenWidth / 15) {
       flashcardContainer.style.opacity = ""
       flashcardContainer.style.translate = "";
       flashcardContainer.style.transition = "all 0.2s ease-in-out"
