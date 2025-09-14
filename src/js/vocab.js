@@ -64,18 +64,20 @@ function loadCard({term, link, definition, image}, animate) {
   const duration = 200 * animate
   if (flashcardPrevIdx >= flashcardCurrentIdx) {
     anim = flashcardContainer.animate([
-      {transform: ""},
+      {transform: "", opacity: flashcardContainer.style.opacity},
       {transform: "rotateY(-5deg) translateX(7px) translateZ(-20px)", opacity: 0}
     ], { duration: duration, easing: easing })
   } else {
     anim = flashcardContainer.animate([
-      {transform: ""},
+      {transform: "", opacity: flashcardContainer.style.opacity},
       {transform: "rotateY(5deg) translateX(-7px) translateZ(20px)", opacity: 0}
     ], { duration: duration, easing: easing })
   }
+  flashcardContainer.style.opacity = ""
   
 
   anim.finished.then(() => {
+    flashcardContainer.style.translate = ""
     flashcardProgress.textContent = (flashcardCurrentIdx + 1) + " / " + vocab.length;
 
     flashcardTitle.textContent = term;
@@ -108,9 +110,52 @@ function loadCard({term, link, definition, image}, animate) {
   })
 }
 
+flipFlashcard = true;
 flashcardContainer.addEventListener("click", () => {
-  flashcardContainer.classList.toggle("front")
+  if (flipFlashcard) flashcardContainer.classList.toggle("front")
+  else flipFlashcard = true;
 })
+
+let mouseX;
+let mouseY;
+let mousingFlashcard = false;
+flashcardContainer.addEventListener("pointerdown", (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+  mousingFlashcard = true;
+  flashcardContainer.style.transition = "";
+})
+document.addEventListener("pointermove", (e) => {
+  if (mousingFlashcard) {
+    const screenWidth = window.screen.width;
+    const displacement = e.clientX - mouseX;
+    const offset = Math.sqrt(Math.abs(displacement)) * Math.sign(displacement);
+    const opacity = Math.max(1 - Math.abs(displacement)*2.5 / screenWidth, 0.1)
+    flashcardContainer.style.translate = offset + "px";
+    flashcardContainer.style.opacity = opacity;
+  }
+})
+document.addEventListener("pointerup", (e) => {
+  if (mousingFlashcard) {
+    mousingFlashcard = false;
+
+    const dist = e.clientX - mouseX
+    const screenWidth = window.screen.width;
+    if (Math.abs(dist) > screenWidth / 20) {
+      flipFlashcard = false;
+      if (Math.abs(dist) > screenWidth / 10) {
+        if (dist > 0) setFlashcardIdx(flashcardCurrentIdx - 1)
+        if (dist < 0) setFlashcardIdx(flashcardCurrentIdx + 1)
+      }
+    }
+    if (Math.abs(dist) <= screenWidth / 10) {
+      flashcardContainer.style.opacity = ""
+      flashcardContainer.style.translate = "";
+      flashcardContainer.style.transition = "all 0.2s ease-in-out"
+    };
+  }
+})
+
 
 flashcardContainer.addEventListener("keydown", (event) => {
   if (event.key === "Enter" || event.key === " ") {
@@ -168,8 +213,18 @@ function shuffleArray(array) {
 }
 
 function setFlashcardIdx(idx, animate = true) {
-  if (idx < 0) return;
-  if (idx >= vocab.length) return;
+  if (idx < 0) {
+    flashcardContainer.style.opacity = ""
+    flashcardContainer.style.translate = "";
+    flashcardContainer.style.transition = "all 0.2s ease-in-out"
+    return;
+  }
+  if (idx >= vocab.length) {
+    flashcardContainer.style.opacity = ""
+    flashcardContainer.style.translate = "";
+    flashcardContainer.style.transition = "all 0.2s ease-in-out"
+    return;
+  }
 
   flashcardPrevIdx = flashcardCurrentIdx;
   flashcardCurrentIdx = idx;
