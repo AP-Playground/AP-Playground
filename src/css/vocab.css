@@ -91,7 +91,7 @@
   transform-style: preserve-3d;
   container-type: size;
   outline: none;
-  touch-action: pinch-zoom pan-y;
+  touch-action: pan-y pinch-zoom;
   &:focus-visible > div {
     outline: 1px auto black;
     outline-offset: 1px;

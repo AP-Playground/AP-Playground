@@ -111,11 +111,10 @@ function loadCard({term, link, definition, image}, animate) {
 }
 
 let mouseX;
-let mouseY;
 let mousingFlashcard = false;
+let flipFlashcard = true;
 flashcardContainer.addEventListener("pointerdown", (e) => {
   mouseX = e.clientX;
-  mouseY = e.clientY;
   mousingFlashcard = true;
   flashcardContainer.style.transition = "";
 })
@@ -127,6 +126,7 @@ document.addEventListener("pointermove", (e) => {
     const opacity = Math.max(1 - Math.abs(displacement)*2.5 / screenWidth, 0.1)
     flashcardContainer.style.translate = offset + "px";
     flashcardContainer.style.opacity = opacity;
+    if (Math.abs(displacement) > screenWidth / 50) flipFlashcard = false;
   }
 })
 document.addEventListener("pointerup", (e) => {
@@ -135,25 +135,23 @@ document.addEventListener("pointerup", (e) => {
 
     const dist = e.clientX - mouseX
     const screenWidth = window.screen.width;
-    if (Math.abs(dist) > screenWidth / 50) {
-      flipFlashcard = false;
-      if (Math.abs(dist) > screenWidth / 15) {
-        if (dist > 0) setFlashcardIdx(flashcardCurrentIdx - 1)
-        if (dist < 0) setFlashcardIdx(flashcardCurrentIdx + 1)
-      }
+    if (Math.abs(dist) > screenWidth / 15) {
+      if (dist > 0) setFlashcardIdx(flashcardCurrentIdx - 1)
+      if (dist < 0) setFlashcardIdx(flashcardCurrentIdx + 1)
     } else {
-      flashcardContainer.classList.toggle("front")
-    }
-    if (Math.abs(dist) <= screenWidth / 15) {
       flashcardContainer.style.opacity = ""
       flashcardContainer.style.translate = "";
       flashcardContainer.style.transition = "all 0.2s ease-in-out"
-    };
+    }
+    
+    if (flipFlashcard) flashcardContainer.classList.toggle("front")
+    else flipFlashcard = true;
   }
 })
 document.addEventListener("pointercancel", () => {
   if (mousingFlashcard) {
     mousingFlashcard = false;
+    flipFlashcard = true;
     flashcardContainer.style.opacity = ""
     flashcardContainer.style.translate = "";
     flashcardContainer.style.transition = "all 0.2s ease-in-out"
