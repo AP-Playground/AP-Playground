@@ -100,7 +100,7 @@ body {
     transition: opacity 0.3s ease-in-out;
   }
   width: var(--side-nav-width);
-  box-shadow: 0 calc(max(100lvh,100vh) - 100dvh) var(--theme-10);
+  box-shadow: 0 calc(100lvh - 100dvh) var(--theme-10);
   transition: width 0.3s ease-in-out;
 }
 
@@ -315,7 +315,7 @@ html.side-nav-closed {
   pointer-events: none;
   position: absolute;
   top: 0;
-  height: max(100vh, 100lvh);
+  height: 100lvh;
   width: 100vw;
   background-color: #0007;
   z-index: -1;
@@ -362,6 +362,7 @@ html.side-nav-closed {
     left: calc(var(--side-nav-width) - 5px);
     width: calc(100% - var(--side-nav-width) + 5px);
     height: 100dvh;
+    box-shadow: 0 calc(100lvh - 100dvh) white;
   }
   & h1, & h2 {
     margin: 0;

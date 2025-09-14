@@ -68,7 +68,7 @@
 }
 
 .flashcard-block.flashcard-block {
-  max-height: 100vh;
+  max-height: 100lvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
