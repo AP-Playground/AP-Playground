@@ -66,3 +66,12 @@ util.getAllFiles(imagesDir).forEach(image => {
   const destPath = join("images", image);
   util.copyFile(srcPath, destPath)
 })
+
+
+// copy resources from src/resources to public/resources
+const resourcesDir = resolve("src/resources")
+util.getAllFiles(resourcesDir).forEach(resource => {
+  const srcPath = join(resourcesDir, resource)
+  const destPath = join("resources", resource);
+  util.copyFile(srcPath, destPath)
+})

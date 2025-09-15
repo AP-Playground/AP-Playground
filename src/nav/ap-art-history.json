@@ -5,43 +5,53 @@
   "data": {
     "unit-1": {
       "title": "Global Prehistory",
-      "prefix": "Unit 1"
+      "prefix": "Unit 1",
+      "suffix": "30,000–500 BCE"
     },
     "unit-2": {
       "title": "Ancient Mediterranean",
-      "prefix": "Unit 2"
+      "prefix": "Unit 2",
+      "suffix": "3500 BCE–300 CE"
     },
     "unit-3": {
       "title": "Early Europe and Colonial America",
-      "prefix": "Unit 3"
+      "prefix": "Unit 3",
+      "suffix": "200–1750 CE"
     },
     "unit-4": {
       "title": "Later Europe and Americas",
-      "prefix": "Unit 4"
+      "prefix": "Unit 4",
+      "suffix": "1750–1980 CE"
     },
     "unit-5": {
       "title": "Indigenous Americas",
-      "prefix": "Unit 5"
+      "prefix": "Unit 5",
+      "suffix": "1000 BCE–1980 CE"
     },
     "unit-6": {
       "title": "Africa",
-      "prefix": "Unit 6"
+      "prefix": "Unit 6",
+      "suffix": "1100–1980 CE"
     },
     "unit-7": {
       "title": "West and Central Asia",
-      "prefix": "Unit 7"
+      "prefix": "Unit 7",
+      "suffix": "500 BCE–1980 CE"
     },
     "unit-8": {
       "title": "South, East, and Southeast Asia",
-      "prefix": "Unit 8"
+      "prefix": "Unit 8",
+      "suffix": "300 BCE–1980 CE"
     },
     "unit-9": {
       "title": "The Pacific",
-      "prefix": "Unit 9"
+      "prefix": "Unit 9",
+      "suffix": "700–1980 CE"
     },
     "unit-10": {
       "title": "Global Contemporary",
-      "prefix": "Unit 10"
+      "prefix": "Unit 10",
+      "suffix": "1980 CE to Present"
     } 
   }
 }

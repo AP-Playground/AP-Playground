@@ -99,7 +99,7 @@ export function nav(path) {
       for (const [unitSlug, unit] of Object.entries(navData.data)) {
         const unitLink = "/" + navData.slug + "/" + unitSlug
         tabContent.push(`<li class="item"><a href="${unitLink}"${path === unitLink ? " aria-current='page'" : ""}>${unit.prefix + ": " + unit.title}</a></li>`)
-        if (pathSegments[1]===unitSlug) {
+        if (pathSegments[1]===unitSlug && navData.data[unitSlug].hasOwnProperty("data")) {
           for (const [lessonSlug, lesson] of Object.entries(navData.data[unitSlug].data)) {
             const lessonLink = "/"+navData.slug+"/"+unitSlug+"/"+lessonSlug
             tabContent.push(`<li class="sub-item"><a href="${lessonLink}"${pathSegments[2] === lessonSlug ? " aria-current='page'" : ""}>${lesson.prefix + ": " + lesson.title}</a></li>`)
