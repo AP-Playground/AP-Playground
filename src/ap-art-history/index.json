@@ -1,0 +1,35 @@
+{
+  "summary": "The Advanced Placement Art History course gives a detailed look at cultures and regions across the world through the art they have produced. Currently, our course contains PDF documents with pictures of every piece from the 250 suggested works (accessible on unit pages), and several useful practice games. If you're looking for specific information on the course and the individual artworks, please look through the additional resources linked below.",
+  "games": [
+    {
+      "title": "Vocab Review",
+      "link": "vocab-review"
+    },
+    {
+      "title": "Matching",
+      "link": "matching"
+    }
+  ],
+  "links": [
+    {
+      "title": "College Board | AP Art History",
+      "link": "https://apstudents.collegeboard.org/courses/ap-art-history"
+    },
+    {
+      "title": "College Board | AP Art History Playlist",
+      "link": "https://www.youtube.com/playlist?list=PLoGgviqq4845ilZSK5ENeLQXNRTwKG09I"
+    },
+    {
+      "title": "Smart History | AP Art History Guide",
+      "link": "https://smarthistory.org/curated-guide/ap-art-history/"
+    },
+    {
+      "title": "Khan Academy | AP Art History (same as Smart History)",
+      "link": "https://www.khanacademy.org/humanities/ap-art-history"
+    },
+    {
+      "title": "Crash Course | Art History",
+      "link": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtMg4YXg6jCIDMbHUDaHDXXZ"
+    }
+  ]
+}

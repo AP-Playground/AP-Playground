@@ -1,4 +1,11 @@
 .courses-container {
+  & .content-block {
+    display: flex;
+    flex-direction: column;
+  }
+  & .content-block h3 {
+    margin-top: auto;
+  }
   & .hidden {
     display: none;
   }

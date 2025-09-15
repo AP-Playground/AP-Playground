@@ -1,0 +1,47 @@
+{
+  "slug": "ap-art-history",
+  "title": "AP Art History",
+  "ced": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf",
+  "data": {
+    "unit-1": {
+      "title": "Global Prehistory",
+      "prefix": "Unit 1"
+    },
+    "unit-2": {
+      "title": "Ancient Mediterranean",
+      "prefix": "Unit 2"
+    },
+    "unit-3": {
+      "title": "Early Europe and Colonial America",
+      "prefix": "Unit 3"
+    },
+    "unit-4": {
+      "title": "Later Europe and Americas",
+      "prefix": "Unit 4"
+    },
+    "unit-5": {
+      "title": "Indigenous Americas",
+      "prefix": "Unit 5"
+    },
+    "unit-6": {
+      "title": "Africa",
+      "prefix": "Unit 6"
+    },
+    "unit-7": {
+      "title": "West and Central Asia",
+      "prefix": "Unit 7"
+    },
+    "unit-8": {
+      "title": "South, East, and Southeast Asia",
+      "prefix": "Unit 8"
+    },
+    "unit-9": {
+      "title": "The Pacific",
+      "prefix": "Unit 9"
+    },
+    "unit-10": {
+      "title": "Global Contemporary",
+      "prefix": "Unit 10"
+    } 
+  }
+}

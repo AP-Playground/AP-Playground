@@ -36,7 +36,8 @@ examDatesTemp.forEach(el1 => {
 
 // set up global courses data
 export const courses = [
-  { title: "AP Biology", slug: "ap-biology" }
+  { title: "AP Biology", slug: "ap-biology" },
+  { title: "AP Art History", slug: "ap-art-history" }
 ]
 
 const courseTitles = {}

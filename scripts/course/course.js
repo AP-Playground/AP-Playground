@@ -18,8 +18,8 @@ export function upload(path, title, nav) {
   const examDate = "<h3>" + global.examDate(title) + "</h3>";
   page += templates.block(title, `<p>${data.summary}</p>`+examDate, true)
 
-  const quickLinks = Object.entries(nav.data).map(([lessonSlug, lesson]) => 
-    `<li><a href="${path}/${lessonSlug}">${lesson.prefix}</a></li>`
+  const quickLinks = Object.entries(nav.data).map(([unitSlug, unit]) => 
+    `<li><a href="${path}/${unitSlug}">${unit.prefix}</a></li>`
   )
   page += `<ul class="quick-links">` + quickLinks.join("") + "</ul>"
 

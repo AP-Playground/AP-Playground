@@ -22,10 +22,12 @@ export function upload(path, title, nav) {
     const ced = `<sup>(<a target="_blank" href="${global.ced(pathSegments[0])}">${global.courseTitle(pathSegments[0])} CED</a>)</sup>`
     page += templates.block(title, data.summary + ced, true);
     
-    const quickLinks = Object.entries(nav.data).map(([unitSlug, unit]) => 
-      `<li><a href="${path}/${unitSlug}">${unit.prefix}</a></li>`
-    )
-    page += `<ul class="quick-links">` + quickLinks.join("") + "</ul>"
+    if (nav.hasOwnProperty("data")) {
+      const quickLinks = Object.entries(nav.data).map(([lessonSlug, lesson]) => 
+        `<li><a href="${path}/${lessonSlug}">${lesson.prefix}</a></li>`
+      )
+      page += `<ul class="quick-links">` + quickLinks.join("") + "</ul>"
+    }
     
     const gameText = data["games"].map(i => `<li><a target="_blank" href="${i.link}">${i.title}</a></li>`)
     const gameBlock = templates.block("Games:", `<ul class="link-list">${gameText.join("")}</ul>`);
