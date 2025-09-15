@@ -115,7 +115,7 @@
 .flashcard-back {
   position: absolute;
   height: 100cqh;
-  aspect-ratio: 16/9;
+  width: calc(100cqh * 16/9);
   border-radius: 10px;
   background: white;
   box-shadow: 0 0 10px -5px black;
