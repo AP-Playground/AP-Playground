@@ -114,6 +114,7 @@ let mouseX;
 let mousingFlashcard = false;
 let flipFlashcard = true;
 flashcardContainer.addEventListener("pointerdown", (e) => {
+  if (e.pointerType === "mouse" && e.button !== 0) return;
   mouseX = e.clientX;
   mousingFlashcard = true;
   flashcardContainer.style.transition = "";
