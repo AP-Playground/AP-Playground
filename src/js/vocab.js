@@ -124,7 +124,9 @@ document.addEventListener("pointermove", (e) => {
     const screenWidth = window.screen.width;
     const displacement = e.clientX - mouseX;
     const offset = Math.sqrt(Math.abs(displacement)) * Math.sign(displacement);
-    const opacity = Math.max(1 - Math.abs(displacement)*2.5 / screenWidth, 0.1)
+    let opacity = Math.max(1 - Math.abs(displacement)*2.5 / screenWidth, 0.1)
+    if (displacement < 0 && flashcardCurrentIdx === vocab.length - 1) opacity = 1; 
+    if (displacement > 0 && flashcardCurrentIdx === 0) opacity = 1; 
     flashcardContainer.style.translate = offset + "px";
     flashcardContainer.style.opacity = opacity;
     if (Math.abs(displacement) > screenWidth / 50) flipFlashcard = false;
