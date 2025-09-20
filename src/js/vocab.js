@@ -61,16 +61,17 @@ if (vocab.length <= 1) flashcardNext.disabled = true;
 
 function loadCard({term, link, definition, image}, animate) {
   let anim;
-  const duration = 200 * animate * Math.sqrt(flashcardContainer.style.opacity);
+  const curOpacity = flashcardContainer.style.opacity || 1;
+  const duration = 200 * animate;
   if (flashcardPrevIdx >= flashcardCurrentIdx) {
     anim = flashcardContainer.animate([
-      {transform: "", opacity: flashcardContainer.style.opacity},
+      {transform: "", opacity: curOpacity},
       {transform: "rotateY(-5deg) translateX(7px) translateZ(-20px)", opacity: 0}
     ], { duration: duration, easing: easing })
   } else {
     anim = flashcardContainer.animate([
-      {transform: "", opacity: flashcardContainer.style.opacity},
-      {transform: "rotateY(5deg) translateX(-7px) translateZ(20px)", opacity: 0}
+      {transform: "", opacity: curOpacity},
+      {transform: "rotateY(5deg) translateX(-7px) translateZ(-20px)", opacity: 0}
     ], { duration: duration, easing: easing })
   }
   flashcardContainer.style.opacity = ""
@@ -98,12 +99,12 @@ function loadCard({term, link, definition, image}, animate) {
     if (!animate) return;
     if (flashcardPrevIdx >= flashcardCurrentIdx) {
       flashcardContainer.animate([
-        {transform: "rotateY(10deg) translateX(-15px) translateZ(-40px)", opacity: 0.25},
+        {transform: "rotateY(10deg) translateX(-15px) translateZ(-40px)", opacity: 0},
         {transform: ""}
       ], { duration: 400, easing: easing })
     } else {
       flashcardContainer.animate([
-        {transform: "rotateY(-10deg) translateX(15px) translateZ(-40px)", opacity: 0.25},
+        {transform: "rotateY(-10deg) translateX(15px) translateZ(-40px)", opacity: 0},
         {transform: ""}
       ], { duration: 400, easing: easing })
     }
