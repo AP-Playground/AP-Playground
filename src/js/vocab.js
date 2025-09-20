@@ -61,7 +61,7 @@ if (vocab.length <= 1) flashcardNext.disabled = true;
 
 function loadCard({term, link, definition, image}, animate) {
   let anim;
-  const duration = 200 * animate
+  const duration = 200 * animate * Math.sqrt(flashcardContainer.style.opacity);
   if (flashcardPrevIdx >= flashcardCurrentIdx) {
     anim = flashcardContainer.animate([
       {transform: "", opacity: flashcardContainer.style.opacity},
@@ -98,12 +98,12 @@ function loadCard({term, link, definition, image}, animate) {
     if (!animate) return;
     if (flashcardPrevIdx >= flashcardCurrentIdx) {
       flashcardContainer.animate([
-        {transform: "rotateY(10deg) translateX(-15px) translateZ(-40px)", opacity: 0},
+        {transform: "rotateY(10deg) translateX(-15px) translateZ(-40px)", opacity: 0.25},
         {transform: ""}
       ], { duration: 400, easing: easing })
     } else {
       flashcardContainer.animate([
-        {transform: "rotateY(-10deg) translateX(15px) translateZ(-40px)", opacity: 0},
+        {transform: "rotateY(-10deg) translateX(15px) translateZ(-40px)", opacity: 0.25},
         {transform: ""}
       ], { duration: 400, easing: easing })
     }
