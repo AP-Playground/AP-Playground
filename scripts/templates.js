@@ -87,14 +87,8 @@ export function nav(path) {
     case "about":
     case "404":
     case "courses":
-    case "tools": {
-      side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
-      break;
-    }
+    case "tools":
     case "games": {
-      if (pathSegments.length === 1) {
-        side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
-      }
       break;
     }
     default: {
@@ -111,9 +105,10 @@ export function nav(path) {
         }
       }
       side += navTab(path, navData.title, `/${navData.slug}`, tabContent.join(""), transitionDuration(tabContent.length))
-
     }
   }
+  
+  side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
 
   side += `</nav></div>`
   side += `</div>`
