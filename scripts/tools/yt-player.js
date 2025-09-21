@@ -19,7 +19,7 @@ export function upload() {
 
       page += templates.block(global.toolTitle(slug), `<p>${data.description}</p><input id="url-input" type="text" placeholder="https://youtube.com/watch?v=...">`, true)
 
-      page += templates.block(templates.videoEmbed(""), `<div class="overlay">Please enter a valid Youtube video URL above</div>`, false, ["video-block"])
+      page += templates.block(templates.videoEmbed(""), `<div class="overlay">${data.instructions}</div>`, false, ["video-block"])
 
       page += `</main>`
 
