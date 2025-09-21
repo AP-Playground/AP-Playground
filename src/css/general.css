@@ -752,3 +752,12 @@ html.dark-mode {
     max-height: 75%;
   }
 }
+
+.content-block.intro-block input {
+  border: 2.5px solid var(--accent-90);
+  border-radius: 100px;
+  padding: 3px 8px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}

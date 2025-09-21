@@ -5,7 +5,7 @@ import * as global from '../global.js'
 
 export function upload() {
   const coursesData = JSON.parse(readFileSync("src/unique/courses.json", "utf-8"))
-  let page = templates.head(coursesData.title, "", ["/css/courses.css"], ["/js/courses.js"])
+  let page = templates.head(coursesData.title, "", ["/css/list.css"], ["/js/list.js"])
   page += "<body>"
   page += templates.nav("/courses");
 
@@ -15,7 +15,7 @@ export function upload() {
 
       page += "<main>"
 
-      page += templates.block(coursesData.intro.title, `<p>${coursesData.intro.content}</p><input id="course-search" type="text" placeholder="Search for a course">`, true)
+      page += templates.block(coursesData.intro.title, `<p>${coursesData.intro.content}</p><input id="list-search" type="text" placeholder="Search for a course">`, true)
 
       let temp = global.courses.map(({title, slug}) => {
         let header = `<div class="split-header">`
@@ -27,7 +27,7 @@ export function upload() {
         return templates.block(header, content)
       })
       temp.push(templates.block(`<p>${coursesData["no-match"]}</p>`, "", false, ["hidden"]))
-      page += templates.doubleBlock(temp.join(""), ["courses-container"])
+      page += templates.doubleBlock(temp.join(""), ["list-container"])
 
       page += `</main>`
 

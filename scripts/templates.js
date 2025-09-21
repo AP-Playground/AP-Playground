@@ -75,6 +75,9 @@ export function nav(path) {
   side += navTab(path, "Courses", "/courses", global.navCourses, transitionDuration(global.courses.length))
   side += navTab(path, "Games", "/games", 'Games are not supported at this time', transitionDuration(1))
 
+  const navTools = global.tools.map(({title, slug}) => `<li class="item"><a href="/tools/${slug}" ${path === "/tools/" + slug ? " aria-current='page'" : ""}>${title}</a></li>`).join("")
+  side += navTab(path, "Tools", "/tools", navTools, transitionDuration(global.tools.length))
+
   side += `<hr class="side-nav-divider">`
 
   const pathSegments = path.split("/")
@@ -87,7 +90,8 @@ export function nav(path) {
       side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
       break;
     }
-    case "games": {
+    case "games":
+    case "tools": {
       if (pathSegments.length === 1) {
         side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
       }
@@ -163,6 +167,13 @@ export function header(path) {
     }
     case "games": {
       breadcrumb.push(["Home","/"],["Games","/games"])
+      break;
+    }
+    case "tools": {
+      breadcrumb.push(["Home","/"],["Tools","/tools"])
+      if (pathSegments.length > 1) {
+        breadcrumb.push([global.toolTitle(pathSegments[1]),`/${pathSegments[1]}`])
+      }
       break;
     }
     default: {
@@ -267,7 +278,7 @@ export function video({title, link, more = false, download = false, filename = f
   }
 }
 
-function videoEmbed(link) {
+export function videoEmbed(link) {
   return `<iframe class="video-embed" src="https://www.youtube-nocookie.com/embed/${link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 }
 

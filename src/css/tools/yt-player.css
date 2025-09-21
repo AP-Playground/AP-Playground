@@ -1,0 +1,19 @@
+.content-block.video-block {
+  position: relative;
+  overflow: hidden;
+  & .overlay {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  &.active .overlay {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
