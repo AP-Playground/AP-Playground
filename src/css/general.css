@@ -223,6 +223,7 @@ html.side-nav-closed {
     border-radius: 50%;
     aspect-ratio: 1;
     margin-block: 2px;
+    height: calc(100% - 4px);
     rotate: -90deg;
     transition: rotate 0.5s ease-in-out, filter 0.1s linear;
     cursor: pointer;

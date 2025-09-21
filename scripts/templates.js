@@ -86,12 +86,12 @@ export function nav(path) {
     case "":
     case "about":
     case "404":
-    case "courses": {
+    case "courses":
+    case "tools": {
       side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
       break;
     }
-    case "games":
-    case "tools": {
+    case "games": {
       if (pathSegments.length === 1) {
         side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
       }
