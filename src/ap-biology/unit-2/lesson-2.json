@@ -3,31 +3,44 @@
   "vocab": [
     {
       "term": "Surface area",
-      "link": "https://en.wikipedia.org/wiki/Surface_area"
+      "link": "https://en.wikipedia.org/wiki/Surface_area",
+      "definition": "The total area of the outer surfaces of a three-dimensional object, measured in square units",
+      "image": "/images/ap-biology/unit-2/surface-area.svg"
     },
     {
       "term": "Volume",
-      "link": "https://en.wikipedia.org/wiki/Volume"
+      "link": "https://en.wikipedia.org/wiki/Volume",
+      "definition": "The amount of three-dimensional space an object occupies, measured in cubic units",
+      "image": "/images/ap-biology/unit-2/volume.svg"
     },
     {
       "term": "Surface area to volume ratio",
-      "link": "https://en.wikipedia.org/wiki/Surface-area-to-volume_ratio"
+      "link": "https://en.wikipedia.org/wiki/Surface-area-to-volume_ratio",
+      "definition": "Calculated by dividing an object’s volume by its surface ratio, with smaller objects having a higher SA:V ratio",
+      "image": "/images/ap-biology/unit-2/SA-to-V-ratio.svg"
     },
     {
       "term": "Membrane folds",
-      "link": "https://en.wikipedia.org/wiki/Cell_membrane"
+      "link": "https://en.wikipedia.org/wiki/Cell_membrane",
+      "definition": "Folds within membranes of cells and cellular organelles, allowing for increased surface area in the same amount of volume"
     },
     {
       "term": "Cristae",
-      "link": "https://en.wikipedia.org/wiki/Crista"
+      "link": "https://en.wikipedia.org/wiki/Crista",
+      "definition": "Folds in the inner membrane of a mitochondrion, the organelle responsible for cellular energy production, that increase surface area to maximize ATP synthesis via cellular respiration",
+      "image": "https://t3.ftcdn.net/jpg/15/57/55/64/360_F_1557556486_HIUoxm3GPI2KHb4x7uSjLKSR8A8OHZ8D.jpg"
     },
     {
       "term": "Cilia",
-      "link": "https://en.wikipedia.org/wiki/Cilium"
+      "link": "https://en.wikipedia.org/wiki/Cilium",
+      "definition": "A short microscopic hairlike vibrating structure found in large numbers on the surface of certain cells, either causing currents in the surrounding fluid or providing propulsion",
+      "image": "https://blogs.bcm.edu/wp-content/uploads/2019/12/Figure_B23_02_02-cell-with-cilia.png"
     },
     {
       "term": "Vesicles",
-      "link": "https://en.wikipedia.org/wiki/Vesicle"
+      "link": "https://en.wikipedia.org/wiki/Vesicle",
+      "definition": "A small fluid-filled bladder, sac, cyst, or vacuole within the body",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Liposome_scheme-en.svg/1200px-Liposome_scheme-en.svg.png"
     }
   ],
   "links": [

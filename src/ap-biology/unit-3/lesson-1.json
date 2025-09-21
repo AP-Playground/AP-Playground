@@ -57,7 +57,7 @@
       "image": "https://www.chem.ucla.edu/~harding/IGOC/E/exergonic01.png"
     },
     {
-      "term": "Catabolic",
+      "term": "Catabolic reactions",
       "link": "https://en.wikipedia.org/wiki/Catabolism",
       "definition": "Reactions which break down large, complex molecules into smaller, simpler ones, releasing energy in the process",
       "image": "https://www.i-pathways.org/public/sampleLesson/science/images/catabolism.gif"
@@ -74,7 +74,7 @@
       "image": "https://www.chem.ucla.edu/~harding/IGOC/E/endergonic01.png"
     },
     {
-      "term": "Anabolic",
+      "term": "Anabolic reactions",
       "link": "https://en.wikipedia.org/wiki/Anabolism",
       "definition": "Reactions which combine small, simple molecules into larger, complex ones, storing energy in the process",
       "image": "https://antranik.org/wp-content/uploads/2024/10/anabolism.gif"

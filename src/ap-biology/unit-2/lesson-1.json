@@ -3,95 +3,136 @@
   "vocab": [
     {
       "term": "Cell",
-      "link": "https://en.wikipedia.org/wiki/Cell_(biology)"
+      "link": "https://en.wikipedia.org/wiki/Cell_(biology)",
+      "definition": "The fundamental biological unit of all living organisms, consisting of a membrane, DNA, a cytoplasm, and ribosomes",
+      "image": "/images/ap-biology/unit-2/prokaryotic-eukaryotic.svg"
     },
     {
       "term": "Prokaryotic Cells",
-      "link": "https://en.wikipedia.org/wiki/Prokaryote"
+      "link": "https://en.wikipedia.org/wiki/Prokaryote",
+      "definition": "Simple cells which contain a single circular strand of DNA, a cytoplasm, ribosomes, and a membrane, but lack compartmentalized organization",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Prokaryote_cell.svg"
     },
     {
       "term": "Eukaryotic Cells",
-      "link": "https://en.wikipedia.org/wiki/Eukaryote"
+      "link": "https://en.wikipedia.org/wiki/Eukaryote",
+      "definition": "A complex cell characterized by the presence of a membrane-bound nucleus, linear chromosomes, and other membrane-bound organelles",
+      "image": "https://media1.shmoop.com/images/biology/biobook_eukaryotes_graphik_2.png"
     },
     {
       "term": "Cell Membrane",
-      "link": "https://en.wikipedia.org/wiki/Cell_membrane"
+      "link": "https://en.wikipedia.org/wiki/Cell_membrane",
+      "definition": "The outer boundary of all cells, separating the cell's interior from its environment, which is semipermeable"
     },
     {
       "term": "Cytoplasm",
-      "link": "https://en.wikipedia.org/wiki/Cytoplasm"
+      "link": "https://en.wikipedia.org/wiki/Cytoplasm",
+      "definition": "The entire content within a cell's outer membrane, excluding the nucleus in eukaryotic cells",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqBY1YfqSI7UQZlyB-9KB1-g1zZYfutaAXCg&s"
     },
     {
       "term": "Cytosol",
-      "link": "https://en.wikipedia.org/wiki/Cytosol"
+      "link": "https://en.wikipedia.org/wiki/Cytosol",
+      "definition": "The aqueous component of the cytoplasm of a cell"
     },
     {
       "term": "Cytoskeleton",
-      "link": "https://en.wikipedia.org/wiki/Cytoskeleton"
+      "link": "https://en.wikipedia.org/wiki/Cytoskeleton",
+      "definition": "A network of protein filaments and microtubules within a eukaryotic cell that provides structural support, maintains cell shape, and facilitates cell movement and intracellular transport",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8HWPdgedW1rw1Y_FYNJ0vYoNjtqyIAXNTG2sN5ejJDvKDmrsSZSKBA5FHXVDMo8D4OIbfWKVdC3mOErjptEldSy-l6LiVkD0RRZs-QhZrLmVTYbisb7HQfyqNc9ehI_vOzqX_KhCRzjA/s764/structure+and+function+of+cytoskeleton.PNG"
     },
     {
       "term": "Cell wall",
-      "link": "https://en.wikipedia.org/wiki/Cell_wall"
+      "link": "https://en.wikipedia.org/wiki/Cell_wall",
+      "definition": "A rigid or strong outer layer found in plants, fungi, bacteria, algae, and archaea, but not in animal cells, which provides structural support, protection, and shape to the cell",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240410144547/Cell-Wall.png"
     },
     {
       "term": "Ribosome",
-      "link": "https://en.wikipedia.org/wiki/Ribosome"
+      "link": "https://en.wikipedia.org/wiki/Ribosome",
+      "definition": "A molecular machine found in all living cells that synthesizes proteins, consisting of a large and small subunit made of rRNA and proteins",
+      "image": "https://www.thoughtco.com/thmb/zEQcqaxVq_H1ikt41aFA-q0eRK0=/1500x0/filters:no_upscale%28%29:max_bytes%28150000%29:strip_icc%28%29/ribosome_lrg_sm_subunits-23b46a3be6354c4eacb550b25fa3c69d.jpg"
     },
     {
       "term": "Organelles",
-      "link": "https://en.wikipedia.org/wiki/Organelle"
+      "link": "https://en.wikipedia.org/wiki/Organelle",
+      "definition": "Specialized, membrane-bound structures within eukaryotic cells that perform specific functions necessary for the cell's survival"
     },
     {
       "term": "Nucleus",
-      "link": "https://en.wikipedia.org/wiki/Cell_nucleus"
+      "link": "https://en.wikipedia.org/wiki/Cell_nucleus",
+      "definition": "The central part of a eukaryotic cell, containing DNA and controlling cell activities",
+      "image": "/images/ap-biology/unit-2/nucleus.svg"
     },
     {
       "term": "Nuclear envelope",
-      "link": "https://en.wikipedia.org/wiki/Nuclear_envelope"
+      "link": "https://en.wikipedia.org/wiki/Nuclear_envelope",
+      "definition": "The membrane surrounding the nucleus within a eukaryotic cell through which mRNA and ribosomes pass"
     },
     {
       "term": "Endomembrane System",
-      "link": "https://en.wikipedia.org/wiki/Protein_production"
+      "link": "https://en.wikipedia.org/wiki/Protein_production",
+      "definition": "A network of membranes and organelles within eukaryotic cells that modify, package, and transport lipids and proteins",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Endomembrane_system_diagram_en.svg/1200px-Endomembrane_system_diagram_en.svg.png"
     },
     {
       "term": "Smooth Endoplasmic Reticulum",
-      "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Smooth_endoplasmic_reticulum"
+      "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Smooth_endoplasmic_reticulum",
+      "definition": "A network of membrane-bound tubules within eukaryotic cells that lacks ribosomes, giving it a smooth appearance which synthesizes lipids and detoxifies drugs",
+      "image": "https://www.genome.gov/sites/default/files/tg/en/illustration/endoplasmic_reticulum_smooth.jpg"
     },
     {
       "term": "Rough Endoplasmic Reticulum",
-      "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Rough_endoplasmic_reticulum"
+      "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Rough_endoplasmic_reticulum",
+      "definition": "A network of tubules in eukaryotic cells that contains ribosomes and functions in the synthesis and modification of proteins destined for secretion",
+      "image": "https://www.genome.gov/sites/default/files/tg/en/illustration/endoplasmic_reticulum_rough.jpg"
     },
     {
       "term": "Golgi Apparatus",
-      "link": "https://en.wikipedia.org/wiki/Golgi_apparatus"
+      "link": "https://en.wikipedia.org/wiki/Golgi_apparatus",
+      "definition": "A cellular organelle in eukaryotic cells that functions as a \"post office\" for modifying, sorting, and packaging proteins and lipids for delivery to their destinations",
+      "image": "https://cdn.britannica.com/52/116252-050-A1D8E92B/Golgi-apparatus-complex-modification-proteins-role-cell.jpg"
     },
     {
       "term": "Lysosome",
-      "link": "https://en.wikipedia.org/wiki/Lysosome"
+      "link": "https://en.wikipedia.org/wiki/Lysosome",
+      "definition": "An organelle in the cytoplasm of eukaryotic cells containing degradative enzymes enclosed in a membrane",
+      "image": "/images/ap-biology/unit-2/lysosome.svg"
     },
     {
       "term": "Vacuole",
-      "link": "https://en.wikipedia.org/wiki/Vacuole"
+      "link": "https://en.wikipedia.org/wiki/Vacuole",
+      "definition": "A space or vesicle within the cytoplasm of a cell, enclosed by a membrane and typically containing fluid",
+      "image": "/images/ap-biology/unit-2/vacuole.svg"
     },
     {
       "term": "Large Central Vacuole",
-      "link": "https://en.wikipedia.org/wiki/Vacuole#Central"
+      "link": "https://en.wikipedia.org/wiki/Vacuole#Central",
+      "definition": "A significant, fluid-filled organelle in plant cells that serves multiple functions, including storage of water, nutrients, and waste products, and structural support",
+      "image": "https://www.sciencefacts.net/wp-content/uploads/2021/06/Vacuole.jpg"
     },
     {
       "term": "Transport vesicle",
-      "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Transport_vesicles"
+      "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Transport_vesicles",
+      "definition": "Membrane-bound sacs that move molecules, such as proteins and lipids, between organelles within a eukaryotic cell or to the plasma membrane for secretion"
     },
     {
       "term": "Secretory vesicles",
-      "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Secretory_vesicles"
+      "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Secretory_vesicles",
+      "definition": "A small, membrane-bound sac within a cell that contains materials, such as hormones, enzymes, or neurotransmitters, to be secreted outside the cell",
+      "image": "https://microbenotes.com/wp-content/uploads/2019/04/Secretory-Vesicles.jpg"
     },
     {
       "term": "Mitochondria",
-      "link": "https://en.wikipedia.org/wiki/Mitochondrion"
+      "link": "https://en.wikipedia.org/wiki/Mitochondrion",
+      "definition": "Organelle responsible for generating most of the chemical energy (ATP) needed to power a cell's biochemical reactions by converting food and oxygen into cellular energy",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Animal_mitochondrion_diagram_en.svg"
     },
     {
       "term": "Chloroplast",
-      "link": "https://en.wikipedia.org/wiki/Chloroplast"
+      "link": "https://en.wikipedia.org/wiki/Chloroplast",
+      "definition": "An organelle in plant and algae cells that carries out photosynthesis, converting light energy into chemical energy in the form of sugars",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230613112446/Chloroplast.webp"
     }
   ],
   "links": [

@@ -3,19 +3,27 @@
   "vocab": [
     {
       "term": "Selective permeability",
-      "link": "https://en.wikipedia.org/wiki/Semipermeable_membrane"
+      "link": "https://en.wikipedia.org/wiki/Semipermeable_membrane",
+      "definition": "Describes the property of the cell membrane to allow some molecules or ions to pass through while preventing others, maintaining the cell’s internal balance",
+      "image": "/images/ap-biology/unit-2/permeability.svg"
     },
     {
       "term": "Phospholipid",
-      "link": "https://en.wikipedia.org/wiki/Phospholipid"
+      "link": "https://en.wikipedia.org/wiki/Phospholipid",
+      "definition": "Lipids which contain a hydrophilic head and hydrophobic tail and make up cell membranes",
+      "image": "/images/ap-biology/unit-2/phospholipid.svg"
     },
     {
       "term": "Cell Wall",
-      "link": "https://en.wikipedia.org/wiki/Cell_wall"
+      "link": "https://en.wikipedia.org/wiki/Cell_wall",
+      "definition": "A rigid or strong outer layer found in plants, fungi, bacteria, algae, and archaea, but not in animal cells, which provides structural support, protection, and shape to the cell",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240410144547/Cell-Wall.png"
     },
     {
       "term": "Plasmodesmata",
-      "link": "https://en.wikipedia.org/wiki/Plasmodesma"
+      "link": "https://en.wikipedia.org/wiki/Plasmodesma",
+      "definition": "Channels in land plant and algal cell walls that connect the cytoplasm of neighboring cells, allowing for direct transport and communication of molecules like sugars, ions, and proteins",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Plasmodesmata_en.svg/960px-Plasmodesmata_en.svg.png"
     }
   ],
   "links": [

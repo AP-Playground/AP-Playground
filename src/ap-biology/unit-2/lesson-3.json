@@ -3,39 +3,54 @@
   "vocab": [
     {
       "term": "Fluid mosaic model",
-      "link": "https://en.wikipedia.org/wiki/Fluid_mosaic_model"
+      "link": "https://en.wikipedia.org/wiki/Fluid_mosaic_model",
+      "definition": "Describes the cell membrane as a dynamic structure composed of a lipid bilayer with embedded proteins, carbohydrates, and cholesterol, where components are in constant, fluid motion",
+      "image": "/images/ap-biology/unit-2/fluid-mosaic-model.svg"
     },
     {
       "term": "Phospholipid",
-      "link": "https://en.wikipedia.org/wiki/Phospholipid"
+      "link": "https://en.wikipedia.org/wiki/Phospholipid",
+      "definition": "Lipids which contain a hydrophilic head and hydrophobic tail and make up cell membranes",
+      "image": "/images/ap-biology/unit-2/phospholipid.svg"
     },
     {
       "term": "Bilayer",
-      "link": "https://en.wikipedia.org/wiki/Lipid_bilayer"
+      "link": "https://en.wikipedia.org/wiki/Lipid_bilayer",
+      "definition": "Structure of all biological membranes, consisting of two layers of phospholipid molecules arranged with their hydrophilic heads facing outward and their hydrophobic tails facing inward",
+      "image": "https://blog.cambridgecoaching.com/hubfs/Eden-5.png"
     },
     {
       "term": "Membrane proteins",
-      "link": "https://en.wikipedia.org/wiki/Membrane_protein"
+      "link": "https://en.wikipedia.org/wiki/Membrane_protein",
+      "definition": "Specialized proteins that are embedded in or associated with the cell membrane that play roles in cell structure, signaling, and transport",
+      "image": "https://ib.bioninja.com.au/img/membrane%20proteins1.webp"
     },
     {
       "term": "Integral membrane protein",
-      "link": "https://en.wikipedia.org/wiki/Integral_membrane_protein"
+      "link": "https://en.wikipedia.org/wiki/Integral_membrane_protein",
+      "definition": "Proteins embedded into the phospholipid bilayer that have hydrophobic and hydrophilic regions and which pass through the entire membrane (also called transmembrane proteins)"
     },
     {
       "term": "Peripheral membrane protein",
-      "link": "https://en.wikipedia.org/wiki/Peripheral_membrane_protein"
+      "link": "https://en.wikipedia.org/wiki/Peripheral_membrane_protein",
+      "definition": "Proteins attached to the surface of the phospholipid bilayer that are not embedded into it and only face one side of the membrane"
     },
     {
       "term": "Glycoproteins",
-      "link": "https://en.wikipedia.org/wiki/Glycoprotein"
+      "link": "https://en.wikipedia.org/wiki/Glycoprotein",
+      "definition": "A protein with one or more carbohydrate chains, often located on the surface of the phospholipid bilayer, playing a crucial role in cell signaling, recognition, and the immune system"
     },
     {
       "term": "Glycolipids",
-      "link": "https://en.wikipedia.org/wiki/Glycolipid"
+      "link": "https://en.wikipedia.org/wiki/Glycolipid",
+      "definition": "A molecule consisting of a lipid and carbohydrate, located on the surface of the phospholipid bilayer, playing a crucial role in cell signaling, recognition, and the immune system",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Glycolipid.svg/500px-Glycolipid.svg.png"
     },
     {
       "term": "Cholesterol",
-      "link": "https://en.wikipedia.org/wiki/Cholesterol"
+      "link": "https://en.wikipedia.org/wiki/Cholesterol",
+      "definition": "The principal steroid; used in animal cell membranes",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cholesterol.svg"
     }
   ],
   "links": [

@@ -3,63 +3,85 @@
   "vocab": [
     {
       "term": "Osmosis",
-      "link": "https://en.wikipedia.org/wiki/Osmosis"
+      "link": "https://en.wikipedia.org/wiki/Osmosis",
+      "definition": "The net movement of water molecules across a semipermeable membrane from an area of higher water concentration (lower solute) to lower water concentration (higher solute)",
+      "image": "https://www.priyamstudycentre.com/wp-content/uploads/2022/09/Osmosis-and-osmotic-pressure-definition-process-and-examples-of-the-movement-or-diffusion-of-solvent.png"
     },
     {
       "term": "Tonicity",
-      "link": "https://en.wikipedia.org/wiki/Tonicity"
+      "link": "https://en.wikipedia.org/wiki/Tonicity",
+      "definition": "A solution's ability to influence the movement of water into or out of a cell through osmosis"
     },
     {
       "term": "Isotonic",
-      "link": "https://en.wikipedia.org/wiki/Tonicity#Isotonicity"
+      "link": "https://en.wikipedia.org/wiki/Tonicity#Isotonicity",
+      "definition": "Any external solution with the same solute and water concentrations than the aqueous solutions of cells, resulting in dynamic equilibrium"
     },
     {
       "term": "Normal Cell",
-      "link": "https://en.wikipedia.org/wiki/Tonicity"
+      "link": "https://en.wikipedia.org/wiki/Tonicity",
+      "definition": "An animal cell in an isotonic solution",
+      "image": "/images/ap-biology/unit-2/normal-cell.svg"
     },
     {
       "term": "Flaccid Cell",
-      "link": "https://en.wikipedia.org/wiki/File:Turgor_pressure_on_plant_cells_diagram.svg"
+      "link": "https://en.wikipedia.org/wiki/File:Turgor_pressure_on_plant_cells_diagram.svg",
+      "definition": "A plant cell in an isotonic solution",
+      "image": "/images/ap-biology/unit-2/flaccid-cell.svg"
     },
     {
       "term": "Hypertonic",
-      "link": "https://en.wikipedia.org/wiki/Tonicity#Hypertonic_solution"
+      "link": "https://en.wikipedia.org/wiki/Tonicity#Hypertonic_solution",
+      "definition": "Any external solution with a higher solute and lower water concentration than the aqueous solutions of cells, resulting in movement of water outside of the cell"
     },
     {
       "term": "Shriveled Cell",
-      "link": "https://en.wikipedia.org/wiki/Tonicity"
+      "link": "https://en.wikipedia.org/wiki/Tonicity",
+      "definition": "An animal cell in a hypertonic solution",
+      "image": "/images/ap-biology/unit-2/shriveled-cell.svg"
     },
     {
       "term": "Plasmolyzed Cell",
-      "link": "https://en.wikipedia.org/wiki/File:Turgor_pressure_on_plant_cells_diagram.svg"
+      "link": "https://en.wikipedia.org/wiki/File:Turgor_pressure_on_plant_cells_diagram.svg",
+      "definition": "A plant cell in a hypertonic solution",
+      "image": "/images/ap-biology/unit-2/plasmolyzed-cell.svg"
     },
     {
       "term": "Hypotonic",
-      "link": "https://en.wikipedia.org/wiki/Tonicity#Hypotonic_solution"
+      "link": "https://en.wikipedia.org/wiki/Tonicity#Hypotonic_solution",
+      "definition": "Any external solution with a lower solute and higher water concentration than the aqueous solutions of cells, resulting in movement of water into the cell"
     },
     {
       "term": "Lysed Cell",
-      "link": "https://en.wikipedia.org/wiki/Tonicity"
+      "link": "https://en.wikipedia.org/wiki/Tonicity",
+      "definition": "An animal cell in a hypotonic solution",
+      "image": "/images/ap-biology/unit-2/lysed-cell.svg"
     },
     {
       "term": "Turgid Cell",
-      "link": "https://en.wikipedia.org/wiki/File:Turgor_pressure_on_plant_cells_diagram.svg"
+      "link": "https://en.wikipedia.org/wiki/File:Turgor_pressure_on_plant_cells_diagram.svg",
+      "definition": "A plant cell in a hypotonic solution",
+      "image": "/images/ap-biology/unit-2/turgid-cell.svg"
     },
     {
       "term": "Water potential",
-      "link": "https://en.wikipedia.org/wiki/Water_potential"
+      "link": "https://en.wikipedia.org/wiki/Water_potential",
+      "definition": "A measure of the potential energy of water that determines its tendency to move from one area to another, with water always flowing from a region of higher to lower water potential"
     },
     {
       "term": "Solute potential",
-      "link": "https://en.wikipedia.org/wiki/Osmotic_pressure"
+      "link": "https://en.wikipedia.org/wiki/Osmotic_pressure",
+      "definition": "The effect of dissolved solutes on the water potential of a solution, and water moves from areas of higher solute potential to lower solute potential (opposite of solute concentration)"
     },
     {
       "term": "Contractile vacuoles",
-      "link": "https://en.wikipedia.org/wiki/Contractile_vacuole"
+      "link": "https://en.wikipedia.org/wiki/Contractile_vacuole",
+      "definition": "A specialized cellular organelle that functions in osmoregulation by collecting and expelling excess water from the cell to maintain its water balance and prevent bursting"
     },
     {
       "term": "Aquaporins",
-      "link": "https://en.wikipedia.org/wiki/Aquaporin"
+      "link": "https://en.wikipedia.org/wiki/Aquaporin",
+      "definition": "Channel proteins that act as water channels, selectively facilitating the rapid transport of water across cell membranes to maintain water homeostasis and osmotic balance in cells and tissues"
     }
   ],
   "links": [

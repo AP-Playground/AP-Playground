@@ -3,51 +3,72 @@
   "vocab": [
     {
       "term": "Concentration gradient",
-      "link": "https://en.wikipedia.org/wiki/Fick%27s_laws_of_diffusion"
+      "link": "https://en.wikipedia.org/wiki/Fick%27s_laws_of_diffusion",
+      "definition": "Occurs when there is a difference in concentration of a substance between two regions, and the substance will move from areas of high concentration to low until equilibrium is reached",
+      "image": "/images/ap-biology/unit-2/concentration-gradient.svg"
     },
     {
       "term": "Dynamic equilibrium",
-      "link": "https://en.wikipedia.org/wiki/Dynamic_equilibrium_(chemistry)"
+      "link": "https://en.wikipedia.org/wiki/Dynamic_equilibrium_(chemistry)",
+      "definition": "The state where opposing biological processes occur at equal rates, resulting in no net change in the system, even though individual components are constantly changing and moving"
     },
     {
       "term": "Diffusion",
-      "link": "https://en.wikipedia.org/wiki/Diffusion"
+      "link": "https://en.wikipedia.org/wiki/Diffusion",
+      "definition": "The net movement of particles from an area of higher concentration to an area of lower concentration (following the concentration gradient), driven by the random motion of molecules",
+      "image": "https://study.com/cimages/multimages/16/4b3f4934-d318-4a65-a6ed-4a6342ef259c_diffusion.jpg"
     },
     {
       "term": "Passive transport",
-      "link": "https://en.wikipedia.org/wiki/Passive_transport"
+      "link": "https://en.wikipedia.org/wiki/Passive_transport",
+      "definition": "The movement of molecules across a membrane from an area of high concentration to an area of low concentration, without the cell expending its own energy"
     },
     {
       "term": "Simple diffusion",
-      "link": "https://en.wikipedia.org/wiki/Molecular_diffusion"
+      "link": "https://en.wikipedia.org/wiki/Molecular_diffusion",
+      "definition": "The passive movement of small, uncharged molecules from an area of high to low concentration directly through a cell's membrane, without the use of energy or transport proteins",
+      "image": "/images/ap-biology/unit-2/simple-diffusion.svg"
     },
     {
       "term": "Facilitated diffusion",
-      "link": "https://en.wikipedia.org/wiki/Facilitated_diffusion"
+      "link": "https://en.wikipedia.org/wiki/Facilitated_diffusion",
+      "definition": "A type of passive transport in which molecules move across a cell membrane through transport proteins (channels or carriers) down their concentration gradient, without additional energy",
+      "image": "https://old-ib.bioninja.com.au/_Media/facilitated-diffusion_med.jpeg"
     },
     {
       "term": "Active transport",
-      "link": "https://en.wikipedia.org/wiki/Active_transport"
+      "link": "https://en.wikipedia.org/wiki/Active_transport",
+      "definition": "The cellular process of moving molecules across a cell membrane against their concentration gradient, requiring cellular energy, typically in the form of ATP, to drive the process",
+      "image": "https://cdn1.byjus.com/wp-content/uploads/2017/10/Active-Transport.png"
     },
     {
       "term": "Endocytosis",
-      "link": "https://en.wikipedia.org/wiki/Endocytosis"
+      "link": "https://en.wikipedia.org/wiki/Endocytosis",
+      "definition": "An active transport process where a cell uses its plasma membrane to engulf and internalize particles, such as large molecules, by forming membrane-bound vesicles",
+      "image": "https://www.thoughtco.com/thmb/JDiGKKh0ELap9fca0ech9NzJyQ8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/endocytosis_pinocytosis-5ad652db1f4e130038c4847b.jpg"
     },
     {
       "term": "Phagocytosis",
-      "link": "https://en.wikipedia.org/wiki/Phagocytosis"
+      "link": "https://en.wikipedia.org/wiki/Phagocytosis",
+      "definition": "The process of phagocytes engulfing or ingesting cells to destroy them, a form of active transport",
+      "image": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20250522.165258/resources/e8fb42186f3bc73ba73d4bec3be8b6f30de96386"
     },
     {
       "term": "Pinocytosis",
-      "link": "https://en.wikipedia.org/wiki/Pinocytosis"
+      "link": "https://en.wikipedia.org/wiki/Pinocytosis",
+      "definition": "An active transport process where a cell uses its plasma membrane to engulf and internalize particles liquids and small molecules, by forming membrane-bound vesicles"
     },
     {
       "term": "Receptor-mediated endocytosis",
-      "link": "https://en.wikipedia.org/wiki/Receptor-mediated_endocytosis"
+      "link": "https://en.wikipedia.org/wiki/Receptor-mediated_endocytosis",
+      "definition": "A cellular process where specific molecules bind to cell-surface receptors, triggering the cell to engulf the receptor-ligand complex into a membrane-bound vesicle for internal transport",
+      "image": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1087/2017/02/01234001/Figure_05_04_03ab.jpg"
     },
     {
       "term": "Exocytosis",
-      "link": "https://en.wikipedia.org/wiki/Exocytosis"
+      "link": "https://en.wikipedia.org/wiki/Exocytosis",
+      "definition": "The biological process where membrane-bound vesicles inside a cell fuse with the cell's outer membrane, releasing their contents to the exterior",
+      "image": "https://www.thoughtco.com/thmb/MrkQqfDN0VNmlLT3VsaxNnLUFgU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/exocytosis_process-5ae370b4a9d4f900373c9b48.jpg"
     }
   ],
   "links": [
