@@ -39,10 +39,10 @@
   }
   & > .vocab-content-container {
     background: linear-gradient(to left, transparent, var(--theme-10) 30px);
-    padding-right: 20px;
     height: 100%;
-    display: grid;
-    align-content: center;
+    &:not(:last-child) {  
+      padding-right: 20px;
+    }
     & > p {
       margin-bottom: 0;
     }
