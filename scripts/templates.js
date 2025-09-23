@@ -89,6 +89,7 @@ export function nav(path) {
     case "courses":
     case "tools":
     case "games": {
+      side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
       break;
     }
     default: {
@@ -107,8 +108,6 @@ export function nav(path) {
       side += navTab(path, navData.title, `/${navData.slug}`, tabContent.join(""), transitionDuration(tabContent.length))
     }
   }
-  
-  side += `<img src="/icons/favicon.svg" class="side-nav-back-img">`
 
   side += `</nav></div>`
   side += `</div>`
@@ -118,10 +117,10 @@ export function nav(path) {
 function navTab(path, title, link, content = "", duration = 0) {
   const pathSegments = path.split("/");
   pathSegments.shift()
-  let temp = `<div class="side-nav-tab${("/" + pathSegments[0]) === link && content ? " open" : ""}">`;
+  let temp = `<div class="side-nav-tab${("/" + pathSegments[0]) === link && content ? " open" : ""}" style="--duration: ${duration}">`;
   if (content) {
     temp += `<div class="accordion-header"><h2><a href="${link}"${path === link ? " aria-current='page'" : ""}>${title}</a></h2><button class="accordion-btn"><div></div></button></div>`
-    temp += `<div class="accordion-content" style="transition-duration: ${duration}">`
+    temp += `<div class="accordion-content">`
     temp += `<div>`
     temp += `<hr><ul>`
     temp += content;
