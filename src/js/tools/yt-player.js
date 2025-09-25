@@ -2,6 +2,10 @@ const regex = /(?:youtube\.com\/(?:watch\?v=|embed\/|v\/|shorts\/)|youtu\.be\/)(
 const videoPlayer = document.querySelector(".video-block .video-embed")
 const videoBlock = document.querySelector(".video-block")
 
+const videoControls = document.querySelector(".module-controls")
+const videoFullscreen = videoControls.querySelector(".fullscreen")
+const videoLink = videoControls.querySelector(".copy-link");
+
 const urlInput = document.getElementById("url-input");
 const loadUrl = new URL(window.location.href)
 const loadParams = loadUrl.searchParams;
@@ -12,6 +16,7 @@ if (loadParams.has("v")) {
   urlInput.value = "www.youtube.com/watch?v=" + v;
   videoLoad(v)
   toggleFullscreen(videoBlock, null, false)
+  videoFullscreen.classList.toggle("active")
 }
 
 urlInput.addEventListener("input", (e) => {
@@ -35,14 +40,7 @@ function videoLoad(url) {
   videoBlock.classList.add("active")
   videoPlayer.src = "https://www.youtube-nocookie.com/embed/" + url + "?enablejsapi=1";
   prevURL = url
-  const currentUrl = new URL(window.location.href); const params = currentUrl.searchParams; params.set("v", url);
-  const newUrl = currentUrl.pathname + "?" + params.toString() + currentUrl.hash
-  window.history.pushState({path: newUrl}, "", newUrl)
 }
-
-const videoControls = document.querySelector(".module-controls")
-const videoFullscreen = videoControls.querySelector(".fullscreen")
-const videoLink = videoControls.querySelector(".copy-link");
 
 videoFullscreen.addEventListener("click", () => {
   videoFullscreen.classList.toggle("active");
@@ -52,7 +50,10 @@ videoFullscreen.addEventListener("click", () => {
 
 videoLink.addEventListener("click", () => {
   const currentUrl = new URL(window.location.href);
-  copyToClipboard(currentUrl.toString())
+  const params = currentUrl.searchParams;
+  params.set("v", prevURL);
+  const newUrl = currentUrl.origin + currentUrl.pathname + "?" + params.toString() + currentUrl.hash
+  copyToClipboard(newUrl)
 })
 
 
