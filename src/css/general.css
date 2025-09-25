@@ -352,13 +352,12 @@ html.side-nav-closed {
     border-color: var(--accent-90);
   }
   & .content-block.fullscreen {
-    --width: calc(100vw - var(--side-nav-width));
     transition: all .3s ease-in-out;
     position: absolute;
     border-radius: 0;
     top: 0;
     left: calc(var(--side-nav-width) - 5px);
-    width: calc(100% - var(--side-nav-width) + 5px);
+    width: calc(100vw - var(--side-nav-width) + 5px);
     height: 100dvh;
     box-shadow: 0 calc(100lvh - 100dvh) white;
   }
@@ -679,9 +678,8 @@ sup {
     }
   }
   .page-wrapper .content-block.fullscreen {
-    --width: 100vw;
     left: 0;
-    width: 100%;
+    width: 100vw;
   }
   .side-nav-background {
     opacity: 1;

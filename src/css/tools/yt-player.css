@@ -1,6 +1,9 @@
 .content-block.video-block {
+  box-sizing: border-box;
   position: relative;
   overflow: hidden;
+  display: grid;
+  align-content: center;
   & .overlay {
     position: absolute;
     inset: 0;
@@ -15,5 +18,11 @@
   &.active .overlay {
     opacity: 0;
     pointer-events: none;
+  }
+}
+
+.module-controls {
+  .copy-link:active {
+    filter: invert(0.75);
   }
 }
