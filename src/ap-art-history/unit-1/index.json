@@ -26,12 +26,25 @@
     {
       "title": "Smart History | Glossary for Global Prehistory",
       "link": "https://smarthistory.org/glossary-for-ap-content-area-1-global-prehistory"
+    },
+    {
+      "title": "Global Prehistory Playlist",
+      "link": "https://www.youtube.com/playlist?list=PLMOjZCDQaeVizC6k14eY7piTmY2SB7BfN"
     }
   ],
   "videos": [
     {
-      "title": "",
-      "link": ""
+      "title": "Accessible Art History | Global Prehistory #1-5",
+      "link": "6MhC9oiFI54"
+    },
+    {
+      "title": "Accessible Art History | Global Prehistory #6-11",
+      "link": "Oq8vCR-zfV0"
+    },
+    {
+      "title": "Fleet's AP Art History | Global Prehistory",
+      "link": "Fk28wWprm4A",
+      "more": true
     }
   ]
 }
