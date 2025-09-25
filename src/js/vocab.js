@@ -38,7 +38,7 @@ const flashcardTitle = flashcardContainer.querySelector(".flashcard-front h2")
 const flashcardText = flashcardContainer.querySelector(".flashcard-back p")
 const flashcardImage = flashcardContainer.querySelector(".flashcard-back img")
 
-const flashcardControls = flashcardBlock.querySelector(".flashcard-controls")
+const flashcardControls = flashcardBlock.querySelector(".module-controls")
 const flashcardShuffle = flashcardControls.querySelector(".shuffle")
 const flashcardSwap = flashcardControls.querySelector(".swap")
 const flashcardPrev = flashcardControls.querySelector(".prev")
