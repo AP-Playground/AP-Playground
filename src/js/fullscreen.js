@@ -1,6 +1,6 @@
 const fullscreenPlaceholder = document.createElement("div");
 let fullscreened = false;
-function toggleFullscreen(block, btn) {
+function toggleFullscreen(block, btn, transition = true) {
   fullscreened = !fullscreened;
 
   block.ontransitionend = (e) => {
@@ -8,6 +8,26 @@ function toggleFullscreen(block, btn) {
   };
 
   const styles = block.style;
+
+  if (!transition) {
+    if (fullscreened) {
+      block.classList.add("fullscreen")
+      block.insertAdjacentElement("beforebegin", fullscreenPlaceholder);
+      pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = i !== block})
+      styles.zIndex = 1;
+    } else {
+      block.classList.remove("fullscreen")
+      fullscreenPlaceholder.remove();
+      pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = false})
+      styles.zIndex = "";
+    }
+    styles.transition = "none"
+    block.getBoundingClientRect();
+    styles.transition = "";
+    return;
+  }
+
+
   if (fullscreened) {
     styles.zIndex = 1;
     const {top, left, width, height} = block.getBoundingClientRect();
@@ -56,7 +76,7 @@ function toggleFullscreen(block, btn) {
 
 function fullscreenTransition(block, btn) {
   pageWrapper.inert = false;
-  if(btn && document.activeElement === document.body) btn.focus()
+  if (btn && document.activeElement === document.body) btn.focus()
   if (fullscreened) {
     block.style.transition = "left 0.3s ease-in-out, width 0.3s ease-in-out, padding 0.3s ease-in-out";
   } else {

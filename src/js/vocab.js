@@ -205,10 +205,8 @@ flashcardNext.addEventListener("click", () => {
 })
 
 flashcardMaximize.addEventListener("click", () => {
-  requestAnimationFrame(() => {
-    flashcardMaximize.classList.toggle("active");
-    toggleFullscreen(flashcardBlock, flashcardMaximize)
-  })
+  flashcardMaximize.classList.toggle("active");
+  toggleFullscreen(flashcardBlock, flashcardMaximize)
 })
 
 function shuffleArray(array) {
