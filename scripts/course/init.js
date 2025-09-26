@@ -15,7 +15,7 @@ export function uploadCourse({title, slug}) {
     if (existsSync(`src/${slug}/${unitSlug}/index.json`)) {
       unitPage.upload(`/${slug}/${unitSlug}`, unit.prefix + ": " + unit.title, unit)
     }
-    if (!nav.data[unitSlug].hasOwnProperty("data")) break;
+    if (!nav.data[unitSlug].hasOwnProperty("data")) continue;
     for (const [lessonSlug, lesson] of Object.entries(nav.data[unitSlug].data)) {
       if (existsSync(`src/${slug}/${unitSlug}/${lessonSlug}.json`)) {
         lessonPage.upload(`/${slug}/${unitSlug}/${lessonSlug}`, lesson.prefix + ": " + lesson.title)
