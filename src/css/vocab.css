@@ -61,19 +61,14 @@
 
 .flashcard-block.flashcard-block {
   max-height: 100lvh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   perspective: 3000px;
   box-sizing: border-box;
 }
 
-.flashcard-block.fullscreen {
-  padding-inline: max(15px, calc((var(--width) - 135ch) / 2));
-}
-
 .flashcard {
   position: relative;
+  width: 100%;
+  max-width: var(--main-width);
   min-height: 0;
   aspect-ratio: 16/9;
   display: grid;
@@ -147,12 +142,5 @@
     box-sizing: border-box;
     -webkit-user-drag: none;
     -moz-user-drag: none;
-  }
-}
-
-
-@media (max-width: 500px) {
-  .flashcard-block.flashcard-block {
-    padding: 3vw;
   }
 }

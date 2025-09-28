@@ -1,3 +1,11 @@
+:has(> .module-controls) {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (pointer: fine) and (hover: hover) {
   .module-controls {
     & > div > button:not([disabled]):hover {
@@ -11,6 +19,8 @@
 
 .module-controls {
   margin-top: 10px;
+  max-width: var(--main-width);
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   justify-content: space-evenly;

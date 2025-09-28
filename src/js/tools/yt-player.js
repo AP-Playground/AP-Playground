@@ -17,6 +17,9 @@ if (loadParams.has("v")) {
   videoLoad(v)
   toggleFullscreen(videoBlock, null, false)
   videoFullscreen.classList.toggle("active")
+  if (!html.classList.contains("side-nav-closed")) {
+    toggleSideNav()
+  }
 }
 
 urlInput.addEventListener("input", (e) => {

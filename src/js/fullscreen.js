@@ -23,7 +23,7 @@ function toggleFullscreen(block, btn, transition = true) {
     }
     styles.transition = "none"
     block.getBoundingClientRect();
-    styles.transition = "";
+    styles.transition = "left 0.3s ease-in-out, width 0.3s ease-in-out, padding 0.3s ease-in-out";
     return;
   }
 

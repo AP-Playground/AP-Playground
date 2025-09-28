@@ -1,9 +1,11 @@
 .content-block.video-block {
   box-sizing: border-box;
   position: relative;
-  overflow: hidden;
-  display: grid;
-  align-content: center;
+  & iframe {
+    max-width: var(--main-width);
+    width: auto;
+    min-height: 0;
+  }
   & .overlay {
     position: absolute;
     inset: 0;
