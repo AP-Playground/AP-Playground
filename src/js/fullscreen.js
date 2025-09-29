@@ -23,18 +23,18 @@ function toggleFullscreen(block, btn, transition = true) {
     }
     styles.transition = "none"
     block.getBoundingClientRect();
-    styles.transition = "left 0.3s ease-in-out, width 0.3s ease-in-out, padding 0.3s ease-in-out";
+    styles.transition = "";
     return;
   }
 
 
   if (fullscreened) {
     styles.zIndex = 1;
-    const {top, left, width, height} = block.getBoundingClientRect();
+    const {top, left, bottom, right, height} = block.getBoundingClientRect();
     styles.top = top + "px";
     styles.left = left + "px";
-    styles.width = width + "px";
-    styles.height = height + "px";
+    styles.right = (window.innerWidth - right) + "px";
+    styles.bottom = (window.innerHeight - bottom) + "px";
 
     block.classList.add("fullscreen")
     fullscreenPlaceholder.style.height = height + "px";
@@ -43,8 +43,8 @@ function toggleFullscreen(block, btn, transition = true) {
     requestAnimationFrame(() => {
       styles.top = ""
       styles.left = ""
-      styles.width = "";
-      styles.height = "";
+      styles.right = "";
+      styles.bottom = "";
       pageWrapper.inert = true;
     })
     pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = i !== block})
@@ -54,7 +54,7 @@ function toggleFullscreen(block, btn, transition = true) {
     fullscreenPlaceholder.style.display = "none";
     styles.transition = "none";
     block.classList.remove("fullscreen")
-    const {top, left, width, height} = block.getBoundingClientRect();
+    const {top, left, bottom, right, height} = block.getBoundingClientRect();
 
     fullscreenPlaceholder.style.height = height + "px";
     fullscreenPlaceholder.style.display = "";
@@ -66,8 +66,8 @@ function toggleFullscreen(block, btn, transition = true) {
       block.classList.remove("fullscreen")
       styles.top = top + "px";
       styles.left = left + "px";
-      styles.width = width + "px";
-      styles.height = height + "px";
+      styles.right = (window.innerWidth - right) + "px";
+      styles.bottom = (window.innerHeight - bottom) + "px";
       pageWrapper.inert = true;
     })
     pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = false})
@@ -78,7 +78,7 @@ function fullscreenTransition(block, btn) {
   pageWrapper.inert = false;
   if (btn && document.activeElement === document.body) btn.focus()
   if (fullscreened) {
-    block.style.transition = "left 0.3s ease-in-out, width 0.3s ease-in-out, padding 0.3s ease-in-out";
+    block.style.transition = "";
   } else {
     fullscreenPlaceholder.remove();
 
@@ -86,8 +86,8 @@ function fullscreenTransition(block, btn) {
     block.style.position = "";
     block.style.top = "";
     block.style.left = "";
-    block.style.width = "";
-    block.style.height = "";
+    block.style.bottom = "";
+    block.style.right = "";
     block.style.zIndex = "";
   }
 }
