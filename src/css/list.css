@@ -15,10 +15,9 @@
     overflow: hidden;
     aspect-ratio: 16/9;
     isolation: isolate;
-    background-color: transparent;
     & > :not(:last-child) {
-      box-shadow: 0 0 15px 15px color-mix(in srgb, var(--theme-10), transparent 30%);
-      background: color-mix(in srgb, var(--theme-10), transparent 30%);
+      box-shadow: 0 0 15px 15px color-mix(in srgb, var(--theme-10), transparent 25%);
+      background: color-mix(in srgb, var(--theme-10), transparent 25%);
     }
     & .background-image {
       position: absolute;
@@ -28,6 +27,8 @@
       z-index: -1;
       opacity: 0.5;
       pointer-events: none;
+      object-fit: contain;
+      filter: blur(4px);
     }
   }
 }
