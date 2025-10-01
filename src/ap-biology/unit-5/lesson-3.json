@@ -3,51 +3,70 @@
   "vocab": [
     {
       "term": "Dominant Alleles",
-      "link": "https://en.wikipedia.org/wiki/Allele"
+      "link": "https://en.wikipedia.org/wiki/Allele",
+      "definition": "A version of a gene that expresses its trait in an individual's phenotype even when only one copy of the allele is present (denoted by a capital letter)"
     },
     {
       "term": "Recessive Alleles",
-      "link": "https://en.wikipedia.org/wiki/Allele"
+      "link": "https://en.wikipedia.org/wiki/Allele",
+      "definition": "A version of a gene that expresses its trait in an individual's phenotype only when both copies of the allele are present, and the individual has no dominant alleles (denoted by a lowercase letter)"
     },
     {
       "term": "Homozygous",
-      "link": "https://en.wikipedia.org/wiki/Zygosity#Homozygous"
+      "link": "https://en.wikipedia.org/wiki/Zygosity#Homozygous",
+      "definition": "Having inherited the same alleles of a genomic marker from each biological parent, meaning two identical copies of the allele within the individual"
     },
     {
       "term": "Heterozygous",
-      "link": "https://en.wikipedia.org/wiki/Zygosity#Heterozygous"
+      "link": "https://en.wikipedia.org/wiki/Zygosity#Heterozygous",
+      "definition": "Having inherited different alleles of a genomic marker from each biological parent, meaning each allele within the individual will be different"
     },
     {
       "term": "Punnett Square",
-      "link": "https://en.wikipedia.org/wiki/Punnett_square"
+      "link": "https://en.wikipedia.org/wiki/Punnett_square",
+      "definition": "A genetics tool that uses a simple grid to predict the potential genotypes (alleles) and phenotypes (observable traits) of offspring from a genetic cross",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Punnett_Square_%28Green_Dominant%29.svg/250px-Punnett_Square_%28Green_Dominant%29.svg.png"
     },
     {
       "term": "Law of Segregation",
-      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_segregation_of_genes"
+      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_segregation_of_genes",
+      "definition": "Principle of Mendelian genetics stating that the two alleles of an individual for a given gene separate during the formation of gametes, ensuring that each gamete receives only one allele",
+      "image": "https://cdn-ildfibj.nitrocdn.com/qaWeLntkRcyxNUcEoWbLpZLQkcgLFsiJ/assets/images/optimized/www.biologyonline.com/wp-content/uploads/2019/10/Law-of-Segregation-gametes-diagram.jpg"
     },
     {
       "term": "Test Cross",
-      "link": "https://en.wikipedia.org/wiki/Test_cross"
+      "link": "https://en.wikipedia.org/wiki/Test_cross",
+      "definition": "A genetic experiment to determine if an individual with a dominant phenotype has a homozygous dominant or heterozygous genotype by crossing it with a recessive individual",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Punnett_Square_Test_Cross.PNG"
     },
     {
       "term": "Monohybrid Cross",
-      "link": "https://en.wikipedia.org/wiki/Monohybrid_cross"
+      "link": "https://en.wikipedia.org/wiki/Monohybrid_cross",
+      "definition": "A genetics cross between two individuals that differ in only one trait",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Monohybrid_Punnett_Square_%28Aa_x_Aa%29.png"
     },
     {
       "term": "Law of Independent Assortment",
-      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_independent_assortment"
+      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_independent_assortment",
+      "definition": "Principle of Mendelian genetics stating that alleles for different genes segregate independently of one another during gamete formation",
+      "image": "https://humanoriginproject.com/wp-content/uploads/2018/11/mendels-law-independent-assortment.jpg"
     },
     {
       "term": "Dihybrid Cross",
-      "link": "https://en.wikipedia.org/wiki/Dihybrid_cross"
+      "link": "https://en.wikipedia.org/wiki/Dihybrid_cross",
+      "definition": "A genetic cross between two individuals that differ in two traits, resulting in a 9:3:3:1 phenotypic ratio in the F2 generation when crossing heterozygous individuals",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Dihybrid_cross.svg"
     },
     {
       "term": "Chi-Square Test",
-      "link": "https://en.wikipedia.org/wiki/Chi-squared_test"
+      "link": "https://en.wikipedia.org/wiki/Chi-squared_test",
+      "definition": "A statistical method for determining if there is a significant difference between an observed frequency distribution and an expected one",
+      "image": "https://www.simplypsychology.org/wp-content/uploads/chi-squared-equation.png"
     },
     {
       "term": "Null hypothesis",
-      "link": "https://en.wikipedia.org/wiki/Null_hypothesis"
+      "link": "https://en.wikipedia.org/wiki/Null_hypothesis",
+      "definition": "A statement that there is no significant effect, relationship, or difference between variables in a population; the default assumption within an experiment"
     }
   ],
   "links": [

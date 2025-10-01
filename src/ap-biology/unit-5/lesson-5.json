@@ -3,11 +3,15 @@
   "vocab": [
     {
       "term": "Polygenic inheritance",
-      "link": "https://en.wikipedia.org/wiki/Polygene"
+      "link": "https://en.wikipedia.org/wiki/Polygene",
+      "definition": "A type of genetic inheritance where a single trait is influenced by multiple genes, rather than just one gene",
+      "image": "https://microbenotes.com/wp-content/uploads/2023/08/Polygenic-Inheritance.jpeg"
     },
     {
       "term": "Phenotypic plasticity",
-      "link": "https://en.wikipedia.org/wiki/Phenotypic_plasticity"
+      "link": "https://en.wikipedia.org/wiki/Phenotypic_plasticity",
+      "definition": "The ability of a single genotype to produce different phenotypes (observable characteristics) in response to different environmental conditions, such as temperature, diet, or predators",
+      "image": "https://i.redd.it/e55n023ol3q11.jpg"
     }
   ],
   "links": [

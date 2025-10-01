@@ -3,71 +3,103 @@
   "vocab": [
     {
       "term": "Genes",
-      "link": "https://en.wikipedia.org/wiki/Gene"
+      "link": "https://en.wikipedia.org/wiki/Gene",
+      "definition": "Segments of DNA that carry the instructions for building proteins or functional RNA molecules, acting as the fundamental units of heredity",
+      "image": "https://medlineplus.gov/images/PX00006G_PRESENTATION.jpeg"
     },
     {
       "term": "Asexual Reproduction",
-      "link": "https://en.wikipedia.org/wiki/Asexual_reproduction"
+      "link": "https://en.wikipedia.org/wiki/Asexual_reproduction",
+      "definition": "A biological process where a single parent organism creates one or more genetically identical offspring, known as clones",
+      "image": "https://images.nagwa.com/figures/explainers/704179248472/2.svg"
     },
     {
       "term": "Sexual Reproduction",
-      "link": "https://en.wikipedia.org/wiki/Sexual_reproduction"
+      "link": "https://en.wikipedia.org/wiki/Sexual_reproduction",
+      "definition": "A biological process that produces new, genetically unique offspring by combining genetic material from two parents",
+      "image": "https://cdn.kastatic.org/ka-perseus-images/f8ad9b05ca21c5aa2074bd41bf11ca42f5aaff62.jpg"
     },
     {
       "term": "Homologous chromosomes",
-      "link": "https://en.wikipedia.org/wiki/Homologous_chromosome"
+      "link": "https://en.wikipedia.org/wiki/Homologous_chromosome",
+      "definition": "Pairs of chromosomes within a diploid cell that share the same size, shape, and gene locations, but may carry different versions (alleles) of those genes",
+      "image": "https://cdn.zmescience.com/wp-content/uploads/2023/02/image-12.png"
     },
     {
       "term": "Autosomes",
-      "link": "https://en.wikipedia.org/wiki/Autosome"
+      "link": "https://en.wikipedia.org/wiki/Autosome",
+      "definition": "Any chromosome that is not a sex chromosome",
+      "image": "https://study.com/cimages/multimages/16/autosomes1.png"
     },
     {
       "term": "Sex chromosomes",
-      "link": "https://en.wikipedia.org/wiki/Sex_chromosome"
+      "link": "https://en.wikipedia.org/wiki/Sex_chromosome",
+      "definition": "A type of chromosome involved in determining an individual's sex; in humans X or Y",
+      "image": "https://www.shalom-education.com/wp-content/uploads/2022/02/image-5.png"
     },
     {
       "term": "Somatic cells",
-      "link": "https://en.wikipedia.org/wiki/Somatic_cell"
+      "link": "https://en.wikipedia.org/wiki/Somatic_cell",
+      "definition": "Any cell of a living organism other than the reproductive cells"
     },
     {
       "term": "Gametes",
-      "link": "https://en.wikipedia.org/wiki/Gamete"
+      "link": "https://en.wikipedia.org/wiki/Gamete",
+      "definition": "A mature haploid cell which is able to unite with another of the opposite sex in sexual reproduction to form a zygote",
+      "image": "https://www.genome.gov/sites/default/files/media/images/tg/Gamete_dyn.jpg"
     },
     {
       "term": "Diploid Cell",
-      "link": "https://en.wikipedia.org/wiki/Ploidy#Diploid"
+      "link": "https://en.wikipedia.org/wiki/Ploidy#Diploid",
+      "definition": "Contains two complete sets of chromosomes, one inherited from each parent (46 chromosomes in humans)",
+      "image": "https://www.genome.gov/sites/default/files/media/images/tg/Diploid_dyn.jpg"
     },
     {
       "term": "Haploid Cell",
-      "link": "https://en.wikipedia.org/wiki/Ploidy#Haploid_and_monoploid"
+      "link": "https://en.wikipedia.org/wiki/Ploidy#Haploid_and_monoploid",
+      "definition": "Contains one complete set of chromosomes, representing half the genetic material of a typical eukaryotic cell (23 chromosomes in humans)",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_hr7ut6W3B8FTGGRfd6rv9NpnBUqQbo8qg&s"
     },
     {
       "term": "Meiosis",
-      "link": "https://en.wikipedia.org/wiki/Meiosis"
+      "link": "https://en.wikipedia.org/wiki/Meiosis",
+      "definition": "A type of cell division in sexually reproducing organisms that produces gametes with half the number of chromosomes as the parent cell, resulting in genetically unique, haploid cells",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Meiosis_Overview_new.svg/1200px-Meiosis_Overview_new.svg.png"
     },
     {
       "term": "Fertilization",
-      "link": "https://en.wikipedia.org/wiki/Fertilisation"
+      "link": "https://en.wikipedia.org/wiki/Fertilisation",
+      "definition": "The biological process where a male gamete (sperm) and a female gamete (egg) fuse to form a single cell called a zygote, initiating the development of a new individual",
+      "image": "https://www.creative-diagnostics.com/upload/image/Gametes-and-Fertilization.png"
     },
     {
       "term": "Synapsis",
-      "link": "https://en.wikipedia.org/wiki/Synapsis"
+      "link": "https://en.wikipedia.org/wiki/Synapsis",
+      "definition": "The fusion of chromosome pairs at the start of meiosis",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcKGbgfomNGw-S700mdml8muqzMpqSPxC4cw&s"
     },
     {
       "term": "Crossing over",
-      "link": "https://en.wikipedia.org/wiki/Chromosomal_crossover"
+      "link": "https://en.wikipedia.org/wiki/Chromosomal_crossover",
+      "definition": "A biological process in meiosis where homologous chromosomes exchange genetic material, creating recombinant chromosomes with a mix of genes from both parents",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGtqFdDNIJ_HX1Sv7H9J6orIwZ0BmJT9I9iA&s"
     },
     {
       "term": "Independent assortment",
-      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_independent_assortment"
+      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_independent_assortment",
+      "definition": "The randomness and separation of homologous chromosomes in meiosis 1, increasing genetic variation",
+      "image": "https://ib.bioninja.com.au/img/random%20assortment%20ipad.jpg"
     },
     {
       "term": "Random fertilization",
-      "link": "https://en.wikipedia.org/wiki/Quantitative_genetics#Random_fertilization"
+      "link": "https://en.wikipedia.org/wiki/Quantitative_genetics#Random_fertilization",
+      "definition": "The principle that any given sperm can fertilize any given egg, resulting in an enormous number of unique genetic combinations in sexually reproducing organisms"
     },
     {
       "term": "Mitosis",
-      "link": "https://en.wikipedia.org/wiki/Mitosis"
+      "link": "https://en.wikipedia.org/wiki/Mitosis",
+      "definition": "The process of cell division where one cell divides into two genetically identical daughter cells",
+      "image": "https://www.genome.gov/sites/default/files/media/images/tg/Mitosis.jpg"
     }
   ],
   "links": [

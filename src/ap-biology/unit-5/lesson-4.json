@@ -3,47 +3,65 @@
   "vocab": [
     {
       "term": "Complete dominance",
-      "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Complete_dominance_(Mendelian)"
+      "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Complete_dominance_(Mendelian)",
+      "definition": "A form of Mendelian inheritance where one allele (the dominant allele) completely masks the effect of another allele (the recessive allele) for a specific trait"
     },
     {
       "term": "Incomplete dominance",
-      "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Incomplete_dominance_(non-Mendelian)"
+      "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Incomplete_dominance_(non-Mendelian)",
+      "definition": "A genetic inheritance pattern where neither of two alleles is completely dominant or recessive, resulting in a blended or intermediate phenotype in the heterozygous individual",
+      "image": "https://cdn1.byjus.com/wp-content/uploads/2016/09/Incomplete-dominance-300x289.png"
     },
     {
       "term": "Codominance",
-      "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Co-dominance_(non-Mendelian)"
+      "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Co-dominance_(non-Mendelian)",
+      "definition": "A genetic inheritance pattern where both alleles for a trait are fully and simultaneously expressed in the phenotype of a heterozygous individual",
+      "image": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A816c108c3ca8876daa9c5cd6527b9345744ecd3b99a04fa7a6d1f9fb%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1"
     },
     {
       "term": "Multiple alleles",
-      "link": "https://en.wikipedia.org/wiki/Allele#Multiple_alleles"
+      "link": "https://en.wikipedia.org/wiki/Allele#Multiple_alleles",
+      "definition": "Three or more different versions of the same gene found within a population",
+      "image": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/2318/2016/06/01184521/Figure_08_03_03.jpg"
     },
     {
       "term": "Linked genes",
-      "link": "https://en.wikipedia.org/wiki/Genetic_linkage"
+      "link": "https://en.wikipedia.org/wiki/Genetic_linkage",
+      "definition": "Genes located on the same chromosome that tend to be inherited together due to their physical proximity, and do not independently assort",
+      "image": "https://learn-genetics.b-cdn.net/pigeons/geneticlinkage/images/linkage-5.jpg"
     },
     {
       "term": "Linkage map",
-      "link": "https://en.wikipedia.org/wiki/Genetic_linkage#Linkage_map"
+      "link": "https://en.wikipedia.org/wiki/Genetic_linkage#Linkage_map",
+      "definition": "A diagram showing the relative positions and genetic distances between genes on a chromosome, based on the frequency of recombination (crossing over) during meiosis",
+      "image": "https://www.genome.gov/sites/default/files/media/images/tg/Genetic-map.jpg"
     },
     {
       "term": "Parental type",
-      "link": "https://en.wikipedia.org/wiki/Genetic_recombination"
+      "link": "https://en.wikipedia.org/wiki/Genetic_recombination",
+      "definition": "Offspring whose allele combinations for specific genes are identical to the allele combinations of one of their parents"
     },
     {
       "term": "Recombinant type",
-      "link": "https://en.wikipedia.org/wiki/Genetic_recombination"
+      "link": "https://en.wikipedia.org/wiki/Genetic_recombination",
+      "definition": "Offspring whose allele combinations for specific genes are not identical to the allele combinations of one of their parents"
     },
     {
       "term": "Nonnuclear inheritance",
-      "link": "https://en.wikipedia.org/wiki/Mitochondrial_DNA#Mitochondrial_inheritance"
+      "link": "https://en.wikipedia.org/wiki/Mitochondrial_DNA#Mitochondrial_inheritance",
+      "definition": "The inheritance of genes from structures other than the nucleus, such as the mitochondria"
     },
     {
       "term": "Sex-linked gene",
-      "link": "https://en.wikipedia.org/wiki/Sex_linkage"
+      "link": "https://en.wikipedia.org/wiki/Sex_linkage",
+      "definition": "A gene located on one of the sex chromosomes, either the X or Y chromosome, which have unique patterns of inheritance due to the combinations of these chromosomes in different sexes",
+      "image": "https://www.pathwayz.org/Node/Image/url/aHR0cHM6Ly9pLmltZ3VyLmNvbS9lWDc4cHM0LnBuZz8x"
     },
     {
       "term": "Pedigree",
-      "link": "https://en.wikipedia.org/wiki/Pedigree_chart"
+      "link": "https://en.wikipedia.org/wiki/Pedigree_chart",
+      "definition": "A diagram of a family tree that uses standardized symbols to show relationships and the inheritance of traits or genetic diseases across generations",
+      "image": "https://cdn.britannica.com/73/72173-004-87D1E1BB/hemophilia-pedigree-chart-inheritance-trait-generations-gene.jpg"
     }
   ],
   "links": [
