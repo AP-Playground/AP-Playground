@@ -93,7 +93,7 @@ export function nav(path) {
       break;
     }
     default: {
-      const navData = JSON.parse(readFileSync(`src/nav/${pathSegments[0]}.json`))
+      const navData = JSON.parse(readFileSync(`src/${pathSegments[0]}/nav.json`))
       let tabContent = []
       for (const [unitSlug, unit] of Object.entries(navData.data)) {
         const unitLink = "/" + navData.slug + "/" + unitSlug
@@ -171,7 +171,7 @@ export function header(path) {
       break;
     }
     default: {
-      navData = JSON.parse(readFileSync(`src/nav/${pathSegments[0]}.json`))
+      navData = JSON.parse(readFileSync(`src/${pathSegments[0]}/nav.json`))
 
       breadcrumb.push([navData.title,"/" + pathSegments[0]])
 

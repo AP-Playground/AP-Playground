@@ -7,7 +7,7 @@ import * as lessonPage from './lesson.js'
 
 export function uploadCourse({title, slug}) {
   const courseDir = resolve("src/" + slug);
-  const nav = JSON.parse(readFileSync(`src/nav/${slug}.json`,"utf-8"));
+  const nav = JSON.parse(readFileSync(`src/${slug}/nav.json`,"utf-8"));
   if (existsSync(`src/${slug}/index.json`)) {
     coursePage.upload(`/${slug}`, title, nav)
   }

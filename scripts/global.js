@@ -52,7 +52,7 @@ export const navCourses = courses.map(({title, slug}) => `<li class="item"><a hr
 
 const cedLinks = {}
 for (const {title, slug} of courses) {
-  cedLinks[slug] = JSON.parse(readFileSync(`src/nav/${slug}.json`, "utf-8")).ced
+  cedLinks[slug] = JSON.parse(readFileSync(`src/${slug}/nav.json`, "utf-8")).ced
 }
 
 export function ced(course) {
