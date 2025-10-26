@@ -14,12 +14,13 @@ function breadcrumbs(...links) {
   return breadcrumbs;
 }
 
-export function head(title, description = "", stylesheets = [], scripts = []) {
+export function head(title, path, description = "", stylesheets = [], scripts = []) {
   let head = `<head>`
   head += `<meta charset="UTF-8">`
   head += `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
   head += `<title>${title} | AP Playground</title>`
   if (description) head += `<meta name="description" content="${description}">`
+  head += `<link rel="canonical" href="https://applayground.org${path}"/>`
   head += `<link rel="icon" href="/icons/favicon.png">`
   head += `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="preload stylesheet" as="style">`
   head += `<link href="/css/general.css" rel="stylesheet">`

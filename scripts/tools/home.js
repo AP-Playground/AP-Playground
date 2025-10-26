@@ -10,7 +10,7 @@ ytPlayer.upload()
 
 export function upload() {
   const toolsData = JSON.parse(readFileSync("src/tools/home.json", "utf-8"))
-  let page = templates.head(toolsData.title, "", ["/css/list.css"], ["/js/list.js"])
+  let page = templates.head(toolsData.title, "/tools", "", ["/css/list.css"], ["/js/list.js"])
   page += "<body>"
   page += templates.nav("/tools");
 

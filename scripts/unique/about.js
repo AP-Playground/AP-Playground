@@ -4,7 +4,7 @@ import * as util from '../util.js'
 
 export function upload() {
   const aboutData = JSON.parse(readFileSync("src/unique/about.json", "utf-8"))
-  let page = templates.head(aboutData.title)
+  let page = templates.head(aboutData.title, "/about")
   page += "<body>"
   page += templates.nav("/about");
 

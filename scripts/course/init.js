@@ -1,12 +1,10 @@
 import { existsSync, readFileSync } from 'fs';
-import { resolve } from 'path';
 import * as coursePage from './course.js'
 import * as unitPage from './unit.js'
 import * as lessonPage from './lesson.js'
 
 
 export function uploadCourse({title, slug}) {
-  const courseDir = resolve("src/" + slug);
   const nav = JSON.parse(readFileSync(`src/${slug}/nav.json`,"utf-8"));
   if (existsSync(`src/${slug}/index.json`)) {
     coursePage.upload(`/${slug}`, title, nav)

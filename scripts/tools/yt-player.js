@@ -7,7 +7,7 @@ const slug = 'yt-player'
 
 export function upload() {
   const data = JSON.parse(readFileSync(`src/tools/${slug}.json`, "utf-8"))
-  let page = templates.head(global.toolTitle(slug), "", [`/css/tools/${slug}.css`,"/css/module.css"], ['/js/fullscreen.js',`/js/tools/${slug}.js`])
+  let page = templates.head(global.toolTitle(slug), "/tools/" + slug, "", [`/css/tools/${slug}.css`,"/css/module.css"], ['/js/fullscreen.js',`/js/tools/${slug}.js`])
   page += "<body>"
   page += templates.nav("/tools/" + slug);
 

@@ -6,7 +6,7 @@ import * as flashcard from '../modules/flashcard.js'
 
 export function upload(path, title, vocab) {
 
-  let page = templates.head("Vocab for " + title, "", ["/css/vocab.css","/css/module.css"],["/js/vocab.js", "/js/fullscreen.js"])
+  let page = templates.head("Vocab for " + title, path + "/vocab", "", ["/css/vocab.css","/css/module.css"],["/js/vocab.js", "/js/fullscreen.js"])
   page += `<body>`
   page += templates.nav(path + "/vocab")
   page += `<div class="page-wrapper">`

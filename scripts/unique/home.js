@@ -5,7 +5,7 @@ import * as global from '../global.js'
 
 export function upload() {
   const homeData = JSON.parse(readFileSync("src/unique/home.json", "utf-8"))
-  let page = templates.head(homeData.title, "", ["/css/home.css"])
+  let page = templates.head(homeData.title, "", "", ["/css/home.css"])
   page += "<body>"
   page += templates.nav("/");
 

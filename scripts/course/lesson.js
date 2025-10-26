@@ -10,7 +10,7 @@ export function upload(path, title) {
 
   const data = JSON.parse(readFileSync(`src${path}.json`))
 
-  let page = templates.head(title)
+  let page = templates.head(title, path)
   page += `<body>`
   page += templates.nav(path)
   page += `<div class="page-wrapper">`
