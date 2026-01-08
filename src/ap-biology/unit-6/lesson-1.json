@@ -1,62 +1,7 @@
 {
   "summary": "As we begin Unit 6 and talk about gene expression, we'll start by reviewing the molecules which make it happen. Topic 6.1 discusses the structures of nucleic acids, including DNA and RNA, as preparation for topics which involve processes that manipulate these molecules.",
   "vocab": [
-    {
-      "term": "DNA",
-      "link": "https://en.wikipedia.org/wiki/DNA"
-    },
-    {
-      "term": "RNA",
-      "link": "https://en.wikipedia.org/wiki/RNA"
-    },
-    {
-      "term": "Nucleotides",
-      "link": "https://en.wikipedia.org/wiki/Nucleotide"
-    },
-    {
-      "term": "Nitrogenous base",
-      "link": "https://en.wikipedia.org/wiki/Nucleotide_base"
-    },
-    {
-      "term": "Purines",
-      "link": "https://en.wikipedia.org/wiki/Purine"
-    },
-    {
-      "term": "Pyrimidines",
-      "link": "https://en.wikipedia.org/wiki/Pyrimidine"
-    },
-    {
-      "term": "Histone proteins",
-      "link": "https://en.wikipedia.org/wiki/Histone"
-    },
-    {
-      "term": "Nucleosomes",
-      "link": "https://en.wikipedia.org/wiki/Nucleosome"
-    },
-    {
-      "term": "Chromatin",
-      "link": "https://en.wikipedia.org/wiki/Chromatin"
-    },
-    {
-      "term": "Introns",
-      "link": "https://en.wikipedia.org/wiki/Intron"
-    },
-    {
-      "term": "Exons",
-      "link": "https://en.wikipedia.org/wiki/Exon"
-    },
-    {
-      "term": "Linear chromosomes",
-      "link": "https://en.wikipedia.org/wiki/Linear_chromosome"
-    },
-    {
-      "term": "Circular chromosomes",
-      "link": "https://en.wikipedia.org/wiki/Circular_chromosome"
-    },
-    {
-      "term": "Plasmids",
-      "link": "https://en.wikipedia.org/wiki/Plasmid"
-    }
+    "dna", "rna", "nucleotide", "nitrogenousBase", "purine", "pyrimidine", "histoneProtein", "nucleosome", "chromatin", "intron", "exon", "linearChromosome", "circularChromosome", "plasmid"
   ],
   "links": [
     {

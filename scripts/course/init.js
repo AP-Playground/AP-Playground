@@ -6,6 +6,8 @@ import * as lessonPage from './lesson.js'
 
 export function uploadCourse({title, slug}) {
   const nav = JSON.parse(readFileSync(`src/${slug}/nav.json`,"utf-8"));
+  let courseVocab = null;
+  if(existsSync(`src/${slug}/vocab.json`)) courseVocab = JSON.parse(readFileSync(`src/${slug}/vocab.json`,"utf-8"))
   if (existsSync(`src/${slug}/index.json`)) {
     coursePage.upload(`/${slug}`, title, nav)
   }
@@ -16,7 +18,7 @@ export function uploadCourse({title, slug}) {
     if (!nav.data[unitSlug].hasOwnProperty("data")) continue;
     for (const [lessonSlug, lesson] of Object.entries(nav.data[unitSlug].data)) {
       if (existsSync(`src/${slug}/${unitSlug}/${lessonSlug}.json`)) {
-        lessonPage.upload(`/${slug}/${unitSlug}/${lessonSlug}`, lesson.prefix + ": " + lesson.title)
+        lessonPage.upload(`/${slug}/${unitSlug}/${lessonSlug}`, lesson.prefix + ": " + lesson.title, courseVocab)
       }
     }
   }

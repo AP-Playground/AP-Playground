@@ -1,26 +1,7 @@
 {
   "summary": "As we've already discussed in Topic 7.6, evidence for evolution exists. Topic 7.8 expands on this evidence by showing that evolution has not only occurred, but will continue to happen.",
   "vocab": [
-    {
-      "term": "Evolution",
-      "link": "https://en.wikipedia.org/wiki/Evolution"
-    },
-    {
-      "term": "Fossil record",
-      "link": "https://en.wikipedia.org/wiki/Fossil"
-    },
-    {
-      "term": "Mutations",
-      "link": "https://en.wikipedia.org/wiki/Mutation"
-    },
-    {
-      "term": "DDT resistance",
-      "link": "https://en.wikipedia.org/wiki/Pesticide_resistance"
-    },
-    {
-      "term": "Antibiotic resistance",
-      "link": "https://en.wikipedia.org/wiki/Antimicrobial_resistance"
-    }
+    "evolution", "fossilRecord", "mutation", "ddtResistance", "antibioticResistance"
   ],
   "links": [
     {

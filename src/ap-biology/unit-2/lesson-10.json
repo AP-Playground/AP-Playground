@@ -1,33 +1,7 @@
 {
   "summary": "In Topic 2.9, we discussed the principle of cell compartmentalization and how it allows for the separation of reactions in order to make them efficient. In 2.10 we'll discuss one key part of cell compartmentalization, the origin of organelle membranes.",
   "vocab": [
-    {
-      "term": "Endosymbiotic Theory",
-      "link": "https://en.wikipedia.org/wiki/Symbiogenesis",
-      "definition": "Explains that the first eukaryotic cells formed when a larger host cell engulfed, but did not digest, smaller prokaryotic cells, leading to a mutually beneficial relationship",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX_btGgoUfdKCfTBmDXjXT_C9V_5UZhfz9aw&s"
-    },
-    {
-      "term": "Ancestral Eukaryote",
-      "link": "https://en.wikipedia.org/wiki/Eukaryogenesis",
-      "definition": "A complex, single-celled protist that lived around 2 billion years ago and from which all modern eukaryotes are descended, and that evolved from prokaryotic ancestors through endosymbiosis"
-    },
-    {
-      "term": "Mitochondrial DNA",
-      "link": "https://en.wikipedia.org/wiki/Mitochondrial_DNA",
-      "definition": "The genetic material found in mitochondria, and is inherited exclusively from the mother, showing proof of the endosymbiotic theory"
-    },
-    {
-      "term": "Cyanobacteria",
-      "link": "https://en.wikipedia.org/wiki/Cyanobacteria",
-      "definition": "Photosynthetic microscopic organisms that are technically bacteria that evolved to become the modern chloroplast within eukaryotic cells following endosymbiosis",
-      "image": "https://www.deeperblue.com/wp-content/uploads/2022/12/Cyanobacteria-AdobeStock_331149980-700x644.jpeg.webp"
-    },
-    {
-      "term": "Aerobic bacteria",
-      "link": "https://en.wikipedia.org/wiki/Aerobic_organism",
-      "definition": "Microorganisms that require oxygen for their growth and metabolism that evolved to become the modern mitochondria within eukaryotic cells following endosymbiosis"
-    }
+    "endosymbioticTheory", "ancestralEukaryote", "mitochondrialDNA", "cyanobacteria", "aerobicBacteria"
   ],
   "links": [
     {

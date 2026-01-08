@@ -1,62 +1,7 @@
 {
   "summary": "Topic 7.9 looked at the evolutionary relationship between species, but how are all of these different species formed? Topic 7.10 brings us to the process of speciation and the various reproductive barriers that result in the creation of new species.",
   "vocab": [
-    {
-      "term": "Species",
-      "link": "https://en.wikipedia.org/wiki/Species"
-    },
-    {
-      "term": "Speciation",
-      "link": "https://en.wikipedia.org/wiki/Speciation"
-    },
-    {
-      "term": "Reproductive isolation",
-      "link": "https://en.wikipedia.org/wiki/Reproductive_isolation"
-    },
-    {
-      "term": "Prezygotic barriers",
-      "link": "https://en.wikipedia.org/wiki/Reproductive_isolation#Pre-zygotic_isolation"
-    },
-    {
-      "term": "Postzygotic barriers",
-      "link": "https://en.wikipedia.org/wiki/Reproductive_isolation#Post-zygotic_isolation"
-    },
-    {
-      "term": "Allopatric speciation",
-      "link": "https://en.wikipedia.org/wiki/Allopatric_speciation"
-    },
-    {
-      "term": "Sympatric speciation",
-      "link": "https://en.wikipedia.org/wiki/Sympatric_speciation"
-    },
-    {
-      "term": "Polyploidy",
-      "link": "https://en.wikipedia.org/wiki/Polyploidy"
-    },
-    {
-      "term": "Hybrid zones",
-      "link": "https://en.wikipedia.org/wiki/Hybrid_zone"
-    },
-    {
-      "term": "Divergent evolution",
-      "link": "https://en.wikipedia.org/wiki/Divergent_evolution"
-    },
-    {
-      "term": "Adaptive radiation",
-      "link": "https://en.wikipedia.org/wiki/Adaptive_radiation"
-    },
-    {
-      "term": "Punctuated equilibrium",
-      "link": "https://en.wikipedia.org/wiki/Punctuated_equilibrium"
-    },
-    {
-      "term": "Gradualism",
-      "link": "https://en.wikipedia.org/wiki/Gradualism"
-    },
-    {
-      "term": "Convergent evolution",
-      "link": "https://en.wikipedia.org/wiki/Convergent_evolution"
-    }
+    "species", "speciation", "reproductiveIsolation", "prezygoticBarrier", "postzygoticBarrier", "allopatricSpeciation", "sympatricSpeciation", "polyploidy", "hybridZone", "divergentEvolution", "adaptiveRadiation", "punctuatedEquilibrium", "gradualism", "convergentEvolution"
   ],
   "links": [
     {

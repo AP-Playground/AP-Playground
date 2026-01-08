@@ -1,66 +1,7 @@
 {
   "summary": "From previous topics, we know that DNA is the material that carries genetic instructions for living things. But how does DNA become expressed and contribute to an organism's outward appearance? Topic 6.3 begins this process by discussing transcription and mRNA processing.",
   "vocab": [
-    {
-      "term": "Gene expression",
-      "link": "https://en.wikipedia.org/wiki/Gene_expression"
-    },
-    {
-      "term": "Central dogma",
-      "link": "https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology"
-    },
-    {
-      "term": "Transcription",
-      "link": "https://en.wikipedia.org/wiki/Transcription_(biology)"
-    },
-    {
-      "term": "mRNA",
-      "link": "https://en.wikipedia.org/wiki/Messenger_RNA"
-    },
-    {
-      "term": "Template strand",
-      "link": "https://en.wikipedia.org/wiki/Transcription_(biology)"
-    },
-    {
-      "term": "Coding strand",
-      "link": "https://en.wikipedia.org/wiki/Coding_strand"
-    },
-    {
-      "term": "RNA polymerase",
-      "link": "https://en.wikipedia.org/wiki/RNA_polymerase"
-    },
-    {
-      "term": "Transcription factors",
-      "link": "https://en.wikipedia.org/wiki/Transcription_factor"
-    },
-    {
-      "term": "5' cap",
-      "link": "https://en.wikipedia.org/wiki/Five-prime_cap"
-    },
-    {
-      "term": "Poly-A-tail",
-      "link": "https://en.wikipedia.org/wiki/Polyadenylation"
-    },
-    {
-      "term": "RNA splicing",
-      "link": "https://en.wikipedia.org/wiki/RNA_splicing"
-    },
-    {
-      "term": "Introns",
-      "link": "https://en.wikipedia.org/wiki/Intron"
-    },
-    {
-      "term": "Exons",
-      "link": "https://en.wikipedia.org/wiki/Exon"
-    },
-    {
-      "term": "Spliceosome",
-      "link": "https://en.wikipedia.org/wiki/Spliceosome"
-    },
-    {
-      "term": "Ribozyme",
-      "link": "https://en.wikipedia.org/wiki/Ribozyme"
-    }
+    "geneExpression", "centralDogma", "transcription", "mRNA", "templateStrand", "codingStrand", "rnaPolymerase", "transcriptionFactor", "5cap", "polyATail", "rnaSplicing", "intron", "exon", "spliceosome", "ribozyme"
   ],
   "links": [
     {

@@ -1,30 +1,7 @@
 {
   "summary": "Cell membranes have special properties to help keep in, keep out, and transfer useful materials. The membrane can help maintain the pH in a cell, while restricting the movement of larger molecules like glucose. Topic 2.4 is about what can and cannot freely move through the cell membrane.",
   "vocab": [
-    {
-      "term": "Selective permeability",
-      "link": "https://en.wikipedia.org/wiki/Semipermeable_membrane",
-      "definition": "Describes the property of the cell membrane to allow some molecules or ions to pass through while preventing others, maintaining the cell’s internal balance",
-      "image": "/images/ap-biology/unit-2/permeability.svg"
-    },
-    {
-      "term": "Phospholipid",
-      "link": "https://en.wikipedia.org/wiki/Phospholipid",
-      "definition": "Lipids which contain a hydrophilic head and hydrophobic tail and make up cell membranes",
-      "image": "/images/ap-biology/unit-2/phospholipid.svg"
-    },
-    {
-      "term": "Cell Wall",
-      "link": "https://en.wikipedia.org/wiki/Cell_wall",
-      "definition": "A rigid or strong outer layer found in plants, fungi, bacteria, algae, and archaea, but not in animal cells, which provides structural support, protection, and shape to the cell",
-      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240410144547/Cell-Wall.png"
-    },
-    {
-      "term": "Plasmodesmata",
-      "link": "https://en.wikipedia.org/wiki/Plasmodesma",
-      "definition": "Channels in land plant and algal cell walls that connect the cytoplasm of neighboring cells, allowing for direct transport and communication of molecules like sugars, ions, and proteins",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Plasmodesmata_en.svg/960px-Plasmodesmata_en.svg.png"
-    }
+    "selectivePermeability", "phospholipid", "cellWall", "plasmodesmata"
   ],
   "links": [
     {

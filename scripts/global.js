@@ -16,7 +16,7 @@ export function examDate(course) {
 
 // fetch exam date data from the web
 const examDatesPage = cheerio.load(await fetchData("https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates"));
-let examDatesTemp = examDatesPage('table.cb-table tbody > :not([colspan])').map((i, el) => examDatesPage(el).html().replace("<br>"," ")).toArray();
+let examDatesTemp = examDatesPage('table > tbody > tr').map((i, el) => examDatesPage(el).html().replace("<br>"," ")).toArray();
 examDatesTemp.forEach(el1 => {
   const date = cheerio.load(`<tr>${el1}</tr>`, null, false);
   let temp = [];

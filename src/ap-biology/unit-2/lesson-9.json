@@ -1,46 +1,7 @@
 {
   "summary": "Besides the cell membrane itself as a barrier between the external environment and the cell, processes within the cell are separated through the principle of compartmentalization. This characteristic of intracellular components also has added benefits which make cellular reactions more efficient. Topic 2.9 is all about cell compartmentalization.",
   "vocab": [
-    {
-      "term": "Compartmentalization",
-      "link": "https://en.wikipedia.org/wiki/Cellular_compartment",
-      "definition": "The organization of a cell or organism into distinct regions or compartments, often by membrane-bound organelles, to allow for specialized functions and efficient processes"
-    },
-    {
-      "term": "Anabolic reactions",
-      "link": "https://en.wikipedia.org/wiki/Metabolism#Anabolism",
-      "definition": "Reactions which combine small, simple molecules into larger, complex ones, storing energy in the process",
-      "image": "https://antranik.org/wp-content/uploads/2024/10/anabolism.gif"
-    },
-    {
-      "term": "Catabolic reactions",
-      "link": "https://en.wikipedia.org/wiki/Metabolism#Catabolism",
-      "definition": "Reactions which break down large, complex molecules into smaller, simpler ones, releasing energy in the process",
-      "image": "https://www.i-pathways.org/public/sampleLesson/science/images/catabolism.gif"
-    },
-    {
-      "term": "Organelles",
-      "link": "https://en.wikipedia.org/wiki/Organelle",
-      "definition": "Specialized, membrane-bound structures within eukaryotic cells that perform specific functions necessary for the cell's survival"
-    },
-    {
-      "term": "Lysosome",
-      "link": "https://en.wikipedia.org/wiki/Lysosome",
-      "definition": "An organelle in the cytoplasm of eukaryotic cells containing degradative enzymes enclosed in a membrane",
-      "image": "/images/ap-biology/unit-2/lysosome.svg"
-    },
-    {
-      "term": "Mitochondria",
-      "link": "https://en.wikipedia.org/wiki/Mitochondrion",
-      "definition": "Organelle responsible for generating most of the chemical energy (ATP) needed to power a cell's biochemical reactions by converting food and oxygen into cellular energy",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Animal_mitochondrion_diagram_en.svg"
-    },
-    {
-      "term": "Chloroplasts",
-      "link": "https://en.wikipedia.org/wiki/Chloroplast",
-      "definition": "An organelle in plant and algae cells that carries out photosynthesis, converting light energy into chemical energy in the form of sugars",
-      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230613112446/Chloroplast.webp"
-    }
+    "compartmentalization", "anabolicReaction", "catabolicReaction", "organelle", "lysosome", "mitochondrion", "chloroplast"
   ],
   "links": [
     {

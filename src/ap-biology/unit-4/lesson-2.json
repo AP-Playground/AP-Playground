@@ -1,58 +1,7 @@
 {
   "summary": "Last lesson, we were introduced to the signal transduction pathway. We learned about the general concepts and terms that are related to signal movement. Topic 4.2 delves deeper into the specifics of transduction, providing examples of each step of the process.",
   "vocab": [
-    {
-      "term": "Signal Transduction Pathway",
-      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
-    },
-    {
-      "term": "Steroid hormones",
-      "link": "https://en.wikipedia.org/wiki/Steroid_hormone"
-    },
-    {
-      "term": "Cell surface receptors",
-      "link": "https://en.wikipedia.org/wiki/Cell_surface_receptor"
-    },
-    {
-      "term": "Ligand-gated ion channels",
-      "link": "https://en.wikipedia.org/wiki/Ligand-gated_ion_channel"
-    },
-    {
-      "term": "G-protein coupled receptors",
-      "link": "https://en.wikipedia.org/wiki/G_protein-coupled_receptor"
-    },
-    {
-      "term": "G protein",
-      "link": "https://en.wikipedia.org/wiki/G_protein"
-    },
-    {
-      "term": "Receptor tyrosine kinases",
-      "link": "https://en.wikipedia.org/wiki/Receptor_tyrosine_kinase"
-    },
-    {
-      "term": "Phosphorylation cascade",
-      "link": "https://en.wikipedia.org/wiki/Phosphorylation_cascade"
-    },
-    {
-      "term": "Kinase",
-      "link": "https://en.wikipedia.org/wiki/Kinase"
-    },
-    {
-      "term": "Phosphatase",
-      "link": "https://en.wikipedia.org/wiki/Phosphatase"
-    },
-    {
-      "term": "Second messengers",
-      "link": "https://en.wikipedia.org/wiki/Second_messenger_system"
-    },
-    {
-      "term": "Calcium ions (Ca2+)",
-      "link": "https://en.wikipedia.org/wiki/Calcium_in_biology"
-    },
-    {
-      "term": "Cyclic adenosine monophosphate (cyclic AMP / cAMP)",
-      "link": "https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate"
-    }
+    "signalTransductionPathway", "steroidHormone", "cellSurfaceReceptor", "ligandGatedIonChannel", "gProteinCoupledReceptor", "gProtein", "receptorTyrosineKinase", "phosphorylationCascade", "kinase", "phosphatase", "secondMessenger", "calciumIon", "cyclicAMP"
   ],
   "links": [
     {

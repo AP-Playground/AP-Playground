@@ -1,0 +1,3136 @@
+{
+  "atom": {
+    "term": "Atoms",
+    "link": "https://en.wikipedia.org/wiki/Atom",
+    "definition": "The basic particle of elements, consists of protons, neutrons, and electrons",
+    "image": "https://media.istockphoto.com/id/1300855627/vector/bohr-atomic-model-of-a-nitrogen-atom-vector-illustration-for-science.jpg?s=612x612&w=0&k=20&c=_H--enRYu1jgE0gpaX3cIrzTFhX1F2ZA6JQHQNCyxzc="
+  },
+  "molecule": {
+    "term": "Molecules",
+    "link": "https://en.wikipedia.org/wiki/Molecule",
+    "definition": "A group of atoms held together by chemical bonds",
+    "image": "https://www.hawaii.edu/news/wp-content/uploads/2021/12/manoa-chemistry-methanediol-publication-kaiser.jpg"
+  },
+  "isotope": {
+    "term": "Isotopes",
+    "link": "https://en.wikipedia.org/wiki/Isotope",
+    "definition": "Atoms of the same element with different numbers of neutrons"
+  },
+  "ion": {
+    "term": "Ions",
+    "link": "https://en.wikipedia.org/wiki/Ion",
+    "definition": "An atom or molecule with an electric charge",
+    "image": "https://qph.cf2.quoracdn.net/main-qimg-be2b04a2b74debe15b3c45535f503fa7-pjlq"
+  },
+  "valenceShell": {
+    "term": "Valence shell",
+    "link": "https://en.wikipedia.org/wiki/Valence_electron",
+    "definition": "The outermost electron shell, denotes valence based on # of electrons",
+    "image": "https://cdn.kastatic.org/ka-content-images/ad49774316c2452752031eb2a0917f3dd447e87d.svg"
+  },
+  "valence": {
+    "term": "Valence",
+    "link": "https://en.wikipedia.org/wiki/Valence_(chemistry)",
+    "definition": "The number of chemical bonds an atom of a particular element can create"
+  },
+  "bond": {
+    "term": "Bonds",
+    "link": "https://en.wikipedia.org/wiki/Chemical_bond",
+    "definition": "Forces of attraction between atoms or molecules"
+  },
+  "covalentBond": {
+    "term": "Covalent bond",
+    "link": "https://en.wikipedia.org/wiki/Covalent_bond",
+    "definition": "A force of attraction between two atoms due to them sharing an electron",
+    "image": "https://znotes-static.s3.ap-southeast-1.amazonaws.com/cie/igcse/chemistry-0620/6475caa266a1e0599dd960e4f86e40e77da6b1010f46d3e2.png"
+  },
+  "ionicBond": {
+    "term": "Ionic bond",
+    "link": "https://en.wikipedia.org/wiki/Ionic_bonding",
+    "definition": "A force of attraction between one positively charged ion and one negatively charged ion",
+    "image": "https://cdn.britannica.com/05/96905-050-9A0965D4/bonding-sodium-chloride-atom-one-chlorine-electrons.jpg"
+  },
+  "hydrogenBond": {
+    "term": "Hydrogen bond",
+    "link": "https://en.wikipedia.org/wiki/Hydrogen_bond",
+    "definition": "A force of attraction between two opposing partial charges involving a hydrogen atom",
+    "image": "/images/ap-biology/unit-1/water-hydrogen-bonds.png"
+  },
+  "vanDerWaalsForce": {
+    "term": "Van der Waals Force",
+    "link": "https://en.wikipedia.org/wiki/Van_der_Waals_force",
+    "definition": "A weak force of attraction resulting from the random movement of electrons",
+    "image": "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000xAny/9/6/0/133960_CW071117_Measuring-vd-Waals-strength-in-a-crystal.jpg"
+  },
+  "isomer": {
+    "term": "Isomers",
+    "link": "https://en.wikipedia.org/wiki/Isomer",
+    "definition": "Molecules with the same chemical formula but different structures",
+    "image": "https://chemistrytalk.org/wp-content/uploads/2023/03/640px-Isomerism.svg.png"
+  },
+  "ph": {
+    "term": "pH",
+    "link": "https://en.wikipedia.org/wiki/PH",
+    "definition": "The potential of hydrogen ion dissociation of a substance",
+    "image": "https://static.sciencelearn.org.nz/images/images/000/004/557/full/ART_Acids_and_bases_PH_Scale_v2.png?1674174669"
+  },
+  "buffer": {
+    "term": "Buffers",
+    "link": "https://en.wikipedia.org/wiki/Buffer_solution",
+    "definition": "Substances which mitigate changes in pH"
+  },
+  "acid": {
+    "term": "Acids",
+    "link": "https://en.wikipedia.org/wiki/Acid",
+    "definition": "Substances with a low pH / high rate of dissociation of H+ ions",
+    "image": "https://m.media-amazon.com/images/I/81TXcXZM3EL.jpg"
+  },
+  "base": {
+    "term": "Bases",
+    "link": "https://en.wikipedia.org/wiki/Base_(chemistry)",
+    "definition": "Substances with a high pH / low rate of dissociation of H+ ions",
+    "image": "https://www.cloroxmalaysia.com/wp-content/uploads/sites/11/2019/01/240518-Ori_2L_960_cropped.png"
+  },
+  "electronegativity": {
+    "term": "Electronegativity",
+    "link": "https://en.wikipedia.org/wiki/Electronegativity",
+    "definition": "The tendency of an atom to attract electrons toward itself",
+    "image": "https://alevelchemistry.co.uk/wp-content/uploads/2019/04/Electronegativity_2.jpg"
+  },
+  "polarity": {
+    "term": "Polarity",
+    "link": "https://en.wikipedia.org/wiki/Chemical_polarity",
+    "definition": "A property of a molecule which has an uneven sharing of electrons",
+    "image": "/images/ap-biology/unit-1/water-polarity.png"
+  },
+  "cohesion": {
+    "term": "Cohesion",
+    "link": "https://en.wikipedia.org/wiki/Cohesion_(chemistry)",
+    "definition": "The sticking together of particles of the same substance",
+    "image": "https://study.com/cimages/multimages/16/droplet-macro-photography-of-water-droplets-on-green-leaf-green-green-image-17110799817622839151.jpg"
+  },
+  "surfaceTension": {
+    "term": "Surface tension",
+    "link": "https://en.wikipedia.org/wiki/Surface_tension",
+    "definition": "A result of cohesion which holds together the surfaces of bodies of water",
+    "image": "https://www.thoughtco.com/thmb/fkp7nXTtsxtFr3wT9eGu5gLIzwE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Surface-Tension-58c6c2365f9b58af5c534f71.jpg"
+  },
+  "adhesion": {
+    "term": "Adhesion",
+    "link": "https://en.wikipedia.org/wiki/Adhesion",
+    "definition": "The sticking together of particles of different substances",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Spider_web_Luc_Viatour.jpg/220px-Spider_web_Luc_Viatour.jpg"
+  },
+  "meniscus": {
+    "term": "Meniscus",
+    "link": "https://en.wikipedia.org/wiki/Meniscus_(liquid)",
+    "definition": "The curved surface of a liquid like water due to adhesion and cohesion in a container.",
+    "image": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/thumbnails/image/wss-property-meniscus-reading_0.jpg?itok=GsF9Xw1i"
+  },
+  "capillaryAction": {
+    "term": "Capillary action",
+    "link": "https://en.wikipedia.org/wiki/Capillary_action",
+    "definition": "The process of a liquid flowing against gravity due to adhesion and cohesion",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt45CmcOZTi814Q8Z9uI5hPrG4M3Q4T5LLTQ&s"
+  },
+  "transpiration": {
+    "term": "Transpiration",
+    "link": "https://en.wikipedia.org/wiki/Transpiration",
+    "definition": "The process of water movement through a plant towards its eventual evaporation",
+    "image": "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/transpiration-wiki_ver_1.png"
+  },
+  "highSpecificHeat": {
+    "term": "High specific heat (water)",
+    "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion",
+    "definition": "Water requires much more energy to change temperature than other substances",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20220916121147/SpecificheatCapacity.png"
+  },
+  "highHeatOfVaporization": {
+    "term": "High heat of vaporization (water)",
+    "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion",
+    "definition": "Water requires a lot of energy to break the hydrogen bonds and evaporate"
+  },
+  "solution": {
+    "term": "Solution",
+    "link": "https://en.wikipedia.org/wiki/Aqueous_solution",
+    "definition": "A uniform mixture of a solvent and solutes",
+    "image": "https://qph.cf2.quoracdn.net/main-qimg-e0525d517e5f11538104205ae01b8853-lq"
+  },
+  "solvent": {
+    "term": "Solvent",
+    "link": "https://en.wikipedia.org/wiki/Properties_of_water#Water_as_a_solvent",
+    "definition": "A substance that dissolves another substance"
+  },
+  "hydrophilic": {
+    "term": "Hydrophilic",
+    "link": "https://en.wikipedia.org/wiki/Hydrophile",
+    "definition": "The property of being attracted to water and/or dissolving in it",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSBzL8HHeh1nVfBUEXp7FDgygG20x-qa5S0w&s"
+  },
+  "hydrophobic": {
+    "term": "Hydrophobic",
+    "link": "https://en.wikipedia.org/wiki/Hydrophobe",
+    "definition": "The property of not being attracted to water and/or not dissolving in it",
+    "image": "https://target.scene7.com/is/image/Target/GUEST_f775153f-fc46-44c8-a043-1a7d07f6b3b6?wid=488&hei=488&fmt=pjpeg"
+  },
+  "essentialElement": {
+    "term": "Essential elements",
+    "link": "https://en.wikipedia.org/wiki/Composition_of_the_human_body",
+    "definition": "The elements that are necessary for life (CHON)",
+    "image": "https://i.ytimg.com/vi/qdoQ9NHLuAQ/hqdefault.jpg"
+  },
+  "macromolecule": {
+    "term": "Macromolecules",
+    "link": "https://en.wikipedia.org/wiki/Macromolecule",
+    "definition": "A large molecule necessary to life’s biological processes"
+  },
+  "organicCompound": {
+    "term": "Organic compound",
+    "link": "https://en.wikipedia.org/wiki/Organic_compound",
+    "definition": "Compound which contains carbon"
+  },
+  "hydrocarbonChain": {
+    "term": "Hydrocarbon chain",
+    "link": "https://en.wikipedia.org/wiki/Hydrocarbon",
+    "definition": "An organic compound containing only hydrogen and carbon arranged in a chain",
+    "image": "https://images.ctfassets.net/4yflszkpcwkt/55yilCl19ZLsUfjG1ctm24/e2eeb6936bc731b8f203968c29c43c31/Difference-Between-Straight-and-Branched-Chain-Alkanes_1.png"
+  },
+  "functionalGroup": {
+    "term": "Functional groups",
+    "link": "https://en.wikipedia.org/wiki/Functional_group",
+    "definition": "A group of atoms with distinctive chemical properties separate to that of the total molecule they are attached to"
+  },
+  "hydroxylGroup": {
+    "term": "Hydroxyl group",
+    "link": "https://en.wikipedia.org/wiki/Hydroxy_group",
+    "definition": "Polar functional group; hydrogen bound to an oxygen atom",
+    "image": "https://www.thoughtco.com/thmb/b_E32exWMZNXj9uyifF5aORL8G8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hydroxylfunctional-56a129e05f9b58b7d0bca5df.jpg"
+  },
+  "methylGroup": {
+    "term": "Methyl group",
+    "link": "https://en.wikipedia.org/wiki/Methyl_group",
+    "definition": "Nonpolar functional group; hydrogen bound to a sulfur atom",
+    "image": "https://www.wikidoc.org/images/7/7c/Methyl_group.jpg"
+  },
+  "carbonylGroup": {
+    "term": "Carbonyl group",
+    "link": "https://en.wikipedia.org/wiki/Carbonyl_group",
+    "definition": "Polar functional group; carbon double bound to oxygen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Ketone-general.svg"
+  },
+  "carboxylGroup": {
+    "term": "Carboxyl group",
+    "link": "https://en.wikipedia.org/wiki/Carboxylic_acid",
+    "definition": "Polar acidic functional group; carbon double bound to an oxygen and a hydroxyl group",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Carboxylic-acid.svg/150px-Carboxylic-acid.svg.png"
+  },
+  "aminoGroup": {
+    "term": "Amino group",
+    "link": "https://en.wikipedia.org/wiki/Amine",
+    "definition": "Polar basic functional group; nitrogen bound to 2 hydrogen atoms",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Amino-group-primary-2D-flat.png"
+  },
+  "phosphateGroup": {
+    "term": "Phosphate group",
+    "link": "https://en.wikipedia.org/wiki/Phosphate",
+    "definition": "Polar acidic functional group; phosphate bound to oxygen atoms and hydroxyl groups",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Phosphate_Group.svg"
+  },
+  "sulfhydrylGroup": {
+    "term": "Sulfhydryl group",
+    "link": "https://en.wikipedia.org/wiki/Thiol",
+    "definition": "Polar functional group; sulfur bound to hydrogen atom",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Mercapto_Group_General_Formulae.png/110px-Mercapto_Group_General_Formulae.png"
+  },
+  "monomer": {
+    "term": "Monomers",
+    "link": "https://en.wikipedia.org/wiki/Monomer",
+    "definition": "A molecule which can combine with others to form large polymers"
+  },
+  "polymer": {
+    "term": "Polymers",
+    "link": "https://en.wikipedia.org/wiki/Polymer",
+    "definition": "A molecule composed of a string of monomers"
+  },
+  "dehydrationSynthesis": {
+    "term": "Dehydration synthesis",
+    "link": "https://en.wikipedia.org/wiki/Condensation_reaction",
+    "definition": "Bonding of two monomer molecules with the removal of a water molecule",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Figure_03_01_01.jpg"
+  },
+  "hydrolysis": {
+    "term": "Hydrolysis",
+    "link": "https://en.wikipedia.org/wiki/Hydrolysis",
+    "definition": "Splitting of a polymer molecule with the addition of a water molecule",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcJ0YBGfwkxcFNA27Mf_pyYzW0XblReEIfMw&s"
+  },
+  "carbohydrate": {
+    "term": "Carbohydrates",
+    "link": "https://en.wikipedia.org/wiki/Carbohydrate",
+    "definition": "Macromolecules used by organisms as energy storage and structural materials",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Fresh_made_bread_05.jpg/250px-Fresh_made_bread_05.jpg"
+  },
+  "aminoAcid": {
+    "term": "Amino acids",
+    "link": "https://en.wikipedia.org/wiki/Amino_acid",
+    "definition": "Monomer unit of a protein; contains carboxyl, amino, and side chain groups",
+    "image": "https://www.astrochem.org/sci_img/Amino_Acid_Structure.jpg"
+  },
+  "nucleicAcid": {
+    "term": "Nucleic acids",
+    "link": "https://en.wikipedia.org/wiki/Nucleic_acid",
+    "definition": "Macromolecules used by the organisms to store and express genetic information",
+    "image": "https://www.genome.gov/sites/default/files/media/images/tg/nucleic-acid_dyn.jpg"
+  },
+  "lipid": {
+    "term": "Lipids",
+    "link": "https://en.wikipedia.org/wiki/Lipid",
+    "definition": "Macromolecules used by organisms to store energy long term, surround cells, and send signals",
+    "image": "/images/ap-biology/unit-1/lipids.jpg"
+  },
+  "monosaccharide": {
+    "term": "Monosaccharides",
+    "link": "https://en.wikipedia.org/wiki/Monosaccharide",
+    "definition": "The monomer unit of carbohydrates",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20220425111013/image6removebgpreview-300x258.jpg"
+  },
+  "polysaccharide": {
+    "term": "Polysaccharides",
+    "link": "https://en.wikipedia.org/wiki/Polysaccharide",
+    "definition": "The polymer made up of monosaccharides; a carbohydrate",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Cellulose-Ibeta-from-xtal-2002-3D-balls.png/330px-Cellulose-Ibeta-from-xtal-2002-3D-balls.png"
+  },
+  "glycosidicLinkage": {
+    "term": "Glysodic linkages",
+    "link": "https://en.wikipedia.org/wiki/Glycosidic_bond",
+    "definition": "Covalent bonds between monosaccharides",
+    "image": "/images/ap-biology/unit-1/glycosidic-linkages.png"
+  },
+  "structuralIsomer": {
+    "term": "Structural isomers",
+    "link": "https://en.wikipedia.org/wiki/Structural_isomer",
+    "definition": "Molecules with identical chemical formula but differing structural makeup",
+    "image": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A2822e0c975fc2711f1992ddaa80bfa4edade86adae070e8e8db0bd0e%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1"
+  },
+  "enantiomer": {
+    "term": "Enantiomers",
+    "link": "https://en.wikipedia.org/wiki/Enantiomer",
+    "definition": "Two compounds that are mirror images of each other, but that are not identical",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKnD6GKuP9XOuz5HNbpViebGu7yoaeU7mDw&s"
+  },
+  "alphaAndBetaCarb": {
+    "term": "α and β carbs",
+    "link": "https://en.wikipedia.org/wiki/Anomer",
+    "definition": "Different arrangements of atoms in cyclic forms of sugars that have the same chemical formula",
+    "image": "https://chem.libretexts.org/@api/deki/files/384948/alpha_and_beta_anomers.png?revision=1&size=bestfit&width=586&height=253"
+  },
+  "starch": {
+    "term": "Starch",
+    "link": "https://en.wikipedia.org/wiki/Starch",
+    "definition": "The carbohydrate used by plants for energy storage",
+    "image": "/images/ap-biology/unit-1/starch.png"
+  },
+  "glycogen": {
+    "term": "Glycogen",
+    "link": "https://en.wikipedia.org/wiki/Glycogen",
+    "definition": "The carbohydrate used by animals for energy storage",
+    "image": "/images/ap-biology/unit-1/glycogen.png"
+  },
+  "cellulose": {
+    "term": "Cellulose",
+    "link": "https://en.wikipedia.org/wiki/Cellulose",
+    "definition": "A structural carbohydrate which forms plant cell walls",
+    "image": "/images/ap-biology/unit-1/cellulose.png"
+  },
+  "chitin": {
+    "term": "Chitin",
+    "link": "https://en.wikipedia.org/wiki/Chitin",
+    "definition": "A structural carbohydrate which forms exoskeletons",
+    "image": "https://www.greenwaybiotech.com/cdn/shop/articles/crustacean-3377646_1920_2.jpg?v=1599851182&width=1000"
+  },
+  "triglyceride": {
+    "term": "Triglycerides",
+    "link": "https://en.wikipedia.org/wiki/Triglyceride",
+    "definition": "The most common lipid, made up of three fatty acid chains and a glycerol molecule",
+    "image": "https://ars.els-cdn.com/content/image/3-s2.0-B9780123750839000970-f00097-04-9780123750839.jpg"
+  },
+  "fattyAcidChain": {
+    "term": "Fatty acid chain",
+    "link": "https://en.wikipedia.org/wiki/Fatty_acid",
+    "definition": "A linear sequence of carbon atoms with hydrogen atoms attached, ending in a carboxyl group",
+    "image": "https://images.nagwa.com/figures/explainers/313147519531/2.svg"
+  },
+  "saturatedFat": {
+    "term": "Saturated fats",
+    "link": "https://en.wikipedia.org/wiki/Saturated_fat",
+    "definition": "A fatty acid hydrocarbon chain without double bonds",
+    "image": "https://study.com/cimages/multimages/16/saturatedfattyacidpicture2.png"
+  },
+  "unsaturatedFat": {
+    "term": "Unsaturated fats",
+    "link": "https://en.wikipedia.org/wiki/Unsaturated_fat",
+    "definition": "A fatty acid hydrocarbon chain containing double bonds",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Linoleic_acid3D.png/300px-Linoleic_acid3D.png"
+  },
+  "steroid": {
+    "term": "Steroids",
+    "link": "https://en.wikipedia.org/wiki/Steroid",
+    "definition": "Lipids used for signaling made out of four carbon rings fused together",
+    "image": "https://www.thoughtco.com/thmb/5It1L1oSJZU43qmRc8ywDyCwuBg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/aldosterone-56a129883df78cf77267fc6b.jpg"
+  },
+  "phospholipid": {
+    "term": "Phospholipids",
+    "link": "https://en.wikipedia.org/wiki/Phospholipid",
+    "definition": "Lipids which contain a hydrophilic head and hydrophobic tail and make up cell membranes",
+    "image": "/images/ap-biology/unit-2/phospholipid.svg"
+  },
+  "cholesterol": {
+    "term": "Cholesterol",
+    "link": "https://en.wikipedia.org/wiki/Cholesterol",
+    "definition": "The principal steroid; used in animal cell membranes",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cholesterol.svg"
+  },
+  "dna": {
+    "term": "Deoxyribonucleic acid (DNA)",
+    "link": "https://en.wikipedia.org/wiki/DNA",
+    "definition": "A nucleic acid used to store genetic information",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbDqomPSLuaC821ns3T_vHzW1PBez3odprIw&s"
+  },
+  "antiparallel": {
+    "term": "Antiparallel",
+    "link": "https://en.wikipedia.org/wiki/Antiparallel_(biochemistry)",
+    "definition": "Structure of DNA in which two strands of DNA run alongside each other in opposite directions"
+  },
+  "rna": {
+    "term": "Ribonucleic acid (RNA)",
+    "link": "https://en.wikipedia.org/wiki/RNA",
+    "definition": "A nucleic acid used to express genetic information",
+    "image": "https://www.yourgenome.org/wp-content/uploads/2023/11/1591-RNA-molecule-576x768.png"
+  },
+  "nucleotide": {
+    "term": "Nucleotides",
+    "link": "https://en.wikipedia.org/wiki/Nucleotide",
+    "definition": "The monomer unit of nucleic acids, contains a pentose, phosphate group, and nitrogenous base",
+    "image": "https://www.creative-proteomics.com/upload/image/what-are-nucleotides-1.jpg"
+  },
+  "nitrogenousBase": {
+    "term": "Nitrogenous base",
+    "link": "https://en.wikipedia.org/wiki/Nucleotide_base",
+    "definition": "Nitrogen containing compounds which are parts of nucleotides (include adenine, guanine, cytosine, uracil, thymine)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi-bxfkfs5LHFzfGTn10qwHjq8moTEttUOcg&s"
+  },
+  "adenine": {
+    "term": "Adenine",
+    "link": "https://en.wikipedia.org/wiki/Adenine",
+    "definition": "A nitrogenous purine derivative, bound to thymine in DNA base pairing"
+  },
+  "thymine": {
+    "term": "Thymine",
+    "link": "https://en.wikipedia.org/wiki/Thymine",
+    "definition": "A nitrogenous pyrimidine derivative, bound to adenine in DNA base pairing"
+  },
+  "guanine": {
+    "term": "Guanine",
+    "link": "https://en.wikipedia.org/wiki/Guanine",
+    "definition": "A nitrogenous purine derivative, bound to cytosine in DNA base pairing"
+  },
+  "cytosine": {
+    "term": "Cytosine",
+    "link": "https://en.wikipedia.org/wiki/Cytosine",
+    "definition": "A nitrogenous pyrimidine derivative, bound to guanine in DNA base pairing"
+  },
+  "uracil": {
+    "term": "Uracil",
+    "link": "https://en.wikipedia.org/wiki/Uracil",
+    "definition": "An RNA specific nitrogenous base which replaces thymine and binds with adenine"
+  },
+  "ribose": {
+    "term": "Ribose",
+    "link": "https://en.wikipedia.org/wiki/Ribose",
+    "definition": "5 carbon sugar found in RNA backbones",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2C_2gMBBewGHjFY01RB8Z5lLsQjuJ-9-MBQ&s"
+  },
+  "deoxyribose": {
+    "term": "Deoxyribose",
+    "link": "https://en.wikipedia.org/wiki/Deoxyribose",
+    "definition": "5 carbon sugar found in DNA backbones",
+    "image": "/images/ap-biology/unit-1/deoxyribose.png"
+  },
+  "protein": {
+    "term": "Proteins",
+    "link": "https://en.wikipedia.org/wiki/Protein",
+    "definition": "Macromolecules used by organisms for building, repair, and movement",
+    "image": "https://images.inc.com/uploaded_files/image/1920x1080/getty_80116649_344560.jpg"
+  },
+  "peptideBond": {
+    "term": "Peptide bonds",
+    "link": "https://en.wikipedia.org/wiki/Peptide_bond",
+    "definition": "Covalent bond between single amino acids",
+    "image": "/images/ap-biology/unit-1/peptide-bond.png"
+  },
+  "rSideChain": {
+    "term": "R side chains",
+    "link": "https://en.wikipedia.org/wiki/Side_chain",
+    "definition": "The unique part of each amino acid that differs from the basic amino acid structure",
+    "image": "https://qph.cf2.quoracdn.net/main-qimg-0a465f49662f84e64d8255c12424e34e-lq"
+  },
+  "primaryStructure": {
+    "term": "Primary structure",
+    "link": "https://en.wikipedia.org/wiki/Protein_primary_structure",
+    "definition": "The linear sequence of amino acids that make up a protein",
+    "image": "/images/ap-biology/unit-1/primary-structure.png"
+  },
+  "secondaryStructure": {
+    "term": "Secondary structure",
+    "link": "https://en.wikipedia.org/wiki/Protein_secondary_structure",
+    "definition": "The structure of the backbone of the polypeptide, excluding side chain interactions",
+    "image": "https://microbenotes.com/wp-content/uploads/2023/10/Secondary-Structure-of-Protein.jpeg"
+  },
+  "tertiaryStructure": {
+    "term": "Tertiary structure",
+    "link": "https://en.wikipedia.org/wiki/Protein_tertiary_structure",
+    "definition": "The structure of the polypeptide chain formed from interactions between side chains",
+    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2001037022004044-gr5.jpg"
+  },
+  "quaternaryStructure": {
+    "term": "Quaternary structure",
+    "link": "https://en.wikipedia.org/wiki/Protein_quaternary_structure",
+    "definition": "The structure of proteins composed of multiple polypeptides",
+    "image": "https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc0MTY1OTU4MDkxMzUxNTQ4/what-are-proteins-part-3-of-3.png"
+  },
+  "denaturation": {
+    "term": "Denaturation",
+    "link": "https://en.wikipedia.org/wiki/Denaturation_(biochemistry)",
+    "definition": "The unfolding or breaking up of a protein due to an environmental change",
+    "image": "https://chemistrytalk.org/wp-content/uploads/2023/03/Process_of_Denaturation.svg-e1663786914819.png"
+  },
+  "cell": {
+    "term": "Cell",
+    "link": "https://en.wikipedia.org/wiki/Cell_(biology)",
+    "definition": "The fundamental biological unit of all living organisms, consisting of a membrane, DNA, a cytoplasm, and ribosomes",
+    "image": "/images/ap-biology/unit-2/prokaryotic-eukaryotic.svg"
+  },
+  "prokaryoticCell": {
+    "term": "Prokaryotic Cells",
+    "link": "https://en.wikipedia.org/wiki/Prokaryote",
+    "definition": "Simple cells which contain a single circular strand of DNA, a cytoplasm, ribosomes, and a membrane, but lack compartmentalized organization",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Prokaryote_cell.svg"
+  },
+  "eukaryoticCell": {
+    "term": "Eukaryotic Cells",
+    "link": "https://en.wikipedia.org/wiki/Eukaryote",
+    "definition": "A complex cell characterized by the presence of a membrane-bound nucleus, linear chromosomes, and other membrane-bound organelles",
+    "image": "https://media1.shmoop.com/images/biology/biobook_eukaryotes_graphik_2.png"
+  },
+  "cellMembrane": {
+    "term": "Cell Membrane",
+    "link": "https://en.wikipedia.org/wiki/Cell_membrane",
+    "definition": "The outer boundary of all cells, separating the cell's interior from its environment, which is semipermeable"
+  },
+  "cytoplasm": {
+    "term": "Cytoplasm",
+    "link": "https://en.wikipedia.org/wiki/Cytoplasm",
+    "definition": "The entire content within a cell's outer membrane, excluding the nucleus in eukaryotic cells",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqBY1YfqSI7UQZlyB-9KB1-g1zZYfutaAXCg&s"
+  },
+  "cytosol": {
+    "term": "Cytosol",
+    "link": "https://en.wikipedia.org/wiki/Cytosol",
+    "definition": "The aqueous component of the cytoplasm of a cell"
+  },
+  "cytoskeleton": {
+    "term": "Cytoskeleton",
+    "link": "https://en.wikipedia.org/wiki/Cytoskeleton",
+    "definition": "A network of protein filaments and microtubules within a eukaryotic cell that provides structural support, maintains cell shape, and facilitates cell movement and intracellular transport",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8HWPdgedW1rw1Y_FYNJ0vYoNjtqyIAXNTG2sN5ejJDvKDmrsSZSKBA5FHXVDMo8D4OIbfWKVdC3mOErjptEldSy-l6LiVkD0RRZs-QhZrLmVTYbisb7HQfyqNc9ehI_vOzqX_KhCRzjA/s764/structure+and+function+of+cytoskeleton.PNG"
+  },
+  "cellWall": {
+    "term": "Cell wall",
+    "link": "https://en.wikipedia.org/wiki/Cell_wall",
+    "definition": "A rigid or strong outer layer found in plants, fungi, bacteria, algae, and archaea, but not in animal cells, which provides structural support, protection, and shape to the cell",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240410144547/Cell-Wall.png"
+  },
+  "ribosome": {
+    "term": "Ribosome",
+    "link": "https://en.wikipedia.org/wiki/Ribosome",
+    "definition": "A molecular machine found in all living cells that synthesizes proteins, consisting of a large and small subunit made of rRNA and proteins",
+    "image": "https://www.thoughtco.com/thmb/zEQcqaxVq_H1ikt41aFA-q0eRK0=/1500x0/filters:no_upscale%28%29:max_bytes%28150000%29:strip_icc%28%29/ribosome_lrg_sm_subunits-23b46a3be6354c4eacb550b25fa3c69d.jpg"
+  },
+  "organelle": {
+    "term": "Organelles",
+    "link": "https://en.wikipedia.org/wiki/Organelle",
+    "definition": "Specialized, membrane-bound structures within eukaryotic cells that perform specific functions necessary for the cell's survival"
+  },
+  "nucleus": {
+    "term": "Nucleus",
+    "link": "https://en.wikipedia.org/wiki/Cell_nucleus",
+    "definition": "The central part of a eukaryotic cell, containing DNA and controlling cell activities",
+    "image": "/images/ap-biology/unit-2/nucleus.svg"
+  },
+  "nuclearEnvelope": {
+    "term": "Nuclear envelope",
+    "link": "https://en.wikipedia.org/wiki/Nuclear_envelope",
+    "definition": "The membrane surrounding the nucleus within a eukaryotic cell through which mRNA and ribosomes pass"
+  },
+  "endomembraneSystem": {
+    "term": "Endomembrane System",
+    "link": "https://en.wikipedia.org/wiki/Protein_production",
+    "definition": "A network of membranes and organelles within eukaryotic cells that modify, package, and transport lipids and proteins",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Endomembrane_system_diagram_en.svg/1200px-Endomembrane_system_diagram_en.svg.png"
+  },
+  "smoothEndoplasmicReticulum": {
+    "term": "Smooth Endoplasmic Reticulum",
+    "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Smooth_endoplasmic_reticulum",
+    "definition": "A network of membrane-bound tubules within eukaryotic cells that lacks ribosomes, giving it a smooth appearance which synthesizes lipids and detoxifies drugs",
+    "image": "https://www.genome.gov/sites/default/files/tg/en/illustration/endoplasmic_reticulum_smooth.jpg"
+  },
+  "roughEndoplasmicReticulum": {
+    "term": "Rough Endoplasmic Reticulum",
+    "link": "https://en.wikipedia.org/wiki/Endoplasmic_reticulum#Rough_endoplasmic_reticulum",
+    "definition": "A network of tubules in eukaryotic cells that contains ribosomes and functions in the synthesis and modification of proteins destined for secretion",
+    "image": "https://www.genome.gov/sites/default/files/tg/en/illustration/endoplasmic_reticulum_rough.jpg"
+  },
+  "golgiApparatus": {
+    "term": "Golgi Apparatus",
+    "link": "https://en.wikipedia.org/wiki/Golgi_apparatus",
+    "definition": "A cellular organelle in eukaryotic cells that functions as a \"post office\" for modifying, sorting, and packaging proteins and lipids for delivery to their destinations",
+    "image": "https://cdn.britannica.com/52/116252-050-A1D8E92B/Golgi-apparatus-complex-modification-proteins-role-cell.jpg"
+  },
+  "lysosome": {
+    "term": "Lysosome",
+    "link": "https://en.wikipedia.org/wiki/Lysosome",
+    "definition": "An organelle in the cytoplasm of eukaryotic cells containing degradative enzymes enclosed in a membrane",
+    "image": "/images/ap-biology/unit-2/lysosome.svg"
+  },
+  "vacuole": {
+    "term": "Vacuole",
+    "link": "https://en.wikipedia.org/wiki/Vacuole",
+    "definition": "A space or vesicle within the cytoplasm of a cell, enclosed by a membrane and typically containing fluid",
+    "image": "/images/ap-biology/unit-2/vacuole.svg"
+  },
+  "largeCentralVacuole": {
+    "term": "Large Central Vacuole",
+    "link": "https://en.wikipedia.org/wiki/Vacuole#Central",
+    "definition": "A significant, fluid-filled organelle in plant cells that serves multiple functions, including storage of water, nutrients, and waste products, and structural support",
+    "image": "https://www.sciencefacts.net/wp-content/uploads/2021/06/Vacuole.jpg"
+  },
+  "transportVesicle": {
+    "term": "Transport vesicle",
+    "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Transport_vesicles",
+    "definition": "Membrane-bound sacs that move molecules, such as proteins and lipids, between organelles within a eukaryotic cell or to the plasma membrane for secretion"
+  },
+  "secretoryVesicle": {
+    "term": "Secretory vesicles",
+    "link": "https://en.wikipedia.org/wiki/Vesicle_(biology_and_chemistry)#Secretory_vesicles",
+    "definition": "A small, membrane-bound sac within a cell that contains materials, such as hormones, enzymes, or neurotransmitters, to be secreted outside the cell",
+    "image": "https://microbenotes.com/wp-content/uploads/2019/04/Secretory-Vesicles.jpg"
+  },
+  "mitochondrion": {
+    "term": "Mitochondria",
+    "link": "https://en.wikipedia.org/wiki/Mitochondrion",
+    "definition": "Organelle responsible for generating most of the chemical energy (ATP) needed to power a cell's biochemical reactions by converting food and oxygen into cellular energy",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Animal_mitochondrion_diagram_en.svg"
+  },
+  "chloroplast": {
+    "term": "Chloroplast",
+    "link": "https://en.wikipedia.org/wiki/Chloroplast",
+    "definition": "An organelle in plant and algae cells that carries out photosynthesis, converting light energy into chemical energy in the form of sugars",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230613112446/Chloroplast.webp"
+  },
+  "surfaceArea": {
+    "term": "Surface area",
+    "link": "https://en.wikipedia.org/wiki/Surface_area",
+    "definition": "The total area of the outer surfaces of a three-dimensional object, measured in square units",
+    "image": "/images/ap-biology/unit-2/surface-area.svg"
+  },
+  "volume": {
+    "term": "Volume",
+    "link": "https://en.wikipedia.org/wiki/Volume",
+    "definition": "The amount of three-dimensional space an object occupies, measured in cubic units",
+    "image": "/images/ap-biology/unit-2/volume.svg"
+  },
+  "surfaceAreaToVolumeRatio": {
+    "term": "Surface area to volume ratio",
+    "link": "https://en.wikipedia.org/wiki/Surface-area-to-volume_ratio",
+    "definition": "Calculated by dividing an object’s volume by its surface ratio, with smaller objects having a higher SA:V ratio",
+    "image": "/images/ap-biology/unit-2/SA-to-V-ratio.svg"
+  },
+  "membraneFolds": {
+    "term": "Membrane folds",
+    "link": "https://en.wikipedia.org/wiki/Cell_membrane",
+    "definition": "Folds within membranes of cells and cellular organelles, allowing for increased surface area in the same amount of volume"
+  },
+  "cristae": {
+    "term": "Cristae",
+    "link": "https://en.wikipedia.org/wiki/Crista",
+    "definition": "Folds in the inner membrane of a mitochondrion, the organelle responsible for cellular energy production, that increase surface area to maximize ATP synthesis via cellular respiration",
+    "image": "https://t3.ftcdn.net/jpg/15/57/55/64/360_F_1557556486_HIUoxm3GPI2KHb4x7uSjLKSR8A8OHZ8D.jpg"
+  },
+  "cilia": {
+    "term": "Cilia",
+    "link": "https://en.wikipedia.org/wiki/Cilium",
+    "definition": "A short microscopic hairlike vibrating structure found in large numbers on the surface of certain cells, either causing currents in the surrounding fluid or providing propulsion",
+    "image": "https://blogs.bcm.edu/wp-content/uploads/2019/12/Figure_B23_02_02-cell-with-cilia.png"
+  },
+  "vesicle": {
+    "term": "Vesicles",
+    "link": "https://en.wikipedia.org/wiki/Vesicle",
+    "definition": "A small fluid-filled bladder, sac, cyst, or vacuole within the body",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Liposome_scheme-en.svg/1200px-Liposome_scheme-en.svg.png"
+  },
+  "fluidMosaicModel": {
+    "term": "Fluid mosaic model",
+    "link": "https://en.wikipedia.org/wiki/Fluid_mosaic_model",
+    "definition": "Describes the cell membrane as a dynamic structure composed of a lipid bilayer with embedded proteins, carbohydrates, and cholesterol, where components are in constant, fluid motion",
+    "image": "/images/ap-biology/unit-2/fluid-mosaic-model.svg"
+  },
+  "bilayer": {
+    "term": "Bilayer",
+    "link": "https://en.wikipedia.org/wiki/Lipid_bilayer",
+    "definition": "Structure of all biological membranes, consisting of two layers of phospholipid molecules arranged with their hydrophilic heads facing outward and their hydrophobic tails facing inward",
+    "image": "https://blog.cambridgecoaching.com/hubfs/Eden-5.png"
+  },
+  "membraneProtein": {
+    "term": "Membrane proteins",
+    "link": "https://en.wikipedia.org/wiki/Membrane_protein",
+    "definition": "Specialized proteins that are embedded in or associated with the cell membrane that play roles in cell structure, signaling, and transport",
+    "image": "https://ib.bioninja.com.au/img/membrane%20proteins1.webp"
+  },
+  "integralMembraneProtein": {
+    "term": "Integral membrane protein",
+    "link": "https://en.wikipedia.org/wiki/Integral_membrane_protein",
+    "definition": "Proteins embedded into the phospholipid bilayer that have hydrophobic and hydrophilic regions and which pass through the entire membrane (also called transmembrane proteins)"
+  },
+  "peripheralMembraneProtein": {
+    "term": "Peripheral membrane protein",
+    "link": "https://en.wikipedia.org/wiki/Peripheral_membrane_protein",
+    "definition": "Proteins attached to the surface of the phospholipid bilayer that are not embedded into it and only face one side of the membrane"
+  },
+  "glycoprotein": {
+    "term": "Glycoproteins",
+    "link": "https://en.wikipedia.org/wiki/Glycoprotein",
+    "definition": "A protein with one or more carbohydrate chains, often located on the surface of the phospholipid bilayer, playing a crucial role in cell signaling, recognition, and the immune system"
+  },
+  "glycolipid": {
+    "term": "Glycolipids",
+    "link": "https://en.wikipedia.org/wiki/Glycolipid",
+    "definition": "A molecule consisting of a lipid and carbohydrate, located on the surface of the phospholipid bilayer, playing a crucial role in cell signaling, recognition, and the immune system",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Glycolipid.svg/500px-Glycolipid.svg.png"
+  },
+  "selectivePermeability": {
+    "term": "Selective permeability",
+    "link": "https://en.wikipedia.org/wiki/Semipermeable_membrane",
+    "definition": "Describes the property of the cell membrane to allow some molecules or ions to pass through while preventing others, maintaining the cell’s internal balance",
+    "image": "/images/ap-biology/unit-2/permeability.svg"
+  },
+  "plasmodesmata": {
+    "term": "Plasmodesmata",
+    "link": "https://en.wikipedia.org/wiki/Plasmodesma",
+    "definition": "Channels in land plant and algal cell walls that connect the cytoplasm of neighboring cells, allowing for direct transport and communication of molecules like sugars, ions, and proteins",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Plasmodesmata_en.svg/960px-Plasmodesmata_en.svg.png"
+  },
+  "concentrationGradient": {
+    "term": "Concentration gradient",
+    "link": "https://en.wikipedia.org/wiki/Fick%27s_laws_of_diffusion",
+    "definition": "Occurs when there is a difference in concentration of a substance between two regions, and the substance will move from areas of high concentration to low until equilibrium is reached",
+    "image": "/images/ap-biology/unit-2/concentration-gradient.svg"
+  },
+  "dynamicEquilibrium": {
+    "term": "Dynamic equilibrium",
+    "link": "https://en.wikipedia.org/wiki/Dynamic_equilibrium_(chemistry)",
+    "definition": "The state where opposing biological processes occur at equal rates, resulting in no net change in the system, even though individual components are constantly changing and moving"
+  },
+  "diffusion": {
+    "term": "Diffusion",
+    "link": "https://en.wikipedia.org/wiki/Diffusion",
+    "definition": "The net movement of particles from an area of higher concentration to an area of lower concentration (following the concentration gradient), driven by the random motion of molecules",
+    "image": "https://study.com/cimages/multimages/16/4b3f4934-d318-4a65-a6ed-4a6342ef259c_diffusion.jpg"
+  },
+  "passiveTransport": {
+    "term": "Passive transport",
+    "link": "https://en.wikipedia.org/wiki/Passive_transport",
+    "definition": "The movement of molecules across a membrane from an area of high concentration to an area of low concentration, without the cell expending its own energy"
+  },
+  "simpleDiffusion": {
+    "term": "Simple diffusion",
+    "link": "https://en.wikipedia.org/wiki/Molecular_diffusion",
+    "definition": "The passive movement of small, uncharged molecules from an area of high to low concentration directly through a cell's membrane, without the use of energy or transport proteins",
+    "image": "/images/ap-biology/unit-2/simple-diffusion.svg"
+  },
+  "facilitatedDiffusion": {
+    "term": "Facilitated diffusion",
+    "link": "https://en.wikipedia.org/wiki/Facilitated_diffusion",
+    "definition": "A type of passive transport in which molecules move across a cell membrane through transport proteins (channels or carriers) down their concentration gradient, without additional energy",
+    "image": "https://old-ib.bioninja.com.au/_Media/facilitated-diffusion_med.jpeg"
+  },
+  "activeTransport": {
+    "term": "Active transport",
+    "link": "https://en.wikipedia.org/wiki/Active_transport",
+    "definition": "The cellular process of moving molecules across a cell membrane against their concentration gradient, requiring cellular energy, typically in the form of ATP, to drive the process",
+    "image": "https://cdn1.byjus.com/wp-content/uploads/2017/10/Active-Transport.png"
+  },
+  "endocytosis": {
+    "term": "Endocytosis",
+    "link": "https://en.wikipedia.org/wiki/Endocytosis",
+    "definition": "An active transport process where a cell uses its plasma membrane to engulf and internalize particles, such as large molecules, by forming membrane-bound vesicles",
+    "image": "https://www.thoughtco.com/thmb/JDiGKKh0ELap9fca0ech9NzJyQ8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/endocytosis_pinocytosis-5ad652db1f4e130038c4847b.jpg"
+  },
+  "phagocytosis": {
+    "term": "Phagocytosis",
+    "link": "https://en.wikipedia.org/wiki/Phagocytosis",
+    "definition": "The process of phagocytes engulfing or ingesting cells to destroy them, a form of active transport",
+    "image": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20250522.165258/resources/e8fb42186f3bc73ba73d4bec3be8b6f30de96386"
+  },
+  "pinocytosis": {
+    "term": "Pinocytosis",
+    "link": "https://en.wikipedia.org/wiki/Pinocytosis",
+    "definition": "An active transport process where a cell uses its plasma membrane to engulf and internalize particles liquids and small molecules, by forming membrane-bound vesicles"
+  },
+  "receptorMediatedEndocytosis": {
+    "term": "Receptor-mediated endocytosis",
+    "link": "https://en.wikipedia.org/wiki/Receptor-mediated_endocytosis",
+    "definition": "A cellular process where specific molecules bind to cell-surface receptors, triggering the cell to engulf the receptor-ligand complex into a membrane-bound vesicle for internal transport",
+    "image": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1087/2017/02/01234001/Figure_05_04_03ab.jpg"
+  },
+  "exocytosis": {
+    "term": "Exocytosis",
+    "link": "https://en.wikipedia.org/wiki/Exocytosis",
+    "definition": "The biological process where membrane-bound vesicles inside a cell fuse with the cell's outer membrane, releasing their contents to the exterior",
+    "image": "https://www.thoughtco.com/thmb/MrkQqfDN0VNmlLT3VsaxNnLUFgU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/exocytosis_process-5ae370b4a9d4f900373c9b48.jpg"
+  },
+  "channelProtein": {
+    "term": "Channel proteins",
+    "link": "https://en.wikipedia.org/wiki/Ion_channel",
+    "definition": "Integral membrane proteins that form pores in the membrane, allowing specific molecules or ions to pass through by diffusion",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxmJvt30yIZa76Y7ToqoQZHA3jQikd7KBLMw&s"
+  },
+  "aquaporin": {
+    "term": "Aquaporins",
+    "link": "https://en.wikipedia.org/wiki/Aquaporin",
+    "definition": "Channel proteins that act as water channels, selectively facilitating the rapid transport of water across cell membranes to maintain water homeostasis and osmotic balance in cells and tissues"
+  },
+  "carrierProtein": {
+    "term": "Carrier proteins",
+    "link": "https://en.wikipedia.org/wiki/Membrane_transport_protein",
+    "definition": "Integral membrane proteins that facilitate the transport of specific molecules, ions, or small particles across the cell membrane by undergoing conformational changes",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAiQpakAVgfOe7Pzai079XqsT4Dj8u9cRVoA&s"
+  },
+  "sodiumPotassiumPump": {
+    "term": "Sodium-potassium pump",
+    "link": "https://en.wikipedia.org/wiki/Sodium%E2%80%93potassium_pump",
+    "definition": "A protein in the cell membrane that performs active transport, pumping three sodium (Na+) ions out of the cell for every two potassium (K+) ions that are pumped in",
+    "image": "/images/ap-biology/unit-2/sodium-potassium-pump.svg"
+  },
+  "membranePotential": {
+    "term": "Membrane potential",
+    "link": "https://en.wikipedia.org/wiki/Membrane_potential",
+    "definition": "The voltage or electrical potential difference across a cell's plasma membrane, generated by the unequal distribution of ions (like sodium, potassium, and chloride) inside and outside the cell"
+  },
+  "electrochemicalGradient": {
+    "term": "Electrochemical gradient",
+    "link": "https://en.wikipedia.org/wiki/Electrochemical_gradient",
+    "definition": "The combined force driving ions across a cell membrane, resulting from both a chemical gradient (difference in concentration) and an electrical gradient (difference in electrical charge)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Membrane_potential_ions_en.svg"
+  },
+  "osmosis": {
+    "term": "Osmosis",
+    "link": "https://en.wikipedia.org/wiki/Osmosis",
+    "definition": "The net movement of water molecules across a semipermeable membrane from an area of higher water concentration (lower solute) to lower water concentration (higher solute)",
+    "image": "https://www.priyamstudycentre.com/wp-content/uploads/2022/09/Osmosis-and-osmotic-pressure-definition-process-and-examples-of-the-movement-or-diffusion-of-solvent.png"
+  },
+  "tonicity": {
+    "term": "Tonicity",
+    "link": "https://en.wikipedia.org/wiki/Tonicity",
+    "definition": "A solution's ability to influence the movement of water into or out of a cell through osmosis"
+  },
+  "isotonic": {
+    "term": "Isotonic",
+    "link": "https://en.wikipedia.org/wiki/Tonicity#Isotonicity",
+    "definition": "Any external solution with the same solute and water concentrations than the aqueous solutions of cells, resulting in dynamic equilibrium"
+  },
+  "normalCell": {
+    "term": "Normal Cell",
+    "link": "https://en.wikipedia.org/wiki/Tonicity",
+    "definition": "An animal cell in an isotonic solution",
+    "image": "/images/ap-biology/unit-2/normal-cell.svg"
+  },
+  "flaccidCell": {
+    "term": "Flaccid Cell",
+    "link": "https://en.wikipedia.org/wiki/File:Turgor_pressure_on_plant_cells_diagram.svg",
+    "definition": "A plant cell in an isotonic solution",
+    "image": "/images/ap-biology/unit-2/flaccid-cell.svg"
+  },
+  "hypertonic": {
+    "term": "Hypertonic",
+    "link": "https://en.wikipedia.org/wiki/Tonicity#Hypertonic_solution",
+    "definition": "Any external solution with a higher solute and lower water concentration than the aqueous solutions of cells, resulting in movement of water outside of the cell"
+  },
+  "shriveledCell": {
+    "term": "Shriveled Cell",
+    "link": "https://en.wikipedia.org/wiki/Tonicity",
+    "definition": "An animal cell in a hypertonic solution",
+    "image": "/images/ap-biology/unit-2/shriveled-cell.svg"
+  },
+  "plasmolyzedCell": {
+    "term": "Plasmolyzed Cell",
+    "link": "https://en.wikipedia.org/wiki/File:Turgor_pressure_on_plant_cells_diagram.svg",
+    "definition": "A plant cell in a hypertonic solution",
+    "image": "/images/ap-biology/unit-2/plasmolyzed-cell.svg"
+  },
+  "hypotonic": {
+    "term": "Hypotonic",
+    "link": "https://en.wikipedia.org/wiki/Tonicity#Hypotonic_solution",
+    "definition": "Any external solution with a lower solute and higher water concentration than the aqueous solutions of cells, resulting in movement of water into the cell"
+  },
+  "lysedCell": {
+    "term": "Lysed Cell",
+    "link": "https://en.wikipedia.org/wiki/Tonicity",
+    "definition": "An animal cell in a hypotonic solution",
+    "image": "/images/ap-biology/unit-2/lysed-cell.svg"
+  },
+  "turgidCell": {
+    "term": "Turgid Cell",
+    "link": "https://en.wikipedia.org/wiki/File:Turgor_pressure_on_plant_cells_diagram.svg",
+    "definition": "A plant cell in a hypotonic solution",
+    "image": "/images/ap-biology/unit-2/turgid-cell.svg"
+  },
+  "waterPotential": {
+    "term": "Water potential",
+    "link": "https://en.wikipedia.org/wiki/Water_potential",
+    "definition": "A measure of the potential energy of water that determines its tendency to move from one area to another, with water always flowing from a region of higher to lower water potential"
+  },
+  "solutePotential": {
+    "term": "Solute potential",
+    "link": "https://en.wikipedia.org/wiki/Osmotic_pressure",
+    "definition": "The effect of dissolved solutes on the water potential of a solution, and water moves from areas of higher solute potential to lower solute potential (opposite of solute concentration)"
+  },
+  "contractileVacuole": {
+    "term": "Contractile vacuoles",
+    "link": "https://en.wikipedia.org/wiki/Contractile_vacuole",
+    "definition": "A specialized cellular organelle that functions in osmoregulation by collecting and expelling excess water from the cell to maintain its water balance and prevent bursting"
+  },
+  "compartmentalization": {
+    "term": "Compartmentalization",
+    "link": "https://en.wikipedia.org/wiki/Cellular_compartment",
+    "definition": "The organization of a cell or organism into distinct regions or compartments, often by membrane-bound organelles, to allow for specialized functions and efficient processes"
+  },
+  "anabolicReaction": {
+    "term": "Anabolic reactions",
+    "link": "https://en.wikipedia.org/wiki/Metabolism#Anabolism",
+    "definition": "Reactions which combine small, simple molecules into larger, complex ones, storing energy in the process",
+    "image": "https://antranik.org/wp-content/uploads/2024/10/anabolism.gif"
+  },
+  "catabolicReaction": {
+    "term": "Catabolic reactions",
+    "link": "https://en.wikipedia.org/wiki/Metabolism#Catabolism",
+    "definition": "Reactions which break down large, complex molecules into smaller, simpler ones, releasing energy in the process",
+    "image": "https://www.i-pathways.org/public/sampleLesson/science/images/catabolism.gif"
+  },
+  "endosymbioticTheory": {
+    "term": "Endosymbiotic Theory",
+    "link": "https://en.wikipedia.org/wiki/Symbiogenesis",
+    "definition": "Explains that the first eukaryotic cells formed when a larger host cell engulfed, but did not digest, smaller prokaryotic cells, leading to a mutually beneficial relationship",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX_btGgoUfdKCfTBmDXjXT_C9V_5UZhfz9aw&s"
+  },
+  "ancestralEukaryote": {
+    "term": "Ancestral Eukaryote",
+    "link": "https://en.wikipedia.org/wiki/Eukaryogenesis",
+    "definition": "A complex, single-celled protist that lived around 2 billion years ago and from which all modern eukaryotes are descended, and that evolved from prokaryotic ancestors through endosymbiosis"
+  },
+  "mitochondrialDNA": {
+    "term": "Mitochondrial DNA",
+    "link": "https://en.wikipedia.org/wiki/Mitochondrial_DNA",
+    "definition": "The genetic material found in mitochondria, and is inherited exclusively from the mother, showing proof of the endosymbiotic theory"
+  },
+  "cyanobacteria": {
+    "term": "Cyanobacteria",
+    "link": "https://en.wikipedia.org/wiki/Cyanobacteria",
+    "definition": "Photosynthetic microscopic organisms that are technically bacteria that evolved to become the modern chloroplast within eukaryotic cells following endosymbiosis",
+    "image": "https://www.deeperblue.com/wp-content/uploads/2022/12/Cyanobacteria-AdobeStock_331149980-700x644.jpeg.webp"
+  },
+  "aerobicBacteria": {
+    "term": "Aerobic bacteria",
+    "link": "https://en.wikipedia.org/wiki/Aerobic_organism",
+    "definition": "Microorganisms that require oxygen for their growth and metabolism that evolved to become the modern mitochondria within eukaryotic cells following endosymbiosis"
+  },
+  "enzyme": {
+    "term": "Enzyme",
+    "link": "https://en.wikipedia.org/wiki/Enzyme",
+    "definition": "Proteins that act as biological catalysts, speeding up specific chemical reactions necessary for life without being consumed in the process"
+  },
+  "catalyst": {
+    "term": "Catalyst",
+    "link": "https://en.wikipedia.org/wiki/Catalysis",
+    "definition": "A substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change"
+  },
+  "activationEnergy": {
+    "term": "Activation energy",
+    "link": "https://en.wikipedia.org/wiki/Activation_energy",
+    "definition": "The minimum amount of energy that must be provided to initiate a chemical reaction",
+    "image": "https://sciencenotes.org/wp-content/uploads/2021/03/Activation-energy-enzyme.png"
+  },
+  "activeSite": {
+    "term": "Active site",
+    "link": "https://en.wikipedia.org/wiki/Active_site",
+    "definition": "A region on an enzyme that binds to a protein or other substance during a reaction"
+  },
+  "substrate": {
+    "term": "Substrate",
+    "link": "https://en.wikipedia.org/wiki/Substrate_(chemistry)",
+    "definition": "The molecule that an enzyme acts upon"
+  },
+  "enymeSubstrateComplex": {
+    "term": "Enzyme-substrate complex",
+    "link": "https://en.wikipedia.org/wiki/Enzyme#Substrate_binding",
+    "definition": "Formed when a substrate molecule binds to an enzyme's active site, allowing a chemical reaction to occur and lowering the activation energy required for the process",
+    "image": "https://images.nagwa.com/figures/explainers/248185482685/2.svg"
+  },
+  "lockAndKeyModel": {
+    "term": "Lock and Key Model (outdated)",
+    "link": "https://en.wikipedia.org/wiki/Enzyme#%22Lock_and_key%22_model",
+    "definition": "A biochemical concept explaining how enzymes, or biological catalysts, work with high specificity",
+    "image": "https://chem.libretexts.org/@api/deki/files/25929/18.11.jpg?revision=1"
+  },
+  "inducedFitModel": {
+    "term": "Induced Fit Model",
+    "link": "https://en.wikipedia.org/wiki/Enzyme#Induced_fit_model",
+    "definition": "Theory of enzyme-substrate interaction where both the enzyme's active site and the substrate undergo a conformational change upon binding, resulting in a tighter, more precise fit",
+    "image": "https://www.mun.ca/biology/scarr/F09-20bsmc.jpg"
+  },
+  "conformationalChange": {
+    "term": "Conformational change",
+    "link": "https://en.wikipedia.org/wiki/Conformational_change",
+    "definition": "Alterations in the three-dimensional shape of a molecule, especially proteins, that are essential for their function, activity, and interaction with other molecules"
+  },
+  "exergonicReaction": {
+    "term": "Exergonic reaction",
+    "link": "https://en.wikipedia.org/wiki/Exergonic_reaction",
+    "definition": "Chemical reactions that break unstable bonds in molecules to release energy; decreases stored energy",
+    "image": "https://www.chem.ucla.edu/~harding/IGOC/E/exergonic01.png"
+  },
+  "exothermicProcess": {
+    "term": "Exothermic process",
+    "link": "https://en.wikipedia.org/wiki/Exothermic_process",
+    "definition": "Reactions that release energy, usually as heat or light, to an organism's surroundings"
+  },
+  "endergonicReaction": {
+    "term": "Endergonic reaction",
+    "link": "https://en.wikipedia.org/wiki/Exergonic_reaction",
+    "definition": "Chemical reactions that create bonds to store energy within molecules; decreases free energy",
+    "image": "https://www.chem.ucla.edu/~harding/IGOC/E/endergonic01.png"
+  },
+  "endothermicProcess": {
+    "term": "Endothermic process",
+    "link": "https://en.wikipedia.org/wiki/Endothermic_process",
+    "definition": "Processes that absorb energy from an organism's surroundings, usually in the form of heat"
+  },
+  "cofactor": {
+    "term": "Cofactors",
+    "link": "https://en.wikipedia.org/wiki/Cofactor_(biochemistry)",
+    "definition": "A non-protein chemical compound or metal ion that enzymes need to function as biological catalysts",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240604184001/Cofactor.jpg"
+  },
+  "coenzyme": {
+    "term": "Coenzymes",
+    "link": "https://en.wikipedia.org/wiki/Enzyme#Coenzymes",
+    "definition": "Cofactors which are organic"
+  },
+  "competitiveInhibitor": {
+    "term": "Competitive inhibitors",
+    "link": "https://en.wikipedia.org/wiki/Competitive_inhibition",
+    "definition": "Molecules that compete with a substrate for an enzyme's active site, reducing enzyme activity",
+    "image": "https://ib.bioninja.com.au/img/competitive%20mobile.jpg"
+  },
+  "nonCompetitiveInhibitor": {
+    "term": "Non-competitive inhibitors",
+    "link": "https://en.wikipedia.org/wiki/Non-competitive_inhibition",
+    "definition": "Molecules that reduce an enzyme's activity by binding to a site distinct from the active site, causing a conformational change in the enzyme that hinders its ability to function",
+    "image": "https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/marketing/global/images/technical-documents/articles/protein-biology/interrogation-protein-pathways/reversible-inhibitors-non-competitive-inhibition/reversible-inhibitors-non-competitive-inhibition.jpg"
+  },
+  "allostericSite": {
+    "term": "Allosteric site",
+    "link": "https://en.wikipedia.org/wiki/Allosteric_regulation",
+    "definition": "A region on an enzyme that is distinct from the active site, where a regulator molecule binds to control the protein's function"
+  },
+  "feedbackInhibition": {
+    "term": "Feedback inhibition",
+    "link": "https://en.wikipedia.org/wiki/Enzyme_inhibitor#Metabolic_regulation",
+    "definition": "A biological control mechanism where the final product of a metabolic pathway inhibits an allosteric enzyme earlier in that same pathway, preventing overproduction",
+    "image": "https://openoregon.pressbooks.pub/app/uploads/sites/19/2017/04/feedback-inhibition-1024x345.jpg"
+  },
+  "metabolism": {
+    "term": "Metabolism",
+    "link": "https://en.wikipedia.org/wiki/Metabolism",
+    "definition": "All the chemical reactions that occur within a living organism to maintain life, growth, and repair"
+  },
+  "energy": {
+    "term": "Energy",
+    "link": "https://en.wikipedia.org/wiki/Energy",
+    "definition": "The fundamental capacity to do work, existing as either potential energy (stored, like chemical) or kinetic energy (in motion, like heat)"
+  },
+  "atp": {
+    "term": "ATP (Adenosine triphosphate)",
+    "link": "https://en.wikipedia.org/wiki/Adenosine_triphosphate",
+    "definition": "A molecule found in all living cells that serves as the primary energy carrier, releasing energy when its bonds are broken",
+    "image": "https://study.com/cimages/multimages/16/320px-atp_structure.svg2637762999533848365.png"
+  },
+  "adp": {
+    "term": "ADP (Adenosine diphosphate)",
+    "link": "https://en.wikipedia.org/wiki/Adenosine_diphosphate",
+    "definition": "A molecule that is converted from ATP when energy is released for cellular work, with the loss of a phosphate group",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Adenosindiphosphat_protoniert.svg"
+  },
+  "energyCoupling": {
+    "term": "Energy coupling",
+    "link": "https://en.wikipedia.org/wiki/Metabolism",
+    "definition": "The process where an exergonic reaction (one that releases energy) drives an endergonic reaction (one that requires energy)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/ATP_cycle.png/960px-ATP_cycle.png"
+  },
+  "1stLawOfThermodynamics": {
+    "term": "1st Law of Thermodynamics",
+    "link": "https://en.wikipedia.org/wiki/First_law_of_thermodynamics",
+    "definition": "Energy cannot be created or destroyed, only transformed from one form to another within an isolated system",
+    "image": "https://www.ces.fau.edu/ces/nasa/images/Energy/ENERGYINEQUALSENERGYOUT.jpg"
+  },
+  "2ndLawOfThermodynamics": {
+    "term": "2nd Law of Thermodynamics",
+    "link": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+    "definition": "The entropy of an isolated system tends to increase, meaning biological processes naturally move towards states of greater disorder and energy dispersal",
+    "image": "https://biblicalscienceinstitute.com/wp-content/uploads/2019/08/thermo.jpg"
+  },
+  "entropy": {
+    "term": "Entropy",
+    "link": "https://en.wikipedia.org/wiki/Entropy",
+    "definition": "A measure of the randomness or disorder within a biological system and the dispersal of energy"
+  },
+  "freeEnergy": {
+    "term": "Free energy",
+    "link": "https://en.wikipedia.org/wiki/Thermodynamic_free_energy",
+    "definition": "The portion of a system's energy that is available to do useful work, such as driving metabolic processes"
+  },
+  "autotroph": {
+    "term": "Autotrophs",
+    "link": "https://en.wikipedia.org/wiki/Autotroph",
+    "definition": "Organisms that produce their own food from inorganic substances in their environment",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240517143422/Autotroph.png"
+  },
+  "heterotroph": {
+    "term": "Heterotrophs",
+    "link": "https://en.wikipedia.org/wiki/Heterotroph",
+    "definition": "An organism that cannot produce its own food, instead taking nutrition from other sources of organic carbon, mainly matter from other organisms",
+    "image": "https://d20khd7ddkh5ls.cloudfront.net/types-of-heterotrophs.png"
+  },
+  "stroma": {
+    "term": "Stroma",
+    "link": "https://en.wikipedia.org/wiki/Stroma_(fluid)",
+    "definition": "The fluid-filled matrix inside a chloroplast that surrounds the thylakoid membranes, location of light-independent reactions",
+    "image": "https://gamesmartz.com/upload/subjects/science/800/stroma.png"
+  },
+  "thylakoid": {
+    "term": "Thylakoids",
+    "link": "https://en.wikipedia.org/wiki/Thylakoid",
+    "definition": "Membrane-bound compartments within chloroplasts (in plants and algae) and cyanobacteria, serving as the site for the light-dependent reactions of photosynthesis",
+    "image": "https://www.shutterstock.com/image-vector/structure-chloroplast-granum-thylakoid-isolated-260nw-2117132804.jpg"
+  },
+  "chlorophyll": {
+    "term": "Chlorophyll",
+    "link": "https://en.wikipedia.org/wiki/Chlorophyll",
+    "definition": "Green pigments found in cyanobacteria and in the chloroplasts of algae and plants, that allow them to absorb energy from light"
+  },
+  "stomata": {
+    "term": "Stomata",
+    "link": "https://en.wikipedia.org/wiki/Stoma",
+    "definition": "Tiny pores, primarily found on the underside of plant leaves, that regulate gas exchange between the plant and the atmosphere",
+    "image": "https://www.sciencefacts.net/wp-content/uploads/2021/01/Stomata-Diagram.jpg"
+  },
+  "photosynthesis": {
+    "term": "Photosynthesis",
+    "link": "https://en.wikipedia.org/wiki/Photosynthesis",
+    "definition": "The process plants, algae, and some bacteria use to convert light energy, carbon dioxide, and water into chemical energy (glucose/sugars) and oxygen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Photosynthesis_en.svg/1200px-Photosynthesis_en.svg.png"
+  },
+  "lightDependentReaction": {
+    "term": "Light-dependent reactions",
+    "link": "https://en.wikipedia.org/wiki/Light-dependent_reactions",
+    "definition": "1st stage of photosynthesis, occurring in the thylakoid membranes, where light energy is captured by pigments (chlorophyll) and converted into chemical energy (ATP and NADPH)",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/faeb1179a538a3a8106fa5f3b9bd90c92f9834a7.png"
+  },
+  "photosystemII": {
+    "term": "Photosystem II",
+    "link": "https://en.wikipedia.org/wiki/Photosystem_II",
+    "definition": "A large protein complex that initiates photosynthesis by capturing sunlight energy to split water molecules into oxygen, protons, and electrons"
+  },
+  "electronTransportChain": {
+    "term": "Electron transport chain",
+    "link": "https://en.wikipedia.org/wiki/Electron_transport_chain",
+    "definition": "A series of protein complexes and molecules that transfer electrons, releasing energy used to create an electrochemical gradient that drives ATP synthesis",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/62120415688fc64d57237535d282247e981bdfed.png"
+  },
+  "photosystemI": {
+    "term": "Photosystem I",
+    "link": "https://en.wikipedia.org/wiki/Photosystem_I",
+    "definition": "A multi-subunit protein complex in the thylakoid membrane of plants, algae, and cyanobacteria that uses light energy to facilitate electron transfer, producing NADPH"
+  },
+  "nadph": {
+    "term": "NADP+ / NADPH",
+    "link": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide_phosphate",
+    "definition": "A cofactor used to donate electrons for anabolic reactions, including the Calvin Cycle in photosynthesis. NADP+ is the form that accepts electrons, and NADPH donates them."
+  },
+  "atpSynthase": {
+    "term": "ATP Synthase",
+    "link": "https://en.wikipedia.org/wiki/ATP_synthase",
+    "definition": "A molecular motor in cell membranes that creates ATP, the cell's main energy currency, by using a proton gradient across the membrane",
+    "image": "https://microbenotes.com/wp-content/uploads/2023/09/ATP-Synthase.jpeg"
+  },
+  "chemiosmosis": {
+    "term": "Chemiosmosis",
+    "link": "https://en.wikipedia.org/wiki/Chemiosmosis",
+    "definition": "The biological process of proton diffusion across a semipermeable membrane down an electrochemical gradient, with the energy from this movement used to synthesize ATP",
+    "image": "https://microbenotes.com/wp-content/uploads/2023/09/Structure-of-ATP-Synthase.jpeg"
+  },
+  "lightIndependentReaction": {
+    "term": "Light-independent reactions",
+    "link": "https://en.wikipedia.org/wiki/Calvin_cycle",
+    "definition": "2nd stage of photosynthesis where the energy from ATP and NADPH is used to convert carbon dioxide into organic compounds (glucose) in the stroma"
+  },
+  "calvinCycle": {
+    "term": "Calvin cycle",
+    "link": "https://en.wikipedia.org/wiki/Calvin_cycle",
+    "definition": "The cycle where photosynthetic organisms use ATP and NADPH to convert carbon dioxide into glyceraldehyde-3-phosphate (G3P), a three-carbon sugar that serves as a precursor for glucose",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/4c9fbc7e4f158fd4bf3e1114e9a7ebe47d08f020.png"
+  },
+  "rubisco": {
+    "term": "Rubisco",
+    "link": "https://en.wikipedia.org/wiki/RuBisCO",
+    "definition": "Earth's most abundant enzyme, which play a critical role in carbon fixation (converting inorganic carbon into organic compounds) during the Calvin Cycle"
+  },
+  "g3p": {
+    "term": "G3P",
+    "link": "https://en.wikipedia.org/wiki/Glyceraldehyde_3-phosphate",
+    "definition": "A three-carbon sugar phosphate formed through the Calvin Cycle; the direct precursor for synthesizing glucose"
+  },
+  "redoxReaction": {
+    "term": "Redox reactions",
+    "link": "https://en.wikipedia.org/wiki/Redox",
+    "definition": "A chemical reaction where electrons are transferred between substances, resulting in a change in their oxidation states, such as photosynthesis and cellular respiration",
+    "image": "https://homework.study.com/cimages/multimages/16/reduction5868157530735599977.png"
+  },
+  "aerobicRespiration": {
+    "term": "Aerobic respiration",
+    "link": "https://en.wikipedia.org/wiki/Cellular_respiration",
+    "definition": "The cellular process in which organisms use oxygen to convert nutrients, primarily glucose, into chemical energy in the form of ATP"
+  },
+  "matrix": {
+    "term": "Matrix",
+    "link": "https://en.wikipedia.org/wiki/Mitochondrial_matrix",
+    "definition": "The innermost compartment of a mitochondrion, containing enzymes and other molecules necessary for cellular respiration, such as those for the citric acid cycle"
+  },
+  "intermembraneSpace": {
+    "term": "Intermembrane space",
+    "link": "https://en.wikipedia.org/wiki/Intermembrane_space",
+    "definition": "The compartment of a mitochondrion or chloroplast located between its outer and inner membranes, where oxidative phosphorylation and chemiosmosis take place"
+  },
+  "cellularRespiration": {
+    "term": "Cellular respiration",
+    "link": "https://en.wikipedia.org/wiki/Cellular_respiration",
+    "definition": "The process where cells break down biological fuels, like glucose, in the presence of an electron acceptor (usually oxygen) to produce adenosine triphosphate (ATP)",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240311211218/Diagram-of-cellular-respiration.jpg"
+  },
+  "glycolysis": {
+    "term": "Glycolysis",
+    "link": "https://en.wikipedia.org/wiki/Glycolysis",
+    "definition": "The initial, ancient metabolic process in which a molecule of glucose is broken down into two molecules of pyruvate, producing a net gain of  2 ATP and 2 NADH",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/3ac5f05c70a76473139a0abb96318146af528f48.png"
+  },
+  "pyruvate": {
+    "term": "Pyruvate",
+    "link": "https://en.wikipedia.org/wiki/Pyruvic_acid",
+    "definition": "The natural end-product of glycolysis, a 3 carbon compound which is further broken down in the link reaction and citric acid cycle"
+  },
+  "nadh": {
+    "term": "NAD+ / NADH",
+    "link": "https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide",
+    "definition": "A coenzyme used to donate electrons for oxidative phosphorylation in cellular respiration. NAD+ is the form that accepts electrons, and NADH donates them"
+  },
+  "linkReaction": {
+    "term": "Link Reaction",
+    "link": "https://en.wikipedia.org/wiki/Pyruvate_decarboxylation",
+    "definition": "Critical intermediate step in cellular respiration that converts the three-carbon pyruvate, a product of glycolysis, into the two-carbon acetyl-CoA",
+    "image": "https://images.nagwa.com/figures/explainers/962153157942/2.svg"
+  },
+  "acetylCoA": {
+    "term": "Acetyl-CoA",
+    "link": "https://en.wikipedia.org/wiki/Acetyl-CoA",
+    "definition": "A critical metabolic molecule that provides acetyl groups for the citric acid cycle"
+  },
+  "krebsCycle": {
+    "term": "Krebs Cycle/Citric Acid Cycle",
+    "link": "https://en.wikipedia.org/wiki/Citric_acid_cycle",
+    "definition": "Central metabolic pathway in the mitochondrial matrix that completes the breakdown of glucose and to generate energy and reduces electron carriers FAD and NAD+ to FADH2 and NADH",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/c7052763740cb431d8e989fa55460816cc5a074c.png"
+  },
+  "fadh2": {
+    "term": "FAD / FADH2",
+    "link": "https://en.wikipedia.org/wiki/Flavin_adenine_dinucleotide",
+    "definition": "A coenzyme used to donate electrons for oxidative phosphorylation in cellular respiration. FAD is the form that accepts electrons, and FADH2 donates them"
+  },
+  "oxidativePhosphorylation": {
+    "term": "Oxidative phosphorylation",
+    "link": "https://en.wikipedia.org/wiki/Oxidative_phosphorylation",
+    "definition": "The final stage of aerobic respiration, occurring in the mitochondrial intermembrane space, where the energy released from NADH and FADH2 is used to generate a large amount of ATP",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Mitochondrial_electron_transport_chain%E2%80%94Etc4.svg/500px-Mitochondrial_electron_transport_chain%E2%80%94Etc4.svg.png"
+  },
+  "anaerobicRespiration": {
+    "term": "Anaerobic respiration",
+    "link": "https://en.wikipedia.org/wiki/Anaerobic_respiration",
+    "definition": "A metabolic process where cells generate energy (ATP) in the absence of oxygen, primarily through glycolysis"
+  },
+  "alcoholicFermentation": {
+    "term": "Alcoholic fermentation",
+    "link": "https://en.wikipedia.org/wiki/Ethanol_fermentation",
+    "definition": "The anaerobic process where yeast converts glucose and other sugars into ethanol (alcohol) and carbon dioxide through glycolysis, generating ATP",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/95be5e3a235711613dca5377ed13113aa181c4a7.png"
+  },
+  "lacticAcidRespiration": {
+    "term": "Lactic acid fermentation",
+    "link": "https://en.wikipedia.org/wiki/Lactic_acid_fermentation",
+    "definition": "The anaerobic process in which glucose or other six-carbon sugars are converted into lactic acid and ATP through glycolysis",
+    "image": "https://bioprinciples.biosci.gatech.edu/files/2024/10/Screenshot-2024-10-14-at-18.52.04.png"
+  },
+  "signalTransductionPathway": {
+    "term": "Signal Transduction Pathways",
+    "link": "https://en.wikipedia.org/wiki/Signal_transduction",
+    "definition": "Sequences of biochemical events that translate external signals into internal cell responses, involving ligand-receptor binding, activation of intracellular molecules, and a change in behavior",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/1bb4ecdb63bb877bfb3a4e7d12bdb52df6394f3f.png"
+  },
+  "receptor": {
+    "term": "Receptor",
+    "link": "https://en.wikipedia.org/wiki/Receptor_(biochemistry)",
+    "definition": "A protein that receives specific chemical signals from outside a cell, specific in shape and only able to bind to certain signals, which triggers a cellular response",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj58JTij0hS-h52033ohjG-xIpkqgR1xutZw&s"
+  },
+  "ligand": {
+    "term": "Ligand",
+    "link": "https://en.wikipedia.org/wiki/Ligand_(biochemistry)",
+    "definition": "A molecule or ion that binds to a central atom or molecule, acting as a signaling molecule that binds to a receptor"
+  },
+  "autocrineSignaling": {
+    "term": "Autocrine signaling",
+    "link": "https://en.wikipedia.org/wiki/Autocrine_signaling",
+    "definition": "Form of cell communication where a cell releases a signal molecule that acts on its own receptors, triggering specific cellular responses",
+    "image": "https://www.shutterstock.com/image-illustration/education-chart-autocrine-signaling-mechanism-260nw-1975551275.jpg"
+  },
+  "juxtacrineSignaling": {
+    "term": "Juxtacrine signaling",
+    "link": "https://en.wikipedia.org/wiki/Juxtacrine_signalling",
+    "definition": "A form of direct cell-to-cell communication where surface molecules on one cell bind to receptors on an adjacent cell, requiring direct physical contact for the signal to be transmitted",
+    "image": "https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/23058567e9576d23a8814cc1f0e3b01626fd2f4b/2-Figure1-1.png"
+  },
+  "gapJunction": {
+    "term": "Gap junctions",
+    "link": "https://en.wikipedia.org/wiki/Gap_junction",
+    "definition": "A protein-lined channel that directly connects the cytoplasm of two adjacent animal cells, allowing for the rapid exchange of ions and small molecules between them",
+    "image": "https://project.inria.fr/keops/files/2012/07/keopsgap1.png"
+  },
+  "paracrineSignaling": {
+    "term": "Paracrine signaling",
+    "link": "https://en.wikipedia.org/wiki/Paracrine_signaling",
+    "definition": "A form of cell-to-cell communication where a cell releases signaling molecules that affect only nearby cells, acting as a local signal",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM1IpWLDJrqHb2E-ayAbq3IwRQZ8VY4YVFew&s"
+  },
+  "neuroTransmitter": {
+    "term": "Neuro-transmitters",
+    "link": "https://en.wikipedia.org/wiki/Neurotransmitter",
+    "definition": "A chemical messenger released by a neuron to transmit a signal to a target cell, such as another neuron, muscle cell, or gland, across a synapse",
+    "image": "https://qbi.uq.edu.au/files/27919/what-are-neurotransmitters-QBI.jpg"
+  },
+  "quorumSensing": {
+    "term": "Quorum sensing",
+    "link": "https://en.wikipedia.org/wiki/Quorum_sensing",
+    "definition": "A cell-to-cell communication system used by bacteria to monitor population density and coordinate collective behaviors",
+    "image": "https://researchblog.duke.edu/wp-content/uploads/2022/02/Quorum-1-1024x758.png"
+  },
+  "endocrineSignaling": {
+    "term": "Endocrine signaling",
+    "link": "https://en.wikipedia.org/wiki/Endocrine_system",
+    "definition": "A form of long-distance cell communication where hormones are secreted by specialized cells into the bloodstream to travel to and act on distant target cells",
+    "image": "https://api.www.labxchange.org/api/v1/xblocks/lb:LabXchange:bbe638f0:lx_image:1/storage/9978-6d5ee505047c0a02ad938e29d7899ca8.jpg"
+  },
+  "hormone": {
+    "term": "Hormones",
+    "link": "https://en.wikipedia.org/wiki/Hormone",
+    "definition": "Chemical messengers produced by endocrine glands in the body that travel through the bloodstream to target organs and tissues to regulate processes and maintain homeostasis"
+  },
+  "insulin": {
+    "term": "Insulin",
+    "link": "https://en.wikipedia.org/wiki/Insulin",
+    "definition": "A hormone produced by the pancreas that plays a crucial role in regulating blood sugar levels"
+  },
+  "growthHormone": {
+    "term": "Growth hormone",
+    "link": "https://en.wikipedia.org/wiki/Growth_hormone",
+    "definition": "A protein hormone produced and secreted by the pituitary gland that promotes growth in children, regulates metabolism, and maintains tissues and organs"
+  },
+  "steroidHormone": {
+    "term": "Steroid hormones",
+    "link": "https://en.wikipedia.org/wiki/Steroid_hormone",
+    "definition": "Hormones which are steroids, playing a crucial role in sexual development (eg. estrogen), maintaining metabolism, and Vitamin D"
+  },
+  "cellSurfaceReceptor": {
+    "term": "Cell surface receptors",
+    "link": "https://en.wikipedia.org/wiki/Cell_surface_receptor",
+    "definition": "Integral proteins in the cell membrane that receive signals from extracellular molecules to trigger a cellular response"
+  },
+  "ligandGatedIonChannel": {
+    "term": "Ligand-gated ion channels",
+    "link": "https://en.wikipedia.org/wiki/Ligand-gated_ion_channel",
+    "definition": "Transmembrane proteins that act as channels for ions lto cross the cell membrane, opening their pore in response to a ligand",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/LGIC.png"
+  },
+  "gProteinCoupledReceptor": {
+    "term": "G-protein coupled receptors",
+    "link": "https://en.wikipedia.org/wiki/G_protein-coupled_receptor",
+    "definition": "Cell surface receptors that activate G proteins when bound to a ligand, triggering downstream cellular cascades",
+    "image": "https://www.researchgate.net/publication/226176532/figure/fig1/AS:326567411634176@1454871146516/A-schematic-drawing-to-show-G-protein-coupled-receptors-GPCRs-The-transmembrane.png"
+  },
+  "gProtein": {
+    "term": "G protein",
+    "link": "https://en.wikipedia.org/wiki/G_protein",
+    "definition": "Proteins that act as molecular switches inside cells, and are involved in transmitting signals from a variety of stimuli outside a cell to its interior"
+  },
+  "receptorTyrosineKinase": {
+    "term": "Receptor tyrosine kinases",
+    "link": "https://en.wikipedia.org/wiki/Receptor_tyrosine_kinase",
+    "definition": "Cell surface receptors that mediate cell-to-cell communication and control a wide range of complex biological functions, including cell growth, motility, differentiation, and metabolism",
+    "image": "https://www.researchgate.net/publication/236643688/figure/fig4/AS:279133402746904@1443561997608/Schematic-representation-of-receptor-tyrosine-kinase-activation-Receptors-are-activated.png"
+  },
+  "phosphorylationCascade": {
+    "term": "Phosphorylation cascade",
+    "link": "https://en.wikipedia.org/wiki/Phosphorylation_cascade",
+    "definition": "A series of sequential biochemical reactions where one protein kinase transfers a phosphate group from ATP to another protein, activating it, and this process repeats in a chain reaction",
+    "image": "https://o.quizlet.com/OUYIis6vwxp29m4FKNDP9w_b.png"
+  },
+  "kinase": {
+    "term": "Kinase",
+    "link": "https://en.wikipedia.org/wiki/Kinase",
+    "definition": "An enzyme that catalyzes the transfer of a phosphate group from ATP to a specified molecule"
+  },
+  "phosphatase": {
+    "term": "Phosphatase",
+    "link": "https://en.wikipedia.org/wiki/Phosphatase",
+    "definition": "An enzyme that catalyzes the removal of a phosphate group from a molecule in a process called dephosphorylation"
+  },
+  "secondMessenger": {
+    "term": "Second messengers",
+    "link": "https://en.wikipedia.org/wiki/Second_messenger_system",
+    "definition": "Small molecules or ions inside cells that amplify and relay signals from cell-surface receptors to trigger intracellular responses, such as cell growth, muscle contraction, and gene transcription"
+  },
+  "calciumIon": {
+    "term": "Calcium ions (Ca2+)",
+    "link": "https://en.wikipedia.org/wiki/Calcium_in_biology",
+    "definition": "A calcium atom that has lost two electrons; a very commonly used second messenger"
+  },
+  "cyclicAMP": {
+    "term": "Cyclic adenosine monophosphate (cyclic AMP / cAMP)",
+    "link": "https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate",
+    "definition": "A second messenger, or cellular signal occurring within cells, that is important in many biological processes, often transferring a signal to a phosphorylation cascade",
+    "image": "https://images.aatbio.com/content/01.0163.231001-SyHgB.png"
+  },
+  "geneExpression": {
+    "term": "Gene expression",
+    "link": "https://en.wikipedia.org/wiki/Gene_expression",
+    "definition": "The process by which cells use DNA's instructions to create a functional product, typically a protein, through two main steps: transcription and translation",
+    "image": "https://www.azolifesciences.com/image-handler/picture/2021/1/shutterstock_695774158.jpg"
+  },
+  "transcriptionFactor": {
+    "term": "Transcription factors",
+    "link": "https://en.wikipedia.org/wiki/Transcription_factor",
+    "definition": "Proteins that regulate gene expression by binding to specific DNA sequences and either activating or repressing transcription"
+  },
+  "metabolicResponse": {
+    "term": "Metabolic response",
+    "link": "https://en.wikipedia.org/wiki/Metabolism",
+    "definition": "An organism’s collection of reactions to a specific signal which results in changes to maintain homeostasis or adapt to the new state"
+  },
+  "apoptosis": {
+    "term": "Apoptosis",
+    "link": "https://en.wikipedia.org/wiki/Apoptosis",
+    "definition": "The process of programmed cell death, a controlled and orderly process vital for development, homeostasis, and eliminating damaged cells",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjXhMGKAOe4_W5DfuqL5oqJIfUcNATw2rAgg&s"
+  },
+  "epinephrine": {
+    "term": "Epinephrine (adrenaline)",
+    "link": "https://en.wikipedia.org/wiki/Adrenaline",
+    "definition": "A hormone and neurotransmitter from the adrenal glands that triggers the body's \"fight-or-flight\" response to stress, increasing heart rate, blood pressure, and airflow to the lungs"
+  },
+  "environmentalFactor": {
+    "term": "Environmental factors",
+    "link": "https://en.wikipedia.org/wiki/Environmental_factor",
+    "definition": "External influences on an organism's growth and development, which can be biotic (living) or abiotic (non-living)"
+  },
+  "mutation": {
+    "term": "Mutations",
+    "link": "https://en.wikipedia.org/wiki/Mutation",
+    "definition": "A permanent change in the DNA sequence of an organism, which can result from copying errors during cell division or damage from environmental factors like radiation and chemicals",
+    "image": "https://innovativegenomics.org/wp-content/uploads/2024/06/Mutation-1.png"
+  },
+  "inhibitor": {
+    "term": "Inhibitors",
+    "link": "https://en.wikipedia.org/wiki/Repressor",
+    "definition": "A molecule that slows or blocks the activity of another biological molecule, most commonly an enzyme, by binding to it and altering its structure or function",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAH1281oUE2cqd9gPBL-NoL_sEJjEN4Du2MA&s"
+  },
+  "activator": {
+    "term": "Activators",
+    "link": "https://en.wikipedia.org/wiki/Activator_(genetics)",
+    "definition": "A molecule that increases the activity of another biological molecule, most commonly an enzyme, by binding to it and altering its structure or function"
+  },
+  "homeostasis": {
+    "term": "Homeostasis",
+    "link": "https://en.wikipedia.org/wiki/Homeostasis",
+    "definition": "The biological process of maintaining a stable, constant internal environment within an organism despite changes in the external environment"
+  },
+  "negativeFeedback": {
+    "term": "Negative feedback",
+    "link": "https://en.wikipedia.org/wiki/Negative_feedback",
+    "definition": "A process where the output of a system is fed back to counteract or reduce changes, helping to maintain stability",
+    "image": "https://bio.libretexts.org/@api/deki/files/15807/glucose_feedback.png?revision=1"
+  },
+  "glucagon": {
+    "term": "Glucagon",
+    "link": "https://en.wikipedia.org/wiki/Glucagon",
+    "definition": "A hormone produced by the pancreas that plays a crucial role in regulating blood sugar levels, stimulating the liver to release stored sugar into the bloodstream"
+  },
+  "diabetes": {
+    "term": "Diabetes",
+    "link": "https://en.wikipedia.org/wiki/Diabetes",
+    "definition": "A chronic condition that affects how the body uses glucose for energy, due to a body not being able to produce enough insulin or use insulin"
+  },
+  "positiveFeedback": {
+    "term": "Positive feedback",
+    "link": "https://en.wikipedia.org/wiki/Positive_feedback",
+    "definition": "A process where a stimulus triggers a response that amplifies the original stimulus, causing the system to move further from its initial state",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/5c66a790d0cdd4d28e3fb4d66bb6439ef31b0175.png"
+  },
+  "cellCycle": {
+    "term": "Cell cycle",
+    "link": "https://en.wikipedia.org/wiki/Cell_cycle",
+    "definition": "The life cycle of a cell, a series of growth, DNA replication, and division steps that result in two genetically identical daughter cells, divided into 2 phases of interphase and mitosis",
+    "image": "https://www.cusabio.com/statics/images/Cell-Cycle-1.png"
+  },
+  "interphase": {
+    "term": "Interphase",
+    "link": "https://en.wikipedia.org/wiki/Interphase",
+    "definition": "The longest phase of the cell cycle, during which a cell grows, duplicates its DNA, and prepares for cell division"
+  },
+  "g1Phase": {
+    "term": "G1 phase",
+    "link": "https://en.wikipedia.org/wiki/G1_phase",
+    "definition": "The first stage of interphase in the cell cycle, where the cell grows physically, makes new proteins and organelles, and monitors its environment, preparing for DNA replication"
+  },
+  "sPhase": {
+    "term": "S phase",
+    "link": "https://en.wikipedia.org/wiki/S_phase",
+    "definition": "The part of the cell cycle following G1 where DNA is replicated, where each chromosome is copied to form two identical sister chromatids"
+  },
+  "genome": {
+    "term": "Genome",
+    "link": "https://en.wikipedia.org/wiki/Genome",
+    "definition": "An organism's complete set of DNA, which contains all the information needed for development, function, and reproduction"
+  },
+  "dnaReplication": {
+    "term": "DNA replication",
+    "link": "https://en.wikipedia.org/wiki/DNA_replication",
+    "definition": "The process of making a complete copy of a cell's DNA before it divides through various enzymes, ensuring each daughter cell receives an identical set of genetic instructions",
+    "image": "https://www.genome.gov/sites/default/files/media/images/tg/DNA-replication.jpg"
+  },
+  "sisterChromatid": {
+    "term": "Sister chromatids",
+    "link": "https://en.wikipedia.org/wiki/Sister_chromatids",
+    "definition": "Two identical copies of a single chromosome, formed after DNA replication and joined together by a centromere",
+    "image": "https://www.macroevolution.net/images/sister-chromatids-275px.jpg"
+  },
+  "g2Phase": {
+    "term": "G2 phase",
+    "link": "https://en.wikipedia.org/wiki/G2_phase",
+    "definition": "The third and final stage of interphase in the cell cycle, occurring after S phase, during which the cell grows, synthesizes proteins and organelles, and confirms it is ready for division"
+  },
+  "g0": {
+    "term": "G0",
+    "link": "https://en.wikipedia.org/wiki/G0_phase",
+    "definition": "Stage of the cell cycle where cells are not dividing or preparing to divide, which cells enter from G1 and in which cells remain permanently or unless they receive signals to re-enter the cycle"
+  },
+  "mitosis": {
+    "term": "Mitosis",
+    "link": "https://en.wikipedia.org/wiki/Mitosis",
+    "definition": "The process of cell division where one cell divides into two genetically identical daughter cells",
+    "image": "https://www.genome.gov/sites/default/files/media/images/tg/Mitosis.jpg"
+  },
+  "prophase": {
+    "term": "Prophase",
+    "link": "https://en.wikipedia.org/wiki/Prophase",
+    "definition": "The first stage of cell division, during which condenses chromatin into visible chromosomes, forms the mitotic spindle, and breaks down the nuclear envelope and nucleolus",
+    "image": "https://cdn.britannica.com/20/190920-050-131ED270/mitosis-prophase.jpg"
+  },
+  "metaphase": {
+    "term": "Metaphase",
+    "link": "https://en.wikipedia.org/wiki/Metaphase",
+    "definition": "The stage in cell division where chromosomes, fully condensed, line up along the cell's equator on the metaphase plate",
+    "image": "https://cdn.britannica.com/19/190919-050-ECA6440E/mitosis-metaphas.jpg"
+  },
+  "anaphase": {
+    "term": "Anaphase",
+    "link": "https://en.wikipedia.org/wiki/Anaphase",
+    "definition": "The stage of cell division where sister chromatids separate and move to opposite ends of the cell",
+    "image": "https://cdn.britannica.com/22/190922-050-131DCF56/mitosis-anaphase.jpg"
+  },
+  "telophase": {
+    "term": "Telophase",
+    "link": "https://en.wikipedia.org/wiki/Telophase",
+    "definition": "The final phase of cell division, in which the separated sister chromatids at opposite ends of the cell recondense and form two nuclei, resulting in two daughter cells",
+    "image": "https://cdn.britannica.com/24/190924-050-102E85D9/mitosis-telophase.jpg"
+  },
+  "cytokinesis": {
+    "term": "Cytokinesis",
+    "link": "https://en.wikipedia.org/wiki/Cytokinesis",
+    "definition": "The process following telophase where a cell's cytoplasm splits to form two genetically identical daughter cells",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQZ2UwCIKS4KudwR2CdNjOC_18HEUWxkAR2vIrcEOkLS_7OoBJrZKDaLzMJ7KAG9RdRcn_KGhWO_VLln9nepDh6WM33zFIV31Qnh82OR3Q1R9lVg98p9BK1t3FSQ3zIeh9EbkKw2sGaV2p/s1600/stem+cell.JPG+15.JPG"
+  },
+  "cleavageFurrow": {
+    "term": "Cleavage furrow",
+    "link": "https://en.wikipedia.org/wiki/Cleavage_furrow",
+    "definition": "An indentation in the surface of a dividing animal cell that forms during cytokinesis to split the cytoplasm into two separate daughter cells",
+    "image": "/images/ap-biology/unit-4/cleavage-furrow.jpg"
+  },
+  "cellPlate": {
+    "term": "Cell plate",
+    "link": "https://en.wikipedia.org/wiki/Cell_plate",
+    "definition": "A structure that forms during the division of plant cells to create a new cell wall, separating the two daughter cells",
+    "image": "/images/ap-biology/unit-4/cell-plate.jpg"
+  },
+  "binaryFission": {
+    "term": "Binary fission",
+    "link": "https://en.wikipedia.org/wiki/Fission_(biology)",
+    "definition": "An asexual reproduction process in which a single-celled organism divides into two identical daughter cells",
+    "image": "https://biologydictionary.net/wp-content/uploads/2017/01/Binary-fission-in-bacteria.jpg"
+  },
+  "somaticCell": {
+    "term": "Somatic cells",
+    "link": "https://en.wikipedia.org/wiki/Somatic_cell",
+    "definition": "Any cell of a living organism other than the reproductive cells"
+  },
+  "diploidCell": {
+    "term": "Diploid cell",
+    "link": "https://en.wikipedia.org/wiki/Ploidy",
+    "definition": "Contains two complete sets of chromosomes, one inherited from each parent (46 chromosomes in humans)",
+    "image": "https://www.genome.gov/sites/default/files/media/images/tg/Diploid_dyn.jpg"
+  },
+  "gamete": {
+    "term": "Gametes",
+    "link": "https://en.wikipedia.org/wiki/Gamete",
+    "definition": "A mature haploid cell which is able to unite with another of the opposite sex in sexual reproduction to form a zygote",
+    "image": "https://www.genome.gov/sites/default/files/media/images/tg/Gamete_dyn.jpg"
+  },
+  "haploidCell": {
+    "term": "Haploid cell",
+    "link": "https://en.wikipedia.org/wiki/Ploidy",
+    "definition": "Contains one complete set of chromosomes, representing half the genetic material of a typical eukaryotic cell (23 chromosomes in humans)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_hr7ut6W3B8FTGGRfd6rv9NpnBUqQbo8qg&s"
+  },
+  "cellCycleCheckpoint": {
+    "term": "Cell cycle checkpoint",
+    "link": "https://en.wikipedia.org/wiki/Cell_cycle_checkpoint",
+    "definition": "Crucial regulatory mechanisms that monitor the cell division process, ensuring that DNA is replicated correctly and chromosomes are accurately segregated before the cell divides",
+    "image": "https://fiveable.me/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Ffiveable-92889.appspot.com%2Fo%2Fimages%252Fcell-checkpoints_med.jpg%3Falt%3Dmedia%26token%3Ddff35c4e-213d-4910-a8d2-901551de5bfe&w=828&q=75"
+  },
+  "cyclinDependentKinase": {
+    "term": "Cyclin-dependent kinases (CDKs)",
+    "link": "https://en.wikipedia.org/wiki/Cyclin-dependent_kinase",
+    "definition": "Enzymes that regulate key cellular processes like the cell cycle by adding phosphate groups to other proteins",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/1a6912ac0088d49f2e2db76f258761fc80b12c87.png"
+  },
+  "growthFactor": {
+    "term": "Growth factor",
+    "link": "https://en.wikipedia.org/wiki/Growth_factor",
+    "definition": "Proteins that promote cell growth, differentiation, division, and survival"
+  },
+  "densityDependentInhibition": {
+    "term": "Density-dependent inhibition",
+    "link": "https://en.wikipedia.org/wiki/Density_dependence",
+    "definition": "A cellular process where cells stop dividing when they become too crowded, which prevents uncontrolled growth in a single layer, and which cancer cells ignore"
+  },
+  "anchorageDependency": {
+    "term": "Anchorage dependency",
+    "link": "https://en.wikipedia.org/wiki/Adherent_culture",
+    "definition": "The biological requirement for cells to be attached to a substrate or surface to survive, grow, and divide, preventing uncontrollable cellular growth, which cancer cells ignore"
+  },
+  "cancer": {
+    "term": "Cancer",
+    "link": "https://en.wikipedia.org/wiki/Cancer",
+    "definition": "A group of diseases characterized by the uncontrolled growth and spread of abnormal cells, which can form tumors and invade other tissues"
+  },
+  "tumor": {
+    "term": "Tumor",
+    "link": "https://en.wikipedia.org/wiki/Neoplasm",
+    "definition": "An abnormal mass of tissue that forms when cells grow and divide uncontrollably"
+  },
+  "benignTumor": {
+    "term": "Benign tumor",
+    "link": "https://en.wikipedia.org/wiki/Benign_tumor",
+    "definition": "A non-cancerous growth that does not spread to other parts of the body",
+    "image": "/images/ap-biology/unit-4/benign-tumor.jpg"
+  },
+  "malignantTumor": {
+    "term": "Malignant tumor",
+    "link": "https://en.wikipedia.org/wiki/Cancer",
+    "definition": "A cancerous growth of cells that can invade surrounding tissues and spread to distant parts of the body",
+    "image": "/images/ap-biology/unit-4/malignant-tumor.jpg"
+  },
+  "metastisis": {
+    "term": "Metastasis",
+    "link": "https://en.wikipedia.org/wiki/Metastasis",
+    "definition": "The process by which cancer cells spread from their original (primary) tumor to other parts of the body",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Metastasis_illustration.jpg/250px-Metastasis_illustration.jpg"
+  },
+  "gene": {
+    "term": "Genes",
+    "link": "https://en.wikipedia.org/wiki/Gene",
+    "definition": "Segments of DNA that carry the instructions for building proteins or functional RNA molecules, acting as the fundamental units of heredity",
+    "image": "https://medlineplus.gov/images/PX00006G_PRESENTATION.jpeg"
+  },
+  "asexualReproduction": {
+    "term": "Asexual Reproduction",
+    "link": "https://en.wikipedia.org/wiki/Asexual_reproduction",
+    "definition": "A biological process where a single parent organism creates one or more genetically identical offspring, known as clones",
+    "image": "https://images.nagwa.com/figures/explainers/704179248472/2.svg"
+  },
+  "sexualReproduction": {
+    "term": "Sexual Reproduction",
+    "link": "https://en.wikipedia.org/wiki/Sexual_reproduction",
+    "definition": "A biological process that produces new, genetically unique offspring by combining genetic material from two parents",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/f8ad9b05ca21c5aa2074bd41bf11ca42f5aaff62.jpg"
+  },
+  "homologousChromosome": {
+    "term": "Homologous chromosomes",
+    "link": "https://en.wikipedia.org/wiki/Homologous_chromosome",
+    "definition": "Pairs of chromosomes within a diploid cell that share the same size, shape, and gene locations, but may carry different versions (alleles) of those genes",
+    "image": "https://cdn.zmescience.com/wp-content/uploads/2023/02/image-12.png"
+  },
+  "autosome": {
+    "term": "Autosomes",
+    "link": "https://en.wikipedia.org/wiki/Autosome",
+    "definition": "Any chromosome that is not a sex chromosome",
+    "image": "https://study.com/cimages/multimages/16/autosomes1.png"
+  },
+  "sexChromosome": {
+    "term": "Sex chromosomes",
+    "link": "https://en.wikipedia.org/wiki/Sex_chromosome",
+    "definition": "A type of chromosome involved in determining an individual's sex; in humans X or Y",
+    "image": "https://www.shalom-education.com/wp-content/uploads/2022/02/image-5.png"
+  },
+  "meiosis": {
+    "term": "Meiosis",
+    "link": "https://en.wikipedia.org/wiki/Meiosis",
+    "definition": "A type of cell division in sexually reproducing organisms that produces gametes with half the number of chromosomes as the parent cell, resulting in genetically unique, haploid cells",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Meiosis_Overview_new.svg/1200px-Meiosis_Overview_new.svg.png"
+  },
+  "fertilization": {
+    "term": "Fertilization",
+    "link": "https://en.wikipedia.org/wiki/Fertilisation",
+    "definition": "The biological process where a male gamete (sperm) and a female gamete (egg) fuse to form a single cell called a zygote, initiating the development of a new individual",
+    "image": "https://www.creative-diagnostics.com/upload/image/Gametes-and-Fertilization.png"
+  },
+  "synapsis": {
+    "term": "Synapsis",
+    "link": "https://en.wikipedia.org/wiki/Synapsis",
+    "definition": "The fusion of chromosome pairs at the start of meiosis",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcKGbgfomNGw-S700mdml8muqzMpqSPxC4cw&s"
+  },
+  "crossingOver": {
+    "term": "Crossing over",
+    "link": "https://en.wikipedia.org/wiki/Chromosomal_crossover",
+    "definition": "A biological process in meiosis where homologous chromosomes exchange genetic material, creating recombinant chromosomes with a mix of genes from both parents",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGtqFdDNIJ_HX1Sv7H9J6orIwZ0BmJT9I9iA&s"
+  },
+  "independentAssortment": {
+    "term": "Independent assortment",
+    "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_independent_assortment",
+    "definition": "The randomness and separation of homologous chromosomes in meiosis 1, increasing genetic variation",
+    "image": "https://ib.bioninja.com.au/img/random%20assortment%20ipad.jpg"
+  },
+  "randomFertilization": {
+    "term": "Random fertilization",
+    "link": "https://en.wikipedia.org/wiki/Quantitative_genetics#Random_fertilization",
+    "definition": "The principle that any given sperm can fertilize any given egg, resulting in an enormous number of unique genetic combinations in sexually reproducing organisms"
+  },
+  "genotype": {
+    "term": "Genotype",
+    "link": "https://en.wikipedia.org/wiki/Genotype",
+    "definition": "An organism's specific set of genetic information or the variant forms (alleles) of a particular gene that it carries"
+  },
+  "phenotype": {
+    "term": "Phenotype",
+    "link": "https://en.wikipedia.org/wiki/Phenotype",
+    "definition": "The set of observable characteristics or traits of an organism"
+  },
+  "dominantAllele": {
+    "term": "Dominant Alleles",
+    "link": "https://en.wikipedia.org/wiki/Allele",
+    "definition": "A version of a gene that expresses its trait in an individual's phenotype even when only one copy of the allele is present (denoted by a capital letter)"
+  },
+  "recessiveAllele": {
+    "term": "Recessive Alleles",
+    "link": "https://en.wikipedia.org/wiki/Allele",
+    "definition": "A version of a gene that expresses its trait in an individual's phenotype only when both copies of the allele are present, and the individual has no dominant alleles (denoted by a lowercase letter)"
+  },
+  "homozygous": {
+    "term": "Homozygous",
+    "link": "https://en.wikipedia.org/wiki/Zygosity#Homozygous",
+    "definition": "Having inherited the same alleles of a genomic marker from each biological parent, meaning two identical copies of the allele within the individual"
+  },
+  "heterozygous": {
+    "term": "Heterozygous",
+    "link": "https://en.wikipedia.org/wiki/Zygosity#Heterozygous",
+    "definition": "Having inherited different alleles of a genomic marker from each biological parent, meaning each allele within the individual will be different"
+  },
+  "punnettSquare": {
+    "term": "Punnett Square",
+    "link": "https://en.wikipedia.org/wiki/Punnett_square",
+    "definition": "A genetics tool that uses a simple grid to predict the potential genotypes (alleles) and phenotypes (observable traits) of offspring from a genetic cross",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Punnett_Square_%28Green_Dominant%29.svg/250px-Punnett_Square_%28Green_Dominant%29.svg.png"
+  },
+  "lawOfSegregation": {
+    "term": "Law of Segregation",
+    "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_segregation_of_genes",
+    "definition": "Principle of Mendelian genetics stating that the two alleles of an individual for a given gene separate during the formation of gametes, ensuring that each gamete receives only one allele",
+    "image": "https://cdn-ildfibj.nitrocdn.com/qaWeLntkRcyxNUcEoWbLpZLQkcgLFsiJ/assets/images/optimized/www.biologyonline.com/wp-content/uploads/2019/10/Law-of-Segregation-gametes-diagram.jpg"
+  },
+  "testCross": {
+    "term": "Test Cross",
+    "link": "https://en.wikipedia.org/wiki/Test_cross",
+    "definition": "A genetic experiment to determine if an individual with a dominant phenotype has a homozygous dominant or heterozygous genotype by crossing it with a recessive individual",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Punnett_Square_Test_Cross.PNG"
+  },
+  "monohybridCross": {
+    "term": "Monohybrid Cross",
+    "link": "https://en.wikipedia.org/wiki/Monohybrid_cross",
+    "definition": "A genetics cross between two individuals that differ in only one trait",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Monohybrid_Punnett_Square_%28Aa_x_Aa%29.png"
+  },
+  "lawOfIndependentAssortment": {
+    "term": "Law of Independent Assortment",
+    "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_independent_assortment",
+    "definition": "Principle of Mendelian genetics stating that alleles for different genes segregate independently of one another during gamete formation",
+    "image": "https://humanoriginproject.com/wp-content/uploads/2018/11/mendels-law-independent-assortment.jpg"
+  },
+  "dihybridCross": {
+    "term": "Dihybrid Cross",
+    "link": "https://en.wikipedia.org/wiki/Dihybrid_cross",
+    "definition": "A genetic cross between two individuals that differ in two traits, resulting in a 9:3:3:1 phenotypic ratio in the F2 generation when crossing heterozygous individuals",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Dihybrid_cross.svg"
+  },
+  "chiSquareTest": {
+    "term": "Chi-Square Test",
+    "link": "https://en.wikipedia.org/wiki/Chi-squared_test",
+    "definition": "A statistical method for determining if there is a significant difference between an observed frequency distribution and an expected one",
+    "image": "https://www.simplypsychology.org/wp-content/uploads/chi-squared-equation.png"
+  },
+  "nullHypothesis": {
+    "term": "Null hypothesis",
+    "link": "https://en.wikipedia.org/wiki/Null_hypothesis",
+    "definition": "A statement that there is no significant effect, relationship, or difference between variables in a population; the default assumption within an experiment"
+  },
+  "completeDominance": {
+    "term": "Complete dominance",
+    "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Complete_dominance_(Mendelian)",
+    "definition": "A form of Mendelian inheritance where one allele (the dominant allele) completely masks the effect of another allele (the recessive allele) for a specific trait"
+  },
+  "incompleteDominance": {
+    "term": "Incomplete dominance",
+    "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Incomplete_dominance_(non-Mendelian)",
+    "definition": "A genetic inheritance pattern where neither of two alleles is completely dominant or recessive, resulting in a blended or intermediate phenotype in the heterozygous individual",
+    "image": "https://cdn1.byjus.com/wp-content/uploads/2016/09/Incomplete-dominance-300x289.png"
+  },
+  "codominance": {
+    "term": "Codominance",
+    "link": "https://en.wikipedia.org/wiki/Dominance_(genetics)#Co-dominance_(non-Mendelian)",
+    "definition": "A genetic inheritance pattern where both alleles for a trait are fully and simultaneously expressed in the phenotype of a heterozygous individual",
+    "image": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A816c108c3ca8876daa9c5cd6527b9345744ecd3b99a04fa7a6d1f9fb%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1"
+  },
+  "multipleAllele": {
+    "term": "Multiple alleles",
+    "link": "https://en.wikipedia.org/wiki/Allele#Multiple_alleles",
+    "definition": "Three or more different versions of the same gene found within a population",
+    "image": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/2318/2016/06/01184521/Figure_08_03_03.jpg"
+  },
+  "linkedGene": {
+    "term": "Linked genes",
+    "link": "https://en.wikipedia.org/wiki/Genetic_linkage",
+    "definition": "Genes located on the same chromosome that tend to be inherited together due to their physical proximity, and do not independently assort",
+    "image": "https://learn-genetics.b-cdn.net/pigeons/geneticlinkage/images/linkage-5.jpg"
+  },
+  "linageMap": {
+    "term": "Linkage map",
+    "link": "https://en.wikipedia.org/wiki/Genetic_linkage#Linkage_map",
+    "definition": "A diagram showing the relative positions and genetic distances between genes on a chromosome, based on the frequency of recombination (crossing over) during meiosis",
+    "image": "https://www.genome.gov/sites/default/files/media/images/tg/Genetic-map.jpg"
+  },
+  "parentalType": {
+    "term": "Parental type",
+    "link": "https://en.wikipedia.org/wiki/Genetic_recombination",
+    "definition": "Offspring whose allele combinations for specific genes are identical to the allele combinations of one of their parents"
+  },
+  "recombinantType": {
+    "term": "Recombinant type",
+    "link": "https://en.wikipedia.org/wiki/Genetic_recombination",
+    "definition": "Offspring whose allele combinations for specific genes are not identical to the allele combinations of one of their parents"
+  },
+  "nonnuclearInheritance": {
+    "term": "Nonnuclear inheritance",
+    "link": "https://en.wikipedia.org/wiki/Mitochondrial_DNA#Mitochondrial_inheritance",
+    "definition": "The inheritance of genes from structures other than the nucleus, such as the mitochondria"
+  },
+  "sexLinkedGene": {
+    "term": "Sex-linked gene",
+    "link": "https://en.wikipedia.org/wiki/Sex_linkage",
+    "definition": "A gene located on one of the sex chromosomes, either the X or Y chromosome, which have unique patterns of inheritance due to the combinations of these chromosomes in different sexes",
+    "image": "https://www.pathwayz.org/Node/Image/url/aHR0cHM6Ly9pLmltZ3VyLmNvbS9lWDc4cHM0LnBuZz8x"
+  },
+  "pedigree": {
+    "term": "Pedigree",
+    "link": "https://en.wikipedia.org/wiki/Pedigree_chart",
+    "definition": "A diagram of a family tree that uses standardized symbols to show relationships and the inheritance of traits or genetic diseases across generations",
+    "image": "https://cdn.britannica.com/73/72173-004-87D1E1BB/hemophilia-pedigree-chart-inheritance-trait-generations-gene.jpg"
+  },
+  "polygenicInheritance": {
+    "term": "Polygenic inheritance",
+    "link": "https://en.wikipedia.org/wiki/Polygene",
+    "definition": "A type of genetic inheritance where a single trait is influenced by multiple genes, rather than just one gene",
+    "image": "https://microbenotes.com/wp-content/uploads/2023/08/Polygenic-Inheritance.jpeg"
+  },
+  "phenotypicPlasticity": {
+    "term": "Phenotypic plasticity",
+    "link": "https://en.wikipedia.org/wiki/Phenotypic_plasticity",
+    "definition": "The ability of a single genotype to produce different phenotypes (observable characteristics) in response to different environmental conditions, such as temperature, diet, or predators",
+    "image": "https://i.redd.it/e55n023ol3q11.jpg"
+  },
+  "purine": {
+    "term": "Purines",
+    "link": "https://en.wikipedia.org/wiki/Purine",
+    "definition": "A category of nitrogenous bases containing two carbon rings, such as adenine and guanine",
+    "image": "https://microbenotes.com/wp-content/uploads/2022/10/Purine-adenine-and-guanine.jpg"
+  },
+  "pyrimidine": {
+    "term": "Pyrimidines",
+    "link": "https://en.wikipedia.org/wiki/Pyrimidine",
+    "definition": "A category of nitrogenous bases containing one carbon ring, such as thymine, cytosine, and uracil",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScBoV0IkMR8eV_RYjlMI9GFJtBISbXR3h6xw&s"
+  },
+  "histoneProtein": {
+    "term": "Histone proteins",
+    "link": "https://en.wikipedia.org/wiki/Histone",
+    "definition": "Basic proteins found in the nuclei of eukaryotic cells that organize and compact DNA into chromosomes"
+  },
+  "nucleosome": {
+    "term": "Nucleosomes",
+    "link": "https://en.wikipedia.org/wiki/Nucleosome",
+    "definition": "The basic unit of DNA packaging in eukaryotes, consisting of a segment of DNA wrapped around a spool of eight histone proteins",
+    "image": "https://media.istockphoto.com/id/1412716001/vector/histone-proteins-core-nucleosome-dna-double-helix.jpg?s=612x612&w=0&k=20&c=63Q6Enkwmf_GCgF5qG59v-_6bovzXs4wNqQSFZFpxGY="
+  },
+  "chromatin": {
+    "term": "Chromatin",
+    "link": "https://en.wikipedia.org/wiki/Chromatin",
+    "definition": "The complex of DNA and proteins (primarily histones) that forms chromosomes in the nucleus of eukaryotic cells, which condenses to form chromosomes during cell division",
+    "image": "https://www.bio-rad.com/sites/default/files/inline-images/Epigenetics-FIG1a_DNA_Packaging.png"
+  },
+  "intron": {
+    "term": "Introns",
+    "link": "https://en.wikipedia.org/wiki/Intron",
+    "definition": "Non-coding sequences of DNA found within a gene that are transcribed into RNA but are removed before the RNA is translated into a protein"
+  },
+  "exon": {
+    "term": "Exons",
+    "link": "https://en.wikipedia.org/wiki/Exon",
+    "definition": "Coding sequences of DNA that are transcribed into RNA and are translated into a protein"
+  },
+  "linearChromosome": {
+    "term": "Linear chromosomes",
+    "link": "https://en.wikipedia.org/wiki/Linear_chromosome",
+    "definition": "Rod-shaped structures found in eukaryotic cell nuclei that contain genetic information, which contain telomeres on their ends and a central centromere",
+    "image": "/images/ap-biology/unit-6/linear-chromosome.jpg"
+  },
+  "circularChromosome": {
+    "term": "Circular chromosomes",
+    "link": "https://en.wikipedia.org/wiki/Circular_chromosome",
+    "definition": "A ring-shaped molecule of DNA, found primarily in prokaryotes and certain organelles (like mitochondria and chloroplasts)",
+    "image": "/images/ap-biology/unit-6/circular-chromosome.jpg"
+  },
+  "plasmid": {
+    "term": "Plasmids",
+    "link": "https://en.wikipedia.org/wiki/Plasmid",
+    "definition": "Small, circular, double-stranded DNA molecules that are separate from a cell's main chromosome and can replicate independently",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Dh5X5cWSASsXB5trq92kzyc1h9aMWTZXRQ&s"
+  },
+  "semiconservativeProcess": {
+    "term": "Semiconservative process",
+    "link": "https://en.wikipedia.org/wiki/Semiconservative_replication",
+    "definition": "A method of DNA replication where each new DNA molecule consists of one original (\"parental\") strand and one newly synthesized strand",
+    "image": "https://www.shutterstock.com/image-vector/semiconservative-dna-replication-scientific-diagram-260nw-2467897473.jpg"
+  },
+  "helicase": {
+    "term": "Helicase",
+    "link": "https://en.wikipedia.org/wiki/Helicase",
+    "definition": "An enzyme that unwinds double-stranded DNA and RNA by breaking the hydrogen bonds between base pairs, creating a replication fork",
+    "image": "https://humanbiology.pressbooks.tru.ca/wp-content/uploads/sites/6/2020/01/Helicase-and-single-stranded-binding-proteins-1.png"
+  },
+  "topoisomerase": {
+    "term": "Topoisomerase",
+    "link": "https://en.wikipedia.org/wiki/Topoisomerase",
+    "definition": "Enzyme that manages DNA topology by cutting and resealing DNA strands to relieve the tension from supercoiling which occurs as helicase unwinds the DNA"
+  },
+  "dnaPolymerase": {
+    "term": "DNA polymerase",
+    "link": "https://en.wikipedia.org/wiki/DNA_polymerase",
+    "definition": "A crucial enzyme that synthesizes DNA by adding nucleotides to a growing strand, adding complementary nitrogenous bases in a 5’ to 3’ direction",
+    "image": "https://cdn.prod.website-files.com/63dc099d352018653241b1a7/63fe7db453972b1114546a20_taq_polymerase.jpeg"
+  },
+  "leadingStrand": {
+    "term": "Leading strand",
+    "link": "https://en.wikipedia.org/wiki/DNA_replication#Leading_strand",
+    "definition": "The new DNA strand synthesized continuously in the 5’ to 3’ direction, moving along with the replication fork",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/4bab0489dff5f178a5de02cc5cfdd6d5eb8f3c21.png"
+  },
+  "laggingStrand": {
+    "term": "Lagging strand",
+    "link": "https://en.wikipedia.org/wiki/DNA_replication#Lagging_strand",
+    "definition": "The new DNA strand synthesized discontinuously in the 3’ to 5’ direction in fragments because its template runs against the replication fork",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/4bab0489dff5f178a5de02cc5cfdd6d5eb8f3c21.png"
+  },
+  "okazakiFragment": {
+    "term": "Okazaki fragments",
+    "link": "https://en.wikipedia.org/wiki/Okazaki_fragments",
+    "definition": "Short DNA sequences that are synthesized discontinuously on the lagging strand during DNA replication",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/4bab0489dff5f178a5de02cc5cfdd6d5eb8f3c21.png"
+  },
+  "ligase": {
+    "term": "Ligase",
+    "link": "https://en.wikipedia.org/wiki/Ligase",
+    "definition": "An enzyme that catalyzes the formation of phosphodiester bonds, such as those which connect Okazaki fragments to create a continuous strand of DNA"
+  },
+  "telomere": {
+    "term": "Telomeres",
+    "link": "https://en.wikipedia.org/wiki/Telomere",
+    "definition": "Protective caps at the ends of chromosomes that consist of repetitive DNA sequences and proteins",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD7ZtRWxgfcPXUK9SXFTbdvIPLo0SvSROgVQ&s"
+  },
+  "centralDogma": {
+    "term": "Central dogma",
+    "link": "https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology",
+    "definition": "Describes the flow of genetic information from DNA to RNA to protein, through the processes of transcription (DNA to RNA) and translation (RNA to protein)",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240226113642/Central-Dogma.png"
+  },
+  "transcription": {
+    "term": "Transcription",
+    "link": "https://en.wikipedia.org/wiki/Transcription_(biology)",
+    "definition": "The biological process of creating an mRNA copy from a DNA template using RNA polymerase",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/1da89713b9aa8067742244d916749e72561bb3cc.png"
+  },
+  "mRNA": {
+    "term": "mRNA",
+    "link": "https://en.wikipedia.org/wiki/Messenger_RNA",
+    "definition": "A single-stranded RNA molecule that carries genetic instructions from DNA to the cell's ribosomes for protein synthesis"
+  },
+  "templateStrand": {
+    "term": "Template strand",
+    "link": "https://en.wikipedia.org/wiki/Transcription_(biology)",
+    "definition": "A single strand of DNA that serves as a pattern for synthesizing a complementary strand of RNA during transcription or a new DNA strand during replication",
+    "image": "https://microbenotes.com/wp-content/uploads/2023/10/Coding-Strand-vs.-Template-Strand.jpeg"
+  },
+  "codingStrand": {
+    "term": "Coding strand",
+    "link": "https://en.wikipedia.org/wiki/Coding_strand",
+    "definition": "The DNA strand with the same sequence as the mRNA that is transcribed from it, with the exception of having thymine instead of uracil",
+    "image": "https://microbenotes.com/wp-content/uploads/2023/10/Coding-Strand-vs.-Template-Strand.jpeg"
+  },
+  "rnaPolymerase": {
+    "term": "RNA polymerase",
+    "link": "https://en.wikipedia.org/wiki/RNA_polymerase",
+    "definition": "A crucial enzyme that transcribes DNA into RNA by binding to a DNA promoter sequence and synthesizing a complementary RNA strand"
+  },
+  "5cap": {
+    "term": "5' cap",
+    "link": "https://en.wikipedia.org/wiki/Five-prime_cap",
+    "definition": "A modification at the 5' end of mRNA where a guanine nucleotide is added to the beginning of the transcript, protecting it from degradation and helping ribosomes bind to it",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/0b2543a2075343debc0063c303b43cbfb31cdb13.png"
+  },
+  "polyATail": {
+    "term": "Poly-A-tail",
+    "link": "https://en.wikipedia.org/wiki/Polyadenylation",
+    "definition": "A modification at the 3' end of mRNA where a string of adenosine nucleotides is added to the end of the transcript, protecting it from degradation and enhancing translation",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/0b2543a2075343debc0063c303b43cbfb31cdb13.png"
+  },
+  "rnaSplicing": {
+    "term": "RNA splicing",
+    "link": "https://en.wikipedia.org/wiki/RNA_splicing",
+    "definition": "The process of removing non-coding regions called introns from the precursor pre-mRNA and joining the coding regions called exons to form mRNA",
+    "image": "https://www.yourgenome.org/wp-content/uploads/2024/01/1201-RNA-Alt-Splicing-768x569.png"
+  },
+  "spliceosome": {
+    "term": "Spliceosome",
+    "link": "https://en.wikipedia.org/wiki/Spliceosome",
+    "definition": "A molecular machine made of small nuclear ribonucleoproteins (snRNPs) and proteins that removes introns from pre-mRNA and joins the exons together to create mature mRNA"
+  },
+  "ribozyme": {
+    "term": "Ribozyme",
+    "link": "https://en.wikipedia.org/wiki/Ribozyme",
+    "definition": "A catalytic RNA molecule that functions like an enzyme, assisting in protein synthesis and mRNA processing"
+  },
+  "translation": {
+    "term": "Translation",
+    "link": "https://en.wikipedia.org/wiki/Translation_(biology)",
+    "definition": "The process of creating a protein from an mRNA template, which involves reading the genetic code on the mRNA in three-nucleotide units called codons",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/5882ce9e9f8ba89e8a6190f66935b6f9814859c4.png"
+  },
+  "tRNA": {
+    "term": "tRNA",
+    "link": "https://en.wikipedia.org/wiki/Transfer_RNA",
+    "definition": "A small RNA molecule that functions as an adaptor in protein synthesis, linking the codons on mRNA to the correct amino acids",
+    "image": "https://oligotherapeutics.org/wp-content/uploads/2022/03/tRNA-1024x1024.jpg"
+  },
+  "rRNA": {
+    "term": "rRNA",
+    "link": "https://en.wikipedia.org/wiki/Ribosomal_RNA",
+    "definition": "A type of non-coding RNA that is a major structural and functional component of ribosomes, helping bind to mRNA and tRNA and catalyze formation of peptide bonds during translation"
+  },
+  "codon": {
+    "term": "Codon",
+    "link": "https://en.wikipedia.org/wiki/Genetic_code#Codons",
+    "definition": "A sequence of three nucleotides in a DNA or RNA molecule that specifies a particular amino acid or a start/stop signal for protein synthesis",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/RNA-codons.svg"
+  },
+  "anticodon": {
+    "term": "Anticodon",
+    "link": "https://en.wikipedia.org/wiki/Transfer_RNA#Anticodon",
+    "definition": "A three-nucleotide sequence on a transfer RNA (tRNA) molecule that is complementary to a three-nucleotide codon on a messenger RNA (mRNA) molecule",
+    "image": "https://elearning.fondation-merieux.org/molecular-biology/chapter-3/assets/figure-13.png"
+  },
+  "signalPeptide": {
+    "term": "Signal peptide",
+    "link": "https://en.wikipedia.org/wiki/Signal_peptide",
+    "definition": "A short amino acid sequence located at the end of a protein that directs its secretion or insertion into a cell membrane"
+  },
+  "retrovirus": {
+    "term": "Retroviruses",
+    "link": "https://en.wikipedia.org/wiki/Retrovirus",
+    "definition": "An RNA virus that reverses the typical cellular process of transcription, converting its RNA into DNA after infecting a host cell"
+  },
+  "reverseTranscriptase": {
+    "term": "Reverse transcriptase",
+    "link": "https://en.wikipedia.org/wiki/Reverse_transcriptase",
+    "definition": "An enzyme that synthesizes DNA from an RNA template, which in the case of retroviruses can then integrate into the host’s DNA and undergo protein synthesis"
+  },
+  "epigenetics": {
+    "term": "Epigenetics",
+    "link": "https://en.wikipedia.org/wiki/Epigenetics",
+    "definition": "The study of how behaviors and environment can cause changes that affect the way genes work without altering the underlying DNA sequence"
+  },
+  "dnaMethylation": {
+    "term": "DNA methylation",
+    "link": "https://en.wikipedia.org/wiki/DNA_methylation",
+    "definition": "An epigenetic process that adds a methyl group to DNA, which can turn genes \"off\" and silence their activity without changing the underlying DNA sequence by tightening the DNA"
+  },
+  "histoneAcetylation": {
+    "term": "Histone acetylation",
+    "link": "https://en.wikipedia.org/wiki/Histone_acetylation_and_deacetylation",
+    "definition": "An epigenetic process where an acetyl group is added to histone proteins, making the DNA more accessible to transcription machinery and enhancing expression by loosening the DNA"
+  },
+  "regulatorySequence": {
+    "term": "Regulatory sequences",
+    "link": "https://en.wikipedia.org/wiki/Regulatory_sequence",
+    "definition": "Segments of DNA that control gene expression by binding to proteins and influencing processes like transcription and translation, such as promoters, enhancers, and silencers"
+  },
+  "constitutiveGene": {
+    "term": "Constitutive genes",
+    "link": "https://en.wikipedia.org/wiki/Gene_expression#Regulation",
+    "definition": "Genes that are continuously expressed at a relatively constant level, providing proteins needed for basic cellular functions and maintenance"
+  },
+  "inducibleExpression": {
+    "term": "Inducible expression",
+    "link": "https://en.wikipedia.org/wiki/Gene_expression#Inducible_expression",
+    "definition": "A method of gene regulation where a gene's activity is turned on or off by the presence of a specific inducer molecule"
+  },
+  "transcriptionInitiationComplex": {
+    "term": "Transcription-initiation complex",
+    "link": "https://en.wikipedia.org/wiki/Transcription_(biology)#Initiation",
+    "definition": "A group of proteins that assembles at a gene's promoter region to begin transcription, as well as regulatory sequences and transcription factors",
+    "image": "/images/ap-biology/unit-4/transcription-initiation-complex.jpg"
+  },
+  "enhancer": {
+    "term": "Enhancer",
+    "link": "https://en.wikipedia.org/wiki/Enhancer_(genetics)",
+    "definition": "A DNA region that can increase the rate of gene transcription by binding proteins called transcription factors"
+  },
+  "promoter": {
+    "term": "Promoter",
+    "link": "https://en.wikipedia.org/wiki/Promoter_(genetics)",
+    "definition": "A DNA sequence located upstream of a gene that acts as the binding site for RNA polymerase and transcription factors, initiating the process of transcription",
+    "image": "https://www.genome.gov/sites/default/files/media/images/tg/Promotor.jpg"
+  },
+  "alternativeRNASplicing": {
+    "term": "Alternative RNA splicing",
+    "link": "https://en.wikipedia.org/wiki/Alternative_splicing",
+    "definition": "A process where introns are removed from pre-mRNA and exons are joined together in different combinations, creating multiple mature mRNA transcripts from a single gene",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/DNA_alternative_splicing.gif"
+  },
+  "ubiquitin": {
+    "term": "Ubiquitin",
+    "link": "https://en.wikipedia.org/wiki/Ubiquitin",
+    "definition": "A protein found in most eukaryotic cells that acts as a tag to regulate the function of other proteins, such as making the protein a target for degradation or changing its function"
+  },
+  "inducibleOperon": {
+    "term": "Inducible operon",
+    "link": "https://en.wikipedia.org/wiki/Operon",
+    "definition": "A gene cluster regulated by an \"inducer\" molecule that turns on transcription, allowing the cell to produce enzymes to break down a specific substrate, innately “off” when the substrate is absent",
+    "image": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1094/2016/11/03164747/OSC_Microbio_11_07_lacrep.jpg"
+  },
+  "repressibleOperon": {
+    "term": "Repressible operon",
+    "link": "https://en.wikipedia.org/wiki/Operon",
+    "definition": "A gene cluster regulated by an \"repressor\" molecule that turns off transcription, allowing the cell to produce certain molecules, innately “on” when the substrate is absent",
+    "image": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1094/2016/11/03164743/OSC_Microbio_11_07_trp.jpg"
+  },
+  "operator": {
+    "term": "Operator",
+    "link": "https://en.wikipedia.org/wiki/Operon",
+    "definition": "A segment of DNA where a repressor protein binds to control gene transcription"
+  },
+  "repressor": {
+    "term": "Repressor",
+    "link": "https://en.wikipedia.org/wiki/Operon",
+    "definition": "A protein that inhibits gene expression by binding to the operator and blocking transcription"
+  },
+  "cellDifferentiation": {
+    "term": "Cell differentiation",
+    "link": "https://en.wikipedia.org/wiki/Cellular_differentiation",
+    "definition": "The process by which an unspecialized cell becomes a specialized type of cell through the activation and silencing of specific genes"
+  },
+  "differentialGeneExpression": {
+    "term": "Differential gene expression",
+    "link": "https://en.wikipedia.org/wiki/Gene_expression",
+    "definition": "The biochemical process that determinates which genes respond to which signals or triggers depending on the conditions"
+  },
+  "cellSpecialization": {
+    "term": "Cell specialization",
+    "link": "https://en.wikipedia.org/wiki/Cellular_differentiation",
+    "definition": "The unique structure and function differentiated cells acquire,”what” the cell’s role is",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZu_v2gayw_Jh0Pan3C0MwUuNOBQn61aydtQ&s"
+  },
+  "smallRNA": {
+    "term": "Small RNAs",
+    "link": "https://en.wikipedia.org/wiki/Small_RNA",
+    "definition": "Group of short, non-coding RNA molecules that play vital roles in regulating gene expression"
+  },
+  "miRNA": {
+    "term": "miRNA",
+    "link": "https://en.wikipedia.org/wiki/MicroRNA",
+    "definition": "A small RNA which regulates gene expression through RNA interference, inhibiting translation"
+  },
+  "siRNA": {
+    "term": "siRNA",
+    "link": "https://en.wikipedia.org/wiki/Small_interfering_RNA",
+    "definition": "A small RNA which regulates gene expression by degrading mRNA"
+  },
+  "pointMutation": {
+    "term": "Point mutation",
+    "link": "https://en.wikipedia.org/wiki/Point_mutation",
+    "definition": "A change in a single nucleotide base pair in the DNA sequence, such as a substitution, insertion, or deletion",
+    "image": "https://study.com/cimages/multimages/16/screenshot_2021-09-13_1157481911616654537401110.png"
+  },
+  "insertion": {
+    "term": "Insertion",
+    "link": "https://en.wikipedia.org/wiki/Insertion_(genetics)",
+    "definition": "A type of genetic change where one or more nucleotide pairs are inserted into the DNA sequence",
+    "image": "https://api.www.labxchange.org/api/v1/xblocks/lb:LabXchange:3d141f49:html:1/storage/41720791110498-497127da82ceeb0b853930ee01c686ac.png"
+  },
+  "deletion": {
+    "term": "Deletion",
+    "link": "https://en.wikipedia.org/wiki/Deletion_(genetics)",
+    "definition": "A type of genetic change where one or more nucleotide pairs are removed from the DNA sequence",
+    "image": "https://kellysdragonsrule.weebly.com/uploads/4/9/2/3/49236655/published/370929396.png?1547391243"
+  },
+  "frameshiftMutation": {
+    "term": "Frameshift mutation",
+    "link": "https://en.wikipedia.org/wiki/Frameshift_mutation",
+    "definition": "A type of genetic mutation where one or more nucleotides are inserted or deleted from a DNA sequence, causing the reading frame of the gene to shift, changing the codon groupings"
+  },
+  "nonsenseMutation": {
+    "term": "Nonsense mutation",
+    "link": "https://en.wikipedia.org/wiki/Nonsense_mutation",
+    "definition": "A type of point mutation in which a nucleotide base pair is changed, resulting in a premature stop codon (UAG, UGA, or UAA) in the mRNA transcript"
+  },
+  "silentMutation": {
+    "term": "Silent mutation",
+    "link": "https://en.wikipedia.org/wiki/Silent_mutation",
+    "definition": "A type of mutation where a nucleotide base pair in the DNA sequence is altered, but this change does not change the produced amino acid sequence due to the redundancy of the genetic code",
+    "image": "https://d20khd7ddkh5ls.cloudfront.net/silent_mutation.png"
+  },
+  "codonChart": {
+    "term": "Codon chart",
+    "link": "https://en.wikipedia.org/wiki/DNA_and_RNA_codon_tables",
+    "definition": "A table which can be used to translate a genetic code into a sequence of amino acids by using mRNA codons",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/f5de6355003ee322782b26404ef0733a1d1a61b0.png"
+  },
+  "mutagen": {
+    "term": "Mutagens",
+    "link": "https://en.wikipedia.org/wiki/Mutagen",
+    "definition": "An agent, such as radiation or a chemical substance, which causes genetic mutation"
+  },
+  "nondisjunction": {
+    "term": "Nondisjunction",
+    "link": "https://en.wikipedia.org/wiki/Nondisjunction",
+    "definition": "The failure of homologous chromosomes or sister chromatids to separate properly during mitosis or meiosis, resulting in daughter cells with an incorrect number of chromosomes",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mitotic_nondisjunction.png/960px-Mitotic_nondisjunction.png"
+  },
+  "horizontalGeneTransfer": {
+    "term": "Horizontal gene transfer",
+    "link": "https://en.wikipedia.org/wiki/Horizontal_gene_transfer",
+    "definition": "The transfer of genetic material between organisms that are not parent and offspring through transformation, conjugation, and transduction in bacteria, and through viruses in eukaryotes"
+  },
+  "transformation": {
+    "term": "Transformation",
+    "link": "https://en.wikipedia.org/wiki/Genetic_transformation",
+    "definition": "The process where a bacterium takes up external DNA from its environment, which can change its genetic makeup",
+    "image": "https://i.shgcdn.com/783ef3c0-6790-4a01-903f-815a714b8a95/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+  },
+  "transduction": {
+    "term": "Transduction",
+    "link": "https://en.wikipedia.org/wiki/Transduction_(genetics)",
+    "definition": "The process of transferring genetic material from one bacterium to another via a virus, or bacteriophage",
+    "image": "https://textimgs.s3.amazonaws.com/boundless-microbiology/ansduction-28genetics-29en.svg"
+  },
+  "conjugation": {
+    "term": "Conjugation",
+    "link": "https://en.wikipedia.org/wiki/Bacterial_conjugation",
+    "definition": "A process of horizontal gene transfer where genetic material, typically a plasmid, is transferred directly from one bacterium to another through a connection",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Conjugation.svg"
+  },
+  "transposition": {
+    "term": "Transposition",
+    "link": "https://en.wikipedia.org/wiki/Transposable_element",
+    "definition": "A process in which genetic elements, called transposons, move from one location to another within the genome of a bacterium"
+  },
+  "virus": {
+    "term": "Virus",
+    "link": "https://en.wikipedia.org/wiki/Virus",
+    "definition": "A submicroscopic infectious agent that replicates only inside the living cells of an organism"
+  },
+  "biotechnology": {
+    "term": "Biotechnology",
+    "link": "https://en.wikipedia.org/wiki/Biotechnology",
+    "definition": "The use of living organisms, cells, and biological processes to develop products and technologies for a wide range of applications, including medicine, agriculture, and industry"
+  },
+  "dnaSequencing": {
+    "term": "DNA sequencing",
+    "link": "https://en.wikipedia.org/wiki/DNA_sequencing",
+    "definition": "The process of determining the order of the four nucleotide bases (A, C, G, and T) in a DNA molecule, which provides the instructions for an organism's cells"
+  },
+  "gelElectrophoresis": {
+    "term": "Gel electrophoresis",
+    "link": "https://en.wikipedia.org/wiki/Gel_electrophoresis",
+    "definition": "A laboratory technique that separates DNA, RNA, or proteins based on their size and electrical charge, allowing analysis and comparison of DNA samples",
+    "image": "https://www.monash.edu/__data/assets/image/0010/4026529/Bio-2-Gel-Electrolysis-set-up.png"
+  },
+  "pcr": {
+    "term": "PCR",
+    "link": "https://en.wikipedia.org/wiki/Polymerase_chain_reaction",
+    "definition": "A laboratory technique used to rapidly amplify a specific segment of DNA through the use of RNA polymerase, creating millions of copies from a small sample",
+    "image": "https://www.genome.gov/sites/default/files/media/images/tg/PCR.jpg"
+  },
+  "recombinantDNA": {
+    "term": "Recombinant DNA",
+    "link": "https://en.wikipedia.org/wiki/Recombinant_DNA",
+    "definition": "DNA from different sources that has been combined in a laboratory setting, often through the use of a plasmid",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/1246f65e5c4d3741c85d8b43aa0175cc72368c90.png"
+  },
+  "geneCloning": {
+    "term": "Gene cloning",
+    "link": "https://en.wikipedia.org/wiki/Molecular_cloning",
+    "definition": "The process of making identical copies of a specific gene or DNA segment by introducing the specific DNA segment into a fast reproducing host organism, such as bacteria"
+  },
+  "restrictionEnzyme": {
+    "term": "Restriction enzymes",
+    "link": "https://en.wikipedia.org/wiki/Restriction_enzyme",
+    "definition": "Proteins that cut DNA at specific sequences, acting as \"molecular scissors\" for a variety of biotechnology applications",
+    "image": "https://www.sciencelearn.org.nz/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F117510%2F1722389183-restriction_enzyme_large20161208-1445-1kxxo2z.jpg%3Fw%3D1840%26h%3D1390.952380952381&w=1920&q=85"
+  },
+  "crisprCas9": {
+    "term": "CRISPR-Cas9",
+    "link": "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+    "definition": "A genome-editing technology that uses a guide RNA to direct the Cas9 protein, which acts like molecular scissors, to cut DNA at a specific location"
+  },
+  "evolution": {
+    "term": "Evolution",
+    "link": "https://en.wikipedia.org/wiki/Evolution",
+    "definition": "The process of cumulative changes in the inherited traits of a population over generations, leading to the development of new species, driven by both natural selection and random events",
+    "image": "https://th-thumbnailer.cdn-si-edu.com/s23Vmc1558XQLvh2xL3eSfvQO-g=/fit-in/1200x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/consequences-of-evolution-631.jpg"
+  },
+  "charlesDarwin": {
+    "term": "Charles Darwin",
+    "link": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "definition": "An English naturalist and biologist who proposed that all species of life have descended from a common ancestor and the theory of natural selection",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-79035252.jpg"
+  },
+  "adaptation": {
+    "term": "Adaptations",
+    "link": "https://en.wikipedia.org/wiki/Adaptation",
+    "definition": "A heritable trait—a physical structure, physiological process, or behavior—that increases an organism's ability to survive and reproduce in its environment",
+    "image": "https://biblicalscienceinstitute.com/wp-content/uploads/2019/12/Darwins_finches_by_Gould-1080x675.jpg"
+  },
+  "naturalSelection": {
+    "term": "Natural selection",
+    "link": "https://en.wikipedia.org/wiki/Natural_selection",
+    "definition": "The process by which organisms with traits better suited to their environment survive and reproduce more successfully, causing those traits to become more common over generations",
+    "image": "https://www.thoughtco.com/thmb/9gLWrMdEQoLByzRtsrkkiknELV4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-463894821-59abd8c5b501e80011419798.jpg"
+  },
+  "biologicalFitness": {
+    "term": "Biological fitness",
+    "link": "https://en.wikipedia.org/wiki/Fitness_(biology)",
+    "definition": "An organism's ability to survive and produce offspring with heritable traits that are passed to future generations (ie. reproductive success)"
+  },
+  "population": {
+    "term": "Population",
+    "link": "https://en.wikipedia.org/wiki/Population",
+    "definition": "A group of individuals of the same species living in the same geographic area at the same time"
+  },
+  "ddtResistance": {
+    "term": "DDT Resistance",
+    "link": "https://en.wikipedia.org/wiki/Pesticide_resistance",
+    "definition": "A random genetic mutation in insects which allowed these individuals to survive DDT and reproduce, increasing the frequency of the resistance gene in the population over time",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Pest_resistance_labelled_light.svg/1146px-Pest_resistance_labelled_light.svg.png"
+  },
+  "sickleCellAnemia": {
+    "term": "Sickle cell anemia",
+    "link": "https://en.wikipedia.org/wiki/Sickle_cell_disease",
+    "definition": "An inherited disorder characterized which causes red blood cells to take on a crescent moon shape, leading to blockages of small blood vessels",
+    "image": "https://kidshealth.org/content/dam/patientinstructions/en/images/sickleCell-400x214-rd1-enIL.jpg"
+  },
+  "heterozygoteAdvantage": {
+    "term": "Heterozygote advantage",
+    "link": "https://en.wikipedia.org/wiki/Heterozygote_advantage",
+    "definition": "A genetic phenomenon where a heterozygote has a higher relative fitness than either of the two homozygote",
+    "image": "https://www.medschoolcoach.com/wp-content/uploads/2022/02/hybrid-viability-mcat-biology.png"
+  },
+  "artificialSelection": {
+    "term": "Artificial selection",
+    "link": "https://en.wikipedia.org/wiki/Selective_breeding",
+    "definition": "The process where humans deliberately breed organisms with desirable traits to produce offspring with those same traits",
+    "image": "https://evolution.berkeley.edu/wp-content/uploads/2021/05/dog.jpg"
+  },
+  "alleleFrequency": {
+    "term": "Allele frequency",
+    "link": "https://en.wikipedia.org/wiki/Allele_frequency",
+    "definition": "The measure of how common a specific allele is within a population, calculated by dividing the number of copies of that allele by the total number of copies of all alleles for that gene",
+    "image": "https://theg-cat.com/wp-content/uploads/2018/10/allele-freq-vs-identity-figure.jpg"
+  },
+  "disruptiveSelection": {
+    "term": "Disruptive selection",
+    "link": "https://en.wikipedia.org/wiki/Disruptive_selection",
+    "definition": "A type of selection where extreme traits are favored over intermediate ones, increasing variation within a population and resulting in a population with two or more distinct phenotypes",
+    "image": "/images/ap-biology/unit-7/disruptive-selection.png"
+  },
+  "stabilizingSelection": {
+    "term": "Stabilizing selection",
+    "link": "https://en.wikipedia.org/wiki/Stabilizing_selection",
+    "definition": "A type of selection that favors intermediate phenotypes and acts against extreme variations, leading to a stable population with reduced genetic diversity",
+    "image": "/images/ap-biology/unit-7/stabilizing-selection.png"
+  },
+  "directionalSelection": {
+    "term": "Directional selection",
+    "link": "https://en.wikipedia.org/wiki/Directional_selection",
+    "definition": "A type of selection where one extreme phenotype is favored over others, causing a shift in the population's average trait over time",
+    "image": "/images/ap-biology/unit-7/directional-selection.png"
+  },
+  "balancingSelection": {
+    "term": "Balancing selection",
+    "link": "https://en.wikipedia.org/wiki/Balancing_selection",
+    "definition": "A type of selection that maintains genetic diversity within a population by favoring multiple alleles over time, rather than allowing one allele to become dominant"
+  },
+  "frequencyDependentSelection": {
+    "term": "Frequency-dependent selection",
+    "link": "https://en.wikipedia.org/wiki/Frequency-dependent_selection",
+    "definition": "A driver of balancing selection where the fitness of a trait depends on its frequency within a population meaning either common traits have higher fitness or rarer traits have higher fitness",
+    "image": "https://theg-cat.com/wp-content/uploads/2018/03/frequency-dependent-selection-diagram.jpg?w=1024&h=541"
+  },
+  "geneticDrift": {
+    "term": "Genetic drift",
+    "link": "https://en.wikipedia.org/wiki/Genetic_drift",
+    "definition": "The change in the frequency of an existing gene variant in a population due to random chance, rather than natural selection"
+  },
+  "founderEffect": {
+    "term": "Founder effect",
+    "link": "https://en.wikipedia.org/wiki/Founder_effect",
+    "definition": "A type of genetic drift that occurs when a new population is established by a small number of individuals from a larger population, leading to reduced genetic diversity",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Founder_effect.svg"
+  },
+  "bottleneckEffect": {
+    "term": "Bottleneck effect",
+    "link": "https://en.wikipedia.org/wiki/Population_bottleneck",
+    "definition": "A sharp reduction in a population's genetic diversity caused by a catastrophic event, such as a natural disaster or human activity, which drastically decreases the number of individuals",
+    "image": "https://d20khd7ddkh5ls.cloudfront.net/bottleneck_event_causes_loss_of_genetic_variety.jpg"
+  },
+  "geneFlow": {
+    "term": "Gene flow",
+    "link": "https://en.wikipedia.org/wiki/Gene_flow",
+    "definition": "The movement of genes between populations, which happens when individuals or their genetic material migrate and successfully reproduce",
+    "image": "https://evolution.berkeley.edu/wp-content/uploads/2021/03/mech02_migration-e1636146903119.png"
+  },
+  "sexualSelection": {
+    "term": "Sexual selection",
+    "link": "https://en.wikipedia.org/wiki/Sexual_selection",
+    "definition": "An evolutionary process driven by competition for mates and resulting in reproductive success"
+  },
+  "sexualDimorphism": {
+    "term": "Sexual dimorphism",
+    "link": "https://en.wikipedia.org/wiki/Sexual_dimorphism",
+    "definition": "The difference in appearance between males and females of the same species, including variations in size, color, or structure, leading to adaptations that are important for reproduction",
+    "image": "https://a-z-animals.com/media/2021/10/Animals-That-Dance-Blue-footed-Booby.jpg"
+  },
+  "hardyWeinbergEquilibrium": {
+    "term": "Hardy-Weinberg equilibrium",
+    "link": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle",
+    "definition": "A principle that states a population's allele and genotype frequencies will remain constant from generation to generation if no evolutionary forces are acting upon it",
+    "image": "/images/ap-biology/unit-7/hardy-weinberg-equilibrium.png"
+  },
+  "antibioticResistance": {
+    "term": "Antibiotic resistance",
+    "link": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+    "definition": "Occurs when bacteria evolve to resist medicines meant to kill them through mutations, acquiring resistance genes, and developing antibiotic countering enzymes"
+  },
+  "homology": {
+    "term": "Homology",
+    "link": "https://en.wikipedia.org/wiki/Homology_(biology)",
+    "definition": "Biological features including genes and their products that are descended from a feature present in a common ancestor"
+  },
+  "homologousStructure": {
+    "term": "Homologous structures",
+    "link": "https://en.wikipedia.org/wiki/Homology_(biology)",
+    "definition": "Body parts in different species that have a similar underlying anatomy and origin from a common ancestor, but serve different functions",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx05gQfU7DKM9QXTH0T6gMGjUURUREBvxUhw&s"
+  },
+  "embryonicHomology": {
+    "term": "Embryonic homologies",
+    "link": "https://en.wikipedia.org/wiki/Homology_(biology)",
+    "definition": "Structural similarities in the embryos of different species that reveal their shared ancestry",
+    "image": "https://www.mattbell.us/content/images/2021/04/homology_vertebrate_embryos-1.jpg"
+  },
+  "molecularHomology": {
+    "term": "Molecular homologies",
+    "link": "https://en.wikipedia.org/wiki/Homology_(biology)",
+    "definition": "Similarities in DNA, RNA, or protein sequences between different species, indicating a shared evolutionary origin"
+  },
+  "vestigialOrgan": {
+    "term": "Vestigial organs",
+    "link": "https://en.wikipedia.org/wiki/Vestigiality",
+    "definition": "Evolutionary remnants, body parts or behaviors in an organism that have lost most or all of their original function from an ancestor but still exist, serving as evidence for common ancestry",
+    "image": "https://userscontent2.emaze.com/images/9230c49e-0eaa-4ea0-8025-3d961d741991/338fc7ac-d56e-44b4-9735-f7e9e55bc366.jpg"
+  },
+  "convergentEvolution": {
+    "term": "Convergent evolution",
+    "link": "https://en.wikipedia.org/wiki/Convergent_evolution",
+    "definition": "When distantly related organisms independently evolve similar traits or features because they adapt to similar environments, not because they share a recent common ancestor",
+    "image": "/images/ap-biology/unit-8/convergent-evolution.jpg"
+  },
+  "analogousStructure": {
+    "term": "Analogous structures",
+    "link": "https://en.wikipedia.org/wiki/Convergent_evolution",
+    "definition": "Body parts in different species that have similar functions but evolved independently",
+    "image": "https://researchtweet.com/wp-content/uploads/2021/09/Analogous-Analogous-Structures-Analogous-Structure-Definition-Analogous-Structure-Examples-what-is-Analogous-Structure.jpg"
+  },
+  "fossil": {
+    "term": "Fossils",
+    "link": "https://en.wikipedia.org/wiki/Fossil",
+    "definition": "Preserved remains, impressions, or traces of ancient living things from past geological ages",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fossil_Diversity.png/330px-Fossil_Diversity.png"
+  },
+  "fossilRecord": {
+    "term": "Fossil record",
+    "link": "https://en.wikipedia.org/wiki/Fossil",
+    "definition": "The collection of all discovered fossils, showing changes in organisms over time and acting as evidence for evolutio",
+    "image": "https://sites.lsa.umich.edu/globalchange/wp-content/uploads/sites/1381/2024/12/image-64.png"
+  },
+  "biogeography": {
+    "term": "Biogeography",
+    "link": "https://en.wikipedia.org/wiki/Biogeography",
+    "definition": "The scientific study of how life (species and ecosystems) is distributed across Earth in space and time"
+  },
+  "continentalDrift": {
+    "term": "Continental drift",
+    "link": "https://en.wikipedia.org/wiki/Continental_drift",
+    "definition": "The theory that the Earth's continents were once joined as a single supercontinent called Pangaea and have since slowly moved apart to their current positions",
+    "image": "https://www.accessscience.com/binary/mheasworks/0e412de85d2035e8/86d7605d0eb159ff8bedbccf2e9bf1c954ec9d71770f4e867c009fe731671a90/159000FG0010.png"
+  },
+  "endemicSpecies": {
+    "term": "Endemic species",
+    "link": "https://en.wikipedia.org/wiki/Endemism",
+    "definition": "A plant or animal found naturally in only one specific geographic location, leading to the formation of specialized adaptations for that environment",
+    "image": "https://www.treehugger.com/thmb/Tl2Eh7X5yQgOgywwCgpPJUzsLRc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2016__09__Ring-Tailed-Lemur-Sitting-Post-3166100297594a59908ee6a0007cdb66.jpg"
+  },
+  "phylogeny": {
+    "term": "Phylogeny",
+    "link": "https://en.wikipedia.org/wiki/Phylogenetics",
+    "definition": "The representation of the evolutionary history and relationships between groups of organisms based on their observable characteristics"
+  },
+  "phylogeneticTree": {
+    "term": "Phylogenetic trees",
+    "link": "https://en.wikipedia.org/wiki/Phylogenetic_tree",
+    "definition": "A branching diagram that visually represents the evolutionary relationships and shared ancestry among different species or groups, often showing evolutionary time and genetic distance",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/aa95c701ebf845d93fed8362da63cbcc8439fb31.png"
+  },
+  "taxon": {
+    "term": "Taxon",
+    "link": "https://en.wikipedia.org/wiki/Taxon",
+    "definition": "Any named, hierarchical group of organisms classified together in biology based on shared ancestry and characteristics",
+    "image": "https://evolution.berkeley.edu/wp-content/uploads/2021/05/clade.gif"
+  },
+  "branchPoint": {
+    "term": "Branch points",
+    "link": "https://en.wikipedia.org/wiki/Branch_point",
+    "definition": "Mark an evolutionary divergence, showing where one ancestral lineage split into two or more distinct new ones, representing a common ancestor for all groups that branch off from that spot",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/6a7912e4f113f2e0dde68a8292aa06170e1cff00.png"
+  },
+  "outgroup": {
+    "term": "Outgroup",
+    "link": "https://en.wikipedia.org/wiki/Outgroup_(cladistics)",
+    "definition": "A closely related organism outside the main group of interest used as a reference to root a phylogenetic tree, clarifying which features are ancestral and which are unique to the ingroup",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Outgroup.jpg"
+  },
+  "sisterTaxa": {
+    "term": "Sister taxa",
+    "link": "https://en.wikipedia.org/wiki/Sister_group",
+    "definition": "Two groups on a phylogenetic tree that are each other's closest evolutionary relatives, diverging from the same ancestral node more recently than any other groups on the tree",
+    "image": "https://lh4.googleusercontent.com/Zcd-yWYpCdevgWJqbSKCewJo-vWSpHku_EgrTMqd4kWQ6h8WEYBsiYftSZvipK7VPMwvB4ezKhppNItMQQalLZkbAnITfavyMcJfH24K-QgBWKKzk4XuKZky-yO3pvceGDzSph6X-viul58tFSsaZ30"
+  },
+  "molecularClock": {
+    "term": "Molecular clock",
+    "link": "https://en.wikipedia.org/wiki/Molecular_clock",
+    "definition": "A method using DNA or protein mutation rates to estimate evolutionary timelines, with more genetic differences indicating a longer time since species diverged from a common ancestor"
+  },
+  "cladogram": {
+    "term": "Cladogram",
+    "link": "https://en.wikipedia.org/wiki/Cladogram",
+    "definition": "Diagrams which depict the relationships between different groups of taxa called “clades,” showing only the order of evolutionary divergence based on shared traits",
+    "image": "https://i.ytimg.com/vi/CPcNfQfjjiw/maxresdefault.jpg"
+  },
+  "clade": {
+    "term": "Clades",
+    "link": "https://en.wikipedia.org/wiki/Clade",
+    "definition": "A group of organisms consisting of a common ancestor and all of its descendants",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Clade-grade_II.svg"
+  },
+  "sharedDerivedCharacteristic": {
+    "term": "Shared derived characteristics",
+    "link": "https://en.wikipedia.org/wiki/Primitive_(phylogenetics)",
+    "definition": "Unique traits inherited from a recent common ancestor that define a specific group (clade) and distinguish it from more distant relatives, used to construct evolutionary trees"
+  },
+  "sharedAncestralCharacteristic": {
+    "term": "Shared ancestral characteristics",
+    "link": "https://en.wikipedia.org/wiki/Primitive_(phylogenetics)",
+    "definition": "Characteristics present in a common ancestor of a group and inherited by all its descendants"
+  },
+  "species": {
+    "term": "Species",
+    "link": "https://en.wikipedia.org/wiki/Species",
+    "definition": "A unit in biological classification, representing the largest group of organisms that can interbreed and produce fertile offspring, characterized by common traits and shared genes"
+  },
+  "speciation": {
+    "term": "Speciation",
+    "link": "https://en.wikipedia.org/wiki/Speciation",
+    "definition": "The evolutionary process where one species splits into two or more new, distinct species, driven by reproductive isolation and genetic divergence"
+  },
+  "reproductiveIsolation": {
+    "term": "Reproductive isolation",
+    "link": "https://en.wikipedia.org/wiki/Reproductive_isolation",
+    "definition": "Biological barriers that stop different species from breeding and producing fertile offspring, ultimately leading to speciation"
+  },
+  "prezygoticBarrier": {
+    "term": "Prezygotic barriers",
+    "link": "https://en.wikipedia.org/wiki/Reproductive_isolation#Pre-zygotic_isolation",
+    "definition": "Biological mechanisms that prevent different species from mating or successfully fertilizing eggs. Types include temporal, behavioral, mechanical, habitat, and gametic isolation.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkIfuunSAayAlSLZ0U4Ci09GmqVcUvBQB3ig&s"
+  },
+  "postzygoticBarrier": {
+    "term": "Postzygotic barriers",
+    "link": "https://en.wikipedia.org/wiki/Reproductive_isolation#Post-zygotic_isolation",
+    "definition": "Biological mechanisms that prevent hybrid zygotes from developing into fertile adults. Types include reduced hybrid viability, reduced hybrid fertility, and hybrid breakdown.",
+    "image": "https://o.quizlet.com/aHOtKTCkXobmTafBLM124A.png"
+  },
+  "allopatricSpeciation": {
+    "term": "Allopatric speciation",
+    "link": "https://en.wikipedia.org/wiki/Allopatric_speciation",
+    "definition": "The evolution of new species from a single ancestral species due to geographic isolation, where physical barriers split a population and prevent gene flow, resulting in reproductive isolation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Allopatric_Speciation_Schematic.svg/500px-Allopatric_Speciation_Schematic.svg.png"
+  },
+  "sympatricSpeciation": {
+    "term": "Sympatric speciation",
+    "link": "https://en.wikipedia.org/wiki/Sympatric_speciation",
+    "definition": "The evolution of new species from a single ancestral group while both continue to live in the same geographic area, driven by behavioral isolation and chromosomal changes",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sympatric_Speciation_Schematic.svg"
+  },
+  "polyploidy": {
+    "term": "Polyploidy",
+    "link": "https://en.wikipedia.org/wiki/Polyploidy",
+    "definition": "A condition where cells have more than two complete sets of chromosomes, causing instant reproductive isolation from the parent species and leading to new species formation",
+    "image": "https://www.biologyonline.com/wp-content/uploads/2020/02/Mutation-Frequency-and-Polyploidy.jpg"
+  },
+  "hybridZone": {
+    "term": "Hybrid zones",
+    "link": "https://en.wikipedia.org/wiki/Hybrid_zone",
+    "definition": "A geographic area where two distinct but related populations or species meet, interbreed, and produce hybrid offspring",
+    "image": "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/198/2016/11/28195328/Figure_18_03_01.png"
+  },
+  "divergentEvolution": {
+    "term": "Divergent evolution",
+    "link": "https://en.wikipedia.org/wiki/Divergent_evolution",
+    "definition": "When closely related populations from a common ancestor evolve different traits, often due to adapting to different environments or ecological niches, leading to new species",
+    "image": "/images/ap-biology/unit-8/divergent-evolution.jpg"
+  },
+  "adaptiveRadiation": {
+    "term": "Adaptive radiation",
+    "link": "https://en.wikipedia.org/wiki/Adaptive_radiation",
+    "definition": "The rapid diversification of a single ancestral species into many new species, each adapted to a unique ecological niche"
+  },
+  "punctuatedEquilibrium": {
+    "term": "Punctuated equilibrium",
+    "link": "https://en.wikipedia.org/wiki/Punctuated_equilibrium",
+    "definition": "An evolutionary theory proposing that species experience long periods of little to no change interrupted by short bursts of significant evolutionary change that lead to speciation",
+    "image": "/images/ap-biology/unit-8/punctuated-equilibrium.png"
+  },
+  "gradualism": {
+    "term": "Gradualism",
+    "link": "https://en.wikipedia.org/wiki/Gradualism",
+    "definition": "The theory that major evolutionary changes result from the slow, steady accumulation of small, incremental variations over vast periods, contrasting with sudden bursts of change",
+    "image": "/images/ap-biology/unit-8/gradualism.png"
+  },
+  "geneticVariation": {
+    "term": "Genetic variation",
+    "link": "https://en.wikipedia.org/wiki/Genetic_variation",
+    "definition": "Differences in DNA among individuals, which is crucial for natural selection and evolution to take place"
+  },
+  "selectivePressure": {
+    "term": "Selective pressures",
+    "link": "https://en.wikipedia.org/wiki/Evolutionary_pressure",
+    "definition": "Environmental or biological factors (like predators, food scarcity, climate, or mates) that influence which organisms in a population survive and reproduce"
+  },
+  "radiometricDating": {
+    "term": "Radiometric dating",
+    "link": "https://en.wikipedia.org/wiki/Radiometric_dating",
+    "definition": "A method using the predictable decay of radioactive isotopes (like Uranium, Potassium) in materials such as rocks, minerals, and organic remains to determine their absolute age"
+  },
+  "primordialSoup": {
+    "term": "Primordial soup",
+    "link": "https://en.wikipedia.org/wiki/Primordial_soup",
+    "definition": "A theory that proposes early Earth's oceans accumulated organic molecules from atmospheric reactions driven by lightning and UV light acting on simple gases"
+  },
+  "millerUreyExperiment": {
+    "term": "Miller-Urey Experiment",
+    "link": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment",
+    "definition": "Simulated early Earth conditions (water and simple gases) and used electrical sparks to show that amino acids could form spontaneously from inorganic molecules, supporting abiogenesis",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Miller-Urey_experiment-en.svg"
+  },
+  "abiogenesis": {
+    "term": "Abiogenesis",
+    "link": "https://en.wikipedia.org/wiki/Abiogenesis",
+    "definition": "The theory that life naturally arose from non-living matter through gradual chemical evolution"
+  },
+  "protocell": {
+    "term": "Protocells",
+    "link": "https://en.wikipedia.org/wiki/Protocell",
+    "definition": "Models for the earliest precursors to living cells, representing membrane-bound compartments that contained primitive genetic material and catalysts",
+    "image": "https://www.hhmi.org/sites/default/files/News/2008/981076.gif"
+  },
+  "rnaWorldHypothesis": {
+    "term": "RNA world hypothesis",
+    "link": "https://en.wikipedia.org/wiki/RNA_world",
+    "definition": "Proposes that RNA, not DNA or proteins, was the primary molecule for early life, acting as both genetic material and catalyst (ribozyme) for its own replication and metabolic functions",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrHk4PjISTZSIqc6Rs1MTEON5H1Xfs7xrh1g&s"
+  },
+  "behavioralChange": {
+    "term": "Behavioral change",
+    "link": "https://en.wikipedia.org/wiki/Behavior#Biology",
+    "definition": "The modification of actions, activities, and reactions that organisms exhibit in response to stimuli within the environment"
+  },
+  "physiologicalChange": {
+    "term": "Physiological change",
+    "link": "https://en.wikipedia.org/wiki/Physiology#Subdisciplines_by_taxa",
+    "definition": "Changes in an organism’s functions, processes, or form"
+  },
+  "stimulus": {
+    "term": "Stimulus",
+    "link": "https://en.wikipedia.org/wiki/Stimulus_(physiology)",
+    "definition": "A detectable change in an organism's internal or external environment that triggers a response"
+  },
+  "flightOrFightResponse": {
+    "term": "Flight-or-fight response",
+    "link": "https://en.wikipedia.org/wiki/Fight-or-flight_response",
+    "definition": "A physiological reaction that occurs when an individual encounters a perceived threat or danger that prepares the body to either confront the threat or escape it",
+    "image": "https://www.simplypsychology.org/wp-content/uploads/fight-or-flight2.jpg"
+  },
+  "signal": {
+    "term": "Signals",
+    "link": "https://en.wikipedia.org/wiki/Animal_communication",
+    "definition": "A message sent from one organism to another that can be visual, audible, chemical, electrical, and tactile"
+  },
+  "pheromone": {
+    "term": "Pheromones",
+    "link": "https://en.wikipedia.org/wiki/Pheromone",
+    "definition": "Chemical signals that animals use to communicate within the same species, affecting behaviors like mating, territorial marking, and alarm responses",
+    "image": "https://romneypestcontrol.com/wp-content/uploads/2022/10/close-up-of-ants-in-a-trail.jpg"
+  },
+  "innateBehavior": {
+    "term": "Innate behaviors",
+    "link": "https://en.wikipedia.org/wiki/Instinct",
+    "definition": "Behaviors that are genetically programmed, inherited, and occur naturally in all members of a species without the need for learning or practice"
+  },
+  "learnedBehavior": {
+    "term": "Learned behaviors",
+    "link": "https://en.wikipedia.org/wiki/Operant_conditioning",
+    "definition": "Actions an organism acquires through experience, observation, and interaction with the environment, rather than being genetically hardwired",
+    "image": "https://www.simplypsychology.org/wp-content/uploads/pavlov2-e1698175375621.jpg"
+  },
+  "cooperativeBehavior": {
+    "term": "Cooperative behaviors",
+    "link": "https://en.wikipedia.org/wiki/Behavioral_ecology#Cooperation",
+    "definition": "Actions where individuals work together for a common goal, providing benefits to themselves and/or others",
+    "image": "https://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/13307548/rubenstein_figure1.jpg"
+  },
+  "altruism": {
+    "term": "Altruism",
+    "link": "https://en.wikipedia.org/wiki/Altruism",
+    "definition": "A behavior where one organism increases the reproductive fitness of another at a cost to its own fitness"
+  },
+  "kinSelection": {
+    "term": "Kin selection",
+    "link": "https://en.wikipedia.org/wiki/Kin_selection",
+    "definition": "A theory explaining altruistic behavior toward relatives, where individuals sacrifice their own survival and reproduction to help relatives survive and reproduce, increasing their shared genes"
+  },
+  "thermoregulation": {
+    "term": "Thermoregulation",
+    "link": "https://en.wikipedia.org/wiki/Thermoregulation",
+    "definition": "The process by which an animal maintains a stable internal body temperature",
+    "image": "https://news.six2.com/content/uploads/SIXS-thermoregulation-Human-Body-1024x756.jpg"
+  },
+  "endotherm": {
+    "term": "Endotherms",
+    "link": "https://en.wikipedia.org/wiki/Endotherm",
+    "definition": "Organisms that generate most of their own body heat, allowing them to maintain a stable internal temperature independent of their environment"
+  },
+  "ectotherm": {
+    "term": "Ectotherms",
+    "link": "https://en.wikipedia.org/wiki/Ectotherm",
+    "definition": "An animal that is dependent on external sources of body heat",
+    "image": "https://cdn.britannica.com/01/153401-050-61A59C38/Iguana-Galapagos-National-Park-Ecuador-Islands.jpg"
+  },
+  "reproductiveDiapause": {
+    "term": "Reproductive diapause",
+    "link": "https://en.wikipedia.org/wiki/Diapause",
+    "definition": "A state of suspended sexual and reproductive development in adult insects and other arthropods"
+  },
+  "metabolicRate": {
+    "term": "Metabolic rate",
+    "link": "https://en.wikipedia.org/wiki/Metabolism",
+    "definition": "The speed at which the body uses energy to maintain its basic functions, such as breathing, circulation, and cell growth"
+  },
+  "ecosystem": {
+    "term": "Ecosystems",
+    "link": "https://en.wikipedia.org/wiki/Ecosystem",
+    "definition": "A natural area where living organisms (biotic factors) interact with each other and their non-living environment (abiotic factors) to form a self-sufficient system",
+    "image": "https://cdn.zmescience.com/wp-content/uploads/2018/03/D095D0BAD0BED0BBD0BED0B3D0B8D187D0BDD0BE_D180D0B0D0B2D0BDD0BED0B2D0B5D181D0B8D0B53.jpg"
+  },
+  "bioticFactor": {
+    "term": "Biotic factors",
+    "link": "https://en.wikipedia.org/wiki/Ecosystem#Definition",
+    "definition": "All the living components within an ecosystem, such as plants, animals, fungi, and bacteria",
+    "image": "https://d1yqpar94jqbqm.cloudfront.net/styles/media_middle/s3/images/ConceptAttainmentGraphic.png?itok=8PXoysMP"
+  },
+  "abioticFactor": {
+    "term": "Abiotic factors",
+    "link": "https://en.wikipedia.org/wiki/Abiotic_component",
+    "definition": "The non-living, chemical, and physical components of an environment that shape an ecosystem and influence living organisms",
+    "image": "https://d20khd7ddkh5ls.cloudfront.net/ecology_abiotic_factors.jpg"
+  },
+  "lawofConservationofMass": {
+    "term": "Law of Conservation of Mass",
+    "link": "https://en.wikipedia.org/wiki/Conservation_of_mass",
+    "definition": "Mass in a closed system cannot be created or destroyed during a chemical or physical change, only rearranged",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20221109111923/LawofConservationofMassExample4.png"
+  },
+  "lawOfConservationOfEnergy": {
+    "term": "Law of Conservation of Energy",
+    "link": "https://en.wikipedia.org/wiki/Conservation_of_energy",
+    "definition": "Energy cannot be created or destroyed, only transformed from one form to another within an isolated system",
+    "image": "https://www.ces.fau.edu/ces/nasa/images/Energy/ENERGYINEQUALSENERGYOUT.jpg"
+  },
+  "waterCycle": {
+    "term": "Water cycle",
+    "link": "https://en.wikipedia.org/wiki/Water_cycle",
+    "definition": "The continuous movement and transformation of water on, above, and below the Earth's surface, driven by solar energy and gravity",
+    "image": "https://geniebook.com/cms/storage/app/media/Primary%20Science%20Image/water-cycle-img1.webp"
+  },
+  "carbonCycle": {
+    "term": "Carbon cycle",
+    "link": "https://en.wikipedia.org/wiki/Carbon_cycle",
+    "definition": "Describes the continuous movement of carbon between the Earth's atmosphere, oceans, land, and living organisms",
+    "image": "https://farmcarbontoolkit.org.uk/wp-content/uploads/2023/05/The-Carbon-Cycle-Source-Alamy-2020-The-Carbon-Cycle-8.png"
+  },
+  "nitrogenCycle": {
+    "term": "Nitrogen cycle",
+    "link": "https://en.wikipedia.org/wiki/Nitrogen_cycle",
+    "definition": "Describes how nitrogen moves between the atmosphere, soil, water, and living organisms through the processes of fixation, nitrification, ammonification, assimilation, and denitrification",
+    "image": "https://www.studyacs.com/database/files/Garden/Nitrogen%20Cycle%20www.acs.edu.au%20.jpg"
+  },
+  "phosphorusCycle": {
+    "term": "Phosphorus cycle",
+    "link": "https://en.wikipedia.org/wiki/Phosphorus_cycle",
+    "definition": "Describes how phosphorus moves between rocks, soil, water, and living organisms through weathering, decomposition, and human activity",
+    "image": "https://cdn.britannica.com/77/126077-050-117592F5/Phosphorus-environments-growth-plants-elements.jpg"
+  },
+  "photosynthetic": {
+    "term": "Photosynthetic",
+    "link": "https://en.wikipedia.org/wiki/Photosynthesis",
+    "definition": "Describes organisms that can convert light energy into chemical energy through the process of photosynthesis",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Photosynthesis_en.svg/1200px-Photosynthesis_en.svg.png"
+  },
+  "chemosynthetic": {
+    "term": "Chemosynthetic",
+    "link": "https://en.wikipedia.org/wiki/Chemosynthesis",
+    "definition": "Describes the biological process of chemosynthesis, where organisms use chemical energy, rather than sunlight, to convert inorganic compounds into organic food",
+    "image": "https://www.sciencefacts.net/wp-content/uploads/2022/05/Chemosynthesis.jpg"
+  },
+  "trophicLevel": {
+    "term": "Trophic levels",
+    "link": "https://en.wikipedia.org/wiki/Trophic_level",
+    "definition": "The position an organism occupies in a food chain; describe how energy is transferred through an ecosystem as organisms consume one another",
+    "image": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Ad8f418421cbd3cf9b655120dcc84b301291fb7b80eb21754860934bf%2BIMAGE_TINY%2BIMAGE_TINY.1"
+  },
+  "foodWeb": {
+    "term": "Food web",
+    "link": "https://en.wikipedia.org/wiki/Food_web",
+    "definition": "A natural system of interconnected food chains that illustrates the flow of energy through an ecosystem by showing which organisms are eaten by others",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Aquatic_food_web.jpg"
+  },
+  "density": {
+    "term": "Density",
+    "link": "https://en.wikipedia.org/wiki/Population_density",
+    "definition": "A measurement of the number of individuals (people or organisms) per unit of area",
+    "image": "https://study.com/cimages/multimages/16/density_particles.png"
+  },
+  "dispersion": {
+    "term": "Dispersions",
+    "link": "https://en.wikipedia.org/wiki/Species_distribution#Patterns_on_small_scales",
+    "definition": "Describes the spatial distribution or spacing pattern of individuals within a population in their environment",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/0ee2b2f9ef46f4adb40dcbcd43655122e8b8b200.png"
+  },
+  "survivorshipCurve": {
+    "term": "Survivorship curves",
+    "link": "https://en.wikipedia.org/wiki/Survivorship_curve",
+    "definition": "A graph in population ecology showing the proportion of individuals from a group born at the same time that are still alive at each age",
+    "image": "https://cdn.britannica.com/42/6542-050-B6E0E2B9/survivorship-curve-II-Type-I-curves-III.jpg"
+  },
+  "ageStructurePyramid": {
+    "term": "Age-structure pyramids",
+    "link": "https://en.wikipedia.org/wiki/Population_pyramid",
+    "definition": "A graphical tool that visually represents the age and sex distribution of a population, providing insights into its birth rates, death rates, and growth trends",
+    "image": "https://populationeducation.org/wp-content/uploads/2013/10/three-population-pyramids-2020-with-shapes.png"
+  },
+  "exponentialPopulationGrowth": {
+    "term": "Exponential population growth",
+    "link": "https://en.wikipedia.org/wiki/Exponential_growth",
+    "definition": "A model of population increase where the growth rate, or the number of individuals added per generation, is proportional to the current population size",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/7edbd1ab380efb207cf72aa25850838ef6c05824.png"
+  },
+  "logisticPopulationGrowth": {
+    "term": "Logistic population growth",
+    "link": "https://en.wikipedia.org/wiki/Logistic_function",
+    "definition": "Describes a population's growth pattern where it initially grows rapidly, but then slows down as it approaches the carrying capacity of its environment",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/5cbb382cc7a53196a402172da5c2fed32c2134ff.png"
+  },
+  "carryingCapacity": {
+    "term": "Carrying capacity",
+    "link": "https://en.wikipedia.org/wiki/Carrying_capacity",
+    "definition": "The maximum population of a given species that an environment can sustain indefinitely, limited by available resources like food, water, shelter, and space"
+  },
+  "lifeHistory": {
+    "term": "Life history",
+    "link": "https://en.wikipedia.org/wiki/Life_history_theory",
+    "definition": "The sequence of major events in an organism's development and survival, from conception to death, and the traits that influence these events",
+    "image": "https://ars.els-cdn.com/content/image/3-s2.0-B9780080454054008569-gr1.jpg"
+  },
+  "densityDependentLimitingFactor": {
+    "term": "Density dependent limiting factors",
+    "link": "https://en.wikipedia.org/wiki/Density_dependence",
+    "definition": "Environmental conditions whose impact on a population intensifies as population density increases, such as competition for food and water, predation, disease, and waste accumulation",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/da8d2fad6141b78efc92f533d12d48eb3cb29a20.png"
+  },
+  "densityIndependentLimitingFactor": {
+    "term": "Density independent limiting factors",
+    "link": "https://en.wikipedia.org/wiki/Abiotic_stress",
+    "definition": "An environmental factor that affects a population's size regardless of the population's density",
+    "image": "https://cdn.britannica.com/15/128615-050-E26E160E/Zaca-wildfire-Santa-Barbara-county-California-2007.jpg"
+  },
+  "community": {
+    "term": "Community",
+    "link": "https://en.wikipedia.org/wiki/Community_(ecology)",
+    "definition": "All the populations of different species that live and interact within a particular area or habitat",
+    "image": "https://d20khd7ddkh5ls.cloudfront.net/community_biology.png"
+  },
+  "simpsonsDiversityIndex": {
+    "term": "Simpson's Diversity Index",
+    "link": "https://en.wikipedia.org/wiki/Diversity_index",
+    "definition": "A metric used in ecology to quantify species diversity in a community by considering both the number of species and their evenness",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwpHhps7fIkeOOs9aaOLLXToS-jjwphFd7uZxqTFIW_14mcuuxaL9E3q2LjyXN9SMCpVhTWK_JNn3-4lH2GJBaFCrsjSj8trmtUgGrwjGl5z5inAHbcSjYvQVNnuhpREmRszPU1sq8HhU/s1600/simpson%2527s+index.png"
+  },
+  "speciesRichness": {
+    "term": "Species richness",
+    "link": "https://en.wikipedia.org/wiki/Species_richness",
+    "definition": "The total number of different species found in a given area or community"
+  },
+  "relativeAbundance": {
+    "term": "Relative abundance",
+    "link": "https://en.wikipedia.org/wiki/Relative_species_abundance",
+    "definition": "Describes the proportion of one species compared to all other species in an ecosystem"
+  },
+  "interspecificCompetition": {
+    "term": "Interspecific competition",
+    "link": "https://en.wikipedia.org/wiki/Interspecific_competition",
+    "definition": "Competition between different species; occurs when two or more species require the same limited resources, such as food, water, or space",
+    "image": "https://www.pathwayz.org/Node/Image/url/aHR0cHM6Ly9pLmltZ3VyLmNvbS8wUXF2ZXhULnBuZw=="
+  },
+  "competitiveExclusion": {
+    "term": "Competitive exclusion",
+    "link": "https://en.wikipedia.org/wiki/Competitive_exclusion_principle",
+    "definition": "An ecological concept stating that two species occupying the exact same ecological niche cannot coexist indefinitely; one species will eventually outcompete the other"
+  },
+  "fundamentalNiche": {
+    "term": "Fundamental niche",
+    "link": "https://en.wikipedia.org/wiki/Ecological_niche",
+    "definition": "The complete set of environmental conditions and resources in which a species could potentially survive and reproduce, without any interference from other species",
+    "image": "https://cdn.savemyexams.com/uploads/2023/04/YBL77Ozf_2-1-1-fundamental-niche.png"
+  },
+  "realizedNiche": {
+    "term": "Realized niche",
+    "link": "https://en.wikipedia.org/wiki/Realized_niche_width",
+    "definition": "The actual set of resources, habitat, and environmental conditions that a species occupies and uses",
+    "image": "https://cdn.savemyexams.com/uploads/2023/04/hDMOgT6~_2-1-1-realised-niche.png"
+  },
+  "nichePartitioning": {
+    "term": "Niche partitioning",
+    "link": "https://en.wikipedia.org/wiki/Ecological_niche#Niche_differentiation",
+    "definition": "An ecological process where competing species reduce competition and increase coexistence by utilizing different aspects of a limited resource, leading to greater biodiversity",
+    "image": "https://cdn.kastatic.org/ka-perseus-images/41d25869ec0e8498de31642d8a180679299b80a8.png"
+  },
+  "predation": {
+    "term": "Predation",
+    "link": "https://en.wikipedia.org/wiki/Predation",
+    "definition": "An interaction where one organism (the predator) hunts, kills, and consumes another organism (the prey) for food",
+    "image": "https://biologydictionary.net/wp-content/uploads/2016/10/Cheetah_hunting_springbok.jpg"
+  },
+  "herbivory": {
+    "term": "Herbivory",
+    "link": "https://en.wikipedia.org/wiki/Herbivore",
+    "definition": "The act of animals eating plants",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/White-tailed_deer_%28Odocoileus_virginianus%29_grazing_-_20050809.jpg"
+  },
+  "trophicCascade": {
+    "term": "Trophic cascade",
+    "link": "https://en.wikipedia.org/wiki/Trophic_cascade",
+    "definition": "An ecological effect that propagates down the food chain",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIXgS60C3o8Pe_EFzBQ6DKfZ7NJY3vAA6oeA&s"
+  },
+  "parasitism": {
+    "term": "Parasitism",
+    "link": "https://en.wikipedia.org/wiki/Parasitism",
+    "definition": "A symbiotic relationship where one organism, the parasite, lives on or inside another organism, the host, benefiting by taking nutrients or resources at the host's expense",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Anopheles_minimus.jpg/330px-Anopheles_minimus.jpg"
+  },
+  "mutualism": {
+    "term": "Mutualism",
+    "link": "https://en.wikipedia.org/wiki/Mutualism_(biology)",
+    "definition": "A biological and ecological symbiotic relationship where two different species benefit from the interaction, often for survival or reproduction",
+    "image": "https://d20khd7ddkh5ls.cloudfront.net/mutualism.png"
+  },
+  "commensalism": {
+    "term": "Commensalism",
+    "link": "https://en.wikipedia.org/wiki/Commensalism",
+    "definition": "An association between two organisms in which one benefits and the other derives neither benefit nor harm",
+    "image": "https://ecologyforall.weebly.com/uploads/1/3/0/1/13012454/8670654.jpg?326"
+  },
+  "biodiversity": {
+    "term": "Biodiversity",
+    "link": "https://en.wikipedia.org/wiki/Biodiversity",
+    "definition": "The variety of life on Earth at all its levels, encompassing the diversity within species, between species, and across ecosystems, as well as the interactions among them",
+    "image": "https://alevelbiology.co.uk/wp-content/uploads/2021/07/Biodiversity-13.jpg"
+  },
+  "dominantSpecies": {
+    "term": "Dominant species",
+    "link": "https://en.wikipedia.org/wiki/Dominance_(ecology)",
+    "definition": "An organism that is highly abundant or has the greatest biomass within a particular ecological community, and whose presence disproportionately influences the community"
+  },
+  "keystoneSpecies": {
+    "term": "Keystone species",
+    "link": "https://en.wikipedia.org/wiki/Keystone_species",
+    "definition": "An organism that plays a disproportionately large and critical role in maintaining the structure and health of its ecosystem relative to its abundance",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwvJ-YO92IwfhRNvk_hNA-Ua5GRqFlxQ0PKA&s"
+  },
+  "invasiveSpecies": {
+    "term": "Invasive species",
+    "link": "https://en.wikipedia.org/wiki/Invasive_species",
+    "definition": "A non-native organism that is introduced to a new ecosystem and causes harm to the local environment, economy, human health, or native species",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kudzu_on_trees_in_Atlanta%2C_Georgia.jpg"
+  },
+  "biologicalNiche": {
+    "term": "Biological niche",
+    "link": "https://en.wikipedia.org/wiki/Ecological_niche",
+    "definition": "Describes the functional role a species plays in its ecosystem and how it interacts with its environment, including its habitat, food sources, and relationships with other organisms"
+  },
+  "habitatLoss": {
+    "term": "Habitat loss",
+    "link": "https://en.wikipedia.org/wiki/Habitat_destruction",
+    "definition": "The destruction or degradation of natural environments, often due to human activity, reducing biodiversity",
+    "image": "https://www.sciencing.com/sciencing/effects-habitat-destruction-environment-8403681/2ad8f4e9dfff4d0ba836978109357e5e.jpg"
+  },
+  "habitatFragmentation": {
+    "term": "Habitat fragmentation",
+    "link": "https://en.wikipedia.org/wiki/Habitat_fragmentation",
+    "definition": "The process of breaking down large, continuous natural habitats into smaller, more isolated pieces, primarily due to human activities",
+    "image": "https://i0.wp.com/sciencealcove.com/wp-content/uploads/Habitat-Fragmentation_-The-Truth-about-Why-it-is-Really-Bad-1.png?fit=1080%2C675&ssl=1"
+  },
+  "climateChange": {
+    "term": "Climate change",
+    "link": "https://en.wikipedia.org/wiki/Climate_change",
+    "definition": "A change in global or regional climate patterns, attributed largely to the increased levels of atmospheric carbon dioxide produced by the use of fossil fuels"
+  },
+  "greenhouseEffect": {
+    "term": "Greenhouse effect",
+    "link": "https://en.wikipedia.org/wiki/Greenhouse_effect",
+    "definition": "A natural process where certain atmospheric gases, called greenhouse gases, trap heat in Earth's atmosphere, warming the planet",
+    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/kids/nasa-kids-science/earth/what-is-the-greenhouse-effect/Greenhouse_effect_2025.png?w=900&h=900&fit=clip&crop=faces%2Cfocalpoint"
+  },
+  "elNino": {
+    "term": "El niño",
+    "link": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation",
+    "definition": "A recurring climate pattern characterized by a band of unusually warm sea surface temperatures in the Pacific Ocean, leading to significant global weather changes",
+    "image": "https://cdn-images.prepp.in/public/image/55bbab92e13742b3f209cda94990aaf8.png?tr=w-499,h-512,c-force"
+  },
+  "biomagnification": {
+    "term": "Biomagnification",
+    "link": "https://en.wikipedia.org/wiki/Biomagnification",
+    "definition": "The process where the concentration of a substance, like a toxin or pesticide, increases as it moves up the food chain from one trophic level to the next",
+    "image": "https://eco-intelligent.com/wp-content/uploads/2020/06/biomagnification1_med.jpeg?w=640"
+  },
+  "eutrophication": {
+    "term": "Eutrophication",
+    "link": "https://en.wikipedia.org/wiki/Eutrophication",
+    "definition": "The process where water bodies become overly enriched with nutrients, primarily nitrogen and phosphorus, leading to excessive growth of algae and plants known as algal blooms",
+    "image": "https://helcom.fi/wp-content/uploads/2023/09/AdobeStock_613636111-1024x683.jpeg"
+  }
+}

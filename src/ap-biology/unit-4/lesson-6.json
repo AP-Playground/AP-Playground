@@ -1,46 +1,7 @@
 {
   "summary": "In the previous lesson, we learned about how cells grow and replicate in the cell cycle. But how does an organism keep the cell cycle under control so that there are always enough resources to go around? Topic 4.6 explains the restrictions cells place on their replication. Please keep note that this is not the same process that organisms use to mate (more on that in unit 5).",
   "vocab": [
-    {
-      "term": "Cell cycle checkpoint",
-      "link": "https://en.wikipedia.org/wiki/Cell_cycle_checkpoint"
-    },
-    {
-      "term": "Cyclin-dependent kinases (CDKs)",
-      "link": "https://en.wikipedia.org/wiki/Cyclin-dependent_kinase"
-    },
-    {
-      "term": "Growth factor",
-      "link": "https://en.wikipedia.org/wiki/Growth_factor"
-    },
-    {
-      "term": "Density-dependent inhibition",
-      "link": "https://en.wikipedia.org/wiki/Density_dependence"
-    },
-    {
-      "term": "Anchorage dependency",
-      "link": "https://en.wikipedia.org/wiki/Adherent_culture"
-    },
-    {
-      "term": "Cancer",
-      "link": "https://en.wikipedia.org/wiki/Cancer"
-    },
-    {
-      "term": "Tumor",
-      "link": "https://en.wikipedia.org/wiki/Neoplasm"
-    },
-    {
-      "term": "Benign tumor",
-      "link": "https://en.wikipedia.org/wiki/Benign_tumor"
-    },
-    {
-      "term": "Malignant tumor",
-      "link": "https://en.wikipedia.org/wiki/Cancer"
-    },
-    {
-      "term": "Metastasis",
-      "link": "https://en.wikipedia.org/wiki/Metastasis"
-    }
+    "cellCycleCheckpoint", "cyclinDependentKinase", "growthFactor", "densityDependentInhibition", "anchorageDependency", "cancer", "tumor", "benignTumor", "malignantTumor", "metastisis"
   ],
   "links": [
     {

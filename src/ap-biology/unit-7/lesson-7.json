@@ -1,26 +1,7 @@
 {
   "summary": "With the evidence for evolution thoroughly examined in Topic 7.6, Topic 7.7 takes a look at another phenomena which goes hand in hand with evolution: common ancestry.",
   "vocab": [
-    {
-      "term": "Endosymbiotic theory",
-      "link": "https://en.wikipedia.org/wiki/Symbiogenesis"
-    },
-    {
-      "term": "Introns",
-      "link": "https://en.wikipedia.org/wiki/Intron"
-    },
-    {
-      "term": "Exons",
-      "link": "https://en.wikipedia.org/wiki/Exon"
-    },
-    {
-      "term": "Organelles",
-      "link": "https://en.wikipedia.org/wiki/Organelle"
-    },
-    {
-      "term": "Linear chromosomes",
-      "link": "https://en.wikipedia.org/wiki/Linear_chromosome"
-    }
+    "endosymbioticTheory", "intron", "exon", "organelle", "linearChromosome"
   ],
   "links": [
     {

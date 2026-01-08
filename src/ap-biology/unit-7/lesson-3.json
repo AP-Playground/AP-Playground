@@ -1,14 +1,7 @@
 {
   "summary": "Have you ever wondered about how dogs became known as man's best friend? Artificial selection is the answer to that question. Differing from the form of selection we discussed in Topic 7.2, artificial selection relies on humans to make the \"selection.\"",
   "vocab": [
-    {
-      "term": "Natural selection",
-      "link": "https://en.wikipedia.org/wiki/Natural_selection"
-    },
-    {
-      "term": "Artificial selection",
-      "link": "https://en.wikipedia.org/wiki/Selective_breeding"
-    }
+    "naturalSelection", "artificialSelection"
   ],
   "links": [
     {

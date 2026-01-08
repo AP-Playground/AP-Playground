@@ -1,26 +1,7 @@
 {
   "summary": "Much of Unit 6 has been spent talking about gene expression, and how genetic instructions in the form of DNA can become proteins that affect an organism's outward appearance. Topic 6.6 takes it a step further, focusing on the connection between gene expression and phenotype.",
   "vocab": [
-    {
-      "term": "Differential gene expression",
-      "link": "https://en.wikipedia.org/wiki/Gene_expression"
-    },
-    {
-      "term": "Cell specialization",
-      "link": "https://en.wikipedia.org/wiki/Cellular_differentiation"
-    },
-    {
-      "term": "Small RNAs",
-      "link": "https://en.wikipedia.org/wiki/Small_RNA"
-    },
-    {
-      "term": "miRNA",
-      "link": "https://en.wikipedia.org/wiki/MicroRNA"
-    },
-    {
-      "term": "siRNA",
-      "link": "https://en.wikipedia.org/wiki/Small_interfering_RNA"
-    }
+    "differentialGeneExpression", "cellSpecialization", "smallRNA", "miRNA", "siRNA"
   ],
   "links": [
     {

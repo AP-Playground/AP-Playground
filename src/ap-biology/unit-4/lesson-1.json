@@ -1,62 +1,7 @@
 {
   "summary": "In Unit 3, we learned about how individual cells get their energy and function. However, all multicellular organisms, including ourselves, need their cells to work together as one being. Topic 4.1 begins to explain how cells talk to one another to convey the information necessary for day-to-day operations.",
   "vocab": [
-    {
-      "term": "Signal Transduction Pathways",
-      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
-    },
-    {
-      "term": "Receptor",
-      "link": "https://en.wikipedia.org/wiki/Receptor_(biochemistry)"
-    },
-    {
-      "term": "Ligand",
-      "link": "https://en.wikipedia.org/wiki/Ligand_(biochemistry)"
-    },
-    {
-      "term": "Autocrine signaling",
-      "link": "https://en.wikipedia.org/wiki/Autocrine_signaling"
-    },
-    {
-      "term": "Juxtacrine signaling",
-      "link": "https://en.wikipedia.org/wiki/Juxtacrine_signalling"
-    },
-    {
-      "term": "Plasmodesmata",
-      "link": "https://en.wikipedia.org/wiki/Plasmodesma"
-    },
-    {
-      "term": "Gap junctions",
-      "link": "https://en.wikipedia.org/wiki/Gap_junction"
-    },
-    {
-      "term": "Paracrine signaling",
-      "link": "https://en.wikipedia.org/wiki/Paracrine_signaling"
-    },
-    {
-      "term": "Neuro-transmitters",
-      "link": "https://en.wikipedia.org/wiki/Neurotransmitter"
-    },
-    {
-      "term": "Quorum sensing",
-      "link": "https://en.wikipedia.org/wiki/Quorum_sensing"
-    },
-    {
-      "term": "Endocrine signaling",
-      "link": "https://en.wikipedia.org/wiki/Endocrine_system"
-    },
-    {
-      "term": "Hormones",
-      "link": "https://en.wikipedia.org/wiki/Hormone"
-    },
-    {
-      "term": "Insulin",
-      "link": "https://en.wikipedia.org/wiki/Insulin"
-    },
-    {
-      "term": "Growth hormone",
-      "link": "https://en.wikipedia.org/wiki/Growth_hormone"
-    }
+    "signalTransductionPathway", "receptor", "ligand", "autocrineSignaling", "plasmodesmata", "gapJunction", "paracrineSignaling", "neuroTransmitter", "quorumSensing", "endocrineSignaling", "hormone", "insulin", "growthHormone"
   ],
   "links": [
     {

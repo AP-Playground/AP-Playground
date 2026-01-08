@@ -1,46 +1,7 @@
 {
   "summary": "In topics 4.1 and 4.2, we got a grasp of the first two steps of signal transduction. We learned about the general concepts and specifics for reception and transduction. Topic 4.3 provides some more specific examples of signal response.",
   "vocab": [
-    {
-      "term": "Signal Transduction Pathway",
-      "link": "https://en.wikipedia.org/wiki/Signal_transduction"
-    },
-    {
-      "term": "Gene expression",
-      "link": "https://en.wikipedia.org/wiki/Gene_expression"
-    },
-    {
-      "term": "Transcription factors",
-      "link": "https://en.wikipedia.org/wiki/Transcription_factor"
-    },
-    {
-      "term": "Metabolic response",
-      "link": "https://en.wikipedia.org/wiki/Metabolism"
-    },
-    {
-      "term": "Apoptosis",
-      "link": "https://en.wikipedia.org/wiki/Apoptosis"
-    },
-    {
-      "term": "Epinephrine (adrenaline)",
-      "link": "https://en.wikipedia.org/wiki/Adrenaline"
-    },
-    {
-      "term": "Environmental factors",
-      "link": "https://en.wikipedia.org/wiki/Environmental_factor"
-    },
-    {
-      "term": "Mutations",
-      "link": "https://en.wikipedia.org/wiki/Mutation"
-    },
-    {
-      "term": "Inhibitors",
-      "link": "https://en.wikipedia.org/wiki/Repressor"
-    },
-    {
-      "term": "Activators",
-      "link": "https://en.wikipedia.org/wiki/Activator_(genetics)"
-    }
+    "signalTransductionPathway", "geneExpression", "transcriptionFactor", "metabolicResponse", "apoptosis", "epinephrine", "environmentalFactor", "mutation", "inhibitor", "activator"
   ],
   "links": [
     {

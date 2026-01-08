@@ -1,66 +1,7 @@
 {
   "summary": "While natural selection (discussed in Topics 7.1 and 7.2) is a primary driver of evolution, it is not the only one. Other random and selective forces which alter the genetic makeup of a population exist in Darwin's theory, and Topic 7.4 discusses these.",
   "vocab": [
-    {
-      "term": "Allele frequency",
-      "link": "https://en.wikipedia.org/wiki/Allele_frequency"
-    },
-    {
-      "term": "Population",
-      "link": "https://en.wikipedia.org/wiki/Population"
-    },
-    {
-      "term": "Disruptive selection",
-      "link": "https://en.wikipedia.org/wiki/Disruptive_selection"
-    },
-    {
-      "term": "Stabilizing selection",
-      "link": "https://en.wikipedia.org/wiki/Stabilizing_selection"
-    },
-    {
-      "term": "Directional selection",
-      "link": "https://en.wikipedia.org/wiki/Directional_selection"
-    },
-    {
-      "term": "Balancing selection",
-      "link": "https://en.wikipedia.org/wiki/Balancing_selection"
-    },
-    {
-      "term": "Heterozygote advantage",
-      "link": "https://en.wikipedia.org/wiki/Heterozygote_advantage"
-    },
-    {
-      "term": "Frequency-dependent selection",
-      "link": "https://en.wikipedia.org/wiki/Frequency-dependent_selection"
-    },
-    {
-      "term": "Mutations",
-      "link": "https://en.wikipedia.org/wiki/Mutation"
-    },
-    {
-      "term": "Genetic drift",
-      "link": "https://en.wikipedia.org/wiki/Genetic_drift"
-    },
-    {
-      "term": "Founder effect",
-      "link": "https://en.wikipedia.org/wiki/Founder_effect"
-    },
-    {
-      "term": "Bottleneck effect",
-      "link": "https://en.wikipedia.org/wiki/Population_bottleneck"
-    },
-    {
-      "term": "Gene flow",
-      "link": "https://en.wikipedia.org/wiki/Gene_flow"
-    },
-    {
-      "term": "Sexual selection",
-      "link": "https://en.wikipedia.org/wiki/Sexual_selection"
-    },
-    {
-      "term": "Sexual dimorphism",
-      "link": "https://en.wikipedia.org/wiki/Sexual_dimorphism"
-    }
+    "alleleFrequency", "population", "disruptiveSelection", "stabilizingSelection", "directionalSelection", "balancingSelection", "heterozygoteAdvantage", "frequencyDependentSelection", "mutation", "geneticDrift", "founderEffect", "bottleneckEffect", "geneFlow", "sexualSelection", "sexualDimorphism"
   ],
   "links": [
     {

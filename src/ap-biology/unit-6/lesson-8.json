@@ -1,42 +1,8 @@
 {
   "summary": "Ending our discussion of DNA and gene expression, Topic 6.8 explains the different technological methods in which DNA is manipulated and analyzed, and the applications of these techniques.",
   "vocab": [
-    {
-      "term": "Biotechnology",
-      "link": "https://en.wikipedia.org/wiki/Biotechnology"
-    },
-    {
-      "term": "DNA sequencing",
-      "link": "https://en.wikipedia.org/wiki/DNA_sequencing"
-    },
-    {
-      "term": "Gel electrophoresis",
-      "link": "https://en.wikipedia.org/wiki/Gel_electrophoresis"
-    },
-    {
-      "term": "PCR",
-      "link": "https://en.wikipedia.org/wiki/Polymerase_chain_reaction"
-    },
-    {
-      "term": "Recombinant DNA",
-      "link": "https://en.wikipedia.org/wiki/Recombinant_DNA"
-    },
-    {
-      "term": "Gene cloning",
-      "link": "https://en.wikipedia.org/wiki/Molecular_cloning"
-    },
-    {
-      "term": "Plasmid",
-      "link": "https://en.wikipedia.org/wiki/Plasmid"
-    },
-    {
-      "term": "Restriction enzymes",
-      "link": "https://en.wikipedia.org/wiki/Restriction_enzyme"
-    },
-    {
-      "term": "CRISPR-Cas9",
-      "link": "https://en.wikipedia.org/wiki/CRISPR_gene_editing"
-    }
+    "biotechnology", "dnaSequencing", "gelElectrophoresis", "pcr", 
+    "recombinantDNA", "geneCloning", "plasmid", "restrictionEnzyme", "crisprCas9"
   ],
   "links": [
     {

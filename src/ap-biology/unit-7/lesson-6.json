@@ -1,66 +1,7 @@
 {
   "summary": "Having talked about all of the different forces behind evolution in the beginning of this unit, Topic 7.6 shifts to evidence for evolution, ranging from molecular to geographical evidence.",
   "vocab": [
-    {
-      "term": "Evolution",
-      "link": "https://en.wikipedia.org/wiki/Evolution"
-    },
-    {
-      "term": "DDT resistance",
-      "link": "https://en.wikipedia.org/wiki/Pesticide_resistance"
-    },
-    {
-      "term": "Antibiotic resistance",
-      "link": "https://en.wikipedia.org/wiki/Antimicrobial_resistance"
-    },
-    {
-      "term": "Homology",
-      "link": "https://en.wikipedia.org/wiki/Homology_(biology)"
-    },
-    {
-      "term": "Homologous structures",
-      "link": "https://en.wikipedia.org/wiki/Homology_(biology)"
-    },
-    {
-      "term": "Embryonic homologies",
-      "link": "https://en.wikipedia.org/wiki/Homology_(biology)"
-    },
-    {
-      "term": "Molecular homologies",
-      "link": "https://en.wikipedia.org/wiki/Homology_(biology)"
-    },
-    {
-      "term": "Vestigial organs",
-      "link": "https://en.wikipedia.org/wiki/Vestigiality"
-    },
-    {
-      "term": "Convergent evolution",
-      "link": "https://en.wikipedia.org/wiki/Convergent_evolution"
-    },
-    {
-      "term": "Analogous structures",
-      "link": "https://en.wikipedia.org/wiki/Convergent_evolution"
-    },
-    {
-      "term": "Fossils",
-      "link": "https://en.wikipedia.org/wiki/Fossil"
-    },
-    {
-      "term": "Fossil record",
-      "link": "https://en.wikipedia.org/wiki/Fossil"
-    },
-    {
-      "term": "Biogeography",
-      "link": "https://en.wikipedia.org/wiki/Biogeography"
-    },
-    {
-      "term": "Continental drift",
-      "link": "https://en.wikipedia.org/wiki/Continental_drift"
-    },
-    {
-      "term": "Endemic species",
-      "link": "https://en.wikipedia.org/wiki/Endemism"
-    }
+    "evolution", "ddtResistance", "antibioticResistance", "homology", "homologousStructure", "embryonicHomology", "molecularHomology", "vestigialOrgan", "convergentEvolution", "analogousStructure", "fossil", "fossilRecord", "biogeography", "continentalDrift", "endemicSpecies"
   ],
   "links": [
     {

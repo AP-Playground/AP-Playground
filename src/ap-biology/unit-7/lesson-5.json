@@ -1,38 +1,7 @@
 {
   "summary": "Following our discussion of the forces behind evolution in Topic 7.4, we'll now take a look at non-evolving populations. Described by Hardy-Weinberg Equilibrium, it is possible to calculate the allele and genotypic frequencies of populations which are evolutionarily static.",
   "vocab": [
-    {
-      "term": "Allele frequency",
-      "link": "https://en.wikipedia.org/wiki/Allele_frequency"
-    },
-    {
-      "term": "Hardy-Weinberg equilibrium",
-      "link": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle"
-    },
-    {
-      "term": "Null hypothesis",
-      "link": "https://en.wikipedia.org/wiki/Null_hypothesis"
-    },
-    {
-      "term": "Mutations",
-      "link": "https://en.wikipedia.org/wiki/Mutation"
-    },
-    {
-      "term": "Sexual selection",
-      "link": "https://en.wikipedia.org/wiki/Sexual_selection"
-    },
-    {
-      "term": "Natural selection",
-      "link": "https://en.wikipedia.org/wiki/Natural_selection"
-    },
-    {
-      "term": "Genetic drift",
-      "link": "https://en.wikipedia.org/wiki/Genetic_drift"
-    },
-    {
-      "term": "Gene flow",
-      "link": "https://en.wikipedia.org/wiki/Gene_flow"
-    }
+    "alleleFrequency", "hardyWeinbergEquilibrium", "nullHypothesis", "mutation", "sexualSelection", "naturalSelection", "geneticDrift", "geneFlow"
   ],
   "links": [
     {

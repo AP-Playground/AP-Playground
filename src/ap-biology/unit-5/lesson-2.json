@@ -1,39 +1,7 @@
 {
   "summary": "Topic 5.1 provided an overview of sexual reproduction and the process of meiosis within organisms. But how does sexual reproduction contribute to the diversity of individuals we see within populations? In Topic 5.2, we'll delve into how meiosis contributes to genetic diversity.",
   "vocab": [
-    {
-      "term": "Meiosis",
-      "link": "https://en.wikipedia.org/wiki/Meiosis",
-      "definition": "A type of cell division in sexually reproducing organisms that produces gametes with half the number of chromosomes as the parent cell, resulting in genetically unique, haploid cells",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Meiosis_Overview_new.svg/1200px-Meiosis_Overview_new.svg.png"
-    },
-    {
-      "term": "Genotype",
-      "link": "https://en.wikipedia.org/wiki/Genotype",
-      "definition": "An organism's specific set of genetic information or the variant forms (alleles) of a particular gene that it carries"
-    },
-    {
-      "term": "Phenotype",
-      "link": "https://en.wikipedia.org/wiki/Phenotype",
-      "definition": "The set of observable characteristics or traits of an organism"
-    },
-    {
-      "term": "Crossing over",
-      "link": "https://en.wikipedia.org/wiki/Chromosomal_crossover",
-      "definition": "A biological process in meiosis where homologous chromosomes exchange genetic material, creating recombinant chromosomes with a mix of genes from both parents",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGtqFdDNIJ_HX1Sv7H9J6orIwZ0BmJT9I9iA&s"
-    },
-    {
-      "term": "Independent assortment",
-      "link": "https://en.wikipedia.org/wiki/Mendelian_inheritance#Law_of_independent_assortment",
-      "definition": "The randomness and separation of homologous chromosomes in meiosis 1, increasing genetic variation",
-      "image": "https://ib.bioninja.com.au/img/random%20assortment%20ipad.jpg"
-    },
-    {
-      "term": "Random fertilization",
-      "link": "https://en.wikipedia.org/wiki/Quantitative_genetics#Random_fertilization",
-      "definition": "The principle that any given sperm can fertilize any given egg, resulting in an enormous number of unique genetic combinations in sexually reproducing organisms"
-    }
+    "meiosis", "genotype", "phenotype", "crossingOver", "independentAssortment", "randomFertilization"
   ],
   "links": [
     {

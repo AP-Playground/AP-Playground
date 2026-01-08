@@ -1,50 +1,7 @@
 {
   "summary": "In Topic 6.3, we discussed the process of transcription - turning a DNA molecule into a strand of mRNA. Topic 6.4 contains the next step of the Central Dogma of gene expression, translating the mRNA into proteins.",
   "vocab": [
-    {
-      "term": "Gene expression",
-      "link": "https://en.wikipedia.org/wiki/Gene_expression"
-    },
-    {
-      "term": "Central dogma",
-      "link": "https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology"
-    },
-    {
-      "term": "Translation",
-      "link": "https://en.wikipedia.org/wiki/Translation_(biology)"
-    },
-    {
-      "term": "tRNA",
-      "link": "https://en.wikipedia.org/wiki/Transfer_RNA"
-    },
-    {
-      "term": "Ribosomes",
-      "link": "https://en.wikipedia.org/wiki/Ribosome"
-    },
-    {
-      "term": "rRNA",
-      "link": "https://en.wikipedia.org/wiki/Ribosomal_RNA"
-    },
-    {
-      "term": "Codon",
-      "link": "https://en.wikipedia.org/wiki/Genetic_code#Codons"
-    },
-    {
-      "term": "Anticodon",
-      "link": "https://en.wikipedia.org/wiki/Transfer_RNA#Anticodon"
-    },
-    {
-      "term": "Signal peptide",
-      "link": "https://en.wikipedia.org/wiki/Signal_peptide"
-    },
-    {
-      "term": "Retroviruses",
-      "link": "https://en.wikipedia.org/wiki/Retrovirus"
-    },
-    {
-      "term": "Reverse transcriptase",
-      "link": "https://en.wikipedia.org/wiki/Reverse_transcriptase"
-    }
+    "geneExpression", "centralDogma", "translation", "tRNA", "ribosome", "rRNA", "codon", "anticodon", "signalPeptide", "retrovirus", "reverseTranscriptase"
   ],
   "links": [
     {

@@ -1,30 +1,7 @@
 {
   "summary": "Throughout this unit, we've covered evolutionary principles such as descent with modification, phylogeny, and even common ancestry. Topic 7.12 takes us to the origin of all these processes: the beginning of life on Earth.",
   "vocab": [
-    {
-      "term": "Radiometric dating",
-      "link": "https://en.wikipedia.org/wiki/Radiometric_dating"
-    },
-    {
-      "term": "Primordial soup",
-      "link": "https://en.wikipedia.org/wiki/Primordial_soup"
-    },
-    {
-      "term": "Miller-Urey Experiment",
-      "link": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment"
-    },
-    {
-      "term": "Protocells",
-      "link": "https://en.wikipedia.org/wiki/Protocell"
-    },
-    {
-      "term": "RNA world hypothesis",
-      "link": "https://en.wikipedia.org/wiki/RNA_world"
-    },
-    {
-      "term": "Ribozymes",
-      "link": "https://en.wikipedia.org/wiki/Ribozyme"
-    }
+    "radiometricDating", "primordialSoup", "millerUreyExperiment", "abiogenesis", "protocell", "rnaWorldHypothesis", "ribozyme"
   ],
   "links": [
     {
