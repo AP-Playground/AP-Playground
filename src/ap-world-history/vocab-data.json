@@ -1,0 +1,48 @@
+{
+    "filters": [
+        {
+            "key": "unit",
+            "displayKey": "Units",
+            "all": true,
+            "multiselect": true
+        },
+        {
+            "key": "category",
+            "displayKey": "Categories",
+            "values": ["people", "events", "religion-culture", "idea-innovation","society-structure"],
+            "displayValues": ["People", "Events", "Religion & Culture", "Ideas & Innovations", "Societies & Structures"],
+            "all": true,
+            "multiselect": true
+        },
+        {
+            "key": "continent",
+            "displayKey": "Continents",
+            "values": ["north-america","south-america","europe","africa","asia","oceania"],
+            "displayValues": ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+            "all": true,
+            "multiselect": true
+        }
+    ],
+    "keys": {
+        "term": "Term",
+        "definition": "Definition",
+        "date": "Date"
+    },
+    "games": {
+        "memory": {
+            "term": ["term"],
+            "text": ["definition"],
+            "image": []
+        }
+    },
+    "flashcards": {
+        "term": "term",
+        "text": "${date}\n${definition}",
+        "link": "link"
+    },
+    "units": {
+        "unit-1": {
+
+        }
+    }
+}

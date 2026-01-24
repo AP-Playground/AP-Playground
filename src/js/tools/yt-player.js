@@ -1,6 +1,7 @@
 const regex = /(?:youtube\.com\/(?:watch\?v=|embed\/|v\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/
 const videoPlayer = document.querySelector(".video-block .video-embed")
 const videoBlock = document.querySelector(".video-block")
+videoBlock.inert = true;
 
 const videoControls = document.querySelector(".module-controls")
 const videoFullscreen = videoControls.querySelector(".fullscreen")
@@ -26,12 +27,14 @@ urlInput.addEventListener("input", (e) => {
   const url = e.target.value.match(regex)
   if (url && prevURL === url[1]) {
     videoBlock.classList.add("active")
+    videoBlock.inert = false;
     return
   };
   if (url) {
     videoLoad(url[1])
   } else {
     videoBlock.classList.remove("active")
+    videoBlock.inert = true;
     videoPlayer.contentWindow.postMessage(
       '{"event":"command","func":"pauseVideo","args":""}',
       '*'
@@ -41,6 +44,7 @@ urlInput.addEventListener("input", (e) => {
 
 function videoLoad(url) {
   videoBlock.classList.add("active")
+  videoBlock.inert = false;
   videoPlayer.src = "https://www.youtube-nocookie.com/embed/" + url + "?enablejsapi=1";
   prevURL = url
 }

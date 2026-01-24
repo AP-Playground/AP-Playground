@@ -34,5 +34,5 @@ export function upload() {
   page += `</div>`
   page += "</body>"
 
-  util.writeFile("/tools/yt-player.html", page, true);
+  util.writeFile(`/tools/${slug}.html`, page, true);
 }

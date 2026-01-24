@@ -4,7 +4,7 @@ import * as templates from '../templates.js'
 import * as global from '../global.js';
 import * as flashcard from '../modules/flashcard.js'
 
-export function upload(path, title, vocab) {
+export function upload(path, title, vocab, vocabData) {
 
   let page = templates.head("Vocab for " + title, path + "/vocab", "", ["/css/vocab.css","/css/module.css"],["/js/vocab.js", "/js/fullscreen.js"])
   page += `<body>`
@@ -24,7 +24,7 @@ export function upload(path, title, vocab) {
 
     page += templates.doubleBlock("", ["vocab-cards"])
 
-    page += `<script>const vocab = ${JSON.stringify(vocab)}</script>`
+    page += `<script>const vocab = ${JSON.stringify(vocab)}; const vocabData = ${JSON.stringify(vocabData)}</script>`
 
     page += `</main>`
   

@@ -1,18 +1,30 @@
 const vocabContainer = document.querySelector(".vocab-cards")
 
-vocab.forEach(({term, link, definition, image}) => {
-  let cardText = `<h2>${term} <a href="${link}" class="mask external-open" aria-label="Learn more about ${term}" target="_blank"><div></div></a></h2>` + `<p>${definition}</p>`
+const termKey = vocabData.flashcards.term;
+const linkKey = vocabData.flashcards.link;
+const textFormat = vocabData.flashcards.text;
+const imageKey = vocabData.flashcards.image;
+
+for (item of vocab) {
+  let cardText = `<h2>${item[termKey]} <a href="${item[linkKey]}" class="mask external-open" aria-label="Learn more about ${item[termKey]}" target="_blank"><div></div></a></h2>` + `<p>${fillTemplate(textFormat, item)}</p>`
   cardText = `<div class="vocab-content-container">` + cardText + "</div>"
   let imageText = "";
-  if (image) {
-    imageText = `<img class="vocab-img" src="${image}">`
+  if (imageKey in item) {
+    imageText = `<img class="vocab-img" src="${item[imageKey]}">`
     imageText += `<img class="magnify" src="/icons/magnify.svg">`;
     imageText =  `<div class="vocab-img-container" tabindex="0">${imageText}</div>`
   }
   let out = cardText + imageText;
   out = `<div class="vocab-card content-block">${out}</div>`
   vocabContainer.insertAdjacentHTML("beforeend", out)
-})
+}
+
+function fillTemplate(template, data) {
+  return template.replace(/\$\{([^}]+)\}/g, (match, key) => {
+    return key in data ? data[key] : match;
+  });
+}
+
 
 const vocabCardImages = document.querySelectorAll(".vocab-img-container");
 
@@ -59,7 +71,11 @@ setFlashcardIdx(0, false)
 flashcardPrev.disabled = true;
 if (vocab.length <= 1) flashcardNext.disabled = true;
 
-function loadCard({term, link, definition, image}, animate) {
+function loadCard(newVocab, animate) {
+  const term = newVocab[termKey]
+  const link = newVocab[linkKey]
+  const definition = fillTemplate(textFormat, newVocab)
+  const image = newVocab[imageKey]
   let anim;
   const curOpacity = flashcardContainer.style.opacity || 1;
   const duration = 200 * animate;

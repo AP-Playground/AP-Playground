@@ -1,0 +1,13 @@
+Winning graphic/modal
+ - Time + accuracy
+Add 2 player/multiplayer functionality
+ - track info on top row
+Randomly pick between options when multiple available (for identifier or info)
+If list provided as single option for identifier or info, take priority in order of list
+Pre-load url from unit and course pages
+
+Generalize game functions
+ - filters, settings, options - fieldset
+ - course search
+Vocab optional upload on course/init.js?
+Pause collapsed videos

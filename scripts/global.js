@@ -59,6 +59,7 @@ export function ced(course) {
   return cedLinks[course]
 }
 
+
 // set up global tools data
 export const tools = [
   { title: "Youtube Player", slug: "yt-player" }
@@ -70,6 +71,20 @@ for (const {title, slug} of tools) {
 }
 export function toolTitle(slug) {
   return toolTitles[slug];
+}
+
+
+// set up global games data
+export const games = [
+  { title: "Memory", slug: "memory" }
+]
+
+const gameTitles = {}
+for (const {title, slug} of games) {
+  gameTitles[slug] = title
+}
+export function gameTitle(slug) {
+  return gameTitles[slug];
 }
 
 

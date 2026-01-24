@@ -1,0 +1,55 @@
+{
+    "filters": [
+        {
+            "key": "unit",
+            "displayKey": "Units",
+            "all": true,
+            "multiselect": true
+        }
+    ],
+    "keys": {
+        "term": "Term",
+        "definition": "Definition",
+        "image": "Image/diagram"
+    },
+    "games": {
+        "memory": {
+            "term": ["term"],
+            "termImage": [],
+            "text": ["definition"],
+            "image": ["image"]
+        }
+    },
+    "flashcards": {
+        "term": "term",
+        "text": "${definition}",
+        "image": "image",
+        "link": "link"
+    },
+    "units": {
+        "unit-1": [
+            "atom", "molecule", "isotope", "ion", "valenceShell", "valence", "bond", "covalentBond", "ionicBond", "hydrogenBond", "vanDerWaalsForce", "isomer", "ph", "buffer", "acid", "base", "electronegativity", "polarity", "cohesion", "surfaceTension", "adhesion", "meniscus", "capillaryAction", "transpiration", "highSpecificHeat", "highHeatOfVaporization", "solution", "solvent", "hydrophilic", "hydrophobic", "essentialElement", "macromolecule", "organicCompound", "hydrocarbonChain", "functionalGroup", "hydroxylGroup", "methylGroup", "carbonylGroup", "carboxylGroup", "aminoGroup", "phosphateGroup", "sulfhydrylGroup", "carbohydrate", "monosaccharide", "polysaccharide", "glycosidicLinkage", "structuralIsomer", "enantiomer", "alphaAndBetaCarb", "starch", "glycogen", "cellulose", "chitin", "lipid", "triglyceride", "fattyAcidChain", "saturatedFat", "unsaturatedFat", "steroid", "phospholipid", "cholesterol", "nucleicAcid", "dna", "antiparallel", "rna", "nucleotide", "nitrogenousBase", "adenine", "thymine", "guanine", "cytosine", "uracil", "ribose", "deoxyribose", "protein", "aminoAcid", "peptideBond", "rSideChain", "primaryStructure", "secondaryStructure", "tertiaryStructure", "quaternaryStructure", "denaturation"
+        ],
+        "unit-2": [
+            "cell", "prokaryoticCell", "eukaryoticCell", "cellMembrane", "cytoplasm", "cytosol", "cytoskeleton", "cellWall", "ribosome", "organelle", "nucleus", "nuclearEnvelope", "endomembraneSystem", "smoothEndoplasmicReticulum", "roughEndoplasmicReticulum", "golgiApparatus", "lysosome", "vacuole", "largeCentralVacuole", "transportVesicle", "secretoryVesicle", "mitochondrion", "chloroplast", "surfaceArea", "volume", "surfaceAreaToVolumeRatio", "membraneFolds", "cristae", "cilia", "vesicle", "fluidMosaicModel", "phospholipid", "bilayer", "membraneProtein", "integralMembraneProtein", "peripheralMembraneProtein", "glycoprotein", "glycolipid", "cholesterol", "selectivePermeability", "plasmodesmata","concentrationGradient","dynamicEquilibrium", "diffusion", "passiveTransport", "simpleDiffusion", "facilitatedDiffusion", "activeTransport", "endocytosis", "phagocytosis", "pinocytosis", "receptorMediatedEndocytosis", "exocytosis", "channelProtein", "aquaporin", "carrierProtein", "sodiumPotassiumPump", "membranePotential", "electrochemicalGradient", "osmosis", "tonicity", "isotonic", "normalCell", "flaccidCell", "hypertonic", "shriveledCell", "plasmolyzedCell", "hypotonic", "lysedCell", "turgidCell", "waterPotential", "solutePotential", "contractileVacuole", "compartmentalization", "anabolicReaction", "catabolicReaction", "endosymbioticTheory", "ancestralEukaryote", "mitochondrialDNA", "cyanobacteria", "aerobicBacteria"
+        ],
+        "unit-3": [
+            "enzyme", "catalyst", "activationEnergy", "activeSite", "substrate", "enymeSubstrateComplex", "lockAndKeyModel", "inducedFitModel", "conformationalChange", "exergonicReaction", "catabolicReaction", "exothermicProcess", "endergonicReaction", "anabolicReaction", "endothermicProcess", "denaturation", "compartmentalization", "cofactor", "coenzyme", "competitiveInhibitor", "nonCompetitiveInhibitor", "allostericSite", "feedbackInhibition", "metabolism", "energy", "atp", "adp", "energyCoupling", "1stLawOfThermodynamics", "2ndLawOfThermodynamics", "entropy", "freeEnergy", "autotroph", "heterotroph", "stroma", "thylakoid", "chlorophyll", "stomata", "photosynthesis", "lightDependentReaction", "photosystemII", "electronTransportChain", "electrochemicalGradient", "photosystemI", "nadph", "atpSynthase", "chemiosmosis", "lightIndependentReaction", "calvinCycle", "rubisco", "g3p", "redoxReaction", "aerobicRespiration", "mitochondrion", "matrix", "intermembraneSpace", "cellularRespiration", "glycolysis", "pyruvate", "nadh", "linkReaction", "acetylCoA", "krebsCycle", "fadh2", "oxidativePhosphorylation", "anaerobicRespiration", "alcoholicFermentation", "lacticAcidRespiration"
+        ],
+        "unit-4": [
+            "signalTransductionPathway", "receptor", "ligand", "autocrineSignaling", "plasmodesmata", "gapJunction", "paracrineSignaling", "neuroTransmitter", "quorumSensing", "endocrineSignaling", "hormone", "insulin", "growthHormone", "steroidHormone", "cellSurfaceReceptor", "ligandGatedIonChannel", "gProteinCoupledReceptor", "gProtein", "receptorTyrosineKinase", "phosphorylationCascade", "kinase", "phosphatase", "secondMessenger", "calciumIon", "cyclicAMP", "geneExpression", "transcriptionFactor", "metabolicResponse", "apoptosis", "epinephrine", "environmentalFactor", "mutation", "inhibitor", "activator", "homeostasis", "negativeFeedback", "glucagon", "diabetes", "positiveFeedback", "cellCycle", "interphase", "g1Phase", "sPhase", "genome", "dnaReplication", "sisterChromatid", "g2Phase", "g0", "mitosis", "prophase", "metaphase", "anaphase", "telophase", "cytokinesis", "cleavageFurrow", "cellPlate", "binaryFission", "somaticCell", "diploidCell", "gamete", "haploidCell", "cellCycleCheckpoint", "cyclinDependentKinase", "growthFactor", "densityDependentInhibition", "anchorageDependency", "cancer", "tumor", "benignTumor", "malignantTumor", "metastisis"
+        ],
+        "unit-5": [
+            "gene", "asexualReproduction", "sexualReproduction", "homologousChromosome", "autosome", "sexChromosome", "somaticCell", "gamete", "diploidCell", "haploidCell", "meiosis", "fertilization", "synapsis", "crossingOver", "independentAssortment", "randomFertilization", "mitosis", "genotype", "phenotype", "dominantAllele", "recessiveAllele", "homozygous", "heterozygous", "punnettSquare", "lawOfSegregation", "testCross", "monohybridCross", "lawOfIndependentAssortment", "dihybridCross", "chiSquareTest", "nullHypothesis", "completeDominance", "incompleteDominance", "codominance", "multipleAllele", "linkedGene", "linageMap", "parentalType", "recombinantType", "nonnuclearInheritance", "sexLinkedGene", "pedigree", "polygenicInheritance", "phenotypicPlasticity"
+        ],
+        "unit-6": [
+            "dna", "rna", "nucleotide", "nitrogenousBase", "purine", "pyrimidine", "histoneProtein", "nucleosome", "chromatin", "intron", "exon", "linearChromosome", "circularChromosome", "plasmid", "dnaReplication", "semiconservativeProcess", "helicase", "topoisomerase", "dnaPolymerase", "leadingStrand", "laggingStrand", "okazakiFragment", "ligase", "telomere", "geneExpression", "centralDogma", "transcription", "mRNA", "templateStrand", "codingStrand", "rnaPolymerase", "transcriptionFactor", "5cap", "polyATail", "rnaSplicing", "spliceosome", "ribozyme", "translation", "tRNA", "ribosome", "rRNA", "codon", "anticodon", "signalPeptide", "retrovirus", "reverseTranscriptase", "epigenetics", "dnaMethylation", "histoneAcetylation", "regulatorySequence", "constitutiveGene", "inducibleExpression", "transcriptionInitiationComplex", "activator", "enhancer", "promoter", "alternativeRNASplicing", "ubiquitin", "inducibleOperon", "repressibleOperon", "operator", "repressor", "cellDifferentiation", "differentialGeneExpression", "cellSpecialization", "smallRNA", "miRNA", "siRNA", "mutation", "pointMutation", "insertion", "deletion", "frameshiftMutation", "nonsenseMutation", "silentMutation", "codonChart", "mutagen", "nondisjunction", "horizontalGeneTransfer", "transformation", "transduction", "conjugation", "transposition", "virus", "biotechnology", "dnaSequencing", "gelElectrophoresis", "pcr", "recombinantDNA", "geneCloning", "restrictionEnzyme", "crisprCas9"
+        ],
+        "unit-7": [
+            "evolution", "charlesDarwin", "adaptation", "naturalSelection", "biologicalFitness", "population", "ddtResistance", "sickleCellAnemia", "heterozygoteAdvantage", "artificialSelection", "alleleFrequency", "disruptiveSelection", "stabilizingSelection", "directionalSelection", "balancingSelection", "frequencyDependentSelection", "mutation", "geneticDrift", "founderEffect", "bottleneckEffect", "geneFlow", "sexualSelection", "sexualDimorphism", "hardyWeinbergEquilibrium", "nullHypothesis", "antibioticResistance", "homology", "homologousStructure", "embryonicHomology", "molecularHomology", "vestigialOrgan", "convergentEvolution", "analogousStructure", "fossil", "fossilRecord", "biogeography", "continentalDrift", "endemicSpecies", "endosymbioticTheory", "intron", "exon", "organelle", "linearChromosome", "phylogeny", "phylogeneticTree", "taxon", "branchPoint", "outgroup", "sisterTaxa", "molecularClock", "cladogram", "clade", "sharedDerivedCharacteristic", "sharedAncestralCharacteristic", "species", "speciation", "reproductiveIsolation", "prezygoticBarrier", "postzygoticBarrier", "allopatricSpeciation", "sympatricSpeciation", "polyploidy", "hybridZone", "divergentEvolution", "adaptiveRadiation", "punctuatedEquilibrium", "gradualism", "geneticVariation", "selectivePressure", "radiometricDating", "primordialSoup", "millerUreyExperiment", "abiogenesis", "protocell", "rnaWorldHypothesis", "ribozyme"
+        ], 
+        "unit-8": [
+            "behavioralChange", "physiologicalChange", "stimulus", "flightOrFightResponse", "signal", "pheromone", "innateBehavior", "learnedBehavior", "cooperativeBehavior", "altruism", "kinSelection", "homeostasis", "thermoregulation", "endotherm", "ectotherm", "reproductiveDiapause", "metabolicRate", "ecosystem", "bioticFactor", "abioticFactor", "lawofConservationofMass", "lawOfConservationOfEnergy", "waterCycle", "carbonCycle", "nitrogenCycle", "phosphorusCycle", "autotroph", "photosynthetic", "chemosynthetic", "heterotroph", "trophicLevel", "foodWeb", "population", "density", "dispersion", "survivorshipCurve", "ageStructurePyramid", "exponentialPopulationGrowth", "logisticPopulationGrowth", "carryingCapacity", "lifeHistory", "densityDependentLimitingFactor", "densityIndependentLimitingFactor", "community", "simpsonsDiversityIndex", "speciesRichness", "relativeAbundance", "interspecificCompetition", "competitiveExclusion", "fundamentalNiche", "realizedNiche", "nichePartitioning", "predation", "herbivory", "trophicCascade", "parasitism", "mutualism", "commensalism", "biodiversity", "dominantSpecies", "keystoneSpecies", "adaptation", "invasiveSpecies", "biologicalNiche", "habitatLoss", "habitatFragmentation", "climateChange", "greenhouseEffect", "elNino", "continentalDrift", "biomagnification", "eutrophication"
+        ]
+    }
+}

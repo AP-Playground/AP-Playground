@@ -18,9 +18,9 @@
   "contact": {
     "title": "Contact Information",
     "content": [
-      "Email: <a href='mailto:dakacorporation2@gmail.com'>dakacorporation2@gmail.com</a>",
-      "Suggestions/issues: <a href='https://docs.google.com/forms/d/e/1FAIpQLSd2hNIyCBl1jcndz5vX2f5sTx2hDI3-NY_vkbOfJHKgFAnpcA/viewform'>forms.gle/KHy1pfdaC17Ynx8e8</a>",
-      "Youtube: <a href='https://www.youtube.com/@ap-playground'>youtube.com/@ap-playground</a>"
+      "Email: <a href='mailto:dakacorporation2@gmail.com' target='_blank'>dakacorporation2@gmail.com</a>",
+      "Suggestions/issues: <a href='https://docs.google.com/forms/d/e/1FAIpQLSd2hNIyCBl1jcndz5vX2f5sTx2hDI3-NY_vkbOfJHKgFAnpcA/viewform' target='_blank'>forms.gle/KHy1pfdaC17Ynx8e8</a>",
+      "Youtube: <a href='https://www.youtube.com/@ap-playground' target='_blank'>youtube.com/@ap-playground</a>"
     ]
   }
 }

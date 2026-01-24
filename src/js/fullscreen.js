@@ -13,12 +13,12 @@ function toggleFullscreen(block, btn, transition = true) {
     if (fullscreened) {
       block.classList.add("fullscreen")
       block.insertAdjacentElement("beforebegin", fullscreenPlaceholder);
-      pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = i !== block})
+      pageWrapper.querySelectorAll(".page-header, footer, main > :not(.fullscreen)").forEach(i => {i.inert = i !== block})
       styles.zIndex = 1;
     } else {
       block.classList.remove("fullscreen")
       fullscreenPlaceholder.remove();
-      pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = false})
+      pageWrapper.querySelectorAll(".page-header, footer, main > *").forEach(i => {i.inert = false})
       styles.zIndex = "";
     }
     styles.transition = "none"
@@ -37,6 +37,7 @@ function toggleFullscreen(block, btn, transition = true) {
     styles.bottom = (window.innerHeight - bottom) + "px";
 
     block.classList.add("fullscreen")
+    styles.transition = "all 0.3s ease-in-out";
     fullscreenPlaceholder.style.height = height + "px";
     block.insertAdjacentElement("beforebegin", fullscreenPlaceholder);
 
@@ -47,7 +48,7 @@ function toggleFullscreen(block, btn, transition = true) {
       styles.bottom = "";
       pageWrapper.inert = true;
     })
-    pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = i !== block})
+    pageWrapper.querySelectorAll(".page-header, footer, main > :not(.fullscreen)").forEach(i => {i.inert = i !== block})
 
   } else {
     if (fullscreenPlaceholder.offsetTop < pageWrapper.scrollTop) pageWrapper.scrollTop = fullscreenPlaceholder.offsetTop;
@@ -70,7 +71,7 @@ function toggleFullscreen(block, btn, transition = true) {
       styles.bottom = (window.innerHeight - bottom) + "px";
       pageWrapper.inert = true;
     })
-    pageWrapper.querySelectorAll(".page-header, footer, .content-block").forEach(i => {i.inert = false})
+    pageWrapper.querySelectorAll(".page-header, footer, main > *").forEach(i => {i.inert = false})
   }
 }
 

@@ -50,9 +50,9 @@ export function doubleBlock(content, classes = []) {
 export function footer() {
   let footer = `<footer>`
   footer += `<nav>`
-    footer += `<a href="mailto:dakacorporation2@gmail.com">Contact Us</a>`
-    footer += `<a href="https://docs.google.com/forms/d/e/1FAIpQLSd2hNIyCBl1jcndz5vX2f5sTx2hDI3-NY_vkbOfJHKgFAnpcA/viewform">Feedback</a>`
-    footer += `<a href="https://www.youtube.com/@ap-playground">Youtube</a>`
+    footer += `<a href="mailto:dakacorporation2@gmail.com" target="_blank">Contact Us</a>`
+    footer += `<a href="https://docs.google.com/forms/d/e/1FAIpQLSd2hNIyCBl1jcndz5vX2f5sTx2hDI3-NY_vkbOfJHKgFAnpcA/viewform" target="_blank">Feedback</a>`
+    footer += `<a href="https://www.youtube.com/@ap-playground" target="_blank">Youtube</a>`
   footer += `</nav>`
   footer += `<div class="disclaimer">AP and Advanced Placement are trademarks registered by the College Board, which is not affiliated with, and does not endorse, this site.</div>`
   footer += `</footer>`
@@ -74,7 +74,9 @@ export function nav(path) {
   side += `<hr class="side-nav-divider">`
 
   side += navTab(path, "Courses", "/courses", global.navCourses, transitionDuration(global.courses.length))
-  side += navTab(path, "Games", "/games", 'Games are not supported at this time', transitionDuration(1))
+
+  const navGames = global.games.map(({title, slug}) => `<li class="item"><a href="/games/${slug}" ${path === "/games/" + slug ? " aria-current='page'" : ""}>${title}</a></li>`).join("")
+  side += navTab(path, "Games", "/games", navGames, transitionDuration(global.games.length))
 
   const navTools = global.tools.map(({title, slug}) => `<li class="item"><a href="/tools/${slug}" ${path === "/tools/" + slug ? " aria-current='page'" : ""}>${title}</a></li>`).join("")
   side += navTab(path, "Tools", "/tools", navTools, transitionDuration(global.tools.length))
@@ -162,6 +164,9 @@ export function header(path) {
     }
     case "games": {
       breadcrumb.push(["Home","/"],["Games","/games"])
+      if (pathSegments.length > 1) {
+        breadcrumb.push([global.gameTitle(pathSegments[1]),`/games/${pathSegments[1]}`])
+      }
       break;
     }
     case "tools": {
@@ -201,7 +206,8 @@ export function header(path) {
     case "about":
     case "courses":
     case "404":
-    case "games": {
+    case "games":
+    case "tools": {
       break;
     }
     default: {

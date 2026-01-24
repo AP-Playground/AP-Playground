@@ -1,0 +1,10 @@
+{
+    "filters": {
+        "key": "category",
+        "displayKey": "Category",
+        "values": ["",""],
+        "displayValues": ["",""],
+        "all": true,
+        "multiselect": true
+    }
+}

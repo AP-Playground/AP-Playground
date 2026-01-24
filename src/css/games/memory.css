@@ -1,0 +1,170 @@
+#course-select {
+    border: 2.5px solid var(--accent-90);
+    border-radius: 100px;
+    padding: 3px 8px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-block.game-block {
+  box-sizing: border-box;
+  position: relative;
+  max-height: 100lvh;
+  & .overlay {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    backdrop-filter: blur(10px);
+    color: gray;
+    font-size: clamp(1rem, 4vw, 2rem);
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  &.active .overlay {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+fieldset {
+    border-radius: calc(var(--side-nav-btn-diameter)/2);
+    margin-bottom: 1rem;
+}
+
+label {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    align-items: start;
+}
+
+label:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: var(--theme);
+    margin-right: .5rem;
+}
+
+.game-settings,
+.game-options {
+    margin-top: -20px;
+}
+
+.game-bound {
+    width: 100%;
+    min-height: 0;
+    container-type: size;
+    display: grid;
+    place-items: center;
+    aspect-ratio: var(--landscape-aspect-ratio);
+    margin-bottom: 10px;
+    @media (aspect-ratio < 1) {
+        &:has(.game-tile) {
+            aspect-ratio: var(--portrait-aspect-ratio);
+        }
+    }
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(var(--landscape-columns), 1fr);
+    height: 100cqh;
+    gap: calc(0.5cqh * calc(8 - var(--landscape-columns)));
+    @media (aspect-ratio < 1) {
+        grid-template-columns: repeat(var(--portrait-columns), 1fr);
+        width: 100cqw;
+        height: auto;
+    }
+}
+
+.game-tile {
+    aspect-ratio: 4/3;
+    cursor: pointer;
+    position: relative;
+    container-type: size;
+    border: 0;
+    background: none;
+    transform-style: preserve-3d;
+    outline-offset: 2px;
+    border-radius: 6% / 8%;
+    perspective: 200cqh;
+    transition: scale 0.2s ease-in-out, filter 0.2s ease-in-out, translate 0.3s ease-in-out;
+    transition-delay: 0s, 0s, calc(0.025s * var(--index));
+    &:hover {
+        filter: brightness(0.95);
+    }
+    &:active:not(:has(.magnify:active)) {
+        filter: brightness(0.85);
+    }
+    &.init {
+        translate: -100vw -100vw;
+    }
+    &.selected {
+        scale: 1.05;
+        & > * {
+            filter: brightness(0.9);
+        }
+    }
+    &.correct {
+        scale: 0;
+    }
+    &.flipped {
+        .back {
+            transform: rotateX(0deg);
+        }
+        .front {
+            transform: rotateX(-180deg);
+        }
+    }
+    .back, .front {
+        position: absolute;
+        inset: 0;
+        border-radius: 6% / 8%;
+        background: white;
+        border: 1px solid black;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        backface-visibility: hidden;
+        transition: transform .2s linear, filter .3s ease-in-out;
+    }
+    .back {
+        font-size: 9cqw;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        transform: rotateX(180deg);
+        padding: 1px 6px;
+        &:has(img) {
+            padding: 0;
+        }
+        & .img {
+            max-width: 100cqw;
+            max-height: 100cqh;
+            object-fit: cover;
+        }
+        & .magnify {
+            cursor: zoom-in;
+            width: 20cqw;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 5cqw;
+            box-sizing: border-box;
+            opacity: 0.5;
+            transition: opacity 0.1s;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    .front {
+        background-image: url("/images/games/card-back.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

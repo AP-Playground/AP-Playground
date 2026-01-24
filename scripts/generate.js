@@ -7,6 +7,7 @@ import * as courses from './unique/courses.js'
 import * as home from './unique/home.js'
 import * as page404 from './unique/404.js'
 import * as tools from './tools/home.js'
+import * as games from './games/home.js'
 
 
 // proccess global data
@@ -18,6 +19,7 @@ about.upload()
 courses.upload()
 home.upload()
 tools.upload()
+games.upload()
 page404.upload()
 
 
