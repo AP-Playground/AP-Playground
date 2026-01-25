@@ -112,8 +112,6 @@ function toggleSideNav() {
 
 window.addEventListener("resize", () => {
   pageWrapper.inert = window.innerWidth <= 1200 && sideNavStatus === "open";
-  document.documentElement.style.setProperty('--vh', window.visualViewport.height + "px")
-  breadcrumbs.innerHTML = window.visualViewport.height;
 })
 
 const breadcrumbs = document.querySelector('.breadcrumbs');

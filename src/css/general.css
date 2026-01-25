@@ -358,7 +358,7 @@ html.side-nav-closed {
     left: calc(var(--side-nav-width) - 5px);
     right: 0;
     top: 0;
-    bottom: 0;
+    height: 100dvh;
     box-shadow: 0 calc(100lvh - 100dvh) white;
   }
   & h1, & h2 {

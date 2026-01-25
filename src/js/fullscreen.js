@@ -30,11 +30,11 @@ function toggleFullscreen(block, btn, transition = true) {
 
   if (fullscreened) {
     styles.zIndex = 1;
-    const {top, left, bottom, right, height} = block.getBoundingClientRect();
+    const {top, left, right, height} = block.getBoundingClientRect();
     styles.top = top + "px";
     styles.left = left + "px";
     styles.right = (window.innerWidth - right) + "px";
-    styles.bottom = (window.innerHeight - bottom) + "px";
+    styles.height = height + "px";
 
     block.classList.add("fullscreen")
     styles.transition = "all 0.3s ease-in-out";
@@ -45,7 +45,7 @@ function toggleFullscreen(block, btn, transition = true) {
       styles.top = ""
       styles.left = ""
       styles.right = "";
-      styles.bottom = "";
+      styles.height = "";
       pageWrapper.inert = true;
     })
     pageWrapper.querySelectorAll(".page-header, footer, main > :not(.fullscreen)").forEach(i => {i.inert = i !== block})
@@ -55,7 +55,7 @@ function toggleFullscreen(block, btn, transition = true) {
     fullscreenPlaceholder.style.display = "none";
     styles.transition = "none";
     block.classList.remove("fullscreen")
-    const {top, left, bottom, right, height} = block.getBoundingClientRect();
+    const {top, left, right, height} = block.getBoundingClientRect();
 
     fullscreenPlaceholder.style.height = height + "px";
     fullscreenPlaceholder.style.display = "";
@@ -68,7 +68,7 @@ function toggleFullscreen(block, btn, transition = true) {
       styles.top = top + "px";
       styles.left = left + "px";
       styles.right = (window.innerWidth - right) + "px";
-      styles.bottom = (window.innerHeight - bottom) + "px";
+      styles.height = height + "px";
       pageWrapper.inert = true;
     })
     pageWrapper.querySelectorAll(".page-header, footer, main > *").forEach(i => {i.inert = false})
@@ -87,7 +87,7 @@ function fullscreenTransition(block, btn) {
     block.style.position = "";
     block.style.top = "";
     block.style.left = "";
-    block.style.bottom = "";
+    block.style.height = "";
     block.style.right = "";
     block.style.zIndex = "";
   }
