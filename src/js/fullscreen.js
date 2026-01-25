@@ -64,11 +64,11 @@ function toggleFullscreen(block, btn, transition = true) {
     requestAnimationFrame(() => {
       styles.transition = "all 0.3s ease-in-out";
       styles.position = "absolute";
-      block.classList.remove("fullscreen")
       styles.top = top + "px";
       styles.left = left + "px";
       styles.right = (window.innerWidth - right) + "px";
       styles.height = height + "px";
+      block.classList.remove("fullscreen")
       pageWrapper.inert = true;
     })
     pageWrapper.querySelectorAll(".page-header, footer, main > *").forEach(i => {i.inert = false})
