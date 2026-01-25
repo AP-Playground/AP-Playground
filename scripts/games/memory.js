@@ -21,7 +21,7 @@ export function upload() {
 
         page += `<div class="game-filters"></div>`
         page += `<div class="game-options"></div>`
-        page += `<div class="game-settings">${JSON.stringify(data.settings)}</div>`
+        page += `<div class="game-settings" hidden>${JSON.stringify(data.settings)}</div>`
         
         let temp = `<div class="game-ui"></div>`
         temp += `<div class="game-bound">`

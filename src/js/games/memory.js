@@ -7,6 +7,7 @@ const gameOptions = document.querySelector(".game-options")
 const gameSettings = document.querySelector(".game-settings")
 const settingData = JSON.parse(gameSettings.innerHTML)
 gameSettings.innerHTML = "";
+gameSettings.hidden = false;
 
 const slug = window.location.pathname.split("/").at(-1).replace(".html", "")
 
@@ -21,7 +22,6 @@ let courseNav;
 courseSelect.addEventListener("change", async () => {
     gameBlock.inert = true;
     gameBlock.classList.remove("active");
-    gameSettings.hidden = false;
     gameFilters.innerHTML = ""
     gameOptions.innerHTML = ""
     gameSettings.innerHTML = ""
@@ -135,6 +135,7 @@ function checkLoadGame() {
 let availableTerms;
 
 function loadGame() {
+    correct = 0;
     loadTerms()
     if (availableTerms.length < Number(settings.size[0])) {
         alert("There are not enough terms available with your selected filters");
@@ -217,13 +218,17 @@ function fillBoard() {
     const cards = []
     const data = vocabData.games.memory;
     for (const term of usedTerms) {
+        let identifier = vocab[term]["memory-"+options.identifier[0]] || vocab[term][options.identifier[0]]
+        identifier = pickString(identifier);
         if (data.termImage.includes(options.identifier[0])) {
-            cards.push([term, imageZoom(vocab[term][options.identifier[0]])])
-        } else cards.push([term, vocab[term][options.identifier[0]]])
+            cards.push([term, imageZoom(identifier)])
+        } else cards.push([term, identifier])
         
+        let info = vocab[term]["memory-"+options.info[0]] || vocab[term][options.info[0]]
+        info = pickString(info)
         if (data.image.includes(options.info[0])) {
-            cards.push([term, imageZoom(vocab[term][options.info[0]])])
-        } else cards.push([term, vocab[term][options.info[0]]])
+            cards.push([term, imageZoom(info)])
+        } else cards.push([term, info])
     }
     randomize(cards);
 
@@ -328,6 +333,7 @@ function handleFlip(tile) {
             selected.classList.add("correct")
             tile.classList.remove("selected")
             selected.classList.remove("selected")
+            correct++;
         } else {
             tile.classList.remove("selected")
             selected.classList.remove("selected")
@@ -352,13 +358,14 @@ function handleFlip(tile) {
                     prevSelected.classList.add("correct")
                     tile.classList.remove("selected")
                     prevSelected.classList.remove("selected")
-                }, 1000)
+                }, 2000)
             } else {
                 tile.classList.add("correct")
                 selected.classList.add("correct")
                 tile.classList.remove("selected")
                 selected.classList.remove("selected")
             }
+            correct++;
         } else {
             tile.classList.remove("selected")
             selected.classList.remove("selected")
@@ -381,7 +388,8 @@ function handleFlip(tile) {
                 prevSelected.classList.add("correct")
                 tile.classList.remove("selected")
                 prevSelected.classList.remove("selected")
-            }, 1000)
+            }, 2000)
+            correct++;
         } else {
             tile.inert = true;
             selected.inert = true;
@@ -399,7 +407,12 @@ function handleFlip(tile) {
 }
 
 const progress = document.querySelector(".progress")
+let correct;
 function updateProgress() {
-    const correct = document.querySelectorAll(".game-tile.correct").length
-    progress.textContent = (correct/2) + "/" + (settings.size[0])
+    progress.textContent = correct + "/" + (settings.size[0])
+}
+
+function pickString(input) {
+    if (typeof input === "string") return input;
+    else return input[Math.floor(Math.random()*input.length)];
 }

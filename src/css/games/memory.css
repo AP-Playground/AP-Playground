@@ -61,7 +61,6 @@ input[type="radio"] {
     display: grid;
     place-items: center;
     aspect-ratio: var(--landscape-aspect-ratio);
-    margin-bottom: 10px;
     @media (aspect-ratio < 1) {
         &:has(.game-tile) {
             aspect-ratio: var(--portrait-aspect-ratio);
@@ -111,6 +110,7 @@ input[type="radio"] {
     }
     &.correct {
         scale: 0;
+        transition: scale 0.5s ease-in-out, filter 0.2s ease-in-out, translate 0.3s ease-in-out;
     }
     &.flipped {
         .back {
