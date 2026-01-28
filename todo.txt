@@ -1,5 +1,4 @@
 Pre-load url from unit and course pages
-Prevent clicking twice?
 Track incorrect guesses
 Winning graphic/modal
  - Time + accuracy

@@ -317,16 +317,18 @@ function flipCard(card) {
 let selected;
 
 function handleFlip(tile) {
-    let prevSelected = selected;
+    if (selected && selected === tile) return;
+    tile.classList.add("selected")
+
+    const prevSelected = selected;
+    const startedFlipped = tile.classList.contains("flipped")
+
     if (mode === "easy") {
-        tile.classList.add("selected")
         if (!selected) {
             selected = tile;
             return;
         }
-        if (selected === tile) {
-            tile.classList.remove("selected")
-        } else if (selected.dataset.key === tile.dataset.key) {
+        if (selected.dataset.key === tile.dataset.key) {
             tile.inert = true;
             selected.inert = true;
             tile.classList.add("correct")
@@ -338,18 +340,13 @@ function handleFlip(tile) {
             tile.classList.remove("selected")
             selected.classList.remove("selected")
         }
-        selected = undefined;
     } else if (mode === "medium") {
-        const startedFlipped = tile.classList.contains("flipped");
-        if (!tile.classList.contains("flipped")) flipCard(tile);
-        tile.classList.add("selected")
+        if (!startedFlipped) flipCard(tile);
         if (!selected) {
             selected = tile;
             return;
         }
-        if (selected === tile) {
-            tile.classList.remove("selected")
-        } else if (selected.dataset.key === tile.dataset.key) {
+        if (selected.dataset.key === tile.dataset.key) {
             tile.inert = true;
             selected.inert = true;
             if (!startedFlipped) {
@@ -370,17 +367,13 @@ function handleFlip(tile) {
             tile.classList.remove("selected")
             selected.classList.remove("selected")
         }
-        selected = undefined;
     } else if (mode === "hard") {
         flipCard(tile)
-        tile.classList.add("selected")
         if (!selected) {
             selected = tile;
             return;
         }
-        if (selected === tile) {
-            tile.classList.remove("selected")
-        } else if (selected.dataset.key === tile.dataset.key) {
+        if (selected.dataset.key === tile.dataset.key) {
             tile.inert = true;
             selected.inert = true;
             setTimeout(() => {
@@ -400,10 +393,10 @@ function handleFlip(tile) {
                 flipCard(prevSelected)
                 tile.classList.remove("selected")
                 prevSelected.classList.remove("selected")
-            }, 1000)
+            }, 2000)
         }
-        selected = undefined;
     }
+    selected = undefined;
 }
 
 const progress = document.querySelector(".progress")
