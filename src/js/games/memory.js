@@ -29,9 +29,11 @@ courseSelect.addEventListener("change", async () => {
     options = {};
     settings = {};
 
-    vocab = await loadJSON(`/${courseSelect.value}/vocab.json`);
-    vocabData = await loadJSON(`/${courseSelect.value}/vocab-data.json`);
-    courseNav = await loadJSON(`/${courseSelect.value}/nav.json`);
+    [vocab, vocabData, courseNav] = await Promise.all([
+        loadJSON(`/${courseSelect.value}/vocab.json`),
+        loadJSON(`/${courseSelect.value}/vocab-data.json`),
+        loadJSON(`/${courseSelect.value}/nav.json`)
+    ]);
     loadOptions();
 })
 
@@ -136,6 +138,8 @@ let availableTerms;
 
 function loadGame() {
     correct = 0;
+    incorrect = 0;
+    selected = undefined;
     loadTerms()
     if (availableTerms.length < Number(settings.size[0])) {
         alert("There are not enough terms available with your selected filters");
@@ -339,6 +343,7 @@ function handleFlip(tile) {
         } else {
             tile.classList.remove("selected")
             selected.classList.remove("selected")
+            incorrect++;
         }
     } else if (mode === "medium") {
         if (!startedFlipped) flipCard(tile);
@@ -349,23 +354,17 @@ function handleFlip(tile) {
         if (selected.dataset.key === tile.dataset.key) {
             tile.inert = true;
             selected.inert = true;
-            if (!startedFlipped) {
-                setTimeout(() => {
-                    tile.classList.add("correct")
-                    prevSelected.classList.add("correct")
-                    tile.classList.remove("selected")
-                    prevSelected.classList.remove("selected")
-                }, 2000)
-            } else {
+            setTimeout(() => {
                 tile.classList.add("correct")
-                selected.classList.add("correct")
+                prevSelected.classList.add("correct")
                 tile.classList.remove("selected")
-                selected.classList.remove("selected")
-            }
+                prevSelected.classList.remove("selected")
+            }, startedFlipped? 0 : 2000)
             correct++;
         } else {
             tile.classList.remove("selected")
             selected.classList.remove("selected")
+            incorrect++;
         }
     } else if (mode === "hard") {
         flipCard(tile)
@@ -394,6 +393,7 @@ function handleFlip(tile) {
                 tile.classList.remove("selected")
                 prevSelected.classList.remove("selected")
             }, 2000)
+            incorrect++;
         }
     }
     selected = undefined;
@@ -401,6 +401,7 @@ function handleFlip(tile) {
 
 const progress = document.querySelector(".progress")
 let correct;
+let incorrect;
 function updateProgress() {
     progress.textContent = correct + "/" + (settings.size[0])
 }

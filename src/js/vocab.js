@@ -1,5 +1,21 @@
 const vocabContainer = document.querySelector(".vocab-cards")
 
+let courseVocab;
+let vocabData;
+async function init() {
+  [courseVocab, vocabData, courseNav] = await Promise.all([
+    loadJSON(`/${courseSlug}/vocab.json`),
+    loadJSON(`/${courseSlug}/vocab-data.json`)
+  ]);
+  vocab = vocab.map(i => courseVocab[i])
+}
+async function loadJSON(url) {
+    return await fetch(url)
+    .then(response => response.json())
+}
+
+init().then(() => {
+
 const termKey = vocabData.flashcards.term;
 const linkKey = vocabData.flashcards.link;
 const textFormat = vocabData.flashcards.text;
@@ -255,3 +271,5 @@ function setFlashcardIdx(idx, animate = true) {
   if (shuffled) loadCard(shuffledVocab[flashcardCurrentIdx], animate)
   else loadCard(vocab[flashcardCurrentIdx], animate)
 }
+
+})

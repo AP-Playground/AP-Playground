@@ -1,7 +1,6 @@
 import { readFileSync } from 'fs';
 import * as util from '../util.js'
 import * as templates from '../templates.js'
-import * as global from '../global.js';
 import * as vocab from './vocab.js'
 
 export function upload(path, title, courseVocab, vocabData) {
@@ -29,7 +28,7 @@ export function upload(path, title, courseVocab, vocabData) {
   let vocabText = `<ol class="vocab-grid" style="--row-count:${Math.ceil(vocabCount/2)};">`;
   for (const term of data["vocab"]) {
     vocabText += `<li><a target="_blank" href="${courseVocab[term][linkKey]}">${courseVocab[term][termKey]}</a></li>`
-    lessonVocab.push(courseVocab[term])
+    lessonVocab.push(term)
   }
   vocabText += `</ol>`
   vocab.upload(path, title, lessonVocab, vocabData)

@@ -2,8 +2,9 @@ import { readFileSync } from 'fs';
 import * as util from '../util.js'
 import * as templates from '../templates.js'
 import * as global from '../global.js';
+import * as vocab from './vocab.js'
 
-export function upload(path, title, nav) {
+export function upload(path, title, nav, unitVocab) {
   const pathSegments = path.split("/")
   pathSegments.shift()
 
@@ -30,8 +31,10 @@ export function upload(path, title, nav) {
       page += `<ul class="quick-links">` + quickLinks.join("") + "</ul>"
     }
     
-    const gameText = data["games"].map(i => `<li><a target="_blank" href="${i.link}">${i.title}</a></li>`)
-    const gameBlock = templates.block("Games:", `<ul class="link-list">${gameText.join("")}</ul>`);
+    let gameText = `<li><a target="_blank" href="${path}/vocab">Flashcards</a></li>`;
+    gameText += data["games"].map(i => `<li><a target="_blank" href="${i.link}">${i.title}</a></li>`).join("")
+    vocab.upload(path, title, unitVocab)
+    const gameBlock = templates.block("Games:", `<ul class="link-list">${gameText}</ul>`);
 
     const linkText = data["links"].map(i => `<li><a target="_blank" href="${i.link}">${i.title}</a></li>`)
     const linkBlock = templates.block("Resources:", `<ul class="link-list">${linkText.join("")}</ul>`);

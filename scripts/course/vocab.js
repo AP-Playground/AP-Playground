@@ -1,10 +1,8 @@
-import { readFileSync } from 'fs';
 import * as util from '../util.js'
 import * as templates from '../templates.js'
-import * as global from '../global.js';
 import * as flashcard from '../modules/flashcard.js'
 
-export function upload(path, title, vocab, vocabData) {
+export function upload(path, title, vocab) {
 
   let page = templates.head("Vocab for " + title, path + "/vocab", "", ["/css/vocab.css","/css/module.css"],["/js/vocab.js", "/js/fullscreen.js"])
   page += `<body>`
@@ -24,7 +22,7 @@ export function upload(path, title, vocab, vocabData) {
 
     page += templates.doubleBlock("", ["vocab-cards"])
 
-    page += `<script>const vocab = ${JSON.stringify(vocab)}; const vocabData = ${JSON.stringify(vocabData)}</script>`
+    page += `<script>let vocab = ${JSON.stringify(vocab)}; const courseSlug = "${path.split("/")[1]}"</script>`
 
     page += `</main>`
   

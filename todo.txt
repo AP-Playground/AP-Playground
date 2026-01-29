@@ -1,5 +1,4 @@
 Pre-load url from unit and course pages
-Track incorrect guesses
 Winning graphic/modal
  - Time + accuracy
 Add 2 player/multiplayer functionality
@@ -10,5 +9,4 @@ Generalize game functions
  - course search
 Vocab optional upload on course/init.js?
 Pause collapsed videos
-Unit wide vocab reviews
 Prevent multiple vids from playing at a time?

@@ -186,8 +186,12 @@ export function header(path) {
         breadcrumb.push([unit.prefix+": "+unit.title, `/${pathSegments[0]}/${pathSegments[1]}`])
 
         if (pathSegments.length > 2) {
-          const lesson = unit.data[pathSegments[2]]
-          breadcrumb.push([lesson.prefix+": "+lesson.title, `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}`])
+          if (pathSegments[2] === "vocab") {
+            breadcrumb.push(["Vocabulary",`/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}`])
+          } else {
+            const lesson = unit.data[pathSegments[2]]
+            breadcrumb.push([lesson.prefix+": "+lesson.title, `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}`])
+          }
 
           if (pathSegments.length > 3) {
             breadcrumb.push(["Vocabulary", `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}/${pathSegments[3]}`])
@@ -218,6 +222,7 @@ export function header(path) {
       let prevLink;
 
       if (pathSegments.length === 3) {
+        if (pathSegments[2] === "vocab") break;
         const unit = navData.data[pathSegments[1]].data
         const lessons = Object.entries(unit)
         const curLesson = lessons.findIndex(([lessonSlug, lesson]) => lessonSlug === pathSegments[2])
