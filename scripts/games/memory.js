@@ -23,13 +23,13 @@ export function upload() {
         page += `<div class="game-options"></div>`
         page += `<div class="game-settings" hidden>${JSON.stringify(data.settings)}</div>`
         
-        let temp = `<div class="game-ui"></div>`
-        temp += `<div class="game-bound">`
-            temp += `<div class="game"></div>`
+        let temp = `<div class="game-bound">`
+            temp += `<div class="game"></div>`  
+            temp += `<div class="win-modal hidden" hidden><h1>Game Over!</h1><p class="win-accuracy"></p><p class="win-time"></p></div>`
         temp += `</div>`
         temp += `<div class="module-controls">`
             temp += `<div class="left"><button class="replay"><img src="/icons/refresh.svg"></button></div>`
-            temp += `<div class="center"><div class="progress"> / </div></div>`
+            temp += `<div class="center"><div class="progress">0 / 0</div></div>`
             temp += `<div class="right"><button class="fullscreen"><img src="/icons/maximize.svg"></button></div>`
         temp += `</div>`
         page += templates.block(temp, `<div class="overlay">${data.instructions}</div>`, false, ["game-block"])

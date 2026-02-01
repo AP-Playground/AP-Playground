@@ -60,6 +60,7 @@ input[type="radio"] {
     container-type: size;
     display: grid;
     place-items: center;
+    position: relative;
     aspect-ratio: var(--landscape-aspect-ratio);
     @media (aspect-ratio < 1) {
         &:has(.game-tile) {
@@ -91,6 +92,7 @@ input[type="radio"] {
     outline-offset: 2px;
     border-radius: 6% / 8%;
     perspective: 200cqh;
+    padding: 1px;
     transition: scale 0.2s ease-in-out, filter 0.2s ease-in-out, translate 0.3s ease-in-out;
     transition-delay: 0s, 0s, calc(0.025s * var(--index));
     &:hover {
@@ -166,5 +168,20 @@ input[type="radio"] {
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
+    }
+}
+
+.win-modal {
+    position: absolute;
+    border: 5px solid var(--theme-80);
+    border-radius: calc(var(--side-nav-btn-diameter) / 2);
+    padding: 20px;
+    background: white;
+    transition: scale 0.5s ease-in-out;
+    & :last-child {
+        margin-bottom: 0;
+    }
+    &.hidden {
+        scale: 0;
     }
 }

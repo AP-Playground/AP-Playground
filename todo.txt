@@ -1,12 +1,11 @@
 Pre-load url from unit and course pages
-Winning graphic/modal
- - Time + accuracy
 Add 2 player/multiplayer functionality
- - track info on top row
+ - track info on top row?
 
 Generalize game functions
  - filters, settings, options - fieldset
  - course search
-Vocab optional upload on course/init.js?
+Vocab optional upload on course/init.js
 Pause collapsed videos
 Prevent multiple vids from playing at a time?
+Implement feedback from copilot

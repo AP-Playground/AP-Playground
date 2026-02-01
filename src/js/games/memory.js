@@ -19,6 +19,8 @@ let vocab;
 let vocabData;
 let courseNav;
 
+let firstGameLoad = true;
+
 courseSelect.addEventListener("change", async () => {
     gameBlock.inert = true;
     gameBlock.classList.remove("active");
@@ -125,12 +127,37 @@ function checkLoadGame() {
     if (options.info[0] === options.identifier[0]) ready = false;
 
     if (ready) {
-        loadGame();
+        loadGameTransition();
         gameBlock.inert = false;
         gameBlock.classList.add("active");
     } else {
         gameBlock.inert = true;
         gameBlock.classList.remove("active")
+    }
+}
+
+function loadGameTransition() {
+    startTime = Date.now();
+    if (firstGameLoad) {
+        firstGameLoad = false;
+        loadGame()
+    } else {
+        const tiles = document.querySelectorAll(".game-tile:not(.correct)");
+        const length = tiles.length;
+        if (length === 0) {
+            winModal.classList.add("hidden")
+            setTimeout(() => {
+                winModal.hidden = true;
+                loadGame()
+            }, 500)
+        } else {
+            tiles.forEach(tile => tile.classList.add("init"))
+            tiles.forEach(tile => tile.inert = true)
+            tiles.forEach((tile,i) => tile.style.setProperty("--index", length - i - 1))
+            setTimeout(() => {
+                loadGame()
+            }, 25 * tiles.length)
+        }
     }
 }
 
@@ -143,7 +170,7 @@ function loadGame() {
     loadTerms()
     if (availableTerms.length < Number(settings.size[0])) {
         alert("There are not enough terms available with your selected filters");
-        return
+        return;
     }
     loadBoard()
     fillBoard()
@@ -178,7 +205,6 @@ function loadTerms() {
 
 const gameBound = gameBlock.querySelector(".game-bound")
 const game = gameBound.querySelector(".game");
-const gameUI = gameBlock.querySelector(".game-ui")
 const moduleControls = gameBlock.querySelector(".module-controls");
 const fullscreenBtn = moduleControls.querySelector(".fullscreen");
 
@@ -293,16 +319,7 @@ function imageZoom(url) {
     return `<img draggable="false" class="img" src=${url}><img class="magnify" tabindex="0" src="/icons/magnify.svg">`
 }
 
-document.querySelector("button.replay").addEventListener("click", () => {
-    const tiles = document.querySelectorAll(".game-tile");
-    const length = tiles.length;
-    tiles.forEach(tile => tile.classList.add("init"))
-    tiles.forEach(tile => tile.inert = true)
-    tiles.forEach((tile,i) => tile.style.setProperty("--index", length - i - 1))
-    setTimeout(() => {
-        loadGame()
-    }, 25 * tiles.length)
-})
+document.querySelector("button.replay").addEventListener("click", loadGameTransition)
 
 function flipCard(card) {
     const front = card.querySelector(".front");
@@ -340,6 +357,7 @@ function handleFlip(tile) {
             tile.classList.remove("selected")
             selected.classList.remove("selected")
             correct++;
+            if (correct == settings.size[0]) gameOver();
         } else {
             tile.classList.remove("selected")
             selected.classList.remove("selected")
@@ -359,6 +377,7 @@ function handleFlip(tile) {
                 prevSelected.classList.add("correct")
                 tile.classList.remove("selected")
                 prevSelected.classList.remove("selected")
+                if (correct == settings.size[0]) gameOver();
             }, startedFlipped? 0 : 2000)
             correct++;
         } else {
@@ -380,6 +399,7 @@ function handleFlip(tile) {
                 prevSelected.classList.add("correct")
                 tile.classList.remove("selected")
                 prevSelected.classList.remove("selected")
+                if (correct == settings.size[0]) gameOver();
             }, 2000)
             correct++;
         } else {
@@ -399,11 +419,28 @@ function handleFlip(tile) {
     selected = undefined;
 }
 
+const winModal = gameBound.querySelector(".win-modal")
+const winAccuracy = winModal.querySelector(".win-accuracy");
+const winTime = winModal.querySelector(".win-time")
+let startTime;
+function gameOver() {
+    winModal.hidden = false;
+    winAccuracy.textContent = "Accuracy: " + (Math.round(correct/(correct+incorrect)*100)) + "%";
+    startTime = (Date.now() - startTime)/1000
+    const minutes = Math.floor(startTime/60)
+    let seconds = Math.round(startTime - minutes * 60)
+    seconds = seconds.length === 1? "0" + seconds : seconds
+    winTime.textContent = "Time: " + minutes + ":" + seconds;
+    requestAnimationFrame(() => {
+        winModal.classList.remove("hidden")
+    })
+}
+
 const progress = document.querySelector(".progress")
 let correct;
 let incorrect;
 function updateProgress() {
-    progress.textContent = correct + "/" + (settings.size[0])
+    progress.textContent = correct + " / " + (settings.size[0])
 }
 
 function pickString(input) {
