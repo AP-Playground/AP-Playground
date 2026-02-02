@@ -41,7 +41,9 @@ courseSelect.addEventListener("change", async () => {
     loadOptions();
 
     if (initialPageLoad && searchParams.has("course") && searchParams.has("unit")) {
-        document.querySelector(`.filter-unit[value=${searchParams.get("unit")}]`).checked = true;
+        const checked = document.querySelector(`.filter-unit[value=${searchParams.get("unit")}]`)
+        checked.checked = true;
+        checked.dispatchEvent(new Event('change'));
     } else initialPageLoad = false;
 })
 
