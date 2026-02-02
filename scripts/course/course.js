@@ -23,7 +23,7 @@ export function upload(path, title, nav) {
   )
   page += `<ul class="quick-links">` + quickLinks.join("") + "</ul>"
 
-  const gameText = data["games"].map(i => `<li><a target="_blank" href="${i.link}">${i.title}</a></li>`)
+  const gameText = data["games"].map(i => `<li><a href="${i.link}">${i.title}</a></li>`)
   const gameBlock = templates.block("Games:", `<ul class="link-list">${gameText.join("")}</ul>`);
 
   const linkText = data["links"].map(i => `<li><a target="_blank" href="${i.link}">${i.title}</a></li>`)

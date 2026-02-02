@@ -20,6 +20,7 @@ let vocabData;
 let courseNav;
 
 let firstGameLoad = true;
+let initialPageLoad = true;
 
 courseSelect.addEventListener("change", async () => {
     gameBlock.inert = true;
@@ -36,7 +37,12 @@ courseSelect.addEventListener("change", async () => {
         loadJSON(`/${courseSelect.value}/vocab-data.json`),
         loadJSON(`/${courseSelect.value}/nav.json`)
     ]);
+
     loadOptions();
+
+    if (initialPageLoad && searchParams.has("course") && searchParams.has("unit")) {
+        document.querySelector(`.filter-unit[value=${searchParams.get("unit")}]`).checked = true;
+    } else initialPageLoad = false;
 })
 
 async function loadJSON(url) {
@@ -127,9 +133,9 @@ function checkLoadGame() {
     if (options.info[0] === options.identifier[0]) ready = false;
 
     if (ready) {
-        loadGameTransition();
         gameBlock.inert = false;
         gameBlock.classList.add("active");
+        loadGameTransition();
     } else {
         gameBlock.inert = true;
         gameBlock.classList.remove("active")
@@ -137,6 +143,13 @@ function checkLoadGame() {
 }
 
 function loadGameTransition() {
+    loadTerms()
+    if (availableTerms.length < Number(settings.size[0])) {
+        gameBlock.inert = true;
+        gameBlock.classList.remove("active")
+        alert("There are not enough terms available with your selected filters and game settings");
+        return;
+    }
     startTime = Date.now();
     if (firstGameLoad) {
         firstGameLoad = false;
@@ -167,11 +180,6 @@ function loadGame() {
     correct = 0;
     incorrect = 0;
     selected = undefined;
-    loadTerms()
-    if (availableTerms.length < Number(settings.size[0])) {
-        alert("There are not enough terms available with your selected filters");
-        return;
-    }
     loadBoard()
     fillBoard()
     functionBoard()
@@ -446,4 +454,12 @@ function updateProgress() {
 function pickString(input) {
     if (typeof input === "string") return input;
     else return input[Math.floor(Math.random()*input.length)];
+}
+
+const paramsString = window.location.search;
+const searchParams = new URLSearchParams(paramsString);
+
+if (searchParams.has("course")) {
+    courseSelect.value = searchParams.get("course")
+    courseSelect.dispatchEvent(new Event('change'));
 }

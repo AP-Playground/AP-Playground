@@ -31,8 +31,8 @@ export function upload(path, title, nav, unitVocab) {
       page += `<ul class="quick-links">` + quickLinks.join("") + "</ul>"
     }
     
-    let gameText = `<li><a target="_blank" href="${path}/vocab">Flashcards</a></li>`;
-    gameText += data["games"].map(i => `<li><a target="_blank" href="${i.link}">${i.title}</a></li>`).join("")
+    let gameText = `<li><a href="${path}/vocab">Flashcards</a></li>`;
+    gameText += data["games"].map(i => `<li><a href="${i.link}">${i.title}</a></li>`).join("")
     vocab.upload(path, title, unitVocab)
     const gameBlock = templates.block("Games:", `<ul class="link-list">${gameText}</ul>`);
 

@@ -1,13 +1,9 @@
 {
-  "summary": "The content in Unit 8 brings together student learning from all previous units as it shows how a system’s interactions are directly related to the system’s available energy and its ability to evolve and respond to changes in its environment. When highly complex living systems interact, communities and ecosystems change based on those interactions. The more biodiversity present in a system, the more likely that system is to maintain its health and success in the face of disruption. Energy flows through systems; the rate of flow determines the success of the species within the systems. By this point in the course, a student should be able to accurately determine what happens within biological systems when disruptions occur. ",
+  "summary": "The content in Unit 8 brings together student learning from all previous units as it shows how a system’s interactions are directly related to the system’s available energy and its ability to evolve and respond to changes in its environment. When highly complex living systems interact, communities and ecosystems change based on those interactions. The more biodiversity present in a system, the more likely that system is to maintain its health and success in the face of disruption. Energy flows through systems; the rate of flow determines the success of the species within the systems. By this point in the course, a student should be able to accurately determine what happens within biological systems when disruptions occur.",
   "games": [
     {
-      "title": "Vocab Review",
-      "link": "vocab-review"
-    },
-    {
-      "title": "Matching",
-      "link": "matching"
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-biology&unit=unit-8"
     }
   ],
   "links": [
