@@ -185,9 +185,11 @@ function loadGame() {
     loadBoard()
     fillBoard()
     functionBoard()
-    setTimeout(() => {
-        document.querySelectorAll(".game-tile.init").forEach(i => i.classList.remove("init"))
-    }, 0);
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+            document.querySelectorAll(".game-tile.init").forEach(i => i.classList.remove("init"))
+        })
+    })
 }
 
 function loadTerms() {
