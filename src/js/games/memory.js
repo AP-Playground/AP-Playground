@@ -185,11 +185,9 @@ function loadGame() {
     loadBoard()
     fillBoard()
     functionBoard()
-    // detect win condition
-    // end screen
-    requestAnimationFrame(() => {
+    setTimeout(() => {
         document.querySelectorAll(".game-tile.init").forEach(i => i.classList.remove("init"))
-    })
+    }, 0);
 }
 
 function loadTerms() {
