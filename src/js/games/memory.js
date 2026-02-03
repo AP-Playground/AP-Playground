@@ -220,7 +220,7 @@ const fullscreenBtn = moduleControls.querySelector(".fullscreen");
 
 fullscreenBtn.addEventListener("click", () => {
   fullscreenBtn.classList.toggle("active");
-  toggleFullscreen(gameBlock, fullscreenBtn)
+  toggleFullscreen(gameBlock, fullscreenBtn, true, gameBoundResize)
 })
 
 function loadBoard() {
@@ -230,27 +230,55 @@ function loadBoard() {
         case 10: {
             game.style.setProperty("--landscape-columns", 5)
             game.style.setProperty("--portrait-columns", 4)
-            gameBound.style.setProperty("--landscape-aspect-ratio", 1.65)
-            gameBound.style.setProperty("--portrait-aspect-ratio", 1.05)
+            cardRatio = [4,5]
             break;
         }
         case 15: {
             game.style.setProperty("--landscape-columns", 6)
             game.style.setProperty("--portrait-columns", 5)
-            gameBound.style.setProperty("--landscape-aspect-ratio", 1.6)
-            gameBound.style.setProperty("--portrait-aspect-ratio", 1.1)
+            cardRatio = [5,6]
             break;
         }
         case 21: {
             game.style.setProperty("--landscape-columns", 7)
             game.style.setProperty("--portrait-columns", 6)
-            gameBound.style.setProperty("--landscape-aspect-ratio", 1.55)
-            gameBound.style.setProperty("--portrait-aspect-ratio", 1.15)
+            cardRatio = [6,7]
         }
     }
     for (let i = 0; i < tiles * 2; i++) {
         game.insertAdjacentHTML("beforeend", `<button class="game-tile init" data-key="" style="--index:${i}"><div class="front"></div><div class="back"></div></button>`)
     }
+    gameBoundResize()
+}
+
+const gameBoundObserver = new ResizeObserver(gameBoundResize);
+gameBoundObserver.observe(gameBound)
+let cardRatio;
+
+function gameBoundResize() {
+    if (!cardRatio) return;
+
+    const maxWidth = gameBound.offsetWidth;
+    const gap = maxWidth * 0.0025 * (8 - cardRatio[1])
+
+    const maxHeight = window.innerHeight - 40 - 10 - 45;
+
+    const maxLandscapeWidth = Math.min(maxWidth, ((maxHeight - gap*(cardRatio[0]-1))/cardRatio[0])*4/3*cardRatio[1]+gap*(cardRatio[0]));
+    const maxPortraitWidth = Math.min(maxWidth, ((maxHeight - gap*cardRatio[0])/cardRatio[1])*4/3*cardRatio[0]+gap*(cardRatio[0]-1))
+
+    let landscapeCardWidth = (maxLandscapeWidth - gap * cardRatio[0])/cardRatio[1]
+    let portraitCardWidth = (maxPortraitWidth - gap * (cardRatio[0]-1))/cardRatio[0]
+
+    if (portraitCardWidth > landscapeCardWidth) {
+        gameBound.style.height = (portraitCardWidth*0.75*cardRatio[1] + gap*cardRatio[0]) + "px";
+        game.classList.add("portrait")
+        game.style.width = maxPortraitWidth + "px";
+    } else {
+        gameBound.style.height = (landscapeCardWidth*0.75*cardRatio[0] + gap*(cardRatio[0]-1)) + "px";
+        game.classList.remove("portrait")
+        game.style.width = maxLandscapeWidth + "px";
+    }
+    console.log(maxWidth, maxHeight)
 }
 
 function fillBoard() {

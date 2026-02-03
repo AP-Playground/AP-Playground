@@ -1,5 +1,6 @@
 Add 2 player/multiplayer functionality
  - track info on top row?
+Remove game controls on mobile?
 Switch event handling to fieldsets (change event propogates backwards)
 
 Generalize game functions

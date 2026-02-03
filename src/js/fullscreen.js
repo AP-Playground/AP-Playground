@@ -1,6 +1,6 @@
 const fullscreenPlaceholder = document.createElement("div");
 let fullscreened = false;
-function toggleFullscreen(block, btn, transition = true) {
+async function toggleFullscreen(block, btn, transition = true, resizeFunction) {
   fullscreened = !fullscreened;
 
   block.ontransitionend = (e) => {
@@ -55,6 +55,8 @@ function toggleFullscreen(block, btn, transition = true) {
     fullscreenPlaceholder.style.display = "none";
     styles.transition = "none";
     block.classList.remove("fullscreen")
+    block.offsetTop;
+    if (resizeFunction) resizeFunction()
     const {top, left, right, height} = block.getBoundingClientRect();
 
     fullscreenPlaceholder.style.height = height + "px";

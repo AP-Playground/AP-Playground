@@ -61,23 +61,14 @@ input[type="radio"] {
     display: grid;
     place-items: center;
     position: relative;
-    aspect-ratio: var(--landscape-aspect-ratio);
-    @media (aspect-ratio < 1) {
-        &:has(.game-tile) {
-            aspect-ratio: var(--portrait-aspect-ratio);
-        }
-    }
 }
 
 .game {
     display: grid;
     grid-template-columns: repeat(var(--landscape-columns), 1fr);
-    height: 100cqh;
-    gap: calc(0.5cqh * calc(8 - var(--landscape-columns)));
-    @media (aspect-ratio < 1) {
+    gap: calc(0.25cqw * calc(8 - var(--landscape-columns)));
+    &.portrait {
         grid-template-columns: repeat(var(--portrait-columns), 1fr);
-        width: 100cqw;
-        height: auto;
     }
 }
 
@@ -93,6 +84,7 @@ input[type="radio"] {
     border-radius: 6% / 8%;
     perspective: 200cqh;
     padding: 1px;
+    color: black;
     transition: scale 0.2s ease-in-out, filter 0.2s ease-in-out, translate 0.3s ease-in-out;
     transition-delay: 0s, 0s, calc(0.025s * var(--index));
     &:hover {
