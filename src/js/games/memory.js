@@ -278,7 +278,6 @@ function gameBoundResize() {
         game.classList.remove("portrait")
         game.style.width = maxLandscapeWidth + "px";
     }
-    console.log(maxWidth, maxHeight)
 }
 
 function fillBoard() {
