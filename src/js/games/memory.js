@@ -279,7 +279,6 @@ function gameBoundResize() {
         game.classList.remove("portrait")
         game.style.width = maxLandscapeWidth + "px";
     }
-    progress.textContent = game.style.width + ", " + gameBound.style.height
 }
 
 function fillBoard() {
