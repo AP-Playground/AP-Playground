@@ -4,7 +4,7 @@ async function toggleFullscreen(block, btn, transition = true, resizeFunction) {
   fullscreened = !fullscreened;
 
   block.ontransitionend = (e) => {
-    if (e.target === block && e.propertyName === "left") fullscreenTransition(block, btn)
+    if (e.target === block && e.propertyName === "left") fullscreenTransition(block, btn, resizeFunction)
   };
 
   const styles = block.style;
@@ -77,8 +77,9 @@ async function toggleFullscreen(block, btn, transition = true, resizeFunction) {
   }
 }
 
-function fullscreenTransition(block, btn) {
+function fullscreenTransition(block, btn, resizeFunction) {
   pageWrapper.inert = false;
+  if (resizeFunction) resizeFunction()
   if (btn && document.activeElement === document.body) btn.focus()
   if (fullscreened) {
     block.style.transition = "";
