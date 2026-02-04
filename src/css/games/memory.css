@@ -68,6 +68,7 @@ input[type="radio"] {
     display: grid;
     grid-template-columns: repeat(var(--landscape-columns), 1fr);
     gap: calc(0.25cqw * calc(8 - var(--landscape-columns)));
+    min-width: 0;
     &.portrait {
         grid-template-columns: repeat(var(--portrait-columns), 1fr);
     }
@@ -78,6 +79,8 @@ input[type="radio"] {
     cursor: pointer;
     position: relative;
     container-type: size;
+    min-width: 0;
+    box-sizing: border-box;
     border: 0;
     background: none;
     transform-style: preserve-3d;
