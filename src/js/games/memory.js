@@ -177,11 +177,15 @@ function loadGameTransition() {
 }
 
 let availableTerms;
+let players;
 
 function loadGame() {
     correct = 0;
     incorrect = 0;
+    turn = 0;
     selected = undefined;
+    players = Number(settings.player[0])
+    playerCorrect = [0,0,0]
     loadBoard()
     fillBoard()
     functionBoard()
@@ -281,31 +285,32 @@ function gameBoundResize() {
     }
 }
 
+let cardPairs;
 function fillBoard() {
     const usedTerms = randomize(availableTerms).slice(0,settings.size[0])
-    const cards = []
+    const tempElement = document.createElement("div");
+    const tempElement2 = document.createElement("div");
+    cardPairs = []
+    const cardText = [];
     const data = vocabData.games.memory;
     for (const term of usedTerms) {
         let identifier = vocab[term]["memory-"+options.identifier[0]] || vocab[term][options.identifier[0]]
         identifier = pickString(identifier);
-        if (data.termImage.includes(options.identifier[0])) {
-            cards.push([term, imageZoom(identifier)])
-        } else cards.push([term, identifier])
+        if (data.termImage.includes(options.identifier[0])) identifier = imageZoom(identifier);
+        cardText.push(identifier)
         
         let info = vocab[term]["memory-"+options.info[0]] || vocab[term][options.info[0]]
         info = pickString(info)
-        if (data.image.includes(options.info[0])) {
-            cards.push([term, imageZoom(info)])
-        } else cards.push([term, info])
-    }
-    randomize(cards);
+        if (data.image.includes(options.info[0])) info = imageZoom(info);
+        cardText.push(info)
 
-    const tile = document.querySelectorAll(".game-tile")
-    const tileBack = document.querySelectorAll(".game-tile .back")
-    for (const i in cards) {
-        tile[i].dataset.key = cards[i][0]
-        tileBack[i].innerHTML = cards[i][1]
+        tempElement.innerHTML = identifier;
+        tempElement2.innerHTML = info;
+        cardPairs.push([tempElement.innerHTML, tempElement2.innerHTML])
     }
+    randomize(cardText);
+
+    document.querySelectorAll(".game-tile .back").forEach((e,i) => e.innerHTML = cardText[i])
 }
 
 let mode;
@@ -359,9 +364,15 @@ function imageZoom(url) {
 
 document.querySelector("button.replay").addEventListener("click", loadGameTransition)
 
-function flipCard(card) {
+function flipCard(card, forceBack = false) {
     const front = card.querySelector(".front");
     const back = card.querySelector(".back")
+    if (forceBack) {
+        card.classList.add("flipped");
+        front.inert = true;
+        back.inert = false;
+        return;
+    }
     if (card.classList.contains("flipped")) {
         card.classList.remove("flipped")
         front.inert = false;
@@ -374,6 +385,7 @@ function flipCard(card) {
 }
 
 let selected;
+let turn;
 
 function handleFlip(tile) {
     if (selected && selected === tile) return;
@@ -382,79 +394,49 @@ function handleFlip(tile) {
     const prevSelected = selected;
     const startedFlipped = tile.classList.contains("flipped")
 
-    if (mode === "easy") {
-        if (!selected) {
-            selected = tile;
-            return;
-        }
-        if (selected.dataset.key === tile.dataset.key) {
-            tile.inert = true;
-            selected.inert = true;
+    flipCard(tile, true)
+    if (!selected) {
+        selected = tile;
+        return;
+    }
+
+    const correctMatch = cardPairs.some(p => p.includes(selected.querySelector(".back").innerHTML) && p.includes(tile.querySelector(".back").innerHTML)) && selected.innerHTML !== tile.innerHTML;
+
+    if (correctMatch) {
+        tile.inert = true;
+        selected.inert = true;
+        gameBound.inert = true;
+
+        let delay = 0;
+        if (mode !== "easy") delay = startedFlipped? 0 : 2000;
+        setTimeout(() => {
+            gameBound.inert = false;
             tile.classList.add("correct")
-            selected.classList.add("correct")
+            prevSelected.classList.add("correct")
             tile.classList.remove("selected")
-            selected.classList.remove("selected")
-            correct++;
+            prevSelected.classList.remove("selected")
             if (correct == settings.size[0]) gameOver();
-        } else {
-            tile.classList.remove("selected")
-            selected.classList.remove("selected")
-            incorrect++;
-        }
-    } else if (mode === "medium") {
-        if (!startedFlipped) flipCard(tile);
-        if (!selected) {
-            selected = tile;
-            return;
-        }
-        if (selected.dataset.key === tile.dataset.key) {
-            tile.inert = true;
-            selected.inert = true;
+        }, delay)
+        correct++;
+        playerCorrect[turn%players]++
+    } else {
+        if (mode === "hard") {
+            gameBound.inert = true;
             setTimeout(() => {
-                tile.classList.add("correct")
-                prevSelected.classList.add("correct")
-                tile.classList.remove("selected")
-                prevSelected.classList.remove("selected")
-                if (correct == settings.size[0]) gameOver();
-            }, startedFlipped? 0 : 2000)
-            correct++;
-        } else {
-            tile.classList.remove("selected")
-            selected.classList.remove("selected")
-            incorrect++;
-        }
-    } else if (mode === "hard") {
-        flipCard(tile)
-        if (!selected) {
-            selected = tile;
-            return;
-        }
-        if (selected.dataset.key === tile.dataset.key) {
-            tile.inert = true;
-            selected.inert = true;
-            setTimeout(() => {
-                tile.classList.add("correct")
-                prevSelected.classList.add("correct")
-                tile.classList.remove("selected")
-                prevSelected.classList.remove("selected")
-                if (correct == settings.size[0]) gameOver();
-            }, 2000)
-            correct++;
-        } else {
-            tile.inert = true;
-            selected.inert = true;
-            setTimeout(() => {
-                tile.inert = false;
-                prevSelected.inert = false;
+                gameBound.inert = false;
                 flipCard(tile);
                 flipCard(prevSelected)
                 tile.classList.remove("selected")
                 prevSelected.classList.remove("selected")
             }, 2000)
-            incorrect++;
+        } else {
+            tile.classList.remove("selected")
+            selected.classList.remove("selected")
         }
+        incorrect++
     }
     selected = undefined;
+    turn++;
 }
 
 const winModal = gameBound.querySelector(".win-modal")
@@ -463,11 +445,31 @@ const winTime = winModal.querySelector(".win-time")
 let startTime;
 function gameOver() {
     winModal.hidden = false;
-    winAccuracy.textContent = "Accuracy: " + (Math.round(correct/(correct+incorrect)*100)) + "%";
+    if (players === 1) {
+        winAccuracy.textContent = "Accuracy: " + (Math.round(correct/(correct+incorrect)*100)) + "%";
+    } else if (players === 2) {
+        let message = "Winner: "
+        if (playerCorrect[0]>playerCorrect[1]) message+="Player 1"
+        else if (playerCorrect[0]<playerCorrect[1]) message+="Player 2"
+        else message += "Players 1 and 2 tie"
+        winAccuracy.textContent = message;
+    } else if (players === 3) {
+        let message = "Winner: "
+        if (playerCorrect[0]===playerCorrect[1] && playerCorrect[1] === playerCorrect[2]) message += "Players 1, 2, and 3 tie"
+        else if (playerCorrect[0]===playerCorrect[1] && playerCorrect[0]>playerCorrect[2]) message += "Players 1 and 2 tie"
+        else if (playerCorrect[0]===playerCorrect[2] && playerCorrect[0]>playerCorrect[1]) message += "Players 1 and 3 tie"
+        else if (playerCorrect[1]===playerCorrect[2] && playerCorrect[2]>playerCorrect[0]) message += "Players 2 and 3 tie"
+        else {
+            let winner = playerCorrect[0]>playerCorrect[0]? 1 : 2;
+            if (playerCorrect[2]>playerCorrect[1] && playerCorrect[2]>playerCorrect[0]) winner = 3
+            message += "Player " + winner
+        }
+        winAccuracy.textContent = message;
+    }
     startTime = (Date.now() - startTime)/1000
     const minutes = Math.floor(startTime/60)
     let seconds = Math.round(startTime - minutes * 60)
-    seconds = seconds.length === 1? "0" + seconds : seconds
+    seconds = seconds < 10 ? "0" + seconds : seconds
     winTime.textContent = "Time: " + minutes + ":" + seconds;
     requestAnimationFrame(() => {
         winModal.classList.remove("hidden")
@@ -476,9 +478,18 @@ function gameOver() {
 
 const progress = document.querySelector(".progress")
 let correct;
+let playerCorrect;
 let incorrect;
 function updateProgress() {
-    progress.textContent = correct + " / " + (settings.size[0])
+    if (players === 1) {
+        progress.textContent = correct + " / " + (settings.size[0])
+    } else if (players === 2) {
+        progress.textContent = `Player ${turn%2+1}'s turn, ${playerCorrect[0]}-${playerCorrect[1]}`
+    } else {
+        progress.textContent = `Player ${turn%3+1}'s turn, ${playerCorrect[0]}-${playerCorrect[1]}-${playerCorrect[2]}`
+    }
+    if (players !== 1) progress.style.fontSize = "24px"
+    progress.style.fontSize = players===1?"16px":"24px"
 }
 
 function pickString(input) {

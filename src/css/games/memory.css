@@ -81,7 +81,8 @@ input[type="radio"] {
     container-type: size;
     min-width: 0;
     box-sizing: border-box;
-    border: 0;
+    border: 1px solid black;
+    overflow: hidden;
     background: none;
     transform-style: preserve-3d;
     outline-offset: 2px;
@@ -120,10 +121,9 @@ input[type="radio"] {
     }
     .back, .front {
         position: absolute;
-        inset: 0;
+        inset: 1px;
         border-radius: 6% / 8%;
         background: white;
-        border: 1px solid black;
         display: grid;
         align-items: center;
         justify-content: center;
