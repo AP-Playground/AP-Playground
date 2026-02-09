@@ -3,7 +3,7 @@
   "games": [
     {
       "title": "Memory/Matching review",
-      "link": "/games/memory?course=ap-biology&unit=unit-6"
+      "link": "/games/memory?course=ap-biology&filter-unit=unit-6"
     }
   ],
   "links": [

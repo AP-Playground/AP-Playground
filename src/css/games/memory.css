@@ -181,3 +181,38 @@ input[type="radio"] {
         scale: 0;
     }
 }
+
+.multiplayer-info {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: var(--main-width);
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-weight: bold;
+    & > div {
+        position: relative;
+    }
+    & .player-1 {
+        color: red;
+    }
+    & .player-2 {
+        color: green;
+    }
+    & .player-3 {
+        color: blue;
+    }
+    & .selected::after {
+        content: "";
+        position: absolute;
+        inset: -5px -10px;
+        border-radius: 10px;
+        border: 2px solid currentColor;
+    }
+}
+
+.module-controls {
+  .left > :active {
+    filter: invert(0.75);
+  }
+}

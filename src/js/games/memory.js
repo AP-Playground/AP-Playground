@@ -40,11 +40,17 @@ courseSelect.addEventListener("change", async () => {
 
     loadOptions();
 
-    if (initialPageLoad && searchParams.has("course") && searchParams.has("unit")) {
-        const checked = document.querySelector(`.filter-unit[value=${searchParams.get("unit")}]`)
-        checked.checked = true;
-        checked.dispatchEvent(new Event('change'));
-    } else initialPageLoad = false;
+    if (initialPageLoad && searchParams.has("course")) {
+        for (const [key, val] of searchParams) {
+            if (key === "course") continue;
+            const checked = document.querySelector(`.${key}[value="${val}"]`)
+            if (checked) {
+                checked.checked = true;
+                checked.dispatchEvent(new Event('change'))
+            }
+        }
+    }
+    initialPageLoad = false;
 })
 
 async function loadJSON(url) {
@@ -127,6 +133,7 @@ function fieldset(element, key, displayKey, values, displayValues, multiselect, 
     }
 }
 
+const gameOverlay = gameBlock.querySelector(".overlay");
 function checkLoadGame() {
     let ready = true;
     for (const filter in filters) if (filters[filter].length === 0) ready = false;
@@ -137,6 +144,13 @@ function checkLoadGame() {
     if (ready) {
         gameBlock.inert = false;
         gameBlock.classList.add("active");
+        if (initialPageLoad) {
+            gameOverlay.style.transition = "none";
+            gameOverlay.offsetWidth;
+            gameOverlay.style.transition = "";
+            fullscreenBtn.classList.toggle("active");
+            toggleFullscreen(gameBlock, fullscreenBtn, false, gameBoundResize)
+        }
         loadGameTransition();
     } else {
         gameBlock.inert = true;
@@ -266,7 +280,7 @@ function gameBoundResize() {
     const maxWidth = gameBound.offsetWidth;
     const gap = maxWidth * 0.0025 * (8 - cardRatio[1])
 
-    const maxHeight = window.innerHeight - 40 - 10 - 45;
+    const maxHeight = window.innerHeight - 40 - 10 - 45 - 39;
 
     const maxLandscapeWidth = Math.min(maxWidth, ((maxHeight - gap*(cardRatio[0]-1))/cardRatio[0])*4/3*cardRatio[1]+gap*(cardRatio[0]));
     const maxPortraitWidth = Math.min(maxWidth, ((maxHeight - gap*cardRatio[0])/cardRatio[1])*4/3*cardRatio[0]+gap*(cardRatio[0]-1))
@@ -293,6 +307,8 @@ function fillBoard() {
     cardPairs = []
     const cardText = [];
     const data = vocabData.games.memory;
+    const hideShowArray = []
+
     for (const term of usedTerms) {
         let identifier = vocab[term]["memory-"+options.identifier[0]] || vocab[term][options.identifier[0]]
         identifier = pickString(identifier);
@@ -307,10 +323,18 @@ function fillBoard() {
         tempElement.innerHTML = identifier;
         tempElement2.innerHTML = info;
         cardPairs.push([tempElement.innerHTML, tempElement2.innerHTML])
+        hideShowArray.push("hide","show")
     }
     randomize(cardText);
+    randomize(hideShowArray)
+    const gameTileBack = document.querySelectorAll(".game-tile .back")
 
-    document.querySelectorAll(".game-tile .back").forEach((e,i) => e.innerHTML = cardText[i])
+    document.querySelectorAll(".game-tile").forEach((e,i) => {
+        gameTileBack[i].innerHTML = cardText[i]
+        if (settings.mode[0] === "easy") e.classList.add("show");
+        else if (settings.mode[0] === "medium") e.classList.add(hideShowArray[i])
+        else if (settings.mode[0] === "hard") e.classList.add("hide")
+    })
 }
 
 let mode;
@@ -331,10 +355,9 @@ function functionBoard() {
     })
     setTimeout(() => {
         gameTiles.forEach(tile => tile.inert = false)
-
-        if (mode === "easy") {
-            gameTiles.forEach(tile => flipCard(tile))
-        }
+        gameTiles.forEach(tile => {
+            if (tile.classList.contains("show")) flipCard(tile)}
+        )
     }, 25 * gameTiles.length)
 
     document.querySelectorAll(".magnify").forEach(btn => {
@@ -364,15 +387,9 @@ function imageZoom(url) {
 
 document.querySelector("button.replay").addEventListener("click", loadGameTransition)
 
-function flipCard(card, forceBack = false) {
+function flipCard(card) {
     const front = card.querySelector(".front");
     const back = card.querySelector(".back")
-    if (forceBack) {
-        card.classList.add("flipped");
-        front.inert = true;
-        back.inert = false;
-        return;
-    }
     if (card.classList.contains("flipped")) {
         card.classList.remove("flipped")
         front.inert = false;
@@ -392,25 +409,21 @@ function handleFlip(tile) {
     tile.classList.add("selected")
 
     const prevSelected = selected;
-    const startedFlipped = tile.classList.contains("flipped")
 
-    flipCard(tile, true)
+    if (tile.classList.contains("hide")) flipCard(tile)
     if (!selected) {
         selected = tile;
         return;
     }
 
     const correctMatch = cardPairs.some(p => p.includes(selected.querySelector(".back").innerHTML) && p.includes(tile.querySelector(".back").innerHTML)) && selected.innerHTML !== tile.innerHTML;
+    const delay = tile.classList.contains("hide")? 2000 : 0;
 
     if (correctMatch) {
         tile.inert = true;
         selected.inert = true;
-        gameBound.inert = true;
 
-        let delay = 0;
-        if (mode !== "easy") delay = startedFlipped? 0 : 2000;
         setTimeout(() => {
-            gameBound.inert = false;
             tile.classList.add("correct")
             prevSelected.classList.add("correct")
             tile.classList.remove("selected")
@@ -420,19 +433,14 @@ function handleFlip(tile) {
         correct++;
         playerCorrect[turn%players]++
     } else {
-        if (mode === "hard") {
-            gameBound.inert = true;
-            setTimeout(() => {
-                gameBound.inert = false;
-                flipCard(tile);
-                flipCard(prevSelected)
-                tile.classList.remove("selected")
-                prevSelected.classList.remove("selected")
-            }, 2000)
-        } else {
+        gameBound.inert = true;
+        setTimeout(() => {
+            gameBound.inert = false;
+            if (tile.classList.contains("hide")) flipCard(tile);
+            if (prevSelected.classList.contains("hide")) flipCard(prevSelected)
             tile.classList.remove("selected")
-            selected.classList.remove("selected")
-        }
+            prevSelected.classList.remove("selected")
+        }, delay)
         incorrect++
     }
     selected = undefined;
@@ -448,13 +456,13 @@ function gameOver() {
     if (players === 1) {
         winAccuracy.textContent = "Accuracy: " + (Math.round(correct/(correct+incorrect)*100)) + "%";
     } else if (players === 2) {
-        let message = "Winner: "
+        let message = "";
         if (playerCorrect[0]>playerCorrect[1]) message+="Player 1"
         else if (playerCorrect[0]<playerCorrect[1]) message+="Player 2"
         else message += "Players 1 and 2 tie"
-        winAccuracy.textContent = message;
+        winAccuracy.innerHTML = "Winner: <b>"+message+"</b>";
     } else if (players === 3) {
-        let message = "Winner: "
+        let message = ""
         if (playerCorrect[0]===playerCorrect[1] && playerCorrect[1] === playerCorrect[2]) message += "Players 1, 2, and 3 tie"
         else if (playerCorrect[0]===playerCorrect[1] && playerCorrect[0]>playerCorrect[2]) message += "Players 1 and 2 tie"
         else if (playerCorrect[0]===playerCorrect[2] && playerCorrect[0]>playerCorrect[1]) message += "Players 1 and 3 tie"
@@ -464,7 +472,7 @@ function gameOver() {
             if (playerCorrect[2]>playerCorrect[1] && playerCorrect[2]>playerCorrect[0]) winner = 3
             message += "Player " + winner
         }
-        winAccuracy.textContent = message;
+        winAccuracy.innerHTML = "Winner: <b>"+message+"</b>";
     }
     startTime = (Date.now() - startTime)/1000
     const minutes = Math.floor(startTime/60)
@@ -476,20 +484,43 @@ function gameOver() {
     })
 }
 
-const progress = document.querySelector(".progress")
+const progress = moduleControls.querySelector(".progress")
+const multiplayerInfo = gameBlock.querySelector(".multiplayer-info")
+const player1 = multiplayerInfo.querySelector(".player-1")
+const player2 = multiplayerInfo.querySelector(".player-2")
+const player3 = multiplayerInfo.querySelector(".player-3")
 let correct;
 let playerCorrect;
 let incorrect;
 function updateProgress() {
-    if (players === 1) {
-        progress.textContent = correct + " / " + (settings.size[0])
-    } else if (players === 2) {
-        progress.textContent = `Player ${turn%2+1}'s turn, ${playerCorrect[0]}-${playerCorrect[1]}`
-    } else {
-        progress.textContent = `Player ${turn%3+1}'s turn, ${playerCorrect[0]}-${playerCorrect[1]}-${playerCorrect[2]}`
+    progress.textContent = correct + " / " + (settings.size[0])
+    if (players === 1) multiplayerInfo.style.display = "none";
+    else if (players === 2) {
+        multiplayerInfo.style.display = "";
+        player1.hidden = false;
+        player2.hidden = false;
+        player3.hidden = true;
+        player1.textContent = "Player 1: " + playerCorrect[0];
+        player2.textContent = "Player 2: " + playerCorrect[1];
+        player1.classList.remove("selected");
+        player2.classList.remove("selected");
+        if (turn%2 === 0) player1.classList.add("selected");
+        if (turn%2 === 1) player2.classList.add("selected");
+    } else if (players === 3) {
+        multiplayerInfo.style.display = "";
+        player1.hidden = false;
+        player2.hidden = false;
+        player3.hidden = false;
+        player1.textContent = "Player 1: " + playerCorrect[0];
+        player2.textContent = "Player 2: " + playerCorrect[1];
+        player3.textContent = "Player 3: " + playerCorrect[2];
+        player1.classList.remove("selected");
+        player2.classList.remove("selected");
+        player3.classList.remove("selected");
+        if (turn%3 === 0) player1.classList.add("selected");
+        if (turn%3 === 1) player2.classList.add("selected");
+        if (turn%3 === 2) player3.classList.add("selected");
     }
-    if (players !== 1) progress.style.fontSize = "24px"
-    progress.style.fontSize = players===1?"16px":"24px"
 }
 
 function pickString(input) {
@@ -503,4 +534,20 @@ const searchParams = new URLSearchParams(paramsString);
 if (searchParams.has("course")) {
     courseSelect.value = searchParams.get("course")
     courseSelect.dispatchEvent(new Event('change'));
+}
+
+moduleControls.querySelector(".copy-link").addEventListener("click", () => {
+  const currentUrl = new URL(window.location.href);
+  currentUrl.search = ""
+  const params = currentUrl.searchParams;
+  params.set("course", courseSelect.value)
+  document.querySelectorAll(".game-filters input:checked:not(.select-all)").forEach(i => params.append(i.classList[0], i.value))
+  document.querySelectorAll(".game-options input:checked:not(.select-all)").forEach(i => params.append(i.classList[0], i.value))
+  document.querySelectorAll(".game-settings input:checked:not(.select-all)").forEach(i => params.append(i.classList[0], i.value))
+  const newUrl = currentUrl.origin + currentUrl.pathname + "?" + params.toString() + currentUrl.hash
+  copyToClipboard(newUrl)
+})
+
+async function copyToClipboard(text) {
+  await navigator.clipboard.writeText(text)
 }

@@ -1,6 +1,3 @@
-Add 2 player/multiplayer functionality
- - track info on top row?
-
 Generalize game functions
  - filters, settings, options - fieldset
  - course search
