@@ -144,14 +144,12 @@ function checkLoadGame() {
     if (ready) {
         gameBlock.inert = false;
         gameBlock.classList.add("active");
+        loadGameTransition();
         if (initialPageLoad) {
             gameOverlay.style.transition = "none";
-            gameOverlay.offsetWidth;
+            gameBlock.scrollIntoView({behavior: "smooth", block: "center", container: "nearest"})
             gameOverlay.style.transition = "";
-            fullscreenBtn.classList.toggle("active");
-            toggleFullscreen(gameBlock, fullscreenBtn, false, gameBoundResize)
         }
-        loadGameTransition();
     } else {
         gameBlock.inert = true;
         gameBlock.classList.remove("active")
@@ -271,7 +269,7 @@ function loadBoard() {
 
 const gameBoundObserver = new ResizeObserver(gameBoundResize);
 gameBoundObserver.observe(gameBound)
-addEventListener("resize", gameBoundResize)
+window.addEventListener("resize", gameBoundResize)
 let cardRatio;
 
 function gameBoundResize() {
@@ -280,7 +278,8 @@ function gameBoundResize() {
     const maxWidth = gameBound.offsetWidth;
     const gap = maxWidth * 0.0025 * (8 - cardRatio[1])
 
-    const maxHeight = window.innerHeight - 40 - 10 - 45 - 39;
+    let maxHeight = window.innerHeight - 40 - 10 - 45;
+    if (players > 1) maxHeight -= 39
 
     const maxLandscapeWidth = Math.min(maxWidth, ((maxHeight - gap*(cardRatio[0]-1))/cardRatio[0])*4/3*cardRatio[1]+gap*(cardRatio[0]));
     const maxPortraitWidth = Math.min(maxWidth, ((maxHeight - gap*cardRatio[0])/cardRatio[1])*4/3*cardRatio[0]+gap*(cardRatio[0]-1))
@@ -546,6 +545,7 @@ moduleControls.querySelector(".copy-link").addEventListener("click", () => {
   document.querySelectorAll(".game-settings input:checked:not(.select-all)").forEach(i => params.append(i.classList[0], i.value))
   const newUrl = currentUrl.origin + currentUrl.pathname + "?" + params.toString() + currentUrl.hash
   copyToClipboard(newUrl)
+  alert("Game link copied to clipboard with current settings.")
 })
 
 async function copyToClipboard(text) {

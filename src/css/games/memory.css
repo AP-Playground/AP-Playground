@@ -67,7 +67,7 @@ input[type="radio"] {
 .game {
     display: grid;
     grid-template-columns: repeat(var(--landscape-columns), 1fr);
-    gap: calc(0.25cqw * calc(8 - var(--landscape-columns)));
+    gap: calc(0.4cqh * calc(8 - var(--landscape-columns)));
     min-width: 0;
     &.portrait {
         grid-template-columns: repeat(var(--portrait-columns), 1fr);
@@ -102,7 +102,7 @@ input[type="radio"] {
         translate: -100vw -100vw;
     }
     &.selected {
-        scale: 1.05;
+        scale: 1.04;
         & > * {
             filter: brightness(0.9);
         }

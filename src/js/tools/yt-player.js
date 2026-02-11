@@ -61,6 +61,7 @@ videoLink.addEventListener("click", () => {
   params.set("v", prevURL);
   const newUrl = currentUrl.origin + currentUrl.pathname + "?" + params.toString() + currentUrl.hash
   copyToClipboard(newUrl)
+  alert("Tool link copied to clipboard with current settings.")
 })
 
 
