@@ -63,6 +63,11 @@ document.querySelectorAll(".more-btn").forEach(btn => {
       iframe.src = iframe.dataset.src;
       iframe.classList.remove("unloaded")
     })
+    if (!parent.classList.contains("expanded")) parent.querySelectorAll(".more-container .video-embed").forEach(iframe => {
+      iframe.contentWindow.postMessage(
+        JSON.stringify({ event: "command", func: "pauseVideo", args: [] }), "*"
+      )
+    })
   })
 })
 document.querySelectorAll(".more-container").forEach(more => {

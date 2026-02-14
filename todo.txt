@@ -1,8 +1,0 @@
-Generalize game functions
- - filters, settings, options - fieldset
- - course search
-Vocab optional upload on course/init.js?
- - Prevent unit vocab page upload if no unit vocab?
-Pause collapsed videos
-Prevent multiple vids from playing at a time?
-Implement feedback from copilot

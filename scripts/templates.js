@@ -289,7 +289,7 @@ export function videoEmbed(link) {
 }
 
 function moreVideoEmbed(link) {
-  return `<iframe class="video-embed unloaded" data-src="https://www.youtube-nocookie.com/embed/${link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+  return `<iframe class="video-embed unloaded" data-src="https://www.youtube-nocookie.com/embed/${link}?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 }
 
 export function splitHeader(title, link, linkText = "More &rightarrow;", intro = false) {
