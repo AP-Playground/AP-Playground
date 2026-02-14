@@ -7,7 +7,7 @@ const slug = "memory";
 
 export function upload() {
     const data = JSON.parse(readFileSync(`src/games/${slug}.json`, "utf-8"))
-    let page = templates.head(global.gameTitle(slug), "/games/" + slug, "", [`/css/games/${slug}.css`,"/css/module.css"], ['/js/fullscreen.js',`/js/games/${slug}.js`])
+    let page = templates.head(global.gameTitle(slug), "/games/" + slug, "", [`/css/games/${slug}.css`,`/css/games/general.css`,"/css/module.css"], ['/js/fullscreen.js',`/js/games/${slug}.js`])
     page += "<body>"
     page += templates.nav("/games/" + slug);
 
@@ -23,7 +23,7 @@ export function upload() {
         page += `<div class="game-options"></div>`
         page += `<div class="game-settings" hidden>${JSON.stringify(data.settings)}</div>`
         
-        let temp = `<div class="multiplayer-info"><div class="player-1"></div><div class="player-2"></div><div class="player-3"></div></div>`
+        let temp = `<div class="multiplayer-info"><div></div><div></div><div></div></div>`
         temp += `<div class="game-bound">`
             temp += `<div class="game"></div>`  
             temp += `<div class="win-modal hidden" hidden><h1>Game Over!</h1><p class="win-accuracy"></p><p class="win-time"></p></div>`

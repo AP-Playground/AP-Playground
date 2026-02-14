@@ -9,8 +9,6 @@ const settingData = JSON.parse(gameSettings.innerHTML)
 gameSettings.innerHTML = "";
 gameSettings.hidden = false;
 
-const slug = window.location.pathname.split("/").at(-1).replace(".html", "")
-
 let filters = {};
 let options = {};
 let settings = {};
@@ -21,6 +19,14 @@ let courseNav;
 
 let firstGameLoad = true;
 let initialPageLoad = true;
+
+const paramsString = window.location.search;
+const searchParams = new URLSearchParams(paramsString);
+
+if (searchParams.has("course")) {
+    courseSelect.value = searchParams.get("course")
+    courseSelect.dispatchEvent(new Event('change'));
+}
 
 courseSelect.addEventListener("change", async () => {
     gameBlock.inert = true;
@@ -52,11 +58,6 @@ courseSelect.addEventListener("change", async () => {
     }
     initialPageLoad = false;
 })
-
-async function loadJSON(url) {
-    return await fetch(url)
-    .then(response => response.json())
-}
 
 function loadOptions() {
     for (const filter of vocabData.filters) {
@@ -231,13 +232,6 @@ function loadTerms() {
 
 const gameBound = gameBlock.querySelector(".game-bound")
 const game = gameBound.querySelector(".game");
-const moduleControls = gameBlock.querySelector(".module-controls");
-const fullscreenBtn = moduleControls.querySelector(".fullscreen");
-
-fullscreenBtn.addEventListener("click", () => {
-  fullscreenBtn.classList.toggle("active");
-  toggleFullscreen(gameBlock, fullscreenBtn, true, gameBoundResize)
-})
 
 function loadBoard() {
     game.innerHTML = ""
@@ -376,16 +370,6 @@ function functionBoard() {
     })
 }
 
-function randomize(list) {
-    return list.sort(() => Math.random() - 0.5)
-}
-
-function imageZoom(url) {
-    return `<img draggable="false" class="img" src=${url}><img class="magnify" tabindex="0" src="/icons/magnify.svg">`
-}
-
-document.querySelector("button.replay").addEventListener("click", loadGameTransition)
-
 function flipCard(card) {
     const front = card.querySelector(".front");
     const back = card.querySelector(".back")
@@ -454,23 +438,13 @@ function gameOver() {
     winModal.hidden = false;
     if (players === 1) {
         winAccuracy.textContent = "Accuracy: " + (Math.round(correct/(correct+incorrect)*100)) + "%";
-    } else if (players === 2) {
-        let message = "";
-        if (playerCorrect[0]>playerCorrect[1]) message+="Player 1"
-        else if (playerCorrect[0]<playerCorrect[1]) message+="Player 2"
-        else message += "Players 1 and 2 tie"
-        winAccuracy.innerHTML = "Winner: <b>"+message+"</b>";
-    } else if (players === 3) {
+    } else {
         let message = ""
-        if (playerCorrect[0]===playerCorrect[1] && playerCorrect[1] === playerCorrect[2]) message += "Players 1, 2, and 3 tie"
-        else if (playerCorrect[0]===playerCorrect[1] && playerCorrect[0]>playerCorrect[2]) message += "Players 1 and 2 tie"
-        else if (playerCorrect[0]===playerCorrect[2] && playerCorrect[0]>playerCorrect[1]) message += "Players 1 and 3 tie"
-        else if (playerCorrect[1]===playerCorrect[2] && playerCorrect[2]>playerCorrect[0]) message += "Players 2 and 3 tie"
-        else {
-            let winner = playerCorrect[0]>playerCorrect[0]? 1 : 2;
-            if (playerCorrect[2]>playerCorrect[1] && playerCorrect[2]>playerCorrect[0]) winner = 3
-            message += "Player " + winner
-        }
+        const maxScore = Math.max(...playerCorrect)
+        const winners = playerCorrect.map((score,i) => score===maxScore?i+1:0).filter(i => i>0);
+        if (winners.length === 3) message += "Players 1, 2, and 3 tie";
+        else if (winners.length === 2) message += `Players ${winners[0]} and ${winners[1]} tie`
+        else message += `Player ${winners[0]}`
         winAccuracy.innerHTML = "Winner: <b>"+message+"</b>";
     }
     startTime = (Date.now() - startTime)/1000
@@ -483,59 +457,38 @@ function gameOver() {
     })
 }
 
-const progress = moduleControls.querySelector(".progress")
+const moduleControls = gameBlock.querySelector(".module-controls");
+const fullscreenBtn = moduleControls.querySelector(".fullscreen");
+const copyLinkBtn = moduleControls.querySelector(".copy-link");
+const progress = moduleControls.querySelector(".progress");
+const replayBtn = moduleControls.querySelector(".replay");
+
+replayBtn.addEventListener("click", loadGameTransition);
+
 const multiplayerInfo = gameBlock.querySelector(".multiplayer-info")
-const player1 = multiplayerInfo.querySelector(".player-1")
-const player2 = multiplayerInfo.querySelector(".player-2")
-const player3 = multiplayerInfo.querySelector(".player-3")
+const playerProgress = multiplayerInfo.querySelectorAll("div")
 let correct;
 let playerCorrect;
 let incorrect;
 function updateProgress() {
     progress.textContent = correct + " / " + (settings.size[0])
     if (players === 1) multiplayerInfo.style.display = "none";
-    else if (players === 2) {
+    else {
         multiplayerInfo.style.display = "";
-        player1.hidden = false;
-        player2.hidden = false;
-        player3.hidden = true;
-        player1.textContent = "Player 1: " + playerCorrect[0];
-        player2.textContent = "Player 2: " + playerCorrect[1];
-        player1.classList.remove("selected");
-        player2.classList.remove("selected");
-        if (turn%2 === 0) player1.classList.add("selected");
-        if (turn%2 === 1) player2.classList.add("selected");
-    } else if (players === 3) {
-        multiplayerInfo.style.display = "";
-        player1.hidden = false;
-        player2.hidden = false;
-        player3.hidden = false;
-        player1.textContent = "Player 1: " + playerCorrect[0];
-        player2.textContent = "Player 2: " + playerCorrect[1];
-        player3.textContent = "Player 3: " + playerCorrect[2];
-        player1.classList.remove("selected");
-        player2.classList.remove("selected");
-        player3.classList.remove("selected");
-        if (turn%3 === 0) player1.classList.add("selected");
-        if (turn%3 === 1) player2.classList.add("selected");
-        if (turn%3 === 2) player3.classList.add("selected");
+        playerProgress.forEach((e,i) => {
+            e.hidden = i > players-1
+            e.textContent = `Player ${i+1}: ${playerCorrect[i]}`
+            e.classList.toggle("selected", turn%players === i)
+        })
     }
 }
 
-function pickString(input) {
-    if (typeof input === "string") return input;
-    else return input[Math.floor(Math.random()*input.length)];
-}
+fullscreenBtn.addEventListener("click", () => {
+  fullscreenBtn.classList.toggle("active");
+  toggleFullscreen(gameBlock, fullscreenBtn, true, gameBoundResize)
+})
 
-const paramsString = window.location.search;
-const searchParams = new URLSearchParams(paramsString);
-
-if (searchParams.has("course")) {
-    courseSelect.value = searchParams.get("course")
-    courseSelect.dispatchEvent(new Event('change'));
-}
-
-moduleControls.querySelector(".copy-link").addEventListener("click", () => {
+copyLinkBtn.addEventListener("click", () => {
   const currentUrl = new URL(window.location.href);
   currentUrl.search = ""
   const params = currentUrl.searchParams;
@@ -550,4 +503,22 @@ moduleControls.querySelector(".copy-link").addEventListener("click", () => {
 
 async function copyToClipboard(text) {
   await navigator.clipboard.writeText(text)
+}
+
+function pickString(input) {
+    if (typeof input === "string") return input;
+    else return input[Math.floor(Math.random()*input.length)];
+}
+
+function randomize(list) {
+    return list.sort(() => Math.random() - 0.5)
+}
+
+function imageZoom(url) {
+    return `<img draggable="false" class="img" src=${url}><img class="magnify" tabindex="0" src="/icons/magnify.svg">`
+}
+
+async function loadJSON(url) {
+    return await fetch(url)
+    .then(response => response.json())
 }

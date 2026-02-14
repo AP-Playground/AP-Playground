@@ -1,0 +1,35 @@
+#course-select {
+    border: 2.5px solid var(--accent-90);
+    border-radius: 100px;
+    padding: 3px 8px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+}
+
+fieldset {
+    border-radius: calc(var(--side-nav-btn-diameter)/2);
+    margin-bottom: 1rem;
+}
+
+label {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    align-items: start;
+}
+
+label:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: var(--theme);
+    margin-right: .5rem;
+}
+
+.game-settings,
+.game-options {
+    margin-top: -20px;
+}
