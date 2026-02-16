@@ -1469,9 +1469,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1936 CE",
         "date-num": 1936,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Surrealism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Meret Oppenheim", "Oppenheim"]
     },
     "fallingwater": {
@@ -1480,7 +1480,7 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1936–1939 CE",
         "date-num": [1936, 1939],
         "date-range": 50,
-        "style": [],
+        "style": ["Prairie School", "Modernism"],
         "location": "Pennsylvania, U.S.",
         "location-coordinate": [39.90626, -79.46783],
         "artist": ["Frank Lloyd Wright", "Frank Wright", "Wright"]
@@ -1491,9 +1491,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1939 CE",
         "date-num": 1939,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Surrealism"],
+        "location": "Mexico City, Mexico",
+        "location-coordinate": [19.35, -99.162222],
         "artist": ["Frida Kahlo", "Kahlo"]
     },
     "migrationOfTheNegro": {
@@ -1502,9 +1502,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1940–1941 CE",
         "date-num": [1940, 1941],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Harlem Renaissance"],
+        "location": "Harlem, New York City, New York, U.S.",
+        "location-coordinate": [40.808889, -73.948333],
         "artist": ["Jacob Lawrence", "Lawrence"]
     },
     "jungle": {
@@ -1513,9 +1513,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1943 CE",
         "date-num": 1943,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Surrealism"],
+        "location": "Havana, Cuba",
+        "location-coordinate": [23.136667, -82.358889],
         "artist": ["Wifredo Lam", "Lam"]
     },
     "dreamOfSundayAfternoon": {
@@ -1524,9 +1524,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1947–1948 CE",
         "date-num": [1947, 1948],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Surrealism", "Mexican Muralism"],
+        "location": "Mexico City, Mexico",
+        "location-coordinate": [19.43614, -99.14697],
         "artist": ["Diego Rivera", "Rivera"]
     },
     "fountain": {
@@ -1535,9 +1535,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1950 CE (original 1917)",
         "date-num": 1950,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Dada"],
+        "location": "New York City, New York, U.S.",
+        "location-coordinate": [40.758611, -73.972222],
         "artist": ["Marcel Duchamp", "Duchamp"]
     },
     "womanI": {
@@ -1546,9 +1546,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1950–1952 CE",
         "date-num": [1950, 1952],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Abstract Expressionism"],
+        "location": "New York City, New York, U.S.",
+        "location-coordinate": [40.758611, -73.972222],
         "artist": ["Willem de Kooning", "de Kooning", "Kooning"]
     },
     "seagramBuilding": {
@@ -1557,8 +1557,8 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1954–1958 CE",
         "date-num": [1954, 1958],
         "date-range": 50,
-        "style": [],
-        "location": "New York City, U.S.",
+        "style": ["International Style", "International"],
+        "location": "New York City, New York, U.S.",
         "location-coordinate": [40.758611, -73.972222],
         "artist": ["Ludwig Mies van der Rohe and Philip Johnson (architects)", "Ludwig Mies van der Rohe and Philip Johnson", "Ludwig Mies van der Rohe°", "Philip Johnson°", "Ludwig Mies°", "Mies°°", "Johnson°°", "Ludwig Mies and Philip Johnson", "Mies and Johnson"]
     },
@@ -1568,9 +1568,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1962 CE",
         "date-num": 1962,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Pop Art"],
+        "location": "New York City, New York, U.S.",
+        "location-coordinate": [40.758611, -73.972222],
         "artist": ["Andy Warhol", "Warhol"]
     },
     "narcissusGarden": {
@@ -1579,9 +1579,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1966 CE (original installation)",
         "date-num": 1966,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Conceptual Art", "Modernism"],
+        "location": "Venice Biennale, Italy (original installation)",
+        "location-coordinate": [45.428889, 12.358611],
         "artist": ["Yayoi Kusama", "Kusama"]
     },
     "bay": {
@@ -1590,9 +1590,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1963 CE",
         "date-num": 1963,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Abstract Expressionism", "Color Field"],
+        "location": "New York City, New York, U.S. (approx.)",
+        "location-coordinate": [40.7128, -74.0061],
         "artist": ["Helen Frankenthaler", "Frankenthaler"]
     },
     "lipstick": {
@@ -1601,9 +1601,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1969–1974 CE",
         "date-num": [1969, 1974],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Pop Art"],
+        "location": "Yale University, Connecticut, U.S.",
+        "location-coordinate": [41.316389, -72.922222],
         "artist": ["Claes Oldenburg", "Oldenburg"]
     },
     "spiralJetty": {
@@ -1612,7 +1612,7 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1970 CE",
         "date-num": 1970,
         "date-range": 50,
-        "style": [],
+        "style": ["Minimalism"],
         "location": "Great Salt Lake, Utah, U.S.",
         "location-coordinate": [41.4377, -112.6689],
         "artist": ["Robert Smithson", "Smithson"]
@@ -1623,9 +1623,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1978–1983 CE",
         "date-num": [1978, 1983],
         "date-range": 50,
-        "style": [],
+        "style": ["Postmodernism", "Late Modernism"],
         "location": "Delaware, U.S.",
-        "location-coordinate": [],
+        "location-coordinate": [39.58, -75.64],
         "artist": ["Robert Venturi, John Rauch, and Denise Scott Brown (architects)", "Robert Venturi, John Rauch, and Denise Scott Brown", "Venturi, Rauch, Brown", "Venturi, Rauch, and Brown", "Robert Venturi°°", "John Rauch°°", "Denise Scott Brown°°", "Venturi°°", "Rauch°°", "Brown°°"]
     }
   ],
