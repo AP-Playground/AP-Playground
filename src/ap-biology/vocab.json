@@ -3,505 +3,592 @@
     "term": "Atoms",
     "link": "https://en.wikipedia.org/wiki/Atom",
     "definition": "The basic particle of elements, consists of protons, neutrons, and electrons",
+    "memory-definition": "Basic particle of elements, consists of protons, neutrons, and electrons",
     "image": "https://media.istockphoto.com/id/1300855627/vector/bohr-atomic-model-of-a-nitrogen-atom-vector-illustration-for-science.jpg?s=612x612&w=0&k=20&c=_H--enRYu1jgE0gpaX3cIrzTFhX1F2ZA6JQHQNCyxzc="
   },
   "molecule": {
     "term": "Molecules",
     "link": "https://en.wikipedia.org/wiki/Molecule",
     "definition": "A group of atoms held together by chemical bonds",
+    "memory-definition": "Group of atoms held together by chemical bonds",
     "image": "https://www.hawaii.edu/news/wp-content/uploads/2021/12/manoa-chemistry-methanediol-publication-kaiser.jpg"
   },
   "isotope": {
     "term": "Isotopes",
     "link": "https://en.wikipedia.org/wiki/Isotope",
     "definition": "Atoms of the same element with different numbers of neutrons"
+    "memory-definition": "Atoms of same element with different numbers of neutrons",
   },
   "ion": {
     "term": "Ions",
     "link": "https://en.wikipedia.org/wiki/Ion",
     "definition": "An atom or molecule with an electric charge",
+    "memory-definition": "Atom or molecule with an electric charge",
     "image": "https://qph.cf2.quoracdn.net/main-qimg-be2b04a2b74debe15b3c45535f503fa7-pjlq"
   },
   "valenceShell": {
     "term": "Valence shell",
     "link": "https://en.wikipedia.org/wiki/Valence_electron",
     "definition": "The outermost electron shell, denotes valence based on # of electrons",
+    "memory-definition": "Outermost electron shell, denotes valence based on # of electrons",
     "image": "https://cdn.kastatic.org/ka-content-images/ad49774316c2452752031eb2a0917f3dd447e87d.svg"
   },
   "valence": {
     "term": "Valence",
     "link": "https://en.wikipedia.org/wiki/Valence_(chemistry)",
     "definition": "The number of chemical bonds an atom of a particular element can create"
+    "memory-definition": "Number of chemical bonds an atom of a particular element can create",
   },
   "bond": {
     "term": "Bonds",
     "link": "https://en.wikipedia.org/wiki/Chemical_bond",
     "definition": "Forces of attraction between atoms or molecules"
+    "memory-definition": "Forces of attraction between atoms or molecules",
   },
   "covalentBond": {
     "term": "Covalent bond",
     "link": "https://en.wikipedia.org/wiki/Covalent_bond",
-    "definition": "A force of attraction between two atoms due to them sharing an electron",
+    "definition": "A force of attraction between two atoms due to them sharing an electron"
+    "memory-definition": "Force of attraction between two atoms that share electron(s)",,
     "image": "https://znotes-static.s3.ap-southeast-1.amazonaws.com/cie/igcse/chemistry-0620/6475caa266a1e0599dd960e4f86e40e77da6b1010f46d3e2.png"
   },
   "ionicBond": {
     "term": "Ionic bond",
     "link": "https://en.wikipedia.org/wiki/Ionic_bonding",
     "definition": "A force of attraction between one positively charged ion and one negatively charged ion",
+    "memory-definition": "Force of attraction between a positively and negatively charged ion",
     "image": "https://cdn.britannica.com/05/96905-050-9A0965D4/bonding-sodium-chloride-atom-one-chlorine-electrons.jpg"
   },
   "hydrogenBond": {
     "term": "Hydrogen bond",
     "link": "https://en.wikipedia.org/wiki/Hydrogen_bond",
     "definition": "A force of attraction between two opposing partial charges involving a hydrogen atom",
+    "memory-definition": "Force of attraction between opposing partial charges involving a hydrogen atom",
     "image": "/images/ap-biology/unit-1/water-hydrogen-bonds.png"
   },
   "vanDerWaalsForce": {
     "term": "Van der Waals Force",
     "link": "https://en.wikipedia.org/wiki/Van_der_Waals_force",
     "definition": "A weak force of attraction resulting from the random movement of electrons",
+    "memory-definition": "Weak force of attraction resulting from random movement of electrons",
     "image": "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000xAny/9/6/0/133960_CW071117_Measuring-vd-Waals-strength-in-a-crystal.jpg"
   },
   "isomer": {
     "term": "Isomers",
     "link": "https://en.wikipedia.org/wiki/Isomer",
     "definition": "Molecules with the same chemical formula but different structures",
+    "memory-definition": "Molecules with same chemical formula but different structures",
     "image": "https://chemistrytalk.org/wp-content/uploads/2023/03/640px-Isomerism.svg.png"
   },
   "ph": {
     "term": "pH",
     "link": "https://en.wikipedia.org/wiki/PH",
     "definition": "The potential of hydrogen ion dissociation of a substance",
+    "memory-definition": "Potential of hydrogen ion dissociation of a substance",
     "image": "https://static.sciencelearn.org.nz/images/images/000/004/557/full/ART_Acids_and_bases_PH_Scale_v2.png?1674174669"
   },
   "buffer": {
     "term": "Buffers",
     "link": "https://en.wikipedia.org/wiki/Buffer_solution",
     "definition": "Substances which mitigate changes in pH"
+    "memory-definition": "Substances which mitigate changes in pH",
   },
   "acid": {
     "term": "Acids",
     "link": "https://en.wikipedia.org/wiki/Acid",
     "definition": "Substances with a low pH / high rate of dissociation of H+ ions",
+    "memory-definition": ["Substances with low pH", "Substances with high rate of dissociation of H+ ions"],
     "image": "https://m.media-amazon.com/images/I/81TXcXZM3EL.jpg"
   },
   "base": {
     "term": "Bases",
     "link": "https://en.wikipedia.org/wiki/Base_(chemistry)",
     "definition": "Substances with a high pH / low rate of dissociation of H+ ions",
+    "memory-definition": ["Substances with high pH", "Substances with low rate of dissociation of H+ ions"],
     "image": "https://www.cloroxmalaysia.com/wp-content/uploads/sites/11/2019/01/240518-Ori_2L_960_cropped.png"
   },
   "electronegativity": {
     "term": "Electronegativity",
     "link": "https://en.wikipedia.org/wiki/Electronegativity",
     "definition": "The tendency of an atom to attract electrons toward itself",
+    "memory-definition": "Tendenct of atom to attracts electrons toward itself",
     "image": "https://alevelchemistry.co.uk/wp-content/uploads/2019/04/Electronegativity_2.jpg"
   },
   "polarity": {
     "term": "Polarity",
     "link": "https://en.wikipedia.org/wiki/Chemical_polarity",
     "definition": "A property of a molecule which has an uneven sharing of electrons",
+    "memory-definition": "Property of molecule which has uneven sharing of electrons",
     "image": "/images/ap-biology/unit-1/water-polarity.png"
   },
   "cohesion": {
     "term": "Cohesion",
     "link": "https://en.wikipedia.org/wiki/Cohesion_(chemistry)",
     "definition": "The sticking together of particles of the same substance",
+    "memory-definition": "Sticking together of particles of same substance",
     "image": "https://study.com/cimages/multimages/16/droplet-macro-photography-of-water-droplets-on-green-leaf-green-green-image-17110799817622839151.jpg"
   },
   "surfaceTension": {
     "term": "Surface tension",
     "link": "https://en.wikipedia.org/wiki/Surface_tension",
     "definition": "A result of cohesion which holds together the surfaces of bodies of water",
+    "memory-definition": "Result of cohesion which holds together surfaces of bodies of water",
     "image": "https://www.thoughtco.com/thmb/fkp7nXTtsxtFr3wT9eGu5gLIzwE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Surface-Tension-58c6c2365f9b58af5c534f71.jpg"
   },
   "adhesion": {
     "term": "Adhesion",
     "link": "https://en.wikipedia.org/wiki/Adhesion",
     "definition": "The sticking together of particles of different substances",
+    "memory-definition": "Sticking together of particles of different susbtances",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Spider_web_Luc_Viatour.jpg/220px-Spider_web_Luc_Viatour.jpg"
   },
   "meniscus": {
     "term": "Meniscus",
     "link": "https://en.wikipedia.org/wiki/Meniscus_(liquid)",
     "definition": "The curved surface of a liquid like water due to adhesion and cohesion in a container.",
+    "memory-definition": "Curved surface of a liquid in a container due to adhesion and cohesion",
     "image": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/thumbnails/image/wss-property-meniscus-reading_0.jpg?itok=GsF9Xw1i"
   },
   "capillaryAction": {
     "term": "Capillary action",
     "link": "https://en.wikipedia.org/wiki/Capillary_action",
     "definition": "The process of a liquid flowing against gravity due to adhesion and cohesion",
+    "memory-definition": "Process of liquid flowing against gravity due to adhesion and cohesion",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt45CmcOZTi814Q8Z9uI5hPrG4M3Q4T5LLTQ&s"
   },
   "transpiration": {
     "term": "Transpiration",
     "link": "https://en.wikipedia.org/wiki/Transpiration",
     "definition": "The process of water movement through a plant towards its eventual evaporation",
+    "memory-definition": "Process of water movement through a plant toward its evaporation",
     "image": "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/transpiration-wiki_ver_1.png"
   },
   "highSpecificHeat": {
     "term": "High specific heat (water)",
     "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion",
     "definition": "Water requires much more energy to change temperature than other substances",
+    "memory-definition": "Water requires more energy to change temperature than other substances",
     "image": "https://media.geeksforgeeks.org/wp-content/uploads/20220916121147/SpecificheatCapacity.png"
   },
   "highHeatOfVaporization": {
     "term": "High heat of vaporization (water)",
     "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion",
     "definition": "Water requires a lot of energy to break the hydrogen bonds and evaporate"
+    "memory-definition": "Water requires lots of energy to break hydrogen bonds and evaporate ",
   },
   "solution": {
     "term": "Solution",
     "link": "https://en.wikipedia.org/wiki/Aqueous_solution",
     "definition": "A uniform mixture of a solvent and solutes",
+    "memory-definition": "Uniform mixture of solvent and solutes",
     "image": "https://qph.cf2.quoracdn.net/main-qimg-e0525d517e5f11538104205ae01b8853-lq"
   },
   "solvent": {
     "term": "Solvent",
     "link": "https://en.wikipedia.org/wiki/Properties_of_water#Water_as_a_solvent",
     "definition": "A substance that dissolves another substance"
+    "memory-definition": "Substance that dissolves another substance",
   },
   "hydrophilic": {
     "term": "Hydrophilic",
     "link": "https://en.wikipedia.org/wiki/Hydrophile",
     "definition": "The property of being attracted to water and/or dissolving in it",
+    "memory-definition": ["Property of being attracted to water", "Property of dissolving in water"],
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSBzL8HHeh1nVfBUEXp7FDgygG20x-qa5S0w&s"
   },
   "hydrophobic": {
     "term": "Hydrophobic",
     "link": "https://en.wikipedia.org/wiki/Hydrophobe",
     "definition": "The property of not being attracted to water and/or not dissolving in it",
+    "memory-definition": ["Property of not being attracted to water", "Property of not dissolving in water"],
     "image": "https://target.scene7.com/is/image/Target/GUEST_f775153f-fc46-44c8-a043-1a7d07f6b3b6?wid=488&hei=488&fmt=pjpeg"
   },
   "essentialElement": {
     "term": "Essential elements",
     "link": "https://en.wikipedia.org/wiki/Composition_of_the_human_body",
     "definition": "The elements that are necessary for life (CHON)",
+    "memory-definition": "Elements that are necessary for life",
     "image": "https://i.ytimg.com/vi/qdoQ9NHLuAQ/hqdefault.jpg"
   },
   "macromolecule": {
     "term": "Macromolecules",
     "link": "https://en.wikipedia.org/wiki/Macromolecule",
     "definition": "A large molecule necessary to life’s biological processes"
+    "memory-definition": "Large molecule necessary to life's biological processes",
   },
   "organicCompound": {
     "term": "Organic compound",
     "link": "https://en.wikipedia.org/wiki/Organic_compound",
     "definition": "Compound which contains carbon"
+    "memory-definition": "Compound which contains carbon",
   },
   "hydrocarbonChain": {
     "term": "Hydrocarbon chain",
     "link": "https://en.wikipedia.org/wiki/Hydrocarbon",
     "definition": "An organic compound containing only hydrogen and carbon arranged in a chain",
+    "memory-definition": "Organic compound containing only hydrogen and carbon arranged in a chain",
     "image": "https://images.ctfassets.net/4yflszkpcwkt/55yilCl19ZLsUfjG1ctm24/e2eeb6936bc731b8f203968c29c43c31/Difference-Between-Straight-and-Branched-Chain-Alkanes_1.png"
   },
   "functionalGroup": {
     "term": "Functional groups",
     "link": "https://en.wikipedia.org/wiki/Functional_group",
     "definition": "A group of atoms with distinctive chemical properties separate to that of the total molecule they are attached to"
+    "memory-definition": "Group of atoms with chemical properties separate to that of the molecule they are bound to",
   },
   "hydroxylGroup": {
     "term": "Hydroxyl group",
     "link": "https://en.wikipedia.org/wiki/Hydroxy_group",
     "definition": "Polar functional group; hydrogen bound to an oxygen atom",
+    "memory-definition": "Polar; hydrogen bound to oxygen",
     "image": "https://www.thoughtco.com/thmb/b_E32exWMZNXj9uyifF5aORL8G8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hydroxylfunctional-56a129e05f9b58b7d0bca5df.jpg"
   },
   "methylGroup": {
     "term": "Methyl group",
     "link": "https://en.wikipedia.org/wiki/Methyl_group",
-    "definition": "Nonpolar functional group; hydrogen bound to a sulfur atom",
+    "definition": "Nonpolar; hydrogen bound to a sulfur atom",
+    "memory-definition": "Nonpolar functional group; hydrogen bound to sulfur",
     "image": "https://www.wikidoc.org/images/7/7c/Methyl_group.jpg"
   },
   "carbonylGroup": {
     "term": "Carbonyl group",
     "link": "https://en.wikipedia.org/wiki/Carbonyl_group",
     "definition": "Polar functional group; carbon double bound to oxygen",
+    "memory-definition": "Polar; carbon double bound to oxygen",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Ketone-general.svg"
   },
   "carboxylGroup": {
     "term": "Carboxyl group",
     "link": "https://en.wikipedia.org/wiki/Carboxylic_acid",
     "definition": "Polar acidic functional group; carbon double bound to an oxygen and a hydroxyl group",
+    "memory-definition": "Polar acidic; carbon double bound to oxygen and a hydroxyl group",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Carboxylic-acid.svg/150px-Carboxylic-acid.svg.png"
   },
   "aminoGroup": {
     "term": "Amino group",
     "link": "https://en.wikipedia.org/wiki/Amine",
     "definition": "Polar basic functional group; nitrogen bound to 2 hydrogen atoms",
+    "memory-definition": "Polar basic; nitrogen bound to 2 hydrogen",
     "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Amino-group-primary-2D-flat.png"
   },
   "phosphateGroup": {
     "term": "Phosphate group",
     "link": "https://en.wikipedia.org/wiki/Phosphate",
     "definition": "Polar acidic functional group; phosphate bound to oxygen atoms and hydroxyl groups",
+    "memory-definition": "Polar acidic; phosphate bound to oxygen and hydroxyl groups",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Phosphate_Group.svg"
   },
   "sulfhydrylGroup": {
     "term": "Sulfhydryl group",
     "link": "https://en.wikipedia.org/wiki/Thiol",
     "definition": "Polar functional group; sulfur bound to hydrogen atom",
+    "memory-definition": "Polar; sulfur bound to hydrogen",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Mercapto_Group_General_Formulae.png/110px-Mercapto_Group_General_Formulae.png"
   },
   "monomer": {
     "term": "Monomers",
     "link": "https://en.wikipedia.org/wiki/Monomer",
     "definition": "A molecule which can combine with others to form large polymers"
+    "memory-definition": "Molecule which can combine with others to form polymers",
   },
   "polymer": {
     "term": "Polymers",
     "link": "https://en.wikipedia.org/wiki/Polymer",
     "definition": "A molecule composed of a string of monomers"
+    "memory-definition": "Molecule composed of monomers",
   },
   "dehydrationSynthesis": {
     "term": "Dehydration synthesis",
     "link": "https://en.wikipedia.org/wiki/Condensation_reaction",
     "definition": "Bonding of two monomer molecules with the removal of a water molecule",
+    "memory-definition": "Bonding of two monomers with the removal of a water molecule",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Figure_03_01_01.jpg"
   },
   "hydrolysis": {
     "term": "Hydrolysis",
     "link": "https://en.wikipedia.org/wiki/Hydrolysis",
     "definition": "Splitting of a polymer molecule with the addition of a water molecule",
+    "memory-definition": "Splitting of a polymer with the addition of a water molecule",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcJ0YBGfwkxcFNA27Mf_pyYzW0XblReEIfMw&s"
   },
   "carbohydrate": {
     "term": "Carbohydrates",
     "link": "https://en.wikipedia.org/wiki/Carbohydrate",
     "definition": "Macromolecules used by organisms as energy storage and structural materials",
+    "memory-definition": "Macromolecules used as energy storage and structural materials",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Fresh_made_bread_05.jpg/250px-Fresh_made_bread_05.jpg"
   },
   "aminoAcid": {
     "term": "Amino acids",
     "link": "https://en.wikipedia.org/wiki/Amino_acid",
     "definition": "Monomer unit of a protein; contains carboxyl, amino, and side chain groups",
+    "memory-definition": "Monomer unit of a protein",
     "image": "https://www.astrochem.org/sci_img/Amino_Acid_Structure.jpg"
   },
   "nucleicAcid": {
     "term": "Nucleic acids",
     "link": "https://en.wikipedia.org/wiki/Nucleic_acid",
     "definition": "Macromolecules used by the organisms to store and express genetic information",
+    "memory-definition": "Macromolecules used to store and express genetic information",
     "image": "https://www.genome.gov/sites/default/files/media/images/tg/nucleic-acid_dyn.jpg"
   },
   "lipid": {
     "term": "Lipids",
     "link": "https://en.wikipedia.org/wiki/Lipid",
     "definition": "Macromolecules used by organisms to store energy long term, surround cells, and send signals",
+    "memory-definition": "Macromolecules used to store energy long term, form membranes, and sned signals",
     "image": "/images/ap-biology/unit-1/lipids.jpg"
   },
   "monosaccharide": {
     "term": "Monosaccharides",
     "link": "https://en.wikipedia.org/wiki/Monosaccharide",
     "definition": "The monomer unit of carbohydrates",
+    "memory-definition": "Monomer unit of carbohydrates",
     "image": "https://media.geeksforgeeks.org/wp-content/uploads/20220425111013/image6removebgpreview-300x258.jpg"
   },
   "polysaccharide": {
     "term": "Polysaccharides",
     "link": "https://en.wikipedia.org/wiki/Polysaccharide",
     "definition": "The polymer made up of monosaccharides; a carbohydrate",
+    "memory-definition": "Polymer made up of monosaccharides",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Cellulose-Ibeta-from-xtal-2002-3D-balls.png/330px-Cellulose-Ibeta-from-xtal-2002-3D-balls.png"
   },
   "glycosidicLinkage": {
     "term": "Glysodic linkages",
     "link": "https://en.wikipedia.org/wiki/Glycosidic_bond",
     "definition": "Covalent bonds between monosaccharides",
+    "memory-definition": "Covalent bonds between monosaccharides",
     "image": "/images/ap-biology/unit-1/glycosidic-linkages.png"
   },
   "structuralIsomer": {
     "term": "Structural isomers",
     "link": "https://en.wikipedia.org/wiki/Structural_isomer",
     "definition": "Molecules with identical chemical formula but differing structural makeup",
+    "memory-definition": "Molecules with same chemical formula but differing structure",
     "image": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A2822e0c975fc2711f1992ddaa80bfa4edade86adae070e8e8db0bd0e%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1"
   },
   "enantiomer": {
     "term": "Enantiomers",
     "link": "https://en.wikipedia.org/wiki/Enantiomer",
-    "definition": "Two compounds that are mirror images of each other, but that are not identical",
+    "definition": "Two compounds that are mirror images of each other, but that are not identical", 
+    "memory-definition": "Two compounds that are mirror images of each other, but not identical",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKnD6GKuP9XOuz5HNbpViebGu7yoaeU7mDw&s"
   },
   "alphaAndBetaCarb": {
     "term": "α and β carbs",
     "link": "https://en.wikipedia.org/wiki/Anomer",
-    "definition": "Different arrangements of atoms in cyclic forms of sugars that have the same chemical formula",
+    "definition": "Different arrangements of atoms in cyclic forms of sugars that have the same chemical formula", 
+    "memory-definition": "Different arrangements of atoms in forms of sugars that have the same chemical formula",
     "image": "https://chem.libretexts.org/@api/deki/files/384948/alpha_and_beta_anomers.png?revision=1&size=bestfit&width=586&height=253"
   },
   "starch": {
     "term": "Starch",
     "link": "https://en.wikipedia.org/wiki/Starch",
     "definition": "The carbohydrate used by plants for energy storage",
+    "memory-definition": "Carbohydrate used by plants for energy storage",
     "image": "/images/ap-biology/unit-1/starch.png"
   },
   "glycogen": {
     "term": "Glycogen",
     "link": "https://en.wikipedia.org/wiki/Glycogen",
     "definition": "The carbohydrate used by animals for energy storage",
+    "memory-definition": "Carbohydrate used by animals for energy storage",
     "image": "/images/ap-biology/unit-1/glycogen.png"
   },
   "cellulose": {
     "term": "Cellulose",
     "link": "https://en.wikipedia.org/wiki/Cellulose",
     "definition": "A structural carbohydrate which forms plant cell walls",
+    "memory-definition": "Structural carbohydrate which forms plant cell walls",
     "image": "/images/ap-biology/unit-1/cellulose.png"
   },
   "chitin": {
     "term": "Chitin",
     "link": "https://en.wikipedia.org/wiki/Chitin",
     "definition": "A structural carbohydrate which forms exoskeletons",
+    "memory-definition": "Structural carbohydrate which forms exoskeletons",
     "image": "https://www.greenwaybiotech.com/cdn/shop/articles/crustacean-3377646_1920_2.jpg?v=1599851182&width=1000"
   },
   "triglyceride": {
     "term": "Triglycerides",
     "link": "https://en.wikipedia.org/wiki/Triglyceride",
     "definition": "The most common lipid, made up of three fatty acid chains and a glycerol molecule",
+    "memory-definition": "Lipid made up of three fatty acid chains and a glycerol molecule",
     "image": "https://ars.els-cdn.com/content/image/3-s2.0-B9780123750839000970-f00097-04-9780123750839.jpg"
   },
   "fattyAcidChain": {
     "term": "Fatty acid chain",
     "link": "https://en.wikipedia.org/wiki/Fatty_acid",
     "definition": "A linear sequence of carbon atoms with hydrogen atoms attached, ending in a carboxyl group",
+    "memory-definition": "Linear sequence of carbon with hydrogen atoms attached, ending in a carboxyl group",
     "image": "https://images.nagwa.com/figures/explainers/313147519531/2.svg"
   },
   "saturatedFat": {
     "term": "Saturated fats",
     "link": "https://en.wikipedia.org/wiki/Saturated_fat",
     "definition": "A fatty acid hydrocarbon chain without double bonds",
+    "memory-definition": "Fatty acid hydrocarbon chain without double bonds",
     "image": "https://study.com/cimages/multimages/16/saturatedfattyacidpicture2.png"
   },
   "unsaturatedFat": {
     "term": "Unsaturated fats",
     "link": "https://en.wikipedia.org/wiki/Unsaturated_fat",
     "definition": "A fatty acid hydrocarbon chain containing double bonds",
+    "memory-definition": "Fatty acid hydrocarbon chain containing double bonds",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Linoleic_acid3D.png/300px-Linoleic_acid3D.png"
   },
   "steroid": {
     "term": "Steroids",
     "link": "https://en.wikipedia.org/wiki/Steroid",
     "definition": "Lipids used for signaling made out of four carbon rings fused together",
+    "memory-definition": "Lipids used for signaling made out of four carbon rings",
     "image": "https://www.thoughtco.com/thmb/5It1L1oSJZU43qmRc8ywDyCwuBg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/aldosterone-56a129883df78cf77267fc6b.jpg"
   },
   "phospholipid": {
     "term": "Phospholipids",
     "link": "https://en.wikipedia.org/wiki/Phospholipid",
     "definition": "Lipids which contain a hydrophilic head and hydrophobic tail and make up cell membranes",
+    "memory-definition": ["Lipids which contain a hydrophilic head and hydrophobic tail", "Lipids which make up cell membranes"],
     "image": "/images/ap-biology/unit-2/phospholipid.svg"
   },
   "cholesterol": {
     "term": "Cholesterol",
     "link": "https://en.wikipedia.org/wiki/Cholesterol",
     "definition": "The principal steroid; used in animal cell membranes",
+    "memory-definition": "Principal steroid; using in animal cell membranes",
     "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cholesterol.svg"
   },
   "dna": {
     "term": "Deoxyribonucleic acid (DNA)",
     "link": "https://en.wikipedia.org/wiki/DNA",
     "definition": "A nucleic acid used to store genetic information",
+    "memory-definition": "Nucleic acid used to store genetic information",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbDqomPSLuaC821ns3T_vHzW1PBez3odprIw&s"
   },
   "antiparallel": {
     "term": "Antiparallel",
     "link": "https://en.wikipedia.org/wiki/Antiparallel_(biochemistry)",
     "definition": "Structure of DNA in which two strands of DNA run alongside each other in opposite directions"
+    "memory-definition": "Structure of DNA in which two strands run alongside each other in opposite directions",
   },
   "rna": {
     "term": "Ribonucleic acid (RNA)",
     "link": "https://en.wikipedia.org/wiki/RNA",
     "definition": "A nucleic acid used to express genetic information",
+    "memory-definition": "Nucleic acid used to express genetic information",
     "image": "https://www.yourgenome.org/wp-content/uploads/2023/11/1591-RNA-molecule-576x768.png"
   },
   "nucleotide": {
     "term": "Nucleotides",
     "link": "https://en.wikipedia.org/wiki/Nucleotide",
     "definition": "The monomer unit of nucleic acids, contains a pentose, phosphate group, and nitrogenous base",
+    "memory-definition": ["Monomer unit of nucleic acids", "Contains a pentose, phosphate group, and nitrogenous base"],
     "image": "https://www.creative-proteomics.com/upload/image/what-are-nucleotides-1.jpg"
   },
   "nitrogenousBase": {
     "term": "Nitrogenous base",
     "link": "https://en.wikipedia.org/wiki/Nucleotide_base",
     "definition": "Nitrogen containing compounds which are parts of nucleotides (include adenine, guanine, cytosine, uracil, thymine)",
+    "memory-definition": "Nitrogen containing compounds which are part of nucleotides",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi-bxfkfs5LHFzfGTn10qwHjq8moTEttUOcg&s"
   },
   "adenine": {
     "term": "Adenine",
     "link": "https://en.wikipedia.org/wiki/Adenine",
     "definition": "A nitrogenous purine derivative, bound to thymine in DNA base pairing"
+    "memory-definition": "Nitrogenous purine derivative, bound to thymine",
   },
   "thymine": {
     "term": "Thymine",
     "link": "https://en.wikipedia.org/wiki/Thymine",
     "definition": "A nitrogenous pyrimidine derivative, bound to adenine in DNA base pairing"
+    "memory-definition": "Nitrogenous pyrimidine derivative, bound to adenine",
   },
   "guanine": {
     "term": "Guanine",
     "link": "https://en.wikipedia.org/wiki/Guanine",
     "definition": "A nitrogenous purine derivative, bound to cytosine in DNA base pairing"
+    "memory-definition": "Nitrogenous purine derivative, bound to cytosine",
   },
   "cytosine": {
     "term": "Cytosine",
     "link": "https://en.wikipedia.org/wiki/Cytosine",
     "definition": "A nitrogenous pyrimidine derivative, bound to guanine in DNA base pairing"
+    "memory-definition": "Nitrogenous pyrimidine derivative, bound to guanine",
   },
   "uracil": {
     "term": "Uracil",
     "link": "https://en.wikipedia.org/wiki/Uracil",
     "definition": "An RNA specific nitrogenous base which replaces thymine and binds with adenine"
+    "memory-definition": "RNA specific nitrogenous base which replaces thymine, binds with adenine",
   },
   "ribose": {
     "term": "Ribose",
     "link": "https://en.wikipedia.org/wiki/Ribose",
-    "definition": "5 carbon sugar found in RNA backbones",
+    "definition": "Five carbon sugar found in RNA backbones",
+    "memory-definition": "Five carbon sugar found in RNA backbones",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2C_2gMBBewGHjFY01RB8Z5lLsQjuJ-9-MBQ&s"
   },
   "deoxyribose": {
     "term": "Deoxyribose",
     "link": "https://en.wikipedia.org/wiki/Deoxyribose",
-    "definition": "5 carbon sugar found in DNA backbones",
+    "definition": "Five carbon sugar found in DNA backbones",
+    "memory-definition": "Five carbon sugar found in DNA backbones",
     "image": "/images/ap-biology/unit-1/deoxyribose.png"
   },
   "protein": {
     "term": "Proteins",
     "link": "https://en.wikipedia.org/wiki/Protein",
     "definition": "Macromolecules used by organisms for building, repair, and movement",
+    "memory-definition": "Macromolecules used for building, repair, and movement",
     "image": "https://images.inc.com/uploaded_files/image/1920x1080/getty_80116649_344560.jpg"
   },
   "peptideBond": {
     "term": "Peptide bonds",
     "link": "https://en.wikipedia.org/wiki/Peptide_bond",
     "definition": "Covalent bond between single amino acids",
+    "memory-definition": "Covalent bond between amino acids",
     "image": "/images/ap-biology/unit-1/peptide-bond.png"
   },
   "rSideChain": {
     "term": "R side chains",
     "link": "https://en.wikipedia.org/wiki/Side_chain",
     "definition": "The unique part of each amino acid that differs from the basic amino acid structure",
+    "memory-definition": "Unique part of each amino acid that differs from the base amino acid",
     "image": "https://qph.cf2.quoracdn.net/main-qimg-0a465f49662f84e64d8255c12424e34e-lq"
   },
   "primaryStructure": {
     "term": "Primary structure",
     "link": "https://en.wikipedia.org/wiki/Protein_primary_structure",
     "definition": "The linear sequence of amino acids that make up a protein",
+    "memory-definition": "Linear sequence of amino acids that make up a protein",
     "image": "/images/ap-biology/unit-1/primary-structure.png"
   },
   "secondaryStructure": {
     "term": "Secondary structure",
     "link": "https://en.wikipedia.org/wiki/Protein_secondary_structure",
     "definition": "The structure of the backbone of the polypeptide, excluding side chain interactions",
+    "memory-definition": "Structure of backbone of the polypeptide, excluding side chain interactions",
     "image": "https://microbenotes.com/wp-content/uploads/2023/10/Secondary-Structure-of-Protein.jpeg"
   },
   "tertiaryStructure": {
     "term": "Tertiary structure",
     "link": "https://en.wikipedia.org/wiki/Protein_tertiary_structure",
     "definition": "The structure of the polypeptide chain formed from interactions between side chains",
+    "memory-definition": "Structure of polypeptide chain formed from side chain interactions",
     "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2001037022004044-gr5.jpg"
   },
   "quaternaryStructure": {
     "term": "Quaternary structure",
     "link": "https://en.wikipedia.org/wiki/Protein_quaternary_structure",
     "definition": "The structure of proteins composed of multiple polypeptides",
+    "memory-definition": "Structure of proteins composed of multiple polypeptides",
     "image": "https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc0MTY1OTU4MDkxMzUxNTQ4/what-are-proteins-part-3-of-3.png"
   },
   "denaturation": {
     "term": "Denaturation",
     "link": "https://en.wikipedia.org/wiki/Denaturation_(biochemistry)",
     "definition": "The unfolding or breaking up of a protein due to an environmental change",
+    "memory-definition": "Unfolding or breaking up of a protein due to environmental change",
     "image": "https://chemistrytalk.org/wp-content/uploads/2023/03/Process_of_Denaturation.svg-e1663786914819.png"
   },
   "cell": {
