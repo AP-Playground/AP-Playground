@@ -223,8 +223,8 @@ function loadTerms() {
             if (!filters[filter].some(item => vocab[key][filter].includes(item))) return false;
         }
 
-        if (!vocab[key].hasOwnProperty(options.info[0])) return false;
-        if (!vocab[key].hasOwnProperty(options.identifier[0])) return false;
+        if (!vocab[key].hasOwnProperty(options.info[0]) && !vocab[key].hasOwnProperty("memory-"+options.info[0])) return false;
+        if (!vocab[key].hasOwnProperty(options.identifier[0]) && !vocab[key].hasOwnProperty("memory-"+options.identifier[0])) return false;
 
         return true;
     })
