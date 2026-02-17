@@ -120,7 +120,7 @@ function fieldset(element, key, displayKey, values, displayValues, multiselect, 
         checkLoadGame();
     }))
 
-    if (multiselect && all) {
+    if (all) {
         const selectAll = document.querySelector(`.${option}-${key}.select-all`);
         inputs.forEach(i => i.addEventListener("change", () => {
             selectAll.checked = !inputs.some(box => !box.checked)
@@ -219,12 +219,12 @@ function loadTerms() {
     availableTerms = availableTerms.filter(key => {
         for (const filter in filters) {
             if (filter === "unit") continue;
-            if (filter[0] === "select-all") continue;
             if (!filters[filter].some(item => vocab[key][filter].includes(item))) return false;
         }
 
-        if (!vocab[key].hasOwnProperty(options.info[0]) && !vocab[key].hasOwnProperty("memory-"+options.info[0])) return false;
-        if (!vocab[key].hasOwnProperty(options.identifier[0]) && !vocab[key].hasOwnProperty("memory-"+options.identifier[0])) return false;
+        if (!vocab[key].hasOwnProperty(options.info[0]) || (vocab[key].hasOwnProperty("memory-"+options.info[0]) && !vocab[key]["memory-"+options.info[0])) return false;
+        if (!vocab[key].hasOwnProperty(options.identifier[0]) || (vocab[key].hasOwnProperty("memory-"+options.identifier[0]) && !vocab[key]["memory-"+options.identifier[0])) return false;
+        if (vocab[key].hasOwnProperty("memory-disable") && vocab[key]["memory-disable"]) return false;
 
         return true;
     })
