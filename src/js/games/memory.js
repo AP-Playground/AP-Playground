@@ -222,12 +222,18 @@ function loadTerms() {
             if (!filters[filter].some(item => vocab[key][filter].includes(item))) return false;
         }
 
-        if (!vocab[key].hasOwnProperty(options.info[0]) || (vocab[key].hasOwnProperty("memory-"+options.info[0]) && !vocab[key]["memory-"+options.info[0])) return false;
-        if (!vocab[key].hasOwnProperty(options.identifier[0]) || (vocab[key].hasOwnProperty("memory-"+options.identifier[0]) && !vocab[key]["memory-"+options.identifier[0])) return false;
+        if (!hasProperty(vocab[key], options.info[0])) return false;
+        if (!hasProperty(vocab[key], options.identifier[0])) return false;
         if (vocab[key].hasOwnProperty("memory-disable") && vocab[key]["memory-disable"]) return false;
 
         return true;
     })
+}
+
+function hasProperty(term, key) {
+    if (term.hasOwnProperty("memory-"+key)) {
+        return term["memory-"+key];
+    } else return term.hasOwnProperty(key)
 }
 
 const gameBound = gameBlock.querySelector(".game-bound")
