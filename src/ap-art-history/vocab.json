@@ -883,8 +883,7 @@
         "artist": ["Caravaggio"]
     },
     "mediciCycle": {
-        "title": ["Henri IV Receives the Portrait of Marie de’ Medici,
-from the Marie de’ Medici Cycle", "Henry IV Receives the Portrait of Marie de’ Medici", "Henry IV Receives the Portrait of Marie de Medici", "Henry IV Receives Portrait of Marie de’ Medici", "Henry IV Receives Portrait of Marie de Medici"],
+        "title": ["Henri IV Receives the Portrait of Marie de’ Medici, from the Marie de’ Medici Cycle", "Henry IV Receives the Portrait of Marie de’ Medici", "Henry IV Receives the Portrait of Marie de Medici", "Henry IV Receives Portrait of Marie de’ Medici", "Henry IV Receives Portrait of Marie de Medici"],
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/0_Henri_IV_re%C3%A7oit_le_portrait_de_Marie_de_M%C3%A9dicis_-_P.P._Rubens_-_1771_-_Louvre_2.JPG/960px-0_Henri_IV_re%C3%A7oit_le_portrait_de_Marie_de_M%C3%A9dicis_-_P.P._Rubens_-_1771_-_Louvre_2.JPG",
         "date": "1621–1625 CE",
         "date-num": [1621, 1625],
@@ -1139,8 +1138,7 @@ from the Marie de’ Medici Cycle", "Henry IV Receives the Portrait of Marie de�
         "artist": ["Eugène Delacroix", "Delacroix"]
     },
     "oxbow": {
-        "title": ["The Oxbow (View from Mount Holyoke,
-Northampton, Massachusetts, after a Thunderstorm)", "The Oxbow", "Oxbow"],
+        "title": ["The Oxbow (View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm)", "The Oxbow", "Oxbow"],
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Cole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg/960px-Cole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg",
         "date": "1836 CE",
         "date-num": 1836,
@@ -1179,7 +1177,7 @@ Dead and Dying, Typhoon Coming On)", "Slave Ship"],
         "date": "1840–1870 CE",
         "date-num": [1840, 1870],
         "date-range": 50,
-        "style": [],
+        "style": ["Gothic Revival"],
         "location": "London, England",
         "location-coordinate": [51.499167, -0.124722],
         "artist": ["Charles Barry and Augustus W. N. Pugin (architects)", "Charles Barry and Augustus W. N. Pugin", "Charles Barry and Augustus W.N.Pugin (architects)", "Charles Barry and Augustus W.N.Pugin", "Charles Barry and Augustus Pugin", "Barry and Pugin", "Charles Barry°", "Augustus Pugin°", "Barry°°", "Pugin°°"]
@@ -1190,9 +1188,9 @@ Dead and Dying, Typhoon Coming On)", "Slave Ship"],
         "date": "1849 CE (destroyed in 1945)",
         "date-num": 1849,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Realism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Gustave Courbet", "Courbet"]
     },
     "nadarRaisingPhotography": {
@@ -1201,9 +1199,9 @@ Dead and Dying, Typhoon Coming On)", "Slave Ship"],
         "date": "1862 CE",
         "date-num": 1862,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Realism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Honoré Daumier", "Daumier"]
     },
     "olympia": {
@@ -1212,21 +1210,21 @@ Dead and Dying, Typhoon Coming On)", "Slave Ship"],
         "date": "1863 CE",
         "date-num": 1863,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Realism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Édouard Manet", "Manet"]
     },
     "saintLazareStation": {
         "title": ["The Saint-Lazare Station", "Saint-Lazare Station"],
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/La_Gare_Saint-Lazare_-_Claude_Monet.jpg/960px-La_Gare_Saint-Lazare_-_Claude_Monet.jpg",
-        "date": "",
-        "date-num": ,
-        "date-range": ,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
-        "artist": []
+        "date": "1877 CE",
+        "date-num": 1877,
+        "date-range": 50,
+        "style": ["Impressionism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
+        "artist": ["Claude Monet", "Monet"]
     },
     "horseInMotion": {
         "title": ["The Horse in Motion", "Horse in Motion"],
@@ -1234,24 +1232,20 @@ Dead and Dying, Typhoon Coming On)", "Slave Ship"],
         "date": "1878 CE",
         "date-num": 1878,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Chronophotography"],
+        "location": "Palo Alto, California, U.S.",
+        "location-coordinate": [37.429167, -122.138056],
         "artist": ["Eadweard Muybridge", "Muybridge"]
     },
     "valleyOfMexico": {
-        "title": ["The Valley of Mexico from the Hillside of Santa
-Isabel (El Valle de México desde el Cerro de Santa
-Isabel)", "El Valle de México desde el Cerro de Santa
-Isabel", "The Valley of Mexico from the Hillside of Santa
-Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Mexico from Hillside of Santa Isabel", "Valley of Mexico from Hillside of Santa Isabel", "The Valley of Mexico from Santa Isabel°", "Valley of Mexico from Santa Isabel°"],
-        "image": "https://smarthistory.org/wp-content/uploads/2021/12/17011656808_647f03c465_k.jpg",
+        "title": ["The Valley of Mexico from the Hillside of Santa Isabel (El Valle de México desde el Cerro de Santa Isabel)", "El Valle de México desde el Cerro de Santa Isabel", "The Valley of Mexico from the Hillside of Santa Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Mexico from Hillside of Santa Isabel", "Valley of Mexico from Hillside of Santa Isabel", "The Valley of Mexico from Santa Isabel°", "Valley of Mexico from Santa Isabel°"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/SantaIsabelVelascoDF.JPG/960px-SantaIsabelVelascoDF.JPG",
         "date": "1882 CE",
         "date-num": 1882,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Romanticism"],
+        "location": "Mexico City, Mexico",
+        "location-coordinate": [19.485633, -99.116796],
         "artist": ["Jose María Velasco", "Jose Velasco", "Velasco"]
     },
     "burghersOfCalais": {
@@ -1260,9 +1254,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1884–1895 CE",
         "date-num": [1884, 1895],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Impressionism", "Naturalism", "Modernism"],
+        "location": "Calais, France",
+        "location-coordinate": [50.952361, 1.853333],
         "artist": ["Auguste Rodin", "Rodin"]
     },
     "starryNight": {
@@ -1271,9 +1265,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1889 CE",
         "date-num": 1889,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Post-Impressionism"],
+        "location": "Saint-Rémy-de-Provence, Southern France",
+        "location-coordinate": [43.79, 4.8325],
         "artist": ["Vincent Van Gogh", "Van Gogh"]
     },
     "coiffure": {
@@ -1282,9 +1276,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1890–1891 CE",
         "date-num": [1890, 1891],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Impressionism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Mary Cassatt", "Cassatt"]
     },
     "scream": {
