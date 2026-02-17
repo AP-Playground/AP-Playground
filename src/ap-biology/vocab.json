@@ -16,8 +16,8 @@
   "isotope": {
     "term": "Isotopes",
     "link": "https://en.wikipedia.org/wiki/Isotope",
-    "definition": "Atoms of the same element with different numbers of neutrons"
-    "memory-definition": "Atoms of same element with different numbers of neutrons",
+    "definition": "Atoms of the same element with different numbers of neutrons",
+    "memory-definition": "Atoms of same element with different numbers of neutrons"
   },
   "ion": {
     "term": "Ions",
@@ -36,20 +36,20 @@
   "valence": {
     "term": "Valence",
     "link": "https://en.wikipedia.org/wiki/Valence_(chemistry)",
-    "definition": "The number of chemical bonds an atom of a particular element can create"
-    "memory-definition": "Number of chemical bonds an atom of a particular element can create",
+    "definition": "The number of chemical bonds an atom of a particular element can create",
+    "memory-definition": "Number of chemical bonds an atom of a particular element can create"
   },
   "bond": {
     "term": "Bonds",
     "link": "https://en.wikipedia.org/wiki/Chemical_bond",
-    "definition": "Forces of attraction between atoms or molecules"
-    "memory-definition": "Forces of attraction between atoms or molecules",
+    "definition": "Forces of attraction between atoms or molecules",
+    "memory-definition": "Forces of attraction between atoms or molecules"
   },
   "covalentBond": {
     "term": "Covalent bond",
     "link": "https://en.wikipedia.org/wiki/Covalent_bond",
-    "definition": "A force of attraction between two atoms due to them sharing an electron"
-    "memory-definition": "Force of attraction between two atoms that share electron(s)",,
+    "definition": "A force of attraction between two atoms due to them sharing an electron",
+    "memory-definition": "Force of attraction between two atoms that share electron(s)",
     "image": "https://znotes-static.s3.ap-southeast-1.amazonaws.com/cie/igcse/chemistry-0620/6475caa266a1e0599dd960e4f86e40e77da6b1010f46d3e2.png"
   },
   "ionicBond": {
@@ -90,8 +90,8 @@
   "buffer": {
     "term": "Buffers",
     "link": "https://en.wikipedia.org/wiki/Buffer_solution",
-    "definition": "Substances which mitigate changes in pH"
-    "memory-definition": "Substances which mitigate changes in pH",
+    "definition": "Substances which mitigate changes in pH",
+    "memory-definition": "Substances which mitigate changes in pH"
   },
   "acid": {
     "term": "Acids",
@@ -173,8 +173,8 @@
   "highHeatOfVaporization": {
     "term": "High heat of vaporization (water)",
     "link": "https://en.wikipedia.org/wiki/Properties_of_water#Heat_capacity_and_heats_of_vaporization_and_fusion",
-    "definition": "Water requires a lot of energy to break the hydrogen bonds and evaporate"
-    "memory-definition": "Water requires lots of energy to break hydrogen bonds and evaporate ",
+    "definition": "Water requires a lot of energy to break the hydrogen bonds and evaporate",
+    "memory-definition": "Water requires lots of energy to break hydrogen bonds and evaporate"
   },
   "solution": {
     "term": "Solution",
@@ -186,8 +186,8 @@
   "solvent": {
     "term": "Solvent",
     "link": "https://en.wikipedia.org/wiki/Properties_of_water#Water_as_a_solvent",
-    "definition": "A substance that dissolves another substance"
-    "memory-definition": "Substance that dissolves another substance",
+    "definition": "A substance that dissolves another substance",
+    "memory-definition": "Substance that dissolves another substance"
   },
   "hydrophilic": {
     "term": "Hydrophilic",
@@ -213,14 +213,14 @@
   "macromolecule": {
     "term": "Macromolecules",
     "link": "https://en.wikipedia.org/wiki/Macromolecule",
-    "definition": "A large molecule necessary to life’s biological processes"
-    "memory-definition": "Large molecule necessary to life's biological processes",
+    "definition": "A large molecule necessary to life’s biological processes",
+    "memory-definition": "Large molecule necessary to life's biological processes"
   },
   "organicCompound": {
     "term": "Organic compound",
     "link": "https://en.wikipedia.org/wiki/Organic_compound",
-    "definition": "Compound which contains carbon"
-    "memory-definition": "Compound which contains carbon",
+    "definition": "Compound which contains carbon",
+    "memory-definition": "Compound which contains carbon"
   },
   "hydrocarbonChain": {
     "term": "Hydrocarbon chain",
@@ -232,8 +232,8 @@
   "functionalGroup": {
     "term": "Functional groups",
     "link": "https://en.wikipedia.org/wiki/Functional_group",
-    "definition": "A group of atoms with distinctive chemical properties separate to that of the total molecule they are attached to"
-    "memory-definition": "Group of atoms with chemical properties separate to that of the molecule they are bound to",
+    "definition": "A group of atoms with distinctive chemical properties separate to that of the total molecule they are attached to",
+    "memory-definition": "Group of atoms with chemical properties separate to that of the molecule they are bound to"
   },
   "hydroxylGroup": {
     "term": "Hydroxyl group",
@@ -287,14 +287,14 @@
   "monomer": {
     "term": "Monomers",
     "link": "https://en.wikipedia.org/wiki/Monomer",
-    "definition": "A molecule which can combine with others to form large polymers"
-    "memory-definition": "Molecule which can combine with others to form polymers",
+    "definition": "A molecule which can combine with others to form large polymers",
+    "memory-definition": "Molecule which can combine with others to form polymers"
   },
   "polymer": {
     "term": "Polymers",
     "link": "https://en.wikipedia.org/wiki/Polymer",
-    "definition": "A molecule composed of a string of monomers"
-    "memory-definition": "Molecule composed of monomers",
+    "definition": "A molecule composed of a string of monomers",
+    "memory-definition": "Molecule composed of monomers"
   },
   "dehydrationSynthesis": {
     "term": "Dehydration synthesis",
@@ -467,8 +467,8 @@
   "antiparallel": {
     "term": "Antiparallel",
     "link": "https://en.wikipedia.org/wiki/Antiparallel_(biochemistry)",
-    "definition": "Structure of DNA in which two strands of DNA run alongside each other in opposite directions"
-    "memory-definition": "Structure of DNA in which two strands run alongside each other in opposite directions",
+    "definition": "Structure of DNA in which two strands of DNA run alongside each other in opposite directions",
+    "memory-definition": "Structure of DNA in which two strands run alongside each other in opposite directions"
   },
   "rna": {
     "term": "Ribonucleic acid (RNA)",
@@ -494,32 +494,32 @@
   "adenine": {
     "term": "Adenine",
     "link": "https://en.wikipedia.org/wiki/Adenine",
-    "definition": "A nitrogenous purine derivative, bound to thymine in DNA base pairing"
-    "memory-definition": "Nitrogenous purine derivative, bound to thymine",
+    "definition": "A nitrogenous purine derivative, bound to thymine in DNA base pairing",
+    "memory-definition": "Nitrogenous purine derivative, binds to thymine"
   },
   "thymine": {
     "term": "Thymine",
     "link": "https://en.wikipedia.org/wiki/Thymine",
-    "definition": "A nitrogenous pyrimidine derivative, bound to adenine in DNA base pairing"
-    "memory-definition": "Nitrogenous pyrimidine derivative, bound to adenine",
+    "definition": "A nitrogenous pyrimidine derivative, bound to adenine in DNA base pairing",
+    "memory-definition": "Nitrogenous pyrimidine derivative, binds to adenine"
   },
   "guanine": {
     "term": "Guanine",
     "link": "https://en.wikipedia.org/wiki/Guanine",
-    "definition": "A nitrogenous purine derivative, bound to cytosine in DNA base pairing"
-    "memory-definition": "Nitrogenous purine derivative, bound to cytosine",
+    "definition": "A nitrogenous purine derivative, bound to cytosine in DNA base pairing",
+    "memory-definition": "Nitrogenous purine derivative, binds to cytosine"
   },
   "cytosine": {
     "term": "Cytosine",
     "link": "https://en.wikipedia.org/wiki/Cytosine",
-    "definition": "A nitrogenous pyrimidine derivative, bound to guanine in DNA base pairing"
-    "memory-definition": "Nitrogenous pyrimidine derivative, bound to guanine",
+    "definition": "A nitrogenous pyrimidine derivative, bound to guanine in DNA base pairing",
+    "memory-definition": "Nitrogenous pyrimidine derivative, binds to guanine"
   },
   "uracil": {
     "term": "Uracil",
     "link": "https://en.wikipedia.org/wiki/Uracil",
-    "definition": "An RNA specific nitrogenous base which replaces thymine and binds with adenine"
-    "memory-definition": "RNA specific nitrogenous base which replaces thymine, binds with adenine",
+    "definition": "An RNA specific nitrogenous base which replaces thymine and binds with adenine",
+    "memory-definition": "RNA specific nitrogenous base which replaces thymine, binds to adenine"
   },
   "ribose": {
     "term": "Ribose",
