@@ -1293,9 +1293,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1893 CE",
         "date-num": 1893,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Symbolism", "Proto-Expressionism"],
+        "location": "Oslo, Norway",
+        "location-coordinate": [59.913333, 10.738889],
         "artist": ["Edvard Munch", "Munch"]
     },
     "whereWhatWhere": {
@@ -1304,9 +1304,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1897–1898 CE",
         "date-num": [1897, 1898],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Post Impressionism", "Symbolism"],
+        "location": "Tahiti, French Polynesia",
+        "location-coordinate": [17.666667, -149.416667],
         "artist": ["Paul Gauguin", "Gauguin"]
     },
     "carsonPirieScottBuilding": {
@@ -1315,7 +1315,7 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1899–1903 CE",
         "date-num": [1899, 1903],
         "date-range": 50,
-        "style": [],
+        "style": ["Modernism", "Chicago School"],
         "location": "Chicago, Illinois, U.S.",
         "location-coordinate": [41.881711, -87.62755],
         "artist": ["Louis Sullivan (architect)", "Louis Sullivan", "Sullivan"]
@@ -1326,20 +1326,20 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1902–1904 CE",
         "date-num": [1902, 1904],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Post-Impressionism"],
+        "location": "Southern France",
+        "location-coordinate": [43.538333, 5.446111],
         "artist": ["Paul Cézanne", "Cézanne"]
     },
     "demoisellesDAvignon": {
-        "title": ["Les Demoiselles d’Avignon", "Demoiselles d’Avignon", "Les Demoiselles Avignon", "Demoiselles Avignon"],
+        "title": ["Les Demoiselles d’Avignon", "Demoiselles d’Avignon", "Les Demoiselles Avignon", "Demoiselles Avignon", "The Ladies of Avignon", "Ladies of Avignon"],
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/960px-Les_Demoiselles_d%27Avignon.jpg",
         "date": "1907 CE",
         "date-num": 1907,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Cubism", "Proto-Cubism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Pablo Picasso", "Picasso"]
     },
     "steerage": {
@@ -1348,9 +1348,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1907 CE",
         "date-num": 1907,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Modernism"],
+        "location": "Plymouth, England (likely)",
+        "location-coordinate": [50.371389, -4.142222],
         "artist": ["Alfred Stieglitz", "Stieglitz"]
     },
     "kiss": {
@@ -1359,9 +1359,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1907–1908 CE",
         "date-num": [1907, 1908],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Symbolism"],
+        "location": "Vienna, Austria",
+        "location-coordinate": [48.2083, 16.3725],
         "artist": ["Gustav Klimt", "Klimt"]
     },
     "kiss2": {
@@ -1370,9 +1370,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1907–1908 CE (original)",
         "date-num": [1907,1908],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Avant-garde"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Constantin Brancusi", "Brancusi"]
     },
     "portuguese": {
@@ -1381,9 +1381,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1911 CE",
         "date-num": 1911,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Cubism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Georges Braque", "Braque"]
     },
     "goldfish": {
@@ -1392,9 +1392,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1912 CE",
         "date-num": 1912,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Fauvism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8239, 2.27],
         "artist": ["Henri Matisse", "Matisse"]
     },
     "improvisation28": {
@@ -1403,9 +1403,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1912 CE",
         "date-num": 1912,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Expressionism"],
+        "location": "Munich, Germany",
+        "location-coordinate": [48.1375, 11.575],
         "artist": ["Vassily Kandinsky", "Kandisky"]
     },
     "selfPortraitAsSoldier": {
@@ -1414,9 +1414,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1915 CE",
         "date-num": 1915,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Expressionism"],
+        "location": "Berlin, Germany",
+        "location-coordinate": [52.52, 13.405],
         "artist": ["Ernst Ludwig Kirchner", "Ernst Kirchner", "Kirchner"]
     },
     "memorialSheetForKarlLiebknecht": {
@@ -1425,9 +1425,9 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1919–1920 CE",
         "date-num": [1919, 1920],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Expressionism"],
+        "location": "Berlin, Germany",
+        "location-coordinate": [52.52, 13.405],
         "artist": ["Käthe Kollwitz", "Kollwitz"]
     },
     "villaSavoye": {
@@ -1435,8 +1435,8 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "image": ["https://upload.wikimedia.org/wikipedia/en/3/3c/VillaSavoye.jpg", "https://smarthistory.org/wp-content/uploads/2022/01/2650386807_7b5852f64c_o.jpg"],
         "date": "1929 CE",
         "date-num": 1929,
-        "date-range": ,
-        "style": [],
+        "date-range": 50,
+        "style": ["International Style"],
         "location": "Poissy-sur-Seine, France",
         "location-coordinate": [48.924444, 2.028333],
         "artist": ["Le Corbusier (architect)", "Le Corbusier", "Corbusier"]
@@ -1447,20 +1447,20 @@ Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Me
         "date": "1930 CE",
         "date-num": 1930,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["De Stijl", "Neo-Plasticism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Piet Mondrian", "Mondrian"]
     },
-    "": {
+    "firstFiveYearPlan": {
         "title": ["Illustration from The Results of the First Five-Year Plan", "Illustration from Results of the First Five-Year Plan", "Illustration from The Results of First Five-Year Plan", "Illustration from Results of First Five-Year Plan", "The Results of the First Five-Year Plan", "Results of the First Five-Year Plan", "The Results of First Five-Year Plan", "Results of First Five-Year Plan"],
         "image": "https://smarthistory.org/wp-content/uploads/2022/01/fiveyearplan-e1641571424106.jpg",
         "date": "1932 CE",
         "date-num": 1932,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Russian Constructivism", "Russian avante-garde"],
+        "location": "Moscow, Russia",
+        "location-coordinate": [55.755833, 37.617778],
         "artist": ["Varvara Stepanova", "Stepanova"]
     },
     "object": {
