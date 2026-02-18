@@ -1,0 +1,10 @@
+Finish art history vocab
+Upload missing art history images
+Add attribution for all used images (art his + bio)
+Download all used images and host locally
+Add dynamic image size loading
+Add setting in vocab-data to not randomize provided values (memory game)
+Create geoguesser game
+Add art history vocab to memory game
+Add art history vocab to unit pages
+ - Need to add setting to select first element of list in vocab generator
