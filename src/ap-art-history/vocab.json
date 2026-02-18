@@ -1033,9 +1033,9 @@
         "date": "c. 1750 CE",
         "date-num": 1750,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Baroque"],
+        "location": "Mexico City, Mexico",
+        "location-coordinate": [19.433333, -99.133333],
         "artist": ["Miguel Cabrera", "Cabrera"]
     },
     "philosopherGivingALecture": {
@@ -1044,9 +1044,9 @@
         "date": "c. 1763–1765 CE",
         "date-num": [1763, 1765],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Enlightenment"],
+        "location": "Derby, England",
+        "location-coordinate": [52.9247, -1.478],
         "artist": ["Joseph Wright of Derby", "Joseph Wright", "Wright of Derby"]
     },
     "swing": {
@@ -1055,9 +1055,9 @@
         "date": "1767 CE",
         "date-num": 1767,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Rococo"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Jean-Honoré Fragonard", "Fragonard", "Jean Fragonard"]
     },
     "monticello": {
@@ -1066,7 +1066,7 @@
         "date": "1768–1809 CE",
         "date-num": [1768, 1809],
         "date-range": 50,
-        "style": [],
+        "style": ["Neo-Classical", "Neoclassicism"],
         "location": "Virginia, U.S.",
         "location-coordinate": [38.010306, -78.452333],
         "artist": ["Thomas Jefferson (architect)", "Thomas Jefferson", "Jefferson"]
@@ -1077,9 +1077,9 @@
         "date": "1784 CE",
         "date-num": 1784,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Neo-Classical", "Neoclassicism"],
+        "location": "Rome, Italy",
+        "location-coordinate": [41.893333, 12.482778],
         "artist": ["Jacques-Louis David", "Jacques David", "David"]
     },
     "georgeWashington": {
@@ -1088,9 +1088,9 @@
         "date": "1788–1792 CE",
         "date-num": [1788, 1792],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Neo-Classical", "Neoclassicism"],
+        "location": "Virginia State Capitol in Richmond, Virginia, U.S.",
+        "location-coordinate": [37.538675, -77.433333],
         "artist": ["Jean-Antoine Houdon", "Jean Houdon", "Houdon"]
     },
     "selfPortrait": {
@@ -1099,9 +1099,9 @@
         "date": "1790 CE",
         "date-num": 1790,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Rococo"],
+        "location": "Rome, Italy",
+        "location-coordinate": [41.893333, 12.482778],
         "artist": ["Elisabeth Louise Vigée Le Brun", "Elisabeth Louise Le Brun", "Elisabeth Vigée Le Brun", "Elisabeth Le Brun", "Le Brun"]
     },
     "yNoHaiRemedio": {
@@ -1110,9 +1110,9 @@
         "date": "1810–1823 CE (published 1863)",
         "date-num": [1810, 1823],
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Romantic", "Romanticism"],
+        "location": "Madrid, Spain",
+        "location-coordinate": [40.416667, -3.7],
         "artist": ["Francisco de Goya", "de Goya", "Goya"]
     },
     "grandeOdalisque": {
@@ -1121,9 +1121,9 @@
         "date": "1814 CE",
         "date-num": 1814,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Romantic", "Romanticism"],
+        "location": "Rome, Italy",
+        "location-coordinate": [41.893333, 12.482778],
         "artist": ["Jean-Auguste-Dominique Ingres", "Jean-Auguste Ingres", "Jean-Dominique Ingres", "Jean Ingres", "Ingres"]
     },
     "libertyLeadingThePeople": {
@@ -1132,20 +1132,20 @@
         "date": "1830 CE",
         "date-num": 1830,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Romantic", "Romanticism"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
         "artist": ["Eugène Delacroix", "Delacroix"]
     },
     "oxbow": {
-        "title": ["The Oxbow (View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm)", "The Oxbow", "Oxbow"],
+        "title": ["The Oxbow", "Oxbow"],
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Cole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg/960px-Cole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg",
         "date": "1836 CE",
         "date-num": 1836,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Romantic", "Romanticism", "Hudson River School"],
+        "location": "Mount Holyoke, Northampton, Massachusetts, U.S.",
+        "location-coordinate": [42.300833, -72.586944],
         "artist": ["Thomas Cole", "Cole"]
     },
     "stillLifeInStudio": {
@@ -1154,21 +1154,20 @@
         "date": "1837 CE",
         "date-num": 1837,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
-        "artist": ["Louis-Jacques-Mandé Daguerre", "Louis-Jacques Daguerre", "Louis-Mandé Daguerre", "Louis Daguerre", "Louis Daguerre"]
+        "style": ["Daguerrotype"],
+        "location": "Paris, France",
+        "location-coordinate": [48.8567, 2.3522],
+        "artist": ["Louis-Jacques-Mandé Daguerre", "Louis-Jacques Daguerre", "Louis-Mandé Daguerre", "Louis Daguerre", "Daguerre"]
     },
     "slaveShip": {
-        "title": ["Slave Ship (Slavers Throwing Overboard the
-Dead and Dying, Typhoon Coming On)", "Slave Ship"],
+        "title": "Slave Ship",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Slave-ship.jpg/960px-Slave-ship.jpg",
         "date": "1840 CE",
         "date-num": 1840,
         "date-range": 50,
-        "style": [],
-        "location": "",
-        "location-coordinate": [],
+        "style": ["Romantic", "Romanticism"],
+        "location": "London, England",
+        "location-coordinate": [51.507222, -0.1275],
         "artist": ["Joseph Mallord William Turner", "Joseph Mallord Turner", "Joseph William Turner", "Joseph Turner", "Turner", "J. M. W. Turner", "J.M.W. Turner"]
     },
     "palaceOfWestminster": {
@@ -1243,7 +1242,7 @@ Dead and Dying, Typhoon Coming On)", "Slave Ship"],
         "date": "1882 CE",
         "date-num": 1882,
         "date-range": 50,
-        "style": ["Romanticism"],
+        "style": ["Romantic", "Romanticism"],
         "location": "Mexico City, Mexico",
         "location-coordinate": [19.485633, -99.116796],
         "artist": ["Jose María Velasco", "Jose Velasco", "Velasco"]
@@ -2388,5 +2387,303 @@ Dead and Dying, Typhoon Coming On)", "Slave Ship"],
       "location-coordinate": [-18, 179]
     }
   ],
-  []
+  [
+    "gates": {
+        "title": ["The Gates", "Gates°"],
+        "image": "",
+        "date": "1979–2005 CE",
+        "date-num": [1979, 2005],
+        "date-range": 10,
+        "style": [],
+        "location": "New York City, U.S.",
+        "location-coordinate": [],
+        "artist": ["Christo and Jeanne-Claude", "Christo Jeanne-Claude", "Christo Claude°", "Jeanne Claude°", "Christo and Jeanne°", "Claude"]
+    },
+    "vietnamVeteransMemorial": {
+        "title": ["Vietnam Veterans Memorial", "Vietnam Memorial"],
+        "image": "",
+        "date": "1982 CE",
+        "date-num": 1982,
+        "date-range": 10,
+        "style": [],
+        "location": "Washington, D.C., U.S.",
+        "location-coordinate": [],
+        "artist": ["Maya Lin", "Lin"]
+    },
+    "hornPlayers": {
+        "title": "Horn Players",
+        "image": "",
+        "date": "1983 CE",
+        "date-num": 1983,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Jean-Michel Basquiat", "Jean Basquiat", "Basquiat"]
+    },
+    "summerTrees": {
+        "title": "Summer Trees",
+        "image": "",
+        "date": "1983 CE",
+        "date-num": 1983,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Song Su-nam", "Su-nam"]
+    },
+    "androgyneIII": {
+        "title": "Androgyne III",
+        "image": "",
+        "date": "1985 CE",
+        "date-num": 1985,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Magdalena Abakanowicz", "Abakanowicz"]
+    },
+    "bookFromTheSky": {
+        "title": ["A Book from the Sky", "Book from the Sky"],
+        "image": "",
+        "date": "1987–1991 CE",
+        "date-num": [1987, 1991],
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Xu Bing", "Bing"]
+    },
+    "pinkPanther": {
+        "title": "Pink Panther",
+        "image": "",
+        "date": "1988 CE",
+        "date-num": 1988,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Jeff Koons", "Koons"]
+    },
+    "untitled228": {
+        "title": ["Untitled #228", "Untitled 228", "Untitled number 228", "History Portraits series°"],
+        "image": "",
+        "date": "1990 CE",
+        "date-num": 1990,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Cindy Sherman", "Sherman"]
+    },
+    "dancingAtTheLouvre": {
+        "title": ["Dancing at the Louvre", "The French Collection, Part I"],
+        "image": "",
+        "date": "1991 CE",
+        "date-num": 1991,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Faith Ringgold", "Ringgold"]
+    },
+    "trade": {
+        "title": ["Trade", "Gifts for Trading Land with White People"],
+        "image": "",
+        "date": "1992 CE",
+        "date-num": 1992,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Jaune Quick-to-See Smith", "Juane Smith", "Quick-to-See", "Smith"]
+    },
+    "earthsCreation": {
+        "title": "Earth’s Creation",
+        "image": "",
+        "date": "1994 CE",
+        "date-num": 1994,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Emily Kame Kngwarreye", "Emily Kngwarreye", "Kngwarreye"]
+    },
+    "rebelliousSilence": {
+        "title": ["Rebellious Silence", "Women of Allah Series°", "Women of Allah°"],
+        "image": "",
+        "date": "1994 CE",
+        "date-num": 1994,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Shirin Neshat (artist); Cynthia Preston (photographer)", "Shirin Neshat Cynthia Preston", "Shirin Neshat and Cynthia Preston", "Shirin Neshat", "Neshat", "Cynthia Preston", "Preston"]
+    },
+    "enLaBarberiaNoSeLLora": {
+        "title": ["En la Barberia no se Llora", "No Crying Allowed in the Barbershop", "No se llora en la Barberia", "No se llora°", "En la Barberia°"],
+        "image": "",
+        "date": "1994 CE",
+        "date-num": 1994,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Pepon Osorio", "Osorio"]
+    },
+    "cornedBeef2000": {
+        "title": ["Pisupo Lua Afe (Corned Beef 2000)", "Pisupo Lua Afe", "Corned Beef 2000"],
+        "image": "",
+        "date": "1994 CE",
+        "date-num": 1994,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Michel Tuffery", "Tuffery"]
+    },
+    "electronicSuperhighway": {
+        "title": "Electronic Superhighway",
+        "image": "",
+        "date": "1995 CE",
+        "date-num": 1995,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Nam June Paik", "Nam Paik", "June Paik", "Paik"]
+    },
+    "crossing": {
+        "title": ["The Crossing", "Crossing"],
+        "image": "",
+        "date": "1996 CE",
+        "date-num": 1996,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Bill Viola", "Viola"]
+    },
+    "guggenheimMuseumBilbao": {
+        "title": ["Guggenheim Museum Bilbao", "Guggenheim Bilbao"],
+        "image": "",
+        "date": "1997 CE",
+        "date-num": 1997,
+        "date-range": 10,
+        "style": [],
+        "location": "Spain",
+        "location-coordinate": [],
+        "artist": ["Frank Gehry (architect)", "Frank Gehry", "Gehry"]
+    },
+    "pureLand": {
+        "title": "Pure Land",
+        "image": "",
+        "date": "1998 CE",
+        "date-num": 1998,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Mariko Mori", "Mori"]
+    },
+    "lyingWithTheWolf": {
+        "title": ["Lying with the Wolf", "Lying with Wolf"],
+        "image": "",
+        "date": "2001 CE",
+        "date-num": 2001,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Kiki Smith", "Smith"]
+    },
+    "darkytownRebellion": {
+        "title": "Darkytown Rebellion",
+        "image": "",
+        "date": "2001 CE",
+        "date-num": 2001,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Kara Walker", "Walker"]
+    },
+    "swingAfterFragonard": {
+        "title": ["The Swing (after Fragonard)", "The Swing after Fragonard", "The Swing°", "Swing°"],
+        "image": "",
+        "date": "2001 CE",
+        "date-num": 2001,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Yinka Shonibare", "Shonibare"]
+    },
+    "oldMansCloth": {
+        "title": "Old Man’s Cloth",
+        "image": "",
+        "date": "2003 CE",
+        "date-num": 2003,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["El Anatsui"]
+    },
+    "stadiuII": {
+        "title": ["Stadia II", "Stadia°"],
+        "image": "",
+        "date": "2004 CE",
+        "date-num": 2004,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Julie Mehretu"]
+    },
+    "preyingMantra": {
+        "title": "Preying Mantra",
+        "image": "",
+        "date": "2006 CE",
+        "date-num": 2006,
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Wangechi Mutu", "Mutu"]
+    },
+    "shibboleth": {
+        "title": "Shibboleth",
+        "image": "",
+        "date": "2007–2008 CE",
+        "date-num": [2007, 2008],
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Doris Salcedo", "Salcedo"]
+    },
+    "maxxi": {
+        "title": ["MAXXI National Museum of XXI Century Arts", "MAXXI National Museum of Century Arts", "MAXXI Museum of Century Arts", "MAXXI Museum of XXI Century Arts", "Museum of XXI Century Arts°", "National Museum of XXI Century Arts°", "MAXXI"],
+        "image": "",
+        "date": "2009 CE",
+        "date-num": 2009,
+        "date-range": 10,
+        "style": [],
+        "location": "Rome, Italy",
+        "location-coordinate": [],
+        "artist": ["Zaha Hadid (architect)", "Zaha Hadid", "Hadid"]
+    },
+    "sunflowerSeeds": {
+        "title": ["Kui Hua Zi (Sunflower Seeds)", "Kui Hua Zi", "Sunflower Seeds"],
+        "image": "",
+        "date": "2010–2011 CE",
+        "date-num": [2010, 2011],
+        "date-range": 10,
+        "style": [],
+        "location": "",
+        "location-coordinate": [],
+        "artist": ["Ai Weiwei", "Weiwei"]
+    }
+  ]
 }
