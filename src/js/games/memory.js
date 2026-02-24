@@ -23,11 +23,6 @@ let initialPageLoad = true;
 const paramsString = window.location.search;
 const searchParams = new URLSearchParams(paramsString);
 
-if (searchParams.has("course")) {
-    courseSelect.value = searchParams.get("course")
-    courseSelect.dispatchEvent(new Event('change'));
-}
-
 courseSelect.addEventListener("change", async () => {
     gameBlock.inert = true;
     gameBlock.classList.remove("active");
@@ -58,6 +53,11 @@ courseSelect.addEventListener("change", async () => {
     }
     initialPageLoad = false;
 })
+
+if (searchParams.has("course")) {
+    courseSelect.value = searchParams.get("course")
+    courseSelect.dispatchEvent(new Event('change'));
+}
 
 function loadOptions() {
     for (const filter of vocabData.filters) {
@@ -307,20 +307,24 @@ function fillBoard() {
     const cardText = [];
     const data = vocabData.games.memory;
     const hideShowArray = []
+    const identifier = options.identifier[0]
+    const info = options.info[0]
+    const randomizeIdentifier = data.randomize.includes(identifier)
+    const randomizeInfo = data.randomize.includes(info)
 
     for (const term of usedTerms) {
-        let identifier = vocab[term]["memory-"+options.identifier[0]] || vocab[term][options.identifier[0]]
-        identifier = pickString(identifier);
-        if (data.termImage.includes(options.identifier[0])) identifier = imageZoom(identifier);
-        cardText.push(identifier)
+        let identifierHTML = vocab[term]["memory-"+identifier] || vocab[term][identifier]
+        identifierHTML = pickString(identifierHTML, randomizeIdentifier);
+        if (data.termImage.includes(identifier)) identifierHTML = imageZoom(identifierHTML);
+        cardText.push(identifierHTML)
         
-        let info = vocab[term]["memory-"+options.info[0]] || vocab[term][options.info[0]]
-        info = pickString(info)
-        if (data.image.includes(options.info[0])) info = imageZoom(info);
-        cardText.push(info)
+        let infoHTML = vocab[term]["memory-"+info] || vocab[term][info]
+        infoHTML = pickString(infoHTML, randomizeInfo)
+        if (data.image.includes(info)) infoHTML = imageZoom(infoHTML);
+        cardText.push(infoHTML)
 
-        tempElement.innerHTML = identifier;
-        tempElement2.innerHTML = info;
+        tempElement.innerHTML = identifierHTML;
+        tempElement2.innerHTML = infoHTML;
         cardPairs.push([tempElement.innerHTML, tempElement2.innerHTML])
         hideShowArray.push("hide","show")
     }
@@ -511,9 +515,10 @@ async function copyToClipboard(text) {
   await navigator.clipboard.writeText(text)
 }
 
-function pickString(input) {
+function pickString(input, randomize = true) {
     if (typeof input === "string") return input;
-    else return input[Math.floor(Math.random()*input.length)];
+    if (randomize) return input[Math.floor(Math.random()*input.length)];
+    return input[0]
 }
 
 function randomize(list) {

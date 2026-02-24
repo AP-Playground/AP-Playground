@@ -1,22 +1,65 @@
 {
-    "filters": {
-        "key": "category",
-        "displayKey": "Category",
-        "values": ["",""],
-        "displayValues": ["",""],
-        "all": true,
-        "multiselect": true
+    "filters": [
+        {
+            "key": "unit",
+            "displayKey": "Units",
+            "all": true,
+            "multiselect": true
+        }
+    ],
+    "keys": {
+        "title": "Title",
+        "image": "Image",
+        "date": "Date",
+        "artist": "Artist",
+        "style": "Style/movement",
+        "location": "Site of production (approx.)"
+    },
+    "games": {
+        "memory": {
+            "term": ["title"],
+            "termImage": ["image"],
+            "text": ["artist", "date", "style", "location"],
+            "image": ["image"],
+            "randomize": ["image", "style"]
+        }
+    },
+    "flashcards": {
+        "term": "title",
+        "text": ["Artist: ${artist}", "Date: ${date}", "Style: ${style}", "Location: ${location}"],
+        "image": "image",
+        "link": "link"
     },
     "units": {
-        "unit-1": [],
-        "unit-2": [],
-        "unit-3": [],
-        "unit-4": [],
-        "unit-5": [],
-        "unit-6": [],
-        "unit-7": [],
-        "unit-8": [],
-        "unit-9": [],
-        "unit-10": []
+        "unit-1": [
+            "apollo11Stones", "greatHallofBulls", "camelidSacrum", "runningHornedWoman", "beakerWithIbexMotifs", "anthropomorphicStele", "jadeCong", "stonehenge", "ambumStone", "tlatilcoFemaleFigure", "terraCottaFragment"
+        ],
+        "unit-2": [
+            "whiteTempleAndZiggurat", "paletteOfNarmer", "votiveFigures", "seatedScribe", "standardOfUr", "greatPyramids", "kingMenkauraAndQueen", "codeOfHammurabi", "templeOfAmunRe", "mortuaryTempleOfHatshepsut", "akhenatenNefertitiAndThreeDaughters", "innermostCoffin", "lastJudgementOfHunefer", "lamassu", "athenianAgora", "anavysosKouros", "peplosKore", "sarcophagusOfTheSpouses", "audienceHall", "templeOfMinerva", "tombOfTriclinium", "niobidesKrater", "doryphoros", "acropolis", "graveSteleOfHegeso", "wingedVictory", "greatAltar", "houseOfVettii", "alexanderMosaic", "seatedBoxer", "headOfRomanPatrician", "augustusOfPrimaPorta", "colosseum", "forumOfTrajan", "pantheon", "ludovisiBattleSarcophagus"
+        ],
+        "unit-3": [
+            "catacombOfPriscilla", "santaSabina", "viennaGenesis", "sanVitale", "hagiaSophia", "loopedFibulae", "virginAndChild", "lindisfarneGospels", "greatMosqueOfCordoba", "pyxisOfAlMughira", "churchOfSainteFoy", "bayeuxTapestry", "chartresCathedral", "biblesMoralisees", "rottgenPieta", "arenaChapel", "goldenHaggadah", "alhambra", "annunciationTryptich", "pazziChapel", "arnolfiniPortrait", "david", "palazzoRucellai", "madonnaAndChild", "birthOfVenus", "lastSupper", "adamAndEve", "sistineChapel", "schoolOfAthens", "isenheimAltarpiece", "entombmentOfChrist", "allegoryOfLawAndGrace", "venusOfUrbino", "frontispeiceOfCodexMendoza", "ilGesu", "huntersInTheSnow", "mosqueOfSelim", "callingOfSaintMatthew", "mediciCycle", "selfPortraitWithSaskia", "sanCarloAlleQuattroFontane", "ecstasyOfSaintTeresa", "angelWithArquebus", "lasMeninas", "womanHoldingBalance", "palaceAtVersailles", "screenWithSiegeAndHuntingScene", "virginOfGuadalupe", "fruitAndInsects", "spaniardAndIndianProduceMestizo", "teteATete"
+        ],
+        "unit-4": [
+            "portraitOfSorJuanaInes", "philosopherGivingALecture", "swing", "monticello", "oathOfTheHoratii", "georgeWashington", "selfPortrait", "yNoHaiRemedio", "grandeOdalisque", "libertyLeadingThePeople", "oxbow", "stillLifeInStudio", "slaveShip", "palaceOfWestminster", "stoneBreakers", "nadarRaisingPhotography", "olympia", "saintLazareStation", "horseInMotion", "valleyOfMexico", "burghersOfCalais", "starryNight", "coiffure", "scream", "whereWhatWhere", "carsonPirieScottBuilding", "montSainteVictoire", "demoisellesDAvignon", "steerage", "kiss", "kiss2", "portuguese", "goldfish", "improvisation28", "selfPortraitAsSoldier", "memorialSheetForKarlLiebknecht", "villaSavoye", "compositionWithRedBlueYellow", "firstFiveYearPlan", "object", "fallingwater", "twoFridas", "migrationOfTheNegro", "jungle", "dreamOfSundayAfternoon", "fountain", "womanI", "seagramBuilding", "marilynDiptych", "narcissusGarden", "bay", "lipstick", "spiralJetty", "houseInNewCastleCounty"
+        ],
+        "unit-5": [
+            "chavinDeHuantar", "mesaVerde", "yaxchilan", "greatSerpentMound", "temploMayor", "coyolxauhquiStone", "calendarStone", "olmecMask", "featherHeaddress", "cusco", "maizeCobs", "machuPicchu", "allToqapuTunic", "bandolierBag", "transformationMask", "paintedElkHide", "blackOnBlackVessel"
+        ],
+        "unit-6": [
+            "greatZimbabwe", "mosqueOfDjenne", "wallPlaque", "goldenStool", "portraitFigure", "powerFigure", "femaleMask", "portraitMask", "bunduMask", "shrineFigure", "memoryBoard", "elephantMask", "reliquaryFigure", "verandaPost"
+        ],
+        "unit-7": [
+            "petra", "buddhaOfBamiyan", "kaaba", "jowoRinpoche", "domeOfTheRock", "greatMosqueOfIsfahan", "folioFromAQuran", "baptistere", "bahramGuarFightsTheKarg", "courtOfGayumars", "arbadilCarpet"
+        ],
+        "unit-8": [
+            "greatStupa", "terraCottaWarriors", "funeralBannerOfLadyDai", "longmenCaves", "goldAndJadeCrown", "todaiJi", "boroduburTemple", "angkorWat", "lakshmanaTemple", "travelersAmongMountainsAndStreams", "shivaAsLordOfDance", "nightAttackOnSanjoPalace", "davidVases", "portraitOfSinSukju", "forbiddenCity", "ryoanJi", "jahangirPreferringSufiShaikhToKings", "tajMahal", "whiteAndRedPlumBlossoms", "greatWave", "chairmanMaoEnRouteToAnyuan"
+        ],
+        "unit-9": [
+            "nanMadol", "moaiOnPlatform", "ahuUla", "staffGod", "femaleDeity", "bukMask", "hiapo", "tamatiWakaNene", "navigationChart", "malaganDisplay", "presentationToQueenElizabeth"
+        ],
+        "unit-10": [
+            "gates", "vietnamVeteransMemorial", "hornPlayers", "summerTrees", "androgyneIII", "bookFromTheSky", "pinkPanther", "untitled228", "dancingAtTheLouvre", "trade", "earthsCreation", "rebelliousSilence", "enLaBarberiaNoSeLLora", "cornedBeef2000", "electronicSuperhighway", "crossing", "guggenheimMuseumBilbao", "pureLand", "lyingWithTheWolf", "darkytownRebellion", "swingAfterFragonard", "oldMansCloth", "stadiaII", "preyingMantra", "shibboleth", "maxxi", "sunflowerSeeds"
+        ]
     }
 }

@@ -2,12 +2,8 @@
   "summary": "The art and architecture created by Medieval European artists and architects was heavily influenced by purpose and audience. The shared artistic forms, functions, and techniques apparent in these works were often influenced by both earlier and contemporary cultures. This is evident in places of worship, for example the Great Mosque’s influence on the Alhambra or Chartres Cathedral’s influence on cathedral architecture that followed.<br><br>The Renaissance and Baroque traditions built upon those established in the Medieval period, and expanded upon them to include new technological and cultural developments. The cultural shift that took place during the Renaissance in Europe led artists to explore secular subjects in addition to religious works, such as scenes from everyday life like Bruegel’s <i>Hunters in the Snow</i> or Ruysch’s <i>Fruit and Insects</i>.",
   "games": [
     {
-      "title": "Vocab Review",
-      "link": "vocab-review"
-    },
-    {
-      "title": "Matching",
-      "link": "matching"
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-art-history&filter-unit=unit-3"
     }
   ],
   "links": [

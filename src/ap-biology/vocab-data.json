@@ -17,7 +17,8 @@
             "term": ["term"],
             "termImage": [],
             "text": ["definition"],
-            "image": ["image"]
+            "image": ["image"],
+            "randomize": ["definition", "image", "term"]
         }
     },
     "flashcards": {

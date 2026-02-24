@@ -7,7 +7,7 @@ async function init() {
     loadJSON(`/${courseSlug}/vocab.json`),
     loadJSON(`/${courseSlug}/vocab-data.json`)
   ]);
-  vocab = vocab.map(i => courseVocab[i])
+  vocab = vocab.map(i => courseVocab[i]).filter(i => !(i.hasOwnProperty("flashcard-disable") && i["flashcard-disable"]))
 }
 async function loadJSON(url) {
     return await fetch(url)
@@ -22,11 +22,14 @@ const textFormat = vocabData.flashcards.text;
 const imageKey = vocabData.flashcards.image;
 
 for (item of vocab) {
-  let cardText = `<h2>${item[termKey]} <a href="${item[linkKey]}" class="mask external-open" aria-label="Learn more about ${item[termKey]}" target="_blank"><div></div></a></h2>` + `<p>${fillTemplate(textFormat, item)}</p>`
+  let cardText = `<h2>${pickFirst(item[termKey])}`
+    if (item.hasOwnProperty(linkKey)) cardText += ` <a href="${pickFirst(item[linkKey])}" class="mask external-open" aria-label="Learn more about ${item[termKey]}" target="_blank"><div></div></a>`
+  cardText += "</h2>"
+  cardText += `<p>${fillTemplate(textFormat, item)}</p>`
   cardText = `<div class="vocab-content-container">` + cardText + "</div>"
   let imageText = "";
   if (imageKey in item) {
-    imageText = `<img class="vocab-img" src="${item[imageKey]}">`
+    imageText = `<img class="vocab-img" src="${pickFirst(item[imageKey])}">`
     imageText += `<img class="magnify" src="/icons/magnify.svg">`;
     imageText =  `<div class="vocab-img-container" tabindex="0">${imageText}</div>`
   }
@@ -36,9 +39,26 @@ for (item of vocab) {
 }
 
 function fillTemplate(template, data) {
-  return template.replace(/\$\{([^}]+)\}/g, (match, key) => {
-    return key in data ? data[key] : match;
-  });
+  if (typeof template === "string") {
+    return template.replace(/\$\{([^}]+)\}/g, (match, key) => {
+      return key in data ? pickFirst(data[key]) : match;
+    });
+  }
+  const output = [];
+  for (const segment of template) {
+    let success = true;
+    let temp = segment.replace(/\$\{([^}]+)\}/g, (match, key) => {
+      return key in data ? pickFirst(data[key]) : success = false;
+    });
+    if (!success) continue;
+    output.push(temp)
+  }
+  return output.join("<br>")
+}
+
+function pickFirst(item) {
+  if (typeof item === "string") return item;
+  return item[0]
 }
 
 
@@ -88,22 +108,21 @@ flashcardPrev.disabled = true;
 if (vocab.length <= 1) flashcardNext.disabled = true;
 
 function loadCard(newVocab, animate) {
-  const term = newVocab[termKey]
-  const link = newVocab[linkKey]
+  const term = pickFirst(newVocab[termKey])
   const definition = fillTemplate(textFormat, newVocab)
-  const image = newVocab[imageKey]
+  const image = pickFirst(newVocab[imageKey])
   let anim;
   const curOpacity = flashcardContainer.style.opacity || 1;
-  const duration = 200 * animate;
+  const duration = 100 * animate;
   if (flashcardPrevIdx >= flashcardCurrentIdx) {
     anim = flashcardContainer.animate([
       {transform: "", opacity: curOpacity},
-      {transform: "rotateY(-5deg) translateX(7px) translateZ(-20px)", opacity: 0}
+      {transform: "rotateY(-5deg) translateX(7px) translateZ(-20px)", opacity: 0.5}
     ], { duration: duration, easing: easing })
   } else {
     anim = flashcardContainer.animate([
       {transform: "", opacity: curOpacity},
-      {transform: "rotateY(5deg) translateX(-7px) translateZ(-20px)", opacity: 0}
+      {transform: "rotateY(5deg) translateX(-7px) translateZ(-20px)", opacity: 0.5}
     ], { duration: duration, easing: easing })
   }
   flashcardContainer.style.opacity = ""
@@ -113,8 +132,8 @@ function loadCard(newVocab, animate) {
     flashcardContainer.style.translate = ""
     flashcardProgress.textContent = (flashcardCurrentIdx + 1) + " / " + vocab.length;
 
-    flashcardTitle.textContent = term;
-    flashcardText.textContent = definition;
+    flashcardTitle.innerHTML = term;
+    flashcardText.innerHTML = definition;
     if (image) flashcardImage.src = image;
     flashcardImage.hidden = !image;
 
