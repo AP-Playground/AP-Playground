@@ -8,7 +8,8 @@
     "date-range": 1000,
     "style": ["Prehistoric","Paleolithic"],
     "location": "Namibia",
-    "location-coordinate": [-27.75, 17.1]
+    "location-coordinate": [-27.75, 17.1],
+    "medium": "Charcoal on stone"
   },
   "greatHallofBulls": {
     "title": ["Great Hall of the Bulls","Great Hall of Bulls"],
@@ -19,7 +20,8 @@
     "date-range": 1000,
     "style": ["Prehistoric","Paleolithic"],
     "location": "Lascaux, France",
-    "location-coordinate": [45.053611, 1.17]
+    "location-coordinate": [45.053611, 1.17],
+    "medium": "Rock painting"
   },
   "camelidSacrum": {
     "title": ["Camelid sacrum in the shape of a canine","Camelid sacrum"],
@@ -30,7 +32,8 @@
     "date-range": 1000,
     "style": ["Prehistoric","Paleolithic","Neolithic"],
     "location": "Tequixquiac, central Mexico",
-    "location-coordinate": [19.909444, -99.144722]
+    "location-coordinate": [19.909444, -99.144722],
+    "medium": "Bone"
   },
   "runningHornedWoman": {
     "title": "Running horned woman",
@@ -41,7 +44,8 @@
     "date-range": 1000,
     "style": ["Prehistoric","Neolithic"],
     "location": "Tassili n’Ajjer, Algeria",
-    "location-coordinate": [25.5, 9]
+    "location-coordinate": [25.5, 9],
+    "medium": "Pigment on rock"
   },
   "beakerWithIbexMotifs": {
     "title": "Beaker with ibex motifs",
@@ -52,7 +56,8 @@
     "date-range": 1000,
     "style": ["Prehistoric","Neolithic"],
     "location": "Susa, Iran",
-    "location-coordinate": [32.190556, 48.257778]
+    "location-coordinate": [32.190556, 48.257778],
+    "medium": "Painted terra cotta"
   },
   "anthropomorphicStele": {
     "title": "Anthropomorphic stele",
@@ -63,7 +68,8 @@
     "date-range": 1000,
     "style": ["Prehistoric","Neolithic"],
     "location": "Arabian Peninsula",
-    "location-coordinate": [27.516667, 41.683333]
+    "location-coordinate": [27.516667, 41.683333],
+    "medium": "Sandstone"
   },
   "jadeCong": {
     "title": "Jade cong",
@@ -74,7 +80,8 @@
     "date-range": 1000,
     "style": ["Prehistoric","Neolithic"],
     "location": "Liangzhu, China",
-    "location-coordinate": [30.15, 119.666667]
+    "location-coordinate": [30.15, 119.666667],
+    "medium": "Carved jade"
   },
   "stonehenge": {
     "title": "Stonehenge",
@@ -85,7 +92,8 @@
     "date-range": 1000,
     "style": ["Prehistoric","Neolithic"],
     "location": "Wiltshire, UK. Neolithic Europe",
-    "location-coordinate": [51.178889, -1.826111]
+    "location-coordinate": [51.178889, -1.826111],
+    "medium": "Sandstone"
   },
   "ambumStone": {
     "title": ["The Ambum stone","Ambum stone"],
@@ -96,7 +104,8 @@
     "date-range": 1000,
     "style": ["Prehistoric","Melanesian"],
     "location": "Ambum Valley, Enga Province, Papua New Guinea",
-    "location-coordinate": [-5.5, 143.5]
+    "location-coordinate": [-5.5, 143.5],
+    "medium": "Greywacke"
   },
   "tlatilcoFemaleFigure": {
     "title": ["Tlatilco female figurine","Tlatilco female figure","Tlatilco figure°","Tlatilco figurine°"],
@@ -107,7 +116,8 @@
     "date-range": 1000,
     "style": ["Tlatilco","Prehistoric","Mesoamerican"],
     "location": "Central Mexico, site of Tlatilco",
-    "location-coordinate": [19.46245940548016, -99.1615770075665]
+    "location-coordinate": [19.46245940548016, -99.1615770075665],
+    "medium": "Ceramic"
   },
   "terraCottaFragment": {
     "title": ["Terra cotta fragment","Terracotta fragment"],
@@ -118,7 +128,8 @@
     "date-range": 1000,
     "style": ["Lapita","Prehistoric","Melanesian"],
     "location": "Reef Islands, Solomon Islands",
-    "location-coordinate": [-10.155206542748278, 166.31194975869076]
+    "location-coordinate": [-10.155206542748278, 166.31194975869076],
+    "medium": "Terra cotta (incised)"
   },
   "whiteTempleAndZiggurat": {
     "title": ["White Temple and its Ziggurat","White Temple and Ziggurat"],
@@ -129,7 +140,8 @@
     "date-range": 100,
     "style": ["Sumerian"],
     "location": "Uruk (modern Warka, Iraq)",
-    "location-coordinate": [31.324167, 45.637222]
+    "location-coordinate": [31.324167, 45.637222],
+    "medium": "Mud brick"
   },
   "paletteOfNarmer": {
     "title": ["Palette of King Narmer","Palette of Narmer"],
@@ -140,7 +152,8 @@
     "date-range": 100,
     "style": ["Ancient Egyptian", "Predynastic Egypt", "Predynastic"],
     "location": "Predynastic Egypt",
-    "location-coordinate": [30.0478, 31.2333]
+    "location-coordinate": [30.0478, 31.2333],
+    "medium": "Greywacke"
   },
   "votiveFigures": {
     "title": ["Statues of votive figures","Votive figures"],
@@ -151,7 +164,8 @@
     "date-range": 100,
     "style": ["Sumerian"],
     "location": "Square Temple at Eshnunna (modern Tell Asmar, Iraq)",
-    "location-coordinate": [33.484167, 44.728333]
+    "location-coordinate": [33.484167, 44.728333],
+    "medium": "Gypsum inlaid with shell and black limestone"
   },
   "seatedScribe": {
     "title": "Seated scribe",
@@ -162,7 +176,8 @@
     "date-range": 100,
     "style": ["Old Kingdom","Old Kingdom Egypt","Fourth Dynasty"],
     "location": "Saqqara, Egypt",
-    "location-coordinate": [29.871111, 31.216389]
+    "location-coordinate": [29.871111, 31.216389],
+    "medium": "Painted limestone"
   },
   "standardOfUr": {
     "title": "Standard of Ur",
@@ -173,7 +188,8 @@
     "date-range": 100,
     "style": ["Sumerian"],
     "location": "Royal Tombs at Ur (modern Tell el-Muqayyar, Iraq)",
-    "location-coordinate": [30.9615, 46.1061]
+    "location-coordinate": [30.9615, 46.1061],
+    "medium": "Wood inlaind with shell, lapis lazuli, and red limestone"
   },
   "greatPyramids": {
     "title": ["Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx","Great Pyramids and Great Sphinx","Great Pyramids","Pyramids of Menkaura, Khafre, and Khufu","Pyramids of Menkaura, Khafre, Khufu", "Great Pyramids of Giza", "Great Pyramids at Giza", "Giza Complex", "Giza Pyramid Complex"],
@@ -184,7 +200,8 @@
     "date-range": 100,
     "style": ["Old Kingdom","Old Kingdom Egypt","Fourth Dynasty"],
     "location": "Giza, Egypt",
-    "location-coordinate": [29.976111, 31.132778]
+    "location-coordinate": [29.976111, 31.132778],
+    "medium": "Cut limestone"
   },
   "kingMenkauraAndQueen": {
     "title": "King Menkaura and queen",
@@ -195,7 +212,8 @@
     "date-range": 100,
     "style": ["Old Kingdom","Old Kingdom Egypt","Fourth Dynasty"],
     "location": "Giza, Egypt",
-    "location-coordinate": [29.972492255640542, 31.13615372218268]
+    "location-coordinate": [29.972492255640542, 31.13615372218268],
+    "medium": "Greywacke"
   },
   "codeOfHammurabi": {
     "title": ["The Code of Hammurabi","Code of Hammurabi","Hammurabi's Code"],
@@ -206,7 +224,8 @@
     "date-range": 100,
     "style": ["Susian"],
     "location": "Babylon (modern Iran)",
-    "location-coordinate": [33.058829, 44.252153]
+    "location-coordinate": [33.058829, 44.252153],
+    "medium": "Basalt"
   },
   "templeOfAmunRe": {
     "title": ["Temple of Amun-Re and Hypostyle Hall","Temple of Amun-Re"],
@@ -217,7 +236,8 @@
     "date-range": 100,
     "style": ["New Kingdom","New Kingdom Egypt","18th and 19th Dynasties"],
     "location": "Karnak, near Luxor, Egypt",
-    "location-coordinate": [25.7186, 32.6579]
+    "location-coordinate": [25.7186, 32.6579],
+    "medium": "Cut sandstone and mud brick"
   },
   "mortuaryTempleOfHatshepsut": {
     "title": "Mortuary temple of Hatshepsut",
@@ -228,7 +248,8 @@
     "date-range": 100,
     "style": ["New Kingdom","New Kingdom Egypt","18th Dynasty"],
     "location": "Near Luxor, Egypt",
-    "location-coordinate": [25.738278, 32.606583]
+    "location-coordinate": [25.738278, 32.606583],
+    "medium": "Sandstone, partially carved into a rock cliff, and red granite"
   },
   "akhenatenNefertitiAndThreeDaughters": {
     "title": ["Akhenaten, Nefertiti, and three daughters", "Akhenaten, Nefertiti, three daughters", "Akhenaten, Nefertiti, and 3 daughters", "Akhenaten, Nefertiti, 3 daughters"],
@@ -239,7 +260,8 @@
     "date-range": 100,
     "style": ["Amarna","New Kingdom Amarna"],
     "location": "Tell el-Amarna, Middle Egypt",
-    "location-coordinate": [27.645278, 30.896389]
+    "location-coordinate": [27.645278, 30.896389],
+    "medium": "Limestone"
   },
   "innermostCoffin": {
     "title": ["Tutankhamun’s tomb, innermost coffin","Innermost coffin of Tutankhamun’s tomb","Tutankhamun’s coffin", "Innermost coffin", "Tutankhamun’s tomb"],
@@ -250,7 +272,8 @@
     "date-range": 100,
     "style": ["New Kingdom","New Kingdom Egypt","18th Dynasty"],
     "location": "Tomb of Tutankhamun, Valley of the Kings, Egypt",
-    "location-coordinate": [25.740389, 32.601417]
+    "location-coordinate": [25.740389, 32.601417],
+    "medium": "Gold with inlay of enamel and semiprecious stones"
   },
   "lastJudgementOfHunefer": {
     "title": ["Last judgment of Hunefer (page from the Book of the Dead)","Last judgment of Hunefer"],
@@ -261,7 +284,8 @@
     "date-range": 100,
     "style": ["New Kingdom","New Kingdom Egypt","18th Dynasty"],
     "location": "Thebes, Egypt",
-    "location-coordinate": [25.720556, 32.610278]
+    "location-coordinate": [25.720556, 32.610278],
+    "medium": "Painted papyrus scroll"
   },
   "lamassu": {
     "title": ["Lamassu from the citadel of Sargon II","Lamassu from citadel of Sargon II","Lamassu"],
@@ -272,7 +296,8 @@
     "date-range": 100,
     "style": ["Neo-Assyrian","Assyrian°"],
     "location": "Dur Sharrukin (modern Khorsabad, Iraq)",
-    "location-coordinate": [36.509444, 43.229444]
+    "location-coordinate": [36.509444, 43.229444],
+    "medium": "Alabaster"
   },
   "athenianAgora": {
     "title": "Athenian agora",
@@ -283,7 +308,8 @@
     "date-range": 100,
     "style": ["Archaic through Hellenistic Greek","Archaic", "Classical", "Hellenistic"],
     "location": "Athens, Greece",
-    "location-coordinate": [37.975, 23.7225]
+    "location-coordinate": [37.975, 23.7225],
+    "medium": "Plan"
   },
   "anavysosKouros": {
     "title": "Anavysos Kouros",
@@ -294,7 +320,8 @@
     "date-range": 100,
     "style": ["Archaic Greek","Archaic"],
     "location": "Anavyssos, Greece",
-    "location-coordinate": [37.733333, 23.95]
+    "location-coordinate": [37.733333, 23.95],
+    "medium": "Marble with remnants of paint"
   },
   "peplosKore": {
     "title": "Peplos Kore",
@@ -305,7 +332,8 @@
     "date-range": 100,
     "style": ["Archaic Greek","Archaic"],
     "location": "Acropolis, Athens, Greece",
-    "location-coordinate": [37.971667, 23.726111]
+    "location-coordinate": [37.971667, 23.726111],
+    "medium": "Marble, painted details"
   },
   "sarcophagusOfTheSpouses": {
     "title": ["Sarcophagus of the Spouses", "Sarcophagus of Spouses"],
@@ -316,7 +344,8 @@
     "date-range": 100,
     "style": ["Etruscan"],
     "location": "Caere, Etruria, Italy",
-    "location-coordinate": [42.001667, 12.108333]
+    "location-coordinate": [42.001667, 12.108333],
+    "medium": "Terra cotta"
   },
   "audienceHall": {
     "title": ["Audience Hall (apadana) of Darius and Xerxes","Audience Hall of Darius and Xerxes","Apadana","Audience Hall"],
@@ -327,7 +356,8 @@
     "date-range": 100,
     "style": ["Persian","Achaemenid Empire","Achaemenid"],
     "location": "Persepolis, Iran",
-    "location-coordinate": [29.935, 52.89]
+    "location-coordinate": [29.935, 52.89],
+    "medium": "Limestone"
   },
   "templeOfMinerva": {
     "title": ["Temple of Minerva and sculpture of Apollo","Temple of Minerva","Sculpture of Apollo"],
@@ -339,7 +369,8 @@
     "style": ["Etruscan"],
     "location": "Veii, near Rome, Italy",
     "location-coordinate": [42.021111, 12.390833],
-    "artist": ["Master sculptor Vulca","Vulca"]
+    "artist": ["Master sculptor Vulca","Vulca"],
+    "medium": "Original temple of wood, mud brick, or tufa (volcanic rock); terra cotta sculpture"
   },
   "tombOfTriclinium": {
     "title": ["Tomb of the Triclinium", "Tomb of Triclinium"],
@@ -350,7 +381,8 @@
     "date-range": 100,
     "style": ["Etruscan"],
     "location": "Tarquinia, Italy",
-    "location-coordinate": [42.248889, 11.771667]
+    "location-coordinate": [42.248889, 11.771667],
+    "medium": "Tufa and fresco"
   },
   "niobidesKrater": {
     "title": "Niobides Krater",
@@ -362,7 +394,8 @@
     "style": ["Classical Greek","Classical","Early Classical"],
     "location": "Athens, Greece",
     "location-coordinate": [37.984167, 23.728056],
-    "artist": ["Niobid Painter"]
+    "artist": ["Niobid Painter"],
+    "medium": "Clay, red-figure technique (white highlights)"
   },
   "doryphoros": {
     "title": ["Doryphoros (Spear Bearer)","Doryphoros","Spear Bearer"],
@@ -374,7 +407,8 @@
     "style": ["Classical Greek","Classical","High Classical"],
     "location": "Árgos, Greece",
     "location-coordinate": [37.616667, 22.716667],
-    "artist": ["Polykleitos"]
+    "artist": ["Polykleitos"],
+    "medium": "Roman copy (marble) of Greek original (bronze)"
   },
   "acropolis": {
     "title": "Acropolis",
@@ -386,7 +420,8 @@
     "style": ["Classical Greek","Classical","High Classical"],
     "location": "Athens, Greece",
     "location-coordinate": [37.971667, 23.726111],
-    "artist": ["Iktinos and Kallikrates","Iktinos°","Kallikrates°"]
+    "artist": ["Iktinos and Kallikrates","Iktinos°","Kallikrates°"],
+    "medium": "Marble"
   },
   "graveSteleOfHegeso": {
     "title": ["Grave stele of Hegeso", "Grave stele°"],
@@ -398,7 +433,8 @@
     "style": ["Classical Greek","Classical","High Classical"],
     "location": "Athens, Greece",
     "location-coordinate": [37.978333, 23.718889],
-    "artist": ["Attributed to Kallimachos","Kallimachos"]
+    "artist": ["Attributed to Kallimachos","Kallimachos"],
+    "medium": "Marble and paint"
   },
   "wingedVictory": {
     "title": ["Winged Victory of Samothrace", "Winged Victory"],
@@ -409,7 +445,8 @@
     "date-range": 100,
     "style": ["Hellenistic Greek","Hellenistic"],
     "location": "Samothrace, Aegean Sea, Greece",
-    "location-coordinate": [40.45, 25.5875]
+    "location-coordinate": [40.45, 25.5875],
+    "medium": "Marble"
   },
   "greatAltar": {
     "title": ["Great Altar of Zeus and Athena at Pergamon","Great Altar of Zeus and Athena", "Great Altar at Pergamon", "Great Altar of Pergamon"],
@@ -420,7 +457,8 @@
     "date-range": 100,
     "style": ["Hellenistic Greek","Hellenistic"],
     "location": "Asia Minor (present-day Turkey)",
-    "location-coordinate": [39.131051, 27.183931]
+    "location-coordinate": [39.131051, 27.183931],
+    "medium": "Marble (architecture and sculpture)"
   },
   "houseOfVettii": {
     "title": ["House of the Vettii", "House of Vettii"],
@@ -431,7 +469,8 @@
     "date-range": 100,
     "style": ["Imperial Roman"],
     "location": "Pompeii, Italy",
-    "location-coordinate": [40.752083, 14.484583]
+    "location-coordinate": [40.752083, 14.484583],
+    "medium": "Cut stone and fresco"
   },
   "alexanderMosaic": {
     "title": "Alexander Mosaic",
@@ -442,7 +481,8 @@
     "date-range": 100,
     "style": ["Republican Roman","Roman Republic"],
     "location": "House of Faun, Pompeii, Italy",
-    "location-coordinate": [40.75125, 14.484583]
+    "location-coordinate": [40.75125, 14.484583],
+    "medium": "Mosaic"
   },
   "seatedBoxer": {
     "title": "Seated boxer",
@@ -454,7 +494,8 @@
     "style": ["Hellenistic Greek","Hellenistic"],
     "location": "Rome, Italy",
     "location-coordinate": [41.901111, 12.488333],
-    "artist": ["Apollonius"]
+    "artist": ["Apollonius"],
+    "medium": "Bronze"
   },
   "headOfRomanPatrician": {
     "title": ["Head of a Roman patrician","Head of Roman patrician","Roman patrician"],
@@ -465,7 +506,8 @@
     "date-range": 100,
     "style": ["Republican Roman","Roman Republic"],
     "location": "Otricoli (ancient Ocriculum), Italy",
-    "location-coordinate": [42.416667, 12.483333]
+    "location-coordinate": [42.416667, 12.483333],
+    "medium": "Marble"
   },
   "augustusOfPrimaPorta": {
     "title": ["Augustus of Prima Porta", "Augustus of Primaporta"],
@@ -476,7 +518,8 @@
     "date-range": 100,
     "style": ["Imperial Roman"],
     "location": "Villa of Livia, Primaporta, Italy",
-    "location-coordinate": [41.90646, 12.45435]
+    "location-coordinate": [41.90646, 12.45435],
+    "medium": "Marble"
   },
   "colosseum": {
     "title": ["Colosseum (Flavian Amphitheater)", "Colosseum","Flavian Amphitheater"],
@@ -487,7 +530,8 @@
     "date-range": 100,
     "style": ["Imperial Roman"],
     "location": "Rome, Italy",
-    "location-coordinate": [41.890278, 12.492222]
+    "location-coordinate": [41.890278, 12.492222],
+    "medium": "Stone and concrete"
   },
   "forumOfTrajan": {
     "title": "Forum of Trajan",
@@ -499,7 +543,8 @@
     "style": ["Imperial Roman"],
     "location": "Rome, Italy",
     "location-coordinate": [41.895419, 12.485869],
-    "artist": ["Apollodorus of Damascus","Apollodorus"]
+    "artist": ["Apollodorus of Damascus","Apollodorus"],
+    "medium": "Brick and concrete (architecture); marble (column)"
   },
   "pantheon": {
     "title": "Pantheon",
@@ -510,7 +555,8 @@
     "date-range": 100,
     "style": ["Imperial Roman"],
     "location": "Rome, Italy",
-    "location-coordinate": [41.8986, 12.4768]
+    "location-coordinate": [41.8986, 12.4768],
+    "medium": "Concrete with stone facing"
   },
   "ludovisiBattleSarcophagus": {
     "title": "Ludovisi Battle Sarcophagus",
@@ -521,7 +567,8 @@
     "date-range": 100,
     "style": ["Late Imperial Roman","Imperial Roman"],
     "location": "Rome, Italy",
-    "location-coordinate": [41.901194, 12.472833]
+    "location-coordinate": [41.901194, 12.472833],
+    "medium": "Marble"
   },
   "catacombOfPriscilla": {
     "title": "Catacomb of Priscilla",
@@ -532,7 +579,8 @@
     "date-range": 50,
     "style": ["Late Antique Europe","Medieval","Early Christian"],
     "location": "Rome, Italy",
-    "location-coordinate": [41.9297, 12.5087]
+    "location-coordinate": [41.9297, 12.5087],
+    "medium": "Excavated tufa and fresco"
   },
   "santaSabina": {
     "title": "Santa Sabina",
@@ -543,7 +591,8 @@
     "date-range": 50,
     "style": ["Late Antique Europe","Medieval","Early Christian"],
     "location": "Rome, Italy",
-    "location-coordinate": [41.884444, 12.479722]
+    "location-coordinate": [41.884444, 12.479722],
+    "medium": "Brick and stone, wooden roof"
   },
   "viennaGenesis": {
     "title": ["Vienna Genesis","Rebecca and Eliezer at the Well and Jacob Wrestling the Angel, from the Vienna Genesis","Rebecca and Eliezer at the Well from the Vienna Genesis","Rebecca and Eliezer at the Well","Jacob Wrestling the Angel from the Vienna Genesis","Jacob Wrestling the Angel"],
@@ -554,7 +603,8 @@
     "date-range": 50,
     "style": ["Early Byzantine","Byzantine"],
     "location": "Syria (likely)",
-    "location-coordinate": [35, 38]
+    "location-coordinate": [35, 38],
+    "medium": "Illuminated manuscript (tempera, gold, and silver on purple vellum)"
   },
   "sanVitale": {
     "title": "San Vitale",
@@ -565,7 +615,8 @@
     "date-range": 50,
     "style": ["Early Byzantine","Byzantine"],
     "location": "Ravenna, Italy",
-    "location-coordinate": [44.420556, 12.196389]
+    "location-coordinate": [44.420556, 12.196389],
+    "medium": "Brick, marble, and stone veneer; mosaic"
   },
   "hagiaSophia": {
     "title": "Hagia Sophia",
@@ -577,7 +628,8 @@
     "style": ["Early Byzantine","Byzantine"],
     "location": "Constantinople (Istanbul), Turkey",
     "location-coordinate": [41.008333, 28.98],
-    "artist": ["Anthemius of Tralles and Isidorus of Miletus","Anthemius of Tralles","Isidorus of Miletus","Anthemius","Isidorus"]
+    "artist": ["Anthemius of Tralles and Isidorus of Miletus","Anthemius of Tralles","Isidorus of Miletus","Anthemius","Isidorus"],
+    "medium": "Brick and ceramic elements with stone and mosaic veneer"
   },
   "loopedFibulae": {
     "title": ["Merovingian looped fibulae","Looped fibulae°","Fibulae°°"],
@@ -588,7 +640,8 @@
     "date-range": 50,
     "style": ["Early medieval","Medieval"],
     "location": "Northern France",
-    "location-coordinate": [49.12774926320784, 2.206550032246683]
+    "location-coordinate": [49.12774926320784, 2.206550032246683],
+    "medium": "Silver gilt worked in filigree, with inlays of garnets and other stones"
   },
   "virginAndChild": {
     "title": ["Virgin (Theotokos) and Child between Saints Theodore and George","Virgin and Child between Saints Theodore and George","Theotokos and Child between Saints Theodore and George","Virgin and Child between Saints","Thekotos and Child between Saints","Virgin and Child","Theokotos and Child"],
@@ -599,7 +652,8 @@
     "date-range": 50,
     "style": ["Early Byzantine","Byzantine"],
     "location": "Saint Catherine’s Monastery, Mount Sinai (Egypt)",
-    "location-coordinate": [28.555556, 33.976111]
+    "location-coordinate": [28.555556, 33.976111],
+    "medium": "Encaustic on wood"
   },
   "lindisfarneGospels": {
     "title": ["Lindisfarne Gospels","St. Matthew cross-carpet page", "St. Luke portrait page", "St. Luke incipit page"],
@@ -610,7 +664,8 @@
     "date-range": 50,
     "style": ["Early medieval","Hiberno Saxon","Medieval"],
     "location": "Monastery at Lindisfarne, off coast of Northumberland, UK",
-    "location-coordinate": [55.68, -1.8025]
+    "location-coordinate": [55.68, -1.8025],
+    "medium": "Illuminated manuscript (ink, pigments, and gold on vellum)"
   },
   "greatMosqueOfCordoba": {
     "title": ["Great Mosque of Cordoba","Great Mosque","Mosque of Cordoba"],
@@ -621,7 +676,8 @@
     "date-range": 50,
     "style": ["Umayyad"],
     "location": "Córdoba, Spain",
-    "location-coordinate": [37.879167, -4.779722]
+    "location-coordinate": [37.879167, -4.779722],
+    "medium": "Stone masonry"
   },
   "pyxisOfAlMughira": {
     "title": ["Pyxis of al-Mughira","Pyxis°°"],
@@ -632,7 +688,8 @@
     "date-range": 50,
     "style": ["Umayyad"],
     "location": "Near Córdoba, Spain",
-    "location-coordinate": [37.888, -4.867]
+    "location-coordinate": [37.888, -4.867],
+    "medium": "Ivory"
   },
   "churchOfSainteFoy": {
     "title": "Church of Sainte-Foy",
@@ -643,7 +700,8 @@
     "date-range": 50,
     "style": ["Romanesque"],
     "location": "Conques, France",
-    "location-coordinate": [44.6003, 2.3972]
+    "location-coordinate": [44.6003, 2.3972],
+    "medium": "Stone (architecture); stone and paint (tympanum); gold, silver, gemstones, and enamel over wood (reliquary)"
   },
   "bayeuxTapestry": {
     "title": "Bayeux Tapestry",
@@ -654,7 +712,8 @@
     "date-range": 50,
     "style": ["Romanesque","English","Norman"],
     "location": "Canterbury, England",
-    "location-coordinate": [51.28, 1.08]
+    "location-coordinate": [51.28, 1.08],
+    "medium": "Embroidery on linen"
   },
   "chartresCathedral": {
     "title": "Chartres Cathedral",
@@ -665,7 +724,8 @@
     "date-range": 50,
     "style": ["Gothic","Gothic"],
     "location": "Chartres, France",
-    "location-coordinate": [48.447778, 1.487778]
+    "location-coordinate": [48.447778, 1.487778],
+    "medium": "Limestone, stained glass"
   },
   "biblesMoralisees": {
     "title": "Bibles moralisées",
@@ -676,7 +736,8 @@
     "date-range": 50,
     "style": ["Gothic","Gothic"],
     "location": "Toledo, Spain",
-    "location-coordinate": [39.857083, -4.023889]
+    "location-coordinate": [39.857083, -4.023889],
+    "medium": "Illuminated manuscript (ink, tempera, and gold leaf on vellum)"
   },
   "rottgenPieta": {
     "title": "Röttgen Pietà",
@@ -687,7 +748,8 @@
     "date-range": 50,
     "style": ["Late medieval Europe","Medieval"],
     "location": "Rhineland, Germany",
-    "location-coordinate": [50.015579631520204, 7.248457585602103]
+    "location-coordinate": [50.015579631520204, 7.248457585602103],
+    "medium": "Painted wood"
   },
   "arenaChapel": {
     "title": ["Arena (Scrovegni) Chapel","Arena Chapel","Scrovegni Chapel","Lamentation"],
@@ -699,7 +761,8 @@
     "style": ["Late Gothic","Gothic"],
     "location": "Padua, Italy",
     "location-coordinate": [45.41184, 11.87952],
-    "artist": ["Giotto di Bondone","Giotto"]
+    "artist": ["Giotto di Bondone","Giotto"],
+    "medium": "Brick (architecture) and fresco"
   },
   "goldenHaggadah": {
     "title": ["Golden Haggadah", "The Plagues of Egypt", "Scenes of Liberation", "Preparation for Passover"],
@@ -710,7 +773,8 @@
     "date-range": 50,
     "style": ["Late medieval Spain","Medieval","Gothic"],
     "location": "Catalonia, Spain",
-    "location-coordinate": [41.85, 1.566667]
+    "location-coordinate": [41.85, 1.566667],
+    "medium": "Illuminated manuscript (pigments and gold leaf on vellum)"
   },
   "alhambra": {
     "title": ["Alhambra","Alhambra Palace"],
@@ -721,7 +785,8 @@
     "date-range": 50,
     "style": ["Nasrid Dynasty","Nasrid"],
     "location": "Granada, Spain",
-    "location-coordinate": [37.1775, -3.59]
+    "location-coordinate": [37.1775, -3.59],
+    "medium": "Whitewashed adobe stucco, wood, tile, paint, and gilding"
   },
   "annunciationTryptich": {
     "title": ["Annunciation Triptych (Merode Altarpiece)", "Annunciation Triptych", "Merode Altarpiece"],
@@ -733,7 +798,8 @@
     "style": ["Northern Renaissance"],
     "location": "Netherlands",
     "location-coordinate": [52, 6],
-    "artist": ["Workshop of Robert Campin","Robert Campin","Campin"]
+    "artist": ["Workshop of Robert Campin","Robert Campin","Campin"],
+    "medium": "Oil on wood"
   },
   "pazziChapel": {
     "title": "Pazzi Chapel",
@@ -745,7 +811,8 @@
     "style": ["Renaissance"],
     "location": "Basilica di Santa Croce; Florence, Italy",
     "location-coordinate": [43.768006, 11.262989],
-    "artist": ["Filippo Brunelleschi","Brunelleschi"]
+    "artist": ["Filippo Brunelleschi","Brunelleschi"],
+    "medium": "Masonry"
   },
   "arnolfiniPortrait": {
     "title": ["The Arnolfini Portrait","Arnolfini Portrait"],
@@ -757,7 +824,8 @@
     "style": ["Northern Renaissance"],
     "location": "Bruges, Belgium",
     "location-coordinate": [51.208889, 3.224167],
-    "artist": ["Jan van Eyck","van Eyck","Eyck°"]
+    "artist": ["Jan van Eyck","van Eyck","Eyck°"],
+    "medium": "Oil on wood"
   },
   "david": {
     "title": ["David", "David by Donatello","Donatello's David"],
@@ -769,7 +837,8 @@
     "style": ["Renaissance"],
     "location": "Florence, Italy",
     "location-coordinate": [43.771389, 11.254167],
-    "artist": ["Donatello"]
+    "artist": ["Donatello"],
+    "medium": "Bronze"
   },
   "palazzoRucellai": {
     "title": "Palazzo Rucellai",
@@ -781,7 +850,8 @@
     "style": ["Renaissance"],
     "location": "Florence, Italy",
     "location-coordinate": [43.7712, 11.2495],
-    "artist": ["Leon Battista Alberti","Alberti"]
+    "artist": ["Leon Battista Alberti","Alberti"],
+    "medium": "Stone, masonry"
   },
   "madonnaAndChild": {
     "title": ["Madonna and Child with Two Angels", "Madonna and Child"],
@@ -793,7 +863,8 @@
     "style": ["Renaissance"],
     "location": "Florence, Italy",
     "location-coordinate": [43.771389, 11.254167],
-    "artist": ["Fra Filippo Lippi","Lippi"]
+    "artist": ["Fra Filippo Lippi","Lippi"],
+    "medium": "Tempera on wood"
   },
   "birthOfVenus": {
     "title": "Birth of Venus",
@@ -805,7 +876,8 @@
     "style": ["Renaissance"],
     "location": "Florence, Italy",
     "location-coordinate": [43.771389, 11.254167],
-    "artist": ["Sandro Botticelli","Botticelli"]
+    "artist": ["Sandro Botticelli","Botticelli"],
+    "medium": "Tempera on canvas"
   },
   "lastSupper": {
     "title": "Last Supper",
@@ -817,7 +889,8 @@
     "style": ["Renaissance"],
     "location": "Santa Maria delle Grazie, Milan, Italy",
     "location-coordinate": [45.466667, 9.170833],
-    "artist": ["Leonardo da Vinci","da Vinci","Vinci°"]
+    "artist": ["Leonardo da Vinci","da Vinci","Vinci°"],
+    "medium": "Oil and tempera"
   },
   "adamAndEve": {
     "title": "Adam and Eve",
@@ -829,7 +902,8 @@
     "style": ["Northern Renaissance"],
     "location": "Nuremberg, Germany",
     "location-coordinate": [49.453889, 11.0775],
-    "artist": ["Albrecht Dürer","Dürer"]
+    "artist": ["Albrecht Dürer","Dürer"],
+    "medium": "Engraving"
   },
   "sistineChapel": {
     "title": "Sistine Chapel",
@@ -841,7 +915,8 @@
     "style": ["Renaissance"],
     "location": "Vatican City, Italy",
     "location-coordinate": [41.903056, 12.454444],
-    "artist": ["Michelangelo"]
+    "artist": ["Michelangelo"],
+    "medium": "Fresco"
   },
   "schoolOfAthens": {
     "title": "School of Athens",
@@ -853,7 +928,8 @@
     "style": ["Renaissance"],
     "location": "Vatican City, Italy",
     "location-coordinate": [41.903611, 12.456389],
-    "artist": ["Raphael"]
+    "artist": ["Raphael"],
+    "medium": "Fresco"
   },
   "isenheimAltarpiece": {
     "title": "Isenheim altarpiece",
@@ -865,7 +941,8 @@
     "style": ["Northern Renaissance"],
     "location": "Hospital Brothers of Saint Anthony, Isenheim, France",
     "location-coordinate": [47.9031, 7.2547],
-    "artist": ["Matthias Grünewald","Grünewald"]
+    "artist": ["Matthias Grünewald","Grünewald"],
+    "medium": "Oil on wood"
   },
   "entombmentOfChrist": {
     "title": ["Entombment of Christ","The Entombment of Christ"],
@@ -877,7 +954,8 @@
     "style": ["Mannerism"],
     "location": "Capponi Chapel, Santa Felicità, Florence, Italy",
     "location-coordinate": [43.766897, 11.252458],
-    "artist": ["Jacopo da Pontormo","da Pontormo","Pontormo"]
+    "artist": ["Jacopo da Pontormo","da Pontormo","Pontormo"],
+    "medium": "Oil on wood"
   },
   "allegoryOfLawAndGrace": {
     "title": ["Allegory of Law and Grace","Law and Gospel","Law and Grace"],
@@ -889,7 +967,8 @@
     "style": ["Northern Renaissance"],
     "location": "Wittenberg, Germany",
     "location-coordinate": [51.8671, 12.6484],
-    "artist": ["Lucas Cranach the Elder","Lucas Cranach","Cranach"]
+    "artist": ["Lucas Cranach the Elder","Lucas Cranach","Cranach"],
+    "medium": "Woodcut and letterpress"
   },
   "venusOfUrbino": {
     "title": ["Venus of Urbino"],
@@ -901,7 +980,8 @@
     "style": ["Renaissance"],
     "location": "Florence, Italy",
     "location-coordinate": [43.771389, 11.254167],
-    "artist": ["Titian"]
+    "artist": ["Titian"],
+    "medium": "Oil on canvas"
   },
   "frontispeiceOfCodexMendoza": {
     "title": ["Frontispiece of the Codex Mendoza", "Codex Mendoza"],
@@ -912,7 +992,8 @@
     "date-range": 50,
     "style": ["Colonial Spanish American","Colonial American", "Colonial"],
     "location": "Around Tenochtitlan, Viceroyalty of New Spain",
-    "location-coordinate": [19.433333, -99.133333]
+    "location-coordinate": [19.433333, -99.133333],
+    "medium": "Ink and color on paper"
   },
   "ilGesu": {
     "title": ["Il Gesù","Triumph of the Name of Jesus"],
@@ -924,7 +1005,8 @@
     "style": ["Mannerism","Baroque"],
     "location": "Rome, Italy",
     "location-coordinate": [41.895833, 12.479722],
-    "artist": ["Giovanni Battista Gaulli (ceiling fresco); Giacomo della Porta (facade)","Giovanni Battista Gaulli","Gaulli","Giacomo della Porta","della Porta","Porta", "Giovanni Battista Gaulli and Giacomo della Porta", "Giovanni Battista Gaulli Giacomo della Porta", "Gaulli and della Porta", "Gaulli and Porta"]
+    "artist": ["Giovanni Battista Gaulli (ceiling fresco); Giacomo della Porta (facade)","Giovanni Battista Gaulli","Gaulli","Giacomo della Porta","della Porta","Porta", "Giovanni Battista Gaulli and Giacomo della Porta", "Giovanni Battista Gaulli Giacomo della Porta", "Gaulli and della Porta", "Gaulli and Porta"],
+    "medium": "Brick, marble, fresco, and stucco"
   },
   "huntersInTheSnow": {
     "title": ["Hunters in the Snow", "Hunters in Snow"],
@@ -936,7 +1018,8 @@
     "style": ["Northern Renaissance"],
     "location": "Belgium",
     "location-coordinate": [50.833333, 4],
-    "artist": ["Pieter Bruegel the Elder","Pieter Bruegel","Bruegel"]
+    "artist": ["Pieter Bruegel the Elder","Pieter Bruegel","Bruegel"],
+    "medium": "Oil on wood"
   },
   "mosqueOfSelim": {
     "title": ["Mosque of Selim II", "Mosque of Selim"],
@@ -948,7 +1031,8 @@
     "style": ["Ottoman", "Islamic"],
     "location": "Edirne, Turkey",
     "location-coordinate": [41.678056, 26.559444],
-    "artist": ["Sinan (architect)", "Mimar Sinan", "Sinan"]
+    "artist": ["Sinan (architect)", "Mimar Sinan", "Sinan"],
+    "medium": "Brick and stone"
   },
   "callingOfSaintMatthew": {
     "title": ["Calling of Saint Matthew", "The Calling of Saint Matthew"],
@@ -960,7 +1044,8 @@
     "style": ["Baroque", "Italian Baroque"],
     "location": "San Luigi dei Francesi, Rome",
     "location-coordinate": [41.899722, 12.474722],
-    "artist": ["Caravaggio"]
+    "artist": ["Caravaggio"],
+    "medium": "Oil on canvas"
   },
   "mediciCycle": {
     "title": ["Henri IV Receives the Portrait of Marie de’ Medici, from the Marie de’ Medici Cycle", "Henry IV Receives the Portrait of Marie de’ Medici", "Henry IV Receives the Portrait of Marie de Medici", "Henry IV Receives Portrait of Marie de’ Medici", "Henry IV Receives Portrait of Marie de Medici"],
@@ -972,7 +1057,8 @@
     "style": ["Baroque", "Flemish Baroque"],
     "location": "Luxembourg Palace (Paris)",
     "location-coordinate": [48.848333, 2.337222],
-    "artist": ["Peter Paul Rubens", "Rubens"]
+    "artist": ["Peter Paul Rubens", "Rubens"],
+    "medium": "Oil on canvas"
   },
   "selfPortraitWithSaskia": {
     "title": ["Self-Portrait with Saskia"],
@@ -984,7 +1070,8 @@
     "style": ["Baroque", "Dutch Baroque"],
     "location": "Amsterdam, Netherlands",
     "location-coordinate": [52.372778, 4.893611],
-    "artist": ["Rembrandt van Rijn", "Rembrandt"]
+    "artist": ["Rembrandt van Rijn", "Rembrandt"],
+    "medium": "Etching"
   },
   "sanCarloAlleQuattroFontane": {
     "title": ["San Carlo alle Quattro Fontane", "Church of Saint Charles at the Four Fountains"],
@@ -996,7 +1083,8 @@
     "style": ["Baroque", "Italian Baroque"],
     "location": "Rome, Italy",
     "location-coordinate": [41.90181, 12.49074],
-    "artist": ["Francesco Borromini (architect)", "Francesco Borromini", "Borromini"]
+    "artist": ["Francesco Borromini (architect)", "Francesco Borromini", "Borromini"],
+    "medium": "Stone and stucco"
   },
   "ecstasyOfSaintTeresa": {
     "title": "Ecstasy of Saint Teresa",
@@ -1008,7 +1096,8 @@
     "style": ["Baroque", "Italian Baroque"],
     "location": "Cornaro Chapel, Church of Santa Maria della Vittoria. Rome, Italy",
     "location-coordinate": [41.904722, 12.494167],
-    "artist": ["Gian Lorenzo Bernini", "Bernini"]
+    "artist": ["Gian Lorenzo Bernini", "Bernini"],
+    "medium": "Marble (sculpture); stucco and gilt bronze (chapel)"
   },
   "angelWithArquebus": {
     "title": ["Angel with Arquebus, Asiel Timor Dei", "Angel with Arquebus", "Asiel Timor Dei"],
@@ -1020,7 +1109,8 @@
     "style": ["Colonial American", "Colonial Spanish American", "Viceroyalty of Peru"],
     "location": "La Paz, Bolivia",
     "location-coordinate": [-16.49585, -68.13433],
-    "artist": ["Master of Calamarca (La Paz School)", "Master of Calamarca"]
+    "artist": ["Master of Calamarca (La Paz School)", "Master of Calamarca"],
+    "medium": "Oil on canvas"
   },
   "lasMeninas": {
     "title": "Las Meninas",
@@ -1032,7 +1122,8 @@
     "style": ["Baroque", "Spanish Baroque"],
     "location": "Madrid, Spain",
     "location-coordinate": [40.418056, -3.714167],
-    "artist": ["Diego Velázquez", "Velázquez"]
+    "artist": ["Diego Velázquez", "Velázquez"],
+    "medium": "Oil on canvas"
   },
   "womanHoldingBalance": {
     "title": ["Woman Holding a Balance", "Woman Holding Balance"],
@@ -1044,7 +1135,8 @@
     "style": ["Baroque", "Dutch Baroque"],
     "location": "Delft, Netherlands",
     "location-coordinate": [52.011667, 4.359167],
-    "artist": ["Johannes Vermeer", "Vermeer"]
+    "artist": ["Johannes Vermeer", "Vermeer"],
+    "medium": "Oil on canvas"
   },
   "palaceAtVersailles": {
     "title": ["The Palace at Versailles", "Palace at Versailles" ,"The Palace of Versailles", "Palace of Versailles"],
@@ -1056,7 +1148,8 @@
     "style": ["Baroque", "French Baroque"],
     "location": "Versailles, France",
     "location-coordinate": [48.8047, 2.1203],
-    "artist": ["Louis Le Vau and Jules Hardouin-Mansart (architects)", "Louis Le Vau and Jules Hardouin-Mansart", "Le Vau°°", "Hardouin-Mansart°°", "Le Vau and Hardouin-Mansart", "Mansart°°", "Vau°°", "Le Vau and Mansart", "Le Vau Mansart"]
+    "artist": ["Louis Le Vau and Jules Hardouin-Mansart (architects)", "Louis Le Vau and Jules Hardouin-Mansart", "Le Vau°°", "Hardouin-Mansart°°", "Le Vau and Hardouin-Mansart", "Mansart°°", "Vau°°", "Le Vau and Mansart", "Le Vau Mansart"],
+    "medium": "Masonry, stone, wood, iron, and gold leaf (architecture); marble and bronze (sculpture); gardens"
   },
   "screenWithSiegeAndHuntingScene": {
     "title": ["Screen with the Siege of Belgrade and hunting scene", "Screen with the Siege of Belgrade°°", "Screen with hunting scene°°", "Screen with Siege of Belgrade and hunting scene", "Screen with Siege of Belgrade°°"],
@@ -1068,7 +1161,8 @@
     "style": ["Colonial American", "Colonial Spanish American", "Viceroyalty of New Spain"],
     "location": "Mexico City, Mexico (approx.)",
     "location-coordinate": [19.433333, -99.133333],
-    "artist": ["Circle of the González Family"]
+    "artist": ["Circle of the González Family"],
+    "medium": "Tempera and resin on wood, shell inlay"
   },
   "virginOfGuadalupe": {
     "title": ["The Virgin of Guadalupe (Virgen de Guadalupe)", "The Virgin of Guadalupe", "Virgen de Guadalupe", "Virgin of Guadalupe"],
@@ -1080,7 +1174,8 @@
     "style": ["Colonial American", "Colonial Spanish American", "Viceroyalty of New Spain"],
     "location": "Basilica of Guadalupe, Mexico City (original)",
     "location-coordinate": [19.484, -99.117],
-    "artist": ["Miguel González", "González"]
+    "artist": ["Miguel González", "González"],
+    "medium": "Oil on canvas on wood, inlaid with mother-of-pearl"
   },
   "fruitAndInsects": {
     "title": "Fruit and Insects",
@@ -1092,7 +1187,8 @@
     "style": ["Baroque", "Dutch Baroque"],
     "location": "Amsterdam, Netherlands",
     "location-coordinate": [52.372778, 4.893611],
-    "artist": ["Rachel Ruysch", "Ruysch"]
+    "artist": ["Rachel Ruysch", "Ruysch"],
+    "medium": "Oil on wood"
   },
   "spaniardAndIndianProduceMestizo": {
     "title": ["Spaniard and Indian Produce a Mestizo", "Spaniard and Indian Produce Mestizo", "Spaniard and Indian°°"],
@@ -1104,7 +1200,8 @@
     "style": ["Casta painting", "Colonial American", "Colonial Spanish American", "Viceroyalty of New Spain"],
     "location": "Mexico City, Spain (approx.)",
     "location-coordinate": [19.433333, -99.133333],
-    "artist": ["Attributed to Juan Rodríguez Juárez", "Juan Rodríguez Juárez", "Juan Juárez", "Juárez"]
+    "artist": ["Attributed to Juan Rodríguez Juárez", "Juan Rodríguez Juárez", "Juan Juárez", "Juárez"],
+    "medium": "Oil on canvas"
   },
   "teteATete": {
     "title": ["The Tête à Tête, from Marriage à la Mode", "The Tête à Tête", "Tête à Tête"],
@@ -1116,7 +1213,8 @@
     "style": ["Rococo"],
     "location": "London, England",
     "location-coordinate": [51.507222, -0.1275],
-    "artist": ["William Hogarth", "Hogarth"]
+    "artist": ["William Hogarth", "Hogarth"],
+    "medium": "Oil on canvas"
   },
   "portraitOfSorJuanaInes": {
     "title": ["Portrait of Sor Juana Inés de la Cruz", "Portrait of Sor Juana Inés", "Sor Juana Inés de la Cruz", "Sor Juana Inés"],
@@ -1128,7 +1226,8 @@
     "style": ["Baroque"],
     "location": "Mexico City, Mexico",
     "location-coordinate": [19.433333, -99.133333],
-    "artist": ["Miguel Cabrera", "Cabrera"]
+    "artist": ["Miguel Cabrera", "Cabrera"],
+    "medium": "Oil on canvas"
   },
   "philosopherGivingALecture": {
     "title": ["A Philosopher Giving a Lecture on the Orrery", "Philosopher Giving a Lecture on the Orery", "A Philosopher Giving Lecture on the Orrery", "Philosopher Giving Lecture on the Orery", "A Philosopher Giving a Lecture", "Philosopher Giving a Lecture", "A Philosopher Giving Lecture", "Philosopher Giving Lecture"],
@@ -1140,7 +1239,8 @@
     "style": ["Enlightenment"],
     "location": "Derby, England",
     "location-coordinate": [52.9247, -1.478],
-    "artist": ["Joseph Wright of Derby", "Joseph Wright", "Wright of Derby"]
+    "artist": ["Joseph Wright of Derby", "Joseph Wright", "Wright of Derby"],
+    "medium": "Oil on canvas"
   },
   "swing": {
     "title": ["The Swing", "Swing"],
@@ -1152,7 +1252,8 @@
     "style": ["Rococo"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Jean-Honoré Fragonard", "Fragonard", "Jean Fragonard"]
+    "artist": ["Jean-Honoré Fragonard", "Fragonard", "Jean Fragonard"],
+    "medium": "Oil on canvas"
   },
   "monticello": {
     "title": "Monticello",
@@ -1164,7 +1265,8 @@
     "style": ["Neo-Classical", "Neoclassicism"],
     "location": "Virginia, U.S.",
     "location-coordinate": [38.010306, -78.452333],
-    "artist": ["Thomas Jefferson (architect)", "Thomas Jefferson", "Jefferson"]
+    "artist": ["Thomas Jefferson (architect)", "Thomas Jefferson", "Jefferson"],
+    "medium": "Brick, glass, stone, and wood"
   },
   "oathOfTheHoratii": {
     "title": ["The Oath of the Horatii", "Oath of the Horatii"],
@@ -1176,7 +1278,8 @@
     "style": ["Neo-Classical", "Neoclassicism"],
     "location": "Rome, Italy",
     "location-coordinate": [41.893333, 12.482778],
-    "artist": ["Jacques-Louis David", "Jacques David", "David"]
+    "artist": ["Jacques-Louis David", "Jacques David", "David"],
+    "medium": "Oil on canvas"
   },
   "georgeWashington": {
     "title": "George Washington",
@@ -1188,7 +1291,8 @@
     "style": ["Neo-Classical", "Neoclassicism"],
     "location": "Virginia State Capitol in Richmond, Virginia, U.S.",
     "location-coordinate": [37.538675, -77.433333],
-    "artist": ["Jean-Antoine Houdon", "Jean Houdon", "Houdon"]
+    "artist": ["Jean-Antoine Houdon", "Jean Houdon", "Houdon"],
+    "medium": "Marble"
   },
   "selfPortrait": {
     "title": ["Self-Portrait", "Self Portrait"],
@@ -1200,7 +1304,8 @@
     "style": ["Rococo"],
     "location": "Rome, Italy",
     "location-coordinate": [41.893333, 12.482778],
-    "artist": ["Elisabeth Louise Vigée Le Brun", "Elisabeth Louise Le Brun", "Elisabeth Vigée Le Brun", "Elisabeth Le Brun", "Le Brun"]
+    "artist": ["Elisabeth Louise Vigée Le Brun", "Elisabeth Louise Le Brun", "Elisabeth Vigée Le Brun", "Elisabeth Le Brun", "Le Brun"],
+    "medium": "Oil on canvas"
   },
   "yNoHaiRemedio": {
     "title": ["Y no hai remedio, from Los Desastres de la Guerra, plate 15", "Y no hai remedio from Los Desastres de la Guerra", "Y no hai remedio", "Los Desastres de la Guerra plate 15", "And There's Nothing to Be Done, from The Disasters of War, plate 15", "And There's Nothing to Be Done from The Disasters of War", "And There's Nothing to Be Done", "The Disasters of War plate 15"],
@@ -1212,7 +1317,8 @@
     "style": ["Romantic", "Romanticism"],
     "location": "Madrid, Spain",
     "location-coordinate": [40.416667, -3.7],
-    "artist": ["Francisco de Goya", "de Goya", "Goya"]
+    "artist": ["Francisco de Goya", "de Goya", "Goya"],
+    "medium": "Etching, drypoint, burin, and burnishing"
   },
   "grandeOdalisque": {
     "title": ["La Grande Odalisque", "Grande Odalisque"],
@@ -1224,7 +1330,8 @@
     "style": ["Romantic", "Romanticism"],
     "location": "Rome, Italy",
     "location-coordinate": [41.893333, 12.482778],
-    "artist": ["Jean-Auguste-Dominique Ingres", "Jean-Auguste Ingres", "Jean-Dominique Ingres", "Jean Ingres", "Ingres"]
+    "artist": ["Jean-Auguste-Dominique Ingres", "Jean-Auguste Ingres", "Jean-Dominique Ingres", "Jean Ingres", "Ingres"],
+    "medium": "Oil on canvas"
   },
   "libertyLeadingThePeople": {
     "title": "Liberty Leading the People",
@@ -1236,7 +1343,8 @@
     "style": ["Romantic", "Romanticism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Eugène Delacroix", "Delacroix"]
+    "artist": ["Eugène Delacroix", "Delacroix"],
+    "medium": "Oil on canvas"
   },
   "oxbow": {
     "title": ["The Oxbow", "Oxbow"],
@@ -1248,7 +1356,8 @@
     "style": ["Romantic", "Romanticism", "Hudson River School"],
     "location": "Mount Holyoke, Northampton, Massachusetts, U.S.",
     "location-coordinate": [42.300833, -72.586944],
-    "artist": ["Thomas Cole", "Cole"]
+    "artist": ["Thomas Cole", "Cole"],
+    "medium": "Oil on canvas"
   },
   "stillLifeInStudio": {
     "title": "Still Life in Studio",
@@ -1260,7 +1369,8 @@
     "style": ["Daguerrotype"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Louis-Jacques-Mandé Daguerre", "Louis-Jacques Daguerre", "Louis-Mandé Daguerre", "Louis Daguerre", "Daguerre"]
+    "artist": ["Louis-Jacques-Mandé Daguerre", "Louis-Jacques Daguerre", "Louis-Mandé Daguerre", "Louis Daguerre", "Daguerre"],
+    "medium": "Daguerreotype"
   },
   "slaveShip": {
     "title": "Slave Ship",
@@ -1272,7 +1382,8 @@
     "style": ["Romantic", "Romanticism"],
     "location": "London, England",
     "location-coordinate": [51.507222, -0.1275],
-    "artist": ["Joseph Mallord William Turner", "Joseph Mallord Turner", "Joseph William Turner", "Joseph Turner", "Turner", "J. M. W. Turner", "J.M.W. Turner"]
+    "artist": ["Joseph Mallord William Turner", "Joseph Mallord Turner", "Joseph William Turner", "Joseph Turner", "Turner", "J. M. W. Turner", "J.M.W. Turner"],
+    "medium": "Oil on canvas"
   },
   "palaceOfWestminster": {
     "title": ["Palace of Westminster (Houses of Parliament)", "Houses of Parliament", "Palace of Westminster"],
@@ -1284,7 +1395,8 @@
     "style": ["Gothic Revival"],
     "location": "London, England",
     "location-coordinate": [51.499167, -0.124722],
-    "artist": ["Charles Barry and Augustus W. N. Pugin (architects)", "Charles Barry and Augustus W. N. Pugin", "Charles Barry and Augustus W.N.Pugin (architects)", "Charles Barry and Augustus W.N.Pugin", "Charles Barry and Augustus Pugin", "Barry and Pugin", "Charles Barry°", "Augustus Pugin°", "Barry°°", "Pugin°°"]
+    "artist": ["Charles Barry and Augustus W. N. Pugin (architects)", "Charles Barry and Augustus W. N. Pugin", "Charles Barry and Augustus W.N.Pugin (architects)", "Charles Barry and Augustus W.N.Pugin", "Charles Barry and Augustus Pugin", "Barry and Pugin", "Charles Barry°", "Augustus Pugin°", "Barry°°", "Pugin°°"],
+    "medium": "Limestone masonry and glass"
   },
   "stoneBreakers": {
     "title": ["The Stone Breakers", "Stone Breakers"],
@@ -1296,7 +1408,8 @@
     "style": ["Realism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Gustave Courbet", "Courbet"]
+    "artist": ["Gustave Courbet", "Courbet"],
+    "medium": "Oil on canvas"
   },
   "nadarRaisingPhotography": {
     "title": ["Nadar Raising Photography to the Height of Art", "Nadar Raising Photography to Height of Art", "Nadar Raising Photography"],
@@ -1308,7 +1421,8 @@
     "style": ["Realism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Honoré Daumier", "Daumier"]
+    "artist": ["Honoré Daumier", "Daumier"],
+    "medium": "Lithograph"
   },
   "olympia": {
     "title": "Olympia",
@@ -1320,7 +1434,8 @@
     "style": ["Realism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Édouard Manet", "Manet"]
+    "artist": ["Édouard Manet", "Manet"],
+    "medium": "Oil on canvas"
   },
   "saintLazareStation": {
     "title": ["The Saint-Lazare Station", "Saint-Lazare Station"],
@@ -1332,7 +1447,8 @@
     "style": ["Impressionism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Claude Monet", "Monet"]
+    "artist": ["Claude Monet", "Monet"],
+    "medium": "Oil on canvas"
   },
   "horseInMotion": {
     "title": ["The Horse in Motion", "Horse in Motion"],
@@ -1344,7 +1460,8 @@
     "style": ["Chronophotography"],
     "location": "Palo Alto, California, U.S.",
     "location-coordinate": [37.429167, -122.138056],
-    "artist": ["Eadweard Muybridge", "Muybridge"]
+    "artist": ["Eadweard Muybridge", "Muybridge"],
+    "medium": "Albumen print"
   },
   "valleyOfMexico": {
     "title": ["The Valley of Mexico from the Hillside of Santa Isabel (El Valle de México desde el Cerro de Santa Isabel)", "El Valle de México desde el Cerro de Santa Isabel", "The Valley of Mexico from the Hillside of Santa Isabel", "Valley of Mexico from the Hillside of Santa Isabel", "The Valley of Mexico from Hillside of Santa Isabel", "Valley of Mexico from Hillside of Santa Isabel", "The Valley of Mexico from Santa Isabel°", "Valley of Mexico from Santa Isabel°"],
@@ -1356,7 +1473,8 @@
     "style": ["Romantic", "Romanticism"],
     "location": "Mexico City, Mexico",
     "location-coordinate": [19.485633, -99.116796],
-    "artist": ["Jose María Velasco", "Jose Velasco", "Velasco"]
+    "artist": ["Jose María Velasco", "Jose Velasco", "Velasco"],
+    "medium": "Oil on canvas"
   },
   "burghersOfCalais": {
     "title": ["The Burghers of Calais", "Burghers of Calais"],
@@ -1368,7 +1486,8 @@
     "style": ["Impressionism", "Naturalism", "Modernism"],
     "location": "Calais, France",
     "location-coordinate": [50.952361, 1.853333],
-    "artist": ["Auguste Rodin", "Rodin"]
+    "artist": ["Auguste Rodin", "Rodin"],
+    "medium": "Bronze"
   },
   "starryNight": {
     "title": ["The Starry Night", "Starry Night"],
@@ -1380,7 +1499,8 @@
     "style": ["Post-Impressionism"],
     "location": "Saint-Rémy-de-Provence, Southern France",
     "location-coordinate": [43.79, 4.8325],
-    "artist": ["Vincent Van Gogh", "Van Gogh"]
+    "artist": ["Vincent Van Gogh", "Van Gogh"],
+    "medium": "Oil on canvas"
   },
   "coiffure": {
     "title": ["The Coiffure", "Coiffure"],
@@ -1392,7 +1512,8 @@
     "style": ["Impressionism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Mary Cassatt", "Cassatt"]
+    "artist": ["Mary Cassatt", "Cassatt"],
+    "medium": "Drypoint and aquatint"
   },
   "scream": {
     "title": ["The Scream", "Scream"],
@@ -1404,7 +1525,8 @@
     "style": ["Symbolism", "Proto-Expressionism"],
     "location": "Oslo, Norway",
     "location-coordinate": [59.913333, 10.738889],
-    "artist": ["Edvard Munch", "Munch"]
+    "artist": ["Edvard Munch", "Munch"],
+    "medium": "Tempera and pastels on cardboard"
   },
   "whereWhatWhere": {
     "title": ["Where Do We Come From? What Are We? Where Are We Going?", "Where Do We Come From?°°", "What Are We?°°", "Where Are We Going?°°", "Where Do We Come From? What Are We?°", "Where Do We Come From? Where Are We Going?°", "What Are We? Where Are We Going?°"],
@@ -1416,7 +1538,8 @@
     "style": ["Post Impressionism", "Symbolism"],
     "location": "Tahiti, French Polynesia",
     "location-coordinate": [17.666667, -149.416667],
-    "artist": ["Paul Gauguin", "Gauguin"]
+    "artist": ["Paul Gauguin", "Gauguin"],
+    "medium": "Oil on canvas"
   },
   "carsonPirieScottBuilding": {
     "title": ["Carson, Pirie, Scott and Company Building", "Carson, Pirie, and Scott Building", "Carson, Pirie, Scott Building", "Sullivan Center°°"],
@@ -1428,7 +1551,8 @@
     "style": ["Modernism", "Chicago School"],
     "location": "Chicago, Illinois, U.S.",
     "location-coordinate": [41.881711, -87.62755],
-    "artist": ["Louis Sullivan (architect)", "Louis Sullivan", "Sullivan"]
+    "artist": ["Louis Sullivan (architect)", "Louis Sullivan", "Sullivan"],
+    "medium": "Iron, steel, glass, and terra cotta"
   },
   "montSainteVictoire": {
     "title": ["Mont Sainte-Victoire", "Sainte-Victoire°"],
@@ -1440,7 +1564,8 @@
     "style": ["Post-Impressionism"],
     "location": "Southern France",
     "location-coordinate": [43.538333, 5.446111],
-    "artist": ["Paul Cézanne", "Cézanne"]
+    "artist": ["Paul Cézanne", "Cézanne"],
+    "medium": "Oil on canvas"
   },
   "demoisellesDAvignon": {
     "title": ["Les Demoiselles d’Avignon", "Demoiselles d’Avignon", "Les Demoiselles Avignon", "Demoiselles Avignon", "The Ladies of Avignon", "Ladies of Avignon"],
@@ -1452,7 +1577,8 @@
     "style": ["Cubism", "Proto-Cubism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Pablo Picasso", "Picasso"]
+    "artist": ["Pablo Picasso", "Picasso"],
+    "medium": "Oil on canvas"
   },
   "steerage": {
     "title": ["The Steerage", "Steerage"],
@@ -1464,7 +1590,8 @@
     "style": ["Modernism"],
     "location": "Plymouth, England (likely)",
     "location-coordinate": [50.371389, -4.142222],
-    "artist": ["Alfred Stieglitz", "Stieglitz"]
+    "artist": ["Alfred Stieglitz", "Stieglitz"],
+    "medium": "Photogravure"
   },
   "kiss": {
     "title": ["The Kiss (Klimt)", "The Kiss", "Kiss", "Kiss Klimt", "The Kiss Klimt"],
@@ -1476,7 +1603,8 @@
     "style": ["Symbolism"],
     "location": "Vienna, Austria",
     "location-coordinate": [48.2083, 16.3725],
-    "artist": ["Gustav Klimt", "Klimt"]
+    "artist": ["Gustav Klimt", "Klimt"],
+    "medium": "Oil and gold leaf on canvas"
   },
   "kiss2": {
     "title": ["The Kiss (Brancusi)", "The Kiss", "Kiss", "Kiss Brancusi", "The Kiss Brancusi"],
@@ -1488,7 +1616,8 @@
     "style": ["Avant-garde"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Constantin Brancusi", "Brancusi"]
+    "artist": ["Constantin Brancusi", "Brancusi"],
+    "medium": "Stone"
   },
   "portuguese": {
     "title": ["The Portuguese", "Portuguese"],
@@ -1500,7 +1629,8 @@
     "style": ["Cubism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Georges Braque", "Braque"]
+    "artist": ["Georges Braque", "Braque"],
+    "medium": "Oil on canvas"
   },
   "goldfish": {
     "title": "Goldfish",
@@ -1512,7 +1642,8 @@
     "style": ["Fauvism"],
     "location": "Paris, France",
     "location-coordinate": [48.8239, 2.27],
-    "artist": ["Henri Matisse", "Matisse"]
+    "artist": ["Henri Matisse", "Matisse"],
+    "medium": "Oil on canvas"
   },
   "improvisation28": {
     "title": ["Improvisation 28 (second version)", "Improv 28 (second version)", "Improvisation 28 (2nd version)", "Improv 28 (2nd version)", "Improvisation 28", "Improv 28"],
@@ -1524,7 +1655,8 @@
     "style": ["Expressionism"],
     "location": "Munich, Germany",
     "location-coordinate": [48.1375, 11.575],
-    "artist": ["Vassily Kandinsky", "Kandisky"]
+    "artist": ["Vassily Kandinsky", "Kandisky"],
+    "medium": "Oil on canvas"
   },
   "selfPortraitAsSoldier": {
     "title": ["Self-Portrait as a Soldier", "Self-Portrait as Soldier"],
@@ -1536,7 +1668,8 @@
     "style": ["Expressionism"],
     "location": "Berlin, Germany",
     "location-coordinate": [52.52, 13.405],
-    "artist": ["Ernst Ludwig Kirchner", "Ernst Kirchner", "Kirchner"]
+    "artist": ["Ernst Ludwig Kirchner", "Ernst Kirchner", "Kirchner"],
+    "medium": "Oil on canvas"
   },
   "memorialSheetForKarlLiebknecht": {
     "title": ["Memorial Sheet for Karl Liebknecht", "Memorial for Karl Liebknecht", "Memorial Sheet for Liebknecht", "Memorial for Liebknecht"],
@@ -1548,7 +1681,8 @@
     "style": ["Expressionism"],
     "location": "Berlin, Germany",
     "location-coordinate": [52.52, 13.405],
-    "artist": ["Käthe Kollwitz", "Kollwitz"]
+    "artist": ["Käthe Kollwitz", "Kollwitz"],
+    "medium": "Woodcut"
   },
   "villaSavoye": {
     "title": "Villa Savoye",
@@ -1560,7 +1694,8 @@
     "style": ["International Style"],
     "location": "Poissy-sur-Seine, France",
     "location-coordinate": [48.924444, 2.028333],
-    "artist": ["Le Corbusier (architect)", "Le Corbusier", "Corbusier"]
+    "artist": ["Le Corbusier (architect)", "Le Corbusier", "Corbusier"],
+    "medium": "Steel and reinforced concrete"
   },
   "compositionWithRedBlueYellow": {
     "title": ["Composition with Red, Blue and Yellow", "Composition with Red, Blue, Yellow"],
@@ -1572,7 +1707,8 @@
     "style": ["De Stijl", "Neo-Plasticism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Piet Mondrian", "Mondrian"]
+    "artist": ["Piet Mondrian", "Mondrian"],
+    "medium": "Oil on canvas"
   },
   "firstFiveYearPlan": {
     "title": ["Illustration from The Results of the First Five-Year Plan", "Illustration from Results of the First Five-Year Plan", "Illustration from The Results of First Five-Year Plan", "Illustration from Results of First Five-Year Plan", "The Results of the First Five-Year Plan", "Results of the First Five-Year Plan", "The Results of First Five-Year Plan", "Results of First Five-Year Plan"],
@@ -1584,7 +1720,8 @@
     "style": ["Russian Constructivism", "Russian avante-garde"],
     "location": "Moscow, Russia",
     "location-coordinate": [55.755833, 37.617778],
-    "artist": ["Varvara Stepanova", "Stepanova"]
+    "artist": ["Varvara Stepanova", "Stepanova"],
+    "medium": "Photomontage"
   },
   "object": {
     "title": ["Object (Le Déjeuner en fourrure)", "Object", "Le Déjeuner en fourrure"],
@@ -1596,7 +1733,8 @@
     "style": ["Surrealism"],
     "location": "Paris, France",
     "location-coordinate": [48.8567, 2.3522],
-    "artist": ["Meret Oppenheim", "Oppenheim"]
+    "artist": ["Meret Oppenheim", "Oppenheim"],
+    "medium": "Fur-covered cup, saucer, and spoon"
   },
   "fallingwater": {
     "title": ["Fallingwater", "Falling water"],
@@ -1608,7 +1746,8 @@
     "style": ["Prairie School", "Modernism"],
     "location": "Pennsylvania, U.S.",
     "location-coordinate": [39.90626, -79.46783],
-    "artist": ["Frank Lloyd Wright", "Frank Wright", "Wright"]
+    "artist": ["Frank Lloyd Wright", "Frank Wright", "Wright"],
+    "medium": "Reinforced concrete, sandstone, steel, and glass"
   },
   "twoFridas": {
     "title": ["The Two Fridas", "Two Fridas"],
@@ -1620,7 +1759,8 @@
     "style": ["Surrealism"],
     "location": "Mexico City, Mexico",
     "location-coordinate": [19.35, -99.162222],
-    "artist": ["Frida Kahlo", "Kahlo"]
+    "artist": ["Frida Kahlo", "Kahlo"],
+    "medium": "Oil on canvas"
   },
   "migrationOfTheNegro": {
     "title": ["The Migration of the Negro, Panel no. 49", "Migration of the Negro, Panel no. 49", "The Migration of the Negro", "Migration of the Negro"],
@@ -1632,7 +1772,8 @@
     "style": ["Harlem Renaissance"],
     "location": "Harlem, New York City, New York, U.S.",
     "location-coordinate": [40.808889, -73.948333],
-    "artist": ["Jacob Lawrence", "Lawrence"]
+    "artist": ["Jacob Lawrence", "Lawrence"],
+    "medium": "Casein tempera on hardboard"
   },
   "jungle": {
     "title": ["The Jungle", "Jungle"],
@@ -1644,7 +1785,8 @@
     "style": ["Surrealism"],
     "location": "Havana, Cuba",
     "location-coordinate": [23.136667, -82.358889],
-    "artist": ["Wifredo Lam", "Lam"]
+    "artist": ["Wifredo Lam", "Lam"],
+    "medium": "Gouache on paper mounted on canvas"
   },
   "dreamOfSundayAfternoon": {
     "title": ["Dream of a Sunday Afternoon in the Alameda Park", "Dream of Sunday Afternoon in the Alameda Park", "Dream of a Sunday Afternoon in Alameda Park", "Dream of Sunday Afternoon in Alameda Park", "Dream of a Sunday Afternoon", "Dream of Sunday Afternoon"],
@@ -1656,7 +1798,8 @@
     "style": ["Surrealism", "Mexican Muralism"],
     "location": "Mexico City, Mexico",
     "location-coordinate": [19.43614, -99.14697],
-    "artist": ["Diego Rivera", "Rivera"]
+    "artist": ["Diego Rivera", "Rivera"],
+    "medium": "Fresco"
   },
   "fountain": {
     "title": ["Fountain (second version)", "Fountain"],
@@ -1668,7 +1811,8 @@
     "style": ["Dada"],
     "location": "New York City, New York, U.S.",
     "location-coordinate": [40.758611, -73.972222],
-    "artist": ["Marcel Duchamp", "Duchamp"]
+    "artist": ["Marcel Duchamp", "Duchamp"],
+    "medium": "Readymade glazed sanitary china with black paint"
   },
   "womanI": {
     "title": ["Woman, I", "Woman I"],
@@ -1680,7 +1824,8 @@
     "style": ["Abstract Expressionism"],
     "location": "New York City, New York, U.S.",
     "location-coordinate": [40.758611, -73.972222],
-    "artist": ["Willem de Kooning", "de Kooning", "Kooning"]
+    "artist": ["Willem de Kooning", "de Kooning", "Kooning"],
+    "medium": "Oil on canvas"
   },
   "seagramBuilding": {
     "title": "Seagram Building",
@@ -1692,7 +1837,8 @@
     "style": ["International Style", "International"],
     "location": "New York City, New York, U.S.",
     "location-coordinate": [40.758611, -73.972222],
-    "artist": ["Ludwig Mies van der Rohe and Philip Johnson (architects)", "Ludwig Mies van der Rohe and Philip Johnson", "Ludwig Mies van der Rohe°", "Philip Johnson°", "Ludwig Mies°", "Mies°°", "Johnson°°", "Ludwig Mies and Philip Johnson", "Mies and Johnson"]
+    "artist": ["Ludwig Mies van der Rohe and Philip Johnson (architects)", "Ludwig Mies van der Rohe and Philip Johnson", "Ludwig Mies van der Rohe°", "Philip Johnson°", "Ludwig Mies°", "Mies°°", "Johnson°°", "Ludwig Mies and Philip Johnson", "Mies and Johnson"],
+    "medium": "Steel frame with glass curtain wall and bronze"
   },
   "marilynDiptych": {
     "title": "Marilyn Diptych",
@@ -1704,7 +1850,8 @@
     "style": ["Pop Art"],
     "location": "New York City, New York, U.S.",
     "location-coordinate": [40.758611, -73.972222],
-    "artist": ["Andy Warhol", "Warhol"]
+    "artist": ["Andy Warhol", "Warhol"],
+    "medium": "Oil, acrylic, and silkscreen enamel on canvas"
   },
   "narcissusGarden": {
     "title": "Narcissus Garden",
@@ -1716,7 +1863,8 @@
     "style": ["Conceptual Art", "Modernism"],
     "location": "Venice Biennale, Italy (original installation)",
     "location-coordinate": [45.428889, 12.358611],
-    "artist": ["Yayoi Kusama", "Kusama"]
+    "artist": ["Yayoi Kusama", "Kusama"],
+    "medium": "Mirror balls"
   },
   "bay": {
     "title": ["The Bay", "Bay"],
@@ -1728,7 +1876,8 @@
     "style": ["Abstract Expressionism", "Color Field"],
     "location": "New York City, New York, U.S. (approx.)",
     "location-coordinate": [40.7128, -74.0061],
-    "artist": ["Helen Frankenthaler", "Frankenthaler"]
+    "artist": ["Helen Frankenthaler", "Frankenthaler"],
+    "medium": "Acrylic on canvas"
   },
   "lipstick": {
     "title": ["Lipstick (Ascending) on Caterpillar Tracks", "Lipstick on Caterpillar Tracks", "Lipstick on Tracks", "Lipstick°"],
@@ -1740,7 +1889,8 @@
     "style": ["Pop Art"],
     "location": "Yale University, Connecticut, U.S.",
     "location-coordinate": [41.316389, -72.922222],
-    "artist": ["Claes Oldenburg", "Oldenburg"]
+    "artist": ["Claes Oldenburg", "Oldenburg"],
+    "medium": "Cor-Ten steel, steel, aluminum, and cast resin; painted with polyurethane enamel"
   },
   "spiralJetty": {
     "title": "Spiral Jetty",
@@ -1752,7 +1902,8 @@
     "style": ["Minimalism"],
     "location": "Great Salt Lake, Utah, U.S.",
     "location-coordinate": [41.4377, -112.6689],
-    "artist": ["Robert Smithson", "Smithson"]
+    "artist": ["Robert Smithson", "Smithson"],
+    "medium": "Earthwork: mud, precipitated salt crystals, rocks, and water coil"
   },
   "houseInNewCastleCounty": {
     "title": "House in New Castle County",
@@ -1764,7 +1915,8 @@
     "style": ["Postmodernism", "Late Modernism"],
     "location": "Delaware, U.S.",
     "location-coordinate": [39.58, -75.64],
-    "artist": ["Robert Venturi, John Rauch, and Denise Scott Brown (architects)", "Robert Venturi, John Rauch, and Denise Scott Brown", "Venturi, Rauch, Brown", "Venturi, Rauch, and Brown", "Robert Venturi°°", "John Rauch°°", "Denise Scott Brown°°", "Venturi°°", "Rauch°°", "Brown°°"]
+    "artist": ["Robert Venturi, John Rauch, and Denise Scott Brown (architects)", "Robert Venturi, John Rauch, and Denise Scott Brown", "Venturi, Rauch, Brown", "Venturi, Rauch, and Brown", "Robert Venturi°°", "John Rauch°°", "Denise Scott Brown°°", "Venturi°°", "Rauch°°", "Brown°°"],
+    "medium": "Wood frame and stucco"
   },
   "chavinDeHuantar": {
     "title": "Chavín de Huántar",
@@ -1775,7 +1927,8 @@
     "date-range": 100,
     "style": ["Chavín","Chavín culture"],
     "location": "Northern highlands, Peru",
-    "location-coordinate": [-9.592778, -77.178333]
+    "location-coordinate": [-9.592778, -77.178333],
+    "medium": "Stone (architectural complex); granite (Lanzón and sculpture); hammered gold alloy (jewelry)"
   },
   "mesaVerde": {
     "title": ["Mesa Verde cliff dwellings","Mesa Verde"],
@@ -1786,7 +1939,8 @@
     "date-range": 100,
     "style": ["Ancestral Puebloan","Puebloan","Anasazi"],
     "location": "Montezuma County, Colorado",
-    "location-coordinate": [37.1838, -108.4887]
+    "location-coordinate": [37.1838, -108.4887],
+    "medium": "Sandstone"
   },
   "yaxchilan": {
     "title": "Yaxchilán",
@@ -1797,7 +1951,8 @@
     "date-range": 100,
     "style": ["Maya civilization","Maya"],
     "location": "Chiapas, Mexico",
-    "location-coordinate": [16.9, -90.966667]
+    "location-coordinate": [16.9, -90.966667],
+    "medium": "Limestone (architectural complex)"
   },
   "greatSerpentMound": {
     "title": "Great Serpent Mound",
@@ -1808,7 +1963,8 @@
     "date-range": 100,
     "style": ["Mississippian","Eastern Woodlands"],
     "location": "Adams County, southern Ohio",
-    "location-coordinate": [39.026389, -83.430833]
+    "location-coordinate": [39.026389, -83.430833],
+    "medium": "Earthwork/effigy mound"
   },
   "temploMayor": {
     "title": "Templo Mayor",
@@ -1819,7 +1975,8 @@
     "date-range": 100,
     "style": ["Mexica","Aztec"],
     "location": "Tenochtitlan (modern Mexico City, Mexico)",
-    "location-coordinate": [19.4333, -99.13278]
+    "location-coordinate": [19.4333, -99.13278],
+    "medium": "Stone"
   },
   "coyolxauhquiStone": {
     "title": ["The Coyolxauhqui Stone","Coyolxauhqui Stone"],
@@ -1830,7 +1987,8 @@
     "style": ["Mexica","Aztec"],
     "location": "Tenochtitlan (modern Mexico City, Mexico)",
     "location-coordinate": [19.4333, -99.13278],
-    "flashcard-disable": true
+    "flashcard-disable": true,
+    "medium": "Volcanic stone"
   },
   "calendarStone": {
     "title": "Calendar Stone",
@@ -1841,7 +1999,8 @@
     "style": ["Mexica","Aztec"],
     "location": "Tenochtitlan (modern Mexico City, Mexico)",
     "location-coordinate": [19.4333, -99.13278],
-    "flashcard-disable": true
+    "flashcard-disable": true,
+    "medium": "Basalt"
   },
   "olmecMask": {
     "title": ["Olmec-style mask","Olmec style mask","Olmec mask"],
@@ -1852,10 +2011,11 @@
     "style": ["Mexica","Aztec"],
     "location": "Tenochtitlan (modern Mexico City, Mexico)",
     "location-coordinate": [19.4333, -99.13278],
-    "flashcard-disable": true
+    "flashcard-disable": true,
+    "medium": "Jadeite"
   },
   "featherHeaddress": {
-    "title": ["Ruler’s feather headdress (probably of Motecuhzoma II)","Ruler’s feather headdress","Feather headdress°"],
+    "title": ["Ruler’s feather headdress (probably of Motecuhzoma II)","Ruler’s feather headdress","Feather headdress°","Motecuhzoma's feather headdress"],
     "link": "https://smarthistory.org/feathered-headdress-aztec/?sidebar=ap-art-history-syllabus",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Feather_headdress_Moctezuma_II.JPG/960px-Feather_headdress_Moctezuma_II.JPG",
     "date": "1428–1520 CE",
@@ -1863,7 +2023,8 @@
     "date-range": 100,
     "style": ["Mexica","Aztec"],
     "location": "Tenochtitlan (modern Mexico City, Mexico)",
-    "location-coordinate": [19.4333, -99.13278]
+    "location-coordinate": [19.4333, -99.13278],
+    "medium": "Feathers (quetzal and cotinga) and gold"
   },
   "cusco": {
     "title": "City of Cusco",
@@ -1874,7 +2035,8 @@
     "date-range": 100,
     "style": ["Inka","Inca"],
     "location": "Central highlands, Peru",
-    "location-coordinate": [-13.525, -71.972222]
+    "location-coordinate": [-13.525, -71.972222],
+    "medium": "Andesite"
   },
   "maizeCobs": {
     "title": "Maize cobs",
@@ -1885,7 +2047,8 @@
     "date-range": 100,
     "style": ["Inka","Inca"],
     "location": "Central highlands, Peru",
-    "location-coordinate": [-13.52, -71.975556]
+    "location-coordinate": [-13.52, -71.975556],
+    "medium": "Sheet metal/repoussé, metal alloys"
   },
   "machuPicchu": {
     "title": "City of Machu Picchu",
@@ -1896,7 +2059,8 @@
     "date-range": 100,
     "style": ["Inka","Inca"],
     "location": "Central highlands, Peru",
-    "location-coordinate": [-13.163333, -72.545556]
+    "location-coordinate": [-13.163333, -72.545556],
+    "medium": "Granite (architectural complex)"
   },
   "allToqapuTunic": {
     "title": "All-T’oqapu tunic",
@@ -1907,7 +2071,8 @@
     "date-range": 100,
     "style": ["Inka","Inca"],
     "location": "Central highlands, Peru",
-    "location-coordinate": [-13.163333, -72.545556]
+    "location-coordinate": [-13.163333, -72.545556],
+    "medium": "Camelid fiber and cotton"
   },
   "bandolierBag": {
     "title": "Bandolier bag",
@@ -1918,7 +2083,8 @@
     "date-range": 100,
     "style": ["Lenape","Delaware tribe","Delaware"],
     "location": "Delaware tribe, Eastern Woodlands",
-    "location-coordinate": [40.385043316547225, -75.02013049689364]
+    "location-coordinate": [40.385043316547225, -75.02013049689364],
+    "medium": "Beadwork on leather"
   },
   "transformationMask": {
     "title": "Transformation mask",
@@ -1929,7 +2095,8 @@
     "date-range": 100,
     "style": ["Kwakwaka’wakw","Kwakiutl"],
     "location": "Northwest coast of Canada",
-    "location-coordinate": [50.14317347909118, -125.24026962856146]
+    "location-coordinate": [50.14317347909118, -125.24026962856146],
+    "medium": "Wood, paint, and string"
   },
   "paintedElkHide": {
     "title": "Painted elk hide",
@@ -1941,7 +2108,8 @@
     "style": ["Eastern Shoshone","Shoshone"],
     "location": "Wind River Reservation, Wyoming",
     "location-coordinate": [43.26980433507175, -108.80528155155056],
-    "artist": ["Cotsiogo","Cadzi Cody"]
+    "artist": ["Cotsiogo","Cadzi Cody"],
+    "medium": "Painted elk hide"
   },
   "blackOnBlackVessel": {
     "title": ["Black-on-black ceramic vessel","Black on black ceramic vessel","Black-on-black vessel°","Black on black vessel°"],
@@ -1953,7 +2121,8 @@
     "style": ["Tewa", "Puebloan","San Ildefonso Pueblo"],
     "location": "San Ildefonso Pueblo, New Mexico",
     "location-coordinate": [35.890556, -106.132778],
-    "artist": ["Maria Martínez and Julian Martínez","Maria Martinez","Julian Martinez","Maria and Julian Martinez"]
+    "artist": ["Maria Martínez and Julian Martínez","Maria Martinez","Julian Martinez","Maria and Julian Martinez"],
+    "medium": "Blackware ceramic"
   },
   "greatZimbabwe": {
     "title": "Great Zimbabwe",
@@ -1964,7 +2133,8 @@
     "date-range": 100,
     "style": ["Shona peoples","Shona"],
     "location": "Southeastern Zimbabwe",
-    "location-coordinate": [-20.266667, 30.933333]
+    "location-coordinate": [-20.266667, 30.933333],
+    "medium": "Coursed granite blocks"
   },
   "mosqueOfDjenne": {
     "title": ["Great Mosque of Djenné", "Mosque of Djenné"],
@@ -1975,7 +2145,8 @@
     "date-range": 100,
     "style": ["Mali Empire", "Mali","Islamic"],
     "location": "Mali",
-    "location-coordinate": [13.905278, -4.555556]
+    "location-coordinate": [13.905278, -4.555556],
+    "medium": "Adobe"
   },
   "wallPlaque": {
     "title": ["Wall plaque, from Oba’s palace","Wall plaque"],
@@ -1986,7 +2157,8 @@
     "date-range": 100,
     "style": ["Edo peoples", "Edo","Kingdom of Benin","Benin"],
     "location": "Kingdom of Benin, Nigeria",
-    "location-coordinate": [6.333333, 5.616667]
+    "location-coordinate": [6.333333, 5.616667],
+    "medium": "Cast brass"
   },
   "goldenStool": {
     "title": ["Sika dwa kofi (Golden Stool)","Sika dwa kofi","Golden Stool"],
@@ -1997,7 +2169,8 @@
     "date-range": 100,
     "style": ["Ashanti peoples", "Ashanti","Asante"],
     "location": "South central Ghana",
-    "location-coordinate": [5.45, -0.966667]
+    "location-coordinate": [5.45, -0.966667],
+    "medium": "Gold over wood and cast-gold attachments"
   },
   "portraitFigure": {
     "title": ["Ndop (portrait figure) of King Mishe miShyaang maMbul","Ndop of King Mishe miShyaang maMbul","Portrait figure of King Mishe miShyaang maMbul","Ndop","Portrait figure","King Mishe miShyaang maMbul"],
@@ -2008,7 +2181,8 @@
     "date-range": 100,
     "style": ["Kuba peoples", "Kuba"],
     "location": "Democratic Republic of the Congo",
-    "location-coordinate": [-4.176439409414317, 21.091086830834854]
+    "location-coordinate": [-4.176439409414317, 21.091086830834854],
+    "medium": "Wood"
   },
   "powerFigure": {
     "title": ["Power figure (Nkisi n’kondi )","Power figure","Nkisi n'kondi","Nkisi nkondi"],
@@ -2019,7 +2193,8 @@
     "date-range": 100,
     "style": ["Kongo peoples","Kongo"],
     "location": "Democratic Republic of the Congo",
-    "location-coordinate": [-5.951337978386487, 14.294806568291893]
+    "location-coordinate": [-5.951337978386487, 14.294806568291893],
+    "medium": "Wood and metal"
   },
   "femaleMask": {
     "title": ["Female (Pwo) mask","Female mask","Pwo mask"],
@@ -2030,7 +2205,8 @@
     "date-range": 100,
     "style": ["Chokwe peoples","Chokwe"],
     "location": "Democratic Republic of the Congo",
-    "location-coordinate": [-11.10957200932285, 24.088021274217354]
+    "location-coordinate": [-11.10957200932285, 24.088021274217354],
+    "medium": "Wood, fiber, pigment, and metal"
   },
   "portraitMask": {
     "title": ["Portrait mask (Mblo)","Portrait mask","Mblo"],
@@ -2041,7 +2217,8 @@
     "date-range": 100,
     "style": ["Baule peoples","Baule"],
     "location": "Côte d’Ivoire (Ivory Coast)",
-    "location-coordinate": [8, -5]
+    "location-coordinate": [8, -5],
+    "medium": "Wood and pigment"
   },
   "bunduMask": {
     "title": ["Bundu mask","Bundu helmet mask","Bundu helmet"],
@@ -2052,7 +2229,8 @@
     "date-range": 100,
     "style": ["Sande Society","Sande","Mende peoples","Mande"],
     "location": "West African forests of Sierra Leone and Liberia",
-    "location-coordinate": [6.942292937053245, -11.35465363384656]
+    "location-coordinate": [6.942292937053245, -11.35465363384656],
+    "medium": "Wood, cloth, and fiber"
   },
   "shrineFigure": {
     "title": ["Ikenga (shrine figure)","Ikenga","Shrine figure"],
@@ -2063,7 +2241,8 @@
     "date-range": 100,
     "style": ["Igbo peoples","Igbo"],
     "location": "Nigeria",
-    "location-coordinate": [6, 7]
+    "location-coordinate": [6, 7],
+    "medium": "Wood"
   },
   "memoryBoard": {
     "title": ["Lukasa (memory board)","Lukasa","Memory board"],
@@ -2074,7 +2253,8 @@
     "date-range": 100,
     "style": ["Mbudye Society","Mbudye","Luba peoples","Luba"],
     "location": "Democratic Republic of the Congo",
-    "location-coordinate": [-7.177647679114142, 23.153302491430768]
+    "location-coordinate": [-7.177647679114142, 23.153302491430768],
+    "medium": "Wood, beads, and metal"
   },
   "elephantMask": {
     "title": ["Aka elephant mask","Aka mask°","Elephant mask°"],
@@ -2085,7 +2265,8 @@
     "date-range": 100,
     "style": ["Bamileke people","Bamileke"],
     "location": "Cameroon, western grassfields region",
-    "location-coordinate": [6.5, 10.5]
+    "location-coordinate": [6.5, 10.5],
+    "medium": "Wood, woven raffia, cloth, and beads"
   },
   "reliquaryFigure": {
     "title": ["Reliquary figure (byeri)","Reliquary figure","Byeri"],
@@ -2096,7 +2277,8 @@
     "date-range": 100,
     "style": ["Fang peoples","Fang"],
     "location": "Southern Cameroon",
-    "location-coordinate": [3.2918407638362974, 12.48240125631749]
+    "location-coordinate": [3.2918407638362974, 12.48240125631749],
+    "medium": "Wood"
   },
   "verandaPost": {
     "title": ["Veranda post of enthroned king and senior wife (Opo Ogoga)","Opo Ogoga","Veranda post of enthroned king and senior wife","Veranda post","Opo Ogoga of enthroned king and senior wife"],
@@ -2108,7 +2290,8 @@
     "style": ["Yoruba peoples","Yoruba"],
     "location": "Nigeria",
     "location-coordinate": [8, 10],
-    "artist": ["Olowe of Ise"]
+    "artist": ["Olowe of Ise"],
+    "medium": "Wood and pigment"
   },
   "petra": {
     "title": ["Petra: Treasury and Great Temple", "Petra", "Treasury", "Great Temple"],
@@ -2119,10 +2302,11 @@
     "date-range": 100,
     "style": ["Nabataean","Ptolemaic","Roman"],
     "location": "Jordan",
-    "location-coordinate": [30.328611, 35.441944]
+    "location-coordinate": [30.328611, 35.441944],
+    "medium": "Cut rock"
   },
   "buddhaOfBamiyan": {
-    "title": ["Buddha","Buddha of Bamiyan"],
+    "title": ["Buddhas of Bamiyan", "Buddha of Bamiyan", "Buddha"],
     "link": "https://smarthistory.org/bamiyan-buddhas/?sidebar=ap-art-history-syllabus",
     "image": ["https://upload.wikimedia.org/wikipedia/commons/4/46/Buddha_of_Bamiyan.jpg","https://smarthistory.org/wp-content/uploads/2023/10/standing_buddha_bamiyan-870x410.png", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Fran%C3%A7oise_Foliot_-_Afghanistan_-_006.jpg/960px-Fran%C3%A7oise_Foliot_-_Afghanistan_-_006.jpg"],
     "date": "c. 400–800 CE (destroyed 2001 CE)",
@@ -2130,7 +2314,8 @@
     "date-range": 100,
     "style": ["Gandharan"],
     "location": "Bamiyan, Afghanistan",
-    "location-coordinate": [34.832, 67.8267]
+    "location-coordinate": [34.832, 67.8267],
+    "medium": "Cut rock with plaster and polychrome paint"
   },
   "kaaba": {
     "title": ["The Kaaba","Kaaba"],
@@ -2141,7 +2326,8 @@
     "date-range": 100,
     "style": ["Islamic", "Pre-Islamic"],
     "location": "Mecca, Saudi Arabia",
-    "location-coordinate": [21.4225, 39.826167]
+    "location-coordinate": [21.4225, 39.826167],
+    "medium": "Granite masonry, covered with silk curtain and calligraphy in gold and silver-wrapped thread"
   },
   "jowoRinpoche": {
     "title": "Jowo Rinpoche",
@@ -2152,7 +2338,8 @@
     "date-range": 100,
     "style": ["Yarlung Dynasty", "Yarlung","Tibetan"],
     "location": "Jokhang Temple, Lhasa, Tibet",
-    "location-coordinate": [29.653056, 91.0475]
+    "location-coordinate": [29.653056, 91.0475],
+    "medium": "Gilt metals with semiprecious stones, pearls, and paint; various offerings"
   },
   "domeOfTheRock": {
     "title": "Dome of the Rock",
@@ -2163,7 +2350,8 @@
     "date-range": 100,
     "style": ["Islamic", "Umayyad"],
     "location": "Jerusalem, Israel",
-    "location-coordinate": [31.778, 35.2354]
+    "location-coordinate": [31.778, 35.2354],
+    "medium": "Stone masonry and wooden roof decorated with glazed ceramic tile, mosaics, and gilt aluminum and bronze dome"
   },
   "greatMosqueOfIsfahan": {
     "title": ["Great Mosque (Masjid-e Jameh)","Great Mosque","Great Mosque of Isfahan","Masjid-e Jameh", "Mosque of Isfahan"],
@@ -2174,7 +2362,8 @@
     "date-range": 100,
     "style": ["Persian","Seljuk Turk", "Seljuk","Islamic"],
     "location": "Isfahan, Iran; Ilkhanid, Timurid and Safavid Dynasties",
-    "location-coordinate": [32.669722, 51.685278]
+    "location-coordinate": [32.669722, 51.685278],
+    "medium": "Stone, brick, wood, plaster, and glazed ceramic tile"
   },
   "folioFromAQuran": {
     "title": ["Folio from a Qur’an","Folio°"],
@@ -2185,7 +2374,8 @@
     "date-range": 100,
     "style": ["Abbasid Empire","Abbasid"],
     "location": "Arab, North Africa, or Near East",
-    "location-coordinate": [33.315278, 44.366111]
+    "location-coordinate": [33.315278, 44.366111],
+    "medium": "Ink, color, and gold on parchment"
   },
   "baptistere": {
     "title": ["Basin (Baptistère de St. Louis)","Basin","Baptistère de St. Louis"],
@@ -2197,7 +2387,8 @@
     "style": ["Mamluk Sultanate","Mamluk"],
     "location": "Arab, North Africa, or Near East",
     "location-coordinate": [30.044444, 31.235833],
-    "artist": ["Muhammad ibn al-Zain","al-Zain"]
+    "artist": ["Muhammad ibn al-Zain","al-Zain"],
+    "medium": "Brass inlaid with gold and silver"
   },
   "bahramGuarFightsTheKarg": {
     "title": ["Bahram Gur Fights the Karg, folio from the Great Il-Khanid Shahnama","Bahram Gur Fights the Karg"],
@@ -2208,7 +2399,8 @@
     "date-range": 100,
     "style": ["Persian", "Il’Khanid"],
     "location": "Islamic, Il'Khanid court",
-    "location-coordinate": [36.434167, 48.794444]
+    "location-coordinate": [36.434167, 48.794444],
+    "medium": "Ink and opaque watercolor, gold, and silver on paper"
   },
   "courtOfGayumars": {
     "title": ["The Court of Gayumars, folio from Shah Tahmasp’s Shahnama","The Court of Gayumars"],
@@ -2220,7 +2412,8 @@
     "style": ["Safavid Empire", "Safavid"],
     "location": "Tabriz, Iran",
     "location-coordinate": [38.081667, 46.299167],
-    "artist": ["Sultan Muhammad"]
+    "artist": ["Sultan Muhammad"],
+    "medium": "Ink, opaque watercolor, and gold on paper"
   },
   "arbadilCarpet": {
     "title": ["The Ardabil Carpet","Ardabil Carpet"],
@@ -2232,7 +2425,8 @@
     "style": ["Safavid Empire", "Safavid"],
     "location": "Sheikh Safi al-Din Khānegāh and Shrine Ensemble, Ardabil, Iran",
     "location-coordinate": [38.248611, 48.291389],
-    "artist": ["Maqsud of Kashan"]
+    "artist": ["Maqsud of Kashan"],
+    "medium": "Silk and wool"
   },
   "greatStupa": {
     "title": ["Great Stupa at Sanchi","Great Stupa°"],
@@ -2243,7 +2437,8 @@
     "date-range": 100,
     "style": ["Buddhist", "Mauryan", "Sunga Dynasty"],
     "location": "Madhya Pradesh, India",
-    "location-coordinate": [23.479223, 77.739683]
+    "location-coordinate": [23.479223, 77.739683],
+    "medium": "Stone masonry, sandstone on dome"
   },
   "terraCottaWarriors": {
     "title": ["Terra cotta warriors","Terracotta Army°","Terra cotta army°","Terracotta warriors"],
@@ -2254,7 +2449,8 @@
     "date-range": 100,
     "style": ["Qin Dynasty", "Qin"],
     "location": "Mausoleum of the first Qin emperor of China",
-    "location-coordinate": [34.385, 109.273056]
+    "location-coordinate": [34.385, 109.273056],
+    "medium": "Painted terra cotta"
   },
   "funeralBannerOfLadyDai": {
     "title": ["Funeral banner of Lady Dai (Xin Zhui)","Funeral banner of Lady Dai","Funeral banner°", "Funeral banner of Xin Zhui"],
@@ -2265,7 +2461,8 @@
     "date-range": 100,
     "style": ["Han Dynasty", "Han"],
     "location": "Han Dynasty, China",
-    "location-coordinate": [28.208611, 113.021667]
+    "location-coordinate": [28.208611, 113.021667],
+    "medium": "Painted silk"
   },
   "longmenCaves": {
     "title": "Longmen caves",
@@ -2276,7 +2473,8 @@
     "date-range": 100,
     "style": ["Tang Dynasty", "Tang"],
     "location": "Luoyang, China",
-    "location-coordinate": [34.555556, 112.469722]
+    "location-coordinate": [34.555556, 112.469722],
+    "medium": "Limestone"
   },
   "goldAndJadeCrown": {
     "title": "Gold and jade crown",
@@ -2287,7 +2485,8 @@
     "date-range": 100,
     "style": ["Korean", "Three Kingdoms period"],
     "location": "Silla Kingdom, Korea",
-    "location-coordinate": [35.85, 129.216667]
+    "location-coordinate": [35.85, 129.216667],
+    "medium": "Metalwork"
   },
   "todaiJi": {
     "title": "Todai-ji",
@@ -2299,7 +2498,8 @@
     "style": ["Kamakura","Nara"],
     "location": "Nara, Japan",
     "location-coordinate": [34.689167, 135.839722],
-    "artist": ["Unkei, Keikei, Kei School", "Unkei", "Keikei", "Kei School"]
+    "artist": ["Unkei, Keikei, Kei School", "Unkei", "Keikei", "Kei School"],
+    "medium": "Bronze and wood (sculpture); wood with ceramic-tile roofing (architecture)"
   },
   "boroduburTemple": {
     "title": ["Borobudur Temple", "Borobudur"],
@@ -2310,7 +2510,8 @@
     "date-range": 100,
     "style": ["Sailendra Dynasty","Sailendra"],
     "location": "Central Java, Indonesia",
-    "location-coordinate": [-7.608, 110.204]
+    "location-coordinate": [-7.608, 110.204],
+    "medium": "Volcanic-stone masonry"
   },
   "angkorWat": {
     "title": ["Angkor Wat, city of Angkor Thom","Angkor Wat","Angkor Thom","Angkor°"],
@@ -2321,7 +2522,8 @@
     "date-range": 100,
     "style": ["Hindu","Khmer","Angkor Dynasty","Angkor"],
     "location": "Angkor, Cambodia",
-    "location-coordinate": [13.4125, 103.866667]
+    "location-coordinate": [13.4125, 103.866667],
+    "medium": "Stone masonry, sandstone"
   },
   "lakshmanaTemple": {
     "title": "Lakshmana Temple",
@@ -2332,7 +2534,8 @@
     "date-range": 100,
     "style": ["Hindu","Chandella Dynasty","Chandella"],
     "location": "Khajuraho, India",
-    "location-coordinate": [24.852139, 79.921694]
+    "location-coordinate": [24.852139, 79.921694],
+    "medium": "Sandstone"
   },
   "travelersAmongMountainsAndStreams": {
     "title": "Travelers among Mountains and Streams",
@@ -2344,7 +2547,8 @@
     "style": ["Song Dynasty", "Song"],
     "location": "Shaanxi province, Northern China",
     "location-coordinate": [34.905833, 108.976667],
-    "artist": ["Fan Kuan","Kuan"]
+    "artist": ["Fan Kuan","Kuan"],
+    "medium": "Ink and colors on silk"
   },
   "shivaAsLordOfDance": {
     "title": ["Shiva as Lord of Dance (Nataraja)","Shiva as Lord of Dance","Dancing Shiva°","Nataraja°"],
@@ -2355,7 +2559,8 @@
     "date-range": 100,
     "style": ["Hindu", "Chola Dynasty", "Chola"],
     "location": "Tamil Nadu, India",
-    "location-coordinate": [11, 79]
+    "location-coordinate": [11, 79],
+    "medium": "Cast bronze"
   },
   "nightAttackOnSanjoPalace": {
     "title": ["Night Attack on the Sanjô Palace","Night attack on Sanjo Palace"],
@@ -2366,7 +2571,8 @@
     "date-range": 100,
     "style": ["Kamakura period", "Kamakura", "Yamato-é", "Heiji"],
     "location": "Kamakura period, Japan",
-    "location-coordinate": [35.319722, 139.5525]
+    "location-coordinate": [35.319722, 139.5525],
+    "medium": "Handscroll (ink and color on paper)"
   },
   "davidVases": {
     "title": ["The David Vases","David Vases"],
@@ -2377,7 +2583,8 @@
     "date-range": 100,
     "style": ["Mongol", "Yuan Dynasty", "Yuan"],
     "location": "Jingdezhen, Jiangxi province, China",
-    "location-coordinate": [29.2917, 117.1986]
+    "location-coordinate": [29.2917, 117.1986],
+    "medium": "White porcelain with cobalt-blue underglaze"
   },
   "portraitOfSinSukju": {
     "title": "Portrait of Sin Sukju",
@@ -2389,7 +2596,8 @@
     "style": ["Joseon dynasty", "Joseon"],
     "location": "Joseon dynasty, Korea",
     "location-coordinate": [37.58, 126.98],
-    "artist": ["Imperial Bureau of Painting"]
+    "artist": ["Imperial Bureau of Painting"],
+    "medium": "Hanging scroll (ink and color on silk)"
   },
   "forbiddenCity": {
     "title": "Forbidden City",
@@ -2400,7 +2608,8 @@
     "date-range": 100,
     "style": ["Ming Dynasty", "Ming"],
     "location": "Beijing, China",
-    "location-coordinate": [39.915833, 116.390833]
+    "location-coordinate": [39.915833, 116.390833],
+    "medium": "Stone masonry, marble, brick, wood, and ceramic tile"
   },
   "ryoanJi": {
     "title": "Ryoan-ji",
@@ -2411,7 +2620,8 @@
     "date-range": 100,
     "style": ["Muromachi period", "Muromachi"],
     "location": "Kyoto, Japan",
-    "location-coordinate": [35.034444, 135.718333]
+    "location-coordinate": [35.034444, 135.718333],
+    "medium": "Rock garden"
   },
   "jahangirPreferringSufiShaikhToKings": {
     "title": ["Jahangir Preferring a Sufi Shaikh to Kings", "Jahangir Preferring Sufi Shaikh to Kings", "Jahangir Preferring a Sufi Shaikh", "Jahangir Preferring Sufi Shaikh"],
@@ -2423,7 +2633,8 @@
     "style": ["Mughal Empire", "Mughal"],
     "location": "Mughal Empire, India",
     "location-coordinate": [27.18, 78.02],
-    "artist": ["Bichitr"]
+    "artist": ["Bichitr"],
+    "medium": "Watercolor, gold, and ink on paper"
   },
   "tajMahal": {
     "title": "Taj Mahal",
@@ -2435,7 +2646,8 @@
     "style": ["Mughal Empire", "Mughal"],
     "location": "Agra, Uttar Pradesh, India",
     "location-coordinate": [27.175, 78.041944],
-    "artist": ["Ustad Ahmad Lahori", "Lahori"]
+    "artist": ["Ustad Ahmad Lahori", "Lahori"],
+    "medium": "Stone masonry and marble with inlay of precious and semiprecious stones; gardens"
   },
   "whiteAndRedPlumBlossoms": {
     "title": ["White and Red Plum Blossoms","White and Red Blossoms°","Red and White Plum Blossoms°","Red and White Blossoms°"],
@@ -2447,7 +2659,8 @@
     "style": ["Edo","Edo period","Rinpa"],
     "location": "Kyoto, Tokugawa shogunate, Japan",
     "location-coordinate": [35.011667, 135.768333],
-    "artist": ["Ogata Korin", "Korin"]
+    "artist": ["Ogata Korin", "Korin"],
+    "medium": "Ink, watercolor, and gold leaf on paper"
   },
   "greatWave": {
     "title": ["Under the Wave off Kanagawa (Great Wave)","Under the Wave off Kanagawa","The Great Wave","Great Wave","Kanagawa oki nami ura"],
@@ -2459,7 +2672,8 @@
     "style": ["Edo","Edo period","Ukiyo-e"],
     "location": "Edo (Tokyo), Tokugawa shogunate, Japan",
     "location-coordinate": [35.683889, 139.774444],
-    "artist": ["Katsushika Hokusai", "Hokusai"]
+    "artist": ["Katsushika Hokusai", "Hokusai"],
+    "medium": "Polychrome woodblock print; ink and color on paper"
   },
   "chairmanMaoEnRouteToAnyuan": {
     "title": ["Chairman Mao en Route to Anyuan", "Chairman Mao on route to Anyuan", "Chairman Mao to Anyuan"],
@@ -2471,7 +2685,8 @@
     "style": ["Socialist Realism", "Cultural Revolution"],
     "location": "Central Academy of Fine Arts, Beijing, China (original)",
     "location-coordinate": [39.98459373751854, 116.46537704832947],
-    "artist": ["Based on an oil painting by Liu Chunhua", "Liu Chunhua", "Chunhua"]
+    "artist": ["Based on an oil painting by Liu Chunhua", "Liu Chunhua", "Chunhua"],
+    "medium": "Color lithograph"
   },
   "nanMadol": {
     "title": "Nan Madol",
@@ -2482,7 +2697,8 @@
     "date-range": 50,
     "style": ["Saudeleur Dynasty", "Saudeleur", "Micronesian"],
     "location": "Pohnpei, Micronesia",
-    "location-coordinate": [6.841944, 158.332222]
+    "location-coordinate": [6.841944, 158.332222],
+    "medium": "Basalt boulders and prismatic columns"
   },
   "moaiOnPlatform": {
     "title": ["Moai on platform (ahu)","Moai on platform","Moai"],
@@ -2493,7 +2709,8 @@
     "date-range": 50,
     "style": ["Polynesian", "Birdman Cult"],
     "location": "Rapa Nui (Easter Island)",
-    "location-coordinate": [-27.12, -109.35]
+    "location-coordinate": [-27.12, -109.35],
+    "medium": "Volcanic tuff figures on basalt base"
   },
   "ahuUla": {
     "title": ["‘Ahu ‘ula (feather cape)","Feather cape","Ahu ula","‘Ahu ‘ula","'Ahu 'ula", "'Ahu'ula"],
@@ -2504,7 +2721,8 @@
     "date-range": 50,
     "style": ["Polynesian", "Hawaiian"],
     "location": "Hawaii",
-    "location-coordinate": [21.5, -158]
+    "location-coordinate": [21.5, -158],
+    "medium": "Feathers and fiber"
   },
   "staffGod": {
     "title": "Staff god",
@@ -2515,7 +2733,8 @@
     "date-range": 50,
     "style": ["Polynesian", "Cook Islands"],
     "location": "Rarotonga, Cook Islands, central Polynesia",
-    "location-coordinate": [-21.235, -159.778056]
+    "location-coordinate": [-21.235, -159.778056],
+    "medium": "Wood, tapa, fiber, and feathers"
   },
   "femaleDeity": {
     "title": "Female deity",
@@ -2526,7 +2745,8 @@
     "date-range": 50,
     "style": ["Micronesian", "Polynesian"],
     "location": "Nukuoro, Micronesia",
-    "location-coordinate": [3.848333, 154.940833]
+    "location-coordinate": [3.848333, 154.940833],
+    "medium": "Wood"
   },
   "bukMask": {
     "title": ["Buk (mask)","Buk mask","Buk"],
@@ -2537,7 +2757,8 @@
     "date-range": 50,
     "style": ["Melanesian", "Torres Strait Islander"],
     "location": "Torres Strait Islands",
-    "location-coordinate": [-10.579, 142.22]
+    "location-coordinate": [-10.579, 142.22],
+    "medium": "Turtle shell, wood, fiber, feathers, and shell"
   },
   "hiapo": {
     "title": ["Hiapo (tapa)","Tapa","Hiapo"],
@@ -2548,7 +2769,8 @@
     "date-range": 50,
     "style": ["Polynesian", "Hawaiian", "Samoan", "Fijian"],
     "location": "Niue",
-    "location-coordinate": [-19.03, -169.51]
+    "location-coordinate": [-19.03, -169.51],
+    "medium": "Tapa or bark cloth, freehand painting"
   },
   "tamatiWakaNene": {
     "title": "Tamati Waka Nene",
@@ -2560,7 +2782,8 @@
     "style": ["Māori", "Polynesian"],
     "location": "New Zealand",
     "location-coordinate": [-42, 173],
-    "artist": ["Gottfried Lindauer", "Lindauer"]
+    "artist": ["Gottfried Lindauer", "Lindauer"],
+    "medium": "Oil on canvas"
   },
   "navigationChart": {
     "title": ["Navigation chart","Navigational chart"],
@@ -2571,7 +2794,8 @@
     "date-range": 50,
     "style": ["Micronesian", "Mashall Islander"],
     "location": "Marshall Islands, Micronesia",
-    "location-coordinate": [9.82, 169.29]
+    "location-coordinate": [9.82, 169.29],
+    "medium": "Wood and fiber"
   },
   "malaganDisplay": {
     "title": ["Malagan display and mask","Malagan mask and display","Malagan display","Malagan mask"],
@@ -2582,7 +2806,8 @@
     "date-range": 50,
     "style": ["Melanesian", "Papua New Guinean"],
     "location": "New Ireland Province, Papua New Guinea",
-    "location-coordinate": [-3.33, 152]
+    "location-coordinate": [-3.33, 152],
+    "medium": "Wood, pigment, fiber, and shell"
   },
   "presentationToQueenElizabeth": {
     "title": ["Presentation of Fijian mats and tapa cloths to Queen Elizabeth II","Presentation of Fijian mats and tapa cloths to Queen Elizabeth","Presentation of Fijian mats and tapa cloths°", "Presentation of Fijian mats to Queen Elizabeth II", "Presentation of Fijian mats to Queen Elizabeth", "Presentation of tapa cloths to Queen Elizabeth II", "Presentation of tapa cloths to Queen Elizabeth", "Presentation to Queen Elizabeth II", "Presentation to Queen Elizabeth"],
@@ -2593,7 +2818,8 @@
     "date-range": 50,
     "style": ["Polynesian", "Fijian"],
     "location": "Fiji, Polynesia",
-    "location-coordinate": [-18, 179]
+    "location-coordinate": [-18, 179],
+    "medium": "Multimedia performance (costume; cosmetics, including scent; chant; movement; and pandanus fiber/hibiscus fiber mats), photographic documentation"
   },
   "gates": {
     "title": ["The Gates", "Gates°"],
@@ -2605,7 +2831,8 @@
     "style": ["Contemporary", "Environmental Art", "Site-specific art"],
     "location": "Central Park, New York City, New York, U.S.",
     "location-coordinate": [40.782222, -73.965278],
-    "artist": ["Christo and Jeanne-Claude", "Christo Jeanne-Claude", "Christo Claude°", "Jeanne Claude°", "Christo and Jeanne°", "Claude"]
+    "artist": ["Christo and Jeanne-Claude", "Christo Jeanne-Claude", "Christo Claude°", "Jeanne Claude°", "Christo and Jeanne°", "Claude"],
+    "medium": "Mixed-media installation"
   },
   "vietnamVeteransMemorial": {
     "title": ["Vietnam Veterans Memorial", "Vietnam Memorial"],
@@ -2617,7 +2844,8 @@
     "style": ["Contemporary", "Minimalism", "Minimalist architecture"],
     "location": "Washington, D.C., U.S.",
     "location-coordinate": [38.891111, -77.047778],
-    "artist": ["Maya Lin", "Lin"]
+    "artist": ["Maya Lin", "Lin"],
+    "medium": "Granite"
   },
   "hornPlayers": {
     "title": "Horn Players",
@@ -2629,7 +2857,8 @@
     "style": ["Contemporary", "Neo-expressionism"],
     "location": "Manhattan, New York, U.S.",
     "location-coordinate": [40.726667, -73.9925],
-    "artist": ["Jean-Michel Basquiat", "Jean Basquiat", "Basquiat"]
+    "artist": ["Jean-Michel Basquiat", "Jean Basquiat", "Basquiat"],
+    "medium": "Acrylic and oil paintstick on three canvas panels"
   },
   "summerTrees": {
     "title": "Summer Trees",
@@ -2641,7 +2870,8 @@
     "style": ["Contemporary", "Sumukwha"],
     "location": "South Korea",
     "location-coordinate": [36, 128],
-    "artist": ["Song Su-nam", "Su-nam"]
+    "artist": ["Song Su-nam", "Su-nam"],
+    "medium": "Ink on paper"
   },
   "androgyneIII": {
     "title": "Androgyne III",
@@ -2653,7 +2883,8 @@
     "style": ["Contemporary"],
     "location": "Poland",
     "location-coordinate": [52, 20],
-    "artist": ["Magdalena Abakanowicz", "Abakanowicz"]
+    "artist": ["Magdalena Abakanowicz", "Abakanowicz"],
+    "medium": "Burlap, resin, wood, nails, and string"
   },
   "bookFromTheSky": {
     "title": ["A Book from the Sky", "Book from the Sky"],
@@ -2665,7 +2896,8 @@
     "style": ["Contemporary"],
     "location": "Beijing, China",
     "location-coordinate": [39.906667, 116.3975],
-    "artist": ["Xu Bing", "Bing"]
+    "artist": ["Xu Bing", "Bing"],
+    "medium": "Mixed-media installation"
   },
   "pinkPanther": {
     "title": ["Pink Panther", "Banality, Pink Panther", "Pink Panther, Banality"],
@@ -2677,7 +2909,8 @@
     "style": ["Contemporary", "Kitsch", "Pop Art"],
     "location": "Manhattan, New York, U.S.",
     "location-coordinate": [40.723, -74],
-    "artist": ["Jeff Koons", "Koons"]
+    "artist": ["Jeff Koons", "Koons"],
+    "medium": "Glazed porcelain"
   },
   "untitled228": {
     "title": ["Untitled #228", "Untitled 228", "Untitled number 228", "History Portraits series°"],
@@ -2689,7 +2922,8 @@
     "style": ["Contemporary"],
     "location": "New York City, New York, U.S.",
     "location-coordinate": [40.7128, -74.0061],
-    "artist": ["Cindy Sherman", "Sherman"]
+    "artist": ["Cindy Sherman", "Sherman"],
+    "medium": "Photograph"
   },
   "dancingAtTheLouvre": {
     "title": ["Dancing at the Louvre", "The French Collection, Part I"],
@@ -2701,7 +2935,8 @@
     "style": ["Contemporary"],
     "location": "New York City, New York, U.S.",
     "location-coordinate": [40.7128, -74.0061],
-    "artist": ["Faith Ringgold", "Ringgold"]
+    "artist": ["Faith Ringgold", "Ringgold"],
+    "medium": "Acrylic on canvas, tie-dyed, pieced fabric border"
   },
   "trade": {
     "title": ["Trade", "Gifts for Trading Land with White People"],
@@ -2713,7 +2948,8 @@
     "style": ["Contemporary"],
     "location": "New Mexico, U.S.",
     "location-coordinate": [34, -106],
-    "artist": ["Jaune Quick-to-See Smith", "Juane Smith", "Quick-to-See", "Smith"]
+    "artist": ["Jaune Quick-to-See Smith", "Juane Smith", "Quick-to-See", "Smith"],
+    "medium": "Oil and mixed media on canvas"
   },
   "earthsCreation": {
     "title": "Earth’s Creation",
@@ -2725,7 +2961,8 @@
     "style": ["Contemporary", "Australian Aboriginal"],
     "location": "Utopia, Northern Territory, Australia",
     "location-coordinate": [-22.25, 134.666667],
-    "artist": ["Emily Kame Kngwarreye", "Emily Kngwarreye", "Kngwarreye"]
+    "artist": ["Emily Kame Kngwarreye", "Emily Kngwarreye", "Kngwarreye"],
+    "medium": "Synthetic polymer paint on canvas"
   },
   "rebelliousSilence": {
     "title": ["Rebellious Silence", "Women of Allah Series°", "Women of Allah°"],
@@ -2737,7 +2974,8 @@
     "style": ["Contemporary"],
     "location": "Iran",
     "location-coordinate": [32, 53],
-    "artist": ["Shirin Neshat (artist); Cynthia Preston (photographer)", "Shirin Neshat Cynthia Preston", "Shirin Neshat and Cynthia Preston", "Shirin Neshat", "Neshat", "Cynthia Preston", "Preston"]
+    "artist": ["Shirin Neshat (artist); Cynthia Preston (photographer)", "Shirin Neshat Cynthia Preston", "Shirin Neshat and Cynthia Preston", "Shirin Neshat", "Neshat", "Cynthia Preston", "Preston"],
+    "medium": "Ink on photograph"
   },
   "enLaBarberiaNoSeLLora": {
     "title": ["En la Barberia no se Llora", "No Crying Allowed in the Barbershop", "No se llora en la Barberia", "No se llora°", "En la Barberia°"],
@@ -2749,7 +2987,8 @@
     "style": ["Contemporary"],
     "location": "The Bronx, New York City, New York, U.S.",
     "location-coordinate": [40.837222, -73.886111],
-    "artist": ["Pepon Osorio", "Osorio"]
+    "artist": ["Pepon Osorio", "Osorio"],
+    "medium": "Mixed-media installation"
   },
   "cornedBeef2000": {
     "title": ["Pisupo Lua Afe (Corned Beef 2000)", "Pisupo Lua Afe", "Corned Beef 2000"],
@@ -2761,7 +3000,8 @@
     "style": ["Contemporary", "Polynesian"],
     "location": "Wellington, New Zealand",
     "location-coordinate": [-41.288889, 174.777222],
-    "artist": ["Michel Tuffery", "Tuffery"]
+    "artist": ["Michel Tuffery", "Tuffery"],
+    "medium": "Mixed media"
   },
   "electronicSuperhighway": {
     "title": "Electronic Superhighway",
@@ -2773,7 +3013,8 @@
     "style": ["Contemporary", "Fluxus"],
     "location": "SoHo, Manhattan, New York City, New York, U.S.",
     "location-coordinate": [40.723, -74],
-    "artist": ["Nam June Paik", "Nam Paik", "June Paik", "Paik"]
+    "artist": ["Nam June Paik", "Nam Paik", "June Paik", "Paik"],
+    "medium": "Mixed-media installation (49-channel closed-circuit video installation, neon, steel, and electronic components)"
   },
   "crossing": {
     "title": ["The Crossing", "Crossing"],
@@ -2785,7 +3026,8 @@
     "style": ["Contemporary"],
     "location": "Long Beach, California, U.S.",
     "location-coordinate": [33.768333, -118.195556],
-    "artist": ["Bill Viola", "Viola"]
+    "artist": ["Bill Viola", "Viola"],
+    "medium": "Video/sound installation"
   },
   "guggenheimMuseumBilbao": {
     "title": ["Guggenheim Museum Bilbao", "Guggenheim Bilbao"],
@@ -2797,7 +3039,8 @@
     "style": ["Contemporary", "Modernism", "Late Modernism", "Postmodernism"],
     "location": "Bilbao, Spain",
     "location-coordinate": [43.268611, -2.933889],
-    "artist": ["Frank Gehry (architect)", "Frank Gehry", "Gehry"]
+    "artist": ["Frank Gehry (architect)", "Frank Gehry", "Gehry"],
+    "medium": "Titanium, glass, and limestone"
   },
   "pureLand": {
     "title": "Pure Land",
@@ -2809,7 +3052,8 @@
     "style": ["Contemporary", "Heisei period"],
     "location": "Tokyo, Japan",
     "location-coordinate": [35.689722, 139.692222],
-    "artist": ["Mariko Mori", "Mori"]
+    "artist": ["Mariko Mori", "Mori"],
+    "medium": "Color photograph on glass"
   },
   "lyingWithTheWolf": {
     "title": ["Lying with the Wolf", "Lying with Wolf"],
@@ -2821,7 +3065,8 @@
     "style": ["Contemporary"],
     "location": "Lower East Side, Manhattan, New York City, New York, U.S.",
     "location-coordinate": [40.715, -73.985],
-    "artist": ["Kiki Smith", "Smith"]
+    "artist": ["Kiki Smith", "Smith"],
+    "medium": "Ink and pencil on paper"
   },
   "darkytownRebellion": {
     "title": "Darkytown Rebellion",
@@ -2833,7 +3078,8 @@
     "style": ["Contemporary"],
     "location": "New York City, New York, U.S.",
     "location-coordinate": [40.7128, -74.0061],
-    "artist": ["Kara Walker", "Walker"]
+    "artist": ["Kara Walker", "Walker"],
+    "medium": "Cut paper and projection on wall"
   },
   "swingAfterFragonard": {
     "title": ["The Swing (after Fragonard)", "The Swing after Fragonard", "The Swing°", "Swing°"],
@@ -2845,7 +3091,8 @@
     "style": ["Contemporary"],
     "location": "London, U.K.",
     "location-coordinate": [51.507222, -0.1275],
-    "artist": ["Yinka Shonibare", "Shonibare"]
+    "artist": ["Yinka Shonibare", "Shonibare"],
+    "medium": "Mixed-media installation"
   },
   "oldMansCloth": {
     "title": "Old Man’s Cloth",
@@ -2857,7 +3104,8 @@
     "style": ["Contemporary"],
     "location": "Nsukku, Enugu State, Nigeria",
     "location-coordinate": [6.8673, 7.4085],
-    "artist": ["El Anatsui"]
+    "artist": ["El Anatsui"],
+    "medium": "Aluminum and copper wire"
   },
   "stadiaII": {
     "title": ["Stadia II", "Stadia°", "Stadia 2"],
@@ -2869,7 +3117,8 @@
     "style": ["Contemporary"],
     "location": "New York City, New York, U.S.",
     "location-coordinate": [40.7128, -74.0061],
-    "artist": ["Julie Mehretu"]
+    "artist": ["Julie Mehretu"],
+    "medium": "Ink and acrylic on canvas"
   },
   "preyingMantra": {
     "title": "Preying Mantra",
@@ -2881,7 +3130,8 @@
     "style": ["Contemporary"],
     "location": "Nairobi, Kenya",
     "location-coordinate": [-1.286389, 36.817222],
-    "artist": ["Wangechi Mutu", "Mutu"]
+    "artist": ["Wangechi Mutu", "Mutu"],
+    "medium": "Mixed media on Mylar"
   },
   "shibboleth": {
     "title": "Shibboleth",
@@ -2893,7 +3143,8 @@
     "style": ["Contemporary", "Conceptual art"],
     "location": "London, U.K.",
     "location-coordinate": [51.5078, -0.0994],
-    "artist": ["Doris Salcedo", "Salcedo"]
+    "artist": ["Doris Salcedo", "Salcedo"],
+    "medium": "Installation"
   },
   "maxxi": {
     "title": ["MAXXI National Museum of XXI Century Arts", "MAXXI National Museum of Century Arts°", "MAXXI Museum of Century Arts°", "MAXXI Museum of XXI Century Arts", "Museum of XXI Century Arts°", "National Museum of XXI Century Arts°", "Museum of Century Arts°°", "National Museum of Century Arts°°", "MAXXI"],
@@ -2905,7 +3156,8 @@
     "style": ["Contemporary"],
     "location": "Rome, Italy",
     "location-coordinate": [41.929, 12.466],
-    "artist": ["Zaha Hadid (architect)", "Zaha Hadid", "Hadid"]
+    "artist": ["Zaha Hadid (architect)", "Zaha Hadid", "Hadid"],
+    "medium": "Glass, steel, and cement"
   },
   "sunflowerSeeds": {
     "title": ["Kui Hua Zi (Sunflower Seeds)", "Kui Hua Zi", "Sunflower Seeds"],
@@ -2917,6 +3169,7 @@
     "style": ["Contemporary"],
     "location": "London, U.K.",
     "location-coordinate": [51.5078, -0.0994],
-    "artist": ["Ai Weiwei", "Weiwei"]
+    "artist": ["Ai Weiwei", "Weiwei"],
+    "medium": "Sculpted and painted porcelain"
   }
 }

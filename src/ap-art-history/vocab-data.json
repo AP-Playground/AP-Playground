@@ -13,20 +13,21 @@
         "date": "Date",
         "artist": "Artist",
         "style": "Style/movement",
-        "location": "Site of production (approx.)"
+        "location": "Site of production (approx.)",
+        "medium": "Medium/materials"
     },
     "games": {
         "memory": {
             "term": ["title"],
             "termImage": ["image"],
-            "text": ["artist", "date", "style", "location"],
+            "text": ["artist", "date", "medium", "style", "location"],
             "image": ["image"],
             "randomize": ["image", "style"]
         }
     },
     "flashcards": {
         "term": "title",
-        "text": ["Artist: ${artist}", "Date: ${date}", "Style: ${style}", "Location: ${location}"],
+        "text": ["Artist: ${artist}", "Date: ${date}", "Medium: ${medium}", "Style: ${style}", "Location: ${location}"],
         "image": "image",
         "link": "link"
     },

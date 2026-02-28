@@ -25,7 +25,7 @@ for (item of vocab) {
   let cardText = `<h2>${pickFirst(item[termKey])}`
     if (item.hasOwnProperty(linkKey)) cardText += ` <a href="${pickFirst(item[linkKey])}" class="mask external-open" aria-label="Learn more about ${item[termKey]}" target="_blank"><div></div></a>`
   cardText += "</h2>"
-  cardText += `<p>${fillTemplate(textFormat, item)}</p>`
+  cardText += `<div>${fillTemplate(textFormat, item)}</div>`
   cardText = `<div class="vocab-content-container">` + cardText + "</div>"
   let imageText = "";
   if (imageKey in item) {
@@ -40,9 +40,9 @@ for (item of vocab) {
 
 function fillTemplate(template, data) {
   if (typeof template === "string") {
-    return template.replace(/\$\{([^}]+)\}/g, (match, key) => {
+    return "<p>" + template.replace(/\$\{([^}]+)\}/g, (match, key) => {
       return key in data ? pickFirst(data[key]) : match;
-    });
+    }) + "</p>";
   }
   const output = [];
   for (const segment of template) {
@@ -53,7 +53,7 @@ function fillTemplate(template, data) {
     if (!success) continue;
     output.push(temp)
   }
-  return output.join("<br>")
+  return "<p>" + output.join("</p><p>") + "</p>"
 }
 
 function pickFirst(item) {
@@ -83,7 +83,7 @@ vocabCardImages.forEach(container => {
 const flashcardBlock = document.querySelector(".flashcard-block")
 const flashcardContainer = flashcardBlock.querySelector(".flashcard")
 const flashcardTitle = flashcardContainer.querySelector(".flashcard-front h2")
-const flashcardText = flashcardContainer.querySelector(".flashcard-back p")
+const flashcardText = flashcardContainer.querySelector(".flashcard-back div")
 const flashcardImage = flashcardContainer.querySelector(".flashcard-back img")
 
 const flashcardControls = flashcardBlock.querySelector(".module-controls")

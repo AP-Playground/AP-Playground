@@ -43,8 +43,13 @@
     &:not(:last-child) {  
       padding-right: 20px;
     }
-    & > p {
-      margin-bottom: 0;
+    & > div {
+      display: grid;
+      row-gap: 0.5rem;
+      margin-top: 1rem;
+      & > p {
+        margin: 0;
+      }
     }
     & > h2 a.external-open div {
       -webkit-mask-image: url("/icons/external_link.svg");
@@ -130,10 +135,15 @@
 }
 
 .flashcard-back {
-  & p {
+  & > div {
     padding: 8cqh;
     margin: 0;
     font-size: 6cqh;
+    row-gap: 1rem;
+    display: grid;
+    & > p {
+      margin: 0;
+    }
   }
   & img {
     padding: 5cqh;

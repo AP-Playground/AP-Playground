@@ -4,3 +4,4 @@ Download all used images and host locally
 Add dynamic image size loading
 Create geoguesser game
 Add sitemap generator
+Allow partially filled boards for memory game
