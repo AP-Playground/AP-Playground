@@ -75,6 +75,10 @@
         scale: 0;
         transition: scale 0.5s ease-in-out, filter 0.2s ease-in-out, translate 0.3s ease-in-out;
     }
+    &.inactive {
+        scale: 0;
+        transition: none;
+    }
     &.flipped {
         .back {
             transform: rotateX(0deg);
@@ -124,7 +128,7 @@
         }
     }
     .front {
-        background-image: url("/images/games/card-back.svg");
+        background-image: url("/images/games/memory/card-back.svg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;

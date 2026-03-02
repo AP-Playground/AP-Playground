@@ -34,8 +34,6 @@ export function upload() {
             temp += `<div class="right"><button class="fullscreen"><img src="/icons/maximize.svg"></button></div>`
         temp += `</div>`
         page += templates.block(temp, `<div class="overlay">${data.instructions}</div>`, false, ["game-block"])
-
-        page += ``
         
       page += `</main>`
 

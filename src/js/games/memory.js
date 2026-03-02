@@ -159,7 +159,7 @@ function checkLoadGame() {
 
 function loadGameTransition() {
     loadTerms()
-    if (availableTerms.length < Number(settings.size[0])) {
+    if (availableTerms.length < Number(settings.size[0])/2) {
         gameBlock.inert = true;
         gameBlock.classList.remove("active")
         alert("There are not enough terms available with your selected filters and game settings");
@@ -170,7 +170,7 @@ function loadGameTransition() {
         firstGameLoad = false;
         loadGame()
     } else {
-        const tiles = document.querySelectorAll(".game-tile:not(.correct)");
+        const tiles = document.querySelectorAll(".game-tile:not(.correct,.inactive)");
         const length = tiles.length;
         if (length === 0) {
             winModal.classList.add("hidden")
@@ -262,7 +262,7 @@ function loadBoard() {
         }
     }
     for (let i = 0; i < tiles * 2; i++) {
-        game.insertAdjacentHTML("beforeend", `<button class="game-tile init" data-key="" style="--index:${i}"><div class="front"></div><div class="back"></div></button>`)
+        game.insertAdjacentHTML("beforeend", `<button class="game-tile init"><div class="front"></div><div class="back"></div></button>`)
     }
     gameBoundResize()
 }
@@ -328,15 +328,26 @@ function fillBoard() {
         cardPairs.push([tempElement.innerHTML, tempElement2.innerHTML])
         hideShowArray.push("hide","show")
     }
+    if (cardText.length < settings.size[0]*2) {
+        cardText.push(...new Array(settings.size[0]*2 - cardText.length).fill(null))
+    }
     randomize(cardText);
-    randomize(hideShowArray)
+    randomize(hideShowArray);
     const gameTileBack = document.querySelectorAll(".game-tile .back")
 
+    let j = 0;
+
     document.querySelectorAll(".game-tile").forEach((e,i) => {
+        if (cardText[i] === null) {
+            e.classList.add("inactive")
+            return;
+        }
         gameTileBack[i].innerHTML = cardText[i]
+        e.style.setProperty("--index", j)
         if (settings.mode[0] === "easy") e.classList.add("show");
-        else if (settings.mode[0] === "medium") e.classList.add(hideShowArray[i])
+        else if (settings.mode[0] === "medium") e.classList.add(hideShowArray[j])
         else if (settings.mode[0] === "hard") e.classList.add("hide")
+        j++
     })
 }
 
@@ -410,7 +421,8 @@ function handleFlip(tile) {
     }
 
     const correctMatch = cardPairs.some(p => p.includes(selected.querySelector(".back").innerHTML) && p.includes(tile.querySelector(".back").innerHTML)) && selected.innerHTML !== tile.innerHTML;
-    const delay = tile.classList.contains("hide")? 2000 : 0;
+    let delay = tile.classList.contains("hide")? 2000 : 0;
+    if (delay === 0 && settings.mode[0] === "medium") delay = 1000;
 
     if (correctMatch) {
         tile.inert = true;
@@ -421,7 +433,7 @@ function handleFlip(tile) {
             prevSelected.classList.add("correct")
             tile.classList.remove("selected")
             prevSelected.classList.remove("selected")
-            if (correct == settings.size[0]) gameOver();
+            if (correct == cardPairs.length) gameOver();
         }, delay)
         correct++;
         playerCorrect[turn%players]++
@@ -481,7 +493,7 @@ let correct;
 let playerCorrect;
 let incorrect;
 function updateProgress() {
-    progress.textContent = correct + " / " + (settings.size[0])
+    progress.textContent = correct + " / " + (cardPairs.length)
     if (players === 1) multiplayerInfo.style.display = "none";
     else {
         multiplayerInfo.style.display = "";
