@@ -31,7 +31,7 @@
             "detail-types": {
                 "artist": {
                     "type": "text",
-                    "placeholder": "Title of artwork"
+                    "placeholder": "Artist"
                 },
                 "date": {
                     "type": "year",

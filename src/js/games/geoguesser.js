@@ -469,7 +469,7 @@ function checkAnswers(review = false) {
         const detailElement = detailContainer.querySelector(".detail-"+detail)
         const detailFeedbackElement = detailElement.querySelector(`.detail-${detail}-feedback`)
         const detailInputElement = detailElement.querySelector(`#detail-${detail}-input`);
-        const correctAnswer = currentTerm["geoguesser-"+detail] || currentTerm[detail];
+        let correctAnswer = currentTerm["geoguesser-"+detail] || currentTerm[detail];
         detailFeedbackElement.textContent = pickFirst(correctAnswer);
         inputs[`#detail-${detail}-input`] = detailInputElement.value;
         currentInputAccuracy = 0;
@@ -480,6 +480,7 @@ function checkAnswers(review = false) {
                 if (inputtedText === "") break;
                 let closest = 10000;
                 let closestMatch;
+                if (typeof correctAnswer === "string") correctAnswer = [correctAnswer]
                 correctAnswer.forEach(a => {
                     let distance = levenshtein(inputtedText, a);
                     if (distance < closest) {
