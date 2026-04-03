@@ -1,12 +1,347 @@
 {
     "": {
+        "term": "Neo-Confucianism",
+        "link": "https://en.wikipedia.org/wiki/Neo-Confucianism",
+        "date": "Originated 800",
+        "definition": "Updated Chinese philosophy that rejects Daoism and Buddhism",
+        "effect": "Helped Chinese dynasties maintain legitimacy",
+        "category": "religion-culture",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Civil Service Exams",
+        "link": "https://en.wikipedia.org/wiki/Imperial_examination",
+        "date": "581-1905",
+        "definition": "First system of merit based government positions",
+        "effect": "Grew and maintained dynastic imperial bureaucracy",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Filial Piety",
+        "link": "https://en.wikipedia.org/wiki/Filial_piety",
+        "date": "",
+        "definition": "Respect for elders and authority figures",
+        "effect": "Enforcement of strict social hierarchy in China",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Champa Rice",
+        "link": "https://en.wikipedia.org/wiki/Champa_rice",
+        "date": "Introduced to Song China 1000",
+        "definition": "A quickly growing, drought resistant crop",
+        "effect": "Increased food production, causing Chinese population boom",
+        "category": "ideas-innovation",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Song Dynasty",
+        "link": "https://en.wikipedia.org/wiki/Song_dynasty",
+        "date": "960-1279",
+        "definition": "Chinese dynasty between the Tang and Yuan Dynasties",
+        "effect": "Era of Chinese innovation: printing, gunpowder, paper money, navy, Champa rice, Neo-Confucianism",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Khanates",
+        "link": "https://en.wikipedia.org/wiki/Khanate",
+        "date": "1226-1347",
+        "definition": "State or society ruled by a khan; organized tribally",
+        "effect": "Mongol Empire became the Yuan Dynasty, Ilkhanate, Chagatai Khanate, and Golden Horde",
+        "category": "society-structure",
+        "continent": "asia, europe"
+    },
+    "": {
+        "term": "Pax Mongolica",
+        "link": "https://en.wikipedia.org/wiki/Pax_Mongolica",
+        "date": "1250-1400",
+        "definition": "A period of stability throughout the Mongol Empire",
+        "effect": "Enabled safe long distance trade: spread ideas and the Bubonic Plague",
+        "category": "events",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Sinification",
+        "link": "https://en.wikipedia.org/wiki/Sinicization",
+        "date": "",
+        "definition": "Process by which non-Chinese societies assimilate Chinese culture",
+        "effect": "Fusion of cultures; unity across Asia and loss of some Asian cultural diversity",
+        "category": "ideas-innovation",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Shogunate",
+        "link": "https://en.wikipedia.org/wiki/History_of_Japan#Medieval_Japan",
+        "date": "1192-1868",
+        "definition": "A government ruled by a shōgun, but nominally under an emperor",
+        "effect": "United Japan under the feudal system and a militaristic government",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Shinto",
+        "link": "https://en.wikipedia.org/wiki/Shinto",
+        "date": "600-present",
+        "definition": "Japanese polytheistic and animistic nature religion",
+        "effect": "Legitimized rulers through belief in kami (supernatural entities)",
+        "category": "religion-culture",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Bushido",
+        "link": "https://en.wikipedia.org/wiki/Bushido",
+        "date": "1603-1868",
+        "definition": "The samurai code of conduct",
+        "effect": "Encouraged the loyalty and filial piety of samurai; included elements of bureaucratic roles",
+        "category": "religion-culture",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Goryeo",
+        "link": "https://en.wikipedia.org/wiki/Goryeo",
+        "date": "918-1392",
+        "definition": "A Korean state that unified and ruled the Korean Peninsula",
+        "effect": "Achieved true national unification of Korea; valued education, culture, and trade",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Yuan Dynasty",
+        "link": "https://en.wikipedia.org/wiki/Yuan_dynasty",
+        "date": "1271-1368",
+        "definition": "Chinese dynasty between the Song and Ming Dynasties",
+        "effect": "Flourishing of culture and trade despite Mongol ruler",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+      },
+        "": {
+        "term": "Ming Dynasty",
+        "link": "https://en.wikipedia.org/wiki/Ming_dynasty",
+        "date": "1368-1644",
+        "definition": "Chinese dynasty between the Yuan and Qing Dynasties",
+        "effect": "Last Han ruled Chinese dynasty; expanded trade and ties with the West",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+      },
+        "": {
+        "term": "Minamoto no Yoritomo",
+        "link": "https://en.wikipedia.org/wiki/Minamoto_no_Yoritomo",
+        "date": "1147-1199",
+        "definition": "The founder and first shogun of the Kamukara Shogunate",
+        "effect": "Began the feudal age of Japan",
+        "category": "people",
+        "continent": "asia"
+    },
+      },
+        "": {
+        "term": "Genghis Khan",
+        "link": "https://en.wikipedia.org/wiki/Genghis_Khan",
+        "date": "1162-1227",
+        "definition": "The founder and first khan of the Mongol Empire",
+        "effect": "Formed and ruled the largest contiguous empire in history",
+        "category": "people",
+        "continent": "asia"
+    },
+        },
+      },
+        "": {
+        "term": "Kublai Khan",
+        "link": "https://en.wikipedia.org/wiki/Kublai_Khan",
+        "date": "1215-1294",
+        "definition": "The founder and first emperor of the Yuan Dynasty",
+        "effect": "The first non-Han emperor to rule all of China",
+        "category": "people",
+        "continent": "asia"
+    },
+
+        },
+      },
+        "": {
+        "term": "Marco Polo",
+        "link": "https://en.wikipedia.org/wiki/Marco_Polo",
+        "date": "1254-1324",
+        "definition": "An Italian traveler that gave Europeans a look at the Eastern world",
+        "effect": "First European to create a detailed account of his experience in East Asia",
+        "category": "people",
+        "continent": "asia"
+    },
+
+        },
+      },
+        "": {
+        "term": "Ibn Battuta",
+        "link": "https://en.wikipedia.org/wiki/Ibn_Battuta",
+        "date": "1304-1369",
+        "definition": "A Moroccan Islamic traveler who wrote The Rihla",
+        "effect": "The most traveled pre-modern explorer, whose book depicts most of Afro-Eurasia",
+        "category": "people",
+        "continent": "africa, asia"
+    },
+
+        },
+      },
+        "": {
+        "term": "Zhenghe",
+        "link": "https://en.wikipedia.org/wiki/Zheng_He",
+        "date": "1371-1435",
+        "definition": "Chinese mariner, explorer, diplomat, and admiral",
+        "effect": "Led Chinese naval expeditions to greatly increase China’s overseas influence",
+        "category": "people",
+        "continent": "asia"
+    },
+
+        },
+      },
+        "": {
+        "term": "Trans-Saharan Trade",
+        "link": "https://en.wikipedia.org/wiki/Trans-Saharan_trade",
+        "date": "700-1600",
+        "definition": "Trade across the Sahara Desert between Sub-Saharan and North Africa",
+        "effect": "Economic expansion of Africa; spread Islam",
+        "category": "society-structure, idea-innovation",
+        "continent": "africa"
+    },
+          },
+        "": {
+        "term": "Caravanserai",
+        "link": "https://en.wikipedia.org/wiki/Caravanserai",
+        "date": "",
+        "definition": "Roadside inns for travelers along major trade routes",
+        "effect": "Supported the flow of goods, and ideas along overland trade routes",
+        "category": "society-structure, idea-innovation",
+        "continent": "arica, asia"
+    },
+          },
+        "": {
+        "term": "Sufism",
+        "link": "https://en.wikipedia.org/wiki/Sufism",
+        "date": "Originated 600",
+        "definition": "Mystic body of religious practice in Islam",
+        "effect": "Spread Islam through missionary and educational activities",
+        "category": "religion-culture",
+        "continent": "asia"
+    },
+          },
+        "": {
+        "term": "Diaspora",
+        "link": "https://en.wikipedia.org/wiki/Diaspora",
+        "date": "",
+        "definition": "A population scattered and separated from geographic origin",
+        "effect": "Job opportunities, slavery, fleeing from persecution, etc",
+        "category": "society-structure",
+        "continent": ""
+    },
+          },
+        "": {
+        "term": "Qu'ran",
+        "link": "https://en.wikipedia.org/wiki/Quran",
+        "date": "Received 610-632",
+        "definition": "Central religious text of Islam",
+        "effect": "Guided the Islamic Empire and Muslims' way of life; influences Arab culture",
+        "category": "religion-culture",
+        "continent": "asia"
+    },
+          },
+        "": {
+        "term": "Sunni vs Shi'a",
+        "link": "https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations",
+        "date": "Split in 632",
+        "definition": "The main divide of Muslims",
+        "effect": "Cause of tensions, violence, and wars throughout history",
+        "category": "religion-culture",
+        "continent": "asia"
+    },
+          },
+        "": {
+        "term": "Caliphate",
+        "link": "https://en.wikipedia.org/wiki/Caliphate",
+        "date": "632-1517",
+        "definition": "Region under the leadership of a caliph (religious/political successor to Muhammad)",
+        "effect": "Formed massive empires that advanced and preserved science, literature, and Islam",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+          },
+        "": {
+        "term": "Sultanate",
+        "link": "https://en.wikipedia.org/wiki/Sultan",
+        "date": "Began 998",
+        "definition": "Region under the rule of a sultan (Muslim sovereign)",
+        "effect": "More structured and smaller designation of Islamic state that replaced caliphates",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+          },
+        "": {
+        "term": "House of Wisdom",
+        "link": "https://en.wikipedia.org/wiki/House_of_Wisdom",
+        "date": "750-1258",
+        "definition": "Major public academy and intellectual center in Baghdad",
+        "effect": "Helped preserve and build upon European Classical era texts",
+        "category": "idea-innovation",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Seljuk Empire",
+        "link": "https://en.wikipedia.org/wiki/Seljuq_dynasty",
+        "date": "1037-1308",
+        "definition": "Turkic Muslim dynasty that ruled from the Middle East to Central Asia",
+        "effect": "Islamic sultanates became controlled by Turks; contributed to Turco-Persian culture",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Mamluk Sultanate",
+        "link": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+        "date": "1250-1517",
+        "definition": "Islamic sultanate led by a military caste of former slaves",
+        "effect": "Halted Mongol expansion; created a period of prosperity in the Middle East",
+        "category": "society-structure",
+        "continent": "asia, africa"
+    },
+    "": {
         "term": "",
         "link": "",
         "date": "",
         "definition": "",
+        "effect": "",
         "category": "",
         "continent": ""
     },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+
+    
+    
 
     ["people", "events", "religion-culture", "idea-innovation","society-structure"]
     ["north-america","south-america","europe","africa","asia","oceania"]
