@@ -278,8 +278,7 @@
     "unit-9": {
       "title": "Globalization",
       "prefix": "Unit 9",
-      "suffix": "c. 1900 to the present"
-    },
+      "suffix": "c. 1900 to the present",
       "data": {
         "lesson-1": {
          " title": "Advances in Technology and Exchange After 1900",
@@ -314,5 +313,6 @@
           "prefix": "9.8"
         }
       }
+    }
   }
 }
