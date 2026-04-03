@@ -50,7 +50,7 @@
   "beakerWithIbexMotifs": {
     "title": "Beaker with ibex motifs",
     "link": "https://smarthistory.org/bushel-with-ibex-motifs/?sidebar=ap-art-history-syllabus",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Bushel_with_Ibex_Motifs.jpg/440px-Bushel_with_Ibex_Motifs.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Bushel_with_Ibex_Motifs.jpg/500px-Bushel_with_Ibex_Motifs.jpg",
     "date": "4200–3500 BCE",
     "date-num": [-4200, -3500],
     "date-range": 1000,
@@ -98,7 +98,7 @@
   "ambumStone": {
     "title": ["The Ambum stone","Ambum stone"],
     "link": "https://smarthistory.org/ambum/?sidebar=ap-art-history-syllabus",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Ambum_Stone.webp/353px-Ambum_Stone.webp",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/Ambum_Stone.webp",
     "date": "c. 1500 BCE",
     "date-num": -1500,
     "date-range": 1000,
@@ -136,7 +136,7 @@
     "link": "https://smarthistory.org/white-temple-and-ziggurat-uruk/?sidebar=ap-art-history-syllabus",
     "image": ["https://smarthistory.org/wp-content/uploads/2021/10/ae381cd2defdd955a5284dd0c7a8b8bf66150822.jpeg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/White_Temple_ziggurat_in_Uruk.jpg/960px-White_Temple_ziggurat_in_Uruk.jpg"],
     "date": "c. 3500–3000 BCE",
-    "date-num": [-3500,3000],
+    "date-num": [-3500,-3000],
     "date-range": 100,
     "style": ["Sumerian"],
     "location": "Uruk (modern Warka, Iraq)",
@@ -597,7 +597,7 @@
   "viennaGenesis": {
     "title": ["Vienna Genesis","Rebecca and Eliezer at the Well and Jacob Wrestling the Angel, from the Vienna Genesis","Rebecca and Eliezer at the Well from the Vienna Genesis","Rebecca and Eliezer at the Well","Jacob Wrestling the Angel from the Vienna Genesis","Jacob Wrestling the Angel"],
     "link": "https://smarthistory.org/the-vienna-genesis/?sidebar=ap-art-history-syllabus",
-    "image": ["https://smarthistory.org/wp-content/uploads/2017/04/rebekah-genesis-from-beths-folder.jpg","https://upload.wikimedia.org/wikipedia/commons/a/a0/ViennGenFol12vJacob.jpg"],
+    "image": ["https://smarthistory.org/wp-content/uploads/2017/04/rebekah-genesis-from-beths-folder.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ViennGenFol12vJacob.jpg/960px-ViennGenFol12vJacob.jpg"],
     "date": "Early 6th century CE",
     "date-num": [500,540],
     "date-range": 50,
@@ -718,7 +718,7 @@
   "chartresCathedral": {
     "title": "Chartres Cathedral",
     "link": "https://smarthistory.org/cathedral-of-notre-dame-de-chartres-part-1-of-3/?sidebar=ap-art-history-syllabus",
-    "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Notre_Dame_de_Chartres.jpg/960px-Notre_Dame_de_Chartres.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Chartres_JBU01.JPG/960px-Chartres_JBU01.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vitrail_Chartres_Notre-Dame_210209_1.jpg/500px-Vitrail_Chartres_Notre-Dame_210209_1.jpg","https://upload.wikimedia.org/wikipedia/commons/b/b1/Plan.cathedrale.Chartres.png","https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Triforium_Chartres.jpg/1024px-Triforium_Chartres.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Chartres_Cathedral_Royal_Portal_Statues_2_2007_08_31.jpg/960px-Chartres_Cathedral_Royal_Portal_Statues_2_2007_08_31.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Chartres_-_Westportal_Monatsbilder.jpg/960px-Chartres_-_Westportal_Monatsbilder.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Chartres_-_portail_royal%2C_tympan_central.jpg/960px-Chartres_-_portail_royal%2C_tympan_central.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Chartres_-_cath%C3%A9drale_-_lancettes_de_la_rosace_ouest.jpg/1280px-Chartres_-_cath%C3%A9drale_-_lancettes_de_la_rosace_ouest.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Chartres_RosetteNord_121_DSC08241.jpg/960px-Chartres_RosetteNord_121_DSC08241.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Chartres_-_Cath%C3%A9drale_%282012.01%29_03.jpg/960px-Chartres_-_Cath%C3%A9drale_%282012.01%29_03.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Strebewerk.jpg/960px-Strebewerk.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Chartres_-_Cath%C3%A9drale_%282012.01%29_08.jpg/960px-Chartres_-_Cath%C3%A9drale_%282012.01%29_08.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chartres_Cath%C3%A9drale_Notre-Dame_de_Chartres_Innen_Chor_4.jpg/960px-Chartres_Cath%C3%A9drale_Notre-Dame_de_Chartres_Innen_Chor_4.jpg"],
+    "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Notre_Dame_de_Chartres.jpg/960px-Notre_Dame_de_Chartres.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Chartres_JBU01.JPG/960px-Chartres_JBU01.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vitrail_Chartres_Notre-Dame_210209_1.jpg/500px-Vitrail_Chartres_Notre-Dame_210209_1.jpg","https://upload.wikimedia.org/wikipedia/commons/b/b1/Plan.cathedrale.Chartres.png","https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Triforium_Chartres.jpg/960px-Triforium_Chartres.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Chartres_Cathedral_Royal_Portal_Statues_2_2007_08_31.jpg/960px-Chartres_Cathedral_Royal_Portal_Statues_2_2007_08_31.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Chartres_-_Westportal_Monatsbilder.jpg/960px-Chartres_-_Westportal_Monatsbilder.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Chartres_-_portail_royal%2C_tympan_central.jpg/960px-Chartres_-_portail_royal%2C_tympan_central.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Chartres_-_cath%C3%A9drale_-_lancettes_de_la_rosace_ouest.jpg/1280px-Chartres_-_cath%C3%A9drale_-_lancettes_de_la_rosace_ouest.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Chartres_RosetteNord_121_DSC08241.jpg/960px-Chartres_RosetteNord_121_DSC08241.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Chartres_-_Cath%C3%A9drale_%282012.01%29_03.jpg/960px-Chartres_-_Cath%C3%A9drale_%282012.01%29_03.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Strebewerk.jpg/960px-Strebewerk.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Chartres_-_Cath%C3%A9drale_%282012.01%29_08.jpg/960px-Chartres_-_Cath%C3%A9drale_%282012.01%29_08.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chartres_Cath%C3%A9drale_Notre-Dame_de_Chartres_Innen_Chor_4.jpg/960px-Chartres_Cath%C3%A9drale_Notre-Dame_de_Chartres_Innen_Chor_4.jpg"],
     "date": "c. 1145–1155 CE (reconstructed 1194–1220 CE)",
     "date-num": [1145,1220],
     "date-range": 50,
@@ -921,7 +921,7 @@
   "schoolOfAthens": {
     "title": "School of Athens",
     "link": "https://smarthistory.org/raphael-school-of-athens/?sidebar=ap-art-history-syllabus",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/990px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/960px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
     "date": "1509–1511 CE",
     "date-num": [1509,1511],
     "date-range": 50,
@@ -947,7 +947,7 @@
   "entombmentOfChrist": {
     "title": ["Entombment of Christ","The Entombment of Christ"],
     "link": "https://smarthistory.org/jacopo-pontormo-entombment-or-deposition-from-the-cross/?sidebar=ap-art-history-syllabus",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Jacopo_Pontormo_-_Kreuzabnahme_Christi.jpg/320px-Jacopo_Pontormo_-_Kreuzabnahme_Christi.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Jacopo_Pontormo_-_Kreuzabnahme_Christi.jpg/500px-Jacopo_Pontormo_-_Kreuzabnahme_Christi.jpg",
     "date": "1525–1528 CE",
     "date-num": [1525,1528],
     "date-range": 50,
@@ -1258,7 +1258,7 @@
   "monticello": {
     "title": "Monticello",
     "link": "https://smarthistory.org/jefferson-monticello/?sidebar=ap-art-history-syllabus",
-    "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thomas_Jefferson%27s_Monticello_%28cropped%29.JPG/960px-Thomas_Jefferson%27s_Monticello_%28cropped%29.JPG", "/images/ap-art-history/unit-4/monticello-plan.jpg"],
+    "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thomas_Jefferson%27s_Monticello_%28cropped%29.JPG/960px-Thomas_Jefferson%27s_Monticello_%28cropped%29.JPG", "/images/ap-art-history/unit-4/monticello-plan.png"],
     "date": "1768–1809 CE",
     "date-num": [1768, 1809],
     "date-range": 50,
@@ -1648,7 +1648,7 @@
   "improvisation28": {
     "title": ["Improvisation 28 (second version)", "Improv 28 (second version)", "Improvisation 28 (2nd version)", "Improv 28 (2nd version)", "Improvisation 28", "Improv 28"],
     "link": "https://smarthistory.org/kandinsky-improvisation-28-second-version/?sidebar=ap-art-history-syllabus",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vasily_Kandinsky_Improvisation_28_%28second_version%29.jpg/902px-Vasily_Kandinsky_Improvisation_28_%28second_version%29.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Vasily_Kandinsky_Improvisation_28_%28second_version%29.jpg",
     "date": "1912 CE",
     "date-num": 1912,
     "date-range": 50,
@@ -1661,7 +1661,7 @@
   "selfPortraitAsSoldier": {
     "title": ["Self-Portrait as a Soldier", "Self-Portrait as Soldier"],
     "link": "https://smarthistory.org/kirchner-self-portrait-as-a-soldier/?sidebar=ap-art-history-syllabus",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kirchner_-_Selbstbildnis_als_Soldat.jpg/778px-Kirchner_-_Selbstbildnis_als_Soldat.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kirchner_-_Selbstbildnis_als_Soldat.jpg/960px-Kirchner_-_Selbstbildnis_als_Soldat.jpg",
     "date": "1915 CE",
     "date-num": 1915,
     "date-range": 50,
@@ -2602,7 +2602,7 @@
   "forbiddenCity": {
     "title": "Forbidden City",
     "link": "https://smarthistory.org/the-forbidden-city/?sidebar=ap-art-history-syllabus",
-    "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg/960px-Hall_of_Supreme_Harmony_%2820241127120000%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Forbidden_City_-_View_from_Coal_Hill.jpg/960px-The_Forbidden_City_-_View_from_Coal_Hill.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Forbidden_city_map_wp_1.png/504px-Forbidden_city_map_wp_1.png","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Forbidden_City_-_Meridian_Gate_View_from_North.jpg/960px-Forbidden_City_-_Meridian_Gate_View_from_North.jpg"],
+    "image": ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg/960px-Hall_of_Supreme_Harmony_%2820241127120000%29.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Forbidden_City_-_View_from_Coal_Hill.jpg/960px-The_Forbidden_City_-_View_from_Coal_Hill.jpg","https://upload.wikimedia.org/wikipedia/commons/7/76/Forbidden_city_map_wp_1.png","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Forbidden_City_-_Meridian_Gate_View_from_North.jpg/960px-Forbidden_City_-_Meridian_Gate_View_from_North.jpg"],
     "date": "15th century CE (and later)",
     "date-num": [1400,1499],
     "date-range": 100,

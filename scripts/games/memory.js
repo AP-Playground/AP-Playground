@@ -7,7 +7,7 @@ const slug = "memory";
 
 export function upload() {
     const data = JSON.parse(readFileSync(`src/games/${slug}.json`, "utf-8"))
-    let page = templates.head(global.gameTitle(slug), "/games/" + slug, "", [`/css/games/${slug}.css`,`/css/games/general.css`,"/css/module.css"], ['/js/fullscreen.js',`/js/games/${slug}.js`])
+    let page = templates.head(global.gameTitle(slug), "/games/" + slug, "", [`/css/games/${slug}.css`,`/css/games/general.css`,"/css/module.css"], ['/js/fullscreen.js','/js/games/general.js',`/js/games/${slug}.js`])
     page += "<body>"
     page += templates.nav("/games/" + slug);
 

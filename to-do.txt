@@ -1,5 +1,7 @@
 Add attribution for all used images (art his + bio)
 Download all used images and host locally
 Add dynamic image size loading
-Create geoguesser game
-Add sitemap generator
+Create sitemap generator
+Create QR code generator
+Create citation generator
+Include optionally hidden fields in geoguesser game in the max-height calculations

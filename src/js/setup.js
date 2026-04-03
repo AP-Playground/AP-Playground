@@ -94,6 +94,7 @@ if (imgEnlargedContainer) {
   })
   imgEnlargedContainer.addEventListener("keydown", (e) => {
     if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
       closeImgEnlarged()
     }
   })

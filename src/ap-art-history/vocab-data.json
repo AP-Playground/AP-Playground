@@ -12,9 +12,9 @@
         "image": "Image",
         "date": "Date",
         "artist": "Artist",
-        "style": "Style/movement",
+        "style": "Style",
         "location": "Site of production (approx.)",
-        "medium": "Medium/materials"
+        "medium": "Medium"
     },
     "games": {
         "memory": {
@@ -23,6 +23,32 @@
             "text": ["artist", "date", "medium", "style", "location"],
             "image": ["image"],
             "randomize": ["image", "style"]
+        },
+        "geoguesser": {
+            "term": ["title"],
+            "termImage": ["image"],
+            "details": ["artist", "date", "medium", "style"],
+            "detail-types": {
+                "artist": {
+                    "type": "text",
+                    "placeholder": "Title of artwork"
+                },
+                "date": {
+                    "type": "year",
+                    "placeholder": "YYYY"
+                },
+                "medium": {
+                    "type": "text",
+                    "placeholder": "Medium/materials"
+                },
+                "style": {
+                    "type": "text",
+                    "placeholder": "Art style/period"
+                }
+            },
+            "location": "location",
+            "location-coordinate": "location-coordinate",
+            "map": "world"
         }
     },
     "flashcards": {

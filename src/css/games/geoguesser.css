@@ -1,0 +1,207 @@
+.content-block.game-block {
+  max-height: none;
+}
+
+.game-bound {
+  container-type: inline-size;
+  max-width: max(var(--main-width), 70vw);
+  overflow: hidden auto;
+  scrollbar-width: thin;
+  padding-top: 25px;
+  margin-top: -25px !important;
+  padding-left: 10px;
+  margin-left: -10px;
+}
+
+.game {
+  position: relative;
+  display: grid;
+  align-items: start;
+  grid-template-columns: 6fr 4fr;
+  box-sizing: border-box;
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+  .game {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    & .game-identifiers {
+      order: -1;
+      & .image-identifier {
+        max-height: 30lvh;
+      }
+    }
+    & .game-play-area {
+      order: 1;
+      min-height: 0;
+    }
+  }
+}
+
+.game-play-area {
+  transition: transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+  & .map-container {
+    position: relative;
+    display: grid;
+    & .map {
+      width: 100%;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-user-drag: none;
+      cursor: pointer;
+    }
+    & .pinpoint, & .pinpoint-correct {
+      position: absolute;
+      height: 20px;
+      pointer-events: none;
+      user-select: none;
+      top: calc(var(--y, 0%) - 19px);
+      left: calc(var(--x, 0%) - 17.453px/2);
+    }
+    & .pinpoint {
+      transition: top 50ms ease-in-out, left 50ms ease-in-out, opacity 200ms ease-in-out;
+    }
+  }
+  & .map-feedback {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .detail-container {
+    display: grid;
+    gap: 1rem;
+    & > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: stretch;
+      align-items: center;
+      gap: 5px;
+    }
+    & input {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+      border-radius: 2.5px;
+      transition: background-color 0.25s;
+      &:disabled {
+        cursor: not-allowed;
+      }
+      &.correct {
+        background-color: color-mix(in oklab, limegreen 50%, white);
+      }
+      &.partial-correct {
+        background-color: color-mix(in oklab, yellow 50%, white);
+        text-decoration: line-through;
+      }
+      &.incorrect {
+        background-color: color-mix(in oklab, red 50%, white);
+        text-decoration: line-through;
+      }
+    }
+    & > div > div:has(button) {
+      display: flex;
+      gap: 5px;
+      button {
+        flex-shrink: 0;
+        &:disabled {
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+}
+
+.game-identifiers {
+  transition: transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  .image-identifier-container {
+    position: relative;
+    display: grid;
+    min-height: 0;
+    width: fit-content;
+    margin-inline: auto;
+    cursor: zoom-in;
+    isolation: isolate;
+    place-items: center;
+    .image-identifier-magnify {
+      width: 35px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 7.5px;
+      box-sizing: border-box;
+      opacity: 0.75;
+      transition: opacity 0.1s;
+      filter: invert(1);
+      mix-blend-mode: difference;
+    }
+    &:hover .image-identifier-magnify {
+      opacity: 1;
+    }
+    .image-identifier {
+      max-width: 100%;
+      min-height: 0;
+      max-height: 100%;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    .image-identifier-loading {
+      position: absolute;
+      z-index: -1;
+      object-fit: contain;
+      width: 50px;
+      transition: opacity 0.25s;
+    }
+  }
+  .text-identifier {
+
+  }
+}
+.game-play-area.init {
+  transform: translateX(-120%);
+  opacity: 0;
+  pointer-events: none;
+}
+.game-identifiers.init {
+  transform: translateX(120%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.game-navigation-controls {
+  display: flex;
+  gap: 4px;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-win-modal {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: max-content;
+  height: fit-content;
+  padding: 20px;
+  border: 5px solid var(--theme-80);
+  border-radius: calc(var(--side-nav-btn-diameter)/2);
+  background-color: white;
+  transition: scale 0.5s ease-in-out;
+  scale: 1;
+  &.hidden {
+    pointer-events: none;
+    scale: 0;
+  }
+  .game-win-modal-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+}

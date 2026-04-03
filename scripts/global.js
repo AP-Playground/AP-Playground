@@ -37,7 +37,8 @@ examDatesTemp.forEach(el1 => {
 // set up global courses data
 export const courses = [
   { title: "AP Biology", slug: "ap-biology" },
-  { title: "AP Art History", slug: "ap-art-history" }
+  { title: "AP Art History", slug: "ap-art-history" },
+  { title: "AP World History: Modern", slug: "ap-world-history" }
 ]
 
 const courseTitles = {}
@@ -76,7 +77,8 @@ export function toolTitle(slug) {
 
 // set up global games data
 export const games = [
-  { title: "Memory", slug: "memory" }
+  { title: "Memory", slug: "memory" },
+  { title: "Geoguesser", slug: "geoguesser" }
 ]
 
 const gameTitles = {}

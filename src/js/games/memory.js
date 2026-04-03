@@ -1,64 +1,3 @@
-const courseSelect = document.querySelector("#course-select")
-const gameBlock = document.querySelector(".game-block")
-gameBlock.inert = true;
-
-const gameFilters = document.querySelector(".game-filters")
-const gameOptions = document.querySelector(".game-options")
-const gameSettings = document.querySelector(".game-settings")
-const settingData = JSON.parse(gameSettings.innerHTML)
-gameSettings.innerHTML = "";
-gameSettings.hidden = false;
-
-let filters = {};
-let options = {};
-let settings = {};
-
-let vocab;
-let vocabData;
-let courseNav;
-
-let firstGameLoad = true;
-let initialPageLoad = true;
-
-const paramsString = window.location.search;
-const searchParams = new URLSearchParams(paramsString);
-
-courseSelect.addEventListener("change", async () => {
-    gameBlock.inert = true;
-    gameBlock.classList.remove("active");
-    gameFilters.innerHTML = ""
-    gameOptions.innerHTML = ""
-    gameSettings.innerHTML = ""
-    filters = {};
-    options = {};
-    settings = {};
-
-    [vocab, vocabData, courseNav] = await Promise.all([
-        loadJSON(`/${courseSelect.value}/vocab.json`),
-        loadJSON(`/${courseSelect.value}/vocab-data.json`),
-        loadJSON(`/${courseSelect.value}/nav.json`)
-    ]);
-
-    loadOptions();
-
-    if (initialPageLoad && searchParams.has("course")) {
-        for (const [key, val] of searchParams) {
-            if (key === "course") continue;
-            const checked = document.querySelector(`.${key}[value="${val}"]`)
-            if (checked) {
-                checked.checked = true;
-                checked.dispatchEvent(new Event('change'))
-            }
-        }
-    }
-    initialPageLoad = false;
-})
-
-if (searchParams.has("course")) {
-    courseSelect.value = searchParams.get("course")
-    courseSelect.dispatchEvent(new Event('change'));
-}
-
 function loadOptions() {
     for (const filter of vocabData.filters) {
         let values;
@@ -79,14 +18,14 @@ function loadOptions() {
 
     const keyNames = vocabData.keys
     const memoryData = vocabData.games.memory
-    const identifierOptions = [...memoryData.term, ...memoryData.termImage]
+    const identifierOptions = memoryData.term.concat(memoryData.termImage)
     if (identifierOptions.length > 1) {
         fieldset(gameOptions, "identifier", "Identifier", identifierOptions, identifierOptions.map(i => keyNames[i]), false, false, "option")
     } else {
         options["identifier"] = [memoryData.term[0] || memoryData.termImage[0]];
     }
     
-    const infoOptions = [...memoryData.text, ...memoryData.image];
+    const infoOptions = memoryData.text.concat(memoryData.image);
     if (infoOptions.length > 1) {
         fieldset(gameOptions, "info", "Card information", infoOptions, infoOptions.map(i => keyNames[i]), false, false, "option")
     } else {
@@ -114,7 +53,7 @@ function fieldset(element, key, displayKey, values, displayValues, multiselect, 
             const repeat = vocabData.keys[list[key][0]]
             alert(`You cannot select the same identifier ("${repeat}") and card information ('${repeat}")!`)
             e.target.checked = false;
-            return;
+            list[key] = inputs.filter(i => i.checked).map(i => i.value);
         }
 
         checkLoadGame();
@@ -134,13 +73,11 @@ function fieldset(element, key, displayKey, values, displayValues, multiselect, 
     }
 }
 
-const gameOverlay = gameBlock.querySelector(".overlay");
 function checkLoadGame() {
     let ready = true;
     for (const filter in filters) if (filters[filter].length === 0) ready = false;
     for (const option in options) if (options[option].length === 0) ready = false;
     for (const setting in settings) if (settings[setting].length === 0) ready = false;
-    if (options.info[0] === options.identifier[0]) ready = false;
 
     if (ready) {
         gameBlock.inert = false;
@@ -222,22 +159,13 @@ function loadTerms() {
             if (!filters[filter].some(item => vocab[key][filter].includes(item))) return false;
         }
 
-        if (!hasProperty(vocab[key], options.info[0])) return false;
-        if (!hasProperty(vocab[key], options.identifier[0])) return false;
+        if (!hasProperty(vocab[key], options.info[0], "memory")) return false;
+        if (!hasProperty(vocab[key], options.identifier[0], "memory")) return false;
         if (vocab[key].hasOwnProperty("memory-disable") && vocab[key]["memory-disable"]) return false;
 
         return true;
     })
 }
-
-function hasProperty(term, key) {
-    if (term.hasOwnProperty("memory-"+key)) {
-        return term["memory-"+key];
-    } else return term.hasOwnProperty(key)
-}
-
-const gameBound = gameBlock.querySelector(".game-bound")
-const game = gameBound.querySelector(".game");
 
 function loadBoard() {
     game.innerHTML = ""
@@ -479,9 +407,7 @@ function gameOver() {
     })
 }
 
-const moduleControls = gameBlock.querySelector(".module-controls");
 const fullscreenBtn = moduleControls.querySelector(".fullscreen");
-const copyLinkBtn = moduleControls.querySelector(".copy-link");
 const progress = moduleControls.querySelector(".progress");
 const replayBtn = moduleControls.querySelector(".replay");
 
@@ -510,38 +436,6 @@ fullscreenBtn.addEventListener("click", () => {
   toggleFullscreen(gameBlock, fullscreenBtn, true, gameBoundResize)
 })
 
-copyLinkBtn.addEventListener("click", () => {
-  const currentUrl = new URL(window.location.href);
-  currentUrl.search = ""
-  const params = currentUrl.searchParams;
-  params.set("course", courseSelect.value)
-  document.querySelectorAll(".game-filters input:checked:not(.select-all)").forEach(i => params.append(i.classList[0], i.value))
-  document.querySelectorAll(".game-options input:checked:not(.select-all)").forEach(i => params.append(i.classList[0], i.value))
-  document.querySelectorAll(".game-settings input:checked:not(.select-all)").forEach(i => params.append(i.classList[0], i.value))
-  const newUrl = currentUrl.origin + currentUrl.pathname + "?" + params.toString() + currentUrl.hash
-  copyToClipboard(newUrl)
-  alert("Game link copied to clipboard with current settings.")
-})
-
-async function copyToClipboard(text) {
-  await navigator.clipboard.writeText(text)
-}
-
-function pickString(input, randomize = true) {
-    if (typeof input === "string") return input;
-    if (randomize) return input[Math.floor(Math.random()*input.length)];
-    return input[0]
-}
-
-function randomize(list) {
-    return list.sort(() => Math.random() - 0.5)
-}
-
 function imageZoom(url) {
     return `<img draggable="false" class="img" src=${url}><img class="magnify" tabindex="0" src="/icons/magnify.svg">`
-}
-
-async function loadJSON(url) {
-    return await fetch(url)
-    .then(response => response.json())
 }

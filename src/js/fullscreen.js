@@ -62,6 +62,7 @@ async function toggleFullscreen(block, btn, transition = true, resizeFunction) {
     fullscreenPlaceholder.style.height = height + "px";
     fullscreenPlaceholder.style.display = "";
     block.classList.add("fullscreen")
+    if (resizeFunction) resizeFunction()
 
     requestAnimationFrame(() => {
       styles.transition = "all 0.3s ease-in-out";

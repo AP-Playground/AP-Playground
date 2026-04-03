@@ -3,9 +3,11 @@ import { readFileSync } from 'fs';
 import * as util from '../util.js'
 import * as global from '../global.js'
 import * as memory from './memory.js'
+import * as geoguesser from './geoguesser.js'
 
 
 memory.upload()
+geoguesser.upload()
 
 
 export function upload() {
