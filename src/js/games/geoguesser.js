@@ -521,7 +521,6 @@ function checkAnswers(review = false) {
 
     const currentCoordinate = getCoordinate(pinpoint)
     const locationCoordinate = currentTerm[geoguesserData["location-coordinate"]]
-    mapFeedback.textContent = currentTerm[geoguesserData.location]
     if (!pinpoint.hidden) {
         const locSelected = currentCoordinate.map(i => i*Math.PI/180);
         const locCorrect = locationCoordinate.map(i => i*Math.PI/180);
@@ -533,6 +532,8 @@ function checkAnswers(review = false) {
         const computedStyles = window.getComputedStyle(pinpoint)
         inputs["pinpoint-x"] = computedStyles.getPropertyValue("--x")
         inputs["pinpoint-y"] = computedStyles.getPropertyValue("--y")
+    } else {
+        mapFeedback.textContent = "No location selected; " + currentTerm[geoguesserData.location]
     }
     pinpointCorrect.style.setProperty('--x', (locationCoordinate[1]+180)/360*100 + "%");
     pinpointCorrect.style.setProperty('--y', (90-locationCoordinate[0])/180*100 + "%");
