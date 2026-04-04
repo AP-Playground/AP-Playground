@@ -398,11 +398,7 @@ function gameOver() {
         else message += `Player ${winners[0]}`
         winAccuracy.innerHTML = "Winner: <b>"+message+"</b>";
     }
-    startTime = (Date.now() - startTime)/1000
-    const minutes = Math.floor(startTime/60)
-    let seconds = Math.round(startTime - minutes * 60)
-    seconds = seconds < 10 ? "0" + seconds : seconds
-    winTime.textContent = "Time: " + minutes + ":" + seconds;
+    winTime.textContent = "Time: " + formatTime(Date.now() - startTime);
     requestAnimationFrame(() => {
         winModal.classList.remove("hidden")
     })

@@ -4,6 +4,12 @@ Add dynamic image size loading
 Create sitemap generator
 Create QR code generator
 Fix dark mode/themeing
-Show region and category for WHAP vocab
 Create unit summaries + remove CED attribution where needed
 Check for game version of all keys (eg. pick "memory-image" over "image")
+Generalize game functions
+Create chronology game
+Create guesswho game
+Rename geoguesser to pinpoint?
+Comment longer files
+Scroll to game on first game load
+Add optional tooltips with additional details on all game settings/options

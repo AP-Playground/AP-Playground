@@ -380,11 +380,7 @@ continueButton.addEventListener("click", () => {
     progress.textContent = currentIdx + " / " + usedTerms.length;
     if (currentIdx === usedTerms.length) {
         gameAccuracy.textContent = "Accuracy: " + round(score / usedTerms.length * 100, 1) + "%"
-        startTime = (Date.now() - startTime)/1000
-        const minutes = Math.floor(startTime/60)
-        let seconds = Math.round(startTime - minutes * 60)
-        seconds = seconds < 10 ? "0" + seconds : seconds
-        gameTime.textContent = "Time: " + minutes + ":" + seconds;
+        gameTime.textContent = "Time: " + formatTime(Date.now() - startTime);
         winModal.classList.remove("hidden");
         playArea.classList.add("init");
         identifierArea.classList.add("init");

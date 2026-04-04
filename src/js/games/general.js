@@ -23,7 +23,7 @@ let initialPageLoad = true;
 
 const paramsString = window.location.search;
 const searchParams = new URLSearchParams(paramsString);
-
+const gameSlug = window.location.pathname.split("/").at(-1).replace(".html", "");
 
 courseSelect.addEventListener("change", async () => {
     if (!courseSelect.value) {
@@ -138,6 +138,27 @@ function round(number, decimalPlaces, leadingPlaces = 0) {
   number /= (10 ** decimalPlaces)
   if (leadingPlaces) return "0".repeat(Math.max(0, leadingPlaces - wholeDigitCount(number))) + number
   return number
+}
+
+function formatTime(milliseconds, forceMinutes = true, forceHours = false) {
+  let totalSeconds = Math.ceil(milliseconds / 1000);
+  let result = "";
+  
+  if (forceHours || totalSeconds >= 3600) {
+    const hours = Math.floor(totalSeconds / 3600);
+    result += hours + ":";
+    totalSeconds %= 3600;
+  }
+
+  if (forceMinutes || totalSeconds >= 60) {
+    const minutes = Math.floor(totalSeconds / 60);
+    result += (forceHours ? String(minutes).padStart(2, '0') : minutes) + ":";
+    totalSeconds %= 60;
+  }
+
+  result += (forceMinutes ? String(totalSeconds).padStart(2, '0') : totalSeconds)
+  
+  return result;
 }
 
 function wholeDigitCount(n) {
