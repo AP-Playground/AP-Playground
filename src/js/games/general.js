@@ -80,10 +80,16 @@ if (searchParams.has("course")) {
 const gameBound = gameBlock.querySelector(".game-bound")
 const game = gameBound.querySelector(".game");
 
-function hasProperty(term, key, slug) {
-    if (term.hasOwnProperty(slug + "-" + key)) {
-        return term[slug + "-" + key];
-    } else return term[key];
+// Returns the property with the suffix if it exists, otherwise returns the base property
+// This allows different games to get different values from the same key if needed
+// This also allows the blocking the use of a key in a certain game, by entering a falsy value into the suffixed key
+// Default keys are used for course flashcards
+// Case: suffixed key exists -> return suffixed key value (if falsy, game will ignore the key)
+// Case: suffixed key doesn't exist -> return base key value (if falsy, game will ignore the key)
+function hasProperty(object, key, optionalSlug = gameSlug) {
+    if (object.hasOwnProperty(optionalSlug + "-" + key)) {
+        return object[optionalSlug + "-" + key];
+    } else return object[key];
 }
 
 function copyToClipboard(text) {
@@ -94,11 +100,6 @@ function pickString(input, randomize = true) {
     if (typeof input === "string") return input;
     if (randomize) return input[Math.floor(Math.random()*input.length)];
     return input[0]
-}
-
-function pickFirst(item) {
-  if (typeof item === "string") return item;
-  return item[0]
 }
 
 function randomize(list) {
@@ -157,7 +158,7 @@ function formatTime(milliseconds, forceMinutes = true, forceHours = false) {
   }
 
   result += (forceMinutes ? String(totalSeconds).padStart(2, '0') : totalSeconds)
-  
+
   return result;
 }
 
@@ -177,6 +178,7 @@ function preloadImage(url) {
 
 const moduleControls = gameBlock.querySelector(".module-controls");
 const copyLinkBtn = moduleControls.querySelector(".copy-link");
+const fullscreenBtn = moduleControls.querySelector(".fullscreen");
 
 copyLinkBtn.addEventListener("click", () => {
   const currentUrl = new URL(window.location.href);
@@ -198,4 +200,9 @@ copyLinkBtn.addEventListener("click", () => {
   const newUrl = currentUrl.origin + currentUrl.pathname + "?" + params.toString() + currentUrl.hash
   copyToClipboard(newUrl)
   alert("Game link copied to clipboard with current settings.")
+})
+
+fullscreenBtn.addEventListener("click", () => {
+  fullscreenBtn.classList.toggle("active");
+  toggleFullscreen(gameBlock, fullscreenBtn, true, typeof gameboundResize === "function" ? gameBoundResize : undefined)
 })

@@ -26,7 +26,12 @@ export function upload() {
         let temp = `<div class="multiplayer-info"><div></div><div></div><div></div></div>`
         temp += `<div class="game-bound">`
             temp += `<div class="game"></div>`  
-            temp += `<div class="win-modal hidden" hidden><h1>Game Over!</h1><p class="win-accuracy"></p><p class="win-time"></p></div>`
+            temp += `<div class="win-modal hidden" hidden>`
+              temp += `<h1>Game Over!</h1>`
+              temp += `<p class="win-accuracy"></p>`
+              temp += `<p class="win-time"></p>`
+              temp += `<button class="game-replay">Replay</button>`
+            temp += `</div>`
         temp += `</div>`
         temp += `<div class="module-controls">`
             temp += `<div class="left"><button class="replay"><img src="/icons/refresh.svg"></button><button class="copy-link"><img src="/icons/copy_link.svg"></button></div>`

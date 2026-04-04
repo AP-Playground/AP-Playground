@@ -156,16 +156,16 @@ function loadTerms() {
     availableTerms = availableTerms.filter(key => {
         for (const filter in filters) {
             if (filter === "unit") continue;
-            if (!vocab[key][filter]) continue;
-            if (!filters[filter].some(item => vocab[key][filter].includes(item))) return false;
+            if (!hasProperty(vocab[key], filter)) continue;
+            if (!filters[filter].some(item => hasProperty(vocab[key], filter).includes(item))) return false;
         }
 
         for (id of options.identifier) {
-            if (!hasProperty(vocab[key], id, "geoguesser")) return false;
+            if (!hasProperty(vocab[key], id)) return false;
         }
-        if (!hasProperty(vocab[key], geoguesserData.location, "geoguesser")) return false;
-        if (!hasProperty(vocab[key], geoguesserData["location-coordinate"], "geoguesser")) return false;
-        if (vocab[key]["geoguesser-disable"]) return false;
+        if (!hasProperty(vocab[key], geoguesserData.location)) return false;
+        if (!hasProperty(vocab[key], geoguesserData["location-coordinate"])) return false;
+        if (vocab[key][gameSlug + "-disable"]) return false;
 
         return true;
     })
@@ -275,7 +275,7 @@ function populateBoard() {
     let foundDetail = false;
     for (const detail of options.details) {
         const detailElement = detailContainer.querySelector(`.detail-${detail}`)
-        if (hasProperty(currentTerm, detail, "geoguesser")) {
+        if (hasProperty(currentTerm, detail)) {
             detailElement.style.display = "";
             foundDetail = true;
         } else {
@@ -284,12 +284,12 @@ function populateBoard() {
     }
     for (const identifier of options.identifier) {
         if (gameData.term.includes(identifier)) {
-            textIdentifier.textContent = pickFirst(currentTerm[identifier]);
+            textIdentifier.textContent = pickString(hasProperty(currentTerm, identifier), false);
         } else {
             imageIdentifier.style.opacity = "";
             imageIdentifierLoading.style.opacity = "";
-            imageIdentifier.src = pickString(currentTerm[identifier]);
-            if (currentIdx + 1 < usedTerms.length) preloadImage(pickString(vocab[usedTerms[currentIdx+1]][identifier]))
+            imageIdentifier.src = pickString(hasProperty(currentTerm, identifier));
+            if (currentIdx + 1 < usedTerms.length) preloadImage(pickString(hasProperty(vocab[usedTerms[currentIdx+1]], identifier)));
         }
     }
     detailContainer.style.display = foundDetail ? "" : "none"
@@ -371,6 +371,7 @@ submitButton.addEventListener("click", () => {
 
     checkAnswers();
 })
+
 const winModal = game.querySelector(".game-win-modal");
 const gameAccuracy = game.querySelector(".game-accuracy");
 const gameTime = game.querySelector(".game-time");
@@ -461,13 +462,13 @@ function checkAnswers(review = false) {
     const geoguesserData = vocabData.games.geoguesser
     const currentTerm = vocab[usedTerms[currentIdx]]
     for (const detail of options.details) {
-        if (!hasProperty(currentTerm, detail, "geoguesser")) continue;
+        if (!hasProperty(currentTerm, detail)) continue;
 
         const detailElement = detailContainer.querySelector(".detail-"+detail)
         const detailFeedbackElement = detailElement.querySelector(`.detail-${detail}-feedback`)
         const detailInputElement = detailElement.querySelector(`#detail-${detail}-input`);
-        let correctAnswer = currentTerm["geoguesser-"+detail] || currentTerm[detail];
-        detailFeedbackElement.textContent = pickFirst(correctAnswer);
+        let correctAnswer = hasProperty(currentTerm, detail);
+        detailFeedbackElement.textContent = pickString(correctAnswer, false);
         inputs[`#detail-${detail}-input`] = detailInputElement.value;
         currentInputAccuracy = 0;
         
@@ -495,8 +496,8 @@ function checkAnswers(review = false) {
                 inputs[`.detail-${detail}-toggle`] = yearToggle.textContent;
                 if (inputtedYear === "") break;
                 if (yearToggle.textContent === "BCE") inputtedYear *= -1;
-                const yearNum = currentTerm["geoguesser-"+detail+"-num"] || currentTerm[detail+"-num"]
-                const yearRange = currentTerm["geoguesser-"+detail+"-range"] || currentTerm[detail+"-range"]
+                const yearNum = hasProperty(currentTerm, detail+"-num");
+                const yearRange = hasProperty(currentTerm, detail+"-range");
                 
                 if (typeof yearNum === "number") {
                     currentInputAccuracy += Math.max(Math.min(2 - Math.abs(yearNum - inputtedYear)/yearRange, 1), 0);
@@ -517,20 +518,20 @@ function checkAnswers(review = false) {
     }
 
     const currentCoordinate = getCoordinate(pinpoint)
-    const locationCoordinate = currentTerm[geoguesserData["location-coordinate"]]
+    const locationCoordinate = hasProperty(currentTerm, geoguesserData["location-coordinate"]);
     if (!pinpoint.hidden) {
         const locSelected = currentCoordinate.map(i => i*Math.PI/180);
         const locCorrect = locationCoordinate.map(i => i*Math.PI/180);
         const radius = 3963.1;
         const calc = 1 - Math.cos(locCorrect[0])*Math.cos(locSelected[0])*Math.cos(locCorrect[1]-locSelected[1]) - Math.sin(locCorrect[0])*Math.sin(locSelected[0]);
         const distance = 2 * radius * Math.asin(Math.sqrt(calc/2))
-        mapFeedback.textContent = round(distance, 1) + " miles away; " + currentTerm[geoguesserData.location];
+        mapFeedback.textContent = round(distance, 1) + " miles away; " + hasProperty(currentTerm, geoguesserData.location);
         totalInputsAccuracy += Math.min(1, Math.max(0, 1-(distance-250)/750))
         const computedStyles = window.getComputedStyle(pinpoint)
         inputs["pinpoint-x"] = computedStyles.getPropertyValue("--x")
         inputs["pinpoint-y"] = computedStyles.getPropertyValue("--y")
     } else {
-        mapFeedback.textContent = "No location selected; " + currentTerm[geoguesserData.location]
+        mapFeedback.textContent = "No location selected; " + hasProperty(currentTerm, geoguesserData.location)
     }
     pinpointCorrect.style.setProperty('--x', (locationCoordinate[1]+180)/360*100 + "%");
     pinpointCorrect.style.setProperty('--y', (90-locationCoordinate[0])/180*100 + "%");
@@ -554,14 +555,8 @@ function getCoordinate(element) {
 }
 
 
-const fullscreenBtn = moduleControls.querySelector(".fullscreen");
 const progress = moduleControls.querySelector(".progress");
 const replayBtn = moduleControls.querySelector(".replay");
-
-fullscreenBtn.addEventListener("click", () => {
-  fullscreenBtn.classList.toggle("active");
-  toggleFullscreen(gameBlock, fullscreenBtn, true, gameBoundResize)
-})
 
 replayBtn.addEventListener("click", checkLoadGame);
 

@@ -156,13 +156,13 @@ function loadTerms() {
     availableTerms = availableTerms.filter(key => {
         for (const filter in filters) {
             if (filter === "unit") continue;
-            if (!vocab[key][filter]) continue;
-            if (!filters[filter].some(item => vocab[key][filter].includes(item))) return false;
+            if (!hasProperty(vocab[key], filter)) continue;
+            if (!filters[filter].some(item => hasProperty(vocab[key], filter).includes(item))) return false;
         }
 
-        if (!hasProperty(vocab[key], options.info[0], "memory")) return false;
-        if (!hasProperty(vocab[key], options.identifier[0], "memory")) return false;
-        if (vocab[key]["memory-disable"]) return false;
+        if (!hasProperty(vocab[key], options.info[0])) return false;
+        if (!hasProperty(vocab[key], options.identifier[0])) return false;
+        if (vocab[key][gameSlug + "-disable"]) return false;
 
         return true;
     })
@@ -242,12 +242,12 @@ function fillBoard() {
     const randomizeInfo = data.randomize.includes(info)
 
     for (const term of usedTerms) {
-        let identifierHTML = vocab[term]["memory-"+identifier] || vocab[term][identifier]
+        let identifierHTML = hasProperty(vocab[term], identifier)
         identifierHTML = pickString(identifierHTML, randomizeIdentifier);
         if (data.termImage.includes(identifier)) identifierHTML = imageZoom(identifierHTML);
         cardText.push(identifierHTML)
         
-        let infoHTML = vocab[term]["memory-"+info] || vocab[term][info]
+        let infoHTML = hasProperty(vocab[term], info)
         infoHTML = pickString(infoHTML, randomizeInfo)
         if (data.image.includes(info)) infoHTML = imageZoom(infoHTML);
         cardText.push(infoHTML)
@@ -384,6 +384,7 @@ function handleFlip(tile) {
 const winModal = gameBound.querySelector(".win-modal")
 const winAccuracy = winModal.querySelector(".win-accuracy");
 const winTime = winModal.querySelector(".win-time")
+const gameReplay = winModal.querySelector(".game-replay");
 let startTime;
 function gameOver() {
     winModal.hidden = false;
@@ -404,7 +405,8 @@ function gameOver() {
     })
 }
 
-const fullscreenBtn = moduleControls.querySelector(".fullscreen");
+gameReplay.addEventListener("click", checkLoadGame)
+
 const progress = moduleControls.querySelector(".progress");
 const replayBtn = moduleControls.querySelector(".replay");
 
@@ -427,11 +429,6 @@ function updateProgress() {
         })
     }
 }
-
-fullscreenBtn.addEventListener("click", () => {
-  fullscreenBtn.classList.toggle("active");
-  toggleFullscreen(gameBlock, fullscreenBtn, true, gameBoundResize)
-})
 
 function imageZoom(url) {
     return `<img draggable="false" class="img" src=${url}><img class="magnify" tabindex="0" src="/icons/magnify.svg">`
