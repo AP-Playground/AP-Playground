@@ -25,19 +25,20 @@
     ],
     "keys": {
         "term": "Term",
+        "date": "Date",
         "definition": "Definition",
-        "date": "Date"
+        "effect": "Effect"
     },
     "games": {
         "memory": {
             "term": ["term"],
-            "text": ["definition"],
+            "text": ["date", "definition", "effect"],
             "image": []
         }
     },
     "flashcards": {
         "term": "term",
-        "text": "${date}\n${definition}",
+        "text": ["Date: ${date}", "Definition: ${definition}", "Effect: ${effect}"],
         "link": "link"
     },
     "units": {

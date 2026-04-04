@@ -48,7 +48,7 @@ function fillTemplate(template, data) {
   for (const segment of template) {
     let success = true;
     let temp = segment.replace(/\$\{([^}]+)\}/g, (match, key) => {
-      return key in data ? pickFirst(data[key]) : success = false;
+      return key in data && data[key] ? pickFirst(data[key]) : success = false;
     });
     if (!success) continue;
     output.push(temp)
@@ -110,7 +110,7 @@ if (vocab.length <= 1) flashcardNext.disabled = true;
 function loadCard(newVocab, animate) {
   const term = pickFirst(newVocab[termKey])
   const definition = fillTemplate(textFormat, newVocab)
-  const image = pickFirst(newVocab[imageKey])
+  const image = pickFirst(newVocab[imageKey] || "")
   let anim;
   const curOpacity = flashcardContainer.style.opacity || 1;
   const duration = 100 * animate;

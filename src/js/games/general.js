@@ -83,7 +83,7 @@ const game = gameBound.querySelector(".game");
 function hasProperty(term, key, slug) {
     if (term.hasOwnProperty(slug + "-" + key)) {
         return term[slug + "-" + key];
-    } else return term.hasOwnProperty(key)
+    } else return term[key];
 }
 
 function copyToClipboard(text) {

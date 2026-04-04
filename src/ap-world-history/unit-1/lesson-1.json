@@ -1,11 +1,16 @@
 {
-  "summary": "Lesson 1 summary",
+  "summary": "Setting the world stage in Unit 1, we begin with East Asia in the year 1200. Centered around the Song Dynasty in China, we explore Confucianism, the Civil Service Exam, and China’s influence on its East Asian neighbors, including Korea, Japan, and Vietnam. Go Champa rice!",
   "vocab": [
+    "neoConfucianism", "civilServiceExam", "filialPiety", "champaRice", "songDynasty", "khanate", "paxMongolica", "sinification", "shogunate", "shinto", "bushido", "goryeo", "yuanDynasty", "mingDynasty", "minamotoNoYoritomo", "genghisKhan", "kublaiKhan", "marcoPolo", "ibnBattuta", "zhenghe"
   ],
   "links": [
     {
       "title": "Freeman-Pedia | East Asia, Global Tapestry",
       "link": "https://www.freeman-pedia.com/east-asia-global-tapestry"
+    },
+    {
+      "title": "Lumisource | Topic 1.1 Notes",
+      "link": "https://www.lumisource.io/dashboard/ap/world-history/review/unit1-1"
     }
   ],
   "videos": [
@@ -23,10 +28,6 @@
       "more": true
     },
     {
-      "title": "Freeman-Pedia | Illustrative Examples: Champa Rice",
-      "link": "vMO95jJh8vY"
-    },
-    {
       "title": "Jim Rhoades | Chapter 1.1",
       "link": "3W8kb8lc5cM"
     },
@@ -37,6 +38,10 @@
     {
       "title": "ChinaX | How to Memorize China's Major Dynasties",
       "link": "xJis9TSw1rE"
+    },
+    {
+      "title": "Freeman-Pedia | Illustrative Examples: Champa Rice",
+      "link": "vMO95jJh8vY"
     }
   ]
 }

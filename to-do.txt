@@ -4,3 +4,6 @@ Add dynamic image size loading
 Create sitemap generator
 Create QR code generator
 Fix dark mode/themeing
+Show region and category for WHAP vocab
+Create unit summaries + remove CED attribution where needed
+Check for game version of all keys (eg. pick "memory-image" over "image")

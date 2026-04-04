@@ -156,6 +156,7 @@ function loadTerms() {
     availableTerms = availableTerms.filter(key => {
         for (const filter in filters) {
             if (filter === "unit") continue;
+            if (!vocab[key][filter]) continue;
             if (!filters[filter].some(item => vocab[key][filter].includes(item))) return false;
         }
 
@@ -164,7 +165,7 @@ function loadTerms() {
         }
         if (!hasProperty(vocab[key], geoguesserData.location, "geoguesser")) return false;
         if (!hasProperty(vocab[key], geoguesserData["location-coordinate"], "geoguesser")) return false;
-        if (vocab[key].hasOwnProperty("geoguesser-disable") && vocab[key]["geoguesser-disable"]) return false;
+        if (vocab[key]["geoguesser-disable"]) return false;
 
         return true;
     })

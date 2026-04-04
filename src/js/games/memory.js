@@ -156,12 +156,13 @@ function loadTerms() {
     availableTerms = availableTerms.filter(key => {
         for (const filter in filters) {
             if (filter === "unit") continue;
+            if (!vocab[key][filter]) continue;
             if (!filters[filter].some(item => vocab[key][filter].includes(item))) return false;
         }
 
         if (!hasProperty(vocab[key], options.info[0], "memory")) return false;
         if (!hasProperty(vocab[key], options.identifier[0], "memory")) return false;
-        if (vocab[key].hasOwnProperty("memory-disable") && vocab[key]["memory-disable"]) return false;
+        if (vocab[key]["memory-disable"]) return false;
 
         return true;
     })
