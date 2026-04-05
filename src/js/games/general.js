@@ -86,7 +86,7 @@ const game = gameBound.querySelector(".game");
 // Default keys are used for course flashcards
 // Case: suffixed key exists -> return suffixed key value (if falsy, game will ignore the key)
 // Case: suffixed key doesn't exist -> return base key value (if falsy, game will ignore the key)
-function hasProperty(object, key, optionalSlug = gameSlug) {
+function getProperty(object, key, optionalSlug = gameSlug) {
     if (object.hasOwnProperty(optionalSlug + "-" + key)) {
         return object[optionalSlug + "-" + key];
     } else return object[key];

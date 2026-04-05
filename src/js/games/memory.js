@@ -156,12 +156,12 @@ function loadTerms() {
     availableTerms = availableTerms.filter(key => {
         for (const filter in filters) {
             if (filter === "unit") continue;
-            if (!hasProperty(vocab[key], filter)) continue;
-            if (!filters[filter].some(item => hasProperty(vocab[key], filter).includes(item))) return false;
+            if (!getProperty(vocab[key], filter)) continue;
+            if (!filters[filter].some(item => getProperty(vocab[key], filter).includes(item))) return false;
         }
 
-        if (!hasProperty(vocab[key], options.info[0])) return false;
-        if (!hasProperty(vocab[key], options.identifier[0])) return false;
+        if (!getProperty(vocab[key], options.info[0])) return false;
+        if (!getProperty(vocab[key], options.identifier[0])) return false;
         if (vocab[key][gameSlug + "-disable"]) return false;
 
         return true;
@@ -242,12 +242,12 @@ function fillBoard() {
     const randomizeInfo = data.randomize.includes(info)
 
     for (const term of usedTerms) {
-        let identifierHTML = hasProperty(vocab[term], identifier)
+        let identifierHTML = getProperty(vocab[term], identifier)
         identifierHTML = pickString(identifierHTML, randomizeIdentifier);
         if (data.termImage.includes(identifier)) identifierHTML = imageZoom(identifierHTML);
         cardText.push(identifierHTML)
         
-        let infoHTML = hasProperty(vocab[term], info)
+        let infoHTML = getProperty(vocab[term], info)
         infoHTML = pickString(infoHTML, randomizeInfo)
         if (data.image.includes(info)) infoHTML = imageZoom(infoHTML);
         cardText.push(infoHTML)

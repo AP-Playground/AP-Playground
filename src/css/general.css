@@ -714,6 +714,12 @@ html.dark-mode {
   & .video-embed {
     filter: invert(1);
   }
+  & img {
+    filter: invert(1);
+  }
+  & button > img {
+    filter: none;
+  }
   & .dark-mode-btn > div {
     -webkit-mask-image: url("/icons/dark.svg") !important;
     mask-image: url("/icons/dark.svg") !important;

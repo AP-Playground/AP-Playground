@@ -1,6 +1,6 @@
 {
   "description": "Identify the location of course terms on a map",
-  "image": "/images/games/geoguesser/icon.svg",
+  "image": "/images/games/pinpoint/icon.svg",
   "instructions": "Select a course and game settings",
   "courses": [
     "ap-art-history"

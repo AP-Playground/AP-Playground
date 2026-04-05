@@ -24,7 +24,7 @@
             "image": ["image"],
             "randomize": ["image", "style"]
         },
-        "geoguesser": {
+        "pinpoint": {
             "term": ["title"],
             "termImage": ["image"],
             "details": ["artist", "date", "medium", "style"],

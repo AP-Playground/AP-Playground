@@ -3,7 +3,7 @@ import { readFileSync } from 'fs';
 import * as util from '../util.js'
 import * as global from '../global.js'
 
-const slug = "geoguesser";
+const slug = "pinpoint";
 
 export function upload() {
     const data = JSON.parse(readFileSync(`src/games/${slug}.json`, "utf-8"))
@@ -28,8 +28,8 @@ export function upload() {
               temp += `<div class="game-play-area init">`
                 temp += `<div class="map-container">`
                   temp += `<img class="map">`
-                  temp += `<img class="pinpoint" src="/images/games/geoguesser/pinpoint.svg" hidden>`
-                  temp += `<img class="pinpoint-correct" src="/images/games/geoguesser/pinpoint-green.svg" hidden>`
+                  temp += `<img class="pinpoint" src="/images/games/pinpoint/pinpoint.svg" hidden>`
+                  temp += `<img class="pinpoint-correct" src="/images/games/pinpoint/pinpoint-green.svg" hidden>`
                 temp += `</div>`
                 temp += `<div class="map-feedback">(Click on the map to select a location)</div>`
                 temp += `<div class="detail-container"></div>`
