@@ -366,16 +366,16 @@
         "definition": "An alliance of the Mexico-Tenochtitlan, Tetzcoco, and Tlacopan city-states",
         "effect": "Waged wars of conquest to gain tributary states; fell to the Spanish",
         "category": "society-structure",
-        "continent": "north america"
+        "continent": "north-america"
     },
     "mexica": {
         "term": "Mexica",
         "link": "https://en.wikipedia.org/wiki/Mexica",
-        "date": "Arrvied from Aztlan c. 1200",
+        "date": "Arrived from Aztlan c. 1200",
         "definition": "A Nahuatl-speaking people that ruled the Aztec Empire",
         "effect": "Built a massive empire and Tenochtitlan; conquered by the Spanish",
         "category": "society-structure",
-        "continent": "north america"
+        "continent": "north-america"
     },
     "tenochtitlan": {
         "term": "Tenochtitlan",
@@ -384,7 +384,7 @@
         "definition": "The capital of the Aztec Empire, present day Mexico City",
         "effect": "Most populous city of the Aztec Empire; led the Aztecs politically",
         "category": "society-structure",
-        "continent": "north america"
+        "continent": "north-america"
     },
     "chinampas": {
         "term": "Chinampas",
@@ -393,7 +393,7 @@
         "definition": "An agricultural technique using small rectangular areas of land on shallow lake beds",
         "effect": "Sustained growth of Aztec Empire",
         "category": "idea-innovation",
-        "continent": "north america"
+        "continent": "north-america"
     },
     "cahokia": {
         "term": "Cahokia",
@@ -402,7 +402,7 @@
         "definition": "The site of the largest and most influential city of Native American Mississippian culture",
         "effect": "",
         "category": "society-structure",
-        "continent": "north america"
+        "continent": "north-america"
     },
     "incaEmpire": {
         "term": "Inca Empire",
@@ -411,7 +411,7 @@
         "definition": "The largest empire in pre-European America; heavily centralized",
         "effect": "Thriving empire that developed in isolation, without writing, iron, or money; fell to the Spanish",
         "category": "society-structure",
-        "continent": "south america"
+        "continent": "south-america"
     },
     "chasqui": {
         "term": "Chasqui",
@@ -420,7 +420,7 @@
         "definition": "A messenger of the Inca Empire, highly trained and agile",
         "effect": "Transported messages in the form of quipo, oral information or small packets",
         "category": "ideas-innovation",
-        "continent": "south america"
+        "continent": "south-america"
     },
     "quipo": {
         "term": "Quipo",
@@ -429,7 +429,7 @@
         "definition": "An information recording device consisting of colored threads with knots",
         "effect": "Stored information for Inca Empire, which had no writing system",
         "category": "idea-innovation",
-        "continent": "south america"
+        "continent": "south-america"
     },
     "mita": {
         "term": "Mit'a",
@@ -438,7 +438,7 @@
         "definition": "An Incan system using labor as a tax",
         "effect": "Helped the Incan government maintain its power and make public service and military projects",
         "category": "idea-innovation",
-        "continent": "south america"
+        "continent": "south-america"
     },
     "puebloans": {
         "term": "Puebloans",
@@ -447,7 +447,7 @@
         "definition": "Native Americans in present-day Southwestern United States",
         "effect": "",
         "category": "society-structures",
-        "continent": "north america"
+        "continent": "north-america"
     },
     "greatZimbabwe": {
         "term": "Great Zimbabwe",
@@ -672,7 +672,7 @@
         "definition": "The first emperor of the expanded Incan Empire",
         "effect": "Vastly expanded the Chiefdom of Cusco into the huge Incan Empire",
         "category": "people",
-        "continent": "south america"
+        "continent": "south-america"
     },
     "montezumaII": {
         "term": "Montezuma II",
@@ -681,7 +681,7 @@
         "definition": "The ninth Emperor of the Aztec Empire",
         "effect": "Ruled the Aztecs at their peak and during their fall to the Spanish",
         "category": "people",
-        "continent": "north america"
+        "continent": "north-america"
     },
     "sundiataKieta": {
         "term": "Sundiata Keita",
@@ -717,7 +717,7 @@
         "definition": "First abrahamic, monotheistic, and ethnic religion",
         "effect": "Precursor to Christianity and Islam",
         "category": "religion-culture",
-        "continent": "asia, europe"
+        "continent": ["asia", "europe"]
     },
     "christianity": {
         "term": "Christianity",
@@ -726,7 +726,7 @@
         "definition": "Abrahamic monotheistic religion centered on the Bible",
         "effect": "Religion spread worldwide through heavy imperialism",
         "category": "religion-culture",
-        "continent": "south america, north america, europe, asia, africa, oceania"
+        "continent": ["south-america", "north-america", "europe", "asia", "africa", "oceania"]
     },
     "islam": {
         "term": "Islam",
@@ -735,7 +735,7 @@
         "definition": "Abrahamic monotheistic religion centered on the Quran",
         "effect": "Dominant religion in Africa and the Middle East",
         "category": "religion-culture",
-        "continent": "asia, africa"
+        "continent": ["asia", "africa"]
     },
     "hinduism": {
         "term": "Hinduism",
@@ -744,7 +744,7 @@
         "definition": "Indian religion based around dharma (the universal order)",
         "effect": "Dominant religion in India, dividing people into castes",
         "category": "religion-culture",
-        "continent": "asia, oceania"
+        "continent": ["asia", "oceania"]
     },
     "buddhism": {
         "term": "Buddhism",
@@ -753,7 +753,7 @@
         "definition": "Indian religion based on teachings of the Buddha",
         "effect": "Religion spread by merchants and travelers along trade networks",
         "category": "religion-culture",
-        "continent": "asia, oceania"
+        "continent": ["asia", "oceania"]
     },
     "": {
         "term": "",
