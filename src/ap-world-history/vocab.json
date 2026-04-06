@@ -279,33 +279,507 @@
         "continent": ["asia", "africa"]
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Timurid Empire",
+        "link": "https://en.wikipedia.org/wiki/Timurid_Empire",
+        "date": "1370-1507",
+        "definition": "Persianate Turco-Mongol empire comprising much of Central Asia",
+        "effect": "Had a small Islamic Renaissance; eventually led to creation of the Mughal Empire",
+        "category": "society-structure",
+        "continent": "asia"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Urdu",
+        "link": "https://en.wikipedia.org/wiki/Urdu",
+        "date": "First spoken 1100",
+        "definition": "Indo-Aryan language spoken mostly in South Asia; combined Hindi and Persian",
+        "effect": "Spoken throughout India; evidence of cultural blending",
+        "category": "religion-culture",
+        "continent": "asia"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Angkor Wat",
+        "link": "https://en.wikipedia.org/wiki/Angkor_Wat",
+        "date": "Constructed 1113",
+        "definition": "Hindu-Buddhist temple complex for Vishnu",
+        "effect": "Largest religious complex in the world; shows religious change in S.E. Asia",
+        "category": "religion-culture",
+        "continent": "asia"
     },
     "": {
+        "term": "Tamerlane",
+        "link": "https://en.wikipedia.org/wiki/Timur",
+        "date": "1336-1405",
+        "definition": "Turco-Mongol conqueror; undefeated commander",
+        "effect": "Founded the Timurid Empire (which fragmented after him); fearsome military leader",
+        "category": "people",
+        "continent": "asia"
+    },
+     "": {
+        "term": "Battle of Bach Dang",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(1288)",
+        "date": "1288",
+        "definition": "Last major battle between the Mongols and Dai Viet + Champa",
+        "effect": "Major Vietnamese victory which ended Yuan southward expansion",
+        "category": "events",
+        "continent": "asia"
+    },
+     "": {
+        "term": "Delhi Sultanate",
+        "link": "https://en.wikipedia.org/wiki/Delhi_Sultanate",
+        "date": "1206-1528",
+        "definition": "Islamic late medieval empire stretching across the Indian subcontinent",
+        "effect": "Established Islamic presence in the Indian subcontinent; succeeded by the Mughal Empire",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+     "": {
+        "term": "Khmer Empire",
+        "link": "https://en.wikipedia.org/wiki/Khmer_Empire",
+        "date": "802-1431",
+        "definition": "A Hindu-Buddhist empire in what is now Cambodia, Laos, and Thailand",
+        "effect": "Source of religious art, culture, and architecture like Angkor Wat",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+     "": {
+        "term": "Srivijaya Empire",
+        "link": "https://en.wikipedia.org/wiki/Srivijaya",
+        "date": "650-1377",
+        "definition": "Buddhist maritime empire based on the island of Sumatra",
+        "effect": "Held its power through trade and controlled the Strait of Malacca",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+     "": {
+        "term": "Majapahit Empire",
+        "link": "https://en.wikipedia.org/wiki/Majapahit",
+        "date": "1293-1527",
+        "definition": "Hindu-Buddhist maritime empire based on the island of Java",
+        "effect": "The empire resisted Yuan influence, controlled regional trade, and covered most of Southeast Asia",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+         "": {
+        "term": "Aztec Empire",
+        "link": "https://en.wikipedia.org/wiki/Aztec_Empire",
+        "date": "1325-1521",
+        "definition": "An alliance of the Mexico-Tenochtitlan, Tetzcoco, and Tlacopan city-states",
+        "effect": "Waged wars of conquest to gain tributary states; fell to the Spanish",
+        "category": "society-structure",
+        "continent": "north america"
+    },
+            "": {
+        "term": "Mexica",
+        "link": "https://en.wikipedia.org/wiki/Mexica",
+        "date": "Arrvied from Aztlan c. 1200",
+        "definition": "A Nahuatl-speaking people that ruled the Aztec Empire",
+        "effect": "Built a massive empire and Tenochtitlan; conquered by the Spanish",
+        "category": "society-structure",
+        "continent": "north america"
+    },
+             "": {
+        "term": "Tenochtitlan",
+        "link": "https://en.wikipedia.org/wiki/Tenochtitlan",
+        "date": "Founded 1325",
+        "definition": "The capital of the Aztec Empire, present day Mexico City",
+        "effect": "Most populous city of the Aztec Empire; led the Aztecs politically",
+        "category": "society-structure",
+        "continent": "north america"
+    },
+             "": {
+        "term": "Chinampas",
+        "link": "https://en.wikipedia.org/wiki/Chinampa",
+        "date": "First created c. 1150",
+        "definition": "An agricultural technique using small rectangular areas of land on shallow lake beds",
+        "effect": "Sustained growth of Aztec Empire",
+        "category": "idea-innovation",
+        "continent": "north america"
+    },
+             "": {
+        "term": "Cahokia",
+        "link": "https://en.wikipedia.org/wiki/Cahokia",
+        "date": "1050-1350",
+        "definition": "The site of the largest and most influential city of Native American Mississippian culture",
+        "effect": "",
+        "category": "society-structure",
+        "continent": "north america"
+    },
+             "": {
+        "term": "Inca Empire (Tawantinsuyu)",
+        "link": "https://en.wikipedia.org/wiki/Inca_Empire#Etymology",
+        "date": "1438-1572",
+        "definition": "The largest empire in pre-European America; heavily centralized",
+        "effect": "Thriving empire that developed in isolation, without writing, iron, or money; fell to the Spanish",
+        "category": "society-structure",
+        "continent": "south america"
+    },
+             "": {
+        "term": "Chasqui",
+        "link": "https://en.wikipedia.org/wiki/Chasqui",
+        "date": "1438-1572",
+        "definition": "A messenger of the Inca Empire, highly trained and agile",
+        "effect": "Transported messages in the form of quipo, oral information or small packets",
+        "category": "ideas-innovation",
+        "continent": "south america"
+    },
+             "": {
+        "term": "Quipo",
+        "link": "https://en.wikipedia.org/wiki/Quipu",
+        "date": "Used since 2600 BCE",
+        "definition": "An information recording device consisting of colored threads with knots",
+        "effect": "Stored information for Inca Empire, which had no writing system",
+        "category": "idea-innovation",
+        "continent": "south america"
+    },
+             "": {
+        "term": "Mit'a",
+        "link": "https://en.wikipedia.org/wiki/Mit%27a",
+        "date": "1438-1572",
+        "definition": "An Incan system using labor as a tax",
+        "effect": "Helped the Incan government maintain its power and make public service and military projects",
+        "category": "idea-innovation",
+        "continent": "south america"
+    },
+             "": {
+        "term": "Puebloans",
+        "link": "https://en.wikipedia.org/wiki/Puebloans",
+        "date": "Began 100",
+        "definition": "Native Americans in present-day Southwestern United States",
+        "effect": "",
+        "category": "society-structures",
+        "continent": "north america"
+    },
+             "": {
+        "term": "Great Zimbabwe",
+        "link": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+        "date": "800-1400",
+        "definition": "A medieval city in Zimbabwe surrounded by a large stone wall",
+        "effect": "Contributed to the development of Sub-Saharan Africa, but declined due to overgrazing",
+        "category": "society-structure",
+        "continent": "africa"
+    },
+             "": {
+        "term": "Timbuktu",
+        "link": "https://en.wikipedia.org/wiki/History_of_Timbuktu",
+        "date": "Part of Mali Empire 1300",
+        "definition": "A city in West Africa, was part of the Mali and Songhai empires",
+        "effect": "Became a center of Islamic scholarship and grew wealthy from its gold-salt trade",
+        "category": "society-structure",
+        "continent": "africa"
+    },
+             "": {
+        "term": "Ethiopian Empire",
+        "link": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
+        "date": "1270-1974",
+        "definition": "A uniquely Christian empire in Eastern Africa",
+        "effect": "Maintained an isolated branch of Christianity despite being surrounded by Islamic empires",
+        "category": "society-structure",
+        "continent": "africa"
+    },
+             "": {
+        "term": "Swahili",
+        "link": "https://en.wikipedia.org/wiki/Swahili_language",
+        "date": "",
+        "definition": "A Bantu language spoken primarily along the East African coast",
+        "effect": "Major part of culture and trade along the East African coast",
+        "category": "idea-innovation",
+        "continent": "africa"
+    },
+             "": {
+        "term": "Berbers",
+        "link": "https://en.wikipedia.org/wiki/Berbers#Middle_Ages",
+        "date": "Around since 10,000 BCE",
+        "definition": "Grouping of distinct ethnic groups indigenous to North Africa",
+        "effect": "Founded and were a part of many African empires",
+        "category": "society-structure",
+        "continent": "africa"
+    },
+        },
+             "": {
+        "term": "Bantu Migrations",
+        "link": "https://en.wikipedia.org/wiki/Bantu_expansion",
+        "date": "4000 BCE - 500 CE",
+        "definition": "Series of migrations of the Bantu people from Central to sub-Saharan Africa",
+        "effect": "Spread of Bantu culture, innovations in metallurgy and agriculture throughout Africa",
+        "category": "events",
+        "continent": "africa"
+    },
+        },
+             "": {
+        "term": "Hausa Kingdoms",
+        "link": "https://en.wikipedia.org/wiki/Hausa_Kingdoms",
+        "date": "800-1700",
+        "definition": "A collection of states started by the Hausa people",
+        "effect": "Contained powerful city states that were centers of trade and production",
+        "category": "society-structure",
+        "continent": "africa"
+    },
+        },
+             "": {
+        "term": "Mali Empire",
+        "link": "https://en.wikipedia.org/wiki/Mali_Empire",
+        "date": "1226-1610",
+        "definition": "A West African empire renowned for the wealth of its rulers",
+        "effect": "Contained cities that were centers of trade and Islamic scholarship",
+        "category": "society-structure",
+        "continent": "africa"
+    },
+        },
+             "": {
+        "term": "Feudalism",
+        "link": "https://en.wikipedia.org/wiki/Feudalism",
+        "date": "800-1400",
+        "definition": "Political system in which land is distributed in exchange for service",
+        "effect": "Localized communities, lowering social mobility and innovation",
+        "category": "society-structure",
+        "continent": "europe"
+    },
+        },
+             "": {
+        "term": "Serfdom",
+        "link": "https://en.wikipedia.org/wiki/Serfdom",
+        "date": "200-1800",
+        "definition": "System of peasants being tied directly to the land they work on",
+        "effect": "Low social mobility for the majority; enforced agricultural production",
+        "category": "society-structure",
+        "continent": "europe"
+    },
+            },
+             "": {
+        "term": "Hanseatic League",
+        "link": "https://en.wikipedia.org/wiki/Hanseatic_League",
+        "date": "1200-1600",
+        "definition": "A medieval confederation of merchant guilds in Northern Europe",
+        "effect": "Expanded and developed trade by reducing tolls and making trade safer",
+        "category": "idea-innovation",
+        "continent": "europe"
+    },
+            },
+             "": {
+        "term": "Magna Carta",
+        "link": "https://en.wikipedia.org/wiki/Magna_Carta",
+        "date": "1215",
+        "definition": "A charter defining rights for barons and lords in England",
+        "effect": "One of the first documents regulating the authority of a ruler",
+        "category": "idea-innovation",
+        "continent": "europe"
+    },
+            },
+             "": {
+        "term": "Crusades",
+        "link": "https://en.wikipedia.org/wiki/Crusades",
+        "date": "1095-1291",
+        "definition": "A series of religious wars facilitated by the Catholic Church",
+        "effect": "Increased the power of the Catholic Church; led to contact between Europe and others",
+        "category": "events",
+        "continent": "asia"
+    },
+            },
+             "": {
+        "term": "Black Death",
+        "link": "https://en.wikipedia.org/wiki/Black_Death",
+        "date": "1346-1353",
+        "definition": "The most fatal pandemic ever recorded",
+        "effect": "Death of ~50% of Europe's population",
+        "category": "events",
+        "continent": "europe"
+    },
+            },
+             "": {
+        "term": "Little Ice Age",
+        "link": "https://en.wikipedia.org/wiki/Little_Ice_Age",
+        "date": "1300-1850",
+        "definition": "Period of regional cooling in the North Atlantic region",
+        "effect": "Long term agricultural crisis and famine, made travel more difficult",
+        "category": "events",
+        "continent": "europe"
+    },
+            },
+             "": {
+        "term": "Byzantine Empire",
+        "link": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "date": "330-1453",
+        "definition": "The continuation of the Roman Empire's eastern half",
+        "effect": "Was the most powerful force in the Mediterranean region during its existence",
+        "category": "society-structure",
+        "continent": "europe"
+    },
+            },
+             "": {
+        "term": "Kievan Rus",
+        "link": "https://en.wikipedia.org/wiki/Kievan_Rus%27",
+        "date": "880-1240",
+        "definition": "A group of principalities ruled by the Rurik dynasty",
+        "effect": "Spread Christianity to North Eastern Europe; fell to the Mongols",
+        "category": "society-structure",
+        "continent": "europe"
+    },
+            },
+             "": {
+        "term": "Hundred Years' War",
+        "link": "https://en.wikipedia.org/wiki/Hundred_Years%27_War",
+        "date": "1337-1453",
+        "definition": "A series of armed conflicts fought between the kingdoms of England and France",
+        "effect": "French victory led to the strengthening of the monarchy and the loss of British territory",
+        "category": "events",
+        "continent": "europe"
+    },
+                },
+             "": {
+        "term": "Margery Kempe",
+        "link": "https://en.wikipedia.org/wiki/Margery_Kempe",
+        "date": "1373-1438",
+        "definition": "A Christian mystic/pilgrim who traveled to holy sites",
+        "effect": "Wrote the first English autobiography",
+        "category": "people",
+        "continent": "europe"
+    },
+                },
+             "": {
+        "term": "Ibn Sina",
+        "link": "https://en.wikipedia.org/wiki/Avicenna",
+        "date": "980-1037",
+        "definition": "A philosopher and physician of the Muslim world",
+        "effect": "The father of early modern medicine"",
+        "category": "people",
+        "continent": "asia"
+    },
+                },
+             "": {
+        "term": "Nasir al-Din al-Tusi",
+        "link": "https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi",
+        "date": "1201-1274",
+        "definition": "A Persian polymath who made significant mathematical advancements",
+        "effect": "Invented trigonometry, made significant contributions to astronomy",
+        "category": "people",
+        "continent": "asia"
+    },
+                },
+             "": {
+        "term": "Rumi",
+        "link": "https://en.wikipedia.org/wiki/Rumi",
+        "date": "1207-1273",
+        "definition": "A Sufi mystic, Islamic scholar, poet, and theologian",
+        "effect": "Has had a global literary influence based on his Islamic poetry",
+        "category": "people",
+        "continent": "asia"
+    },
+                },
+             "": {
+        "term": "Ibn Khaldun",
+        "link": "https://en.wikipedia.org/wiki/Ibn_Khaldun",
+        "date": "1332-1406",
+        "definition": "An Arab sociologist, philosopher, and historian",
+        "effect": "The father of historiography, sociology, economics, and demography studies",
+        "category": "people",
+        "continent": "asia"
+    },
+                },
+             "": {
+        "term": "A'isha al-Ba'uniyya",
+        "link": "https://en.wikipedia.org/wiki/%27A%27isha_al-Ba%27uniyya",
+        "date": "1456-1517",
+        "definition": "A female Sufi mystic and poet/author",
+        "effect": "She wrote more works in Arabic than any other women in the medieval period",
+        "category": "people",
+        "continent": "asia"
+    },
+                },
+             "": {
+        "term": "Pachacuti",
+        "link": "https://en.wikipedia.org/wiki/Pachacuti",
+        "date": "1410-1471",
+        "definition": "The first emperor of the expanded Incan Empire",
+        "effect": "Vastly expanded the Chiefdom of Cusco into the huge Incan Empire",
+        "category": "people",
+        "continent": "south america"
+    },
+                    },
+             "": {
+        "term": "Montezuma II",
+        "link": "https://en.wikipedia.org/wiki/Moctezuma_II",
+        "date": "1466-1520",
+        "definition": "The ninth Emperor of the Aztec Empire",
+        "effect": "Ruled the Aztecs at their peak and during their fall to the Spanish",
+        "category": "people",
+        "continent": "north america"
+    },
+                    },
+             "": {
+        "term": "Sundiata Keita",
+        "link": "https://en.wikipedia.org/wiki/Sundiata_Keita",
+        "date": "1217-1255",
+        "definition": "The founder and first Mansa of the Mali Empire",
+        "effect": "",
+        "category": "people",
+        "continent": "africa"
+    },
+                 "": {
+        "term": "Mansa Musa",
+        "link": "https://en.wikipedia.org/wiki/Mansa_Musa",
+        "date": "1280-1337",
+        "definition": "The ninth Mansa of the Mali Empire and the richest person ever",
+        "effect": "Went on a famous Hajj to Mecca that made the Mali Empire famous; promoted Islam",
+        "category": "people",
+        "continent": "africa"
+    },
+                 "": {
+        "term": "Gutenberg",
+        "link": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
+        "date": "1400-1468",
+        "definition": "German inventor and craftsman who invented the movable-type printing press",
+        "effect": "Began an information revolution and mass-spread of literature in Europe",
+        "category": "idea-innovation",
+        "continent": "europe"
+    },
+                 "": {
+        "term": "Judaism",
+        "link": "https://en.wikipedia.org/wiki/Judaism",
+        "date": "Originated 500 BCE",
+        "definition": "First abrahamic, monotheistic, and ethnic religion",
+        "effect": "Precursor to Christianity and Islam",
+        "category": "religion-culture",
+        "continent": "asia, europe"
+    },
+                 "": {
+        "term": "Christianity",
+        "link": "https://en.wikipedia.org/wiki/Christianity",
+        "date": "Began 1",
+        "definition": "Abrahamic monotheistic religion centered on the Bible",
+        "effect": "Religion spread worldwide through heavy imperialism",
+        "category": "religion-culture",
+        "continent": "south america, north america, europe, asia, africa, oceania"
+    },
+                 "": {
+        "term": "Islam",
+        "link": "https://en.wikipedia.org/wiki/Islam",
+        "date": "Began 610",
+        "definition": "Abrahamic monotheistic religion centered on the Quran",
+        "effect": "Dominant religion in Africa and the Middle East",
+        "category": "religion-culture",
+        "continent": "asia, africa"
+    },
+                     "": {
+        "term": "Hinduism",
+        "link": "https://en.wikipedia.org/wiki/Hinduism",
+        "date": "Began 2000 BCE",
+        "definition": "Indian religion based around dharma (the universal order)",
+        "effect": "Dominant religion in India, dividing people into castes",
+        "category": "religion-culture",
+        "continent": "asia, oceania"
+    },
+
+                     "": {
+        "term": "Buddhism",
+        "link": "https://en.wikipedia.org/wiki/Buddhism",
+        "date": "Began 400 BCE",
+        "definition": "Indian religion based on teachings of the Buddha",
+        "effect": "Religion spread by merchants and travelers along trade networks",
+        "category": "religion-culture",
+        "continent": "asia, oceania"
+    },
+
+                     "": {
         "term": "",
         "link": "",
         "date": "",
@@ -314,6 +788,28 @@
         "category": "",
         "continent": ""
     },
+
+                     "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+
+                     "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+
+
     
     "categories": ["people", "events", "religion-culture", "idea-innovation","society-structure"],
     "continents": ["north-america","south-america","europe","africa","asia","oceania"]
