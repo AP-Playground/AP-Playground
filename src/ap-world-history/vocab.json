@@ -278,7 +278,7 @@
         "category": "society-structure",
         "continent": ["asia", "africa"]
     },
-    "": {
+    "timuridEmpire": {
         "term": "Timurid Empire",
         "link": "https://en.wikipedia.org/wiki/Timurid_Empire",
         "date": "1370-1507",
@@ -287,7 +287,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-    "": {
+    "urdu": {
         "term": "Urdu",
         "link": "https://en.wikipedia.org/wiki/Urdu",
         "date": "First spoken 1100",
@@ -296,7 +296,7 @@
         "category": "religion-culture",
         "continent": "asia"
     },
-    "": {
+    "angkorWat": {
         "term": "Angkor Wat",
         "link": "https://en.wikipedia.org/wiki/Angkor_Wat",
         "date": "Constructed 1113",
@@ -305,7 +305,7 @@
         "category": "religion-culture",
         "continent": "asia"
     },
-    "": {
+    "tamerlane": {
         "term": "Tamerlane",
         "link": "https://en.wikipedia.org/wiki/Timur",
         "date": "1336-1405",
@@ -314,7 +314,7 @@
         "category": "people",
         "continent": "asia"
     },
-     "": {
+    "battleOfBachDang": {
         "term": "Battle of Bach Dang",
         "link": "https://en.wikipedia.org/wiki/Battle_of_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(1288)",
         "date": "1288",
@@ -323,7 +323,7 @@
         "category": "events",
         "continent": "asia"
     },
-     "": {
+    "delhiSultanate": {
         "term": "Delhi Sultanate",
         "link": "https://en.wikipedia.org/wiki/Delhi_Sultanate",
         "date": "1206-1528",
@@ -332,7 +332,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-     "": {
+    "khmerEmpire": {
         "term": "Khmer Empire",
         "link": "https://en.wikipedia.org/wiki/Khmer_Empire",
         "date": "802-1431",
@@ -341,7 +341,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-     "": {
+    "srivijayaEmpire": {
         "term": "Srivijaya Empire",
         "link": "https://en.wikipedia.org/wiki/Srivijaya",
         "date": "650-1377",
@@ -350,7 +350,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-     "": {
+    "majapahitEmpire": {
         "term": "Majapahit Empire",
         "link": "https://en.wikipedia.org/wiki/Majapahit",
         "date": "1293-1527",
@@ -359,7 +359,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-         "": {
+    "aztecEmpire": {
         "term": "Aztec Empire",
         "link": "https://en.wikipedia.org/wiki/Aztec_Empire",
         "date": "1325-1521",
@@ -368,7 +368,7 @@
         "category": "society-structure",
         "continent": "north america"
     },
-            "": {
+    "mexica": {
         "term": "Mexica",
         "link": "https://en.wikipedia.org/wiki/Mexica",
         "date": "Arrvied from Aztlan c. 1200",
@@ -377,7 +377,7 @@
         "category": "society-structure",
         "continent": "north america"
     },
-             "": {
+    "tenochtitlan": {
         "term": "Tenochtitlan",
         "link": "https://en.wikipedia.org/wiki/Tenochtitlan",
         "date": "Founded 1325",
@@ -386,7 +386,7 @@
         "category": "society-structure",
         "continent": "north america"
     },
-             "": {
+    "chinampas": {
         "term": "Chinampas",
         "link": "https://en.wikipedia.org/wiki/Chinampa",
         "date": "First created c. 1150",
@@ -395,7 +395,7 @@
         "category": "idea-innovation",
         "continent": "north america"
     },
-             "": {
+    "cahokia": {
         "term": "Cahokia",
         "link": "https://en.wikipedia.org/wiki/Cahokia",
         "date": "1050-1350",
@@ -404,8 +404,8 @@
         "category": "society-structure",
         "continent": "north america"
     },
-             "": {
-        "term": "Inca Empire (Tawantinsuyu)",
+    "incaEmpire": {
+        "term": "Inca Empire",
         "link": "https://en.wikipedia.org/wiki/Inca_Empire#Etymology",
         "date": "1438-1572",
         "definition": "The largest empire in pre-European America; heavily centralized",
@@ -413,7 +413,7 @@
         "category": "society-structure",
         "continent": "south america"
     },
-             "": {
+    "chasqui": {
         "term": "Chasqui",
         "link": "https://en.wikipedia.org/wiki/Chasqui",
         "date": "1438-1572",
@@ -422,7 +422,7 @@
         "category": "ideas-innovation",
         "continent": "south america"
     },
-             "": {
+    "quipo": {
         "term": "Quipo",
         "link": "https://en.wikipedia.org/wiki/Quipu",
         "date": "Used since 2600 BCE",
@@ -431,7 +431,7 @@
         "category": "idea-innovation",
         "continent": "south america"
     },
-             "": {
+    "mita": {
         "term": "Mit'a",
         "link": "https://en.wikipedia.org/wiki/Mit%27a",
         "date": "1438-1572",
@@ -440,7 +440,7 @@
         "category": "idea-innovation",
         "continent": "south america"
     },
-             "": {
+    "puebloans": {
         "term": "Puebloans",
         "link": "https://en.wikipedia.org/wiki/Puebloans",
         "date": "Began 100",
@@ -449,7 +449,7 @@
         "category": "society-structures",
         "continent": "north america"
     },
-             "": {
+    "greatZimbabwe": {
         "term": "Great Zimbabwe",
         "link": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
         "date": "800-1400",
@@ -458,7 +458,7 @@
         "category": "society-structure",
         "continent": "africa"
     },
-             "": {
+    "timbuktu": {
         "term": "Timbuktu",
         "link": "https://en.wikipedia.org/wiki/History_of_Timbuktu",
         "date": "Part of Mali Empire 1300",
@@ -467,7 +467,7 @@
         "category": "society-structure",
         "continent": "africa"
     },
-             "": {
+    "ethiopianEmpire": {
         "term": "Ethiopian Empire",
         "link": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
         "date": "1270-1974",
@@ -476,7 +476,7 @@
         "category": "society-structure",
         "continent": "africa"
     },
-             "": {
+    "swahili": {
         "term": "Swahili",
         "link": "https://en.wikipedia.org/wiki/Swahili_language",
         "date": "",
@@ -485,7 +485,7 @@
         "category": "idea-innovation",
         "continent": "africa"
     },
-             "": {
+    "berbers": {
         "term": "Berbers",
         "link": "https://en.wikipedia.org/wiki/Berbers#Middle_Ages",
         "date": "Around since 10,000 BCE",
@@ -494,8 +494,7 @@
         "category": "society-structure",
         "continent": "africa"
     },
-        },
-             "": {
+    "bantuMigrations": {
         "term": "Bantu Migrations",
         "link": "https://en.wikipedia.org/wiki/Bantu_expansion",
         "date": "4000 BCE - 500 CE",
@@ -504,8 +503,7 @@
         "category": "events",
         "continent": "africa"
     },
-        },
-             "": {
+    "hausaKingdoms": {
         "term": "Hausa Kingdoms",
         "link": "https://en.wikipedia.org/wiki/Hausa_Kingdoms",
         "date": "800-1700",
@@ -514,8 +512,7 @@
         "category": "society-structure",
         "continent": "africa"
     },
-        },
-             "": {
+    "maliEmpire": {
         "term": "Mali Empire",
         "link": "https://en.wikipedia.org/wiki/Mali_Empire",
         "date": "1226-1610",
@@ -524,8 +521,7 @@
         "category": "society-structure",
         "continent": "africa"
     },
-        },
-             "": {
+    "feudalism": {
         "term": "Feudalism",
         "link": "https://en.wikipedia.org/wiki/Feudalism",
         "date": "800-1400",
@@ -534,8 +530,7 @@
         "category": "society-structure",
         "continent": "europe"
     },
-        },
-             "": {
+    "serfdom": {
         "term": "Serfdom",
         "link": "https://en.wikipedia.org/wiki/Serfdom",
         "date": "200-1800",
@@ -544,8 +539,7 @@
         "category": "society-structure",
         "continent": "europe"
     },
-            },
-             "": {
+    "hanseaticLeague": {
         "term": "Hanseatic League",
         "link": "https://en.wikipedia.org/wiki/Hanseatic_League",
         "date": "1200-1600",
@@ -554,8 +548,7 @@
         "category": "idea-innovation",
         "continent": "europe"
     },
-            },
-             "": {
+    "magnaCarta": {
         "term": "Magna Carta",
         "link": "https://en.wikipedia.org/wiki/Magna_Carta",
         "date": "1215",
@@ -564,8 +557,7 @@
         "category": "idea-innovation",
         "continent": "europe"
     },
-            },
-             "": {
+    "crusades": {
         "term": "Crusades",
         "link": "https://en.wikipedia.org/wiki/Crusades",
         "date": "1095-1291",
@@ -574,8 +566,7 @@
         "category": "events",
         "continent": "asia"
     },
-            },
-             "": {
+    "blackDeath": {
         "term": "Black Death",
         "link": "https://en.wikipedia.org/wiki/Black_Death",
         "date": "1346-1353",
@@ -584,8 +575,7 @@
         "category": "events",
         "continent": "europe"
     },
-            },
-             "": {
+    "littleIceAge": {
         "term": "Little Ice Age",
         "link": "https://en.wikipedia.org/wiki/Little_Ice_Age",
         "date": "1300-1850",
@@ -594,8 +584,7 @@
         "category": "events",
         "continent": "europe"
     },
-            },
-             "": {
+    "byzantineEmpire": {
         "term": "Byzantine Empire",
         "link": "https://en.wikipedia.org/wiki/Byzantine_Empire",
         "date": "330-1453",
@@ -604,8 +593,7 @@
         "category": "society-structure",
         "continent": "europe"
     },
-            },
-             "": {
+    "kievanRus": {
         "term": "Kievan Rus",
         "link": "https://en.wikipedia.org/wiki/Kievan_Rus%27",
         "date": "880-1240",
@@ -614,8 +602,7 @@
         "category": "society-structure",
         "continent": "europe"
     },
-            },
-             "": {
+    "hundredYearsWar": {
         "term": "Hundred Years' War",
         "link": "https://en.wikipedia.org/wiki/Hundred_Years%27_War",
         "date": "1337-1453",
@@ -624,8 +611,7 @@
         "category": "events",
         "continent": "europe"
     },
-                },
-             "": {
+    "margeryKempe": {
         "term": "Margery Kempe",
         "link": "https://en.wikipedia.org/wiki/Margery_Kempe",
         "date": "1373-1438",
@@ -634,18 +620,16 @@
         "category": "people",
         "continent": "europe"
     },
-                },
-             "": {
+    "ibnSina": {
         "term": "Ibn Sina",
         "link": "https://en.wikipedia.org/wiki/Avicenna",
         "date": "980-1037",
         "definition": "A philosopher and physician of the Muslim world",
-        "effect": "The father of early modern medicine"",
+        "effect": "The father of early modern medicine",
         "category": "people",
         "continent": "asia"
     },
-                },
-             "": {
+    "nasirAlDinAlTusi": {
         "term": "Nasir al-Din al-Tusi",
         "link": "https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi",
         "date": "1201-1274",
@@ -654,8 +638,7 @@
         "category": "people",
         "continent": "asia"
     },
-                },
-             "": {
+    "rumi": {
         "term": "Rumi",
         "link": "https://en.wikipedia.org/wiki/Rumi",
         "date": "1207-1273",
@@ -664,8 +647,7 @@
         "category": "people",
         "continent": "asia"
     },
-                },
-             "": {
+    "ibnKhaldun": {
         "term": "Ibn Khaldun",
         "link": "https://en.wikipedia.org/wiki/Ibn_Khaldun",
         "date": "1332-1406",
@@ -674,8 +656,7 @@
         "category": "people",
         "continent": "asia"
     },
-                },
-             "": {
+    "aishaAlBauniyya": {
         "term": "A'isha al-Ba'uniyya",
         "link": "https://en.wikipedia.org/wiki/%27A%27isha_al-Ba%27uniyya",
         "date": "1456-1517",
@@ -684,8 +665,7 @@
         "category": "people",
         "continent": "asia"
     },
-                },
-             "": {
+    "pachacuti": {
         "term": "Pachacuti",
         "link": "https://en.wikipedia.org/wiki/Pachacuti",
         "date": "1410-1471",
@@ -694,8 +674,7 @@
         "category": "people",
         "continent": "south america"
     },
-                    },
-             "": {
+    "montezumaII": {
         "term": "Montezuma II",
         "link": "https://en.wikipedia.org/wiki/Moctezuma_II",
         "date": "1466-1520",
@@ -704,8 +683,7 @@
         "category": "people",
         "continent": "north america"
     },
-                    },
-             "": {
+    "sundiataKieta": {
         "term": "Sundiata Keita",
         "link": "https://en.wikipedia.org/wiki/Sundiata_Keita",
         "date": "1217-1255",
@@ -714,7 +692,7 @@
         "category": "people",
         "continent": "africa"
     },
-                 "": {
+    "mansaMusa": {
         "term": "Mansa Musa",
         "link": "https://en.wikipedia.org/wiki/Mansa_Musa",
         "date": "1280-1337",
@@ -723,7 +701,7 @@
         "category": "people",
         "continent": "africa"
     },
-                 "": {
+    "gutenberg": {
         "term": "Gutenberg",
         "link": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
         "date": "1400-1468",
@@ -732,7 +710,7 @@
         "category": "idea-innovation",
         "continent": "europe"
     },
-                 "": {
+    "judaism": {
         "term": "Judaism",
         "link": "https://en.wikipedia.org/wiki/Judaism",
         "date": "Originated 500 BCE",
@@ -741,7 +719,7 @@
         "category": "religion-culture",
         "continent": "asia, europe"
     },
-                 "": {
+    "christianity": {
         "term": "Christianity",
         "link": "https://en.wikipedia.org/wiki/Christianity",
         "date": "Began 1",
@@ -750,7 +728,7 @@
         "category": "religion-culture",
         "continent": "south america, north america, europe, asia, africa, oceania"
     },
-                 "": {
+    "islam": {
         "term": "Islam",
         "link": "https://en.wikipedia.org/wiki/Islam",
         "date": "Began 610",
@@ -759,7 +737,7 @@
         "category": "religion-culture",
         "continent": "asia, africa"
     },
-                     "": {
+    "hinduism": {
         "term": "Hinduism",
         "link": "https://en.wikipedia.org/wiki/Hinduism",
         "date": "Began 2000 BCE",
@@ -768,8 +746,7 @@
         "category": "religion-culture",
         "continent": "asia, oceania"
     },
-
-                     "": {
+    "buddhism": {
         "term": "Buddhism",
         "link": "https://en.wikipedia.org/wiki/Buddhism",
         "date": "Began 400 BCE",
@@ -778,8 +755,7 @@
         "category": "religion-culture",
         "continent": "asia, oceania"
     },
-
-                     "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -788,8 +764,7 @@
         "category": "",
         "continent": ""
     },
-
-                     "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -798,8 +773,7 @@
         "category": "",
         "continent": ""
     },
-
-                     "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -808,7 +782,6 @@
         "category": "",
         "continent": ""
     },
-
 
     
     "categories": ["people", "events", "religion-culture", "idea-innovation","society-structure"],
