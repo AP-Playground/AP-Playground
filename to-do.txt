@@ -12,4 +12,4 @@ Comment longer files
 Scroll to game on first game load?
 Add optional tooltips with additional details on all game settings/options
 Improve init loading of courses
-Add picture for people
+Add picture for WHAP people
