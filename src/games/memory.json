@@ -4,7 +4,22 @@
   "instructions": "Select a course and game settings",
   "courses": [
     "ap-biology",
-    "ap-art-history"
+    "ap-art-history",
+    "ap-world-history"
+  ],
+  "options": [
+    {
+      "key": "identifier",
+      "displayKey": "Identifier",
+      "values": ["term", "termImage"],
+      "multiselect": false
+    },
+    {
+      "key": "info",
+      "displayKey": "Card information",
+      "values": ["text", "image"],
+      "multiselect": false
+    }
   ],
   "settings": [
     {

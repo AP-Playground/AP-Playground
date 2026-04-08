@@ -1,75 +1,11 @@
-function loadOptions() {
-    for (const filter of vocabData.filters) {
-        let values;
-        let displayValues;
-        if (filter.key === "unit") {
-            values = Object.keys(courseNav.data);
-            displayValues = Object.values(courseNav.data).map(i => i.prefix + ": " + i.title);
-        } else {
-            values = vocabData.values;
-            displayValues = vocabData.displayValues;
+function optionsValidation(key, target) {
+    if (key === "identifier" || key === "info") {
+        if (options.identifier.some(i => options.info.includes(i))) {
+            const repeat = vocabData.keys[options.identifier.filter(i => options.info.includes(i))[0]]
+            alert(`You cannot select the same identifier ("${repeat}") and card information ("${repeat}")!`)
+            target.checked = false;
+            target.dispatchEvent(new Event("change"))
         }
-        fieldset(gameFilters, filter.key, filter.displayKey, values, displayValues, filter.multiselect, filter.all, "filter")
-    }
-
-    for (const setting of settingData) {
-        fieldset(gameSettings, setting.key, setting.displayKey, setting.values, setting.displayValues, setting.multiselect, setting.all, "setting")
-    }
-
-    const keyNames = vocabData.keys
-    const memoryData = vocabData.games.memory
-    const identifierOptions = memoryData.term.concat(memoryData.termImage)
-    if (identifierOptions.length > 1) {
-        fieldset(gameOptions, "identifier", "Identifier", identifierOptions, identifierOptions.map(i => keyNames[i]), false, false, "option")
-    } else {
-        options["identifier"] = [memoryData.term[0] || memoryData.termImage[0]];
-    }
-    
-    const infoOptions = memoryData.text.concat(memoryData.image);
-    if (infoOptions.length > 1) {
-        fieldset(gameOptions, "info", "Card information", infoOptions, infoOptions.map(i => keyNames[i]), false, false, "option")
-    } else {
-        options["info"] = [memoryData.text[0] || memoryData.image[0]];
-    }
-}
-
-function fieldset(element, key, displayKey, values, displayValues, multiselect, all, option) {
-    const type = multiselect ? "checkbox" : "radio"
-    let field = ""
-    for (const i in values) {
-        field += `<label><input type="${type}" name="${key}" value="${values[i]}" class="${option}-${key}">${displayValues[i]}</label>`
-    }
-    if (all) field += `<label><input type="${type}" name="${key}" value="select-all" class="${option}-${key} select-all">All ${displayKey.toLowerCase()}</label>`
-    element.insertAdjacentHTML("beforeend",`<fieldset><legend>${displayKey}</legend>${field}</fieldset>`)
-
-    const list = option==="filter"?filters:option==="option"?options:settings
-    list[key] = []
-
-    const inputs = Array.from(document.querySelectorAll(`.${option}-${key}:not(.select-all)`))
-    inputs.forEach(i => i.addEventListener("change", e => {
-        list[key] = inputs.filter(i => i.checked).map(i => i.value);
-
-        if (option === "option" && options.identifier[0] === options.info[0]) {
-            const repeat = vocabData.keys[list[key][0]]
-            alert(`You cannot select the same identifier ("${repeat}") and card information ('${repeat}")!`)
-            e.target.checked = false;
-            list[key] = inputs.filter(i => i.checked).map(i => i.value);
-        }
-
-        checkLoadGame();
-    }))
-
-    if (all) {
-        const selectAll = document.querySelector(`.${option}-${key}.select-all`);
-        inputs.forEach(i => i.addEventListener("change", () => {
-            selectAll.checked = !inputs.some(box => !box.checked)
-        }))
-        selectAll.addEventListener("change", () => {
-            inputs.forEach(box => box.checked = selectAll.checked);
-            list[key] = inputs.filter(i => i.checked).map(i => i.value);
-
-            checkLoadGame()
-        })
     }
 }
 

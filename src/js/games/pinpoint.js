@@ -1,91 +1,11 @@
-function loadOptions() {
-    for (const filter of vocabData.filters) {
-        let values;
-        let displayValues;
-        if (filter.key === "unit") {
-            values = Object.keys(courseNav.data);
-            displayValues = Object.values(courseNav.data).map(i => i.prefix + ": " + i.title);
-        } else {
-            values = vocabData.values;
-            displayValues = vocabData.displayValues;
-        }
-        fieldset(gameFilters, filter.key, filter.displayKey, values, displayValues, filter.multiselect, filter.all, "filter")
-    }
-
-    for (const setting of settingData) {
-        fieldset(gameSettings, setting.key, setting.displayKey, setting.values, setting.displayValues, setting.multiselect, setting.all, "setting")
-    }
-
-    const keyNames = vocabData.keys
-    const pinpointData = vocabData.games.pinpoint
-    const identifierOptions = [...pinpointData.term, ...pinpointData.termImage]
-    if (identifierOptions.length > 1) {
-        fieldset(gameOptions, "identifier", "Identifier", identifierOptions, identifierOptions.map(i => keyNames[i]), true, false, "option")
-    } else {
-        options["identifier"] = [pinpointData.term[0] || pinpointData.termImage[0]];
-    }
-    
-    const detailOptions = pinpointData.details;
-    if (detailOptions && detailOptions.length > 1) {
-        fieldset(gameOptions, "details", "Additional details", detailOptions, detailOptions.map(i => keyNames[i]), true, false, "option")
-    }
-
-    const sizeInput = document.querySelector(`input#setting-size-input`)
-    const sizeInputCheckbox = sizeInput.parentNode.parentNode.querySelector(":scope > input")
-    sizeInput.addEventListener('blur', () => {
-        if (!sizeInput.value) {
-            oldVal = 0
-            if (sizeInputCheckbox.checked) checkLoadGame();
-            return;
-        }
-        sizeInput.value = Math.floor(Math.max(1, sizeInput.value));
-        if (sizeInput.value !== oldVal && sizeInputCheckbox.checked) checkLoadGame();
-        oldVal = sizeInput.value
-    })
-}
-let oldVal = 0;
-
-function fieldset(element, key, displayKey, values, displayValues, multiselect, all, option) {
-    const type = multiselect ? "checkbox" : "radio"
-    let field = ""
-    for (const i in values) {
-        if (values[i] === "input") {
-            field += `<label><input type="${type}" name="${key}" value="${values[i]}" class="${option}-${key}"><div>${displayValues[i]} <input type="number" id="${option}-${key}-input" min=1 step=1></div></label>`
-        } else {
-            field += `<label><input type="${type}" name="${key}" value="${values[i]}" class="${option}-${key}">${displayValues[i]}</label>`
-        }
-    }
-    if (all) field += `<label><input type="${type}" name="${key}" value="select-all" class="${option}-${key} select-all">All ${displayKey.toLowerCase()}</label>`
-    element.insertAdjacentHTML("beforeend",`<fieldset><legend>${displayKey}</legend>${field}</fieldset>`)
-
-    const list = option==="filter"?filters:option==="option"?options:settings
-    list[key] = []
-
-    const inputs = Array.from(document.querySelectorAll(`.${option}-${key}:not(.select-all)`))
-    inputs.forEach(j => j.addEventListener("change", e => {
-        list[key] = inputs.filter(i => i.checked).map(i => i.value);
-
-        if (option === "option" && options.identifier.some(i => options.details.includes(i))) {
+function optionsValidation(key, target) {
+    if (key === "identifier" || key === "details") {
+        if (options.identifier.some(i => options.details.includes(i))) {
             const repeat = vocabData.keys[options.identifier.filter(i => options.details.includes(i))[0]]
-            alert(`You cannot select the same identifier ("${repeat}") and additional details ('${repeat}")!`)
-            e.target.checked = false;
-            list[key] = inputs.filter(i => i.checked).map(i => i.value);
+            alert(`You cannot select the same identifier ("${repeat}") and additional details ("${repeat}")!`)
+            target.checked = false;
+            target.dispatchEvent(new Event("change"))
         }
-
-        checkLoadGame();
-    }))
-
-    if (all) {
-        const selectAll = document.querySelector(`.${option}-${key}.select-all`);
-        inputs.forEach(i => i.addEventListener("change", () => {
-            selectAll.checked = !inputs.some(box => !box.checked)
-        }))
-        selectAll.addEventListener("change", () => {
-            inputs.forEach(box => box.checked = selectAll.checked);
-            list[key] = inputs.filter(i => i.checked).map(i => i.value);
-
-            checkLoadGame()
-        })
     }
 }
 

@@ -21,7 +21,9 @@ export function upload() {
 
         page += `<div class="game-filters"></div>`
         page += `<div class="game-options"></div>`
-        page += `<div class="game-settings" hidden>${JSON.stringify(data.settings)}</div>`
+        page += `<div class="game-settings"></div>`
+        
+        page += `<script>const settingsData = ${JSON.stringify(data.settings)}; const optionsData = ${JSON.stringify(data.options)}; const gameSlug = "${slug}"</script>`
         
         let temp = `<div class="game-bound">`
             temp += `<div class="game">`

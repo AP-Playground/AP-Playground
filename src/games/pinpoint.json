@@ -5,6 +5,20 @@
   "courses": [
     "ap-art-history"
   ],
+  "options": [
+    {
+      "key": "identifier",
+      "displayKey": "Identifier",
+      "values": ["term", "termImage"],
+      "multiselect": true
+    },
+    {
+      "key": "details",
+      "displayKey": "Additional details",
+      "values": ["details"],
+      "multiselect": true
+    }
+  ],
   "settings": [
     {
         "key": "size",

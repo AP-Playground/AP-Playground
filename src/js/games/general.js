@@ -6,9 +6,6 @@ gameBlock.inert = true;
 const gameFilters = document.querySelector(".game-filters")
 const gameOptions = document.querySelector(".game-options")
 const gameSettings = document.querySelector(".game-settings")
-const settingData = JSON.parse(gameSettings.innerHTML)
-gameSettings.innerHTML = "";
-gameSettings.hidden = false;
 
 let vocab;
 let vocabData;
@@ -23,62 +20,144 @@ let initialPageLoad = true;
 
 const paramsString = window.location.search;
 const searchParams = new URLSearchParams(paramsString);
-const gameSlug = window.location.pathname.split("/").at(-1).replace(".html", "");
 
 courseSelect.addEventListener("change", async () => {
-    if (!courseSelect.value) {
-        gameBlock.inert = true;
-        gameBlock.classList.remove("active");
-        gameFilters.innerHTML = ""
-        gameOptions.innerHTML = ""
-        gameSettings.innerHTML = ""
-        return;
+  gameBlock.inert = true;
+  gameBlock.classList.remove("active");
+  gameFilters.innerHTML = ""
+  gameOptions.innerHTML = ""
+  gameSettings.innerHTML = ""
+  if (!courseSelect.value) return;
+
+  filters = {};
+  options = {};
+  settings = {};
+
+  [vocab, vocabData, courseNav] = await Promise.all([
+    loadJSON(`/${courseSelect.value}/vocab.json`),
+    loadJSON(`/${courseSelect.value}/vocab-data.json`),
+    loadJSON(`/${courseSelect.value}/nav.json`)
+  ]);
+
+  loadOptions();
+
+  if (initialPageLoad && searchParams.has("course")) {
+    const totalChecked = [];
+    for (const [key, val] of searchParams) {
+      if (key === "course") continue;
+      const checked = document.querySelector(`.${key}[value="${val}"]`)
+      if (checked) {
+        checked.checked = true;
+        totalChecked.push(checked)
+      } else {
+        const input = document.querySelector(`input#${key}`)
+        if (input) input.value = val;
+      }
     }
-    gameBlock.inert = true;
-    gameBlock.classList.remove("active");
-    gameFilters.innerHTML = ""
-    gameOptions.innerHTML = ""
-    gameSettings.innerHTML = ""
-    filters = {};
-    options = {};
-    settings = {};
-
-    [vocab, vocabData, courseNav] = await Promise.all([
-        loadJSON(`/${courseSelect.value}/vocab.json`),
-        loadJSON(`/${courseSelect.value}/vocab-data.json`),
-        loadJSON(`/${courseSelect.value}/nav.json`)
-    ]);
-
-    loadOptions();
-
-    if (initialPageLoad && searchParams.has("course")) {
-        const totalChecked = [];
-        for (const [key, val] of searchParams) {
-            if (key === "course") continue;
-            const checked = document.querySelector(`.${key}[value="${val}"]`)
-            if (checked) {
-                checked.checked = true;
-                totalChecked.push(checked)
-            } else {
-                const input = document.querySelector(`input#${key}`)
-                if (input) {
-                    input.value = val;
-                }
-            }
-        }
-        totalChecked.forEach(i => i.dispatchEvent(new Event('change')))
-    }
-    initialPageLoad = false;
+    totalChecked.forEach(i => i.dispatchEvent(new Event('change')))
+  }
+  initialPageLoad = false;
 })
 
 if (searchParams.has("course")) {
-    courseSelect.value = searchParams.get("course")
-    courseSelect.dispatchEvent(new Event('change'));
+  courseSelect.value = searchParams.get("course")
+  courseSelect.dispatchEvent(new Event('change'));
 }
 
 
 const gameBound = gameBlock.querySelector(".game-bound")
 const game = gameBound.querySelector(".game");
+
+// Generalized fieldset creator for form filters, options, and settings
+// Supports special "input" field type for custom number inputs
+// optionalValidation: callback(list, key, options) for custom validation on change
+function createFieldset(element, key, displayKey, values, displayValues, multiselect, all, option, optionalValidation) {
+  const type = multiselect ? "checkbox" : "radio"
+  let field = ""
+  for (const i in values) {
+    if (values[i] === "input") {
+      field += `<label><input type="${type}" name="${key}" value="${values[i]}" class="${option}-${key}"><div>${displayValues[i]} <input type="number" id="${option}-${key}-input" min=1 step=1></div></label>`
+    } else {
+      field += `<label><input type="${type}" name="${key}" value="${values[i]}" class="${option}-${key}">${displayValues[i]}</label>`
+    }
+  }
+  if (all) field += `<label><input type="${type}" name="${key}" value="select-all" class="${option}-${key} select-all">All ${displayKey.toLowerCase()}</label>`
+  element.insertAdjacentHTML("beforeend",`<fieldset><legend>${displayKey}</legend>${field}</fieldset>`)
+
+  const list = option==="filter"?filters:option==="option"?options:settings
+  list[key] = []
+
+  const inputs = Array.from(element.querySelectorAll(`.${option}-${key}:not(.select-all)`))
+  inputs.forEach(i => i.addEventListener("change", e => {
+    list[key] = inputs.filter(i => i.checked).map(i => i.value);
+    if (optionalValidation) optionalValidation(key, e.target);
+    checkLoadGame();
+  }))
+
+  if (all) {
+    const selectAll = element.querySelector(`.${option}-${key}.select-all`);
+    inputs.forEach(i => i.addEventListener("change", () => {
+      selectAll.checked = !inputs.some(box => !box.checked)
+    }))
+    selectAll.addEventListener("change", e => {
+      inputs.forEach(box => box.checked = selectAll.checked);
+      list[key] = inputs.filter(i => i.checked).map(i => i.value);
+      if (optionalValidation) optionalValidation(key, e.target);
+      checkLoadGame();
+    })
+  }
+
+  const numberInput = element.querySelector(`input#${option}-${key}-input`)
+  if (numberInput) {
+    const numberInputCheckbox = element.querySelector(`.${option}-${key}[value="input"]`)
+    let oldNumberInputValue = 0;
+    numberInput.addEventListener('blur', () => {
+      if (!numberInput.value) {
+        oldNumberInputValue = 0
+        if (numberInputCheckbox.checked) checkLoadGame();
+        return;
+      }
+      numberInput.value = Math.floor(Math.max(1, numberInput.value));
+      if (numberInput.value !== oldNumberInputValue && numberInputCheckbox.checked) checkLoadGame();
+      oldNumberInputValue = numberInput.value
+    })
+  }
+}
+
+// Generalized loadOptions function
+function loadOptions() {
+  // Load filters
+  for (const filter of vocabData.filters) {
+    let values;
+    let displayValues;
+    if (filter.key === "unit") {
+      values = Object.keys(courseNav.data);
+      displayValues = Object.values(courseNav.data).map(i => i.prefix + ": " + i.title);
+    } else {
+      values = vocabData.values;
+      displayValues = vocabData.displayValues;
+    }
+    createFieldset(gameFilters, filter.key, filter.displayKey, values, displayValues, filter.multiselect, filter.all, "filter", typeof filtersValidation === 'function' ? filtersValidation : undefined)
+  }
+
+  // Load settings
+  for (const setting of settingsData) {
+    createFieldset(gameSettings, setting.key, setting.displayKey, setting.values, setting.displayValues, setting.multiselect, setting.all, "setting", typeof settingsValidation === 'function' ? settingsValidation : undefined)
+  }
+
+  // Load game-specific options 
+  const keyNames = vocabData.keys;
+  for (const optConfig of optionsData) {
+    const optValues = optConfig.values.flatMap(v => vocabData.games[gameSlug][v] || []);
+    const optDisplayValues = optValues.map(v => keyNames[v]);
+    
+    if (optValues.length > 1) {
+      createFieldset(gameOptions, optConfig.key, optConfig.displayKey, optValues, optDisplayValues, optConfig.multiselect, optConfig.all, "option", typeof optionsValidation === 'function' ? optionsValidation : undefined)
+    } else if (optValues.length === 1) {
+      options[optConfig.key] = [optValues[0]];
+    }
+  }
+}
 
 // Returns the property with the suffix if it exists, otherwise returns the base property
 // This allows different games to get different values from the same key if needed
@@ -87,9 +166,9 @@ const game = gameBound.querySelector(".game");
 // Case: suffixed key exists -> return suffixed key value (if falsy, game will ignore the key)
 // Case: suffixed key doesn't exist -> return base key value (if falsy, game will ignore the key)
 function getProperty(object, key, optionalSlug = gameSlug) {
-    if (object.hasOwnProperty(optionalSlug + "-" + key)) {
-        return object[optionalSlug + "-" + key];
-    } else return object[key];
+  if (object.hasOwnProperty(optionalSlug + "-" + key)) {
+    return object[optionalSlug + "-" + key];
+  } else return object[key];
 }
 
 function copyToClipboard(text) {
@@ -97,18 +176,18 @@ function copyToClipboard(text) {
 }
 
 function pickString(input, randomize = true) {
-    if (typeof input === "string") return input;
-    if (randomize) return input[Math.floor(Math.random()*input.length)];
-    return input[0]
+  if (typeof input === "string") return input;
+  if (randomize) return input[Math.floor(Math.random()*input.length)];
+  return input[0]
 }
 
 function randomize(list) {
-    return list.sort(() => Math.random() - 0.5)
+  return list.sort(() => Math.random() - 0.5)
 }
 
 async function loadJSON(url) {
-    return await fetch(url)
-    .then(response => response.json())
+  return await fetch(url)
+  .then(response => response.json())
 }
 
 function levenshtein(input, target) {
