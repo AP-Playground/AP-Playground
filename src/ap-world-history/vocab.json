@@ -755,7 +755,7 @@
         "category": "religion-culture",
         "continent": ["asia", "oceania"]
     },
-    "": {
+    "silkRoad": {
         "term": "Silk Road",
         "link": "https://en.wikipedia.org/wiki/Silk_Road",
         "date": "Active 100-1500",
@@ -764,7 +764,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-    "": {
+    "samarkand": {
         "term": "Samarkand",
         "link": "https://en.wikipedia.org/wiki/Samarkand",
         "date": "Founded 700 BCE",
@@ -773,7 +773,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-    "": {
+    "kashgar": {
         "term": "Kashgar",
         "link": "https://en.wikipedia.org/wiki/Kashgar",
         "date": "Founded 100 BCE",
@@ -782,7 +782,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-        "": {
+    "bankingHouse": {
         "term": "Banking Houses",
         "link": "https://en.wikipedia.org/wiki/History_of_banking",
         "date": "Used around 1300",
@@ -791,7 +791,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "battleOfTalas": {
         "term": "Battle of Talas",
         "link": "https://en.wikipedia.org/wiki/Battle_of_Talas#Papermaking",
         "date": "751",
@@ -800,7 +800,7 @@
         "category": "events",
         "continent": "asia"
     },
-        "": {
+    "sogdian": {
         "term": "Sogdians",
         "link": "https://en.wikipedia.org/wiki/Sogdia#Central_Asia_and_the_Silk_Road",
         "date": "Established 500 BCE",
@@ -809,7 +809,7 @@
         "category": "people",
         "continent": "asia"
     },
-        "": {
+    "blueMightyEternalHeaven": {
         "term": "Blue Mighty Eternal Heaven",
         "link": "https://en.wikipedia.org/wiki/Religion_in_the_Mongol_Empire#Shamanism",
         "date": "Founded 300 BCE",
@@ -818,7 +818,7 @@
         "category": "",
         "continent": "religion-culture"
     },
-        "": {
+    "kurultai": {
         "term": "Kurultai",
         "link": "https://en.wikipedia.org/wiki/Kurultai",
         "date": "First used 1200",
@@ -827,7 +827,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-        "": {
+    "yamSystem": {
         "term": "Yam System",
         "link": "Founded 1200s",
         "date": "https://en.wikipedia.org/wiki/Paiza",
@@ -836,7 +836,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-        "": {
+    "yassa": {
         "term": "Yassa",
         "link": "https://en.wikipedia.org/wiki/Yassa",
         "date": "Established 1200s",
@@ -845,17 +845,17 @@
         "category": "society-structure",
         "continent": "asia"
     },
-        "": {
+    "toregeneKhatun": {
         "term": "Töregene Khatun",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/T%C3%B6regene_Khatun",
         "date": "Regency 1242-1246",
         "definition": "Great Khatun and regent of the Mongol Empire",
         "effect": "Notable female ruler; reorganized the Mongol Empire's governing body",
         "category": "people",
         "continent": "asia"
     },
-        "": {
-        "term": "Indean Ocean Gyre",
+    "indianOceanGyre": {
+        "term": "Indian Ocean Gyre",
         "link": "https://en.wikipedia.org/wiki/Indian_Ocean_Gyre",
         "date": "",
         "definition": "A large system of rotating ocean currents driven by winds and monsoons",
@@ -863,7 +863,7 @@
         "category": "events",
         "continent": "asia, africa"
     },
-        "": {
+    "dhow": {
         "term": "Dhow",
         "link": "https://en.wikipedia.org/wiki/Dhow",
         "date": "Invented 200s",
@@ -872,7 +872,7 @@
         "category": "idea-innovation",
         "continent": "asia"
     },
-        "": {
+    "lateen": {
         "term": "Lateen",
         "link": "https://en.wikipedia.org/wiki/Lateen",
         "date": "Invented 200s",
@@ -881,7 +881,7 @@
         "category": "idea-innovation",
         "continent": "asia"
     },
-        "": {
+    "junk": {
         "term": "Junk (ship)",
         "link": "https://en.wikipedia.org/wiki/Junk_(ship)",
         "date": "400s",
@@ -890,7 +890,7 @@
         "category": "idea-innovation",
         "continent": "asia"
     },
-        "": {
+    "astrolabe": {
         "term": "Astrolabe",
         "link": "https://en.wikipedia.org/wiki/Astrolabe",
         "date": "Invented 200 BCE",
@@ -899,7 +899,7 @@
         "category": "idea-innovation",
         "continent": "asia"
     },
-            "": {
+    "rudder": {
         "term": "Rudder",
         "link": "https://en.wikipedia.org/wiki/Rudder",
         "date": "50",
@@ -908,8 +908,8 @@
         "category": "idea-innovation",
         "continent": "asia"
     },
-        "": {
-        "term": "camel Saddles",
+    "camelSaddle": {
+        "term": "Camel Saddles",
         "link": "https://revolutionsintrade.weebly.com/the-camel-saddle/the-camel-saddle",
         "date": "Invented 1200 BCE",
         "definition": "Seat fastened to the back of a camel, typically made of leather",
@@ -917,7 +917,7 @@
         "category": "idea-innovation",
         "continent": "africa"
     },
-            "": {
+    "idjilSebkha": {
         "term": "Idjil Sebkha",
         "link": "https://www.ancient.eu/article/1342/the-salt-trade-of-ancient-west-africa/",
         "date": "500-1400",
@@ -926,7 +926,7 @@
         "category": "society-structure",
         "continent": "africa"
     },
-        "": {
+    "camelCaravan": {
         "term": "Camel Caravan",
         "link": "https://en.wikipedia.org/wiki/Camel_train",
         "date": "400s BCE",
@@ -935,7 +935,7 @@
         "category": "idea-innovation",
         "continent": "africa"
     },
-            "": {
+    "djinguereberMosque": {
         "term": "Djinguereber Mosque",
         "link": "https://en.wikipedia.org/wiki/Djinguereber_Mosque",
         "date": "Built 1327",
@@ -944,7 +944,7 @@
         "category": "religion-culture",
         "continent": "africa"
     },
-        "": {
+    "transSaharanSlaveTrade": {
         "term": "Trans-Saharan Slave Trade",
         "link": "https://en.wikipedia.org/wiki/Arab_slave_trade#Africa:_8th_through_19th_centuries",
         "date": "650-1920",
@@ -953,7 +953,7 @@
         "category": "society-structure",
         "continent": "africa"
     },
-            "": {
+    "paperMaking": {
         "term": "Papermaking",
         "link": "https://en.wikipedia.org/wiki/Papermaking#History",
         "date": "Began 100",
@@ -962,7 +962,7 @@
         "category": "idea-innovation",
         "continent": "asia"
     },
-        "": {
+    "darAlIslam": {
         "term": "Dar al-Islam",
         "link": "https://en.wikipedia.org/wiki/Divisions_of_the_world_in_Islam#Dar_al-Islam",
         "date": "Since 622",
@@ -971,7 +971,7 @@
         "category": "society-structure",
         "continent": "asia, africa"
     },
-            "": {
+    "gunpowder": {
         "term": "Gunpowder",
         "link": "https://en.wikipedia.org/wiki/History_of_gunpowder",
         "date": "Invented 800s",
@@ -980,7 +980,7 @@
         "category": "idea-innovation",
         "continent": "asia"
     },
-        "": {
+    "compass": {
         "term": "Compass",
         "link": "https://en.wikipedia.org/wiki/History_of_the_compass",
         "date": "Invented 100 BC",
@@ -989,7 +989,7 @@
         "category": "idea-innovation",
         "continent": "asia"
     },
-            "": {
+    "paxIslamica": {
         "term": "Pax Islamica",
         "link": "https://en.wikipedia.org/wiki/Islamic_Golden_Age",
         "date": "700-1200",
@@ -998,7 +998,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-        "": {
+    "spreadOfBuddhism": {
         "term": "Spread of Buddhism",
         "link": "https://en.wikipedia.org/wiki/Silk_Road_transmission_of_Buddhism",
         "date": "100-1500",
@@ -1007,7 +1007,7 @@
         "category": "religion-culture",
         "continent": "asia"
     },
-            "": {
+    "citrusFruit": {
         "term": "Citrus fruits",
         "link": "https://en.wikipedia.org/wiki/Citrus",
         "date": "Spread 1200-1400",
@@ -1016,7 +1016,7 @@
         "category": "idea-innovation",
         "continent": "asia, europe"
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1025,7 +1025,7 @@
         "category": "",
         "continent": ""
     },
-            "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1034,7 +1034,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1043,7 +1043,7 @@
         "category": "",
         "continent": ""
     },
-            "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1052,7 +1052,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1061,7 +1061,7 @@
         "category": "",
         "continent": ""
     },
-            "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1070,7 +1070,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1079,7 +1079,7 @@
         "category": "",
         "continent": ""
     },
-            "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1088,7 +1088,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1097,7 +1097,7 @@
         "category": "",
         "continent": ""
     },
-            "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1106,7 +1106,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
