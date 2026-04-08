@@ -756,24 +756,204 @@
         "continent": ["asia", "oceania"]
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Silk Road",
+        "link": "https://en.wikipedia.org/wiki/Silk_Road",
+        "date": "Active 100-1500",
+        "definition": "Network of Eurasian trade routes connecting the East and West",
+        "effect": "Facilitated economic, cultural, political, and religious interaction between the East and West",
+        "category": "society-structure",
+        "continent": "asia"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Samarkand",
+        "link": "https://en.wikipedia.org/wiki/Samarkand",
+        "date": "Founded 700 BCE",
+        "definition": "City in modern Uzbekistan which prospered from its position on the Silk Road",
+        "effect": "Trading center and center of Islamic religion and culture",
+        "category": "society-structure",
+        "continent": "asia"
     },
     "": {
+        "term": "Kashgar",
+        "link": "https://en.wikipedia.org/wiki/Kashgar",
+        "date": "Founded 100 BCE",
+        "definition": "City in modern west China which grew from trade along the Silk Road",
+        "effect": "Trading center and stopping/starting point for merchants and explorers",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Banking Houses",
+        "link": "https://en.wikipedia.org/wiki/History_of_banking",
+        "date": "Used around 1300",
+        "definition": "Institutions that handle money storage, lending, conversion, etc.",
+        "effect": "Spurred economic growth and safety with bills of exchange and flying cash",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "Battle of Talas",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Talas#Papermaking",
+        "date": "751",
+        "definition": "Military engagement between the Abbasid Caliphate and Tang Dynasty",
+        "effect": "Chinese POWs revealed paper making tech to the Abbasids",
+        "category": "events",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Sogdians",
+        "link": "https://en.wikipedia.org/wiki/Sogdia#Central_Asia_and_the_Silk_Road",
+        "date": "Established 500 BCE",
+        "definition": "Ancient East Iranian civilization; cluster of city states around Samarkand",
+        "effect": "Facilitated Silk Road trade between China and Central Asia",
+        "category": "people",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Blue Mighty Eternal Heaven",
+        "link": "https://en.wikipedia.org/wiki/Religion_in_the_Mongol_Empire#Shamanism",
+        "date": "Founded 300 BCE",
+        "definition": "The animist religion of the Mongols, focusing on a relationship between humans and nature",
+        "effect": "Religious freedom was promoted within the Mongol Empire",
+        "category": "",
+        "continent": "religion-culture"
+    },
+        "": {
+        "term": "Kurultai",
+        "link": "https://en.wikipedia.org/wiki/Kurultai",
+        "date": "First used 1200",
+        "definition": "Political and military council of Mongol and Turkic chiefs",
+        "effect": "Established political and military unity of Mongol tribes",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Yam System",
+        "link": "Founded 1200s",
+        "date": "https://en.wikipedia.org/wiki/Paiza",
+        "definition": "System of communication and relay stations in Mongol Empire",
+        "effect": "Increased communication and cooperation across Eurasia",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Yassa",
+        "link": "https://en.wikipedia.org/wiki/Yassa",
+        "date": "Established 1200s",
+        "definition": "Oral law code of the Mongol Empire",
+        "effect": "Upheld Pax Mongolica; kept citizens in order and encouraged religious freedom",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Töregene Khatun",
+        "link": "",
+        "date": "Regency 1242-1246",
+        "definition": "Great Khatun and regent of the Mongol Empire",
+        "effect": "Notable female ruler; reorganized the Mongol Empire's governing body",
+        "category": "people",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Indean Ocean Gyre",
+        "link": "https://en.wikipedia.org/wiki/Indian_Ocean_Gyre",
+        "date": "",
+        "definition": "A large system of rotating ocean currents driven by winds and monsoons",
+        "effect": "Its seasonal reversal allows ships to predictably travel",
+        "category": "events",
+        "continent": "asia, africa"
+    },
+        "": {
+        "term": "Dhow",
+        "link": "https://en.wikipedia.org/wiki/Dhow",
+        "date": "Invented 200s",
+        "definition": "A lateen rigged ship with one or two masts, used in the Indian Ocean",
+        "effect": "Improved water vehicle enabled more trade and assisted the formation of empires",
+        "category": "idea-innovation",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Lateen",
+        "link": "https://en.wikipedia.org/wiki/Lateen",
+        "date": "Invented 200s",
+        "definition": "Triangular sail at a 45° to the mast",
+        "effect": "Enabled travel against the wind which significantly increased trade",
+        "category": "idea-innovation",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Junk (ship)",
+        "link": "https://en.wikipedia.org/wiki/Junk_(ship)",
+        "date": "400s",
+        "definition": "Type of Chinese sailing ship ranging significantly in size",
+        "effect": "Enabled Chinese naval dominance and later spread to the Indian Ocean",
+        "category": "idea-innovation",
+        "continent": "asia"
+    },
+        "": {
+        "term": "Astrolabe",
+        "link": "https://en.wikipedia.org/wiki/Astrolabe",
+        "date": "Invented 200 BCE",
+        "definition": "Astronomical instrument serving as a star chart",
+        "effect": "Enabled nighttime maritime navigation (no need to use the sun)",
+        "category": "idea-innovation",
+        "continent": "asia"
+    },
+            "": {
+        "term": "Rudder",
+        "link": "https://en.wikipedia.org/wiki/Rudder",
+        "date": "50",
+        "definition": "Primary control surface used to steer a vessel",
+        "effect": "Made steering much easier; increased maneuverability of ships",
+        "category": "idea-innovation",
+        "continent": "asia"
+    },
+        "": {
+        "term": "camel Saddles",
+        "link": "https://revolutionsintrade.weebly.com/the-camel-saddle/the-camel-saddle",
+        "date": "Invented 1200 BCE",
+        "definition": "Seat fastened to the back of a camel, typically made of leather",
+        "effect": "Enabled the growth of trade based empires in North/West Africa",
+        "category": "idea-innovation",
+        "continent": "africa"
+    },
+            "": {
+        "term": "Idjil Sebkha",
+        "link": "https://www.ancient.eu/article/1342/the-salt-trade-of-ancient-west-africa/",
+        "date": "500-1400",
+        "definition": "Famous and very productive salt mine region in the Sahara",
+        "effect": "Grew the gold-salt trade in Africa",
+        "category": "society-structure",
+        "continent": "africa"
+    },
+        "": {
+        "term": "Camel Caravan",
+        "link": "https://en.wikipedia.org/wiki/Camel_train",
+        "date": "400s BCE",
+        "definition": "Series of camels carrying passengers and goods",
+        "effect": "Increased volume and safety of Trans-Saharan trade",
+        "category": "idea-innovation",
+        "continent": "africa"
+    },
+            "": {
+        "term": "Djinguereber Mosque",
+        "link": "https://en.wikipedia.org/wiki/Djinguereber_Mosque",
+        "date": "Built 1327",
+        "definition": "Timbuktu's oldest mosque; famous learning center of Mali",
+        "effect": "Contributed to Mali being a center of Islamic scholarship",
+        "category": "religion-culture",
+        "continent": "africa"
+    },
+        "": {
+        "term": "Trans-Saharan Slave Trade",
+        "link": "https://en.wikipedia.org/wiki/Arab_slave_trade#Africa:_8th_through_19th_centuries",
+        "date": "650-1920",
+        "definition": "Slave trade across the Sahara; moved 6-10 mil. people",
+        "effect": "One of the first major slave networks which lasted many centuries",
+        "category": "society-structure",
+        "continent": "africa"
+    },
+            "": {
         "term": "",
         "link": "",
         "date": "",
@@ -782,6 +962,160 @@
         "category": "",
         "continent": ""
     },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+            "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+            "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+            "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+            "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+            "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+            "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+            "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+            "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    
 
     
     "categories": ["people", "events", "religion-culture", "idea-innovation","society-structure"],
