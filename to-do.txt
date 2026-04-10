@@ -11,3 +11,7 @@ Comment longer files
 Scroll to game on first game load?
 Improve init loading of courses
 Add picture for WHAP people
+Update poseknows links
+Put link for pinpoint on AP AH pages
+Zoom in to pinpoint map
+Add country outlines to pinpoint map
