@@ -1017,6 +1017,136 @@
         "continent": "asia, europe"
     },
     "": {
+        "term": "Fall of Constantinople",
+        "link": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+        "date": "1453",
+        "definition": "Capture of the capital of the Byzantine Empire through gunpowder by the Ottoman Empire",
+        "effect": "Further expansion of the Ottoman Empire and a new capital city",
+        "category": "events",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Safavid Dynasty",
+        "link": "https://en.wikipedia.org/wiki/Safavid_dynasty",
+        "date": "1501-1736",
+        "definition": "Iranian dynasty considered one of the gunpowder empires",
+        "effect": "Revival of Iran on the Silk Roads; significant patronage of the arts",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Battle of Panipat",
+        "link": "https://en.wikipedia.org/wiki/First_Battle_of_Panipat",
+        "date": "1526",
+        "definition": "Battle fought between invading forces of Babur and Delhi Sultanate",
+        "effect": "End of Delhi Sultanate; start of Mughal Empire",
+        "category": "events",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Bakufu",
+        "link": "https://en.wikipedia.org/wiki/Sh%C5%8Dgun",
+        "date": "1185-1868",
+        "definition": "The Shogun's administration",
+        "effect": "These officials carry out the actual duties of administration",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "House of Romanov",
+        "link": "https://en.wikipedia.org/wiki/House_of_Romanov",
+        "date": "1613-1917",
+        "definition": "Was the reigning imperial house of Russia",
+        "effect": "Over 3 centuries of growth and stability in Russia",
+        "category": "society-structure",
+        "continent": "europe"
+    },
+    "": {
+        "term": "St. Petersburg",
+        "link": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+        "date": "",
+        "definition": "Russian port city; imperial capital of House of Romanov",
+        "effect": "Cultural center of Russia",
+        "category": "society-structure",
+        "continent": "europe"
+    },
+    "": {
+        "term": "Samurai",
+        "link": "https://en.wikipedia.org/wiki/Samurai",
+        "date": "1185-1868",
+        "definition": "Japanese military nobility; worked under feudal landlords",
+        "effect": "Held political and military power and influenced Japanese culture",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Devshirme",
+        "link": "https://en.wikipedia.org/wiki/Devshirme",
+        "date": "1400-1700",
+        "definition": "Ottoman practice of forcibly recruiting Balkan Christian boys to be loyal Islamic soldiers",
+        "effect": "Created a faction of soldiers loyal to the Sultan, counterbalancing the Turkish nobility",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Janissaries",
+        "link": "https://en.wikipedia.org/wiki/Janissary",
+        "date": "1420-1826",
+        "definition": "Elite infantry units that formed the Ottoman sultan's troops, equipped with firearms",
+        "effect": "One of the first modern standing armies; loyal only to the Sultan",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Grand Vizier",
+        "link": "https://en.wikipedia.org/wiki/Grand_vizier",
+        "date": "1300-1900",
+        "definition": "The effective head of government of Islamic states",
+        "effect": "Consolidated power within highly centralized bureaucracies, often at the expense of the Sultan",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+    "": {
+        "term": "Battle of Chaldiran",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Chaldiran",
+        "date": "1514",
+        "definition": "The first major military confrontation between the Ottoman and Safavid empires",
+        "effect": "Ottoman victory; demonstrative of conflict due to religious difference (Sunni vs. Shi'a)",
+        "category": "events",
+        "continent": "asia"
+    },
+        },
+    "": {
+        "term": "Code of the Rayas",
+        "link": "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent#Legal_and_political_reforms",
+        "date": "Created c. 1530",
+        "definition": "Single legal code for the Ottoman empire developed by Suleiman II",
+        "effect": "Reformed legislation that would last over 300 years",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+        },
+    "": {
+        "term": "Zamindars",
+        "link": "https://en.wikipedia.org/wiki/Zamindar",
+        "date": "1526-1950",
+        "definition": "A feudal lord of a feudal estate in the Indian subcontinent",
+        "effect": "Assisted in administration of the Mughal Empire by collecting taxes and ruling the land",
+        "category": "society-structure",
+        "continent": "asia"
+    },
+        },
+    "": {
+        "term": "Divine Right",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1024,6 +1154,241 @@
         "effect": "",
         "category": "",
         "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    v
+    v
+    v
+    v
+        },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
     },
     "": {
         "term": "",
@@ -1034,14 +1399,6 @@
         "category": "",
         "continent": ""
     },
-    "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
     },
     "": {
         "term": "",
@@ -1052,14 +1409,6 @@
         "category": "",
         "continent": ""
     },
-    "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
     },
     "": {
         "term": "",
@@ -1070,14 +1419,6 @@
         "category": "",
         "continent": ""
     },
-    "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
     },
     "": {
         "term": "",
@@ -1088,14 +1429,6 @@
         "category": "",
         "continent": ""
     },
-    "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
     },
     "": {
         "term": "",
@@ -1106,6 +1439,7 @@
         "category": "",
         "continent": ""
     },
+    },
     "": {
         "term": "",
         "link": "",
@@ -1115,6 +1449,158 @@
         "category": "",
         "continent": ""
     },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+v
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+
     
 
     
