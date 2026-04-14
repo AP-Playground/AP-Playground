@@ -12,7 +12,6 @@ Scroll to game on first game load?
 Scroll to game doesn't work because scroll happens before image loads (default height of game box too short initially) 
 Improve init loading of courses
 Add picture for WHAP people
-Update poseknows links
 Put link for pinpoint on AP AH pages
 Zoom in to pinpoint map
 Add country outlines to pinpoint map
