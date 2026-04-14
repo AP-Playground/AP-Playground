@@ -172,7 +172,7 @@ export function header(path) {
     case "tools": {
       breadcrumb.push(["Home","/"],["Tools","/tools"])
       if (pathSegments.length > 1) {
-        breadcrumb.push([global.toolTitle(pathSegments[1]),`/${pathSegments[1]}`])
+        breadcrumb.push([global.toolTitle(pathSegments[1]),`/tools/${pathSegments[1]}`])
       }
       break;
     }
