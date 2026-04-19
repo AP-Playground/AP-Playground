@@ -355,7 +355,7 @@
         "link": "https://en.wikipedia.org/wiki/Majapahit",
         "date": "1293-1527",
         "definition": "Hindu-Buddhist maritime empire based on the island of Java",
-        "effect": "The empire resisted Yuan influence, controlled regional trade, and covered most of Southeast Asia",
+        "effect": "Resisted Yuan influence, controlled regional trade, and covered most of Southeast Asia",
         "category": "society-structure",
         "continent": "asia"
     },
@@ -409,7 +409,7 @@
         "link": "https://en.wikipedia.org/wiki/Inca_Empire#Etymology",
         "date": "1438-1572",
         "definition": "The largest empire in pre-European America; heavily centralized",
-        "effect": "Thriving empire that developed in isolation, without writing, iron, or money; fell to the Spanish",
+        "effect": "Empire that developed in isolation, without writing, iron, or money; fell to the Spanish",
         "category": "society-structure",
         "continent": "south-america"
     },
@@ -1059,7 +1059,7 @@
         "definition": "Was the reigning imperial house of Russia",
         "effect": "Over 3 centuries of growth and stability in Russia",
         "category": "society-structure",
-        "continent": "europe"
+        "continent": "europe, asia"
     },
     "": {
         "term": "St. Petersburg",
@@ -1102,7 +1102,7 @@
         "link": "https://en.wikipedia.org/wiki/Grand_vizier",
         "date": "1300-1900",
         "definition": "The effective head of government of Islamic states",
-        "effect": "Consolidated power within highly centralized bureaucracies, often at the expense of the Sultan",
+        "effect": "Consolidated power within centralized bureaucracies at the expense of the Sultan",
         "category": "society-structure",
         "continent": "asia"
     },
@@ -1200,7 +1200,7 @@
         "term": "Protestant Reformation",
         "link": "https://en.wikipedia.org/wiki/Reformation",
         "date": "1517-1620",
-        "definition": "A movement in Western Christianity that posed a religious and political challenge to the Catholic Church",
+        "definition": "A movement in Western Christianity that challenged the Catholic Church",
         "effect": "Led to the growth and spread of Protestantism, but also the Catholic Counter-Reformation",
         "category": "religion-culture",
         "continent": "europe"
@@ -1210,7 +1210,7 @@
         "term": "Ottoman-Safavid Relations",
         "link": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Safavid_relations",
         "date": "1514-1736",
-        "definition": "Conflicts between the Ottoman and Safavid Empires due to their respective beliefs of Sunni and Shi'a Islam",
+        "definition": "Conflicts between the Ottoman and Safavid due to their different sects of Islam",
         "effect": "",
         "category": "religion-culture",
         "continent": "asia"
@@ -1241,7 +1241,7 @@
         "link": "https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral",
         "date": "Built 1555-1683",
         "definition": "A Russian Orthodox church in the center of Moscow, built by Ivan the Terrible",
-        "effect": "Demonstrative of the Russian takeover of Orthodoxy following the fall of the Byzantime Empire",
+        "effect": "Demonstrative of the Russian takeover of Orthodoxy after the Byzantime Empire's fall",
         "category": "religion-culture",
         "continent": "europe"
     },
@@ -1309,71 +1309,71 @@
     "": {
         "term": "Banners",
         "link": "https://en.wikipedia.org/wiki/Eight_Banners",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "date": "1615-1912",
+        "definition": "Administrative and military divisions into which all Manchu households were placed",
+        "effect": "Used to unify Manchu people; became the elite army of the Qing",
+        "category": "society-structure",
+        "continent": "asia"
     },
         },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Ivan III (the Great)",
+        "link": "https://en.wikipedia.org/wiki/Ivan_III_of_Russia",
+        "date": "1440-1505",
+        "definition": "Grew Russia's territory, ending Tatar/Mongol rule and ending feudal fragmentation",
+        "effect": "Laid the foundations for the centralized Russian state, made Moscow its center",
+        "category": "people",
+        "continent": "europe, asia"
     },
         },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Ivan IV (the Terrible)",
+        "link": "https://en.wikipedia.org/wiki/Ivan_the_Terrible",
+        "date": "1530-1584",
+        "definition": "Consolidated power through the Zemsky Sobor and helped transform Russia into an empire",
+        "effect": "Seized power from the boyar nobility, and established a political police force (oprichniki)",
+        "category": "people",
+        "continent": "europe, asia"
     },
         },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Oprichnina",
+        "link": "https://en.wikipedia.org/wiki/Oprichnina",
+        "date": "1565-1572",
+        "definition": "A state policy implemented by Ivan the Terrible which repressed the boyars (nobility)",
+        "effect": "Organized the oprichniki police, confiscated boyar land, centralized tsarist power",
+        "category": "society-structure",
+        "continent": "europe, asia"
     },
         },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Peter the Great",
+        "link": "https://en.wikipedia.org/wiki/Peter_the_Great",
+        "date": "1672-1725",
+        "definition": "First Emperor of Russia, who founded Saint Petersburg",
+        "effect": "Led a cultural revloution that Westernized Russia, example of an absolutist monarch",
+        "category": "people",
+        "continent": "europe, asia"
     },
         },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Zemsky Sobor",
+        "link": "https://en.wikipedia.org/wiki/Zemsky_Sobor",
+        "date": "1549-1680",
+        "definition": "A parliament of the Tsardom of Russia's estates of the realm",
+        "effect": "Legitimized Tsarist rule, voted the Romanov dynasty into power to end succession crisis",
+        "category": "society-structure",
+        "continent": "europe, asia"
     },
         },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Grand Embassy",
+        "link": "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great",
+        "date": "1697-1698",
+        "definition": "A Russian diplomatic mission to Western Europe, led by Peter the Great",
+        "effect": "Intended goal failed, but information was gathered that contributed to Russian Westernization",
+        "category": "events",
+        "continent": "europe"
     },
     v
     v
@@ -1381,33 +1381,33 @@
     v
         },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
+        "term": "Shah Ismail I",
+        "link": "https://en.wikipedia.org/wiki/Ismail_I",
+        "date": "1487-1524",
+        "definition": "The founder and first shah of Safavid Iran",
         "effect": "",
-        "category": "",
-        "continent": ""
+        "category": "people",
+        "continent": "asia"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Shah Abbas I",
+        "link": "https://en.wikipedia.org/wiki/Abbas_the_Great",
+        "date": "1571-1629",
+        "definition": "The 5th Safavid shah; brought slaves into the administration and military",
+        "effect": "Turned the empire into a unified and stable monarchy through a centralized administration",
+        "category": "people",
+        "continent": "asia"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Mehmet II",
+        "link": "https://en.wikipedia.org/wiki/Mehmed_the_Conqueror",
+        "date": "1432-1481",
+        "definition": "Sultan of the Ottoman Empire who led conquests",
+        "effect": "Conquered Constantinople and turned it into an imperial capital, Istanbul",
+        "category": "people",
+        "continent": "asia"
     },
     },
     "": {
