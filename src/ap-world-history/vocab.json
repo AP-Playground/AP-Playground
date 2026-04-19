@@ -1086,7 +1086,7 @@
         "definition": "Ottoman practice of forcibly recruiting Balkan Christian boys to be loyal Islamic soldiers",
         "effect": "Created a faction of soldiers loyal to the Sultan, counterbalancing the Turkish nobility",
         "category": "society-structure",
-        "continent": "asia"
+        "continent": "asia, europe"
     },
     "": {
         "term": "Janissaries",
@@ -1095,7 +1095,7 @@
         "definition": "Elite infantry units that formed the Ottoman sultan's troops, equipped with firearms",
         "effect": "One of the first modern standing armies; loyal only to the Sultan",
         "category": "society-structure",
-        "continent": "asia"
+        "continent": "asia, europe"
     },
     "": {
         "term": "Grand Vizier",
@@ -1104,7 +1104,7 @@
         "definition": "The effective head of government of Islamic states",
         "effect": "Consolidated power within centralized bureaucracies at the expense of the Sultan",
         "category": "society-structure",
-        "continent": "asia"
+        "continent": "asia, europe"
     },
     "": {
         "term": "Battle of Chaldiran",
@@ -1123,7 +1123,7 @@
         "definition": "Single legal code for the Ottoman empire developed by Suleiman II",
         "effect": "Reformed legislation that would last over 300 years",
         "category": "society-structure",
-        "continent": "asia"
+        "continent": "asia, europe"
     },
         },
     "": {
@@ -1385,7 +1385,7 @@
         "link": "https://en.wikipedia.org/wiki/Ismail_I",
         "date": "1487-1524",
         "definition": "The founder and first shah of Safavid Iran",
-        "effect": "",
+        "effect": "Established a Shi'a Islamic gunpowder empire",
         "category": "people",
         "continent": "asia"
     },
@@ -1407,117 +1407,117 @@
         "definition": "Sultan of the Ottoman Empire who led conquests",
         "effect": "Conquered Constantinople and turned it into an imperial capital, Istanbul",
         "category": "people",
-        "continent": "asia"
+        "continent": "asia, europe"
     },
     },
     "": {
         "term": "Millet",
         "link": "https://en.wikipedia.org/wiki/Millet_(Ottoman_Empire)",
-        "date": "",
-        "definition": "legal framework where the Ottoman Empire granted Christians and Jews significant autonomy",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "date": "1454-1856",
+        "definition": "Legal framework where the Ottoman Empire granted religious minorities significant autonomy",
+        "effect": "Allowed effective governing of a diverse population, balancing central and local control",
+        "category": "societys-structure",
+        "continent": "asia, europe"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Suleiman I",
+        "link": "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent",
+        "date": "1494-1566",
+        "definition": "The longest reigning and greatest Ottoman sultan",
+        "effect": "Brought about judicial and social reform, overseeing the Ottoman Golden Age",
+        "category": "people",
+        "continent": "asia, europe"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Tax Farming",
+        "link": "https://en.wikipedia.org/wiki/Iltizam",
+        "date": "1450-1856",
+        "definition": "Land that was sold to nobles by the government, who would tax the peasants and their crop",
+        "effect": "Allowed for economic development of the Ottoman empire; especially benefitted aristocrats",
+        "category": "society-structure",
+        "continent": "asia"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Babur",
+        "link": "https://en.wikipedia.org/wiki/Babur",
+        "date": "1483-1530",
+        "definition": "Tamerlane's distant grandson; founded the Mughal Empire following the Battle of Panipat",
+        "effect": "Established a Sunni Islamic gunpowder empire",
+        "category": "people",
+        "continent": "asia"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Akbar the Great",
+        "link": "https://en.wikipedia.org/wiki/Akbar",
+        "date": "1542-1605",
+        "definition": "Third Mughal emperor; expanded the empire and established a centralized administration",
+        "effect": "Unified the empire through his religous tolerance, abolishing the tax on non-Muslims",
+        "category": "people",
+        "continent": "asia"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Taj Mahal",
+        "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
+        "date": "Built 1631",
+        "definition": "A marble mausoleum commissioned by the Mughal emperor Shah Jahan for his wife",
+        "effect": "Legitimized Mughal power; representative of Indo-Islamic cultural blending",
+        "category": "society-structure",
+        "continent": "asia"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Askia Muhammad",
+        "link": "https://en.wikipedia.org/wiki/Askia_Mohammad_I",
+        "date": "1443-1538",
+        "definition": "The greatest Songhai ruler, who made the empire the largest in West Africa's history",
+        "effect": "Policies expanded trade with Europe and Asia; established Islam as central to the empire",
+        "category": "people",
+        "continent": "africa"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Tokugama Ieyasu",
+        "link": "https://en.wikipedia.org/wiki/Tokugawa_Ieyasu",
+        "date": "1543-1616",
+        "definition": "The first shogun of the Tokugawa shogunate",
+        "effect": "Began the Edo period of Japan, characterized by prolonged peace, stability, and development",
+        "category": "people",
+        "continent": "asia"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Songhai-Morocco Conflict",
+        "link": "https://en.wikipedia.org/wiki/Moroccan_invasion_of_the_Songhai_Empire",
+        "date": "1590-1591",
+        "definition": "A Moroccan invasian of the Songhai Empire to control trans-Saharan trade",
+        "effect": "Moroccan victory due to modern firearms, leading to the Songhai's collapse",
+        "category": "events",
+        "continent": "africa"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Absolutism",
+        "link": "https://en.wikipedia.org/wiki/Absolutism_(European_history)",
+        "date": "1610-1789",
+        "definition": "A form of monarchial power that is entirely unrestrained, legitimized by divine right",
+        "effect": "Led to the formation of centralized states which contributed to culture growth and inequality",
+        "category": "society-structure",
+        "continent": "europe"
     },
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Council of Trent",
+        "link": "https://en.wikipedia.org/wiki/Council_of_Trent",
+        "date": "1545-1563",
+        "definition": "Council of the Roman Catholic Church prompted by the Reformation",
+        "effect": "Led to Catholic reform and the strengthening of the Counter-Reformation",
+        "category": "events, religion-culture",
+        "continent": "europe"
     },
 v
     },
