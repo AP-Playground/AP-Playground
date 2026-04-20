@@ -1169,8 +1169,8 @@
         "category": "religion-culture",
         "continent": "europe, asia, north america, south america, africa"
     },
-    "orthodox": {
-        "term": "Orthodox",
+    "orthodoxChurch": {
+        "term": "Orthodox Church",
         "link": "https://en.wikipedia.org/wiki/Eastern_Orthodox_Church",
         "date": "Broke off from Catholicism in 1054",
         "definition": "The 2nd largest Christian church, prominent througout Eastern Europe and Western Asia",
