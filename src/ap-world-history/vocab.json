@@ -1016,7 +1016,7 @@
         "category": "idea-innovation",
         "continent": "asia, europe"
     },
-    "": {
+    "fallOfConstantinople": {
         "term": "Fall of Constantinople",
         "link": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
         "date": "1453",
@@ -1025,7 +1025,7 @@
         "category": "events",
         "continent": "asia"
     },
-    "": {
+    "safavidDynasty": {
         "term": "Safavid Dynasty",
         "link": "https://en.wikipedia.org/wiki/Safavid_dynasty",
         "date": "1501-1736",
@@ -1034,7 +1034,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-    "": {
+    "battleOfPaniput": {
         "term": "Battle of Panipat",
         "link": "https://en.wikipedia.org/wiki/First_Battle_of_Panipat",
         "date": "1526",
@@ -1043,7 +1043,7 @@
         "category": "events",
         "continent": "asia"
     },
-    "": {
+    "bakufu": {
         "term": "Bakufu",
         "link": "https://en.wikipedia.org/wiki/Sh%C5%8Dgun",
         "date": "1185-1868",
@@ -1052,7 +1052,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-    "": {
+    "houseOfRomanov": {
         "term": "House of Romanov",
         "link": "https://en.wikipedia.org/wiki/House_of_Romanov",
         "date": "1613-1917",
@@ -1061,7 +1061,7 @@
         "category": "society-structure",
         "continent": "europe, asia"
     },
-    "": {
+    "stPetersburg": {
         "term": "St. Petersburg",
         "link": "https://en.wikipedia.org/wiki/Saint_Petersburg",
         "date": "",
@@ -1070,7 +1070,7 @@
         "category": "society-structure",
         "continent": "europe"
     },
-    "": {
+    "samurai": {
         "term": "Samurai",
         "link": "https://en.wikipedia.org/wiki/Samurai",
         "date": "1185-1868",
@@ -1079,7 +1079,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-    "": {
+    "devshirme": {
         "term": "Devshirme",
         "link": "https://en.wikipedia.org/wiki/Devshirme",
         "date": "1400-1700",
@@ -1088,7 +1088,7 @@
         "category": "society-structure",
         "continent": "asia, europe"
     },
-    "": {
+    "janissary": {
         "term": "Janissaries",
         "link": "https://en.wikipedia.org/wiki/Janissary",
         "date": "1420-1826",
@@ -1097,7 +1097,7 @@
         "category": "society-structure",
         "continent": "asia, europe"
     },
-    "": {
+    "grandVizier": {
         "term": "Grand Vizier",
         "link": "https://en.wikipedia.org/wiki/Grand_vizier",
         "date": "1300-1900",
@@ -1106,7 +1106,7 @@
         "category": "society-structure",
         "continent": "asia, europe"
     },
-    "": {
+    "battleOfChaldiran": {
         "term": "Battle of Chaldiran",
         "link": "https://en.wikipedia.org/wiki/Battle_of_Chaldiran",
         "date": "1514",
@@ -1115,8 +1115,7 @@
         "category": "events",
         "continent": "asia"
     },
-        },
-    "": {
+    "codeOfTheRayas": {
         "term": "Code of the Rayas",
         "link": "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent#Legal_and_political_reforms",
         "date": "Created c. 1530",
@@ -1125,8 +1124,7 @@
         "category": "society-structure",
         "continent": "asia, europe"
     },
-        },
-    "": {
+    "zamindar": {
         "term": "Zamindars",
         "link": "https://en.wikipedia.org/wiki/Zamindar",
         "date": "1526-1950",
@@ -1135,8 +1133,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-        },
-    "": {
+    "divineRight": {
         "term": "Divine Right",
         "link": "https://en.wikipedia.org/wiki/Divine_right_of_kings",
         "date": "Began late 1500s",
@@ -1145,8 +1142,7 @@
         "category": "society-structure",
         "continent": "europe"
     },
-        },
-    "": {
+    "versailles": {
         "term": "Versailles",
         "link": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
         "date": "Expanded 1661-1715",
@@ -1155,8 +1151,7 @@
         "category": "society-structure",
         "continent": "europe"
     },
-        },
-    "": {
+    "aztecHumanSacrifice": {
         "term": "Aztec Human Sacrifice",
         "link": "https://en.wikipedia.org/wiki/Human_sacrifice_in_Aztec_culture",
         "date": "1428-1520",
@@ -1165,8 +1160,7 @@
         "category": "society-structure",
         "continent": "north america"
     },
-        },
-    "": {
+    "catholicism": {
         "term": "Catholicism",
         "link": "https://en.wikipedia.org/wiki/Catholic_Church",
         "date": "Began 600",
@@ -1175,8 +1169,7 @@
         "category": "religion-culture",
         "continent": "europe, asia, north america, south america, africa"
     },
-        },
-    "": {
+    "orthodox": {
         "term": "Orthodox",
         "link": "https://en.wikipedia.org/wiki/Eastern_Orthodox_Church",
         "date": "Broke off from Catholicism in 1054",
@@ -1185,9 +1178,8 @@
         "category": "religion-culture",
         "continent": "europe, asia"
     },
-        },
-    "": {
-        "term": "Sikhisn",
+    "sikhism": {
+        "term": "Sikhism",
         "link": "https://en.wikipedia.org/wiki/Sikhism",
         "date": "Formed late 1400s",
         "definition": "An Indian religion and philosophy, the text of which is called the Guru Granth Sahib",
@@ -1195,8 +1187,7 @@
         "category": "religion-culture",
         "continent": "asia"
     },
-        },
-    "": {
+    "protestantReformation": {
         "term": "Protestant Reformation",
         "link": "https://en.wikipedia.org/wiki/Reformation",
         "date": "1517-1620",
@@ -1205,8 +1196,7 @@
         "category": "religion-culture",
         "continent": "europe"
     },
-        },
-    "": {
+    "ottomanSafavidRelations": {
         "term": "Ottoman-Safavid Relations",
         "link": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Safavid_relations",
         "date": "1514-1736",
@@ -1215,8 +1205,7 @@
         "category": "religion-culture",
         "continent": "asia"
     },
-        },
-    "": {
+    "martinLuther": {
         "term": "Martin Luther",
         "link": "https://en.wikipedia.org/wiki/Martin_Luther",
         "date": "1483-1546",
@@ -1225,8 +1214,7 @@
         "category": "people",
         "continent": "europe"
     },
-        },
-    "": {
+    "guruNanak": {
         "term": "Guru Nanak",
         "link": "https://en.wikipedia.org/wiki/Guru_Nanak",
         "date": "1469-1539",
@@ -1235,8 +1223,7 @@
         "category": "people",
         "continent": "asia"
     },
-        },
-    "": {
+    "stBasilsCathedral": {
         "term": "St. Basil's Cathedral",
         "link": "https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral",
         "date": "Built 1555-1683",
@@ -1245,8 +1232,7 @@
         "category": "religion-culture",
         "continent": "europe"
     },
-        },
-    "": {
+    "sacredEdict": {
         "term": "Sacred Edict",
         "link": "https://en.wikipedia.org/wiki/Sacred_Edict_of_the_Kangxi_Emperor",
         "date": "1670",
@@ -1255,8 +1241,7 @@
         "category": "religion-culture",
         "continent": "asia"
     },
-        },
-    "": {
+    "manchu": {
         "term": "Manchu",
         "link": "https://en.wikipedia.org/wiki/Manchu_people",
         "date": "Ruled China 1616-1912",
@@ -1265,8 +1250,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-        },
-    "": {
+    "qingDynasty": {
         "term": "Qing Dynasty",
         "link": "https://en.wikipedia.org/wiki/Qing_dynasty",
         "date": "1636-1912",
@@ -1275,8 +1259,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-        },
-    "": {
+    "nurhaci": {
         "term": "Nurhaci",
         "link": "https://en.wikipedia.org/wiki/Nurhaci",
         "date": "1559-1626",
@@ -1285,8 +1268,7 @@
         "category": "people",
         "continent": "asia"
     },
-        },
-    "": {
+    "kangxi": {
         "term": "Kangxi",
         "link": "https://en.wikipedia.org/wiki/Kangxi_Emperor",
         "date": "1654-1722",
@@ -1295,8 +1277,7 @@
         "category": "people",
         "continent": "asia"
     },
-        },
-    "": {
+    "queue": {
         "term": "Queue",
         "link": "https://en.wikipedia.org/wiki/Queue_(hairstyle)",
         "date": "Mandated in China 1645-1912",
@@ -1305,9 +1286,8 @@
         "category": "religion-culture, society-structure (?)",
         "continent": "asia"
     },
-        },
-    "": {
-        "term": "Banners",
+    "eightBanners": {
+        "term": "Eight Banners",
         "link": "https://en.wikipedia.org/wiki/Eight_Banners",
         "date": "1615-1912",
         "definition": "Administrative and military divisions into which all Manchu households were placed",
@@ -1315,8 +1295,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-        },
-    "": {
+    "ivanIII": {
         "term": "Ivan III (the Great)",
         "link": "https://en.wikipedia.org/wiki/Ivan_III_of_Russia",
         "date": "1440-1505",
@@ -1325,8 +1304,7 @@
         "category": "people",
         "continent": "europe, asia"
     },
-        },
-    "": {
+    "ivanIV": {
         "term": "Ivan IV (the Terrible)",
         "link": "https://en.wikipedia.org/wiki/Ivan_the_Terrible",
         "date": "1530-1584",
@@ -1335,8 +1313,7 @@
         "category": "people",
         "continent": "europe, asia"
     },
-        },
-    "": {
+    "oprichnina": {
         "term": "Oprichnina",
         "link": "https://en.wikipedia.org/wiki/Oprichnina",
         "date": "1565-1572",
@@ -1345,8 +1322,7 @@
         "category": "society-structure",
         "continent": "europe, asia"
     },
-        },
-    "": {
+    "peterTheGreat": {
         "term": "Peter the Great",
         "link": "https://en.wikipedia.org/wiki/Peter_the_Great",
         "date": "1672-1725",
@@ -1355,8 +1331,7 @@
         "category": "people",
         "continent": "europe, asia"
     },
-        },
-    "": {
+    "zemskySobor": {
         "term": "Zemsky Sobor",
         "link": "https://en.wikipedia.org/wiki/Zemsky_Sobor",
         "date": "1549-1680",
@@ -1365,8 +1340,7 @@
         "category": "society-structure",
         "continent": "europe, asia"
     },
-        },
-    "": {
+    "grandEmbassy": {
         "term": "Grand Embassy",
         "link": "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great",
         "date": "1697-1698",
@@ -1375,12 +1349,7 @@
         "category": "events",
         "continent": "europe"
     },
-    v
-    v
-    v
-    v
-        },
-    "": {
+    "shahIsmailI": {
         "term": "Shah Ismail I",
         "link": "https://en.wikipedia.org/wiki/Ismail_I",
         "date": "1487-1524",
@@ -1389,8 +1358,7 @@
         "category": "people",
         "continent": "asia"
     },
-    },
-    "": {
+    "shahAbbasI": {
         "term": "Shah Abbas I",
         "link": "https://en.wikipedia.org/wiki/Abbas_the_Great",
         "date": "1571-1629",
@@ -1399,8 +1367,7 @@
         "category": "people",
         "continent": "asia"
     },
-    },
-    "": {
+    "mehmetII": {
         "term": "Mehmet II",
         "link": "https://en.wikipedia.org/wiki/Mehmed_the_Conqueror",
         "date": "1432-1481",
@@ -1409,8 +1376,7 @@
         "category": "people",
         "continent": "asia, europe"
     },
-    },
-    "": {
+    "millet": {
         "term": "Millet",
         "link": "https://en.wikipedia.org/wiki/Millet_(Ottoman_Empire)",
         "date": "1454-1856",
@@ -1419,8 +1385,7 @@
         "category": "societys-structure",
         "continent": "asia, europe"
     },
-    },
-    "": {
+    "suleimanI": {
         "term": "Suleiman I",
         "link": "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent",
         "date": "1494-1566",
@@ -1429,8 +1394,7 @@
         "category": "people",
         "continent": "asia, europe"
     },
-    },
-    "": {
+    "taxFarming": {
         "term": "Tax Farming",
         "link": "https://en.wikipedia.org/wiki/Iltizam",
         "date": "1450-1856",
@@ -1439,8 +1403,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-    },
-    "": {
+    "babur": {
         "term": "Babur",
         "link": "https://en.wikipedia.org/wiki/Babur",
         "date": "1483-1530",
@@ -1449,8 +1412,7 @@
         "category": "people",
         "continent": "asia"
     },
-    },
-    "": {
+    "akbarTheGreat": {
         "term": "Akbar the Great",
         "link": "https://en.wikipedia.org/wiki/Akbar",
         "date": "1542-1605",
@@ -1459,8 +1421,7 @@
         "category": "people",
         "continent": "asia"
     },
-    },
-    "": {
+    "tajMahal": {
         "term": "Taj Mahal",
         "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
         "date": "Built 1631",
@@ -1469,8 +1430,7 @@
         "category": "society-structure",
         "continent": "asia"
     },
-    },
-    "": {
+    "askiaMuhamad": {
         "term": "Askia Muhammad",
         "link": "https://en.wikipedia.org/wiki/Askia_Mohammad_I",
         "date": "1443-1538",
@@ -1479,8 +1439,7 @@
         "category": "people",
         "continent": "africa"
     },
-    },
-    "": {
+    "tokugamaIeyasu": {
         "term": "Tokugama Ieyasu",
         "link": "https://en.wikipedia.org/wiki/Tokugawa_Ieyasu",
         "date": "1543-1616",
@@ -1489,8 +1448,7 @@
         "category": "people",
         "continent": "asia"
     },
-    },
-    "": {
+    "songhaiMoroccoConflict": {
         "term": "Songhai-Morocco Conflict",
         "link": "https://en.wikipedia.org/wiki/Moroccan_invasion_of_the_Songhai_Empire",
         "date": "1590-1591",
@@ -1499,8 +1457,7 @@
         "category": "events",
         "continent": "africa"
     },
-    },
-    "": {
+    "absolutism": {
         "term": "Absolutism",
         "link": "https://en.wikipedia.org/wiki/Absolutism_(European_history)",
         "date": "1610-1789",
@@ -1509,8 +1466,7 @@
         "category": "society-structure",
         "continent": "europe"
     },
-    },
-    "": {
+    "councilOfTrent": {
         "term": "Council of Trent",
         "link": "https://en.wikipedia.org/wiki/Council_of_Trent",
         "date": "1545-1563",
@@ -1519,7 +1475,14 @@
         "category": "events, religion-culture",
         "continent": "europe"
     },
-v
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
     },
     "": {
         "term": "",
@@ -1530,6 +1493,14 @@ v
         "category": "",
         "continent": ""
     },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
     },
     "": {
         "term": "",
@@ -1540,6 +1511,14 @@ v
         "category": "",
         "continent": ""
     },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
     },
     "": {
         "term": "",
@@ -1550,7 +1529,6 @@ v
         "category": "",
         "continent": ""
     },
-    },
     "": {
         "term": "",
         "link": "",
@@ -1559,37 +1537,6 @@ v
         "effect": "",
         "category": "",
         "continent": ""
-    },
-    },
-    "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
-    },
-    },
-    "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
-    },
-    },
-    "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
-    },
     },
     "": {
         "term": "",
