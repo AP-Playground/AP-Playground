@@ -1,0 +1,65 @@
+{
+    "filters": [
+        {
+            "key": "unit",
+            "displayKey": "Units",
+            "all": true,
+            "multiselect": true
+        },
+        {
+            "key": "category",
+            "displayKey": "Categories",
+            "values": ["people", "events", "religion-culture", "idea-innovation","society-structure"],
+            "displayValues": ["People", "Events", "Religion & Culture", "Ideas & Innovations", "Societies & Structures"],
+            "all": true,
+            "multiselect": true
+        }
+    ],
+    "keys": {
+        "term": "Term",
+        "date": "Date",
+        "definition": "Definition",
+        "effect": "Effect"
+    },
+    "games": {
+        "memory": {
+            "term": ["term"],
+            "text": ["date", "definition", "effect"],
+            "image": []
+        }
+    },
+    "flashcards": {
+        "term": "term",
+        "text": ["Date: ${date}", "Definition: ${definition}", "Effect: ${effect}"],
+        "link": "link"
+    },
+    "units": {
+        "unit-1": [
+            
+        ],
+        "unit-2": [
+            
+        ],
+        "unit-3": [
+            
+        ],
+        "unit-4": [
+            
+        ],
+        "unit-5": [
+            
+        ],
+        "unit-6": [
+            
+        ],
+        "unit-7": [
+            
+        ],
+        "unit-8": [
+            
+        ],
+        "unit-9": [
+            
+        ]
+    }
+}
