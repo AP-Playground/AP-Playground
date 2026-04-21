@@ -10,8 +10,8 @@ const outDir = resolve('public');
 if (!existsSync(outDir)) mkdirSync(outDir);
 
 
-const AP = "AP<sup>®</sup>"
-const ADVANCEDPLACEMENT = "Advanced Placement<sup>®</sup>"
+const AP = "AP<sup>&reg;</sup>"
+const ADVANCEDPLACEMENT = "Advanced Placement<sup>&reg;</sup>"
 
 
 export function writeFile(filename, file, wrap = false, message = "Uploaded file") {

@@ -22,7 +22,7 @@ export function upload(path, title, nav, unitVocab) {
 
     const ced = `<sup>(<a target="_blank" href="${global.ced(pathSegments[0])}">${global.courseTitle(pathSegments[0])} CED</a>)</sup>`
     if (nav.hasOwnProperty("suffix")) title += ", " + nav.suffix;
-    page += templates.block(title, data.summary + ced, true);
+    page += templates.block(title, data.summary.replace("®",ced), true);
     
     if (nav.hasOwnProperty("data")) {
       const quickLinks = Object.entries(nav.data).map(([lessonSlug, lesson]) => 
