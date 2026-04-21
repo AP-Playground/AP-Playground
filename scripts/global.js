@@ -9,8 +9,11 @@ export function init() {
   return 0;
 }
 
+const courseNicknames = {
+  "AP U.S. History": "AP United States History"
+}
 export function examDate(course) {
-  return examDatesData[course];
+  return examDatesData[courseNicknames[course] || course];
 }
 
 
@@ -38,7 +41,8 @@ examDatesTemp.forEach(el1 => {
 export const courses = [
   { title: "AP Biology", slug: "ap-biology" },
   { title: "AP Art History", slug: "ap-art-history" },
-  { title: "AP World History: Modern", slug: "ap-world-history" }
+  { title: "AP World History: Modern", slug: "ap-world-history" },
+  { title: "AP U.S. History", slug: "ap-us-history" }
 ]
 
 const courseTitles = {}
