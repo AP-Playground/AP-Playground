@@ -4,7 +4,6 @@ Add dynamic image size loading
 Create sitemap generator
 Create QR code generator
 Fix dark mode/themeing
-Create WHAP unit summaries + remove CED attribution where needed
 Create chronology game
 Create guesswho game
 Comment longer files
