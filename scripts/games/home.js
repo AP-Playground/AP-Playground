@@ -4,10 +4,11 @@ import * as util from '../util.js'
 import * as global from '../global.js'
 import * as memory from './memory.js'
 import * as pinpoint from './pinpoint.js'
-
+import * as chronology from './chronology.js'
 
 memory.upload()
 pinpoint.upload()
+chronology.upload()
 
 
 export function upload() {

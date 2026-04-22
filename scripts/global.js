@@ -82,7 +82,8 @@ export function toolTitle(slug) {
 // set up global games data
 export const games = [
   { title: "Memory", slug: "memory" },
-  { title: "Pinpoint", slug: "pinpoint" }
+  { title: "Pinpoint", slug: "pinpoint" },
+  { title: "Chronology", slug: "chronology" }
 ]
 
 const gameTitles = {}

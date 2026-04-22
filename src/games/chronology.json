@@ -1,0 +1,20 @@
+{
+  "description": "Place terms in chronological order",
+  "image": "/images/games/chronology/icon.png",
+  "instructions": "Select a course and game settings",
+  "courses": [
+    "ap-art-history",
+    "ap-world-history"
+  ],
+  "options": [
+  ],
+  "settings": [
+    {
+        "key": "size",
+        "displayKey": "Game length",
+        "values": ["10", "20", "30", "input", "all"],
+        "displayValues": ["10 terms", "20 terms", "30 terms", "Terms:", "All terms"],
+        "multiselect": false
+    }
+  ]
+}
