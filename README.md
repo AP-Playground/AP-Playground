@@ -11,6 +11,7 @@ To submit feedback, or ask for permission to contribute, please use the informat
 - Create QR code generator
 - Fix dark mode/themeing
 - Create chronology game
+  - Configure chronology game in vocabData files
 - Create guesswho game
 - Comment longer files
 - Scroll to game on first game load?
