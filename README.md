@@ -21,3 +21,4 @@ To submit feedback, or ask for permission to contribute, please use the informat
 - Zoom in to pinpoint map
 - Add country outlines to pinpoint map
 - Collapse long text sections
+- Add previous-next navigation to unit pages
