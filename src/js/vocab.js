@@ -10,7 +10,11 @@ async function init() {
 
   vocab = vocab.map(i => courseVocab[i]).filter(i => !(i.hasOwnProperty("flashcard-disable") && i["flashcard-disable"]))
 
-  if (vocab.length === 0) document.querySelector(".flashcard-block .flashcard .flashcard-front h2").textContent = "No terms found"
+  if (vocab.length === 0) { 
+    setTimeout(() => {
+      document.querySelector(".flashcard-block .flashcard .flashcard-front h2").textContent = "No terms found"   
+    }, 500);
+  }
 }
 async function loadJSON(url) {
     return await fetch(url)
