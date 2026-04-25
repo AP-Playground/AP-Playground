@@ -7,7 +7,10 @@ async function init() {
     loadJSON(`/${courseSlug}/vocab.json`),
     loadJSON(`/${courseSlug}/vocab-data.json`)
   ]);
+
   vocab = vocab.map(i => courseVocab[i]).filter(i => !(i.hasOwnProperty("flashcard-disable") && i["flashcard-disable"]))
+
+  if (vocab.length === 0) flashcardContainer.querySelector(".flashcard-front h2").textContent = "No terms found"
 }
 async function loadJSON(url) {
     return await fetch(url)
