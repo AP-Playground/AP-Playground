@@ -1476,6 +1476,96 @@
         "continent": "europe"
     },
     "": {
+        "term": "Enlightenment",
+        "link": "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
+        "date": "1687-1789",
+        "definition": "A period of cultural and intellectual flourishing in Western civilization",
+        "effect": "Emphasized reason and promoted ideals of liberty, natural rights, and constitutional government",
+        "category": "idea-innovation, society-structure",
+        "continent": "europe, north america"
+    },
+    "": {
+        "term": "Philosophes",
+        "link": "https://en.wikipedia.org/wiki/Philosophes",
+        "date": "1740-1779",
+        "definition": "Intellectuals of the European Enlightenment",
+        "effect": "Promoted exchange of ideas and applied reason to social and political reasons",
+        "category": "society-structure, idea-innovation",
+        "continent": "europe"
+    },
+    "": {
+        "term": "Leviathan",
+        "link": "https://en.wikipedia.org/wiki/Leviathan_(Hobbes_book)",
+        "date": "1651",
+        "definition": "A work of social and political theory by Thomas Hobbes",
+        "effect": "Argues for social contract theory and the necessity of an absolute sovereign",
+        "category": "idea-innovation",
+        "continent": "europe"
+    },
+    "": {
+        "term": "Natural Rights",
+        "link": "https://en.wikipedia.org/wiki/Natural_rights_and_legal_rights#John_Locke",
+        "date": "Promoted 17th century-present",
+        "definition": "Rights which are universal and cannot be repealed by human law",
+        "effect": "Promoted equal rights to life, liberty, and property for all",
+        "category": "idea-innovation",
+        "continent": "europe, north america"
+    },
+    "": {
+        "term": "Social Contract",
+        "link": "https://en.wikipedia.org/wiki/Social_contract",
+        "date": "Promoted 17th century-present",
+        "definition": "Individuals surrender some of their freedoms in exchange for protection and social order",
+        "effect": "Questioned monarchial rulers which didn't uphold their end of the contract",
+        "category": "idea-innovation",
+        "continent": "europe"
+    },
+    "": {
+        "term": "Declaration of Independence",
+        "link": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
+        "date": "1776",
+        "definition": "The founding document of the United States",
+        "effect": "Led to American independence and promotion of natural rights",
+        "category": "idea-innovation",
+        "continent": "north america"
+    },
+    "": {
+        "term": "State of Nature",
+        "link": "https://en.wikipedia.org/wiki/State_of_nature",
+        "date": "Promoted 17th century-present",
+        "definition": "The way of life that existed before societal organization",
+        "effect": "Contributed to social contract theory and the existence of natural rights",
+        "category": "idea-innovation",
+        "continent": "europe"
+    },
+    "": {
+        "term": "Separation of Powers",
+        "link": "https://en.wikipedia.org/wiki/Separation_of_powers",
+        "date": "Promoted 17th century-present",
+        "definition": "Differentiation and separation of legislative, judicial, and executive powers",
+        "effect": "Created more democratic and balanced governments",
+        "category": "society-structure, idea-innovation",
+        "continent": "europe, north america"
+    },
+        "": {
+        "term": "Empiricism",
+        "link": "https://en.wikipedia.org/wiki/Empiricism",
+        "date": "Spread 17th century",
+        "definition": "A view which holds that true knowledge comes primarily from sensory experience",
+        "effect": "Led to questioning of authorative religious and political institutions",
+        "category": "idea-innovation",
+        "continent": "europe"
+    },
+    "": {
+        "term": "Declaration of the Rights of Woman",
+        "link": "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Woman_and_of_the_Female_Citizen",
+        "date": "1791",
+        "definition": "A work by Olympe de Gouges in response to the Declaration of the Rights of Man",
+        "effect": "One of the first feminist works, exposing the gender inequality of the French Revolution",
+        "category": "idea-innovation",
+        "continent": "europe"
+    },
+        "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1493,7 +1583,7 @@
         "category": "",
         "continent": ""
     },
-    "": {
+        "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1511,7 +1601,9 @@
         "category": "",
         "continent": ""
     },
-    "": {
+    v
+    v
+        "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1529,7 +1621,7 @@
         "category": "",
         "continent": ""
     },
-    "": {
+        "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1547,6 +1639,515 @@
         "category": "",
         "continent": ""
     },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    v
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    v
+    v
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+        "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    "": {
+        "term": "",
+        "link": "",
+        "date": "",
+        "definition": "",
+        "effect": "",
+        "category": "",
+        "continent": ""
+    },
+    v
+    
 
     
 
