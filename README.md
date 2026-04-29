@@ -9,6 +9,7 @@ To submit feedback, or ask for permission to contribute, please use the informat
 - Add dynamic image size loading
 - Create sitemap generator
 - Create QR code generator
+- Create bibliography generator
 - Fix dark mode/themeing
 - Create chronology game
   - Configure chronology game in vocabData files
