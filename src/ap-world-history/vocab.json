@@ -788,8 +788,8 @@
         "date": "Used around 1300",
         "definition": "Institutions that handle money storage, lending, conversion, etc.",
         "effect": "Spurred economic growth and safety with bills of exchange and flying cash",
-        "category": "",
-        "continent": ""
+        "category": ["idea-innovation", "society-structure"],
+        "continent": "asia"
     },
     "battleOfTalas": {
         "term": "Battle of Talas",
@@ -815,8 +815,8 @@
         "date": "Founded 300 BCE",
         "definition": "The animist religion of the Mongols, focusing on a relationship between humans and nature",
         "effect": "Religious freedom was promoted within the Mongol Empire",
-        "category": "",
-        "continent": "religion-culture"
+        "category": "religion-culture",
+        "continent": "asia"
     },
     "kurultai": {
         "term": "Kurultai",
@@ -861,7 +861,7 @@
         "definition": "A large system of rotating ocean currents driven by winds and monsoons",
         "effect": "Its seasonal reversal allows ships to predictably travel",
         "category": "events",
-        "continent": "asia, africa"
+        "continent": ["asia", "africa"]
     },
     "dhow": {
         "term": "Dhow",
@@ -969,7 +969,7 @@
         "definition": "House of Islam; refers to countries under Muslim sovereignty",
         "effect": "Its scale and scope created a period of unity and innovation in the Middle East",
         "category": "society-structure",
-        "continent": "asia, africa"
+        "continent": ["asia", "africa"]
     },
     "gunpowder": {
         "term": "Gunpowder",
@@ -1014,7 +1014,7 @@
         "definition": "",
         "effect": "Invasive species showing the scope of trade; changed culinary culture",
         "category": "idea-innovation",
-        "continent": "asia, europe"
+        "continent": ["asia", "europe"]
     },
     "fallOfConstantinople": {
         "term": "Fall of Constantinople",
@@ -1059,7 +1059,7 @@
         "definition": "Was the reigning imperial house of Russia",
         "effect": "Over 3 centuries of growth and stability in Russia",
         "category": "society-structure",
-        "continent": "europe, asia"
+        "continent": ["europe", "asia"]
     },
     "stPetersburg": {
         "term": "St. Petersburg",
@@ -1086,7 +1086,7 @@
         "definition": "Ottoman practice of forcibly recruiting Balkan Christian boys to be loyal Islamic soldiers",
         "effect": "Created a faction of soldiers loyal to the Sultan, counterbalancing the Turkish nobility",
         "category": "society-structure",
-        "continent": "asia, europe"
+        "continent": ["asia", "europe"]
     },
     "janissary": {
         "term": "Janissaries",
@@ -1095,7 +1095,7 @@
         "definition": "Elite infantry units that formed the Ottoman sultan's troops, equipped with firearms",
         "effect": "One of the first modern standing armies; loyal only to the Sultan",
         "category": "society-structure",
-        "continent": "asia, europe"
+        "continent": ["asia", "europe"]
     },
     "grandVizier": {
         "term": "Grand Vizier",
@@ -1104,7 +1104,7 @@
         "definition": "The effective head of government of Islamic states",
         "effect": "Consolidated power within centralized bureaucracies at the expense of the Sultan",
         "category": "society-structure",
-        "continent": "asia, europe"
+        "continent": ["asia", "europe"]
     },
     "battleOfChaldiran": {
         "term": "Battle of Chaldiran",
@@ -1122,7 +1122,7 @@
         "definition": "Single legal code for the Ottoman empire developed by Suleiman II",
         "effect": "Reformed legislation that would last over 300 years",
         "category": "society-structure",
-        "continent": "asia, europe"
+        "continent": ["asia", "europe"]
     },
     "zamindar": {
         "term": "Zamindars",
@@ -1158,7 +1158,7 @@
         "definition": "Human sacrifice in order to appease the gods",
         "effect": "Established tributary system to obtain humans for sacrifice; angered tributary states",
         "category": "society-structure",
-        "continent": "north america"
+        "continent": "north-america"
     },
     "catholicism": {
         "term": "Catholicism",
@@ -1167,7 +1167,7 @@
         "definition": "The largest Christian church, viewed as the continuation of Christ's original followers",
         "effect": "Propogated throughout the world over history",
         "category": "religion-culture",
-        "continent": "europe, asia, north america, south america, africa"
+        "continent": ["europe", "asia", "north-america", "south-america", "africa"]
     },
     "orthodoxChurch": {
         "term": "Orthodox Church",
@@ -1176,7 +1176,7 @@
         "definition": "The 2nd largest Christian church, prominent througout Eastern Europe and Western Asia",
         "effect": "Taken over by the Russian Empire following the fall of the Byzantine Empire",
         "category": "religion-culture",
-        "continent": "europe, asia"
+        "continent": ["europe", "asia"]
     },
     "sikhism": {
         "term": "Sikhism",
@@ -1283,7 +1283,7 @@
         "date": "Mandated in China 1645-1912",
         "definition": "A traditional Manchu hairstyle, later required to be worn by males in Qing China",
         "effect": "Legitimized Qing power; led to wearers being targeted in Australia and the U.S.",
-        "category": "religion-culture, society-structure (?)",
+        "category": ["religion-culture", "society-structure"],
         "continent": "asia"
     },
     "eightBanners": {
@@ -1302,7 +1302,7 @@
         "definition": "Grew Russia's territory, ending Tatar/Mongol rule and ending feudal fragmentation",
         "effect": "Laid the foundations for the centralized Russian state, made Moscow its center",
         "category": "people",
-        "continent": "europe, asia"
+        "continent": ["europe", "asia"]
     },
     "ivanIV": {
         "term": "Ivan IV (the Terrible)",
@@ -1311,7 +1311,7 @@
         "definition": "Consolidated power through the Zemsky Sobor and helped transform Russia into an empire",
         "effect": "Seized power from the boyar nobility, and established a political police force (oprichniki)",
         "category": "people",
-        "continent": "europe, asia"
+        "continent": ["europe", "asia"]
     },
     "oprichnina": {
         "term": "Oprichnina",
@@ -1320,7 +1320,7 @@
         "definition": "A state policy implemented by Ivan the Terrible which repressed the boyars (nobility)",
         "effect": "Organized the oprichniki police, confiscated boyar land, centralized tsarist power",
         "category": "society-structure",
-        "continent": "europe, asia"
+        "continent": ["europe", "asia"]
     },
     "peterTheGreat": {
         "term": "Peter the Great",
@@ -1329,7 +1329,7 @@
         "definition": "First Emperor of Russia, who founded Saint Petersburg",
         "effect": "Led a cultural revloution that Westernized Russia, example of an absolutist monarch",
         "category": "people",
-        "continent": "europe, asia"
+        "continent": ["europe", "asia"]
     },
     "zemskySobor": {
         "term": "Zemsky Sobor",
@@ -1338,7 +1338,7 @@
         "definition": "A parliament of the Tsardom of Russia's estates of the realm",
         "effect": "Legitimized Tsarist rule, voted the Romanov dynasty into power to end succession crisis",
         "category": "society-structure",
-        "continent": "europe, asia"
+        "continent": ["europe", "asia"]
     },
     "grandEmbassy": {
         "term": "Grand Embassy",
@@ -1374,7 +1374,7 @@
         "definition": "Sultan of the Ottoman Empire who led conquests",
         "effect": "Conquered Constantinople and turned it into an imperial capital, Istanbul",
         "category": "people",
-        "continent": "asia, europe"
+        "continent": ["asia", "europe"]
     },
     "millet": {
         "term": "Millet",
@@ -1383,7 +1383,7 @@
         "definition": "Legal framework where the Ottoman Empire granted religious minorities significant autonomy",
         "effect": "Allowed effective governing of a diverse population, balancing central and local control",
         "category": "societys-structure",
-        "continent": "asia, europe"
+        "continent": ["asia", "europe"]
     },
     "suleimanI": {
         "term": "Suleiman I",
@@ -1392,7 +1392,7 @@
         "definition": "The longest reigning and greatest Ottoman sultan",
         "effect": "Brought about judicial and social reform, overseeing the Ottoman Golden Age",
         "category": "people",
-        "continent": "asia, europe"
+        "continent": ["asia", "europe"]
     },
     "taxFarming": {
         "term": "Tax Farming",
@@ -1472,7 +1472,7 @@
         "date": "1545-1563",
         "definition": "Council of the Roman Catholic Church prompted by the Reformation",
         "effect": "Led to Catholic reform and the strengthening of the Counter-Reformation",
-        "category": "events, religion-culture",
+        "category": ["events", "religion-culture"],
         "continent": "europe"
     },
     "": {
@@ -1481,8 +1481,8 @@
         "date": "1687-1789",
         "definition": "A period of cultural and intellectual flourishing in Western civilization",
         "effect": "Emphasized reason and promoted ideals of liberty, natural rights, and constitutional government",
-        "category": "idea-innovation, society-structure",
-        "continent": "europe, north america"
+        "category": ["idea-innovation", "society-structure"],
+        "continent": ["europe", "north-america"]
     },
     "": {
         "term": "Philosophes",
@@ -1490,7 +1490,7 @@
         "date": "1740-1779",
         "definition": "Intellectuals of the European Enlightenment",
         "effect": "Promoted exchange of ideas and applied reason to social and political reasons",
-        "category": "society-structure, idea-innovation",
+        "category": ["society-structure", "idea-innovation"],
         "continent": "europe"
     },
     "": {
@@ -1509,7 +1509,7 @@
         "definition": "Rights which are universal and cannot be repealed by human law",
         "effect": "Promoted equal rights to life, liberty, and property for all",
         "category": "idea-innovation",
-        "continent": "europe, north america"
+        "continent": ["europe", "north-america"]
     },
     "": {
         "term": "Social Contract",
@@ -1527,7 +1527,7 @@
         "definition": "The founding document of the United States",
         "effect": "Led to American independence and promotion of natural rights",
         "category": "idea-innovation",
-        "continent": "north america"
+        "continent": "north-america"
     },
     "": {
         "term": "State of Nature",
@@ -1544,8 +1544,8 @@
         "date": "Promoted 17th century-present",
         "definition": "Differentiation and separation of legislative, judicial, and executive powers",
         "effect": "Created more democratic and balanced governments",
-        "category": "society-structure, idea-innovation",
-        "continent": "europe, north america"
+        "category": ["society-structure", "idea-innovation"],
+        "continent": ["europe", "north-america"]
     },
         "": {
         "term": "Empiricism",
@@ -1565,7 +1565,7 @@
         "category": "idea-innovation",
         "continent": "europe"
     },
-        "": {
+    "": {
         "term": "Thomas Hobbes",
         "link": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
         "date": "1588-1679",
@@ -1601,9 +1601,7 @@
         "category": "Pepople",
         "continent": "Europe"
     },
-    v
-    v
-        "": {
+    "": {
         "term": "Rousseau",
         "link": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau",
         "date": "1712-1778",
@@ -1621,7 +1619,7 @@
         "category": "people",
         "continent": "north america"
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1639,7 +1637,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1657,7 +1655,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1675,7 +1673,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1693,7 +1691,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1711,7 +1709,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1729,7 +1727,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1747,7 +1745,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1765,7 +1763,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1783,7 +1781,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1801,7 +1799,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1819,7 +1817,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1837,7 +1835,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1855,7 +1853,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1873,7 +1871,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1891,7 +1889,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1909,8 +1907,7 @@
         "category": "",
         "continent": ""
     },
-    v
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1928,7 +1925,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1946,7 +1943,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1964,7 +1961,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -1982,9 +1979,7 @@
         "category": "",
         "continent": ""
     },
-    v
-    v
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -2002,7 +1997,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -2020,7 +2015,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -2038,7 +2033,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -2056,7 +2051,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -2074,7 +2069,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -2092,7 +2087,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -2110,7 +2105,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -2128,7 +2123,7 @@
         "category": "",
         "continent": ""
     },
-        "": {
+    "": {
         "term": "",
         "link": "",
         "date": "",
@@ -2146,12 +2141,8 @@
         "category": "",
         "continent": ""
     },
-    v
-    
 
-    
 
-    
     "categories": ["people", "events", "religion-culture", "idea-innovation","society-structure"],
     "continents": ["north-america","south-america","europe","africa","asia","oceania"]
 }
