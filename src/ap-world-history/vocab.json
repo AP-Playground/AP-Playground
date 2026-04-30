@@ -1201,7 +1201,7 @@
         "link": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Safavid_relations",
         "date": "1514-1736",
         "definition": "Conflicts between the Ottoman and Safavid due to their different sects of Islam",
-        "effect": "",
+        "effect": "Conflicts between the Ottoman and Safavid due to their different sects of Islam",
         "category": "religion-culture",
         "continent": "asia"
     },
@@ -1620,85 +1620,85 @@
         "continent": "north america"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Industrialization",
+        "link": "https://en.wikipedia.org/wiki/Industrialisation",
+        "date": "1750-present",
+        "definition": "Social and economic change that transforms an agrarian society to an industrial one",
+        "effect": "Resulted in new technology, new economic systems, the growth of cities, social change, pollution",
+        "category": "idea-innovation",
+        "continent": "europe, north america, south america, asia, africa, oceania"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Second Agricultural Revolution",
+        "link": "https://en.wikipedia.org/wiki/British_Agricultural_Revolution",
+        "date": "1650-1900",
+        "definition": "An unprecedented increase in the agricultural production in Britain",
+        "effect": "Contributed to rapid population growth and allowed for a larger urban industrial workforce",
+        "category": "events",
+        "continent": "europe"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Urbanization",
+        "link": "https://en.wikipedia.org/wiki/Urbanization",
+        "date": "1750-present",
+        "definition": "The population shift from rural to urban areas and how societies adapt to it",
+        "effect": "Growth of cities, worsened living conditions, pollution, creation of cultural hubs",
+        "category": "society-structure",
+        "continent": "europe, north america, south america, asia, africa, oceania"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Cottage System",
+        "link": "https://en.wikipedia.org/wiki/Putting-out_system",
+        "date": "1400-1850",
+        "definition": "Method of production in which workers produced in their own homes",
+        "effect": "Created goods were high quality artisinal crafts, but which took long to produce",
+        "category": "society-structure",
+        "continent": "europe, north america"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Factory System",
+        "link": "https://en.wikipedia.org/wiki/Factory_system",
+        "date": "late 1700s-present",
+        "definition": "Method of manufacturing centralized in a factory where production is mechanized",
+        "effect": "Mass production, unskilled labor, standardization, poor working conditions",
+        "category": "society-structure",
+        "continent": "europe, north america, south america, asia, africa, oceania"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Spinning Jenny",
+        "link": "https://en.wikipedia.org/wiki/Spinning_jenny",
+        "date": "Invented 1764",
+        "definition": "A multi-spindle spinning frame, reducing the amount of work needed to produce cloth",
+        "effect": "Allowed for the instrustrialization of textile manufacturing, especially once water powered",
+        "category": "idea-innovation",
+        "continent": "europe"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Steam Engine",
+        "link": "https://en.wikipedia.org/wiki/Steam_engine",
+        "date": "Largely improved 1764 ",
+        "definition": "A heat engine that performs mechanical work using steam as its working fluid",
+        "effect": "Powered the factories of the Industrial Revolution, steamboats, and locomotives",
+        "category": "idea-innovation",
+        "continent": "europe"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Interchangeable Parts",
+        "link": "https://en.wikipedia.org/wiki/Interchangeable_parts",
+        "date": "Invented late 18th century",
+        "definition": "Components that are identical so they will fit into any aseembly of the same type",
+        "effect": "Allowed for the use of the assembly line and mass production",
+        "category": "idea-innovation",
+        "continent": "europe"
     },
     "": {
-        "term": "",
-        "link": "",
-        "date": "",
-        "definition": "",
-        "effect": "",
-        "category": "",
-        "continent": ""
+        "term": "Inclosure Act",
+        "link": "https://en.wikipedia.org/wiki/Enclosure",
+        "date": "1604-1914",
+        "definition": "Created legal property rights to land previously held in common in England and Wales",
+        "effect": "Allowed for modern farming but also fueled the growing urban labor force",
+        "category": "events",
+        "continent": "europe"
     },
     "": {
         "term": "",
