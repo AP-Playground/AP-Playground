@@ -1,0 +1,41 @@
+{
+  "summary": "Unit intro",
+  "games": [
+    {
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-us-history&filter-unit=unit-3"
+    }
+  ],
+  "links": [
+    {
+      "title": "Lumisource | Unit 3 Review",
+      "link": "https://www.lumisource.io/dashboard/ap/world-history/review/unit3"
+    },
+    {
+      "title": "Khan Academy | Unit 3: Period 3: 1754-1800",
+      "link": "https://www.khanacademy.org/humanities/ap-us-history/period-3"
+    },
+    {
+      "title": "Gilder Lehrman Institute | Period 3: 1754-1800",
+      "link": "https://www.gilderlehrman.org/ap-us-history/period-3"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Heimler's History | Unit 3 Review",
+      "link": "1oNumKYNUaE"
+    },
+    {
+      "title": "AP United States History | Period 3 Summary",
+      "link": "9C5CnRBMYAY"
+    },
+    {
+      "title": "APUSH Simplified | Period 3 Key Terms Explained",
+      "link": "yzXbR94Y4Fg"
+    },
+    {
+      "title": "Maximum Insight | Unit 3 Review",
+      "link": "3YzDKpN5dYA"
+    }
+  ]
+}

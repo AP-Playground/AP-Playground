@@ -1,0 +1,41 @@
+{
+  "summary": "Unit intro",
+  "games": [
+    {
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-us-history&filter-unit=unit-4"
+    }
+  ],
+  "links": [
+    {
+      "title": "Lumisource | Unit 4 Review",
+      "link": "https://www.lumisource.io/dashboard/ap/world-history/review/unit4"
+    },
+    {
+      "title": "Khan Academy | Unit 4: Period 4: 1800-1848",
+      "link": "https://www.khanacademy.org/humanities/ap-us-history/period-4"
+    },
+    {
+      "title": "Gilder Lehrman Institute | Period 4: 1800-1848",
+      "link": "https://www.gilderlehrman.org/ap-us-history/period-4"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Heimler's History | Unit 4 Review",
+      "link": "kO5cfLxN44Y"
+    },
+    {
+      "title": "AP United States History | Period 4 Summary",
+      "link": "D7B7lNMahXQ"
+    },
+    {
+      "title": "APUSH Simplified | Period 4 Key Terms Explained",
+      "link": "2W-bET_YY34"
+    },
+    {
+      "title": "Maximum Insight | Unit 4 Review",
+      "link": "LSOp3AcjQEY"
+    }
+  ]
+}
