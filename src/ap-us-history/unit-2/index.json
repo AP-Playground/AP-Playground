@@ -1,0 +1,41 @@
+{
+  "summary": "Unit intro",
+  "games": [
+    {
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-us-history&filter-unit=unit-2"
+    }
+  ],
+  "links": [
+    {
+      "title": "Lumisource | Unit 2 Review",
+      "link": "https://www.lumisource.io/dashboard/ap/world-history/review/unit2"
+    },
+    {
+      "title": "Khan Academy | Unit 2: Period 2: 1607-1754",
+      "link": "https://www.khanacademy.org/humanities/ap-us-history/period-2"
+    },
+    {
+      "title": "Gilder Lehrman Institute | Period 2: 1607-1754",
+      "link": "https://www.gilderlehrman.org/ap-us-history/period-2"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Heimler's History | Unit 2 Review",
+      "link": "t0wIU4R0MhI"
+    },
+    {
+      "title": "AP United States History | Period 2 Summary",
+      "link": "IZ7IZ2HvEYs"
+    },
+    {
+      "title": "APUSH Simplified | Period 2 Key Terms Explained",
+      "link": "AX7dNhisYxQ"
+    },
+    {
+      "title": "Maximum Insight | Unit 2 Review",
+      "link": "gKnX0bCiUDU"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "summary": "Unit intro",
+  "games": [
+    {
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-us-history&filter-unit=unit-1"
+    }
+  ],
+  "links": [
+    {
+      "title": "Lumisource | Unit 1 Review",
+      "link": "https://www.lumisource.io/dashboard/ap/world-history/review/unit1"
+    },
+    {
+      "title": "Khan Academy | Unit 1: Period 1: 1491-1607",
+      "link": "https://www.khanacademy.org/humanities/ap-us-history/period-1"
+    },
+    {
+      "title": "Gilder Lehrman Institute | Period 1: 1491-1607",
+      "link": "https://www.gilderlehrman.org/ap-us-history/period-1"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Heimler's History | Unit 1 Review",
+      "link": "fTv4S1q7p_c"
+    },
+    {
+      "title": "AP United States History | Period 1 Summary",
+      "link": "iOievbK0C-I"
+    },
+    {
+      "title": "APUSH Simplified | Period 1 Key Terms Explained",
+      "link": "bNA30n68n3s"
+    },
+    {
+      "title": "Maximum Insight | Unit 1 Review",
+      "link": "ujC1WK9V-nE"
+    }
+  ]
+}

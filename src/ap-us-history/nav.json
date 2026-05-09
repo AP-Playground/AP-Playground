@@ -3,7 +3,7 @@
   "title": "AP U.S. History",
   "ced": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
   "data": {
-    "period-1": {
+    "unit-1": {
       "title": "1491–1607",
       "prefix": "Period 1",
       "data": {
@@ -29,7 +29,7 @@
         }
       }
     },
-    "period-2": {
+    "unit-2": {
       "title": "1607–1754",
       "prefix": "Period 2",
       "data": {
@@ -59,7 +59,7 @@
         }
       }
     },
-    "period-3": {
+    "unit-3": {
       "title": "1754–1800",
       "prefix": "Period 3",
       "data": {
@@ -109,7 +109,7 @@
         }
       }
     },
-    "period-4": {
+    "unit-4": {
       "title": "1800–1848",
       "prefix": "Period 4",
       "data": {
@@ -163,7 +163,7 @@
         }
       }
     },
-    "period-5": {
+    "unit-5": {
       "title": "1844–1877",
       "prefix": "Period 5",
       "data": {
@@ -209,7 +209,7 @@
         }
       }
     },
-    "period-6": {
+    "unit-6": {
       "title": "1865–1898",
       "prefix": "Period 6",
       "data": {
@@ -263,7 +263,7 @@
         }
       }
     },
-    "period-7": {
+    "unit-7": {
       "title": "1890–1945",
       "prefix": "Period 7",
       "data": {
@@ -321,7 +321,7 @@
         }
       }
     },
-    "period-8": {
+    "unit-8": {
       "title": "1945–1980",
       "prefix": "Period 8",
       "data": {
@@ -379,7 +379,7 @@
         }
       }
     },
-    "period-9": {
+    "unit-9": {
       "title": "1980–Present",
       "prefix": "Period 9",
       "data": {

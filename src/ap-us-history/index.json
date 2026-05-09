@@ -8,24 +8,36 @@
   ],
   "links": [
     {
-      "title": "College Board | AP World History",
-      "link": "https://apstudents.collegeboard.org/courses/ap-world-history-modern"
+      "title": "College Board | AP US History",
+      "link": "https://apstudents.collegeboard.org/courses/ap-united-states-history"
     },
     {
-      "title": "Past AP World History FRQs",
-      "link": "https://drive.google.com/drive/folders/11cK5Ps-oUIwNiU2EUW02Ehkrr4nXETOG"
+      "title": "Past AP US History FRQs",
+      "link": "https://drive.google.com/drive/folders/1Qi9gd4hVVKW_LVyHg16Ek11IECY8Gkv4"
     },
     {
-      "title": "Khan Academy | AP World History",
-      "link": "https://www.khanacademy.org/humanities/world-history-project-ap"
+      "title": "Khan Academy | AP US History",
+      "link": "https://www.khanacademy.org/humanities/ap-us-history"
+    },
+    {
+      "title": "Gilder Lehrman Institute | AP US History",
+      "link": "https://www.gilderlehrman.org/ap-us-history"
     },
     {
       "title": "Heimler's History | AP History Resources",
       "link": "https://www.youtube.com/@heimlershistory"
     },
     {
-      "title": "Crash Course | World History",
-      "link": "https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9"
+      "title": "Crash Course | US History",
+      "link": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s"
+    },
+    {
+      "title": "APUSH Simplified | APUSH Key Terms",
+      "link": "https://www.youtube.com/playlist?list=PLaHxhghRxKnFxAix9gtz3vF71sN9coTOr"
+    },
+    {
+      "title": "AP United States History | APUSH Speed Reviews",
+      "link": "https://www.youtube.com/playlist?list=PLNIIVEcD-f8lNwPo3Y1EyaGD4JAFyypM2"
     }
   ]
 }
