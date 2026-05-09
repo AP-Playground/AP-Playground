@@ -32,8 +32,10 @@
     "games": {
         "memory": {
             "term": ["term"],
+            "termImage": [],
             "text": ["date", "definition", "effect"],
-            "image": []
+            "image": [],
+            "randomize": []
         }
     },
     "flashcards": {

@@ -23,3 +23,4 @@ To submit feedback, or ask for permission to contribute, please use the informat
 - Add country outlines to pinpoint map
 - Collapse long text sections
 - Add previous-next navigation to unit pages
+- Add option to decrease weight of some term categories in vocab-data

@@ -134,8 +134,8 @@ function loadOptions() {
       values = Object.keys(courseNav.data);
       displayValues = Object.values(courseNav.data).map(i => i.prefix + ": " + i.title);
     } else {
-      values = vocabData.values;
-      displayValues = vocabData.displayValues;
+      values = filter.values;
+      displayValues = filter.displayValues;
     }
     createFieldset(gameFilters, filter.key, filter.displayKey, values, displayValues, filter.multiselect, filter.all, "filter", typeof filtersValidation === 'function' ? filtersValidation : undefined)
   }
