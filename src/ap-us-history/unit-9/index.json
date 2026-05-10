@@ -1,0 +1,37 @@
+{
+  "summary": "Unit intro",
+  "games": [
+    {
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-us-history&filter-unit=unit-9"
+    }
+  ],
+  "links": [
+    {
+      "title": "Lumisource | Unit 9 Review",
+      "link": "https://www.lumisource.io/dashboard/ap/us-history/review/unit9"
+    },
+    {
+      "title": "Unit 9: Period 9: 1980-present",
+      "link": "https://www.khanacademy.org/humanities/ap-us-history/period-9"
+    },
+    {
+      "title": "Gilder Lehrman Institute | Period 9: 1980-Present",
+      "link": "https://www.gilderlehrman.org/ap-us-history/period-9"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP United States History | Period 9 Summary",
+      "link": "_70wFjYtdC8"
+    },
+    {
+      "title": "APUSH Simplified | Period 9 Key Terms Explained",
+      "link": "2EFbgZnUo78"
+    },
+    {
+      "title": "Maximum Insight | Unit 9 Review",
+      "link": "CHTZJvj_yMU"
+    }
+  ]
+}
