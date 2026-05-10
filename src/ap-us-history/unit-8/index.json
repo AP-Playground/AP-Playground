@@ -1,0 +1,37 @@
+{
+  "summary": "Unit intro",
+  "games": [
+    {
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-us-history&filter-unit=unit-8"
+    }
+  ],
+  "links": [
+    {
+      "title": "Lumisource | Unit 8 Review",
+      "link": "https://www.lumisource.io/dashboard/ap/world-history/review/unit8"
+    },
+    {
+      "title": "Khan Academy | Unit 8: Period 8: 1945-1980",
+      "link": "https://www.khanacademy.org/humanities/ap-us-history/period-8"
+    },
+    {
+      "title": "Gilder Lehrman Institute | Period 8: 1945-1980",
+      "link": "https://www.gilderlehrman.org/ap-us-history/period-8"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP United States History | Period 8 Summary",
+      "link": "leOBEr1gvtM"
+    },
+    {
+      "title": "APUSH Simplified | Period 8 Key Terms Explained",
+      "link": "ighU7shXaF0"
+    },
+    {
+      "title": "Maximum Insight | Unit 8 Review",
+      "link": "DNOs1lHnHho"
+    }
+  ]
+}
