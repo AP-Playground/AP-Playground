@@ -24,3 +24,5 @@ To submit feedback, or ask for permission to contribute, please use the informat
 - Collapse long text sections
 - Add previous-next navigation to unit pages
 - Add option to decrease weight of some term categories in vocab-data
+- Ensure consistent terminology between CED and page titles and URLs
+  - Eg. "Lesson 1.1" -> "Topic 1.1"
