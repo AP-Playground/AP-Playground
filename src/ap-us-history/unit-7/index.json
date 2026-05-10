@@ -1,0 +1,37 @@
+{
+  "summary": "Unit intro",
+  "games": [
+    {
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-us-history&filter-unit=unit-7"
+    }
+  ],
+  "links": [
+    {
+      "title": "Lumisource | Unit 7 Review",
+      "link": "https://www.lumisource.io/dashboard/ap/world-history/review/unit7"
+    },
+    {
+      "title": "Khan Academy | Unit 7: Period 7: 1890-1945",
+      "link": "https://www.khanacademy.org/humanities/ap-us-history/period-7"
+    },
+    {
+      "title": "Gilder Lehrman Institute | Period 7: 1890-1945",
+      "link": "https://www.gilderlehrman.org/ap-us-history/period-7"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP United States History | Period 7 Summary",
+      "link": "i37YQSRW4lY"
+    },
+    {
+      "title": "APUSH Simplified | Period 7 Key Terms Explained",
+      "link": "CwmQ9knHS4I"
+    },
+    {
+      "title": "Maximum Insight | Unit 7 Review",
+      "link": "j7v3_wmnEfI"
+    }
+  ]
+}
