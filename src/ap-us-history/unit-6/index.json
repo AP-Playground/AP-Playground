@@ -1,0 +1,37 @@
+{
+  "summary": "Unit intro",
+  "games": [
+    {
+      "title": "Memory/Matching review",
+      "link": "/games/memory?course=ap-us-history&filter-unit=unit-6"
+    }
+  ],
+  "links": [
+    {
+      "title": "Lumisource | Unit 6 Review",
+      "link": "https://www.lumisource.io/dashboard/ap/world-history/review/unit6"
+    },
+    {
+      "title": "Khan Academy | Unit 6: Period 6: 1865-1898",
+      "link": "https://www.khanacademy.org/humanities/ap-us-history/period-6"
+    },
+    {
+      "title": "Gilder Lehrman Institute | Period 6: 1865-1898",
+      "link": "https://www.gilderlehrman.org/ap-us-history/period-6"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AP United States History | Period 6 Summary",
+      "link": "UIxbHcLRSig"
+    },
+    {
+      "title": "APUSH Simplified | Period 6 Key Terms Explained",
+      "link": "9k1CvI4i7Rk"
+    },
+    {
+      "title": "Maximum Insight | Unit 6 Review",
+      "link": "mn3-S4FHW5U"
+    }
+  ]
+}
