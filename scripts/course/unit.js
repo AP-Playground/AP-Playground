@@ -25,8 +25,8 @@ export function upload(path, title, nav, unitVocab) {
     page += templates.block(title, data.summary.replace("®",ced), true);
     
     if (nav.hasOwnProperty("data")) {
-      const quickLinks = Object.entries(nav.data).map(([lessonSlug, lesson]) => 
-        `<li><a href="${path}/${lessonSlug}">${lesson.prefix}</a></li>`
+      const quickLinks = Object.entries(nav.data).map(([topicSlug, topic]) => 
+        `<li><a href="${path}/${topicSlug}">${topic.prefix}</a></li>`
       )
       page += `<ul class="quick-links">` + quickLinks.join("") + "</ul>"
     }

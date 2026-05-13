@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from 'fs';
 import * as util from '../util.js'
 import * as coursePage from './course.js'
 import * as unitPage from './unit.js'
-import * as lessonPage from './lesson.js'
+import * as topicPage from './topic.js'
 
 
 export function uploadCourse({title, slug}) {
@@ -21,9 +21,9 @@ export function uploadCourse({title, slug}) {
       unitPage.upload(`/${slug}/${unitSlug}`, unit.prefix + ": " + unit.title, unit, vocabData.units[unitSlug])
     }
     if (!nav.data[unitSlug].hasOwnProperty("data")) continue;
-    for (const [lessonSlug, lesson] of Object.entries(nav.data[unitSlug].data)) {
-      if (existsSync(`src/${slug}/${unitSlug}/${lessonSlug}.json`)) {
-        lessonPage.upload(`/${slug}/${unitSlug}/${lessonSlug}`, lesson.prefix + ": " + lesson.title, courseVocab, vocabData)
+    for (const [topicSlug, topic] of Object.entries(nav.data[unitSlug].data)) {
+      if (existsSync(`src/${slug}/${unitSlug}/${topicSlug}.json`)) {
+        topicPage.upload(`/${slug}/${unitSlug}/${topicSlug}`, topic.prefix + ": " + topic.title, courseVocab, vocabData)
       }
     }
   }

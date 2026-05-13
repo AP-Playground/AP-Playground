@@ -102,9 +102,9 @@ export function nav(path) {
         const unitLink = "/" + navData.slug + "/" + unitSlug
         tabContent.push(`<li class="item"><a href="${unitLink}"${path === unitLink || (pathSegments[2] && pathSegments[2] === "vocab" && pathSegments[1] === unitSlug) ? " aria-current='page'" : ""}>${unit.prefix + ": " + unit.title}</a></li>`)
         if (pathSegments[1]===unitSlug && navData.data[unitSlug].hasOwnProperty("data")) {
-          for (const [lessonSlug, lesson] of Object.entries(navData.data[unitSlug].data)) {
-            const lessonLink = "/"+navData.slug+"/"+unitSlug+"/"+lessonSlug
-            tabContent.push(`<li class="sub-item"><a href="${lessonLink}"${pathSegments[2] === lessonSlug ? " aria-current='page'" : ""}>${lesson.prefix + ": " + lesson.title}</a></li>`)
+          for (const [topicSlug, topic] of Object.entries(navData.data[unitSlug].data)) {
+            const topicLink = "/"+navData.slug+"/"+unitSlug+"/"+topicSlug
+            tabContent.push(`<li class="sub-item"><a href="${topicLink}"${pathSegments[2] === topicSlug ? " aria-current='page'" : ""}>${topic.prefix + ": " + topic.title}</a></li>`)
           }
         }
       }
@@ -189,8 +189,8 @@ export function header(path) {
           if (pathSegments[2] === "vocab") {
             breadcrumb.push(["Vocabulary",`/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}`])
           } else {
-            const lesson = unit.data[pathSegments[2]]
-            breadcrumb.push([lesson.prefix+": "+lesson.title, `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}`])
+            const topic = unit.data[pathSegments[2]]
+            breadcrumb.push([topic.prefix+": "+topic.title, `/${pathSegments[0]}/${pathSegments[1]}/${pathSegments[2]}`])
           }
 
           if (pathSegments.length > 3) {
@@ -224,27 +224,27 @@ export function header(path) {
       if (pathSegments.length === 3) {
         if (pathSegments[2] === "vocab") break;
         const unit = navData.data[pathSegments[1]].data
-        const lessons = Object.entries(unit)
-        const curLesson = lessons.findIndex(([lessonSlug, lesson]) => lessonSlug === pathSegments[2])
+        const topics = Object.entries(unit)
+        const curTopic = topics.findIndex(([topicSlug, topic]) => topicSlug === pathSegments[2])
 
-        if (curLesson !== 0) {
-          prevLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + lessons[curLesson - 1][0]
+        if (curTopic !== 0) {
+          prevLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + topics[curTopic - 1][0]
         }
 
-        if (curLesson !== lessons.length - 1) {
-          nextLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + lessons[curLesson + 1][0]
+        if (curTopic !== topics.length - 1) {
+          nextLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + topics[curTopic + 1][0]
         }
       } else if (pathSegments.length === 4) {
         const unit = navData.data[pathSegments[1]].data
-        const lessons = Object.entries(unit)
-        const curLesson = lessons.findIndex(([lessonSlug, lesson]) => lessonSlug === pathSegments[2])
+        const topics = Object.entries(unit)
+        const curTopic = topics.findIndex(([topicSlug, topic]) => topicSlug === pathSegments[2])
 
-        if (curLesson !== 0) {
-          prevLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + lessons[curLesson - 1][0] + "/vocab"
+        if (curTopic !== 0) {
+          prevLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + topics[curTopic - 1][0] + "/vocab"
         }
 
-        if (curLesson !== lessons.length - 1) {
-          nextLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + lessons[curLesson + 1][0] + "/vocab"
+        if (curTopic !== topics.length - 1) {
+          nextLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + topics[curTopic + 1][0] + "/vocab"
         }
       }
 

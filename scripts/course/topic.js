@@ -22,16 +22,16 @@ export function upload(path, title, courseVocab, vocabData) {
   page += templates.block(title, data.summary, true);
 
   const vocabCount = data["vocab"].length;
-  const lessonVocab = [];
+  const topicVocab = [];
   const linkKey = vocabData.flashcards.link;
   const termKey = vocabData.flashcards.term;
   let vocabText = `<ol class="vocab-grid" style="--row-count:${Math.ceil(vocabCount/2)};">`;
   for (const term of data["vocab"]) {
     vocabText += `<li><a target="_blank" href="${courseVocab[term][linkKey]}">${courseVocab[term][termKey]}</a></li>`
-    lessonVocab.push(term)
+    topicVocab.push(term)
   }
   vocabText += `</ol>`
-  vocab.upload(path, title, lessonVocab, vocabData)
+  vocab.upload(path, title, topicVocab, vocabData)
 
   const vocabHeader = `<div class="split-header"><h2>Vocabulary:</h2><a href="${path}/vocab">Flashcards &rightarrow;</a></div>`
   const vocabBlock = templates.block(vocabHeader, vocabText)
