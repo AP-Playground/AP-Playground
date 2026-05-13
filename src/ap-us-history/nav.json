@@ -7,23 +7,23 @@
       "title": "1491–1607",
       "prefix": "Period 1",
       "data": {
-        "lesson-2": {
+        "topic-2": {
           "title": "Native American Societies Before European Contact",
           "prefix": "1.2"
         },
-        "lesson-3": {
+        "topic-3": {
           "title": "European Exploration in the Americas",
           "prefix": "1.3"
         },
-        "lesson-4": {
+        "topic-4": {
           "title": "Columbian Exchange, Spanish Exploration, and Conquest",
           "prefix": "1.4"
         },
-        "lesson-5": {
+        "topic-5": {
           "title": "Labor, Slavery, and Caste in the Spanish Colonial System",
           "prefix": "1.5"
         },
-        "lesson-6": {
+        "topic-6": {
           "title": "Cultural Interactions Between Europeans, Native Americans, and Africans",
           "prefix": "1.6"
         }
@@ -33,27 +33,27 @@
       "title": "1607–1754",
       "prefix": "Period 2",
       "data": {
-        "lesson-2": {
+        "topic-2": {
           "title": "European Colonization",
           "prefix": "2.2"
         },
-        "lesson-3": {
+        "topic-3": {
           "title": "The Regions of British Colonies",
           "prefix": "2.3"
         },
-        "lesson-4": {
+        "topic-4": {
           "title": "Transatlantic Trade",
           "prefix": "2.4"
         },
-        "lesson-5": {
+        "topic-5": {
           "title": "Interactions Between American Indians and Europeans",
           "prefix": "2.5"
         },
-        "lesson-6": {
+        "topic-6": {
           "title": "Slavery in the British Colonies",
           "prefix": "2.6"
         },
-        "lesson-7": {
+        "topic-7": {
           "title": "Colonial Society and Culture",
           "prefix": "2.7"
         }
@@ -63,47 +63,47 @@
       "title": "1754–1800",
       "prefix": "Period 3",
       "data": {
-        "lesson-2": {
+        "topic-2": {
           "title": "The Seven Years’ War (The French and Indian War)",
           "prefix": "3.2"
         },
-        "lesson-3": {
+        "topic-3": {
           "title": "Taxation Without Representation",
           "prefix": "3.3"
         },
-        "lesson-4": {
+        "topic-4": {
           "title": "Philosophical Foundations of the American Revolution",
           "prefix": "3.4"
         },
-        "lesson-5": {
+        "topic-5": {
           "title": "The American Revolution",
           "prefix": "3.5"
         },
-        "lesson-6": {
+        "topic-6": {
           "title": "The Influence of Revolutionary Ideals",
           "prefix": "3.6"
         },
-        "lesson-7": {
+        "topic-7": {
           "title": "The Articles of Confederation",
           "prefix": "3.7"
         },
-        "lesson-8": {
+        "topic-8": {
           "title": "The Constitutional Convention and Debates over Ratification",
           "prefix": "3.8"
         },
-        "lesson-9": {
+        "topic-9": {
           "title": "The Constitution",
           "prefix": "3.9"
         },
-        "lesson-10": {
+        "topic-10": {
           "title": "Shaping a New Republic",
           "prefix": "3.10"
         },
-        "lesson-11": {
+        "topic-11": {
           "title": "Developing an American Identity",
           "prefix": "3.11"
         },
-        "lesson-12": {
+        "topic-12": {
           "title": "Movement in the Early Republic",
           "prefix": "3.12"
         }
@@ -113,51 +113,51 @@
       "title": "1800–1848",
       "prefix": "Period 4",
       "data": {
-        "lesson-2": {
+        "topic-2": {
           "title": "The Rise of Political Parties and the Era of Jefferson",
           "prefix": "4.2"
         },
-        "lesson-3": {
+        "topic-3": {
           "title": "Politics and Regional Interests",
           "prefix": "4.3"
         },
-        "lesson-4": {
+        "topic-4": {
           "title": "America on the World Stage",
           "prefix": "4.4"
         },
-        "lesson-5": {
+        "topic-5": {
           "title": "Market Revolution: Industrialization",
           "prefix": "4.5"
         },
-        "lesson-6": {
+        "topic-6": {
           "title": "Market Revolution: Society and Culture",
           "prefix": "4.6"
         },
-        "lesson-7": {
+        "topic-7": {
           "title": "Expanding Democracy",
           "prefix": "4.7"
         },
-        "lesson-8": {
+        "topic-8": {
           "title": "Jackson and Federal Power",
           "prefix": "4.8"
         },
-        "lesson-9": {
+        "topic-9": {
           "title": "The Development of an American Culture",
           "prefix": "4.9"
         },
-        "lesson-10": {
+        "topic-10": {
           "title": "The Second Great Awakening",
           "prefix": "4.10"
         },
-        "lesson-11": {
+        "topic-11": {
           "title": "An Age of Reform",
           "prefix": "4.11"
         },
-        "lesson-12": {
+        "topic-12": {
           "title": "African Americans in the Early Republic",
           "prefix": "4.12"
         },
-        "lesson-13": {
+        "topic-13": {
           "title": "The Society of the South in the Early Republic",
           "prefix": "4.13"
         }
@@ -167,43 +167,43 @@
       "title": "1844–1877",
       "prefix": "Period 5",
       "data": {
-        "lesson-2": {
+        "topic-2": {
           "title": "Manifest Destiny",
           "prefix": "5.2"
         },
-        "lesson-3": {
+        "topic-3": {
           "title": "The Mexican–American War",
           "prefix": "5.3"
         },
-        "lesson-4": {
+        "topic-4": {
           "title": "The Compromise of 1850",
           "prefix": "5.4"
         },
-        "lesson-5": {
+        "topic-5": {
           "title": "Sectional Conflict: Regional Differences",
           "prefix": "5.5"
         },
-        "lesson-6": {
+        "topic-6": {
           "title": "Failure of Compromise",
           "prefix": "5.6"
         },
-        "lesson-7": {
+        "topic-7": {
           "title": "Election of 1860 and Secession",
           "prefix": "5.7"
         },
-        "lesson-8": {
+        "topic-8": {
           "title": "Military Conflict in the Civil War",
           "prefix": "5.8"
         },
-        "lesson-9": {
+        "topic-9": {
           "title": "Government Policies During the Civil War",
           "prefix": "5.9"
         },
-        "lesson-10": {
+        "topic-10": {
           "title": "Reconstruction",
           "prefix": "5.10"
         },
-        "lesson-11": {
+        "topic-11": {
           "title": "Failure of Reconstruction",
           "prefix": "5.11"
         }
@@ -213,51 +213,51 @@
       "title": "1865–1898",
       "prefix": "Period 6",
       "data": {
-        "lesson-2": {
+        "topic-2": {
           "title": "Westward Expansion: Economic Development",
           "prefix": "6.2"
         },
-        "lesson-3": {
+        "topic-3": {
           "title": "Westward Expansion: Social and Cultural Development",
           "prefix": "6.3"
         },
-        "lesson-4": {
+        "topic-4": {
           "title": "The “New South”",
           "prefix": "6.4"
         },
-        "lesson-5": {
+        "topic-5": {
           "title": "Technological Innovation",
           "prefix": "6.5"
         },
-        "lesson-6": {
+        "topic-6": {
           "title": "The Rise of Industrial Capitalism",
           "prefix": "6.6"
         },
-        "lesson-7": {
+        "topic-7": {
           "title": "Labor in the Gilded Age",
           "prefix": "6.7"
         },
-        "lesson-8": {
+        "topic-8": {
           "title": "Immigration and Migration in the Gilded Age",
           "prefix": "6.8"
         },
-        "lesson-9": {
+        "topic-9": {
           "title": "Responses to Immigration in the Gilded Age",
           "prefix": "6.9"
         },
-        "lesson-10": {
+        "topic-10": {
           "title": "Development of the Middle Class",
           "prefix": "6.10"
         },
-        "lesson-11": {
+        "topic-11": {
           "title": "Reform in the Gilded Age",
           "prefix": "6.11"
         },
-        "lesson-12": {
+        "topic-12": {
           "title": "Contoversies over the Role of Government in the Gilded Age",
           "prefix": "6.12"
         },
-        "lesson-13": {
+        "topic-13": {
           "title": "Politics in the Gilded Age",
           "prefix": "6.13"
         }
@@ -267,55 +267,55 @@
       "title": "1890–1945",
       "prefix": "Period 7",
       "data": {
-        "lesson-2": {
+        "topic-2": {
           "title": "Imperialism: Debates",
           "prefix": "7.2"
         },
-        "lesson-3": {
+        "topic-3": {
           "title": "The Spanish–American War",
           "prefix": "7.3"
         },
-        "lesson-4": {
+        "topic-4": {
           "title": "The Progerssives",
           "prefix": "7.4"
         },
-        "lesson-5": {
+        "topic-5": {
           "title": "World War I: Military and Diplomacy",
           "prefix": "7.5"
         },
-        "lesson-6": {
+        "topic-6": {
           "title": "World War I: Home Front",
           "prefix": "7.6"
         },
-        "lesson-7": {
+        "topic-7": {
           "title": "1920s: Innovations in Communication and Technology",
           "prefix": "7.7"
         },
-        "lesson-8": {
+        "topic-8": {
           "title": "1920s: Cultural and Political Controversies",
           "prefix": "7.8"
         },
-        "lesson-9": {
+        "topic-9": {
           "title": "The Great Depression",
           "prefix": "7.9"
         },
-        "lesson-10": {
+        "topic-10": {
           "title": "The New Deal",
           "prefix": "7.10"
         },
-        "lesson-11": {
+        "topic-11": {
           "title": "Interwar Foreign Policy",
           "prefix": "7.11"
         },
-        "lesson-12": {
+        "topic-12": {
           "title": "World War II: Mobilization",
           "prefix": "7.12"
         },
-        "lesson-13": {
+        "topic-13": {
           "title": "World War II: Military",
           "prefix": "7."
         },
-        "lesson-14": {
+        "topic-14": {
           "title": "Postwar Diplomacy",
           "prefix": "7.14"
         }
@@ -325,55 +325,55 @@
       "title": "1945–1980",
       "prefix": "Period 8",
       "data": {
-        "lesson-2": {
+        "topic-2": {
           "title": "The Cold War from 1945 to 1980",
           "prefix": "8.2"
         },
-        "lesson-3": {
+        "topic-3": {
           "title": "The Red Scare",
           "prefix": "8.3"
         },
-        "lesson-4": {
+        "topic-4": {
           "title": "Economy after 1945",
           "prefix": "8.4"
         },
-        "lesson-5": {
+        "topic-5": {
           "title": "Culture after 1945",
           "prefix": "8.5"
         },
-        "lesson-6": {
+        "topic-6": {
           "title": "Early Steps in the Civil Rights Movement (1940s and 1950s)",
           "prefix": "8.6"
         },
-        "lesson-7": {
+        "topic-7": {
           "title": "America as a World Power",
           "prefix": "8.7"
         },
-        "lesson-8": {
+        "topic-8": {
           "title": "The Vietnam War",
           "prefix": "8.8"
         },
-        "lesson-9": {
+        "topic-9": {
           "title": "The Great Society",
           "prefix": "8.9"
         },
-        "lesson-10": {
+        "topic-10": {
           "title": "The African American Civil Rights Movement (1960s)",
           "prefix": "8.10"
         },
-        "lesson-11": {
+        "topic-11": {
           "title": "The Civil Rights Movement Expands",
           "prefix": "8.11"
         },
-        "lesson-12": {
+        "topic-12": {
           "title": "Youth Culture of the 1960s",
           "prefix": "8.12"
         },
-        "lesson-13": {
+        "topic-13": {
           "title": "The Environment and Natural Resources from 1968 to 1980",
           "prefix": "8.13"
         },
-        "lesson-14": {
+        "topic-14": {
           "title": "Society in Transition",
           "prefix": "8.14"
         }
@@ -383,23 +383,23 @@
       "title": "1980–Present",
       "prefix": "Period 9",
       "data": {
-        "lesson-2": {
+        "topic-2": {
           "title": "Reagan and Conservatism",
           "prefix": "9.2"
         },
-        "lesson-3": {
+        "topic-3": {
           "title": "The End of the Cold War",
           "prefix": "9.3"
         },
-        "lesson-4": {
+        "topic-4": {
           "title": "A Changing Economy",
           "prefix": "9.4"
         },
-        "lesson-5": {
+        "topic-5": {
           "title": "Migration and Immigration in the 1990s and 2000s",
           "prefix": "9.5"
         },
-        "lesson-6": {
+        "topic-6": {
           "title": "Challenges of the 21st Century",
           "prefix": "9.6"
         }
