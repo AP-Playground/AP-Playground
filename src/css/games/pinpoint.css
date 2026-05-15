@@ -54,6 +54,12 @@
       -webkit-user-drag: none;
       cursor: pointer;
     }
+    & .map-overlay {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      pointer-events: none;
+    }
     & .pinpoint, & .pinpoint-correct {
       position: absolute;
       height: 20px;

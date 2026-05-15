@@ -126,7 +126,9 @@ function loadGame() {
 
 const detailContainer = game.querySelector(".detail-container");
 const mapContainer = game.querySelector(".map-container");
-const map = mapContainer.querySelector(".map-container .map");
+const mapImages = mapContainer.querySelector(".map-images");
+const map = mapImages.querySelector(".map");
+const mapOverlay = mapImages.querySelector(".map-overlay");
 const imageIdentifierContainer = game.querySelector(".image-identifier-container");
 const imageIdentifier = imageIdentifierContainer.querySelector(".image-identifier");
 const imageIdentifierLoading = imageIdentifierContainer.querySelector(".image-identifier-loading");
@@ -137,6 +139,7 @@ function loadBoard() {
     switch (gameData.map) {
         case "world": {
             map.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Blue_Marble_2002.png/960px-Blue_Marble_2002.png"
+            mapOverlay.src = "/images/games/pinpoint/country-outline-overlay.svg"
         }
     }
     detailContainer.innerHTML = ""

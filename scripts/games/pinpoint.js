@@ -29,7 +29,7 @@ export function upload() {
             temp += `<div class="game">`
               temp += `<div class="game-play-area init">`
                 temp += `<div class="map-container">`
-                  temp += `<img class="map">`
+                  temp += `<div class="map-images"><img class="map"><img class="map-overlay"></div>`
                   temp += `<img class="pinpoint" src="/images/games/pinpoint/pinpoint.svg" hidden>`
                   temp += `<img class="pinpoint-correct" src="/images/games/pinpoint/pinpoint-green.svg" hidden>`
                 temp += `</div>`
