@@ -221,30 +221,34 @@ export function header(path) {
       let nextLink;
       let prevLink;
 
-      if (pathSegments.length === 3) {
-        if (pathSegments[2] === "vocab") break;
+      const length = pathSegments.length
+
+      if (length === 2 || (length === 3 && pathSegments[2] === "vocab")) {
+        const units = Object.entries(navData.data)
+        const curUnit = units.findIndex(([unitSlug, unit]) => unitSlug === pathSegments[1])
+
+        if (curUnit !== 0) {
+          prevLink = "/" + pathSegments[0] + "/" + units[curUnit - 1][0]
+          if (length === 3) prevLink += "/vocab"
+        }
+
+        if (curUnit !== units.length - 1) {
+          nextLink = "/" + pathSegments[0] + "/" + units[curUnit + 1][0]
+          if (length === 3) nextLink += "/vocab"
+        }
+      } else if (pathSegments.length === 3 || (length === 4 && pathSegments[3] === "vocab")) {
         const unit = navData.data[pathSegments[1]].data
         const topics = Object.entries(unit)
         const curTopic = topics.findIndex(([topicSlug, topic]) => topicSlug === pathSegments[2])
 
         if (curTopic !== 0) {
           prevLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + topics[curTopic - 1][0]
+          if (length === 4) prevLink += "/vocab"
         }
 
         if (curTopic !== topics.length - 1) {
           nextLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + topics[curTopic + 1][0]
-        }
-      } else if (pathSegments.length === 4) {
-        const unit = navData.data[pathSegments[1]].data
-        const topics = Object.entries(unit)
-        const curTopic = topics.findIndex(([topicSlug, topic]) => topicSlug === pathSegments[2])
-
-        if (curTopic !== 0) {
-          prevLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + topics[curTopic - 1][0] + "/vocab"
-        }
-
-        if (curTopic !== topics.length - 1) {
-          nextLink = "/" + pathSegments[0] + "/" + pathSegments[1] + "/" + topics[curTopic + 1][0] + "/vocab"
+          if (length === 4) nextLink += "/vocab"
         }
       }
 
