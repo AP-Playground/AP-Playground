@@ -165,7 +165,10 @@ function gameBoundResize() {
 
 let cardPairs;
 function fillBoard() {
-    const usedTerms = randomize(availableTerms).slice(0,settings.size[0])
+    const weights = vocabData.filters.filter(filter => filter.hasOwnProperty("weights")).map((filter) => {
+        return [filter.key, filter.values, filter.weights]
+    })
+    const usedTerms = selectTerms(availableTerms, settings.size[0], weights)
     const tempElement = document.createElement("div");
     const tempElement2 = document.createElement("div");
     cardPairs = []

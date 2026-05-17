@@ -182,7 +182,54 @@ function pickString(input, randomize = true) {
 }
 
 function randomize(list) {
-  return list.sort(() => Math.random() - 0.5)
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+
+  return list;
+}
+
+function selectTerms(terms, termCount, weights) {
+  terms = [...terms]
+  if (!weights || weights.length === 0 || termCount === "all") return randomize(terms).slice(0,settings.size[0]);
+
+  weights = terms.map((term, i) => (
+    weights.reduce((acc, [filterKey, filterValues, filterWeights]) => {
+      let multiplier = 1;
+      const termValues = vocab[term][filterKey]
+      if (termValues) {
+        if (typeof termValues === "string") {
+          multiplier = filterWeights[filterValues.indexOf(termValues)];
+        } else if (typeof termValues === "object") {
+          multiplier = termValues.map(key => filterWeights[filterValues.indexOf(key)]);
+          multiplier = multiplier.reduce((sum, val) => sum + val, 0) / termValues.length
+        }
+      }
+      return acc * multiplier;
+  }, 1)));
+
+  let totalWeight = weights.reduce((sum, weight) => sum + weight, 0);
+  const selected = []
+
+  for (let i = 0; i < termCount; i++) {
+    let random = totalWeight * Math.random();
+    
+    for (let j = 0; j < terms.length; j++) {
+      if (random < weights[j]) {
+        selected.push(terms[j]);
+        totalWeight -= weights[j]
+        terms.splice(j, 1)
+        weights.splice(j, 1)
+        break;
+      }
+
+      random -= weights[j]
+    }
+  }
+    console.log(weights, terms)
+
+  return selected;
 }
 
 async function loadJSON(url) {

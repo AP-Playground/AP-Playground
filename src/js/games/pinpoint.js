@@ -100,14 +100,17 @@ function loadGame() {
     score = 0;
     currentIdx = 0;
     gameHistory = [];
+    const weights = vocabData.filters.filter(filter => filter.hasOwnProperty("weights")).map((filter) => {
+        return [filter.key, filter.values, filter.weights]
+    })
     switch (settings.size[0]) {
-        case "10": usedTerms = randomize(availableTerms).slice(0, 10); break;
-        case "20": usedTerms = randomize(availableTerms).slice(0, 20); break;
-        case "30": usedTerms = randomize(availableTerms).slice(0, 30); break;
-        case "all": usedTerms = randomize(availableTerms); break;
+        case "10": usedTerms = selectTerms(availableTerms, 10, weights); break;
+        case "20": usedTerms = selectTerms(availableTerms, 20, weights); break;
+        case "30": usedTerms = selectTerms(availableTerms, 30, weights); break;
+        case "all": usedTerms = selectTerms(availableTerms, "all", weights); break;
         case "input": {
             const sizeInput = document.querySelector(`input#setting-size-input`)
-            usedTerms = randomize(availableTerms).slice(0, sizeInput.value)
+            usedTerms = selectTerms(availableTerms, sizeInput.value, weights)
         }
     }
     

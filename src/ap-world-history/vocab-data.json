@@ -11,6 +11,7 @@
             "displayKey": "Categories",
             "values": ["people", "events", "religion-culture", "idea-innovation","society-structure"],
             "displayValues": ["People", "Events", "Religion & Culture", "Ideas & Innovations", "Societies & Structures"],
+            "weights": [0.5, 1, 1, 1, 1],
             "all": true,
             "multiselect": true
         },

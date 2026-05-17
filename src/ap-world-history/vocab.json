@@ -32,7 +32,7 @@
         "date": "Introduced to Song China 1000",
         "definition": "A quickly growing, drought resistant crop",
         "effect": "Increased food production, causing Chinese population boom",
-        "category": "ideas-innovation",
+        "category": "idea-innovation",
         "continent": "asia"
     },
     "songDynasty": {
@@ -68,7 +68,7 @@
         "date": "",
         "definition": "Process by which non-Chinese societies assimilate Chinese culture",
         "effect": "Fusion of cultures; unity across Asia and loss of some Asian cultural diversity",
-        "category": "ideas-innovation",
+        "category": "idea-innovation",
         "continent": "asia"
     },
     "shogunate": {
@@ -185,7 +185,7 @@
         "date": "700-1600",
         "definition": "Trade across the Sahara Desert between Sub-Saharan and North Africa",
         "effect": "Economic expansion of Africa; spread Islam",
-        "category": "society-structure, idea-innovation",
+        "category": ["society-structure", "idea-innovation"],
         "continent": "africa"
     },
     "caravanserai": {
@@ -194,7 +194,7 @@
         "date": "",
         "definition": "Roadside inns for travelers along major trade routes",
         "effect": "Supported the flow of goods, and ideas along overland trade routes",
-        "category": "society-structure, idea-innovation",
+        "category": ["society-structure", "idea-innovation"],
         "continent": ["arica", "asia"]
     },
     "sufism": {
@@ -419,7 +419,7 @@
         "date": "1438-1572",
         "definition": "A messenger of the Inca Empire, highly trained and agile",
         "effect": "Transported messages in the form of quipo, oral information or small packets",
-        "category": "ideas-innovation",
+        "category": "idea-innovation",
         "continent": "south-america"
     },
     "quipo": {
@@ -446,7 +446,7 @@
         "date": "Began 100",
         "definition": "Native Americans in present-day Southwestern United States",
         "effect": "",
-        "category": "society-structures",
+        "category": "society-structure",
         "continent": "north-america"
     },
     "greatZimbabwe": {
@@ -707,7 +707,7 @@
         "date": "1400-1468",
         "definition": "German inventor and craftsman who invented the movable-type printing press",
         "effect": "Began an information revolution and mass-spread of literature in Europe",
-        "category": "idea-innovation",
+        "category": ["people", "idea-innovation"],
         "continent": "europe"
     },
     "judaism": {
@@ -1382,7 +1382,7 @@
         "date": "1454-1856",
         "definition": "Legal framework where the Ottoman Empire granted religious minorities significant autonomy",
         "effect": "Allowed effective governing of a diverse population, balancing central and local control",
-        "category": "societys-structure",
+        "category": "society-structure",
         "continent": ["asia", "europe"]
     },
     "suleimanI": {
