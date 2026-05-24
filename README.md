@@ -21,3 +21,4 @@ To submit feedback, or ask for permission to contribute, please use the informat
 - Add picture for WHAP people
 - Zoom in to pinpoint map
 - Collapse long text sections
+- Convert vocab.json files to xlsx files
