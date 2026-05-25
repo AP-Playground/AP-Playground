@@ -18,12 +18,12 @@ function checkLoadGame() {
     if (ready) {
         gameBlock.inert = false;
         gameBlock.classList.add("active");
-        loadGameTransition();
-        if (initialPageLoad) {
-            gameOverlay.style.transition = "none";
-            gameBlock.scrollIntoView({behavior: "smooth", block: "center", container: "nearest"})
-            gameOverlay.style.transition = "";
+        if (initialPageLoad || firstGameLoad) {
+            setTimeout(() => {
+                gameBlock.scrollIntoView({behavior: "smooth", block: "center", container: "nearest"})
+            }, 0);
         }
+        loadGameTransition();
     } else {
         gameBlock.inert = true;
         gameBlock.classList.remove("active")

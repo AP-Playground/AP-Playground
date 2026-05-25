@@ -15,8 +15,6 @@ To submit feedback, or ask for permission to contribute, please use the informat
   - Configure chronology game in vocabData files
 - Create guesswho game
 - Comment longer files
-- Scroll to game on first game load?
-  - Scroll to game doesn't work because scroll happens before image loads (default height of game box too short initially)
 - Improve init loading of courses
 - Add picture for WHAP people
 - Zoom in to pinpoint map
