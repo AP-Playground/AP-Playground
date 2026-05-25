@@ -9,8 +9,8 @@
         {
             "key": "category",
             "displayKey": "Categories",
-            "values": ["people", "events", "religion-culture", "idea-innovation","society-structure"],
-            "displayValues": ["People", "Events", "Religion & Culture", "Ideas & Innovations", "Societies & Structures"],
+            "values": ["people", "legislation-legal", "religion-culture", "events", "government"],
+            "displayValues": ["People", "Legislation & Legal", "Religion & Culture", "Events", "Government Structure"],
             "all": true,
             "multiselect": true
         }

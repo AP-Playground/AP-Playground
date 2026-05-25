@@ -5,7 +5,8 @@
     "dev": "concurrently \"nodemon --verbose\" \"live-server public --open\""
   },
   "dependencies": {
-    "cheerio": "^1.1.1"
+    "cheerio": "^1.1.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "concurrently": "^9.2.0",
