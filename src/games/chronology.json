@@ -3,18 +3,24 @@
   "image": "/images/games/chronology/icon.png",
   "instructions": "Select a course and game settings",
   "courses": [
-    "ap-art-history",
-    "ap-world-history"
+    "ap-art-history"
   ],
   "options": [
   ],
   "settings": [
     {
-        "key": "size",
-        "displayKey": "Game length",
-        "values": ["10", "20", "30", "input", "all"],
-        "displayValues": ["10 terms", "20 terms", "30 terms", "Terms:", "All terms"],
+        "key": "timer",
+        "displayKey": "Question timer",
+        "values": ["5", "10", "15", "input", "none"],
+        "displayValues": ["5 seconds", "10 seconds", "15 seconds", "Seconds:", "No timer"],
         "multiselect": false
+    },
+    {
+      "key": "hints",
+      "displayKey": "Hints",
+      "values": ["none", "1", "all"],
+      "displayValues": ["No hints", "1 hint (if available)", "All available hints"],
+      "multiselect": false
     }
   ]
 }

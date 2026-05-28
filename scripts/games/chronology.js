@@ -27,6 +27,23 @@ export function upload() {
         
         let temp = `<div class="game-bound">`
             temp += `<div class="game">`
+              temp += `<div class="game-play-area init">`
+                temp += `<div class="term-container">`
+                temp += `</div>`
+              temp += "</div>"
+              temp += `<div class="game-identifiers init">`
+                temp += `<h2 class="text-identifier"></h2>`
+                temp += `<div class="image-identifier-container" style="display: none"><img class="image-identifier-loading" src="/icons/loading-circle.gif"><img class="image-identifier" draggable="false"><img class="image-identifier-magnify" tabindex="0" src="/icons/magnify.svg"></div>`
+                temp += `<div class="hint-container"></div>`
+              temp += "</div>"
+              temp += `<div class="game-win-modal hidden">`
+                temp += `<h1>Game Over!</h1>`
+                temp += `<p class="game-score"></p>`
+                temp += `<div class="game-win-modal-controls">`
+                  temp += `<button class="game-replay">Replay</button>`
+                  temp += `<button class="game-review">Review</button>`
+                temp += `</div>`
+              temp += `</div>`
             temp += `</div>`
         temp += `</div>`
         temp += `<div class="module-controls">`

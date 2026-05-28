@@ -49,6 +49,14 @@
             "location": "location",
             "location-coordinate": "location-coordinate",
             "map": "world"
+        },
+        "chronology": {
+            "term": "title",
+            "image": "image",
+            "hints": ["Artist: ${artist}", "Medium: ${medium}", "Style: ${style}", "Location: ${location}"],
+            "date": "date",
+            "date-num": "date-num",
+            "date-type": "range"
         }
     },
     "flashcards": {

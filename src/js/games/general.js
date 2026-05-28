@@ -192,7 +192,8 @@ function randomize(list) {
 
 function selectTerms(terms, termCount, weights) {
   terms = [...terms]
-  if (!weights || weights.length === 0 || termCount === "all") return randomize(terms).slice(0,settings.size[0]);
+  if (termCount === "all" || termCount >= terms.length) return randomize(terms);
+  if (!weights || weights.length === 0) return randomize(terms).slice(0,termCount);
 
   weights = terms.map((term, i) => (
     weights.reduce((acc, [filterKey, filterValues, filterWeights]) => {
