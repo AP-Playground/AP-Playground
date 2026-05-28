@@ -44,6 +44,7 @@
   overflow: hidden auto;
   scrollbar-width: thin;
   display: grid;
+  align-items: center;
 }
 
 .game-identifiers {
