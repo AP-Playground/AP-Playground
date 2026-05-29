@@ -8,7 +8,7 @@ function checkLoadGame() {
     if (ready) {
         gameBlock.inert = false;
         gameBlock.classList.add("active");
-        if (initialPageLoad) {
+        if (initialPageLoad || firstGameLoad) {
             setTimeout(() => {
                 gameBlock.scrollIntoView({behavior: "smooth", block: "center", container: "nearest"})
             }, 0);
