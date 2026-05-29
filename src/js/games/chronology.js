@@ -87,8 +87,10 @@ function loadGame() {
 
 function loadIdentifiers() {
     const gameData = vocabData.games[gameSlug];
-    const text = getProperty(vocab[availableTerms[currentIdx]], gameData.term);
-    const image = getProperty(vocab[availableTerms[currentIdx]], gameData.image);
+    const term = vocab[availableTerms[currentIdx]];
+    const text = getProperty(term, gameData.term);
+    const image = getProperty(term, gameData.image);
+    const hints = gameData.hints;
 
     if (text) {
         textIdentifier.textContent = pickString(text, false);
@@ -101,6 +103,39 @@ function loadIdentifiers() {
         imageIdentifierLoading.style.opacity = "";
         if (currentIdx + 1 < availableTerms.length) preloadImage(pickString(getProperty(vocab[availableTerms[currentIdx+1]], gameData.image)), false);
     } else imageIdentifierContainer.style.display = "none";
+
+    switch(settings.hints[0]) {
+        case "none": {
+            hintContainer.innerHTML = "";
+            break;
+        }
+        case "one": {
+            const output = [];
+            for (const hint of hints) {
+                let success = true;
+                let temp = hint.replace(/\$\{([^}]+)\}/g, (match, key) => {
+                    return key in term && term[key] ? pickString(term[key], false) : success = false;
+                });
+                if (!success) continue;
+                output.push(temp)
+            }
+            hintContainer.innerHTML = "<p>" + pickString(output) + "</p>";
+            break;
+        }
+        case "all": {
+            const output = [];
+            for (const hint of hints) {
+                let success = true;
+                let temp = hint.replace(/\$\{([^}]+)\}/g, (match, key) => {
+                    return key in term && term[key] ? pickString(term[key], false) : success = false;
+                });
+                if (!success) continue;
+                output.push(temp)
+            }
+            hintContainer.innerHTML = output.map(hint => `<p>${hint}</p>`).join("");
+            break
+        }
+    }
 }
 
 imageIdentifier.addEventListener("load", () => {
@@ -145,6 +180,31 @@ function tryInsertTerm(termIdx) {
         gameOver();
     }
 }
+
+const winModalScore = winModal.querySelector(".game-score");
+const gameReplay = winModal.querySelector(".game-replay");
+const gameReview = winModal.querySelector(".game-review");
+function gameOver() {
+    winModalScore.textContent = `Correct terms: ${currentIdx}`
+    winModal.classList.remove("hidden");
+    playArea.classList.add("init");
+    identifierArea.classList.add("init");
+}
+
+gameReview.addEventListener("click", () => {
+    winModal.classList.add("hidden");
+    playArea.classList.remove("init");
+    identifierArea.classList.remove("init");
+    playArea.querySelectorAll(".term button").forEach(btn => btn.remove());
+
+    const gameData = vocabData.games[gameSlug];
+    const term = vocab[availableTerms[currentIdx]];
+    const text = getProperty(term, gameData.term);
+    const date = getProperty(term, gameData.date);
+    textIdentifier.innerHTML = pickString(text, false) + `<br><span>${pickString(date, false)}</span>`;
+});
+
+gameReplay.addEventListener("click", checkLoadGame);
 
 // negative if term1 is earlier, positive if term2 is earlier, 0 if they are the same or overlapping
 function compareDates(term1, term2) {

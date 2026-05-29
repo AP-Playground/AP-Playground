@@ -18,7 +18,7 @@
     {
       "key": "hints",
       "displayKey": "Hints",
-      "values": ["none", "1", "all"],
+      "values": ["none", "one", "all"],
       "displayValues": ["No hints", "1 hint (if available)", "All available hints"],
       "multiselect": false
     }
