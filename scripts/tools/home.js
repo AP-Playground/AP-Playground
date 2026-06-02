@@ -5,7 +5,7 @@ import * as global from '../global.js'
 import * as ytPlayer from './yt-player.js'
 
 
-ytPlayer.upload()
+// ytPlayer.upload()
 
 
 export function upload() {
@@ -32,6 +32,9 @@ export function upload() {
         content += `<img src="${toolData.image}" class="background-image">`
         return templates.block(header, content)
       })
+      if (temp.length === 0) {
+        temp.push(templates.block(`<p>${toolsData["none"]}</p>`, "", false))
+      }
       temp.push(templates.block(`<p>${toolsData["no-match"]}</p>`, "", false, ["hidden"]))
       page += templates.doubleBlock(temp.join(""), ["list-container"])
 

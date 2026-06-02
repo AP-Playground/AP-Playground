@@ -67,7 +67,7 @@ export function ced(course) {
 
 // set up global tools data
 export const tools = [
-  { title: "Youtube Player", slug: "yt-player" }
+  // { title: "Youtube Player", slug: "yt-player" }
 ]
 
 const toolTitles = {}

@@ -4,5 +4,6 @@
     "title": "Tools:",
     "content": "In talking with students and teachers, certain issues consistently pop-up. Our tools are the way we try to fulfill those requests. If you have an idea for a tool we don't currently have, feel free to request it link at the bottom of the page."
   },
-  "no-match": "No offered offered tools match your search terms"
+  "no-match": "No offered offered tools match your search terms",
+  "none": "No tools are available at this time, but check again soon!"
 }
