@@ -2,26 +2,19 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/generate.js",
-    "dev": "concurrently \"nodemon --verbose\" \"live-server public --open\""
+    "dev": "nodemon --verbose"
   },
   "dependencies": {
     "cheerio": "^1.1.1",
-    "xlsx": "^0.18.5"
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
   },
   "devDependencies": {
-    "concurrently": "^9.2.0",
-    "live-server": "^1.2.0",
     "nodemon": "^3.1.10"
   },
   "nodemonConfig": {
     "watch": [
       "scripts",
       "src"
-    ],
-    "ext": "js,json,css,html",
-    "ignore": [
-      "public/**/*",
-      "node_modules/**/*"
     ],
     "exec": "npm run build"
   }

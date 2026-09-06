@@ -8,8 +8,8 @@ yarn-error.log*
 public/
 dist/
 
-# VS Code settings
-.vscode/
+## VS Code settings
+# .vscode/
 
 # OS files
 .DS_Store
